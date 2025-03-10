@@ -26,63 +26,14 @@ jobs:
 
   # Deploy Test
   deploy-test:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     if: github.ref == 'refs/heads/main'
     needs: test
+    environment: test
     concurrency: deploy-test
     steps:
       - name: Checkout source code
         uses: actions/checkout@v2
-      - name: Create .env file
-        uses: noi-techpark/github-actions/env-file@v2
-        env:
-          X_COMPOSE_PROJECT_NAME: ${{ env.PROJECT_NAME }}
-          X_DOCKER_IMAGE: ${{ env.DOCKER_IMAGE }}
-          X_DOCKER_TAG: ${{ env.DOCKER_TAG }}
-          X_SERVER_PORT: 1004
-
-          # Ninja
-          X_NINJA_HOST_URL: "https://mobility.api.opendatahub.testingmachine.eu"
-          X_NINJA_BASE_URL: "https://mobility.api.opendatahub.testingmachine.eu/v2"
-          X_NINJA_QUERY_TIMEOUT_SEC: 60
-          X_NINJA_HIKARI_LEAK_DETECTION_MS: 65000  # should be greater than (NINJA_QUERY_TIMEOUT_SEC * 1000)
-          X_NINJA_RESPONSE_MAX_SIZE_MB: 100
-          X_JAVA_OPTIONS: "-Xms512m -Xmx8192m"
-
-          # Database Configuration
-          X_JDBC_URL: "jdbc:postgresql://pg-timeseries.czracduepxal.eu-west-1.rds.amazonaws.com:5432/bdp?currentSchema=intimev2,public"
-          X_DB_USERNAME: "bdp_readonly"
-          X_DB_PASSWORD: ${{ secrets.TEST_DB_PASSWORD }}
-
-          # Security
-          X_SECURITY_ALLOWED_ORIGINS: "*"
-          X_KEYCLOAK_URL: "https://auth.opendatahub.testingmachine.eu/auth"
-          X_KEYCLOAK_SSL_REQUIRED: "none"
-          X_KEYCLOAK_REALM: "noi"
-          X_KEYCLOAK_CLIENT_ID: "odh-mobility-v2"
-          X_KEYCLOAK_CLIENT_SECRET: ${{ secrets.TEST_KEYCLOAK_CLIENT_SECRET }}
-
-          # Logging
-          X_LOG_APPLICATION_NAME: ${{ env.PROJECT_NAME }}
-          X_LOG_APPLICATION_VERSION: ${{ github.sha }}
-          X_LOG_LEVEL: "info"
-          X_LOG_STYLE: "json"
-          X_ROOT_LOG_LEVEL: "info"
-
-          # Quota: Requests per second
-          X_NINJA_QUOTA_GUEST: 10
-          X_NINJA_QUOTA_REFERER: 20
-          X_NINJA_QUOTA_BASIC: 50
-          X_NINJA_QUOTA_ADVANCED: 100
-          X_NINJA_QUOTA_PREMIUM: 200
-
-          # Quota: History range
-          X_NINJA_QUOTA_HISTORY_GUEST: 5
-          X_NINJA_QUOTA_HISTORY_REFERER: 100
-          X_NINJA_QUOTA_HISTORY_BASIC: 1000
-          X_NINJA_QUOTA_HISTORY_ADVANCED: 0
-          X_NINJA_QUOTA_HISTORY_PREMIUM: 0
-          X_NINJA_QUOTA_HISTORY_URL: https://github.com/noi-techpark/odh-docs/wiki/Api-Quota
 
       - name: Build project
         uses: noi-techpark/github-actions/maven-build@v2
@@ -106,15 +57,28 @@ jobs:
           tags: |
             unstable
             
-      - name: Deploy application
-        uses: noi-techpark/github-actions/docker-deploy@v2
-        with:
-          hosts: 'test'
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-          docker-username: 'noi-techpark-bot'
-          docker-password: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
-          project-name: ${{ env.PROJECT_NAME }}
+      - name: Customize values.yaml
+        run: |
+          yq -i '
+            .image.repository="${{ env.DOCKER_IMAGE }}" |
+            .image.tag="${{ env.DOCKER_TAG }}" |
+            .image.pullPolicy="IfNotPresent" |
 
+            .env.LOG_APPLICATION_VERSION="${{ env.DOCKER_TAG }}" |
+            .oauth.clientSecret="${{ secrets.TEST_KEYCLOAK_CLIENT_SECRET }}"
+          ' infrastructure/helm/test.yaml
+      
+      - name: Deploy on cluster  
+        uses: noi-techpark/github-actions/helm-deploy@v2
+        with:
+          k8s-name: ninja-api
+          k8s-namespace: core
+          chart-path: infrastructure/helm/ninja-api
+          values-file: infrastructure/helm/test.yaml
+          aws-access-key-id: ${{ secrets[vars.AWS_KEY_ID] }}
+          aws-secret-access-key: ${{ secrets[vars.AWS_KEY_SECRET] }}
+          aws-eks-cluster-name: aws-main-eu-01
+          aws-region: eu-west-1
 
   # Deploy Production
   deploy-prod:

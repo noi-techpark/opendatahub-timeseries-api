@@ -1,0 +1,51 @@
+ingress:
+  enabled: true
+  className: nginx
+  hosts:
+    - host: mobility.api.opendatahub.testingmachine.eu
+      paths:
+        - path: "/"
+          pathType: Prefix
+
+env: 
+  # Ninja
+  NINJA_HOST_URL: "https://mobility.api.opendatahub.testingmachine.eu"
+  NINJA_BASE_URL: "https://mobility.api.opendatahub.testingmachine.eu/v2"
+  NINJA_QUERY_TIMEOUT_SEC: 60
+  NINJA_HIKARI_LEAK_DETECTION_MS: 65000  # should be greater than (NINJA_QUERY_TIMEOUT_SEC * 1000)
+  NINJA_RESPONSE_MAX_SIZE_MB: 100
+
+  # Security
+  SECURITY_ALLOWED_ORIGINS: "*"
+
+  # Logging
+  LOG_APPLICATION_NAME: odh-mobility-api
+  LOG_APPLICATION_VERSION: <github sha>
+  LOG_LEVEL: "info"
+  LOG_STYLE: "json"
+  ROOT_LOG_LEVEL: "info"
+
+  # Quota: Requests per second
+  NINJA_QUOTA_GUEST: 10
+  NINJA_QUOTA_REFERER: 20
+  NINJA_QUOTA_BASIC: 50
+  NINJA_QUOTA_ADVANCED: 100
+  NINJA_QUOTA_PREMIUM: 200
+
+  # Quota: History range
+  NINJA_QUOTA_HISTORY_GUEST: 5
+  NINJA_QUOTA_HISTORY_REFERER: 100
+  NINJA_QUOTA_HISTORY_BASIC: 1000
+  NINJA_QUOTA_HISTORY_ADVANCED: 0
+  NINJA_QUOTA_HISTORY_PREMIUM: 0
+  NINJA_QUOTA_HISTORY_URL: https://github.com/noi-techpark/odh-docs/wiki/Api-Quota
+
+database:
+  servicebindName: "postgres-read-svcbind"
+
+oauth:
+  url: "https://auth.opendatahub.testingmachine.eu/auth"
+  realm: "noi"
+  clientId: "odh-mobility-v2"
+  clientSecret:
+  sslRequired: "none"

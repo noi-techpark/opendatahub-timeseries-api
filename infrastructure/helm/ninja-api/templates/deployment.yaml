@@ -1,0 +1,129 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "ninja-api.fullname" . }}
+  labels:
+    {{- include "ninja-api.labels" . | nindent 4 }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      {{- include "ninja-api.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      {{- with .Values.podAnnotations }}
+      annotations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      labels:
+        {{- include "ninja-api.selectorLabels" . | nindent 8 }}
+    spec:
+      {{- with .Values.imagePullSecrets }}
+      imagePullSecrets:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      securityContext:
+        {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      containers:
+        - name: {{ .Chart.Name }}
+          securityContext:
+            {{- toYaml .Values.securityContext | nindent 12 }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          env:
+            - name: "SERVER_PORT"
+              value: "{{ .Values.service.port }}"
+          {{- range $k, $v := .Values.env }}
+            - name: {{ $k }}
+              value: {{ $v | quote }}
+          {{- end }}
+          {{- if .Values.database.servicebindName }}
+            - name: "DB_HOST"
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Values.database.servicebindName | quote }}
+                  key: "host"
+            - name: "DB_PORT"
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Values.database.servicebindName | quote }}
+                  key: "port"
+            - name: "DB_DATABASE"
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Values.database.servicebindName | quote }}
+                  key: "db"
+            - name: "DB_SCHEMAS"
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Values.database.servicebindName | quote }}
+                  key: "schema"
+            # Why not use the servicebind.uri you ask? Because jdbc connection string don't support the way credentials are passed in the standard URI format
+            - name: "JDBC_URL"
+              value: "jdbc:postgresql://${DB_HOST}:${DB_PORT}/${DB_DATABASE}?currentSchema=${DB_SCHEMAS}"
+            - name: "DB_USERNAME"
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Values.database.servicebindName | quote }}
+                  key: "username"
+            - name: "DB_PASSWORD"
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Values.database.servicebindName | quote }}
+                  key: "password"
+          {{- end }}
+          {{- if .Values.oauth }}
+            - name: "KEYCLOAK_URL"
+              valueFrom:
+                secretKeyRef:
+                  name: {{ include "ninja-api.oauthSecretName" . }} 
+                  key: "url"
+            - name: "KEYCLOAK_REALM"
+              valueFrom:
+                secretKeyRef:
+                  name: {{ include "ninja-api.oauthSecretName" . }} 
+                  key: "realm"
+            - name: "KEYCLOAK_SSL_REQUIRED"
+              valueFrom:
+                secretKeyRef:
+                  name: {{ include "ninja-api.oauthSecretName" . }} 
+                  key: "sslRequired"
+            - name: "KEYCLOAK_CLIENT_ID"
+              valueFrom:
+                secretKeyRef:
+                  name: {{ include "ninja-api.oauthSecretName" . }} 
+                  key: "clientId"
+            - name: "KEYCLOAK_CLIENT_SECRET"
+              valueFrom:
+                secretKeyRef:
+                  name: {{ include "ninja-api.oauthSecretName" . }} 
+                  key: "clientSecret"
+          {{- end }}
+          ports:
+            - name: http
+              containerPort: {{ .Values.service.port }}
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /actuator/health
+              port: http
+            initialDelaySeconds: {{ .Values.health.delay }}
+          readinessProbe:
+            httpGet:
+              path: /actuator/health
+              port: http
+            initialDelaySeconds: {{ .Values.health.delay }}
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
+      {{- with .Values.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
