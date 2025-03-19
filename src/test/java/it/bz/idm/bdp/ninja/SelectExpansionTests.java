@@ -205,12 +205,16 @@ public class SelectExpansionTests {
 	public void testOpenDataHubMultipleTargetDefPointers() {
 		seOpenDataHub.expand("tmeasurements", "datatype", "measurement", "measurementdouble", "measurementstring");
 		List<String> res = seOpenDataHub.getUsedTargetNames();
-		assertEquals(5, res.size());
-		assertEquals("mperiod", res.get(0));
-		assertEquals("mtransactiontime", res.get(1));
-		assertEquals("mvalidtime", res.get(2));
-		assertEquals("mvalue", res.get(3));
-		assertEquals("tmeasurements", res.get(4));
+		assertEquals(8, res.size());
+		int cnt = 0;
+		assertEquals("mlicense", res.get(cnt++));
+		assertEquals("mowner", res.get(cnt++));
+		assertEquals("mperiod", res.get(cnt++));
+		assertEquals("msource", res.get(cnt++));
+		assertEquals("mtransactiontime", res.get(cnt++));
+		assertEquals("mvalidtime", res.get(cnt++));
+		assertEquals("mvalue", res.get(cnt++));
+		assertEquals("tmeasurements", res.get(cnt++));
 	}
 
 	@Test
