@@ -106,7 +106,7 @@ jobs:
           X_JAVA_OPTIONS: "-Xms512m -Xmx8192m"
 
           # Database Configuration
-          X_JDBC_URL: "jdbc:postgresql://prod-pg-bdp.co90ybcr8iim.eu-west-1.rds.amazonaws.com:5432/bdp?currentSchema=intimev2,public"
+          X_JDBC_URL: "jdbc:postgresql://pg-timeseries.c7g4gkk0sl4i.eu-west-1.rds.amazonaws.com:5432/bdp?currentSchema=intimev2,public"
           X_DB_USERNAME: "bdp_readonly"
           X_DB_PASSWORD: ${{ secrets.PROD_DB_PASSWORD }}
 
