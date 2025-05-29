@@ -97,8 +97,8 @@ public class SelectExpansion {
 		WHERE_SYNTAX_ERROR("Syntax Error in WHERE clause: %s"),
 		DIRTY_STATE("We are in a dirty state. Run expand() to clean up"),
 		EXPAND_INVALID_DATA("Provide valid alias and definition sets!"),
-		ALIAS_INVALID("The given alias '%s' is not valid. Only the following characters are allowed: 'a-z', 'A-Z', '0-9', '_', '-' and '.'"),
-		SELECT_FUNC_NOJSON("It is currently not possible to use GROUPING with JSON fields. Remove any JSON selectors from your SELECT, if you want to use functions.");
+		ALIAS_INVALID("The given alias '%s' is not valid. Only the following characters are allowed: 'a-z', 'A-Z', '0-9', '_', '-' and '.'")
+		;
 
 		private final String msg;
 
@@ -126,7 +126,6 @@ public class SelectExpansion {
 	private String whereSQL = null;
 	private String whereClause = null;
 	private boolean dirty = true;	// TODO Move dirty flags to Schema, or do we need it also here?
-	private boolean hasFunctions = false;
 	private boolean isDistinct = false;
 
 	public void addOperator(String tokenType, String operator, String sqlSnippet) {
@@ -174,10 +173,6 @@ public class SelectExpansion {
 		List<WhereClauseTarget> tokens = usedJSONAliasesInWhere.getOrDefault(alias, new ArrayList<>());
 		tokens.add(new WhereClauseTarget(alias, whereClauseOperator, jsonSel, clauseValueTokens));
 		usedJSONAliasesInWhere.put(alias, tokens);
-	}
-
-	public boolean hasFunctions() {
-		return hasFunctions;
 	}
 
 	private void _expandWhere(String where, Set<String> allowedTargetDefs) {
@@ -443,7 +438,6 @@ public class SelectExpansion {
 		}
 
 		if (dirty) {
-			hasFunctions = false;
 			dirty = false;
 		}
 
@@ -524,23 +518,22 @@ public class SelectExpansion {
 
 			/* Three types for column-targets exist:
 			* (1) Target with a JSON selector (ex., address.city)
-			* (2) Function (ex., min(value) or min(values.x.double))
-			* (3) Regular column (ex., name)
+			* (2) Regular column (ex., name)
 			*/
 
 			/* (1) Target with a JSON selector */
 			if (target.hasJson()) {
-				if (target.hasFunction()) {
-					sj.add(String.format("%s(%s(%s#>'{%s}')::double precision) as \"%s(%s.%s)\"", target.getFunc(), distinct, targetDef.getColumn(), target.getJson().replace(".", ","), target.getFunc(), targetDef.getFinalName(), target.getJson()));
-					hasFunctions = true;
+				if (target.getTargetDefListName() == "measurementdouble" || target.getTargetDefListName() == "measurementstring") {
+					// 26/02/2025 mroggia:
+					// json selects on mvalue needs to be performed only on measurementjson table, otherwise we will get invalid operation #> on double precision.
+					// This solution is hacky but is the only way to allow json selects on json measurements.
+					sj.add(String.format("null::jsonb as \"%s.%s\"", targetDef.getFinalName(), target.getJson()));
+					hasJSONSelectors = true;
 				} else {
 					sj.add(String.format("%s#>'{%s}' as \"%s.%s\"", targetDef.getColumn(), target.getJson().replace(".", ","), targetDef.getFinalName(), target.getJson()));
 					hasJSONSelectors = true;
 				}
-			} else if (target.hasFunction()) { /* (2) Function */
-				hasFunctions = true;
-				sj.add(String.format("%s(%s%s) as \"%s(%s)\"", target.getFunc(), distinct, targetDef.getColumnFormatted(), target.getFunc(), targetDef.getFinalName()));
-			} else { /* (3) Regular column */
+			} else { /* (2) Regular column */
 				sj.add(String.format("%s as %s", targetDef.getColumnFormatted(), targetDef.getFinalName()));
 				if (! groupByCandidates.contains(targetDef.getName())) {
 					groupByCandidates.add(targetDef.getName());
@@ -551,16 +544,15 @@ public class SelectExpansion {
 			if (! sqlSelect.isEmpty()) {
 				sqlSelect += ", ";
 			}
-
-			expandedSelects.put(defName, sqlSelect + String.format(targetDef.getSelectFormat(), sj));
-
-		}
-
-		/*
-		 * Currently it is not possible to use functions together with JSON selectors.
-		 */
-		if (hasFunctions && hasJSONSelectors) {
-			throw new SimpleException(ErrorCode.SELECT_FUNC_NOJSON);
+			
+			// 26/02/2025 mroggia:
+			// when selecting a json, do not triplicate the select with _string, _json and _double postfix.
+			// we already have the "as" alias which allows union all to merge results
+			if (!target.hasJson()) {
+				expandedSelects.put(defName, sqlSelect + String.format(targetDef.getSelectFormat(), sj));
+			} else {
+				expandedSelects.put(defName, sqlSelect + sj);
+			}
 		}
 
 		usedTargetDefNames.clear();

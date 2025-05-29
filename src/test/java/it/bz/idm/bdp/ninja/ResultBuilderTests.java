@@ -250,25 +250,6 @@ public class ResultBuilderTests {
 	}
 
 	@Test
-	public void testNewGenericResultBuilderFunctions() {
-		Map<String, Object> rec1 = ConditionalMap.mapOf(
-				"_stationtype", "EChargingStation",
-				"_stationcode", "StationMerano1",
-				"_datatypename", "count",
-				"count(mvalue)", 42).get();
-
-		List<Map<String, Object>> resultList = new ArrayList<>();
-		resultList.add(rec1);
-
-		String result = ResultBuilder.build(rbConfig.setEntryPoint("stationtype").addExitPoint("metadatahistory", false), resultList)
-				.toString();
-
-		assertEquals(
-				"{EChargingStation={stations={StationMerano1={sdatatypes={count={tmeasurements=[{count(mvalue)=42}]}}}}}}",
-				result);
-	}
-
-	@Test
 	public void testNewGenericResultBuilderEvents() {
 
 		Map<String, Object> rec1 = ConditionalMap.mapOf(

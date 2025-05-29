@@ -25,7 +25,7 @@ public class WhereClauseTarget extends Target {
 		Token jsonSel,
 		List<Token> clauseValueTokens)
 	{
-		super(alias, jsonSel == null ? null : jsonSel.getValue(), null);
+		super(alias, jsonSel == null ? null : jsonSel.getValue());
 		op = whereClauseOperator;
 		if (clauseValueTokens == null) {
 			values = new ArrayList<>();

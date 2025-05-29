@@ -305,53 +305,6 @@ public class SelectExpansionTests {
 	}
 
 	@Test
-	public void testExpansionWithFunctionsAndTargets() throws Exception {
-		seNested.expand("a, min(a), max(a)", "A");
-
-		assertEquals("a", seNested.getUsedTargetNames().get(0));
-		assertEquals("A", seNested.getUsedDefNames().get(0));
-
-		List<String> expA = Arrays.asList(seNested.getExpansion().get("A").split(", "));
-		assertTrue(expA.contains("max(A.a) as \"max(a)\""));
-		assertTrue(expA.contains("min(A.a) as \"min(a)\""));
-		assertTrue(expA.contains("A.a as a"));
-		assertEquals(1, seNested.getUsedTargetNames().size());
-		assertEquals(1, seNested.getUsedDefNames().size());
-		assertEquals(1, seNested.getExpansion().size());
-		assertEquals("a", seNested.getGroupByTargetNames().get(0));
-	}
-
-	@Test
-	public void testExpansionWithFunctionsOnly() throws Exception {
-		seNested.expand("min(a), max(a)", "A");
-		assertEquals("a", seNested.getUsedTargetNames().get(0));
-		assertEquals("A", seNested.getUsedDefNames().get(0));
-
-		List<String> expA = Arrays.asList(seNested.getExpansion().get("A").split(", "));
-		assertTrue(expA.contains("max(A.a) as \"max(a)\""));
-		assertTrue(expA.contains("min(A.a) as \"min(a)\""));
-
-		assertEquals(1, seNested.getUsedTargetNames().size());
-		assertEquals(1, seNested.getUsedDefNames().size());
-		assertEquals(1, seNested.getExpansion().size());
-	}
-
-	@Test
-	public void testExpansionWithFunctionsAndJSON() throws Exception {
-		seNested.expand("min(a.b.c), max(a.b.d)", "A");
-		assertEquals("a", seNested.getUsedTargetNames().get(0));
-		assertEquals("A", seNested.getUsedDefNames().get(0));
-
-		List<String> expA = Arrays.asList(seNested.getExpansion().get("A").split(", "));
-		assertTrue(expA.contains("max((A.a#>'{b,d}')::double precision) as \"max(a.b.d)\""));
-		assertTrue(expA.contains("min((A.a#>'{b,c}')::double precision) as \"min(a.b.c)\""));
-
-		assertEquals(1, seNested.getUsedTargetNames().size());
-		assertEquals(1, seNested.getUsedDefNames().size());
-		assertEquals(1, seNested.getExpansion().size());
-	}
-
-	@Test
 	public void testWhereClauseExpansion() {
 		seMinimal.setWhereClause("a.bbi.(1,2,3,4,5,6)");
 		try {

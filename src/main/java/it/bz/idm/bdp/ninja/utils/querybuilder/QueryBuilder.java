@@ -258,28 +258,10 @@ public class QueryBuilder {
 		if (this.groupByExpanded) {
 			return this;
 		}
-		if (! se.hasFunctions()) {
-			return this;
-		}
+		// mroggia: 27/2/2025
+		// This function was used to perform group by to accomodate "select func" feature.
+		// Since the feature is completely removed, this functio is a NOP.
 
-		// The regular groups must always be expanded, just the optional ones for tree-building will
-		// not be added if "condition" does not hold, so we need to set a flag if an expansion has
-		// already taken place...
-		StringJoiner sj = new StringJoiner(", ");
-		List<String> groupByTargetNames = se.getGroupByTargetNames();
-		if (! groupByTargetNames.isEmpty()) {
-			for (String targetName : groupByTargetNames) {
-				TargetDef targetDef = se.getSchema().getTargetDefs(targetName).get(0);
-				sj.add(targetDef.getColumn());
-			}
-		}
-		if (optionalGroupings != null && condition) {
-			sj.add(optionalGroupings);
-		}
-		if (sj.length() > 0) {
-			addSql("group by " + sj);
-		}
-		this.groupByExpanded = true;
 		return this;
 	}
 

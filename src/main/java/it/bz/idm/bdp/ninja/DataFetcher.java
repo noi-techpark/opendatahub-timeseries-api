@@ -41,8 +41,6 @@ public class DataFetcher {
 	private static final int MEASUREMENT_TYPE_ALL = (1 << 3) - 1;
 
 	public enum ErrorCode implements ErrorCodeInterface {
-		FUNCTIONS_AND_JSON_MIX_NOT_ALLOWED(
-				"You have used both functions and json selectors in SELECT and/or WHERE. That is not supported yet!"),
 		WRONG_TIMEZONE("'%s' is not a valid time zone understandable by java.time.ZoneId."),
 		WHERE_WRONG_DATA_TYPE("'%s' can only be used with NULL, NUMBERS or STRINGS: '%s' given."),
 		METHOD_NOT_ALLOWED("Method '%s' not allowed with %s representation.");
@@ -781,28 +779,17 @@ public class DataFetcher {
 			throw new SimpleException(ErrorCode.WHERE_WRONG_DATA_TYPE, "mvalue", mvalue.getName());
 		}
 
-		/*
-		 * We support functions only for double-typed measurements, so do not append a
-		 * measurement-string query if any
-		 */
-		boolean hasFunctions = query.getSelectExpansion().hasFunctions();
 		boolean useMeasurementDouble = (Token.is(mvalue, "number")
 				|| Token.is(mvalue, "null"))
 				&& !mvalueTarget.hasJson();
 		boolean useMeasurementString = (Token.is(mvalue, "string")
 				|| Token.is(mvalue, "null"))
-				&& !hasFunctions
 				&& !mvalueTarget.hasJson();
 		boolean useMeasurementJson = (Token.is(mvalue, "string")
 				|| Token.is(mvalue, "number")
 				|| Token.is(mvalue, "null"))
-				&& !hasFunctions
 				&& mvalueTarget.hasJson(); // We can check this here, because we are sure to use "mvalue" in the
 											// where-clause at this point
-
-		if (!useMeasurementDouble && !useMeasurementString && !useMeasurementJson) {
-			throw new SimpleException(ErrorCode.FUNCTIONS_AND_JSON_MIX_NOT_ALLOWED);
-		}
 
 		int result = 0;
 		result |= useMeasurementDouble ? MEASUREMENT_TYPE_DOUBLE : 0;

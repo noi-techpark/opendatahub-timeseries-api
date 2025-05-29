@@ -164,18 +164,8 @@ public class ResultBuilder {
 							break;
 						case MERGE:
 							Object value = curObject.get(lookup.getParentTargetName());
-
-							// FIXME This is a hack, that searches for functions
-							if (value == null && curObject.size() == 1) {
-								Entry<String, Object> keyVal = curObject.entrySet().iterator().next();
-								Target target = new Target(keyVal.getKey());
-								if (target.hasFunction()) {
-									parent.put(keyVal.getKey(), keyVal.getValue());
-								}
-							} else {
-								if (value != null || config.showNull) {
-									parent.put(lookup.getParentTargetName(), value);
-								}
+							if (value != null || config.showNull) {
+								parent.put(lookup.getParentTargetName(), value);
 							}
 							break;
 						case MAP:
@@ -232,7 +222,7 @@ public class ResultBuilder {
 		int size = 0;
 
 		for (Target target : targetCatalog) {
-			Object cellData = record.get(target.getFullNameFunction());
+			Object cellData = record.get(target.getFullName());
 
 			if (!showNull && cellData == null)
 				continue;
@@ -248,8 +238,8 @@ public class ResultBuilder {
 					size += target.getName().length();
 				}
 			} else {
-				result.put(target.getFullNameFunction(), cellData);
-				size += target.getFullNameFunction().length();
+				result.put(target.getFullName(), cellData);
+				size += target.getFullName().length();
 			}
 			size += cellData == null ? 0 : cellData.toString().length();
 		}

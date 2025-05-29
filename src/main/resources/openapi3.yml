@@ -621,8 +621,7 @@ components:
       description: >
         Select <code>aliases</code>, which will be used to build the
         response. Multiple aliases possible as comma-separated-values. Example:
-        <code>sname</code> or <code>smetadata.city.cap</code> for JSON. Functions
-        can be set as <code>func(alias)</code> (Functions with JSON are not supported
+        <code>sname</code> or <code>smetadata.city.cap</code> <code>mvalue.nested_field</code> for JSON.
         yet)
       schema:
         type: string

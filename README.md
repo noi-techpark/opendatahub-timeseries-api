@@ -35,7 +35,6 @@ SPDX-License-Identifier: CC0-1.0
       - [I want to get historical occupancy values of all parking lots from a certain period](#i-want-to-get-historical-occupancy-values-of-all-parking-lots-from-a-certain-period)
     - [Pagination](#pagination)
     - [Filtering with SELECT and WHERE](#filtering-with-select-and-where)
-    - [Functions / Aggregation / Grouping](#functions--aggregation--grouping)
       - [I want to see only station names, data type names and the value of the measurement](#i-want-to-see-only-station-names-data-type-names-and-the-value-of-the-measurement)
       - [I want to see only parking stations within a bounding box of a map](#i-want-to-see-only-parking-stations-within-a-bounding-box-of-a-map)
       - [I want to see all information where the measured value is greater than 100 and the station origin is FAMAS](#i-want-to-see-all-information-where-the-measured-value-is-greater-than-100-and-the-station-origin-is-famas)
@@ -338,22 +337,6 @@ the ordering inside the list is left-x, left-y, right-x, right-y and SRID
 
 NB: Currently it is not possible to distinguish between a JSON field containing `null`
 or a non-existing JSON field.
-
-### Functions / Aggregation / Grouping
-
-You can use any SQL function within **select**, which takes only a single
-numeric value. All selected aliases, that are not within a function are used for
-grouping.
-
-Example: I want to have the `min`, `max`, `avg` and `count` of all data types of
-e-charging stations.
-
-```
-GET /flat/EChargingStation/*?select=tname,min(mvalue),max(mvalue),avg(mvalue),count(mvalue)
-```
-
-NB: Currently only numeric functions are possible, we will not select anything
-from our string measurements.
 
 #### I want to see only station names, data type names and the value of the measurement
 

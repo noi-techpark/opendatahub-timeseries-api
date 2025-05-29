@@ -13,13 +13,11 @@ public class Target implements Comparable<Target> {
 	private static final String TARGET_FQN_VALIDATION = "[0-9a-zA-Z\\._-]+";
 
 	private String name;
-	private String func;
 	private String json;
 	private TargetDef targetDef;
 	private String defListName;
 
 	public Target(final String plainText) {
-		func = null;
 		json = null;
 
 		if (plainText == null || plainText.trim().equals("*")) {
@@ -28,13 +26,6 @@ public class Target implements Comparable<Target> {
 		}
 
 		name = plainText.trim();
-
-		if (name.matches("[a-zA-Z_]+\\(" + TARGET_FQN_VALIDATION + "\\)")) {
-			int idx = name.indexOf('(');
-			func = name.substring(0, idx);
-			name = name.substring(idx + 1, name.length() - 1);
-		}
-
 		if (! name.matches(TARGET_FQN_VALIDATION)) {
 			throw new RuntimeException("The target '" + name + "' is invalid.");
 		}
@@ -46,27 +37,21 @@ public class Target implements Comparable<Target> {
 		}
 	}
 
-	public Target(String name, String json, String func) {
+	public Target(String name, String json) {
 		this.name = name;
 		this.json = json;
-		this.func = func;
 	}
 
 	@Override
 	public String toString() {
 		return "{Target: " +
 			"name='" + getName() + "'" +
-			", func='" + getFunc() + "'" +
 			", json='" + getJson() + "'" +
 			"}";
 	}
 
 	public String getJson() {
 		return json;
-	}
-
-	public String getFunc() {
-		return func;
 	}
 
 	public String getName() {
@@ -78,17 +63,6 @@ public class Target implements Comparable<Target> {
 			return name + "." + json;
 		}
 		return name;
-	}
-
-	public String getFullNameFunction() {
-		if (hasFunction()) {
-			return func + "(" + getFullName() + ")";
-		}
-		return getFullName();
-	}
-
-	public boolean hasFunction() {
-		return func != null;
 	}
 
 	public boolean hasJson() {
