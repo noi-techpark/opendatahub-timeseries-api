@@ -18,7 +18,6 @@
 		'BikeParking',
 		'BikeParkingBay',
 		'BikeParkingLocation',
-		'BluetoothStation',
 		'CarpoolingHub',
 		'CarpoolingService',
 		'CarpoolingUser',
@@ -53,6 +52,7 @@
 	or (s.stationtype = 'MeteoStation' and s.origin in ('meteotrentino', 'SIAG', 'EURAC'))
 	or (s.stationtype = 'ParkingStation' and s.origin in ('FAMAS', 'FBK', 'Municipality Merano', 'skidata', 'Municipality Bolzano', 'STA'))
 	or (s.stationtype = 'RWISstation' and s.origin = 'InfoMobility')
+	or (s.stationtype = 'BluetoothStation' and s.origin = 'bluetoothbox')
 
     -- special rules
 	or (s.origin = 'APPABZ' and me.period = 3600)
