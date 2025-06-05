@@ -974,4 +974,21 @@ components:
         srid:
           type: integer
           default: 4326
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      description: |-
+        This API uses OAuth2 with either 'Authorization Code'(for access through frontends) or 'Client Credentials'(for machine to machine) flows.
+
+        - for authorizationCode flow use `client_id = timeseries-api-swagger` if you are not sure and leave client_secret empty
+        
+        - for clientCredentials flow use the client_id and client_secret provided by the Open Data Hub team
+
+      flows:
+        authorizationCode:
+          authorizationUrl: __AUTH_SERVER_URL__/realms/noi/protocol/openid-connect/auth
+          tokenUrl: __AUTH_SERVER_URL__/realms/noi/protocol/openid-connect/token
+        clientCredentials:
+          tokenUrl: __AUTH_SERVER_URL__/realms/noi/protocol/openid-connect/token
+
 
