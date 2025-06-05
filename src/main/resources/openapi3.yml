@@ -36,6 +36,8 @@ paths:
       tags:
         - General
       summary: View a list of entry points to the Open Data Hub Mobility domain
+      security:
+        - OAuth2: []
       parameters:
         - $ref: "#/components/parameters/origin"
       responses:
@@ -63,6 +65,8 @@ paths:
         - Station / time series
         - Events
       summary: View a list of all station or edge types (categories)
+      security:
+        - OAuth2: []
       parameters:
         - $ref: "#/components/parameters/representation"
         - $ref: "#/components/parameters/origin"
@@ -94,6 +98,8 @@ paths:
         contains stations (prefix <code>s</code>) and their parent-stations
         (prefix <code>p</code>). Each JSON attribute is prefixed with the
         letters of that object.
+      security:
+        - OAuth2: []
       parameters:
         - $ref: "#/components/parameters/representationnode"
         - $ref: "#/components/parameters/stationTypes"
@@ -130,6 +136,8 @@ paths:
         contains edges (prefix <code>e</code>) and their beginning and ending
         station (prefix <code>sb</code> and <code>se</code>). Each JSON
         attribute is prefixed with the letters of that object.
+      security:
+        - OAuth2: []
       parameters:
         - $ref: "#/components/parameters/representationedge"
         - $ref: "#/components/parameters/edgeTypes"
@@ -166,6 +174,8 @@ paths:
         contains events (prefix <code>ev</code>), their locations (prefix
         <code>evl</code>) and provenance (prefix <code>pr</code>). Each
         JSON attribute is prefixed with the letters of that object.
+      security:
+        - OAuth2: []
       parameters:
         - $ref: "#/components/parameters/representationevent"
         - $ref: "#/components/parameters/eventorigins"
@@ -197,6 +207,8 @@ paths:
       tags:
         - Events
       summary: View events of given origins, but only the latest ones grouped by origin and evseriesuuid
+      security:
+        - OAuth2: []
       description:
         You can put multiple origins as comma-seperated list. The response
         contains events (prefix <code>ev</code>), their locations (prefix
@@ -233,6 +245,8 @@ paths:
       tags:
         - Events
       summary: View events of given origins, that are active at a certain point in time
+      security:
+        - OAuth2: []
       description:
         You can put multiple origins as comma-seperated list. The response
         contains events (prefix <code>ev</code>), their locations (prefix
@@ -270,6 +284,8 @@ paths:
       tags:
         - Events
       summary: View events of given origins, that are active at a certain time interval
+      security:
+        - OAuth2: []
       description:
         You can put multiple origins as comma-seperated list. The response
         contains events (prefix <code>ev</code>), their locations (prefix
@@ -307,6 +323,8 @@ paths:
     get:
       tags:
         - Station / time series
+      security:
+        - OAuth2: []
       summary:
         View station details of stations with a given station type including
         associated data types
@@ -347,6 +365,8 @@ paths:
     get:
       tags:
         - Station / time series
+      security:
+        - OAuth2: []
       summary:
         View details of all given station types including data types and most recent
         measurements
@@ -399,6 +419,8 @@ paths:
         and the latest measurements (prefix <code>m</code>) and their provenance
         (prefix <code>pr</code>). Each JSON attribute is prefixed with the
         letters of that object.
+      security:
+        - OAuth2: []
       parameters:
         - $ref: "#/components/parameters/representation"
         - $ref: "#/components/parameters/stationTypes"
@@ -441,6 +463,8 @@ paths:
         parent-stations (prefix <code>p</code>), and metadata history (prefix <code>mh</code>). 
         Each JSON attribute is prefixed with the
         letters of that object.
+      security:
+        - OAuth2: []
       parameters:
         - $ref: "#/components/parameters/representation"
         - $ref: "#/components/parameters/stationTypes"
