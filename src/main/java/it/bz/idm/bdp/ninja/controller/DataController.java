@@ -74,6 +74,9 @@ public class DataController {
 	@Value("${ninja.hosturl}")
 	private String ninjaHostUrl;
 
+	@Value("${keycloak.auth-server-url}")
+	private String authServerUrl;
+
 	@Value("${ninja.response.max-allowed-size-mb}")
 	private int maxAllowedSizeInMB;
 
@@ -116,6 +119,7 @@ public class DataController {
 		if (fileSpec == null) {
 			fileSpec = FileUtils.loadFile("openapi3.yml");
 			fileSpec = FileUtils.replacements(fileSpec, "__ODH_SERVER_URL__", ninjaHostUrl);
+			fileSpec = FileUtils.replacements(fileSpec, "__AUTH_SERVER_URL__", authServerUrl);
 		}
 		return fileSpec;
 	}
