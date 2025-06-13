@@ -6,6 +6,10 @@ ingress:
       paths:
         - path: "/"
           pathType: Prefix
+    - host: timeseries.api.opendatahub.testingmachine.eu
+      paths:
+        - path: "/"
+          pathType: Prefix
 
 env: 
   # Ninja
