@@ -4,13 +4,13 @@ SPDX-FileCopyrightText: NOI Techpark <digital@noi.bz.it>
 SPDX-License-Identifier: CC0-1.0
 -->
 
-# it.bz.opendatahub.api.mobility: API Version 2 (Ninja)
+# Open Data Hub time series API v2 (Ninja)
 
-[![REUSE Compliance](https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja/actions/workflows/reuse.yml/badge.svg)](https://github.com/noi-techpark/odh-docs/wiki/REUSE#badges)
-[![CI](https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja/actions/workflows/main.yml/badge.svg)](https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja/actions/workflows/main.yml)
+[![REUSE Compliance](https://github.com/noi-techpark/opendatahub-timeseries-api/actions/workflows/reuse.yml/badge.svg)](https://github.com/noi-techpark/odh-docs/wiki/REUSE#badges)
+[![CI](https://github.com/noi-techpark/opendatahub-timeseries-api/actions/workflows/main.yml/badge.svg)](https://github.com/noi-techpark/opendatahub-timeseries-api/actions/workflows/main.yml)
 
 **Table Of Content**
-- [it.bz.opendatahub.api.mobility: API Version 2 (Ninja)](#itbzopendatahubapimobility-api-version-2-ninja)
+- [Open Data Hub time series API v2 (Ninja)](#open-data-hub-timeseries-api-v2-ninja)
   - [Usage of the API](#usage-of-the-api)
     - [I want to see what this API provides](#i-want-to-see-what-this-api-provides)
     - [Station and Edge Types / Categories](#station-and-edge-types--categories)
@@ -544,7 +544,7 @@ server?](#how-to-register-this-application-in-your-local-authentication-server)
 for further details.
 
 We limit rates through a token-bucket algorithm. We identify a rate-limit bucket
-with keys build as explained inside the method [RateLimitInterceptor/resolveBucket](src/main/java/it/bz/idm/bdp/ninja/quota/RateLimitInterceptor.java).
+with keys build as explained inside the method [RateLimitInterceptor/resolveBucket](src/main/java/com/opendatahub/api/timeseries/ninja/quota/RateLimitInterceptor.java).
 
 ### Authentication
 
