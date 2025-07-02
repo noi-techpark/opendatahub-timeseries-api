@@ -1,0 +1,37 @@
+[
+  {
+    "id": "tree,node",
+    "description": "Data: Retrieve stations, data types and measurements in a hierarchical form: stationtype/station/datatype/measurement",
+    "self": "__URL__/tree,node"
+  },
+  {
+    "id": "flat,node",
+    "description": "Data: Retrieve stations, data types and measurements in a flattened form: Useful for aggregation and retrieval of subsets of data",
+    "self": "__URL__/flat,node"
+  },
+  {
+    "id": "tree,edge",
+    "description": "Data: Retrieve edges in a hierarchical form: Useful when you want to see which stations are connected in a graph",
+    "self": "__URL__/tree,edge"
+  },
+  {
+    "id": "flat,edge",
+    "description": "Data: Retrieve edges in a flattened form: Useful when you want to see which stations are connected in a graph",
+    "self": "__URL__/flat,edge"
+  },
+  {
+    "id": "tree,event",
+    "description": "Data: Retrieve events in a hierarchical form: origin/category/event. Events are like labels on timeseries.",
+    "self": "__URL__/tree,event"
+  },
+  {
+    "id": "flat,event",
+    "description": "Data: Retrieve events in a flattened form. Events are like labels on timeseries.",
+    "self": "__URL__/flat,event"
+  },
+  {
+    "id": "apispec",
+    "description": "The API specification in an OpenAPI v3 Yaml format",
+    "self": "__URL__/apispec"
+  }
+]
