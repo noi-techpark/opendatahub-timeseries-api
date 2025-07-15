@@ -205,13 +205,13 @@ GET {{host}}/flat,node/EChargingPlug/*/2019-03-25T01/2019-03-25T02
 GET {{host}}/tree/*/*/latest?where=mvalue.type.ire.POINT&select=mvalue
 Authorization: Bearer {{token}}
 
-### Test issue https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja/issues/16
+### Test issue https://github.com/noi-techpark/opendatahub-timeseries-api/issues/16
 {{host}}/tree/EChargingPlug/echarging-plug-status/latest
 ?select=mvalue
 &where=sactive.eq.true,pactive.eq.true
 &limit=1
 
-### Test issue https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja/issues/22
+### Test issue https://github.com/noi-techpark/opendatahub-timeseries-api/issues/22
 {{host}}/tree/EChargingPlug/echarging-plug-status/latest
 ?select=pcode,pmetadata.state,mvalue
 &where=sactive.eq.true,pactive.eq.true

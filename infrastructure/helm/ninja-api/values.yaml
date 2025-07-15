@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: ghcr.io/noi-techpark/it.bz.opendatahub.api.mobility-ninja/it.bz.opendatahub.api.mobility-ninja-app
+  repository: ghcr.io/noi-techpark/opendatahub-timeseries-api/opendatahub-timeseries-api-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"

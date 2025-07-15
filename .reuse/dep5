@@ -1,8 +1,0 @@
-Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: it.bz.opendatahub.api.mobility-ninja
-Upstream-Contact: NOI Techpark <digital@noi.bz.it>
-Source: https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja
-
-Files: .github/* infrastructure/* .gitignore .pre-commit-config.yaml .editorconfig .env.example .mailmap calls.http LICENSE src/**/*.properties src/**/*.json src/**/*.txt
-Copyright: (c) NOI Techpark <digital@noi.bz.it>
-License: CC0-1.0
