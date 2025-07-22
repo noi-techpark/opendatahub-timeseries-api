@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC0-1.0
 
 # Open Data Hub time series API v2 (Ninja)
 
-[![REUSE Compliance](https://github.com/noi-techpark/opendatahub-timeseries-api/actions/workflows/reuse.yml/badge.svg)](https://github.com/noi-techpark/odh-docs/wiki/REUSE#badges)
+[![REUSE Compliance](https://github.com/noi-techpark/opendatahub-timeseries-api/actions/workflows/reuse.yml/badge.svg)](https://github.com/noi-techpark/opendatahub-docs/wiki/REUSE)
 [![CI](https://github.com/noi-techpark/opendatahub-timeseries-api/actions/workflows/main.yml/badge.svg)](https://github.com/noi-techpark/opendatahub-timeseries-api/actions/workflows/main.yml)
 
 **Table Of Content**
@@ -318,7 +318,7 @@ A `filter` has the form `alias.operator.value_or_list`.
 - `bbc`: Bounding box containing objects (e.g. a station or street, that is
   completely covered by the box)
 - `dlt`: Within distance from point (e.g. all stations within a 5 km radius from point X)   
-    [Learn more and see examples.](https://github.com/noi-techpark/odh-docs/wiki/Time-series-API-filter-operators#dlt-operator)
+    [Learn more and see examples.](https://github.com/noi-techpark/opendatahub-docs/wiki/Time-series-API-filter-operators)
 - `in`: True, if the value of the alias can be found within the given list.
   Example: `name.in.(Patrick,Rudi,Peter)`
 - `nin`: False, if the value of the alias can be found within the given list.
@@ -516,7 +516,7 @@ Premium   | Bearer Token containing a PREMIUM role                  | ninja.quot
 Admin     | Bearer Token containing the ADMIN role                  | *no key / no quota*
 
 In addition, the `ninja.quota.url` property should contain a link to a
-[webpage](https://github.com/noi-techpark/odh-docs/wiki/Api-Quota), that
+[webpage](https://github.com/noi-techpark/opendatahub-docs/wiki/Api-Quota), that
 explains what the `429` HTTP error code means.
 
 Roles must be set as follows in Keycloak:
@@ -623,7 +623,7 @@ GET /flat/EChargingPlug?where=sactive.eq.true,smetadata.state.eq.ACTIVE
 
 ### Prerequisites
 
-- Java JDK 1.8 or higher (e.g. [OpenJDK](https://openjdk.java.net/))
+- Java JDK 1.8 or higher (e.g. [OpenJDK](https://openjdk.org/))
 - [Maven](https://maven.apache.org/) 3.x
 - Run [NOI Authentication server] locally or connect to test environment
   (optional)
@@ -719,7 +719,7 @@ curl --location --request POST 'http://localhost:8080/auth/realms/noi/protocol/o
 
 ### REUSE
 
-This project is [REUSE](https://reuse.software) compliant, more information about the usage of REUSE in NOI Techpark repositories can be found [here](https://github.com/noi-techpark/odh-docs/wiki/Guidelines-for-developers-and-licenses#guidelines-for-contributors-and-new-developers).
+This project is [REUSE](https://reuse.software) compliant, more information about the usage of REUSE in NOI Techpark repositories can be found [here](https://github.com/noi-techpark/opendatahub-docs/wiki/Guidelines-for-developers-and-licenses).
 
 Since the CI for this project checks for REUSE compliance you might find it useful to use a pre-commit hook checking for REUSE compliance locally. The [pre-commit-config](.pre-commit-config.yaml) file in the repository root is already configured to check for REUSE compliance with help of the [pre-commit](https://pre-commit.com) tool.
 
