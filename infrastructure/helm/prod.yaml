@@ -6,6 +6,10 @@ ingress:
       paths:
         - path: "/"
           pathType: Prefix
+    - host: mobility.api.opendatahub.bz.it
+      paths:
+        - path: "/"
+          pathType: Prefix
     - host: timeseries.api.opendatahub.com
       paths:
         - path: "/"
