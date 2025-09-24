@@ -53,6 +53,7 @@
 	or (s.stationtype = 'ParkingStation' and s.origin in ('FAMAS', 'FBK', 'Municipality Merano', 'skidata', 'Municipality Bolzano', 'STA', 'GARDENA'))
 	or (s.stationtype = 'RWISstation' and s.origin = 'InfoMobility')
 	or (s.stationtype = 'BluetoothStation' and s.origin = 'bluetoothbox')
+	or (s.stationtype = 'PeopleCounter' and s.origin = 'systems-merano')
 
     -- special rules
 	or (s.origin = 'APPABZ' and me.period = 3600)
