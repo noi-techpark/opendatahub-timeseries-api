@@ -50,6 +50,9 @@ env:
   NINJA_QUOTA_HISTORY_PREMIUM: 0
   NINJA_QUOTA_HISTORY_URL: https://github.com/noi-techpark/odh-docs/wiki/Api-Quota
 
+  # Set JVM arguments
+  JAVA_OPTS: -XX:MaxRAMPercentage=85 -XX:+UseZGC -XX:ZUncommitDelay=300
+
 database:
   servicebindName: "postgres-read-svcbind"
 
@@ -59,3 +62,9 @@ oauth:
   clientId: "odh-mobility-v2"
   clientSecret:
   sslRequired: "none"
+
+resources:
+  requests:
+    memory: 5Gi
+  limit:
+    memory: 8Gi
