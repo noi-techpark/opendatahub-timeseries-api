@@ -38,13 +38,13 @@
 		'BIKE_CHARGER',
 		'BIKE_CHARGER_BAY',
 		'WeatherForecastService',
-		'WeatherForecast',
 		'WebStatistics',
 		'IndoorStation',
 		'TrafficForecast'
 	)
 
     -- station types that are only partly open, constrained by the origin and/or datatype
+	or (s.stationtype = 'WeatherForecast' and s.origin != 'EUREGIO')
 	or (s.stationtype = 'EnvironmentStation' and s.origin = 'APPATN-open')
 	or (s.stationtype = 'EnvironmentStation' and t.cname = 'EAQI-NO2')
 	or (s.stationtype = 'LinkStation' and (s.origin is null or s.origin = 'NOI'))
