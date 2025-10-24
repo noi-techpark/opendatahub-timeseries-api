@@ -40,7 +40,7 @@ public class SelectExpansionConfig {
 					.setColumnFormat("timezone('UTC', %s)"))
 			.add(new TargetDef("mtransactiontime", "me.created_on")
 					.setColumnFormat("timezone('UTC', %s)"))
-			.add(new TargetDef("mperiod", "me.period"))
+			.add(new TargetDef("mperiod", "ts.period"))
 			.add(new TargetDef("mprovenance", provenance));
 
 		schema.add(measurement);

@@ -187,6 +187,8 @@ public class DataFetcher {
 		int measurementType = checkMeasurementType(query);
 
 		String aclWhereClause = getAclWhereClause(AclType.stations, roles);
+		
+		boolean useLatest = from == null && to == null;
 
 		if (hasFlag(measurementType, MEASUREMENT_TYPE_DOUBLE)) {
 			query.addSql("select")
@@ -197,9 +199,10 @@ public class DataFetcher {
 							"me.timestamp as _timestamp",
 							representation.isFlat())
 					.expandSelectPrefix(", ")
-					.addSqlIf("from measurementhistory me", from != null || to != null)
-					.addSqlIf("from measurement me", from == null && to == null)
-					.addSql("join station s on me.station_id = s.id")
+					.addSqlIf("from measurement me", useLatest)
+					.addSqlIf("from measurementhistory me", !useLatest)
+					.addSql("join timeseries ts on ts.id = me.timeseries_id")
+					.addSql("join station s on ts.station_id = s.id")
 					.addSqlIfAlias("left join metadata m on m.id = s.meta_data_id", "smetadata")
 					.addSqlIfDefinition("left join station p on s.parent_id = p.id", "parent")
 					.addSqlIfAlias("left join metadata pm on pm.id = p.meta_data_id", "pmetadata")
@@ -207,6 +210,7 @@ public class DataFetcher {
 					.addSqlIfDefinition("left join provenance pr on me.provenance_id = pr.id", "provenance")
 					.addSqlIfAlias("left join type_metadata tm on tm.id = t.meta_data_id", "tmetadata")
 					.addSql("where s.available = true")
+					.addSqlIf("and me.partition_id = ts.partition_id", useLatest)
 					.addSqlIfNotNull("and", aclWhereClause)
 					.addSqlIfNotNull(aclWhereClause, aclWhereClause)
 					.addSqlIfDefinition("and (p.id is null or p.available = true)", "parent")
@@ -214,8 +218,8 @@ public class DataFetcher {
 							!stationTypeSet.contains("*"))
 					.setParameterIfNotEmptyAnd("datatypes", dataTypeSet, "and t.cname in (:datatypes)",
 							!dataTypeSet.contains("*"))
-					.setParameterIfNotNull("from", from, "and timestamp >= :from::timestamptz")
-					.setParameterIfNotNull("to", to, "and timestamp < :to::timestamptz")
+					.setParameterIfNotNull("from", from, "and me.timestamp >= :from::timestamptz")
+					.setParameterIfNotNull("to", to, "and me.timestamp < :to::timestamptz")
 					.expandWhere()
 					.expandGroupByIf("_stationtype, _stationcode, _datatypename", !representation.isFlat());
 		}
@@ -235,16 +239,18 @@ public class DataFetcher {
 							"me.timestamp as _timestamp",
 							representation.isFlat())
 					.expandSelectPrefix(", ")
-					.addSqlIf("from measurementstringhistory me", from != null || to != null)
-					.addSqlIf("from measurementstring me", from == null && to == null)
-					.addSql("join station s on me.station_id = s.id")
+					.addSqlIf("from measurement me", useLatest)
+					.addSqlIf("from measurementhistory me", !useLatest)
+					.addSql("join timeseries ts on ts.id = me.timeseries_id")
+					.addSql("join station s on ts.station_id = s.id")
 					.addSqlIfAlias("left join metadata m on m.id = s.meta_data_id", "smetadata")
 					.addSqlIfDefinition("left join station p on s.parent_id = p.id", "parent")
 					.addSqlIfAlias("left join metadata pm on pm.id = p.meta_data_id", "pmetadata")
-					.addSql("join type t on me.type_id = t.id")
+					.addSql("join type t on ts.type_id = t.id")
 					.addSqlIfDefinition("left join provenance pr on me.provenance_id = pr.id", "provenance")
 					.addSqlIfAlias("left join type_metadata tm on tm.id = t.meta_data_id", "tmetadata")
 					.addSql("where s.available = true")
+					.addSqlIf("and me.partition_id = ts.partition_id", useLatest)
 					.addSqlIfNotNull("and", aclWhereClause)
 					.addSqlIfNotNull(aclWhereClause, aclWhereClause)
 					.addSqlIfDefinition("and (p.id is null or p.available = true)", "parent")
@@ -252,8 +258,8 @@ public class DataFetcher {
 							!stationTypeSet.contains("*"))
 					.setParameterIfNotEmptyAnd("datatypes", dataTypeSet, "and t.cname in (:datatypes)",
 							!dataTypeSet.contains("*"))
-					.setParameterIfNotNull("from", from, "and timestamp >= :from::timestamptz")
-					.setParameterIfNotNull("to", to, "and timestamp < :to::timestamptz")
+					.setParameterIfNotNull("from", from, "and me.timestamp >= :from::timestamptz")
+					.setParameterIfNotNull("to", to, "and me.timestamp < :to::timestamptz")
 					.expandWhere()
 					.expandGroupByIf("_stationtype, _stationcode, _datatypename", !representation.isFlat());
 		}
@@ -274,16 +280,18 @@ public class DataFetcher {
 							"me.timestamp as _timestamp",
 							representation.isFlat())
 					.expandSelectPrefix(", ")
-					.addSqlIf("from measurementjsonhistory me", from != null || to != null)
-					.addSqlIf("from measurementjson me", from == null && to == null)
-					.addSql("join station s on me.station_id = s.id")
+					.addSqlIf("from measurement me", useLatest)
+					.addSqlIf("from measurementhistory me", !useLatest)
+					.addSql("join timeseries ts on ts.id = me.timeseries_id")
+					.addSql("join station s on ts.station_id = s.id")
 					.addSqlIfAlias("left join metadata m on m.id = s.meta_data_id", "smetadata")
 					.addSqlIfDefinition("left join station p on s.parent_id = p.id", "parent")
 					.addSqlIfAlias("left join metadata pm on pm.id = p.meta_data_id", "pmetadata")
-					.addSql("join type t on me.type_id = t.id")
+					.addSql("join type t on ts.type_id = t.id")
 					.addSqlIfDefinition("left join provenance pr on me.provenance_id = pr.id", "provenance")
 					.addSqlIfAlias("left join type_metadata tm on tm.id = t.meta_data_id", "tmetadata")
 					.addSql("where s.available = true")
+					.addSqlIf("and me.partition_id = ts.partition_id", useLatest)
 					.addSqlIfNotNull("and", aclWhereClause)
 					.addSqlIfNotNull(aclWhereClause, aclWhereClause)
 					.addSqlIfDefinition("and (p.id is null or p.available = true)", "parent")
@@ -291,8 +299,8 @@ public class DataFetcher {
 							!stationTypeSet.contains("*"))
 					.setParameterIfNotEmptyAnd("datatypes", dataTypeSet, "and t.cname in (:datatypes)",
 							!dataTypeSet.contains("*"))
-					.setParameterIfNotNull("from", from, "and timestamp >= :from::timestamptz")
-					.setParameterIfNotNull("to", to, "and timestamp < :to::timestamptz")
+					.setParameterIfNotNull("from", from, "and me.timestamp >= :from::timestamptz")
+					.setParameterIfNotNull("to", to, "and me.timestamp < :to::timestamptz")
 					.expandWhere()
 					.expandGroupByIf("_stationtype, _stationcode, _datatypename", !representation.isFlat());
 		}
@@ -395,90 +403,27 @@ public class DataFetcher {
 		QueryBuilder query = QueryBuilder
 				.init(se, select, where, distinct, "station", "parent", "datatype", "provenance");
 
-		int measurementType = checkMeasurementType(query);
-
-		if (hasFlag(measurementType, MEASUREMENT_TYPE_DOUBLE)) {
-			query.addSql("select")
-					.addSqlIf("distinct", distinct)
-					.addSqlIf("s.stationtype as _stationtype, s.stationcode as _stationcode, t.cname as _datatypename",
-							!representation.isFlat())
-					.expandSelectPrefix(", ", !representation.isFlat())
-					.addSql("from measurement me")
-					.addSql("join station s on me.station_id = s.id")
-					.addSqlIfAlias("left join metadata m on m.id = s.meta_data_id", "smetadata")
-					.addSqlIfDefinition("left join station p on s.parent_id = p.id", "parent")
-					.addSqlIfAlias("left join metadata pm on pm.id = p.meta_data_id", "pmetadata")
-					.addSql("join type t on me.type_id = t.id")
-					.addSqlIfDefinition("left join provenance pr on me.provenance_id = pr.id", "provenance")
-					.addSqlIfAlias("left join type_metadata tm on tm.id = t.meta_data_id", "tmetadata")
-					.addSql("where s.available = true")
-					.addSqlIfDefinition("and (p.id is null or p.available = true)", "parent")
-					.setParameterIfNotEmptyAnd("stationtypes", stationTypeSet, "and s.stationtype in (:stationtypes)",
-							!stationTypeSet.contains("*"))
-					.setParameterIfNotEmptyAnd("datatypes", dataTypeSet, "and t.cname in (:datatypes)",
-							!dataTypeSet.contains("*"))
-					.expandWhere()
-					.expandGroupByIf("_stationtype, _stationcode, _datatypename", !representation.isFlat());
-		}
-
-		if (hasFlag(measurementType, MEASUREMENT_TYPE_DOUBLE) && hasFlag(measurementType, MEASUREMENT_TYPE_STRING)) {
-			query.addSql("union all");
-		}
-
-		if (hasFlag(measurementType, MEASUREMENT_TYPE_STRING)) {
-			query.reset(select, where, distinct, "station", "parent", "datatype", "provenance")
-					.addSql("select")
-					.addSqlIf("distinct", distinct)
-					.addSqlIf("s.stationtype as _stationtype, s.stationcode as _stationcode, t.cname as _datatypename",
-							!representation.isFlat())
-					.expandSelectPrefix(", ", !representation.isFlat())
-					.addSql("from measurementstring me")
-					.addSql("join station s on me.station_id = s.id")
-					.addSqlIfAlias("left join metadata m on m.id = s.meta_data_id", "smetadata")
-					.addSqlIfDefinition("left join station p on s.parent_id = p.id", "parent")
-					.addSqlIfAlias("left join metadata pm on pm.id = p.meta_data_id", "pmetadata")
-					.addSql("join type t on me.type_id = t.id")
-					.addSqlIfDefinition("left join provenance pr on me.provenance_id = pr.id", "provenance")
-					.addSqlIfAlias("left join type_metadata tm on tm.id = t.meta_data_id", "tmetadata")
-					.addSql("where s.available = true")
-					.addSqlIfDefinition("and (p.id is null or p.available = true)", "parent")
-					.setParameterIfNotEmptyAnd("stationtypes", stationTypeSet, "and s.stationtype in (:stationtypes)",
-							!stationTypeSet.contains("*"))
-					.setParameterIfNotEmptyAnd("datatypes", dataTypeSet, "and t.cname in (:datatypes)",
-							!dataTypeSet.contains("*"))
-					.expandWhere()
-					.expandGroupByIf("_stationtype, _stationcode, _datatypename", !representation.isFlat());
-		}
-
-		if ((hasFlag(measurementType, MEASUREMENT_TYPE_DOUBLE) || hasFlag(measurementType, MEASUREMENT_TYPE_STRING))
-				&& hasFlag(measurementType, MEASUREMENT_TYPE_JSON)) {
-			query.addSql("union all");
-		}
-
-		if (hasFlag(measurementType, MEASUREMENT_TYPE_JSON)) {
-			query.reset(select, where, distinct, "station", "parent", "datatype", "provenance")
-					.addSql("select")
-					.addSqlIf("distinct", distinct)
-					.addSqlIf("s.stationtype as _stationtype, s.stationcode as _stationcode, t.cname as _datatypename",
-							!representation.isFlat())
-					.expandSelectPrefix(", ", !representation.isFlat())
-					.addSql("from measurementjson me")
-					.addSql("join station s on me.station_id = s.id")
-					.addSqlIfAlias("left join metadata m on m.id = s.meta_data_id", "smetadata")
-					.addSqlIfDefinition("left join station p on s.parent_id = p.id", "parent")
-					.addSqlIfAlias("left join metadata pm on pm.id = p.meta_data_id", "pmetadata")
-					.addSql("join type t on me.type_id = t.id")
-					.addSqlIfDefinition("left join provenance pr on me.provenance_id = pr.id", "provenance")
-					.addSqlIfAlias("left join type_metadata tm on tm.id = t.meta_data_id", "tmetadata")
-					.addSql("where s.available = true")
-					.addSqlIfDefinition("and (p.id is null or p.available = true)", "parent")
-					.setParameterIfNotEmptyAnd("stationtypes", stationTypeSet, "and s.stationtype in (:stationtypes)",
-							!stationTypeSet.contains("*"))
-					.setParameterIfNotEmptyAnd("datatypes", dataTypeSet, "and t.cname in (:datatypes)",
-							!dataTypeSet.contains("*"))
-					.expandWhere()
-					.expandGroupByIf("_stationtype, _stationcode, _datatypename", !representation.isFlat());
-		}
+		query.addSql("select")
+				.addSqlIf("distinct", distinct)
+				.addSqlIf("s.stationtype as _stationtype, s.stationcode as _stationcode, t.cname as _datatypename",
+						!representation.isFlat())
+				.expandSelectPrefix(", ", !representation.isFlat())
+				.addSql("from timeseries ts")
+				.addSql("join station s on ts.station_id = s.id")
+				.addSqlIfAlias("left join metadata m on m.id = s.meta_data_id", "smetadata")
+				.addSqlIfDefinition("left join station p on s.parent_id = p.id", "parent")
+				.addSqlIfAlias("left join metadata pm on pm.id = p.meta_data_id", "pmetadata")
+				.addSql("join type t on ts.type_id = t.id")
+				.addSqlIfDefinition("left join provenance pr on ts.provenance_id = pr.id", "provenance")
+				.addSqlIfAlias("left join type_metadata tm on tm.id = t.meta_data_id", "tmetadata")
+				.addSql("where s.available = true")
+				.addSqlIfDefinition("and (p.id is null or p.available = true)", "parent")
+				.setParameterIfNotEmptyAnd("stationtypes", stationTypeSet, "and s.stationtype in (:stationtypes)",
+						!stationTypeSet.contains("*"))
+				.setParameterIfNotEmptyAnd("datatypes", dataTypeSet, "and t.cname in (:datatypes)",
+						!dataTypeSet.contains("*"))
+				.expandWhere()
+				.expandGroupByIf("_stationtype, _stationcode, _datatypename", !representation.isFlat());
 
 		query.addSqlIf("order by _stationtype, _stationcode, _datatypename", !representation.isFlat())
 				.addLimit(limit)
