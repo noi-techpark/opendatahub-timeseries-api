@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 services:
-  app:
+  timeseries-api:
     image: maven:3-eclipse-temurin-17-alpine
     volumes:
       - ./:/code
@@ -41,8 +41,10 @@ services:
       - "${SERVER_PORT}:${SERVER_PORT}"
       - "8000:8000"
     networks:
-      - internal
+      - timeseries
 
 networks:
-  internal:
+  timeseries:
     external: false
+    attachable: true
+    name: timeseries
