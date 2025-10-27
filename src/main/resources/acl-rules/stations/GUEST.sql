@@ -56,7 +56,7 @@
 	or (s.stationtype = 'PeopleCounter' and s.origin = 'systems-merano')
 
     -- special rules
-	or (s.origin = 'APPABZ' and me.period = 3600)
+	or (s.origin = 'APPABZ' and ts.period = 3600)
 	or (s.origin = 'ON_DEMAND_MERANO')
 	or (s.origin = 'ON_DEMAND_BADIA')
 )
