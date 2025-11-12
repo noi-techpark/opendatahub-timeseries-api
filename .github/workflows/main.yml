@@ -83,7 +83,7 @@ jobs:
   # Deploy Test Partitioning
   deploy-partition:
     runs-on: ubuntu-24.04
-    if: github.ref == 'refs/heads/feat/partition'
+    if: github.ref == 'refs/heads/feat/partitioning'
     needs: test
     environment: test
     concurrency: deploy-test
