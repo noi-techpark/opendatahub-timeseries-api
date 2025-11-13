@@ -401,7 +401,7 @@ public class DataFetcher {
 		timer.start();
 		SelectExpansion se = new SelectExpansionConfig().getSelectExpansion();
 		QueryBuilder query = QueryBuilder
-				.init(se, select, where, distinct, "station", "parent", "datatype", "provenance");
+				.init(se, select, where, distinct, "station", "parent", "datatype");
 
 		query.addSql("select")
 				.addSqlIf("distinct", distinct)
@@ -414,7 +414,6 @@ public class DataFetcher {
 				.addSqlIfDefinition("left join station p on s.parent_id = p.id", "parent")
 				.addSqlIfAlias("left join metadata pm on pm.id = p.meta_data_id", "pmetadata")
 				.addSql("join type t on ts.type_id = t.id")
-				.addSqlIfDefinition("left join provenance pr on ts.provenance_id = pr.id", "provenance")
 				.addSqlIfAlias("left join type_metadata tm on tm.id = t.meta_data_id", "tmetadata")
 				.addSql("where s.available = true")
 				.addSqlIfDefinition("and (p.id is null or p.available = true)", "parent")
