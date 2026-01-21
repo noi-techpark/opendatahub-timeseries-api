@@ -4,11 +4,10 @@
 POST {{$dotenv DEV_AUTH_URI}}/auth/realms/noi/protocol/openid-connect/token
 Content-Type: application/x-www-form-urlencoded
 
-&grant_type=password
-&username={{$dotenv DEV_AUTH_USER}}
-&password={{$dotenv DEV_AUTH_PASS}}
-&client_id=odh-generic-client
-&client_secret=
+grant_type=client_credentials
+&client_id={{$dotenv DEV_AUTH_USER}}
+&client_secret={{$dotenv DEV_AUTH_PASS}}
+&scope=openid
 
 # &grant_type=client_credentials
 # &client_id=odh-generic-client
@@ -65,10 +64,6 @@ GET {{host}}/tree,node/BluetoothStation/*/latest
 &distinct=true
 &timezone=UTC
 &select=mvalue
-
-###
-GET https://mobility.api.opendatahub.com/v1/emobility/rest/get-stations
-Content-Type: text/xml
 
 ###
 GET {{host}}/flat/MeteoStation/*/latest
