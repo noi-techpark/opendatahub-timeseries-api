@@ -105,23 +105,29 @@ public class DataController {
 
 	@ResponseBody
 	@GetMapping(value = "", produces = "application/json;charset=UTF-8")
-	public String requestRoot() {
+	public String requestRoot(HttpServletRequest request) {
+		// I loaded the raw template file once for performance
 		if (fileRoot == null) {
 			fileRoot = FileUtils.loadFile("root.json");
-			fileRoot = FileUtils.replacements(fileRoot, "__URL__", ninjaBaseUrl);
 		}
-		return fileRoot;
+		//  replaced with dynamic URL on each request to support multiple domains
+		String baseUrl = getBaseUrlFromRequest(request);
+		String result = FileUtils.replacements(fileRoot, "__URL__", baseUrl);
+		return result;
 	}
 
 	@ResponseBody
 	@GetMapping(value = "/apispec", produces = "application/yaml;charset=UTF-8")
-	public String requestOpenApiSpec() {
+	public String requestOpenApiSpec(HttpServletRequest request) {
+		// It will load the raw template file once for performance
 		if (fileSpec == null) {
 			fileSpec = FileUtils.loadFile("openapi3.yml");
-			fileSpec = FileUtils.replacements(fileSpec, "__ODH_SERVER_URL__", ninjaHostUrl);
-			fileSpec = FileUtils.replacements(fileSpec, "__AUTH_SERVER_URL__", authServerUrl);
 		}
-		return fileSpec;
+		// I have replaced with dynamic URLs on each request to support multiple domains
+		String baseUrl = getBaseUrlFromRequest(request);
+		String result = FileUtils.replacements(fileSpec, "__ODH_SERVER_URL__", baseUrl);
+		result = FileUtils.replacements(result, "__AUTH_SERVER_URL__", authServerUrl);
+		return result;
 	}
 
 	@ResponseBody
@@ -139,7 +145,8 @@ public class DataController {
 		} else {
 			queryResult = dataFetcher.fetchEventOrigins(rep);
 		}
-		String url = ninjaBaseUrl + "/" + pathvar1 + "/";
+		String baseUrl = getBaseUrlFromRequest(request);
+		String url = baseUrl + "/" + pathvar1 + "/";
 		Map<String, Object> selfies;
 		for (Map<String, Object> row : queryResult) {
 			row.put("description", null);
@@ -532,5 +539,25 @@ public class DataController {
 		if (request.getHeader("Authorization") == null && roles.size() > 1)
 			throw new IllegalStateException("No Authorization header, but privileged roles");
 		return roles;
+	}
+
+	/**
+	 * This will Build the base URL dynamically from the incoming request's Host header.
+	 * This allows the API to work correctly across multiple domains during migration.
+	 *
+	 * @param request 
+	 * @return The base URL (e.g., https://timeseries.api.opendatahub.com)
+	 */
+	private String getBaseUrlFromRequest(HttpServletRequest request) {
+		String scheme = request.getScheme(); 
+		String host = request.getHeader("Host"); 
+
+		// If Host header is missing, it will fall back to configured URL
+		if (host == null || host.isEmpty()) {
+			return ninjaBaseUrl;
+		}
+
+		// Build the base URL from the request
+		return scheme + "://" + host;
 	}
 }
