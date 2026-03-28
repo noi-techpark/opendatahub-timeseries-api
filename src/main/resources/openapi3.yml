@@ -27,8 +27,6 @@ tags:
     description: Entry points to discover data
   - name: Station / time series
     description: "representation `*,node` or `*,edge`"
-  - name: Events
-    description: "representation `*,event`"
 paths:
   # V2 ----------------------------------------------------------------------------------------
   /v2/:
@@ -63,7 +61,6 @@ paths:
       tags:
         - General
         - Station / time series
-        - Events
       summary: View a list of all station or edge types (categories)
       security:
         - OAuth2: []
@@ -141,161 +138,6 @@ paths:
       parameters:
         - $ref: "#/components/parameters/representationedge"
         - $ref: "#/components/parameters/edgeTypes"
-        - $ref: "#/components/parameters/limit"
-        - $ref: "#/components/parameters/offset"
-        - $ref: "#/components/parameters/select"
-        - $ref: "#/components/parameters/where"
-        - $ref: "#/components/parameters/shownull"
-        - $ref: "#/components/parameters/distinct"
-        - $ref: "#/components/parameters/origin"
-      responses:
-        200:
-          description: OK
-          content:
-            application/json:
-              schema:
-                type: string
-        401:
-          description: Unauthorized
-          content: {}
-        403:
-          description: Forbidden
-          content: {}
-        404:
-          description: Not Found
-          content: {}
-  /v2/{representation}/{eventorigins}:
-    get:
-      tags:
-        - Events
-      summary: View events of given origins
-      description:
-        You can put multiple origins as comma-seperated list. The response
-        contains events (prefix <code>ev</code>), their locations (prefix
-        <code>evl</code>) and provenance (prefix <code>pr</code>). Each
-        JSON attribute is prefixed with the letters of that object.
-      security:
-        - OAuth2: []
-      parameters:
-        - $ref: "#/components/parameters/representationevent"
-        - $ref: "#/components/parameters/eventorigins"
-        - $ref: "#/components/parameters/limit"
-        - $ref: "#/components/parameters/offset"
-        - $ref: "#/components/parameters/select"
-        - $ref: "#/components/parameters/where"
-        - $ref: "#/components/parameters/shownull"
-        - $ref: "#/components/parameters/distinct"
-        - $ref: "#/components/parameters/origin"
-      responses:
-        200:
-          description: OK
-          content:
-            application/json:
-              schema:
-                type: string
-        401:
-          description: Unauthorized
-          content: {}
-        403:
-          description: Forbidden
-          content: {}
-        404:
-          description: Not Found
-          content: {}
-  /v2/{representation}/{eventorigins}/latest:
-    get:
-      tags:
-        - Events
-      summary: View events of given origins, but only the latest ones grouped by origin and evseriesuuid
-      security:
-        - OAuth2: []
-      description:
-        You can put multiple origins as comma-seperated list. The response
-        contains events (prefix <code>ev</code>), their locations (prefix
-        <code>evl</code>) and provenance (prefix <code>pr</code>). Each
-        JSON attribute is prefixed with the letters of that object.
-      parameters:
-        - $ref: "#/components/parameters/representationevent"
-        - $ref: "#/components/parameters/eventorigins"
-        - $ref: "#/components/parameters/limit"
-        - $ref: "#/components/parameters/offset"
-        - $ref: "#/components/parameters/select"
-        - $ref: "#/components/parameters/where"
-        - $ref: "#/components/parameters/shownull"
-        - $ref: "#/components/parameters/distinct"
-        - $ref: "#/components/parameters/origin"
-      responses:
-        200:
-          description: OK
-          content:
-            application/json:
-              schema:
-                type: string
-        401:
-          description: Unauthorized
-          content: {}
-        403:
-          description: Forbidden
-          content: {}
-        404:
-          description: Not Found
-          content: {}
-  /v2/{representation}/{eventorigins}/{timepoint}:
-    get:
-      tags:
-        - Events
-      summary: View events of given origins, that are active at a certain point in time
-      security:
-        - OAuth2: []
-      description:
-        You can put multiple origins as comma-seperated list. The response
-        contains events (prefix <code>ev</code>), their locations (prefix
-        <code>evl</code>) and provenance (prefix <code>pr</code>). Each
-        JSON attribute is prefixed with the letters of that object.
-      parameters:
-        - $ref: "#/components/parameters/representationevent"
-        - $ref: "#/components/parameters/eventorigins"
-        - $ref: "#/components/parameters/timepoint"
-        - $ref: "#/components/parameters/limit"
-        - $ref: "#/components/parameters/offset"
-        - $ref: "#/components/parameters/select"
-        - $ref: "#/components/parameters/where"
-        - $ref: "#/components/parameters/shownull"
-        - $ref: "#/components/parameters/distinct"
-        - $ref: "#/components/parameters/origin"
-      responses:
-        200:
-          description: OK
-          content:
-            application/json:
-              schema:
-                type: string
-        401:
-          description: Unauthorized
-          content: {}
-        403:
-          description: Forbidden
-          content: {}
-        404:
-          description: Not Found
-          content: {}
-  /v2/{representation}/{eventorigins}/{from}/{to}:
-    get:
-      tags:
-        - Events
-      summary: View events of given origins, that are active at a certain time interval
-      security:
-        - OAuth2: []
-      description:
-        You can put multiple origins as comma-seperated list. The response
-        contains events (prefix <code>ev</code>), their locations (prefix
-        <code>evl</code>) and provenance (prefix <code>pr</code>). Each
-        JSON attribute is prefixed with the letters of that object.
-      parameters:
-        - $ref: "#/components/parameters/representationevent"
-        - $ref: "#/components/parameters/eventorigins"
-        - $ref: "#/components/parameters/from"
-        - $ref: "#/components/parameters/to"
         - $ref: "#/components/parameters/limit"
         - $ref: "#/components/parameters/offset"
         - $ref: "#/components/parameters/select"
@@ -504,7 +346,7 @@ components:
       description:
         Do you want to have the result in a <code>tree</code> or
         <code>flat</code> representation, and do you want to get
-        <code>node</code> (=station), <code>edge</code> or <code>event</code>
+        <code>node</code> (=station) or <code>edge</code>
         information. Add them as comma-separated values.
       required: true
       schema:
@@ -533,17 +375,6 @@ components:
       schema:
         type: string
         default: flat,edge
-    representationevent:
-      name: representation
-      in: path
-      description:
-        Do you want to have the result in a <code>tree</code> or
-        <code>flat</code> representation? The type of the map element is
-        <code>event</code>.
-      required: true
-      schema:
-        type: string
-        default: flat,event
     stationTypes:
       name: stationTypes
       in: path
@@ -574,26 +405,6 @@ components:
       schema:
         type: string
         default: "*"
-    eventorigins:
-      name: eventorigins
-      in: path
-      description:
-        Origins of events, that is, the name of sources. Multiple origins
-        possible as comma-separated-values. All origins with <code>*</code>.
-      required: true
-      schema:
-        type: string
-        default: "*"
-    timepoint:
-      name: timepoint
-      in: path
-      description:
-        Date or date-time format to denote a point in time. The format is
-        <code>yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]</code>, where [] denotes
-        optionality. Z is the timezone, for instance, +0200.
-      required: true
-      schema:
-        type: string
     from:
       name: from
       in: path
@@ -941,50 +752,6 @@ components:
           $ref: "#/components/schemas/stationbegin"
         eend:
           $ref: "#/components/schemas/stationend"
-    location:
-      description: |
-        ```
-        Prefix: evl
-        ```
-        Location: The location of a traffic event
-      properties:
-        evldescription:
-          type: string
-        evlgeometry:
-          type: object
-    event:
-      description: |
-        ```
-        Prefix: e
-        ```
-        Event: A traffic event.
-        <br /><br />
-        *Important: Nested objects are not available when you use `flat` as representation, refer to them directly instead.*
-      properties:
-        evcategory:
-          type: string
-        evseriesuuid:
-          type: string
-        evtransactiontime:
-          type: string
-        evdescription:
-          type: string
-        evstart:
-          type: string
-        evend:
-          type: string
-        evorigin:
-          type: string
-        evuuid:
-          type: string
-        evname:
-          type: string
-        evmetadata:
-          type: string
-        evlocation:
-          $ref: "#/components/schemas/location"
-        evprovenance:
-          $ref: "#/components/schemas/provenance"
     coordinate:
       description: |
         Coordinates: Latitude and longitude
