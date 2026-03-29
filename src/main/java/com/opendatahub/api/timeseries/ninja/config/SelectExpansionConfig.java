@@ -183,58 +183,6 @@ public class SelectExpansionConfig {
 
 		schema.add(edgetype);
 
-		TargetDefList location = TargetDefList
-			.init("location")
-			.setLookUp(new LookUp(LookUpType.INLINE, "event", "evlocation", "_locationid"))
-			.add(new TargetDef("evldescription", "loc.description"))
-			.add(new TargetDef("evlgeometry", "st_transform(loc.geometry, 4326)")
-				.setColumnFormat("st_asgeojson(%s, 9, 3)::jsonb"));
-
-		schema.add(location);
-
-		TargetDefList provenanceEvent = TargetDefList
-			.init("provenanceevent")
-			.setLookUp(new LookUp(LookUpType.INLINE, "event", "evprovenance", null))
-			.add(new TargetDef("prname", "pr.data_collector"))
-			.add(new TargetDef("prversion", "pr.data_collector_version"))
-			.add(new TargetDef("prlineage", "pr.lineage"));
-
-		schema.add(provenanceEvent);
-
-		TargetDefList event = TargetDefList
-			.init("event")
-			.setLookUp(new LookUp(LookUpType.MAP, "eventseries", "events", "_eventuuid"))
-			.add(new TargetDef("evcategory", "ev.category"))
-			.add(new TargetDef("evseriesuuid", "ev.event_series_uuid"))
-			.add(new TargetDef("evtransactiontime", "ev.created_on"))
-			.add(new TargetDef("evdescription", "ev.description"))
-			.add(new TargetDef("evstart", "lower(ev.event_interval)"))
-			.add(new TargetDef("evend", "upper(ev.event_interval)"))
-			.add(new TargetDef("evorigin", "ev.origin"))
-			.add(new TargetDef("evuuid", "ev.uuid"))
-			.add(new TargetDef("evname", "ev.name"))
-			.add(new TargetDef("evmetadata", "evm.json"))
-			.add(new TargetDef("evlocation", location))
-			.add(new TargetDef("evprovenance", provenanceEvent));
-
-		schema.add(event);
-
-		TargetDefList eventseries = TargetDefList
-			.init("eventseries")
-			.setLookUp(new LookUp(LookUpType.MAP, "eventorigin", "eventseries", "_eventseriesuuid"))
-			//.add(new TargetDef("evseriesuuid", "ev.event_series_uuid"))
-			.add(new TargetDef("events", event));
-
-		schema.add(eventseries);
-
-
-		TargetDefList eventorigin = TargetDefList
-			.init("eventorigin")
-			.setLookUp(new LookUp(LookUpType.MAP, null, null, "_eventorigin"))
-			.add(new TargetDef("eventseries", eventseries));
-
-		schema.add(eventorigin);
-
 		se = new SelectExpansion();
 		se.setSchema(schema);
 

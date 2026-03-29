@@ -1,5 +1,0 @@
-ADMIN.sql
-GUEST.sql
-BLC.sql
-A22_TRAFFICDATA.sql
-A22.sql

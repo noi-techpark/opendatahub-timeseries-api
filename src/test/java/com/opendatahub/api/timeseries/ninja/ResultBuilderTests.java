@@ -249,26 +249,4 @@ public class ResultBuilderTests {
 				result);
 	}
 
-	@Test
-	public void testNewGenericResultBuilderEvents() {
-
-		Map<String, Object> rec1 = ConditionalMap.mapOf(
-				"_eventorigin", "A22",
-				"_eventseriesuuid", "series3",
-				"_eventuuid", "ev1",
-				"_locationid", "location1",
-				"evuuid", "ev1",
-				"evseriesuuid", "series3",
-				"evldescription", null).get();
-
-		List<Map<String, Object>> resultList = new ArrayList<>();
-		resultList.add(rec1);
-
-		String result = ResultBuilder.build(rbConfig.setEntryPoint("eventorigin").setShowNull(true), resultList).toString();
-
-		assertEquals(
-				"{A22={eventseries={series3={events={ev1={evlocation={evldescription=null}, evprovenance={}, evseriesuuid=series3, evuuid=ev1}}}}}}",
-				result);
-	}
-
 }

@@ -140,10 +140,8 @@ public class DataController {
 		DataFetcher dataFetcher = new DataFetcher();
 		if (rep.isEdge()) {
 			queryResult = dataFetcher.fetchEdgeTypes(rep);
-		} else if (rep.isNode()) {
-			queryResult = dataFetcher.fetchStationTypes(rep);
 		} else {
-			queryResult = dataFetcher.fetchEventOrigins(rep);
+			queryResult = dataFetcher.fetchStationTypes(rep);
 		}
 		String baseUrl = getBaseUrlFromRequest(request);
 		String url = baseUrl + "/" + pathvar1 + "/";
@@ -169,14 +167,6 @@ public class DataController {
 				case TREE_EDGE:
 					selfies = new HashMap<>();
 					selfies.put("edges", url + row.get("id"));
-					row.put("self", selfies);
-					break;
-				case FLAT_EVENT:
-					row.put("self.events", url + row.get("id"));
-					break;
-				case TREE_EVENT:
-					selfies = new HashMap<>();
-					selfies.put("events", url + row.get("id"));
 					row.put("self", selfies);
 					break;
 			}
@@ -222,12 +212,6 @@ public class DataController {
 				entryPoint = "stationtype";
 				exitPoint = "station";
 				break;
-			case FLAT_EVENT:
-			case TREE_EVENT:
-				queryResult = dataFetcher.fetchEvents(pathvar2, false, null, null, repr);
-				entryPoint = "eventorigin";
-				exitPoint = "location";
-				break;
 			case FLAT_EDGE:
 			case TREE_EDGE:
 				queryResult = dataFetcher.fetchEdges(pathvar2, repr);
@@ -254,8 +238,8 @@ public class DataController {
 
 	/**
 	 * @param pathvar1 Representation
-	 * @param pathvar2 stations | eventorigin
-	 * @param pathvar3 datatypes | "latest" or start-timepoint
+	 * @param pathvar2 stations
+	 * @param pathvar3 datatypes | "latest"
 	 */
 	@GetMapping(value = "/{pathvar1}/{pathvar2}/{pathvar3}", produces = "application/json;charset=UTF-8")
 	public @ResponseBody String requestLevel03(
@@ -292,20 +276,6 @@ public class DataController {
 				queryResult = dataFetcher.fetchStationsAndTypes(pathvar2, pathvar3, repr);
 				entryPoint = "stationtype";
 				exitPoint = "datatype";
-				break;
-			case FLAT_EVENT:
-			case TREE_EVENT:
-				if ("latest".equalsIgnoreCase(pathvar3)) {
-					queryResult = dataFetcher.fetchEvents(pathvar2, true, null, null, repr);
-				} else {
-					queryResult = dataFetcher.fetchEvents(
-							pathvar2,
-							false,
-							getDateTime(pathvar3).toOffsetDateTime(),
-							null,
-							repr);
-				}
-				entryPoint = "eventorigin";
 				break;
 			default:
 				break;
@@ -373,16 +343,6 @@ public class DataController {
 							repr);
 					entryPoint = "stationtype";
 				}
-				break;
-			case FLAT_EVENT:
-			case TREE_EVENT:
-				queryResult = dataFetcher.fetchEvents(
-						pathvar2,
-						false,
-						getDateTime(pathvar3).toOffsetDateTime(),
-						getDateTime(pathvar4).toOffsetDateTime(),
-						repr);
-				entryPoint = "eventorigin";
 				break;
 			default:
 				break;
@@ -514,12 +474,10 @@ public class DataController {
 		switch (representation) {
 			case FLAT_EDGE:
 			case FLAT_NODE:
-			case FLAT_EVENT:
 				result.put("data", queryResult);
 				break;
 			case TREE_NODE:
 			case TREE_EDGE:
-			case TREE_EVENT:
 				result.put("data", ResultBuilder.build(builderConfig, queryResult));
 				break;
 		}

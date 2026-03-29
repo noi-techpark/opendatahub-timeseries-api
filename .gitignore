@@ -3,7 +3,6 @@
 persistence.xml
 application-*.properties
 database.properties
-.env
 
 # Taken from https://github.com/spring-projects/spring-boot/blob/master/.gitignore
 *#
@@ -47,5 +46,6 @@ transaction-logs
 secrets.yml
 .gradletasknamecache
 .sts4-cache
-.vscode
 .m2/
+config.bat
+node_modules
