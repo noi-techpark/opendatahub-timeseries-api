@@ -17,22 +17,22 @@ public class UtilsTests {
 		Representation r = Representation.get("edge,flat");
 		assertEquals(true, r.isEdge());
 		assertEquals(true, r.isFlat());
-		assertEquals(false, r.isEvent());
+		assertEquals(false, r.isNode());
 
-		r = Representation.get("event,flat");
+		r = Representation.get("node,flat");
 		assertEquals(false, r.isEdge());
 		assertEquals(true, r.isFlat());
-		assertEquals(true, r.isEvent());
-
-		r = Representation.get("event,tree");
-		assertEquals(false, r.isEdge());
-		assertEquals(false, r.isFlat());
-		assertEquals(true, r.isEvent());
+		assertEquals(true, r.isNode());
 
 		r = Representation.get("node,tree");
 		assertEquals(false, r.isEdge());
 		assertEquals(false, r.isFlat());
-		assertEquals(false, r.isEvent());
+		assertEquals(true, r.isNode());
+
+		r = Representation.get("edge,tree");
+		assertEquals(true, r.isEdge());
+		assertEquals(false, r.isFlat());
+		assertEquals(false, r.isNode());
 	}
 
 }

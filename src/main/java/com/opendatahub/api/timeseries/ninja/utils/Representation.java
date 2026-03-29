@@ -16,12 +16,10 @@ public enum Representation {
 	TREE_NODE,
 	FLAT_NODE,
 	TREE_EDGE,
-	FLAT_EDGE,
-	TREE_EVENT,
-	FLAT_EVENT;
+	FLAT_EDGE;
 
 	private enum ErrorCode implements ErrorCodeInterface {
-		WRONG_REPRESENTATION("Please choose 'flat' or 'tree' as representation, and 'event', 'edge' or 'node' (default) as dataset. Separate them with a comma. '%s' is not allowed.");
+		WRONG_REPRESENTATION("Please choose 'flat' or 'tree' as representation, and 'edge' or 'node' (default) as dataset. Separate them with a comma. '%s' is not allowed.");
 
 		private final String msg;
 
@@ -46,18 +44,12 @@ public enum Representation {
 			if (resultSet.contains("edge")) {
 				return Representation.FLAT_EDGE;
 			}
-			if (resultSet.contains("event")) {
-				return Representation.FLAT_EVENT;
-			}
 			if (resultSet.size() == 1 || resultSet.contains("node")) {
 				return Representation.FLAT_NODE;
 			}
 		} else if (resultSet.contains("tree")) {
 			if (resultSet.contains("edge")) {
 				return Representation.TREE_EDGE;
-			}
-			if (resultSet.contains("event")) {
-				return Representation.TREE_EVENT;
 			}
 			if (resultSet.size() == 1 || resultSet.contains("node")) {
 				return Representation.TREE_NODE;
@@ -80,10 +72,6 @@ public enum Representation {
 
 	public boolean isEdge() {
 		return this.ordinal() == 2 || this.ordinal() == 3;
-	}
-
-	public boolean isEvent() {
-		return this.ordinal() == 4 || this.ordinal() == 5;
 	}
 
 	@Override
