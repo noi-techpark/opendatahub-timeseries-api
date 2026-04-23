@@ -7,17 +7,17 @@ info:
   title: Open Data Hub Timeseries / Mobility API
   description: >
     ## About this API
-    
-    This API exposes both historical and up to date time series data in a common format.  
 
-    [Datasets available on the Open Data Hub](https://opendatahub.com/datasets/)  
-      
+    This API exposes both historical and up to date time series data in a common format.
+
+    [Datasets available on the Open Data Hub](https://opendatahub.com/datasets/)
+
     ## Data model
-    
-    Time series data are a series of **measurements** of a common **type**, measured by a **station**  
+
+    Time series data are a series of **measurements** of a common **type**, measured by a **station**
 
     ### Station
-    
+
     A station represents a location or device where measurements are taken.
      - `stype`: e.g. `ParkingStation`, `MeteoStation`
      - `sactive`: whether the station is still being updated. Filter for `sactive.eq.false` if you want up to date information
@@ -26,33 +26,33 @@ info:
      - `scoordinate`: where is this station located
      - `sorigin`: who provided this data
      - `smetadata`: A JSON object with additional information, depending on the provider
-     
+
      ### Type
 
     Every measurement has a type, e.g. `temperature` or `free` to indicate the number of available parking spaces
-     - `tname`: unique identifier of the type `temperature` 
+     - `tname`: unique identifier of the type `temperature`
      - `t...`: additional information about the type
-     
+
      ### Measurement
       - `mvalidtime`: timestamp of the measurement
       - `mvalue`: the measured value. Number, string or json object
       - `mperiod`: update frequency of this timeseries in seconds. Depending on the dataset this might be an approximation
-      
+
     ### Others
      - `pr...` provenance: technical information about the data collection
      - `p...` parent: Some stations have a parent station
-    
+
     ### Representation
-    
-    You choose whether you want the response flattened as an array (`flat`) or as a hierarchical structure (`tree`).  
-    The data is the same, just structured differently.  
-    
+
+    You choose whether you want the response flattened as an array (`flat`) or as a hierarchical structure (`tree`).
+    The data is the same, just structured differently.
+
     ## Additional Documentation
      - [Mobility Datasets](https://docs.opendatahub.com/en/latest/datasets.html#datasets-in-the-mobility-domain)
      - [Getting Started](https://docs.opendatahub.com/en/latest/howto/mobility/getstarted.html)
      - [General Howtos](https://docs.opendatahub.com/en/latest/howto.html)
      - [Source Code](https://github.com/noi-techpark/opendatahub-timeseries-api)
-    
+
 
   termsOfService: https://docs.opendatahub.com/en/latest/licenses.html#apis-terms-of-service
   contact:
@@ -68,17 +68,19 @@ servers:
 tags:
   - name: General
     description: Entry points to discover data
-  - name: Station / time series
-    description: "representation `*,node` or `*,edge`"
+  - name: Timeseries
+    description: Time series measurements at stations
+  - name: Edges
+    description: Edge data connecting two stations
   - name: Events
-    description: "representation `*,event`"
+    description: "**Deprecated** — Events are slated for removal"
 paths:
   # V2 ----------------------------------------------------------------------------------------
   /v2/:
     get:
       tags:
         - General
-      summary: View a list of entry points to the Open Data Hub Mobility domain
+      summary: List entry points to the Open Data Hub Timeseries
       security:
         - OAuth2: []
       parameters:
@@ -104,10 +106,8 @@ paths:
   /v2/{representation}:
     get:
       tags:
-        - General
-        - Station / time series
-        - Events
-      summary: View a list of all station or edge types (categories)
+        - Timeseries
+      summary: List all station types
       security:
         - OAuth2: []
       parameters:
@@ -131,27 +131,79 @@ paths:
         404:
           description: Not Found
           content: {}
-  /v2/{representation}/{stationTypes}:
+  /v2/{representation},edge:
     get:
       tags:
-        - Station / time series
-      summary: View station details of given stationtypes
-      description:
-        You can put multiple stationtypes as comma-seperated lists. The response
-        contains stations (prefix <code>s</code>) and their parent-stations
-        (prefix <code>p</code>). Each JSON attribute is prefixed with the
-        letters of that object.
+        - Edges
+      summary: List all edge types
       security:
         - OAuth2: []
       parameters:
-        - $ref: "#/components/parameters/representationnode"
+        - $ref: "#/components/parameters/representationedge"
+        - $ref: "#/components/parameters/origin"
+      responses:
+        200:
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+        401:
+          description: Unauthorized
+          content: {}
+        403:
+          description: Forbidden
+          content: {}
+        404:
+          description: Not Found
+          content: {}
+  /v2/{representation},event:
+    get:
+      tags:
+        - Events
+      deprecated: true
+      summary: List all event origins
+      security:
+        - OAuth2: []
+      parameters:
+        - $ref: "#/components/parameters/representationevent"
+        - $ref: "#/components/parameters/origin"
+      responses:
+        200:
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+        401:
+          description: Unauthorized
+          content: {}
+        403:
+          description: Forbidden
+          content: {}
+        404:
+          description: Not Found
+          content: {}
+  /v2/{representation}/{stationTypes}:
+    get:
+      tags:
+        - Timeseries
+      summary: Stations for given station type(s)
+      security:
+        - OAuth2: []
+      parameters:
+        - $ref: "#/components/parameters/representation"
         - $ref: "#/components/parameters/stationTypes"
+        - $ref: "#/components/parameters/where"
+        - $ref: "#/components/parameters/select"
         - $ref: "#/components/parameters/limit"
         - $ref: "#/components/parameters/offset"
-        - $ref: "#/components/parameters/select"
-        - $ref: "#/components/parameters/where"
-        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/distinct"
+        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/origin"
       responses:
         200:
@@ -169,27 +221,23 @@ paths:
         404:
           description: Not Found
           content: {}
-  /v2/{representation}/{edgeTypes}:
+  /v2/{representation},edge/{edgeTypes}:
     get:
       tags:
-        - Station / time series
-      summary: View edge details of given edgetypes
-      description:
-        You can put multiple edgetypes as comma-seperated list. The response
-        contains edges (prefix <code>e</code>) and their beginning and ending
-        station (prefix <code>sb</code> and <code>se</code>). Each JSON
-        attribute is prefixed with the letters of that object.
+        - Edges
+      summary: Edge details for given edge types
+      description: Multiple edge types supported as comma-separated values. Response fields prefixed with `e` (edge), `sb` (start station) and `se` (end station).
       security:
         - OAuth2: []
       parameters:
         - $ref: "#/components/parameters/representationedge"
         - $ref: "#/components/parameters/edgeTypes"
+        - $ref: "#/components/parameters/where"
+        - $ref: "#/components/parameters/select"
         - $ref: "#/components/parameters/limit"
         - $ref: "#/components/parameters/offset"
-        - $ref: "#/components/parameters/select"
-        - $ref: "#/components/parameters/where"
-        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/distinct"
+        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/origin"
       responses:
         200:
@@ -207,27 +255,24 @@ paths:
         404:
           description: Not Found
           content: {}
-  /v2/{representation}/{eventorigins}:
+  /v2/{representation},event/{eventorigins}:
     get:
       tags:
         - Events
-      summary: View events of given origins
-      description:
-        You can put multiple origins as comma-seperated list. The response
-        contains events (prefix <code>ev</code>), their locations (prefix
-        <code>evl</code>) and provenance (prefix <code>pr</code>). Each
-        JSON attribute is prefixed with the letters of that object.
+      deprecated: true
+      summary: Events for given origins
+      description: Multiple origins supported as comma-separated values. Response fields prefixed with `ev` (event), `evl` (location) and `pr` (provenance).
       security:
         - OAuth2: []
       parameters:
         - $ref: "#/components/parameters/representationevent"
         - $ref: "#/components/parameters/eventorigins"
+        - $ref: "#/components/parameters/where"
+        - $ref: "#/components/parameters/select"
         - $ref: "#/components/parameters/limit"
         - $ref: "#/components/parameters/offset"
-        - $ref: "#/components/parameters/select"
-        - $ref: "#/components/parameters/where"
-        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/distinct"
+        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/origin"
       responses:
         200:
@@ -245,27 +290,24 @@ paths:
         404:
           description: Not Found
           content: {}
-  /v2/{representation}/{eventorigins}/latest:
+  /v2/{representation},event/{eventorigins}/latest:
     get:
       tags:
         - Events
-      summary: View events of given origins, but only the latest ones grouped by origin and evseriesuuid
+      deprecated: true
+      summary: Latest events per origin and series UUID
+      description: Multiple origins supported as comma-separated values. Response fields prefixed with `ev` (event), `evl` (location) and `pr` (provenance).
       security:
         - OAuth2: []
-      description:
-        You can put multiple origins as comma-seperated list. The response
-        contains events (prefix <code>ev</code>), their locations (prefix
-        <code>evl</code>) and provenance (prefix <code>pr</code>). Each
-        JSON attribute is prefixed with the letters of that object.
       parameters:
         - $ref: "#/components/parameters/representationevent"
         - $ref: "#/components/parameters/eventorigins"
+        - $ref: "#/components/parameters/where"
+        - $ref: "#/components/parameters/select"
         - $ref: "#/components/parameters/limit"
         - $ref: "#/components/parameters/offset"
-        - $ref: "#/components/parameters/select"
-        - $ref: "#/components/parameters/where"
-        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/distinct"
+        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/origin"
       responses:
         200:
@@ -283,28 +325,25 @@ paths:
         404:
           description: Not Found
           content: {}
-  /v2/{representation}/{eventorigins}/{timepoint}:
+  /v2/{representation},event/{eventorigins}/{timepoint}:
     get:
       tags:
         - Events
-      summary: View events of given origins, that are active at a certain point in time
+      deprecated: true
+      summary: Events active at a given point in time
+      description: Multiple origins supported as comma-separated values. Response fields prefixed with `ev` (event), `evl` (location) and `pr` (provenance).
       security:
         - OAuth2: []
-      description:
-        You can put multiple origins as comma-seperated list. The response
-        contains events (prefix <code>ev</code>), their locations (prefix
-        <code>evl</code>) and provenance (prefix <code>pr</code>). Each
-        JSON attribute is prefixed with the letters of that object.
       parameters:
         - $ref: "#/components/parameters/representationevent"
         - $ref: "#/components/parameters/eventorigins"
         - $ref: "#/components/parameters/timepoint"
+        - $ref: "#/components/parameters/where"
+        - $ref: "#/components/parameters/select"
         - $ref: "#/components/parameters/limit"
         - $ref: "#/components/parameters/offset"
-        - $ref: "#/components/parameters/select"
-        - $ref: "#/components/parameters/where"
-        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/distinct"
+        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/origin"
       responses:
         200:
@@ -322,29 +361,26 @@ paths:
         404:
           description: Not Found
           content: {}
-  /v2/{representation}/{eventorigins}/{from}/{to}:
+  /v2/{representation},event/{eventorigins}/{from}/{to}:
     get:
       tags:
         - Events
-      summary: View events of given origins, that are active at a certain time interval
+      deprecated: true
+      summary: Events active within a time interval
+      description: Multiple origins supported as comma-separated values. Response fields prefixed with `ev` (event), `evl` (location) and `pr` (provenance).
       security:
         - OAuth2: []
-      description:
-        You can put multiple origins as comma-seperated list. The response
-        contains events (prefix <code>ev</code>), their locations (prefix
-        <code>evl</code>) and provenance (prefix <code>pr</code>). Each
-        JSON attribute is prefixed with the letters of that object.
       parameters:
         - $ref: "#/components/parameters/representationevent"
         - $ref: "#/components/parameters/eventorigins"
         - $ref: "#/components/parameters/from"
         - $ref: "#/components/parameters/to"
+        - $ref: "#/components/parameters/where"
+        - $ref: "#/components/parameters/select"
         - $ref: "#/components/parameters/limit"
         - $ref: "#/components/parameters/offset"
-        - $ref: "#/components/parameters/select"
-        - $ref: "#/components/parameters/where"
-        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/distinct"
+        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/origin"
       responses:
         200:
@@ -365,28 +401,20 @@ paths:
   /v2/{representation}/{stationTypes}/{dataTypes}:
     get:
       tags:
-        - Station / time series
+        - Timeseries
       security:
         - OAuth2: []
-      summary:
-        View station details of stations with a given station type including
-        associated data types
-      description:
-        You can put multiple stationtypes or datatypes as comma-seperated lists.
-        The response contains stations (prefix <code>s</code>), their
-        parent-stations (prefix <code>p</code>) and types (prefix
-        <code>t</code>). Each JSON attribute is prefixed with the letters
-        of that object.
+      summary: Stations with available data types
       parameters:
         - $ref: "#/components/parameters/representation"
         - $ref: "#/components/parameters/stationTypes"
         - $ref: "#/components/parameters/dataTypes"
+        - $ref: "#/components/parameters/where"
+        - $ref: "#/components/parameters/select"
         - $ref: "#/components/parameters/limit"
         - $ref: "#/components/parameters/offset"
-        - $ref: "#/components/parameters/select"
-        - $ref: "#/components/parameters/where"
-        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/distinct"
+        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/origin"
       responses:
         200:
@@ -407,29 +435,20 @@ paths:
   /v2/{representation}/{stationTypes}/{dataTypes}/latest:
     get:
       tags:
-        - Station / time series
+        - Timeseries
       security:
         - OAuth2: []
-      summary:
-        View details of all given station types including data types and most recent
-        measurements
-      description:
-        You can put multiple stationtypes or datatypes as comma-seperated lists.
-        The response contains stations (prefix <code>s</code>), their
-        parent-stations (prefix <code>p</code>), types (prefix <code>t</code>)
-        and the latest measurements (prefix <code>m</code>) and their provenance
-        (prefix <code>pr</code>). Each JSON attribute is prefixed with the
-        letters of that object.
+      summary: Latest measurements for given station and data types
       parameters:
         - $ref: "#/components/parameters/representation"
         - $ref: "#/components/parameters/stationTypes"
         - $ref: "#/components/parameters/dataTypes"
+        - $ref: "#/components/parameters/where"
+        - $ref: "#/components/parameters/select"
         - $ref: "#/components/parameters/limit"
         - $ref: "#/components/parameters/offset"
-        - $ref: "#/components/parameters/select"
-        - $ref: "#/components/parameters/where"
-        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/distinct"
+        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/timezone"
         - $ref: "#/components/parameters/origin"
       responses:
@@ -451,17 +470,8 @@ paths:
   /v2/{representation}/{stationTypes}/{dataTypes}/{from}/{to}:
     get:
       tags:
-        - Station / time series
-      summary:
-        View details of all given station types including data types and historical
-        measurements
-      description:
-        You can put multiple stationtypes or datatypes as comma-seperated lists.
-        The response contains stations (prefix <code>s</code>), their
-        parent-stations (prefix <code>p</code>), types (prefix <code>t</code>)
-        and the latest measurements (prefix <code>m</code>) and their provenance
-        (prefix <code>pr</code>). Each JSON attribute is prefixed with the
-        letters of that object.
+        - Timeseries
+      summary: Historical measurements for given station and data types
       security:
         - OAuth2: []
       parameters:
@@ -470,12 +480,12 @@ paths:
         - $ref: "#/components/parameters/dataTypes"
         - $ref: "#/components/parameters/from"
         - $ref: "#/components/parameters/to"
+        - $ref: "#/components/parameters/where"
+        - $ref: "#/components/parameters/select"
         - $ref: "#/components/parameters/limit"
         - $ref: "#/components/parameters/offset"
-        - $ref: "#/components/parameters/select"
-        - $ref: "#/components/parameters/where"
-        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/distinct"
+        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/timezone"
         - $ref: "#/components/parameters/origin"
       responses:
@@ -497,15 +507,9 @@ paths:
   /v2/{representation}/{stationTypes}/metadata/{from}/{to}:
     get:
       tags:
-        - Station / time series
-      summary:
-        View metadata history of given station types
-      description:
-        You can put multiple stationtypes as comma-seperated lists.
-        The response contains stations (prefix <code>s</code>), their
-        parent-stations (prefix <code>p</code>), and metadata history (prefix <code>mh</code>). 
-        Each JSON attribute is prefixed with the
-        letters of that object.
+        - Timeseries
+      deprecated: true
+      summary: Metadata history for given station types
       security:
         - OAuth2: []
       parameters:
@@ -513,12 +517,12 @@ paths:
         - $ref: "#/components/parameters/stationTypes"
         - $ref: "#/components/parameters/from"
         - $ref: "#/components/parameters/to"
+        - $ref: "#/components/parameters/where"
+        - $ref: "#/components/parameters/select"
         - $ref: "#/components/parameters/limit"
         - $ref: "#/components/parameters/offset"
-        - $ref: "#/components/parameters/select"
-        - $ref: "#/components/parameters/where"
-        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/distinct"
+        - $ref: "#/components/parameters/shownull"
         - $ref: "#/components/parameters/timezone"
         - $ref: "#/components/parameters/origin"
       responses:
@@ -544,34 +548,20 @@ components:
     representation:
       name: representation
       in: path
-      description:
-        Do you want to have the result in a <code>tree</code> or
-        <code>flat</code> representation, and do you want to get
-        <code>node</code> (=station), <code>edge</code> or <code>event</code>
-        information. Add them as comma-separated values.
+      description: |
+        Output structure: `flat` (array) or `tree` (hierarchical).
+        Same as `flat,node`, `tree,node`.
+        See **Representation** in the introduction.
       required: true
       schema:
         type: string
-        default: flat,node
-    representationnode:
-      name: representation
-      in: path
-      description:
-        Do you want to have the result in a <code>tree</code> or
-        <code>flat</code> representation? The type of the map element is
-        <code>node</code> (=station) or can also be omitted, since it is the
-        default.
-      required: true
-      schema:
-        type: string
-        default: flat,node
+        default: flat
     representationedge:
       name: representation
       in: path
-      description:
-        Do you want to have the result in a <code>tree</code> or
-        <code>flat</code> representation? The type of the map element is
-        <code>edge</code>.
+      description: |
+        Output structure including type: `flat,edge` or `tree,edge`.
+        See **Representation** in the introduction.
       required: true
       schema:
         type: string
@@ -579,10 +569,9 @@ components:
     representationevent:
       name: representation
       in: path
-      description:
-        Do you want to have the result in a <code>tree</code> or
-        <code>flat</code> representation? The type of the map element is
-        <code>event</code>.
+      description: |
+        Output structure including type: `flat,event` or `tree,event`.
+        See **Representation** in the introduction.
       required: true
       schema:
         type: string
@@ -590,9 +579,7 @@ components:
     stationTypes:
       name: stationTypes
       in: path
-      description:
-        Station types or categories. Multiple types possible as comma-separated-values.
-        All types with <code>*</code>.
+      description: Station types as comma-separated values. Use `*` for all.
       required: true
       schema:
         type: string
@@ -600,9 +587,7 @@ components:
     edgeTypes:
       name: edgeTypes
       in: path
-      description:
-        Edge types or categories. Multiple types possible as comma-separated-values.
-        All types with <code>*</code>.
+      description: Edge types as comma-separated values. Use `*` for all.
       required: true
       schema:
         type: string
@@ -610,9 +595,7 @@ components:
     dataTypes:
       name: dataTypes
       in: path
-      description:
-        Data types. Multiple types possible as comma-separated-values.
-        All types with <code>*</code>.
+      description: Data types as comma-separated values. Use `*` for all.
       required: true
       schema:
         type: string
@@ -620,9 +603,7 @@ components:
     eventorigins:
       name: eventorigins
       in: path
-      description:
-        Origins of events, that is, the name of sources. Multiple origins
-        possible as comma-separated-values. All origins with <code>*</code>.
+      description: Event origins (source names) as comma-separated values. Use `*` for all.
       required: true
       schema:
         type: string
@@ -630,79 +611,39 @@ components:
     timepoint:
       name: timepoint
       in: path
-      description:
-        Date or date-time format to denote a point in time. The format is
-        <code>yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]</code>, where [] denotes
-        optionality. Z is the timezone, for instance, +0200.
+      description: "Point in time. Format: `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]` (e.g. `2024-01-15T10:30:00+0200`)"
       required: true
       schema:
         type: string
     from:
       name: from
       in: path
-      description:
-        Date or date-time format, that forms a half-open interval [from,
-        to). The format is <code>yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]</code>, where
-        [] denotes optionality. Z is the timezone, for instance, +0200.
+      description: "Start of a half-open interval [from, to). Format: `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]`"
       required: true
       schema:
         type: string
     to:
       name: to
       in: path
-      description:
-        Date or date-time format, that forms a half-open interval [from,
-        to). The format is <code>yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]</code>, where
-        [] denotes optionality. Z is the timezone, for instance, +0200.
+      description: "End of a half-open interval [from, to). Format: `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]`"
       required: true
-      schema:
-        type: string
-    limit:
-      name: limit
-      in: query
-      description: The limit of the response. Set it to -1 to disable it.
-      schema:
-        type: integer
-        format: int64
-        default: 200
-    offset:
-      name: offset
-      in: query
-      description:
-        The offset of the response list. To simulate pagination, together
-        with limit.
-      schema:
-        type: integer
-        format: int64
-        default: 0
-    timezone:
-      name: timezone
-      in: query
-      description: Set an optional timezone for all response timestamps. See java.time.ZoneId for further information.
-      schema:
-        type: string
-        default: UTC
-    select:
-      name: select
-      in: query
-      description: >
-        Select <code>aliases</code>, which will be used to build the
-        response. Multiple aliases possible as comma-separated-values. Example:
-        <code>sname</code> or <code>smetadata.city.cap</code> <code>mvalue.nested_field</code> for JSON.
-        yet)
       schema:
         type: string
     where:
       name: where
       in: query
-      description: |-
-        Filter the result with filter-triples, like <code>alias.operator.value_or_list</code>
+      description: |
+        Filter results with one or more conditions in the form `field.operator.value`.
+        Separate multiple conditions with commas — they are combined with AND.
 
-        <code>values_or_list</code>
-         -   value: Whatever you want, also a regular expression. However, you need to escape <code>,'"</code> with a <code>\\</code>. Use url-encoded values, if your tool does not support certain characters.
-         -   list: <code>(value,value,value)</code>
+        **`eq` examples**
+        - `sactive.eq.true` only active stations
+        - `scode.eq."200"` station with code "200" (quoted to force string match)
+        - `sorigin.eq."Neogy"` stations from the Neogy data provider
+        - `smetadata.city.eq."Bolzano"` drill into nested JSON metadata
+        - `description.eq.null` field is not set
 
-        <code>operator</code>
+        **Operators**
          -   eq: Equal
          -   neq: Not Equal
          -   lt: Less Than
@@ -713,33 +654,51 @@ components:
          -   ire: Insensitive Regular Expression
          -   nre: Negated Regular Expression
          -   nire: Negated Insensitive Regular Expression
-         -   bbi: Bounding box intersecting objects (ex., a street that is only partially covered by the box). Syntax? See below.
-         -   bbc: Bounding box containing objects (ex., a station or street, that is completely covered by the box). Syntax? See below.
-         -   dlt: Within distance (in meters) from point. [Learn more and see examples](https://github.com/noi-techpark/odh-docs/wiki/Time-series-API-filter-operators#dlt-operator)
-         -   in: True, if the value of the alias can be found within the given list. Example: name.in.(Peter,Patrick,Rudi)
-         -   nin: False, if the value of the alias can be found within the given list. Example: name.nin.(Peter,Patrick,Rudi)
+         -   bbi: Bounding box intersecting objects.  
+             Syntax: left-x, left-y, right-x, right-y, SRID (optional, default 4326)  
+             `coordinate.bbi.(11,46,12,47,4326)`  
+         -   bbc: Bounding box containing objects. Same syntax as bbi.
+         -   dlt: Within distance in meters from a point.  
+             Syntax: distance, point-x, point-y, SRID (optional, default 4326)  
+             e.g. `coordinate.dlt.(5000,11.2,46.7,4326)`
+         -   in: Value found in list. Example: `name.in.(Peter,Patrick,Rudi)`
+         -   nin: Value not found in list. Example: `name.nin.(Peter,Patrick,Rudi)`
 
+        Numbers are auto-cast to numeric type.  
+        `"` quote values to force string comparison.
 
-        <code>logical operations</code>
-         -   and(alias.operator.value_or_list,...): Conjunction of filters (can be nested)
-         -   or(alias.operator.value_or_list,...): Disjunction of filters (can be nested)
-
-        Multiple conditions possible as comma-separated-values. <code>value</code>s will be casted to Double precision or <code>null</code>, if possible. Put them inside double quotes, if you want to prevent that.
-
-        Example-syntax for bbi/bbc could be <code>coordinate.bbi.(11,46,12,47,4326)</code>, where the ordering inside the list is left-x, left-y, right-x, right-y and SRID (optional, default 4326).
-
-        Example-syntax for dlt could be <code>coordinate.dlt.(5000,11.2,46.7,4326)</code>, where the ordering inside the list is distance (in meters), point-x, point-y and SRID (optional, default 4326).
+        **Logical grouping**
+        - `and(cond,cond,...)`
+        - `or(cond,cond,...)`
+        
+        nestable, e.g. `or(scode.eq."A",scode.eq."B")`
       schema:
         type: string
-    shownull:
-      name: shownull
+    select:
+      name: select
       in: query
-      description:
-        Should JSON keys with null-values be returned, or removed from
-        the response-JSON.
+      description: |
+        Comma-separated list of fields to include in the response.
+        Field names must match exactly as they appear in the output, including nested JSON paths.
+        Example: `sname,scode,smetadata.city.cap`
       schema:
-        type: boolean
-        default: false
+        type: string
+    limit:
+      name: limit
+      in: query
+      description: Max number of results. Set to -1 to disable.
+      schema:
+        type: integer
+        format: int64
+        default: 200
+    offset:
+      name: offset
+      in: query
+      description: Pagination offset, used together with `limit`.
+      schema:
+        type: integer
+        format: int64
+        default: 0
     distinct:
       name: distinct
       in: query
@@ -747,10 +706,24 @@ components:
       schema:
         type: boolean
         default: true
+    shownull:
+      name: shownull
+      in: query
+      description: Include JSON keys with null values in the response.
+      schema:
+        type: boolean
+        default: false
+    timezone:
+      name: timezone
+      in: query
+      description: Timezone for response timestamps (java.time.ZoneId format).
+      schema:
+        type: string
+        default: UTC
     origin:
       name: origin
       in: query
-      description: Specify the origin or source of the call (like a user-client identifier).
+      description: Identify your application to us. Don't confuse with `sorigin`
       schema:
         type: string
         default: ""
@@ -959,22 +932,22 @@ components:
       properties:
         ename:
           type: string
-          description: Name of the ending measurement station
+          description: Name of the edge
         etype:
           type: string
-          description: Type of the ending measurement station
+          description: Type of the edge
         ecode:
           type: string
-          description: Unique ID of this measurement station (inside this `ptype`)
+          description: Unique ID of this edge (inside this `etype`)
         eorigin:
           type: string
-          description: Where did we get this station information from?
+          description: Where did we get this edge information from?
         eactive:
           type: boolean
-          description: Is this station still used? Has it had updates recently?
+          description: Is this edge still used? Has it had updates recently?
         eavailable:
           type: boolean
-          description: Should this station be visible to API consumers? (Do not use this, it will be removed. Only available stations are visible)
+          description: Should this edge be visible to API consumers? (Do not use this, it will be removed. Only available edges are visible)
           deprecated: true
         edirected:
           type: boolean
@@ -998,7 +971,7 @@ components:
     event:
       description: |
         ```
-        Prefix: e
+        Prefix: ev
         ```
         Event: A traffic event.
         <br /><br />
@@ -1045,11 +1018,10 @@ components:
     OAuth2:
       type: oauth2
       description: |-
-        This API uses OAuth2 with either 'Authorization Code'(for access through frontends) or 'Client Credentials'(for machine to machine) flows.
+        This API uses OAuth2 with either 'Authorization Code' (for frontends) or 'Client Credentials' (for machine-to-machine) flows.
 
-        - for authorizationCode flow use `client_id = opendatahub-swagger` if you are not sure and leave client_secret empty
-        
-        - for clientCredentials flow use the client_id and client_secret provided by the Open Data Hub team
+        - Authorization Code: use `client_id = opendatahub-swagger`, leave client_secret empty
+        - Client Credentials: use the client_id and client_secret provided by the Open Data Hub team
 
       flows:
         authorizationCode:
@@ -1057,5 +1029,3 @@ components:
           tokenUrl: __AUTH_SERVER_URL__/realms/noi/protocol/openid-connect/token
         clientCredentials:
           tokenUrl: __AUTH_SERVER_URL__/realms/noi/protocol/openid-connect/token
-
-
