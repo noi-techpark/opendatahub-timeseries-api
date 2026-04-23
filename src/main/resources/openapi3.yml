@@ -4,13 +4,56 @@
 
 openapi: 3.0.1
 info:
-  title: Open Data Hub Mobility API
+  title: Open Data Hub Timeseries / Mobility API
   description: >
-    Documentation:
-    [Mobility Datasets](https://docs.opendatahub.com/en/latest/datasets.html#datasets-in-the-mobility-domain) |
-    [Getting Started](https://docs.opendatahub.com/en/latest/howto/mobility/getstarted.html) |
-    [General Howtos](https://docs.opendatahub.com/en/latest/howto.html) |
-    [Source Code](https://github.com/noi-techpark/it.bz.opendatahub.api.mobility-ninja)
+    ## About this API
+    
+    This API exposes both historical and up to date time series data in a common format.  
+
+    [Datasets available on the Open Data Hub](https://opendatahub.com/datasets/)  
+      
+    ## Data model
+    
+    Time series data are a series of **measurements** of a common **type**, measured by a **station**  
+
+    ### Station
+    
+    A station represents a location or device where measurements are taken.
+     - `stype`: e.g. `ParkingStation`, `MeteoStation`
+     - `sactive`: whether the station is still being updated. Filter for `sactive.eq.false` if you want up to date information
+     - `scode`: an identifier unique for this station type
+     - `sname`: full text name of the station
+     - `scoordinate`: where is this station located
+     - `sorigin`: who provided this data
+     - `smetadata`: A JSON object with additional information, depending on the provider
+     
+     ### Type
+
+    Every measurement has a type, e.g. `temperature` or `free` to indicate the number of available parking spaces
+     - `tname`: unique identifier of the type `temperature` 
+     - `t...`: additional information about the type
+     
+     ### Measurement
+      - `mvalidtime`: timestamp of the measurement
+      - `mvalue`: the measured value. Number, string or json object
+      - `mperiod`: update frequency of this timeseries in seconds. Depending on the dataset this might be an approximation
+      
+    ### Others
+     - `pr...` provenance: technical information about the data collection
+     - `p...` parent: Some stations have a parent station
+    
+    ### Representation
+    
+    You choose whether you want the response flattened as an array (`flat`) or as a hierarchical structure (`tree`).  
+    The data is the same, just structured differently.  
+    
+    ## Additional Documentation
+     - [Mobility Datasets](https://docs.opendatahub.com/en/latest/datasets.html#datasets-in-the-mobility-domain)
+     - [Getting Started](https://docs.opendatahub.com/en/latest/howto/mobility/getstarted.html)
+     - [General Howtos](https://docs.opendatahub.com/en/latest/howto.html)
+     - [Source Code](https://github.com/noi-techpark/opendatahub-timeseries-api)
+    
+
   termsOfService: https://docs.opendatahub.com/en/latest/licenses.html#apis-terms-of-service
   contact:
     name: Open Data Hub
