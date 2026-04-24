@@ -94,6 +94,19 @@ paths:
                 type: array
                 items:
                   type: string
+              example:
+                - id: "flat,node"
+                  description: "Retrieve stations, data types and measurements in a flattened form"
+                  self: "https://mobility.api.opendatahub.com/v2/flat,node"
+                - id: "tree,node"
+                  description: "Retrieve stations, data types and measurements in a hierarchical form"
+                  self: "https://mobility.api.opendatahub.com/v2/tree,node"
+                - id: "flat,edge"
+                  description: "Retrieve edges in a flattened form"
+                  self: "https://mobility.api.opendatahub.com/v2/flat,edge"
+                - id: "tree,edge"
+                  description: "Retrieve edges in a hierarchical form"
+                  self: "https://mobility.api.opendatahub.com/v2/tree,edge"
         401:
           description: Unauthorized
           content: {}
@@ -122,6 +135,17 @@ paths:
                 type: array
                 items:
                   type: string
+              example:
+                - id: "ParkingStation"
+                  description: null
+                  "self.stations": "https://mobility.api.opendatahub.com/v2/flat/ParkingStation"
+                  "self.stations+datatypes": "https://mobility.api.opendatahub.com/v2/flat/ParkingStation/*"
+                  "self.stations+datatypes+measurements": "https://mobility.api.opendatahub.com/v2/flat/ParkingStation/*/latest"
+                - id: "MeteoStation"
+                  description: null
+                  "self.stations": "https://mobility.api.opendatahub.com/v2/flat/MeteoStation"
+                  "self.stations+datatypes": "https://mobility.api.opendatahub.com/v2/flat/MeteoStation/*"
+                  "self.stations+datatypes+measurements": "https://mobility.api.opendatahub.com/v2/flat/MeteoStation/*/latest"
         401:
           description: Unauthorized
           content: {}
@@ -150,6 +174,13 @@ paths:
                 type: array
                 items:
                   type: string
+              example:
+                - id: "LinkStation"
+                  description: null
+                  "self.edges": "https://mobility.api.opendatahub.com/v2/flat,edge/LinkStation"
+                - id: "TrafficStreetFactor"
+                  description: null
+                  "self.edges": "https://mobility.api.opendatahub.com/v2/flat,edge/TrafficStreetFactor"
         401:
           description: Unauthorized
           content: {}
@@ -212,6 +243,48 @@ paths:
             application/json:
               schema:
                 type: string
+              examples:
+                flat:
+                  summary: Flat list of stations
+                  value:
+                    offset: 0
+                    limit: 200
+                    data:
+                      - sactive: true
+                        savailable: true
+                        scode: "103"
+                        scoordinate:
+                          x: 11.355115
+                          y: 46.497805
+                          srid: 4326
+                        smetadata:
+                          capacity: 403
+                          municipality: "Bolzano - Bozen"
+                        sname: "P03 - Piazza Walther"
+                        sorigin: "FAMAS"
+                        stype: "ParkingStation"
+                tree:
+                  summary: Tree of stations grouped by type and code
+                  value:
+                    offset: 0
+                    limit: 200
+                    data:
+                      ParkingStation:
+                        stations:
+                          "103":
+                            sactive: true
+                            savailable: true
+                            scode: "103"
+                            scoordinate:
+                              x: 11.355115
+                              y: 46.497805
+                              srid: 4326
+                            smetadata:
+                              capacity: 403
+                              municipality: "Bolzano - Bozen"
+                            sname: "P03 - Piazza Walther"
+                            sorigin: "FAMAS"
+                            stype: "ParkingStation"
         401:
           description: Unauthorized
           content: {}
@@ -423,6 +496,60 @@ paths:
             application/json:
               schema:
                 type: string
+              examples:
+                flat:
+                  summary: Flat list of stations with their data types
+                  value:
+                    offset: 0
+                    limit: 200
+                    data:
+                      - sactive: true
+                        savailable: true
+                        scode: "103"
+                        scoordinate:
+                          x: 11.355115
+                          y: 46.497805
+                          srid: 4326
+                        smetadata:
+                          capacity: 403
+                          municipality: "Bolzano - Bozen"
+                        sname: "P03 - Piazza Walther"
+                        sorigin: "FAMAS"
+                        stype: "ParkingStation"
+                        tdescription: "free"
+                        tmetadata: {}
+                        tname: "free"
+                        ttype: "Instantaneous"
+                        tunit: ""
+                tree:
+                  summary: Tree of stations with nested data types
+                  value:
+                    offset: 0
+                    limit: 200
+                    data:
+                      ParkingStation:
+                        stations:
+                          "103":
+                            sactive: true
+                            savailable: true
+                            scode: "103"
+                            scoordinate:
+                              x: 11.355115
+                              y: 46.497805
+                              srid: 4326
+                            smetadata:
+                              capacity: 403
+                              municipality: "Bolzano - Bozen"
+                            sname: "P03 - Piazza Walther"
+                            sorigin: "FAMAS"
+                            stype: "ParkingStation"
+                            sdatatypes:
+                              free:
+                                tdescription: "free"
+                                tmetadata: {}
+                                tname: "free"
+                                ttype: "Instantaneous"
+                                tunit: ""
         401:
           description: Unauthorized
           content: {}
@@ -458,6 +585,77 @@ paths:
             application/json:
               schema:
                 type: string
+              examples:
+                flat:
+                  summary: Flat list of latest measurements
+                  value:
+                    offset: 0
+                    limit: 200
+                    data:
+                      - _timestamp: "2026-04-24 10:25:00.000+0000"
+                        mperiod: 300
+                        mtransactiontime: "2020-12-07 10:12:32.580+0000"
+                        mvalidtime: "2026-04-24 10:25:00.000+0000"
+                        mvalue: 192
+                        prlineage: "el-parking-free-slot-calculation"
+                        prname: "el-parking-free-slot-calculation"
+                        prversion: "f4f0f6386998f35cc657d2e34a7a791e9c454897"
+                        sactive: true
+                        savailable: true
+                        scode: "103"
+                        scoordinate:
+                          x: 11.355115
+                          y: 46.497805
+                          srid: 4326
+                        smetadata:
+                          capacity: 403
+                          municipality: "Bolzano - Bozen"
+                        sname: "P03 - Piazza Walther"
+                        sorigin: "FAMAS"
+                        stype: "ParkingStation"
+                        tdescription: "free"
+                        tmetadata: {}
+                        tname: "free"
+                        ttype: "Instantaneous"
+                        tunit: ""
+                tree:
+                  summary: Tree of latest measurements by station type, code, and data type
+                  value:
+                    offset: 0
+                    limit: 200
+                    data:
+                      ParkingStation:
+                        stations:
+                          "103":
+                            sactive: true
+                            savailable: true
+                            scode: "103"
+                            scoordinate:
+                              x: 11.355115
+                              y: 46.497805
+                              srid: 4326
+                            smetadata:
+                              capacity: 403
+                              municipality: "Bolzano - Bozen"
+                            sname: "P03 - Piazza Walther"
+                            sorigin: "FAMAS"
+                            stype: "ParkingStation"
+                            sdatatypes:
+                              free:
+                                tdescription: "free"
+                                tmetadata: {}
+                                tname: "free"
+                                ttype: "Instantaneous"
+                                tunit: ""
+                                tmeasurements:
+                                  - mperiod: 300
+                                    mprovenance:
+                                      prlineage: "el-parking-free-slot-calculation"
+                                      prname: "el-parking-free-slot-calculation"
+                                      prversion: "f4f0f6386998f35cc657d2e34a7a791e9c454897"
+                                    mtransactiontime: "2020-12-07 10:12:32.580+0000"
+                                    mvalidtime: "2026-04-24 10:25:00.000+0000"
+                                    mvalue: 192
         401:
           description: Unauthorized
           content: {}
@@ -495,6 +693,111 @@ paths:
             application/json:
               schema:
                 type: string
+              examples:
+                flat:
+                  summary: Flat list of historical measurements
+                  value:
+                    offset: 0
+                    limit: 200
+                    data:
+                      - _timestamp: "2023-12-31 22:00:02.000+0000"
+                        mperiod: 300
+                        mtransactiontime: "2023-12-31 22:04:32.114+0000"
+                        mvalidtime: "2023-12-31 22:00:02.000+0000"
+                        mvalue: 109
+                        prlineage: "NOI"
+                        prname: "odh-mobility-el-parking-free-slot-calculation"
+                        prversion: "c9f95b82331e2524b2921fb13cfadd1d75a59db2"
+                        sactive: true
+                        savailable: true
+                        scode: "103"
+                        scoordinate:
+                          x: 11.355115
+                          y: 46.497805
+                          srid: 4326
+                        smetadata:
+                          capacity: 403
+                          municipality: "Bolzano - Bozen"
+                        sname: "P03 - Piazza Walther"
+                        sorigin: "FAMAS"
+                        stype: "ParkingStation"
+                        tdescription: "free"
+                        tmetadata: {}
+                        tname: "free"
+                        ttype: "Instantaneous"
+                        tunit: ""
+                      - _timestamp: "2023-12-31 22:05:03.000+0000"
+                        mperiod: 300
+                        mtransactiontime: "2023-12-31 22:09:33.714+0000"
+                        mvalidtime: "2023-12-31 22:04:25.000+0000"
+                        mvalue: 109
+                        prlineage: "NOI"
+                        prname: "odh-mobility-el-parking-free-slot-calculation"
+                        prversion: "c9f95b82331e2524b2921fb13cfadd1d75a59db2"
+                        sactive: true
+                        savailable: true
+                        scode: "103"
+                        scoordinate:
+                          x: 11.355115
+                          y: 46.497805
+                          srid: 4326
+                        smetadata:
+                          capacity: 403
+                          municipality: "Bolzano - Bozen"
+                        sname: "P03 - Piazza Walther"
+                        sorigin: "FAMAS"
+                        stype: "ParkingStation"
+                        tdescription: "free"
+                        tmetadata: {}
+                        tname: "free"
+                        ttype: "Instantaneous"
+                        tunit: ""
+                tree:
+                  summary: Tree of historical measurements by station type, code, and data type
+                  value:
+                    offset: 0
+                    limit: 200
+                    data:
+                      ParkingStation:
+                        stations:
+                          "103":
+                            sactive: true
+                            savailable: true
+                            scode: "103"
+                            scoordinate:
+                              x: 11.355115
+                              y: 46.497805
+                              srid: 4326
+                            smetadata:
+                              capacity: 403
+                              municipality: "Bolzano - Bozen"
+                            sname: "P03 - Piazza Walther"
+                            sorigin: "FAMAS"
+                            stype: "ParkingStation"
+                            sdatatypes:
+                              free:
+                                tdescription: "free"
+                                tmetadata: {}
+                                tname: "free"
+                                ttype: "Instantaneous"
+                                tunit: ""
+                                tmeasurements:
+                                  - mperiod: 300
+                                    mprovenance:
+                                      prlineage: "NOI"
+                                      prname: "odh-mobility-el-parking-free-slot-calculation"
+                                      prversion: "c9f95b82331e2524b2921fb13cfadd1d75a59db2"
+                                    mtransactiontime: "2023-12-31 22:04:32.114+0000"
+                                    mvalidtime: "2023-12-31 22:00:02.000+0000"
+                                    mvalue: 109
+                                  - mperiod: 300
+                                    mprovenance:
+                                      prlineage: "NOI"
+                                      prname: "odh-mobility-el-parking-free-slot-calculation"
+                                      prversion: "c9f95b82331e2524b2921fb13cfadd1d75a59db2"
+                                    mtransactiontime: "2023-12-31 22:09:33.714+0000"
+                                    mvalidtime: "2023-12-31 22:04:25.000+0000"
+                                    mvalue: 109
         401:
           description: Unauthorized
           content: {}
@@ -556,6 +859,7 @@ components:
       schema:
         type: string
         default: flat
+      example: flat
     representationedge:
       name: representation
       in: path
@@ -566,6 +870,7 @@ components:
       schema:
         type: string
         default: flat,edge
+      example: flat,edge
     representationevent:
       name: representation
       in: path
@@ -584,6 +889,7 @@ components:
       schema:
         type: string
         default: "*"
+      example: ParkingStation
     edgeTypes:
       name: edgeTypes
       in: path
@@ -600,6 +906,7 @@ components:
       schema:
         type: string
         default: "*"
+      example: free
     eventorigins:
       name: eventorigins
       in: path
@@ -622,6 +929,7 @@ components:
       required: true
       schema:
         type: string
+      example: "2024-01-01T00:00:00+0200"
     to:
       name: to
       in: path
@@ -629,6 +937,7 @@ components:
       required: true
       schema:
         type: string
+      example: "2024-01-02T00:00:00+0200"
     where:
       name: where
       in: query
