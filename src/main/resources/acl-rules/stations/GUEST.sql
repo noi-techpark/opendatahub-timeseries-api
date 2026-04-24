@@ -60,4 +60,5 @@
 	or (s.origin = 'APPABZ' and ts.period = 3600)
 	or (s.origin = 'ON_DEMAND_MERANO')
 	or (s.origin = 'ON_DEMAND_BADIA')
+	or (s.origin = 'sharedmobility-ch')
 )
