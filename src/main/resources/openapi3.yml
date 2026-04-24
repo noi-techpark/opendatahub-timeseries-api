@@ -634,44 +634,45 @@ components:
       in: query
       description: |
         Filter results with one or more conditions in the form `field.operator.value`.
-        Separate multiple conditions with commas — they are combined with AND.
+        Multiple conditions separated by commas are interpreted as `and`.
 
-        **`eq` examples**
+        ### Operators
+         -   `eq`: Equal
+         -   `neq`: Not Equal
+         -   `lt`: Less Than
+         -   `gt`: Greater Than
+         -   `lteq`: Less Than Or Equal
+         -   `gteq`: Greater Than Or Equal
+         -   `re`: Regular Expression
+         -   `ire`: Insensitive Regular Expression
+         -   `nre`: Negated Regular Expression
+         -   `nire`: Negated case-insensitive Regular Expression
+         -   `bbi`: Bounding box intersecting objects.  
+             Syntax: left-x, left-y, right-x, right-y, SRID (optional, default 4326)  
+             `coordinate.bbi.(11,46,12,47,4326)`  
+         -   `bbc`: Bounding box containing objects. Same syntax as `bbi`.
+         -   `dlt`: Within distance in meters from a point.  
+             Syntax: distance, point-x, point-y, SRID (optional, default 4326)  
+             e.g. `coordinate.dlt.(5000,11.2,46.7,4326)`
+         -   `in`: Value found in list. Example: `name.in.(Peter,Patrick,Rudi)`
+         -   `nin`: Value not found in list. Example: `name.nin.(Peter,Patrick,Rudi)`
+        Numbers are auto-cast to numeric type.  
+        `"` quote values to force string comparison.
+
+        ### Logical operators
+        - `,`: multiple conditions separeted by comma are interpreted as `and`
+        - `and`: `and(cond,cond,...)`
+        - `or`: `or(cond,cond,...)`
+
+        nestable, e.g. `or(scode.eq."A",scode.eq."B")`
+
+        ### Examples
         - `sactive.eq.true` only active stations
         - `scode.eq."200"` station with code "200" (quoted to force string match)
         - `sorigin.eq."Neogy"` stations from the Neogy data provider
         - `smetadata.city.eq."Bolzano"` drill into nested JSON metadata
         - `description.eq.null` field is not set
 
-        **Operators**
-         -   eq: Equal
-         -   neq: Not Equal
-         -   lt: Less Than
-         -   gt: Greater Than
-         -   lteq: Less Than Or Equal
-         -   gteq: Greater Than Or Equal
-         -   re: Regular Expression
-         -   ire: Insensitive Regular Expression
-         -   nre: Negated Regular Expression
-         -   nire: Negated Insensitive Regular Expression
-         -   bbi: Bounding box intersecting objects.  
-             Syntax: left-x, left-y, right-x, right-y, SRID (optional, default 4326)  
-             `coordinate.bbi.(11,46,12,47,4326)`  
-         -   bbc: Bounding box containing objects. Same syntax as bbi.
-         -   dlt: Within distance in meters from a point.  
-             Syntax: distance, point-x, point-y, SRID (optional, default 4326)  
-             e.g. `coordinate.dlt.(5000,11.2,46.7,4326)`
-         -   in: Value found in list. Example: `name.in.(Peter,Patrick,Rudi)`
-         -   nin: Value not found in list. Example: `name.nin.(Peter,Patrick,Rudi)`
-
-        Numbers are auto-cast to numeric type.  
-        `"` quote values to force string comparison.
-
-        **Logical grouping**
-        - `and(cond,cond,...)`
-        - `or(cond,cond,...)`
-        
-        nestable, e.g. `or(scode.eq."A",scode.eq."B")`
       schema:
         type: string
     select:
