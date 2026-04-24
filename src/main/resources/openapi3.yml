@@ -93,7 +93,15 @@ paths:
               schema:
                 type: array
                 items:
-                  type: string
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    description:
+                      type: string
+                      nullable: true
+                    self:
+                      type: string
               example:
                 - id: "flat,node"
                   description: "Retrieve stations, data types and measurements in a flattened form"
@@ -134,7 +142,19 @@ paths:
               schema:
                 type: array
                 items:
-                  type: string
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    description:
+                      type: string
+                      nullable: true
+                    self.stations:
+                      type: string
+                    self.stations+datatypes:
+                      type: string
+                    self.stations+datatypes+measurements:
+                      type: string
               example:
                 - id: "ParkingStation"
                   description: null
@@ -173,7 +193,15 @@ paths:
               schema:
                 type: array
                 items:
-                  type: string
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    description:
+                      type: string
+                      nullable: true
+                    self.edges:
+                      type: string
               example:
                 - id: "LinkStation"
                   description: null
@@ -242,7 +270,7 @@ paths:
           content:
             application/json:
               schema:
-                type: string
+                $ref: "#/components/schemas/Response"
               examples:
                 flat:
                   summary: Flat list of stations
@@ -318,7 +346,7 @@ paths:
           content:
             application/json:
               schema:
-                type: string
+                $ref: "#/components/schemas/Response"
         401:
           description: Unauthorized
           content: {}
@@ -353,7 +381,7 @@ paths:
           content:
             application/json:
               schema:
-                type: string
+                $ref: "#/components/schemas/Response"
         401:
           description: Unauthorized
           content: {}
@@ -388,7 +416,7 @@ paths:
           content:
             application/json:
               schema:
-                type: string
+                $ref: "#/components/schemas/Response"
         401:
           description: Unauthorized
           content: {}
@@ -424,7 +452,7 @@ paths:
           content:
             application/json:
               schema:
-                type: string
+                $ref: "#/components/schemas/Response"
         401:
           description: Unauthorized
           content: {}
@@ -461,7 +489,7 @@ paths:
           content:
             application/json:
               schema:
-                type: string
+                $ref: "#/components/schemas/Response"
         401:
           description: Unauthorized
           content: {}
@@ -495,7 +523,7 @@ paths:
           content:
             application/json:
               schema:
-                type: string
+                $ref: "#/components/schemas/Response"
               examples:
                 flat:
                   summary: Flat list of stations with their data types
@@ -584,7 +612,7 @@ paths:
           content:
             application/json:
               schema:
-                type: string
+                $ref: "#/components/schemas/Response"
               examples:
                 flat:
                   summary: Flat list of latest measurements
@@ -692,7 +720,7 @@ paths:
           content:
             application/json:
               schema:
-                type: string
+                $ref: "#/components/schemas/Response"
               examples:
                 flat:
                   summary: Flat list of historical measurements
@@ -834,7 +862,7 @@ paths:
           content:
             application/json:
               schema:
-                type: string
+                $ref: "#/components/schemas/Response"
         401:
           description: Unauthorized
           content: {}
@@ -1039,34 +1067,19 @@ components:
         default: ""
 
   schemas:
-    measurement:
+    coordinate:
       description: |
-        ```
-        Prefix: m
-        ```
-        Measurements: Stations have sensors that measure a certain type of data. This is the outcome...
+        Coordinates: Latitude and longitude
         <br /><br />
-        *Important: Nested objects are not available when you use `flat` as representation, refer to them directly instead.*
+        *Important: Coordinates cannot be accessed directly. For example, `coordinate.x` is not possible at the moment.*
       properties:
-        mvalue:
-          oneOf:
-            - type: object
-              description: free-form JSON object
-            - type: number
-            - type: string
-        mvalidtime:
-          type: string
-          format: date-time
-          description: When has this value been measured?
-        mtransactiontime:
-          type: string
-          format: date-time
-          description: When has this value been recorded on the database the first time?
-        mperiod:
+        x:
+          type: number
+        y:
+          type: number
+        srid:
           type: integer
-          description: Distance in seconds between two measurements
-        mprovenance:
-          $ref: "#/components/schemas/provenance"
+          default: 4326
     provenance:
       description: |
         ```
@@ -1087,6 +1100,34 @@ components:
         prlineage:
           format: text
           type: string
+    measurement:
+      description: |
+        ```
+        Prefix: m
+        ```
+        Measurements: Stations have sensors that measure a certain type of data. This is the outcome...
+        <br /><br />
+        *Important: Nested objects are not available when you use `flat` as representation, refer to them directly instead.*
+      properties:
+        mvalue:
+          description: "The measured value: a number, a plain string, or a free-form JSON object"
+          oneOf:
+            - type: number
+            - type: string
+            - type: object
+        mvalidtime:
+          type: string
+          format: date-time
+          description: When has this value been measured?
+        mtransactiontime:
+          type: string
+          format: date-time
+          description: When has this value been recorded on the database the first time?
+        mperiod:
+          type: integer
+          description: Distance in seconds between two measurements
+        mprovenance:
+          $ref: "#/components/schemas/provenance"
     datatype:
       description: |
         ```
@@ -1105,6 +1146,8 @@ components:
         tdescription:
           type: string
           nullable: true
+        tmetadata:
+          type: object
         tmeasurements:
           type: array
           items:
@@ -1151,13 +1194,13 @@ components:
       properties:
         sname:
           type: string
-          description: Name of the measurement station
+          description: Name of the station
         stype:
           type: string
-          description: Type of the measurement station
+          description: Type of the station
         scode:
           type: string
-          description: Unique ID of this measurement station (inside this `ptype`)
+          description: Unique ID of this station (for this `stype`)
         sorigin:
           type: string
           description: Where did we get this station information from?
@@ -1175,6 +1218,11 @@ components:
           description: free-form JSON object
         sparent:
           $ref: "#/components/schemas/parent"
+        sdatatypes:
+          type: object
+          description: "Keys: data type name (tname)"
+          additionalProperties:
+            $ref: "#/components/schemas/datatype"
     stationbegin:
       description: |
         ```
@@ -1311,19 +1359,97 @@ components:
           $ref: "#/components/schemas/location"
         evprovenance:
           $ref: "#/components/schemas/provenance"
-    coordinate:
-      description: |
-        Coordinates: Latitude and longitude
-        <br /><br />
-        *Important: Coordinates cannot be accessed directly. For example, `coordinate.x` is not possible at the moment.*
+    measurement-flat:
+      type: object
       properties:
-        x:
-          type: number
-        y:
-          type: number
-        srid:
+        mvalue:
+          description: "The measured value: a number, a plain string, or a free-form JSON object"
+          oneOf:
+            - type: number
+            - type: string
+            - type: object
+        mvalidtime:
+          type: string
+          format: date-time
+          description: When has this value been measured?
+        mtransactiontime:
+          type: string
+          format: date-time
+          description: When has this value been recorded on the database the first time?
+        mperiod:
           type: integer
-          default: 4326
+          description: Distance in seconds between two measurements
+    datatype-flat:
+      type: object
+      properties:
+        tname:
+          type: string
+        tunit:
+          type: string
+        ttype:
+          type: string
+        tdescription:
+          type: string
+          nullable: true
+        tmetadata:
+          type: object
+    station-flat:
+      type: object
+      properties:
+        sname:
+          type: string
+        stype:
+          type: string
+        scode:
+          type: string
+        sorigin:
+          type: string
+        sactive:
+          type: boolean
+        savailable:
+          type: boolean
+          deprecated: true
+        scoordinate:
+          $ref: "#/components/schemas/coordinate"
+        smetadata:
+          type: object
+    FlatData:
+      type: array
+      items:
+        description: "All entity fields (s*, p*, t*, m*, pr*) at the same level"
+        allOf:
+          - $ref: "#/components/schemas/station-flat"
+          - $ref: "#/components/schemas/parent"
+          - $ref: "#/components/schemas/datatype-flat"
+          - $ref: "#/components/schemas/measurement-flat"
+          - $ref: "#/components/schemas/provenance"
+          - type: object
+            properties:
+              _timestamp:
+                type: string
+                format: date-time
+    TreeData:
+      type: object
+      description: "Keys: station type (stype)"
+      additionalProperties:
+        type: object
+        properties:
+          stations:
+            type: object
+            description: "Keys: station code (scode)"
+            additionalProperties:
+              $ref: "#/components/schemas/station"
+    Response:
+      type: object
+      properties:
+        offset:
+          type: integer
+        limit:
+          type: integer
+        data:
+          oneOf:
+            - $ref: "#/components/schemas/FlatData"
+            - $ref: "#/components/schemas/TreeData"
   securitySchemes:
     OAuth2:
       type: oauth2
