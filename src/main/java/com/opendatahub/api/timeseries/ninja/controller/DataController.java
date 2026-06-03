@@ -18,7 +18,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import java.io.IOException;
+
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import com.jsoniter.output.JsonStream;
 
@@ -124,11 +127,11 @@ public class DataController {
 		return fileSpec;
 	}
 
-	@ResponseBody
 	@GetMapping(value = "/{pathvar1}", produces = "application/json;charset=UTF-8")
-	public String requestLevel01(
+	public void requestLevel01(
 			HttpServletRequest request,
-			@PathVariable final String pathvar1) {
+			HttpServletResponse response,
+			@PathVariable final String pathvar1) throws IOException {
 		Representation rep = Representation.get(pathvar1);
 		final List<Map<String, Object>> queryResult;
 		DataFetcher dataFetcher = new DataFetcher();
@@ -175,15 +178,14 @@ public class DataController {
 			}
 
 		}
-		String result = serializeJson(queryResult, dataFetcher.getStats());
 		request.setAttribute("data_fetcher", dataFetcher.getStats());
-		return result;
+		serializeJsonToResponse(queryResult, response, dataFetcher.getStats());
 	}
 
-	@ResponseBody
 	@GetMapping(value = "/{pathvar1}/{pathvar2}", produces = "application/json;charset=UTF-8")
-	public String requestLevel02(
+	public void requestLevel02(
 			HttpServletRequest request,
+			HttpServletResponse response,
 			@PathVariable final String pathvar1,
 			@PathVariable final String pathvar2,
 			@RequestParam(value = "limit", required = false, defaultValue = DEFAULT_LIMIT) final Long limit,
@@ -191,7 +193,7 @@ public class DataController {
 			@RequestParam(value = "select", required = false) final String select,
 			@RequestParam(value = "where", required = false) final String where,
 			@RequestParam(value = "shownull", required = false, defaultValue = DEFAULT_SHOWNULL) final Boolean showNull,
-			@RequestParam(value = "distinct", required = false, defaultValue = DEFAULT_DISTINCT) final Boolean distinct) {
+			@RequestParam(value = "distinct", required = false, defaultValue = DEFAULT_DISTINCT) final Boolean distinct) throws IOException {
 		final Representation repr = Representation.get(pathvar1);
 
 		DataFetcher dataFetcher = new DataFetcher();
@@ -237,12 +239,10 @@ public class DataController {
 		ResultBuilderConfig resultBuilderConfig = createResultBuilderConfigExcludeMetadataHistory(showNull)
 			.setEntryPoint(entryPoint)
 			.addExitPoint(exitPoint, true);
-		String result = serializeJson(
-				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
-				dataFetcher.getStats());
-
 		request.setAttribute("data_fetcher", dataFetcher.getStats());
-		return result;
+		serializeJsonToResponse(
+				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
+				response, dataFetcher.getStats());
 	}
 
 	/**
@@ -251,8 +251,9 @@ public class DataController {
 	 * @param pathvar3 datatypes | "latest" or start-timepoint
 	 */
 	@GetMapping(value = "/{pathvar1}/{pathvar2}/{pathvar3}", produces = "application/json;charset=UTF-8")
-	public @ResponseBody String requestLevel03(
+	public void requestLevel03(
 			HttpServletRequest request,
+			HttpServletResponse response,
 			@PathVariable final String pathvar1,
 			@PathVariable final String pathvar2,
 			@PathVariable final String pathvar3,
@@ -261,7 +262,7 @@ public class DataController {
 			@RequestParam(value = "select", required = false) final String select,
 			@RequestParam(value = "where", required = false) final String where,
 			@RequestParam(value = "shownull", required = false, defaultValue = DEFAULT_SHOWNULL) final Boolean showNull,
-			@RequestParam(value = "distinct", required = false, defaultValue = DEFAULT_DISTINCT) final Boolean distinct) {
+			@RequestParam(value = "distinct", required = false, defaultValue = DEFAULT_DISTINCT) final Boolean distinct) throws IOException {
 
 		final Representation repr = Representation.get(pathvar1);
 
@@ -313,18 +314,16 @@ public class DataController {
 		ResultBuilderConfig resultBuilderConfig = createResultBuilderConfigExcludeMetadataHistory(showNull)
 			.setEntryPoint(entryPoint)
 			.addExitPoint(exitPoint, true);
-		String result = serializeJson(
-				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
-				dataFetcher.getStats());
-
 		request.setAttribute("data_fetcher", dataFetcher.getStats());
-		return result;
+		serializeJsonToResponse(
+				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
+				response, dataFetcher.getStats());
 	}
 
-	@ResponseBody
 	@GetMapping(value = "/{pathvar1}/{pathvar2}/{pathvar3}/{pathvar4}", produces = "application/json;charset=UTF-8")
-	public String requestLevel04(
+	public void requestLevel04(
 			HttpServletRequest request,
+			HttpServletResponse response,
 			@PathVariable final String pathvar1,
 			@PathVariable final String pathvar2,
 			@PathVariable final String pathvar3,
@@ -335,7 +334,7 @@ public class DataController {
 			@RequestParam(value = "where", required = false) final String where,
 			@RequestParam(value = "shownull", required = false, defaultValue = DEFAULT_SHOWNULL) final Boolean showNull,
 			@RequestParam(value = "distinct", required = false, defaultValue = DEFAULT_DISTINCT) final Boolean distinct,
-			@RequestParam(value = "timezone", required = false, defaultValue = DEFAULT_TIMEZONE) final String timeZone) {
+			@RequestParam(value = "timezone", required = false, defaultValue = DEFAULT_TIMEZONE) final String timeZone) throws IOException {
 
 		final Representation repr = Representation.get(pathvar1);
 
@@ -390,18 +389,16 @@ public class DataController {
 		ResultBuilderConfig resultBuilderConfig = createResultBuilderConfigExcludeMetadataHistory(showNull)
 			.setEntryPoint(entryPoint)
 			.addExitPoint(exitPoint, true);
-		String result = serializeJson(
-				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
-				dataFetcher.getStats());
-
 		request.setAttribute("data_fetcher", dataFetcher.getStats());
-		return result;
+		serializeJsonToResponse(
+				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
+				response, dataFetcher.getStats());
 	}
 
-	@ResponseBody
 	@GetMapping(value = "/{pathvar1}/{pathvar2}/{pathvar3}/{pathvar4}/{pathvar5}", produces = "application/json;charset=UTF-8")
-	public String requestLevel05(
+	public void requestLevel05(
 			HttpServletRequest request,
+			HttpServletResponse response,
 			@PathVariable final String pathvar1,
 			@PathVariable final String pathvar2,
 			@PathVariable final String pathvar3,
@@ -413,7 +410,7 @@ public class DataController {
 			@RequestParam(value = "where", required = false) final String where,
 			@RequestParam(value = "shownull", required = false, defaultValue = DEFAULT_SHOWNULL) final Boolean showNull,
 			@RequestParam(value = "distinct", required = false, defaultValue = DEFAULT_DISTINCT) final Boolean distinct,
-			@RequestParam(value = "timezone", required = false, defaultValue = DEFAULT_TIMEZONE) final String timeZone) {
+			@RequestParam(value = "timezone", required = false, defaultValue = DEFAULT_TIMEZONE) final String timeZone) throws IOException {
 
 		final Representation repr = Representation.get(pathvar1);
 
@@ -468,12 +465,10 @@ public class DataController {
 					"Route does not exist for representation " + repr.getTypeAsString());
 		}
 
-		String result = serializeJson(
-				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
-				dataFetcher.getStats());
-
 		request.setAttribute("data_fetcher", dataFetcher.getStats());
-		return result;
+		serializeJsonToResponse(
+				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
+				response, dataFetcher.getStats());
 	}
 
 	private static ZonedDateTime getDateTime(final String dateString) {
@@ -519,12 +514,12 @@ public class DataController {
 		return result;
 	}
 
-	private static String serializeJson(Object whatever, Map<String, Object> logging) {
+	private static void serializeJsonToResponse(Object whatever, HttpServletResponse response, Map<String, Object> logging) throws IOException {
 		Timer timer = new Timer();
 		timer.start();
-		String serialize = JsonStream.serialize(whatever);
+		response.setContentType("application/json;charset=UTF-8");
+		JsonStream.serialize(whatever, response.getOutputStream());
 		logging.put("serialization_time", Long.valueOf(timer.stop()));
-		return serialize;
 	}
 
 	private static List<String> getRoles(HttpServletRequest request) {

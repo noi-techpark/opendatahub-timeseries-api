@@ -80,13 +80,13 @@ jobs:
           aws-eks-cluster-name: aws-main-eu-01
           aws-region: eu-west-1
 
-  # Deploy Test Partitioning
-  deploy-partition:
+  # Deploy Test Memory Optimization
+  deploy-mem:
     runs-on: ubuntu-24.04
-    if: github.ref == 'refs/heads/feat/partitioning'
+    if: github.ref == 'refs/heads/feat/memory-optimization'
     needs: test
     environment: test
-    concurrency: deploy-test
+    concurrency: deploy-feat-mem
     steps:
       - name: Checkout source code
         uses: actions/checkout@v2
@@ -112,15 +112,15 @@ jobs:
 
             .env.LOG_APPLICATION_VERSION="${{ env.DOCKER_TAG }}" |
             .oauth.clientSecret="${{ secrets.TEST_KEYCLOAK_CLIENT_SECRET }}"
-          ' infrastructure/helm/partition.yaml
+          ' infrastructure/helm/mem.yaml
       
       - name: Deploy on cluster  
         uses: noi-techpark/github-actions/helm-deploy@v2
         with:
-          k8s-name: ninja-api
-          k8s-namespace: partition
+          k8s-name: ninja-api-mem
+          k8s-namespace: core
           chart-path: infrastructure/helm/ninja-api
-          values-file: infrastructure/helm/partition.yaml
+          values-file: infrastructure/helm/mem.yaml
           aws-access-key-id: ${{ secrets[vars.AWS_KEY_ID] }}
           aws-secret-access-key: ${{ secrets[vars.AWS_KEY_SECRET] }}
           aws-eks-cluster-name: aws-main-eu-01

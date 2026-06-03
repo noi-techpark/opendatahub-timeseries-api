@@ -2,7 +2,7 @@ ingress:
   enabled: true
   className: nginx
   hosts:
-    - host: ninja.partition.dev.testingmachine.eu
+    - host: memninja.dev.testingmachine.eu
       paths:
         - path: "/"
           pathType: Prefix
@@ -11,8 +11,8 @@ ingress:
 
 env: 
   # Ninja
-  NINJA_HOST_URL: "https://ninja.partition.dev.testingmachine.eu"
-  NINJA_BASE_URL: "https://ninja.partition.dev.testingmachine.eu/v2"
+  NINJA_HOST_URL: "https://memninja.dev.testingmachine.eu"
+  NINJA_BASE_URL: "https://memninja.dev.testingmachine.eu/v2"
   NINJA_QUERY_TIMEOUT_SEC: 60
   NINJA_HIKARI_LEAK_DETECTION_MS: 65000  # should be greater than (NINJA_QUERY_TIMEOUT_SEC * 1000)
   NINJA_RESPONSE_MAX_SIZE_MB: 100
@@ -43,10 +43,10 @@ env:
   NINJA_QUOTA_HISTORY_URL: https://github.com/noi-techpark/odh-docs/wiki/Api-Quota
   
   # Set JVM arguments
-  JAVA_OPTS: -XX:MaxRAMPercentage=85 -XX:+UseZGC -XX:ZUncommitDelay=300
+  JAVA_OPTS: -XX:MaxRAMPercentage=85 -XX:G1PeriodicGCSystemLoadThreshold=0 -XX:G1PeriodicGCInterval=20000 -XX:-G1PeriodicGCInvokesConcurrent -XX:+UseG1GC
 
 database:
-  servicebindName: "postgres-readwrite-svcbind"
+  servicebindName: "postgres-read-svcbind"
 
 oauth:
   url: "https://auth.opendatahub.testingmachine.eu/auth"
