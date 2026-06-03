@@ -66,6 +66,6 @@ oauth:
 
 resources:
   requests:
-    memory: 5Gi
-  limits:
     memory: 10Gi
+  limits:
+    memory: 14Gi
