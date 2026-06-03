@@ -18,7 +18,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import java.io.IOException;
+import java.time.OffsetDateTime;
+
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import com.jsoniter.output.JsonStream;
 
@@ -124,11 +128,11 @@ public class DataController {
 		return fileSpec;
 	}
 
-	@ResponseBody
 	@GetMapping(value = "/{pathvar1}", produces = "application/json;charset=UTF-8")
-	public String requestLevel01(
+	public void requestLevel01(
 			HttpServletRequest request,
-			@PathVariable final String pathvar1) {
+			HttpServletResponse response,
+			@PathVariable final String pathvar1) throws IOException {
 		Representation rep = Representation.get(pathvar1);
 		final List<Map<String, Object>> queryResult;
 		DataFetcher dataFetcher = new DataFetcher();
@@ -175,15 +179,14 @@ public class DataController {
 			}
 
 		}
-		String result = serializeJson(queryResult, dataFetcher.getStats());
 		request.setAttribute("data_fetcher", dataFetcher.getStats());
-		return result;
+		serializeJsonToResponse(queryResult, response, dataFetcher.getStats());
 	}
 
-	@ResponseBody
 	@GetMapping(value = "/{pathvar1}/{pathvar2}", produces = "application/json;charset=UTF-8")
-	public String requestLevel02(
+	public void requestLevel02(
 			HttpServletRequest request,
+			HttpServletResponse response,
 			@PathVariable final String pathvar1,
 			@PathVariable final String pathvar2,
 			@RequestParam(value = "limit", required = false, defaultValue = DEFAULT_LIMIT) final Long limit,
@@ -191,7 +194,7 @@ public class DataController {
 			@RequestParam(value = "select", required = false) final String select,
 			@RequestParam(value = "where", required = false) final String where,
 			@RequestParam(value = "shownull", required = false, defaultValue = DEFAULT_SHOWNULL) final Boolean showNull,
-			@RequestParam(value = "distinct", required = false, defaultValue = DEFAULT_DISTINCT) final Boolean distinct) {
+			@RequestParam(value = "distinct", required = false, defaultValue = DEFAULT_DISTINCT) final Boolean distinct) throws IOException {
 		final Representation repr = Representation.get(pathvar1);
 
 		DataFetcher dataFetcher = new DataFetcher();
@@ -210,6 +213,10 @@ public class DataController {
 
 		switch (repr) {
 			case FLAT_NODE:
+				streamFlatResponse(response, offset, limit,
+					stream -> dataFetcher.fetchStationsFlat(pathvar2, repr, stream));
+				request.setAttribute("data_fetcher", dataFetcher.getStats());
+				return;
 			case TREE_NODE:
 				queryResult = dataFetcher.fetchStations(pathvar2, repr);
 				entryPoint = "stationtype";
@@ -222,9 +229,15 @@ public class DataController {
 				exitPoint = "location";
 				break;
 			case FLAT_EDGE:
+				streamFlatResponse(response, offset, limit,
+					stream -> dataFetcher.fetchEdgesFlat(pathvar2, repr, stream));
+				request.setAttribute("data_fetcher", dataFetcher.getStats());
+				return;
 			case TREE_EDGE:
 				queryResult = dataFetcher.fetchEdges(pathvar2, repr);
 				entryPoint = "edgetype";
+				break;
+			default:
 				break;
 		}
 
@@ -237,12 +250,10 @@ public class DataController {
 		ResultBuilderConfig resultBuilderConfig = createResultBuilderConfigExcludeMetadataHistory(showNull)
 			.setEntryPoint(entryPoint)
 			.addExitPoint(exitPoint, true);
-		String result = serializeJson(
-				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
-				dataFetcher.getStats());
-
 		request.setAttribute("data_fetcher", dataFetcher.getStats());
-		return result;
+		serializeJsonToResponse(
+				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
+				response, dataFetcher.getStats());
 	}
 
 	/**
@@ -251,8 +262,9 @@ public class DataController {
 	 * @param pathvar3 datatypes | "latest" or start-timepoint
 	 */
 	@GetMapping(value = "/{pathvar1}/{pathvar2}/{pathvar3}", produces = "application/json;charset=UTF-8")
-	public @ResponseBody String requestLevel03(
+	public void requestLevel03(
 			HttpServletRequest request,
+			HttpServletResponse response,
 			@PathVariable final String pathvar1,
 			@PathVariable final String pathvar2,
 			@PathVariable final String pathvar3,
@@ -261,7 +273,7 @@ public class DataController {
 			@RequestParam(value = "select", required = false) final String select,
 			@RequestParam(value = "where", required = false) final String where,
 			@RequestParam(value = "shownull", required = false, defaultValue = DEFAULT_SHOWNULL) final Boolean showNull,
-			@RequestParam(value = "distinct", required = false, defaultValue = DEFAULT_DISTINCT) final Boolean distinct) {
+			@RequestParam(value = "distinct", required = false, defaultValue = DEFAULT_DISTINCT) final Boolean distinct) throws IOException {
 
 		final Representation repr = Representation.get(pathvar1);
 
@@ -281,6 +293,10 @@ public class DataController {
 
 		switch (repr) {
 			case FLAT_NODE:
+				streamFlatResponse(response, offset, limit,
+					stream -> dataFetcher.fetchStationsAndTypesFlat(pathvar2, pathvar3, repr, stream));
+				request.setAttribute("data_fetcher", dataFetcher.getStats());
+				return;
 			case TREE_NODE:
 				queryResult = dataFetcher.fetchStationsAndTypes(pathvar2, pathvar3, repr);
 				entryPoint = "stationtype";
@@ -291,12 +307,8 @@ public class DataController {
 				if ("latest".equalsIgnoreCase(pathvar3)) {
 					queryResult = dataFetcher.fetchEvents(pathvar2, true, null, null, repr);
 				} else {
-					queryResult = dataFetcher.fetchEvents(
-							pathvar2,
-							false,
-							getDateTime(pathvar3).toOffsetDateTime(),
-							null,
-							repr);
+					queryResult = dataFetcher.fetchEvents(pathvar2, false,
+							getDateTime(pathvar3).toOffsetDateTime(), null, repr);
 				}
 				entryPoint = "eventorigin";
 				break;
@@ -313,18 +325,16 @@ public class DataController {
 		ResultBuilderConfig resultBuilderConfig = createResultBuilderConfigExcludeMetadataHistory(showNull)
 			.setEntryPoint(entryPoint)
 			.addExitPoint(exitPoint, true);
-		String result = serializeJson(
-				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
-				dataFetcher.getStats());
-
 		request.setAttribute("data_fetcher", dataFetcher.getStats());
-		return result;
+		serializeJsonToResponse(
+				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
+				response, dataFetcher.getStats());
 	}
 
-	@ResponseBody
 	@GetMapping(value = "/{pathvar1}/{pathvar2}/{pathvar3}/{pathvar4}", produces = "application/json;charset=UTF-8")
-	public String requestLevel04(
+	public void requestLevel04(
 			HttpServletRequest request,
+			HttpServletResponse response,
 			@PathVariable final String pathvar1,
 			@PathVariable final String pathvar2,
 			@PathVariable final String pathvar3,
@@ -335,7 +345,7 @@ public class DataController {
 			@RequestParam(value = "where", required = false) final String where,
 			@RequestParam(value = "shownull", required = false, defaultValue = DEFAULT_SHOWNULL) final Boolean showNull,
 			@RequestParam(value = "distinct", required = false, defaultValue = DEFAULT_DISTINCT) final Boolean distinct,
-			@RequestParam(value = "timezone", required = false, defaultValue = DEFAULT_TIMEZONE) final String timeZone) {
+			@RequestParam(value = "timezone", required = false, defaultValue = DEFAULT_TIMEZONE) final String timeZone) throws IOException {
 
 		final Representation repr = Representation.get(pathvar1);
 
@@ -351,30 +361,31 @@ public class DataController {
 		dataFetcher.setTimeZone(timeZone);
 
 		String entryPoint = null;
-		String exitPoint = null;
 		List<Map<String, Object>> queryResult = null;
 
 		switch (repr) {
 			case FLAT_NODE:
+				if (!"latest".equalsIgnoreCase(pathvar4)) {
+					throw new ResponseStatusException(HttpStatus.NOT_FOUND,
+						"Route does not exist for representation " + repr.getTypeAsString());
+				}
+				streamFlatResponse(response, offset, limit,
+					stream -> dataFetcher.fetchStationsTypesAndMeasurementHistoryFlat(
+						pathvar2, pathvar3, null, null, repr, stream));
+				request.setAttribute("data_fetcher", dataFetcher.getStats());
+				return;
 			case TREE_NODE:
 				if ("latest".equalsIgnoreCase(pathvar4)) {
 					queryResult = dataFetcher.fetchStationsTypesAndMeasurementHistory(
-							pathvar2,
-							pathvar3,
-							null,
-							null,
-							repr);
+							pathvar2, pathvar3, null, null, repr);
 					entryPoint = "stationtype";
 				}
 				break;
 			case FLAT_EVENT:
 			case TREE_EVENT:
-				queryResult = dataFetcher.fetchEvents(
-						pathvar2,
-						false,
+				queryResult = dataFetcher.fetchEvents(pathvar2, false,
 						getDateTime(pathvar3).toOffsetDateTime(),
-						getDateTime(pathvar4).toOffsetDateTime(),
-						repr);
+						getDateTime(pathvar4).toOffsetDateTime(), repr);
 				entryPoint = "eventorigin";
 				break;
 			default:
@@ -389,19 +400,17 @@ public class DataController {
 
 		ResultBuilderConfig resultBuilderConfig = createResultBuilderConfigExcludeMetadataHistory(showNull)
 			.setEntryPoint(entryPoint)
-			.addExitPoint(exitPoint, true);
-		String result = serializeJson(
-				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
-				dataFetcher.getStats());
-
+			.addExitPoint(null, true);
 		request.setAttribute("data_fetcher", dataFetcher.getStats());
-		return result;
+		serializeJsonToResponse(
+				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
+				response, dataFetcher.getStats());
 	}
 
-	@ResponseBody
 	@GetMapping(value = "/{pathvar1}/{pathvar2}/{pathvar3}/{pathvar4}/{pathvar5}", produces = "application/json;charset=UTF-8")
-	public String requestLevel05(
+	public void requestLevel05(
 			HttpServletRequest request,
+			HttpServletResponse response,
 			@PathVariable final String pathvar1,
 			@PathVariable final String pathvar2,
 			@PathVariable final String pathvar3,
@@ -413,7 +422,7 @@ public class DataController {
 			@RequestParam(value = "where", required = false) final String where,
 			@RequestParam(value = "shownull", required = false, defaultValue = DEFAULT_SHOWNULL) final Boolean showNull,
 			@RequestParam(value = "distinct", required = false, defaultValue = DEFAULT_DISTINCT) final Boolean distinct,
-			@RequestParam(value = "timezone", required = false, defaultValue = DEFAULT_TIMEZONE) final String timeZone) {
+			@RequestParam(value = "timezone", required = false, defaultValue = DEFAULT_TIMEZONE) final String timeZone) throws IOException {
 
 		final Representation repr = Representation.get(pathvar1);
 
@@ -432,32 +441,40 @@ public class DataController {
 		ResultBuilderConfig resultBuilderConfig = createResultBuilderConfigExcludeMetadataHistory(showNull);
 
 		switch (repr) {
-			case FLAT_NODE:
-			case TREE_NODE:
+			case FLAT_NODE: {
 				ZonedDateTime from = getDateTime(pathvar4);
 				ZonedDateTime to = getDateTime(pathvar5);
-
+				OffsetDateTime fromOdt = from.toOffsetDateTime();
+				OffsetDateTime toOdt = to.toOffsetDateTime();
+				if ("metadata".equalsIgnoreCase(pathvar3)) {
+					streamFlatResponse(response, offset, limit,
+						stream -> dataFetcher.fetchStationsAndMetadataHistoryFlat(
+							pathvar2, fromOdt, toOdt, repr, stream));
+				} else {
+					historyLimit.check(request, from, to).ifPresent(e -> { throw e; });
+					streamFlatResponse(response, offset, limit,
+						stream -> dataFetcher.fetchStationsTypesAndMeasurementHistoryFlat(
+							pathvar2, pathvar3, fromOdt, toOdt, repr, stream));
+				}
+				request.setAttribute("data_fetcher", dataFetcher.getStats());
+				return;
+			}
+			case TREE_NODE: {
+				ZonedDateTime from = getDateTime(pathvar4);
+				ZonedDateTime to = getDateTime(pathvar5);
 				if ("metadata".equalsIgnoreCase(pathvar3)) {
 					queryResult = dataFetcher.fetchStationsAndMetadataHistory(
-							pathvar2,
-							from.toOffsetDateTime(),
-							to.toOffsetDateTime(),
-							repr);
+							pathvar2, from.toOffsetDateTime(), to.toOffsetDateTime(), repr);
 					resultBuilderConfig.clearExitPoints();
 					resultBuilderConfig.addExitPoint("datatype", false);
 				} else {
-					historyLimit.check(request, from, to).ifPresent(e -> {
-						throw e;
-					});
+					historyLimit.check(request, from, to).ifPresent(e -> { throw e; });
 					queryResult = dataFetcher.fetchStationsTypesAndMeasurementHistory(
-							pathvar2,
-							pathvar3,
-							from.toOffsetDateTime(),
-							to.toOffsetDateTime(),
-							repr);
+							pathvar2, pathvar3, from.toOffsetDateTime(), to.toOffsetDateTime(), repr);
 				}
 				resultBuilderConfig.setEntryPoint("stationtype");
 				break;
+			}
 			default:
 				break;
 		}
@@ -468,12 +485,10 @@ public class DataController {
 					"Route does not exist for representation " + repr.getTypeAsString());
 		}
 
-		String result = serializeJson(
-				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
-				dataFetcher.getStats());
-
 		request.setAttribute("data_fetcher", dataFetcher.getStats());
-		return result;
+		serializeJsonToResponse(
+				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
+				response, dataFetcher.getStats());
 	}
 
 	private static ZonedDateTime getDateTime(final String dateString) {
@@ -519,12 +534,32 @@ public class DataController {
 		return result;
 	}
 
-	private static String serializeJson(Object whatever, Map<String, Object> logging) {
+	@FunctionalInterface
+	private interface FlatStreamWriter {
+		void write(JsonStream stream) throws IOException;
+	}
+
+	private static void streamFlatResponse(HttpServletResponse response, long offset, long limit,
+			FlatStreamWriter writer) throws IOException {
+		response.setContentType("application/json;charset=UTF-8");
+		JsonStream stream = new JsonStream(response.getOutputStream(), 65536);
+		stream.writeObjectStart();
+		stream.writeObjectField("offset"); stream.writeVal(offset);
+		stream.writeMore();
+		stream.writeObjectField("limit"); stream.writeVal(limit);
+		stream.writeMore();
+		stream.writeObjectField("data");
+		writer.write(stream);
+		stream.writeObjectEnd();
+		stream.flush();
+	}
+
+	private static void serializeJsonToResponse(Object whatever, HttpServletResponse response, Map<String, Object> logging) throws IOException {
 		Timer timer = new Timer();
 		timer.start();
-		String serialize = JsonStream.serialize(whatever);
+		response.setContentType("application/json;charset=UTF-8");
+		JsonStream.serialize(whatever, response.getOutputStream());
 		logging.put("serialization_time", Long.valueOf(timer.stop()));
-		return serialize;
 	}
 
 	private static List<String> getRoles(HttpServletRequest request) {

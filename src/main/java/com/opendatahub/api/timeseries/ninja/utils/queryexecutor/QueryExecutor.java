@@ -4,11 +4,15 @@
 
 package com.opendatahub.api.timeseries.ninja.utils.queryexecutor;
 
+import java.io.IOException;
+import java.sql.ResultSet;
 import java.util.List;
 import java.util.Map;
 
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+
+import com.jsoniter.output.JsonStream;
 
 public class QueryExecutor {
 	private static NamedParameterJdbcTemplate npjt;
@@ -59,6 +63,38 @@ public class QueryExecutor {
 		mapper.setIgnoreNull(ignoreNull);
 		mapper.setTimeZone(timeZone);
 		return npjt.query(sql, parameters, new RowMapperResultSetExtractor<>(mapper));
+	}
+
+	public int buildAndStream(final String sql, boolean ignoreNull, String timeZone, JsonStream jsonStream) throws IOException {
+		ColumnMapRowMapper mapper = new ColumnMapRowMapper();
+		mapper.setIgnoreNull(ignoreNull);
+		mapper.setTimeZone(timeZone);
+		try {
+			Integer count = npjt.query(sql, parameters, (ResultSet rs) -> {
+				try {
+					jsonStream.writeArrayStart();
+					int c = 0;
+					while (rs.next()) {
+						Map<String, Object> row = mapper.mapRow(rs, c);
+						if (row != null) {
+							if (c > 0) jsonStream.writeMore();
+							jsonStream.writeVal(row);
+							c++;
+						}
+					}
+					jsonStream.writeArrayEnd();
+					return c;
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+				}
+			});
+			return count == null ? 0 : count;
+		} catch (RuntimeException e) {
+			if (e.getCause() instanceof IOException) {
+				throw (IOException) e.getCause();
+			}
+			throw e;
+		}
 	}
 
 	public <T> List<T> build(final String sql, Class<T> resultClass) {

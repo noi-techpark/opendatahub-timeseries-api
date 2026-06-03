@@ -4,6 +4,7 @@
 
 package com.opendatahub.api.timeseries.ninja;
 
+import java.io.IOException;
 import java.time.OffsetDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
@@ -14,6 +15,8 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.StringJoiner;
 import java.util.concurrent.ConcurrentHashMap;
+
+import com.jsoniter.output.JsonStream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -67,21 +70,15 @@ public class DataFetcher {
 	private String timeZone = "UTC";
 	private Map<String, Object> logPayload;
 
-	public List<Map<String, Object>> fetchStations(String stationTypeList, final Representation representation) {
-		if (representation.isEdge()) {
-			throw new SimpleException(ErrorCode.METHOD_NOT_ALLOWED, "fetchStations", representation.getTypeAsString());
-		}
+	private QueryBuilder buildStationsQuery(String stationTypeList, Representation representation) {
 		Set<String> stationTypeSet = QueryBuilder.csvToSet(stationTypeList);
-		Timer timer = new Timer();
-
-		timer.start();
 		SelectExpansion se = new SelectExpansionConfig().getSelectExpansion();
-		QueryBuilder query = QueryBuilder
+		return QueryBuilder
 				.init(se, select, where, distinct, "station", "parent")
 				.addSql("select")
 				.addSqlIf("distinct", distinct)
 				.addSqlIf("s.stationtype as _stationtype, s.stationcode as _stationcode", !representation.isFlat())
-				.expandSelectPrefix(", ",!representation.isFlat())
+				.expandSelectPrefix(", ", !representation.isFlat())
 				.addSql("from station s")
 				.addSqlIfAlias("left join metadata m on m.id = s.meta_data_id", "smetadata")
 				.addSqlIfDefinition("left join station p on s.parent_id = p.id", "parent")
@@ -95,10 +92,18 @@ public class DataFetcher {
 				.addSqlIf("order by _stationtype, _stationcode", !representation.isFlat())
 				.addLimit(limit)
 				.addOffset(offset);
+	}
+
+	public List<Map<String, Object>> fetchStations(String stationTypeList, final Representation representation) {
+		if (representation.isEdge()) {
+			throw new SimpleException(ErrorCode.METHOD_NOT_ALLOWED, "fetchStations", representation.getTypeAsString());
+		}
+		Set<String> stationTypeSet = QueryBuilder.csvToSet(stationTypeList);
+		Timer timer = new Timer();
+		timer.start();
+		QueryBuilder query = buildStationsQuery(stationTypeList, representation);
 		long timeBuild = timer.stop();
 
-		// We need null values while tree building. We remove them during the output
-		// generation
 		timer.start();
 		List<Map<String, Object>> queryResult = QueryExecutor
 				.init()
@@ -106,30 +111,40 @@ public class DataFetcher {
 				.build(query.getSql(), ignoreNull && representation.isFlat(), timeZone);
 		long timeExec = timer.stop();
 
-		LOG.debug(queryResult.toString());
-
 		Map<String, Object> logData = new HashMap<>();
 		logData.put("stationTypes", stationTypeSet);
 		setStats("fetchStations", representation, queryResult.size(), timeBuild, timeExec, query.getSql(), logData);
-
 		return queryResult;
 	}
 
-	public List<Map<String, Object>> fetchStationsAndMetadataHistory(String stationTypeList, OffsetDateTime from, OffsetDateTime to, final Representation representation) {
-		if (representation.isEdge()) {
-			throw new SimpleException(ErrorCode.METHOD_NOT_ALLOWED, "fetchStationsAndMetadata", representation.getTypeAsString());
-		}
+	public int fetchStationsFlat(String stationTypeList, final Representation representation, JsonStream jsonStream) throws IOException {
 		Set<String> stationTypeSet = QueryBuilder.csvToSet(stationTypeList);
 		Timer timer = new Timer();
+		timer.start();
+		QueryBuilder query = buildStationsQuery(stationTypeList, representation);
+		long timeBuild = timer.stop();
 
 		timer.start();
+		int count = QueryExecutor.init()
+				.addParameters(query.getParameters())
+				.buildAndStream(query.getSql(), ignoreNull, timeZone, jsonStream);
+		long timeExec = timer.stop();
+
+		Map<String, Object> logData = new HashMap<>();
+		logData.put("stationTypes", stationTypeSet);
+		setStats("fetchStations", representation, count, timeBuild, timeExec, query.getSql(), logData);
+		return count;
+	}
+
+	private QueryBuilder buildStationsAndMetadataHistoryQuery(String stationTypeList, OffsetDateTime from, OffsetDateTime to, Representation representation) {
+		Set<String> stationTypeSet = QueryBuilder.csvToSet(stationTypeList);
 		SelectExpansion se = new SelectExpansionConfig().getSelectExpansion();
-		QueryBuilder query = QueryBuilder
+		return QueryBuilder
 				.init(se, select, where, distinct, "station", "parent", "metadatahistory")
 				.addSql("select")
 				.addSqlIf("distinct", distinct)
 				.addSqlIf("s.stationtype as _stationtype, s.stationcode as _stationcode", !representation.isFlat())
-				.expandSelectPrefix(", ",!representation.isFlat())
+				.expandSelectPrefix(", ", !representation.isFlat())
 				.addSql("from station s")
 				.addSql("join metadata mh on mh.station_id = s.id")
 				.addSqlIfAlias("left join metadata m on m.id = s.meta_data_id", "smetadata")
@@ -146,10 +161,18 @@ public class DataFetcher {
 				.addSqlIf("order by _stationtype, _stationcode ", !representation.isFlat())
 				.addLimit(limit)
 				.addOffset(offset);
+	}
+
+	public List<Map<String, Object>> fetchStationsAndMetadataHistory(String stationTypeList, OffsetDateTime from, OffsetDateTime to, final Representation representation) {
+		if (representation.isEdge()) {
+			throw new SimpleException(ErrorCode.METHOD_NOT_ALLOWED, "fetchStationsAndMetadata", representation.getTypeAsString());
+		}
+		Set<String> stationTypeSet = QueryBuilder.csvToSet(stationTypeList);
+		Timer timer = new Timer();
+		timer.start();
+		QueryBuilder query = buildStationsAndMetadataHistoryQuery(stationTypeList, from, to, representation);
 		long timeBuild = timer.stop();
 
-		// We need null values while tree building. We remove them during the output
-		// generation
 		timer.start();
 		List<Map<String, Object>> queryResult = QueryExecutor
 				.init()
@@ -157,37 +180,40 @@ public class DataFetcher {
 				.build(query.getSql(), ignoreNull && representation.isFlat(), timeZone);
 		long timeExec = timer.stop();
 
-		LOG.debug(queryResult.toString());
-
 		Map<String, Object> logData = new HashMap<>();
 		logData.put("stationTypes", stationTypeSet);
 		setStats("fetchStationsAndMetadata", representation, queryResult.size(), timeBuild, timeExec, query.getSql(), logData);
-
 		return queryResult;
 	}
-	public List<Map<String, Object>> fetchStationsTypesAndMeasurementHistory(String stationTypeList,
-			String dataTypeList, OffsetDateTime from, OffsetDateTime to, final Representation representation) {
 
-		if (representation.isEdge()) {
-			throw new SimpleException(ErrorCode.METHOD_NOT_ALLOWED, "fetchStationsTypesAndMeasurement(History)",
-					representation.getTypeAsString());
-		}
-
+	public int fetchStationsAndMetadataHistoryFlat(String stationTypeList, OffsetDateTime from, OffsetDateTime to, final Representation representation, JsonStream jsonStream) throws IOException {
 		Set<String> stationTypeSet = QueryBuilder.csvToSet(stationTypeList);
-		Set<String> dataTypeSet = QueryBuilder.csvToSet(dataTypeList);
-
 		Timer timer = new Timer();
+		timer.start();
+		QueryBuilder query = buildStationsAndMetadataHistoryQuery(stationTypeList, from, to, representation);
+		long timeBuild = timer.stop();
 
 		timer.start();
+		int count = QueryExecutor.init()
+				.addParameters(query.getParameters())
+				.buildAndStream(query.getSql(), ignoreNull, timeZone, jsonStream);
+		long timeExec = timer.stop();
+
+		Map<String, Object> logData = new HashMap<>();
+		logData.put("stationTypes", stationTypeSet);
+		setStats("fetchStationsAndMetadata", representation, count, timeBuild, timeExec, query.getSql(), logData);
+		return count;
+	}
+	private QueryBuilder buildMeasurementQuery(String stationTypeList, String dataTypeList, OffsetDateTime from, OffsetDateTime to, Representation representation) {
+		Set<String> stationTypeSet = QueryBuilder.csvToSet(stationTypeList);
+		Set<String> dataTypeSet = QueryBuilder.csvToSet(dataTypeList);
 		SelectExpansion se = new SelectExpansionConfig().getSelectExpansion();
 		QueryBuilder query = QueryBuilder
 				.init(se, select, where, distinct, "station", "parent", "measurementdouble", "measurement", "datatype",
 						"provenance");
 
 		int measurementType = checkMeasurementType(query);
-
 		String aclWhereClause = getAclWhereClause(AclType.stations, roles);
-		
 		boolean useLatest = from == null && to == null;
 
 		if (hasFlag(measurementType, MEASUREMENT_TYPE_DOUBLE)) {
@@ -195,9 +221,7 @@ public class DataFetcher {
 					.addSqlIf("distinct", distinct)
 					.addSqlIf("s.stationtype as _stationtype, s.stationcode as _stationcode, t.cname as _datatypename",
 							!representation.isFlat())
-					.addSqlIf(
-							"me.timestamp as _timestamp",
-							representation.isFlat())
+					.addSqlIf("me.timestamp as _timestamp", representation.isFlat())
 					.expandSelectPrefix(", ")
 					.addSqlIf("from measurement me", useLatest)
 					.addSqlIf("from measurementhistory me", !useLatest)
@@ -235,9 +259,7 @@ public class DataFetcher {
 					.addSqlIf("distinct", distinct)
 					.addSqlIf("s.stationtype as _stationtype, s.stationcode as _stationcode, t.cname as _datatypename",
 							!representation.isFlat())
-					.addSqlIf(
-							"me.timestamp as _timestamp",
-							representation.isFlat())
+					.addSqlIf("me.timestamp as _timestamp", representation.isFlat())
 					.expandSelectPrefix(", ")
 					.addSqlIf("from measurementstring me", useLatest)
 					.addSqlIf("from measurementstringhistory me", !useLatest)
@@ -276,9 +298,7 @@ public class DataFetcher {
 					.addSqlIf("distinct", distinct)
 					.addSqlIf("s.stationtype as _stationtype, s.stationcode as _stationcode, t.cname as _datatypename",
 							!representation.isFlat())
-					.addSqlIf(
-							"me.timestamp as _timestamp",
-							representation.isFlat())
+					.addSqlIf("me.timestamp as _timestamp", representation.isFlat())
 					.expandSelectPrefix(", ")
 					.addSqlIf("from measurementjson me", useLatest)
 					.addSqlIf("from measurementjsonhistory me", !useLatest)
@@ -309,13 +329,37 @@ public class DataFetcher {
 				.addSqlIf("order by _timestamp asc", representation.isFlat())
 				.addLimit(limit)
 				.addOffset(offset);
+
+		return query;
+	}
+
+	private Map<String, Object> measurementLogData(String stationTypeList, String dataTypeList, OffsetDateTime from, OffsetDateTime to) {
+		Map<String, Object> logData = new HashMap<>();
+		logData.put("stationTypes", QueryBuilder.csvToSet(stationTypeList));
+		logData.put("dataTypes", QueryBuilder.csvToSet(dataTypeList));
+		if (from != null || to != null) {
+			logData.put("historyRangeFrom", Objects.toString(from));
+			logData.put("historyRangeTo", Objects.toString(to));
+			if (from != null && to != null) {
+				logData.put("historyRangeDays", from.until(to, ChronoUnit.DAYS));
+			}
+		}
+		return logData;
+	}
+
+	public List<Map<String, Object>> fetchStationsTypesAndMeasurementHistory(String stationTypeList,
+			String dataTypeList, OffsetDateTime from, OffsetDateTime to, final Representation representation) {
+
+		if (representation.isEdge()) {
+			throw new SimpleException(ErrorCode.METHOD_NOT_ALLOWED, "fetchStationsTypesAndMeasurement(History)",
+					representation.getTypeAsString());
+		}
+
+		Timer timer = new Timer();
+		timer.start();
+		QueryBuilder query = buildMeasurementQuery(stationTypeList, dataTypeList, from, to, representation);
 		long timeBuild = timer.stop();
 
-		// to print the query string
-		LOG.debug(query.getSql().toString());
-
-		// We need null values while tree building. We remove them during the output
-		// generation
 		timer.start();
 		List<Map<String, Object>> queryResult = QueryExecutor
 				.init()
@@ -323,23 +367,30 @@ public class DataFetcher {
 				.build(query.getSql(), ignoreNull && representation.isFlat(), timeZone);
 		long timeExec = timer.stop();
 
-		Map<String, Object> logData = new HashMap<>();
-		logData.put("stationTypes", stationTypeSet);
-		logData.put("dataTypes", dataTypeSet);
-		String command;
-		if (from == null && to == null) {
-			command = "fetchMeasurement";
-		} else {
-			command = "fetchMeasurementHistory";
-			logData.put("historyRangeFrom", Objects.toString(from));
-			logData.put("historyRangeTo", Objects.toString(to));
-			if (from != null && to != null){
-				logData.put("historyRangeDays", from.until(to, ChronoUnit.DAYS));
-			}
-		}
-		setStats(command, representation, queryResult.size(), timeBuild, timeExec, query.getSql(), logData);
-
+		String command = (from == null && to == null) ? "fetchMeasurement" : "fetchMeasurementHistory";
+		setStats(command, representation, queryResult.size(), timeBuild, timeExec, query.getSql(),
+				measurementLogData(stationTypeList, dataTypeList, from, to));
 		return queryResult;
+	}
+
+	public int fetchStationsTypesAndMeasurementHistoryFlat(String stationTypeList, String dataTypeList,
+			OffsetDateTime from, OffsetDateTime to, final Representation representation, JsonStream jsonStream) throws IOException {
+
+		Timer timer = new Timer();
+		timer.start();
+		QueryBuilder query = buildMeasurementQuery(stationTypeList, dataTypeList, from, to, representation);
+		long timeBuild = timer.stop();
+
+		timer.start();
+		int count = QueryExecutor.init()
+				.addParameters(query.getParameters())
+				.buildAndStream(query.getSql(), ignoreNull, timeZone, jsonStream);
+		long timeExec = timer.stop();
+
+		String command = (from == null && to == null) ? "fetchMeasurement" : "fetchMeasurementHistory";
+		setStats(command, representation, count, timeBuild, timeExec, query.getSql(),
+				measurementLogData(stationTypeList, dataTypeList, from, to));
+		return count;
 	}
 
 	private enum AclType{
@@ -385,20 +436,9 @@ public class DataFetcher {
 		return sj.toString();
 	}
 
-	public List<Map<String, Object>> fetchStationsAndTypes(String stationTypeList, String dataTypeList,
-			final Representation representation) {
-
-		if (representation.isEdge()) {
-			throw new SimpleException(ErrorCode.METHOD_NOT_ALLOWED, "fetchStationsAndTypes",
-					representation.getTypeAsString());
-		}
-
+	private QueryBuilder buildStationsAndTypesQuery(String stationTypeList, String dataTypeList, Representation representation) {
 		Set<String> stationTypeSet = QueryBuilder.csvToSet(stationTypeList);
 		Set<String> dataTypeSet = QueryBuilder.csvToSet(dataTypeList);
-
-		Timer timer = new Timer();
-
-		timer.start();
 		SelectExpansion se = new SelectExpansionConfig().getSelectExpansion();
 		QueryBuilder query = QueryBuilder
 				.init(se, select, where, distinct, "station", "parent", "datatype");
@@ -424,13 +464,25 @@ public class DataFetcher {
 				.expandWhere()
 				.expandGroupByIf("_stationtype, _stationcode, _datatypename", !representation.isFlat());
 
-		query.addSqlIf("order by _stationtype, _stationcode, _datatypename", !representation.isFlat())
+		return query
+				.addSqlIf("order by _stationtype, _stationcode, _datatypename", !representation.isFlat())
 				.addLimit(limit)
 				.addOffset(offset);
+	}
+
+	public List<Map<String, Object>> fetchStationsAndTypes(String stationTypeList, String dataTypeList,
+			final Representation representation) {
+
+		if (representation.isEdge()) {
+			throw new SimpleException(ErrorCode.METHOD_NOT_ALLOWED, "fetchStationsAndTypes",
+					representation.getTypeAsString());
+		}
+
+		Timer timer = new Timer();
+		timer.start();
+		QueryBuilder query = buildStationsAndTypesQuery(stationTypeList, dataTypeList, representation);
 		long timeBuild = timer.stop();
 
-		// We need null values while tree building. We remove them during the output
-		// generation
 		timer.start();
 		List<Map<String, Object>> queryResult = QueryExecutor
 				.init()
@@ -439,12 +491,31 @@ public class DataFetcher {
 		long timeExec = timer.stop();
 
 		Map<String, Object> logData = new HashMap<>();
-		logData.put("stationTypes", stationTypeSet);
-		logData.put("dataTypes", dataTypeSet);
-		setStats("fetchStationsAndTypes", representation, queryResult.size(), timeBuild, timeExec, query.getSql(),
-				logData);
-
+		logData.put("stationTypes", QueryBuilder.csvToSet(stationTypeList));
+		logData.put("dataTypes", QueryBuilder.csvToSet(dataTypeList));
+		setStats("fetchStationsAndTypes", representation, queryResult.size(), timeBuild, timeExec, query.getSql(), logData);
 		return queryResult;
+	}
+
+	public int fetchStationsAndTypesFlat(String stationTypeList, String dataTypeList,
+			final Representation representation, JsonStream jsonStream) throws IOException {
+
+		Timer timer = new Timer();
+		timer.start();
+		QueryBuilder query = buildStationsAndTypesQuery(stationTypeList, dataTypeList, representation);
+		long timeBuild = timer.stop();
+
+		timer.start();
+		int count = QueryExecutor.init()
+				.addParameters(query.getParameters())
+				.buildAndStream(query.getSql(), ignoreNull, timeZone, jsonStream);
+		long timeExec = timer.stop();
+
+		Map<String, Object> logData = new HashMap<>();
+		logData.put("stationTypes", QueryBuilder.csvToSet(stationTypeList));
+		logData.put("dataTypes", QueryBuilder.csvToSet(dataTypeList));
+		setStats("fetchStationsAndTypes", representation, count, timeBuild, timeExec, query.getSql(), logData);
+		return count;
 	}
 
 	public List<Map<String, Object>> fetchStationTypes(final Representation representation) {
@@ -489,22 +560,11 @@ public class DataFetcher {
 		return queryResult;
 	}
 
-	public List<Map<String, Object>> fetchEvents(String originList, boolean latestOnly, OffsetDateTime from,
-			OffsetDateTime to, final Representation representation) {
-
-		if (!representation.isEvent()) {
-			throw new SimpleException(ErrorCode.METHOD_NOT_ALLOWED, "fetchEvents", representation.getTypeAsString());
-		}
-
+	private QueryBuilder buildEventsQuery(String originList, boolean latestOnly, OffsetDateTime from, OffsetDateTime to, Representation representation) {
 		Set<String> originSet = QueryBuilder.csvToSet(originList);
-
 		String aclWhereClause = getAclWhereClause(AclType.events, roles);
-
-		Timer timer = new Timer();
-
-		timer.start();
 		SelectExpansion se = new SelectExpansionConfig().getSelectExpansion();
-		QueryBuilder query = QueryBuilder
+		return QueryBuilder
 				.init(se, select, where, distinct, "event", "location", "provenanceevent")
 				.addSqlIf(
 						"with latest as (select e.id, row_number() over(partition by e.origin, e.event_series_uuid order by e.event_interval desc) as rank from event e)",
@@ -539,12 +599,20 @@ public class DataFetcher {
 						!representation.isFlat() && se.getUsedDefNames().contains("location"))
 				.addLimit(limit)
 				.addOffset(offset);
+	}
+
+	public List<Map<String, Object>> fetchEvents(String originList, boolean latestOnly, OffsetDateTime from,
+			OffsetDateTime to, final Representation representation) {
+
+		if (!representation.isEvent()) {
+			throw new SimpleException(ErrorCode.METHOD_NOT_ALLOWED, "fetchEvents", representation.getTypeAsString());
+		}
+
+		Timer timer = new Timer();
+		timer.start();
+		QueryBuilder query = buildEventsQuery(originList, latestOnly, from, to, representation);
 		long timeBuild = timer.stop();
 
-		LOG.debug(query.getSql());
-
-		// We need null values while tree building. We remove them during the output
-		// generation
 		timer.start();
 		List<Map<String, Object>> queryResult = QueryExecutor
 				.init()
@@ -552,12 +620,9 @@ public class DataFetcher {
 				.build(query.getSql(), ignoreNull && representation.isFlat(), timeZone);
 		long timeExec = timer.stop();
 
-		LOG.trace(queryResult.toString());
-
 		Map<String, Object> logData = new HashMap<>();
-		logData.put("origins", originSet);
+		logData.put("origins", QueryBuilder.csvToSet(originList));
 		setStats("fetchEvents", representation, queryResult.size(), timeBuild, timeExec, query.getSql(), logData);
-
 		return queryResult;
 	}
 
@@ -581,19 +646,10 @@ public class DataFetcher {
 		return queryResult;
 	}
 
-	public List<Map<String, Object>> fetchEdges(String stationTypeList, final Representation representation) {
-
-		if (!representation.isEdge()) {
-			throw new SimpleException(ErrorCode.METHOD_NOT_ALLOWED, "fetchEdges", representation.getTypeAsString());
-		}
-
+	private QueryBuilder buildEdgesQuery(String stationTypeList, Representation representation) {
 		Set<String> stationTypeSet = QueryBuilder.csvToSet(stationTypeList);
-
-		Timer timer = new Timer();
-
-		timer.start();
 		SelectExpansion se = new SelectExpansionConfig().getSelectExpansion();
-		QueryBuilder query = QueryBuilder
+		return QueryBuilder
 				.init(se, select, where, distinct, "edge", "stationbegin", "stationend")
 				.addSql("select")
 				.addSqlIf("distinct", distinct)
@@ -613,12 +669,19 @@ public class DataFetcher {
 				.addSqlIf("order by _edgetype, _edgecode", !representation.isFlat())
 				.addLimit(limit)
 				.addOffset(offset);
+	}
+
+	public List<Map<String, Object>> fetchEdges(String stationTypeList, final Representation representation) {
+
+		if (!representation.isEdge()) {
+			throw new SimpleException(ErrorCode.METHOD_NOT_ALLOWED, "fetchEdges", representation.getTypeAsString());
+		}
+
+		Timer timer = new Timer();
+		timer.start();
+		QueryBuilder query = buildEdgesQuery(stationTypeList, representation);
 		long timeBuild = timer.stop();
 
-		LOG.debug(query.getSql());
-
-		// We need null values while tree building. We remove them during the output
-		// generation
 		timer.start();
 		List<Map<String, Object>> queryResult = QueryExecutor
 				.init()
@@ -626,13 +689,29 @@ public class DataFetcher {
 				.build(query.getSql(), ignoreNull && representation.isFlat(), timeZone);
 		long timeExec = timer.stop();
 
-		LOG.trace(queryResult.toString());
+		Map<String, Object> logData = new HashMap<>();
+		logData.put("stationTypes", QueryBuilder.csvToSet(stationTypeList));
+		setStats("fetchEdges", representation, queryResult.size(), timeBuild, timeExec, query.getSql(), logData);
+		return queryResult;
+	}
+
+	public int fetchEdgesFlat(String stationTypeList, final Representation representation, JsonStream jsonStream) throws IOException {
+
+		Timer timer = new Timer();
+		timer.start();
+		QueryBuilder query = buildEdgesQuery(stationTypeList, representation);
+		long timeBuild = timer.stop();
+
+		timer.start();
+		int count = QueryExecutor.init()
+				.addParameters(query.getParameters())
+				.buildAndStream(query.getSql(), ignoreNull, timeZone, jsonStream);
+		long timeExec = timer.stop();
 
 		Map<String, Object> logData = new HashMap<>();
-		logData.put("stationTypes", stationTypeSet);
-		setStats("fetchEdges", representation, queryResult.size(), timeBuild, timeExec, query.getSql(), logData);
-
-		return queryResult;
+		logData.put("stationTypes", QueryBuilder.csvToSet(stationTypeList));
+		setStats("fetchEdges", representation, count, timeBuild, timeExec, query.getSql(), logData);
+		return count;
 	}
 
 	public void logStats() {
