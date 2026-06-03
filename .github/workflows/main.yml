@@ -112,7 +112,7 @@ jobs:
 
             .env.LOG_APPLICATION_VERSION="${{ env.DOCKER_TAG }}" |
             .oauth.clientSecret="${{ secrets.TEST_KEYCLOAK_CLIENT_SECRET }}"
-          ' infrastructure/helm/partition.yaml
+          ' infrastructure/helm/mem.yaml
       
       - name: Deploy on cluster  
         uses: noi-techpark/github-actions/helm-deploy@v2
