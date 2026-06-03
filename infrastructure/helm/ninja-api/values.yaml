@@ -35,6 +35,9 @@ health:
   delay: 10
   port: 80
   path: /actuator/health
+  livenessTimeoutSeconds: 5
+  readinessTimeoutSeconds: 10
+  failureThreshold: 5
 
 ingress:
   enabled: false
