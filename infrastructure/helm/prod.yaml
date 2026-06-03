@@ -22,6 +22,7 @@ env:
   NINJA_HOST_URL: "https://mobility.api.opendatahub.com"
   NINJA_BASE_URL: "https://mobility.api.opendatahub.com/v2"
   NINJA_QUERY_TIMEOUT_SEC: 120
+  NINJA_HIKARI_MAX_POOL_SIZE: 20
   NINJA_HIKARI_LEAK_DETECTION_MS: 65000  # should be greater than (NINJA_QUERY_TIMEOUT_SEC * 1000)
   NINJA_RESPONSE_MAX_SIZE_MB: 100
 

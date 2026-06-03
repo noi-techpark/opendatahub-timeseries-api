@@ -108,11 +108,15 @@ spec:
               path: /actuator/health/liveness
               port: http
             initialDelaySeconds: {{ .Values.health.delay }}
+            timeoutSeconds: {{ .Values.health.livenessTimeoutSeconds }}
+            failureThreshold: {{ .Values.health.failureThreshold }}
           readinessProbe:
             httpGet:
               path: /actuator/health/readiness
               port: http
             initialDelaySeconds: {{ .Values.health.delay }}
+            timeoutSeconds: {{ .Values.health.readinessTimeoutSeconds }}
+            failureThreshold: {{ .Values.health.failureThreshold }}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
