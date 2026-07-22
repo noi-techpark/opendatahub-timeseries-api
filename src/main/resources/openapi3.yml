@@ -946,14 +946,14 @@ components:
     timepoint:
       name: timepoint
       in: path
-      description: "Point in time. Format: `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]` (e.g. `2024-01-15T10:30:00+0200`)"
+      description: "Point in time. Format: `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]` (e.g. `2024-01-15T10:30:00+0200`). If no zone/offset is given, UTC is assumed."
       required: true
       schema:
         type: string
     from:
       name: from
       in: path
-      description: "Start of a half-open interval [from, to). Format: `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]`"
+      description: "Start of a half-open interval [from, to). Format: `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]`. If no zone/offset is given, UTC is assumed."
       required: true
       schema:
         type: string
@@ -961,7 +961,7 @@ components:
     to:
       name: to
       in: path
-      description: "End of a half-open interval [from, to). Format: `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]`"
+      description: "End of a half-open interval [from, to). Format: `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]`. If no zone/offset is given, UTC is assumed."
       required: true
       schema:
         type: string

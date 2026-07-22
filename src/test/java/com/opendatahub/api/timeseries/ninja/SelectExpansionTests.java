@@ -460,4 +460,27 @@ public class SelectExpansionTests {
 		assertEquals(java.time.OffsetDateTime.parse("2024-01-15T00:00:00Z"), seOpenDataHub.getWhereParameters().get("pwhere_0"));
 	}
 
+	@Test
+	public void testUnknownOperatorErrorListsValidOperatorsForType() {
+		try {
+			seOpenDataHub.setWhereClause("mtransactiontime.gte.2024-01-15");
+			seOpenDataHub.expand("mtransactiontime", "measurement");
+			fail("Exception expected; gte is not a registered operator, gteq is");
+		} catch (SimpleException e) {
+			assertEquals(
+					"SELECT EXPANSION ERROR: Syntax Error in WHERE clause: 'gte' is not a valid operator for a value of type DATE. Valid operators for this type: eq, gt, gteq, lt, lteq, neq",
+					e.getMessage());
+		}
+
+		try {
+			seMinimal.setWhereClause("a.foo.3");
+			seMinimal.expand("a", "A");
+			fail("Exception expected; foo is not a registered operator for NUMBER");
+		} catch (SimpleException e) {
+			assertEquals(
+					"SELECT EXPANSION ERROR: Syntax Error in WHERE clause: 'foo' is not a valid operator for a value of type NUMBER. Valid operators for this type: eq, gt, gteq, lt, lteq, neq",
+					e.getMessage());
+		}
+	}
+
 }

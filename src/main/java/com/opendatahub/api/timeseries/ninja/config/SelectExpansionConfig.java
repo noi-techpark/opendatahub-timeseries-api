@@ -255,7 +255,7 @@ public class SelectExpansionConfig {
 		se.addOperator("NUMBER", "neq", "%c <> %v");
 		se.addOperator("NUMBER", "lt", "%c < %v");
 		se.addOperator("NUMBER", "gt", "%c > %v");
-		se.addOperator("NUMBER", "lteq", "%c =< %v");
+		se.addOperator("NUMBER", "lteq", "%c <= %v");
 		se.addOperator("NUMBER", "gteq", "%c >= %v");
 
 		se.addOperator("STRING", "eq", "%c = %v");
@@ -283,7 +283,7 @@ public class SelectExpansionConfig {
 		se.addOperator("JSON/NUMBER", "neq", "(%c#>'{%j}')::double precision <> %v");
 		se.addOperator("JSON/NUMBER", "lt", "(%c#>'{%j}')::double precision < %v");
 		se.addOperator("JSON/NUMBER", "gt", "(%c#>'{%j}')::double precision > %v");
-		se.addOperator("JSON/NUMBER", "lteq", "(%c#>'{%j}')::double precision =< %v");
+		se.addOperator("JSON/NUMBER", "lteq", "(%c#>'{%j}')::double precision <= %v");
 		se.addOperator("JSON/NUMBER", "gteq", "(%c#>'{%j}')::double precision >= %v");
 
 		se.addOperator("JSON/STRING", "eq", "%c#>>'{%j}' = %v");

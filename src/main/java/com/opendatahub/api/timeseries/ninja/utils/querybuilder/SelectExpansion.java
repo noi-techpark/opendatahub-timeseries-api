@@ -93,7 +93,7 @@ public class SelectExpansion {
 		WHERE_ALIAS_VALUE_ERROR("Syntax Error in WHERE clause: '%s.<%s>' with value %s is not valid (checks failed)"),
 		WHERE_ALIAS_NOT_FOUND("Syntax Error in WHERE clause: Alias '%s' does not exist"),
 		WHERE_ALIAS_ALREADY_EXISTS("Syntax Error in WHERE clause: Alias '%s' cannot be used more than once"),
-		WHERE_OPERATOR_NOT_FOUND("Syntax Error in WHERE clause: Operator '%s.<%s>' does not exist"),
+		WHERE_OPERATOR_NOT_FOUND("Syntax Error in WHERE clause: '%s' is not a valid operator for a value of type %s. Valid operators for this type: %s"),
 		WHERE_SYNTAX_ERROR("Syntax Error in WHERE clause: %s"),
 		DIRTY_STATE("We are in a dirty state. Run expand() to clean up"),
 		EXPAND_INVALID_DATA("Provide valid alias and definition sets!"),
@@ -265,20 +265,27 @@ public class SelectExpansion {
 		operator = operator.toUpperCase();
 
 		/* Search for a definition of this operator for a the given value input type (list, null or values) */
-		StringJoiner operatorID = new StringJoiner("/");
+		StringJoiner typePrefixJoiner = new StringJoiner("/");
 		if (jsonSel != null) {
-			operatorID.add("JSON");
+			typePrefixJoiner.add("JSON");
 		}
-		operatorID.add(clauseValueToken.getName());
+		typePrefixJoiner.add(clauseValueToken.getName());
 		String listElementTypes = clauseValueToken.getChildrenType();
 		if (listElementTypes != null) {
-			operatorID.add(listElementTypes.toUpperCase());
+			typePrefixJoiner.add(listElementTypes.toUpperCase());
 		}
+		String typePrefix = typePrefixJoiner.toString();
 
-		operatorID.add(operator);
-		WhereClauseOperator whereClauseOperator = whereClauseOperatorMap.get(operatorID.toString());
+		WhereClauseOperator whereClauseOperator = whereClauseOperatorMap.get(typePrefix + "/" + operator);
 		if (whereClauseOperator == null) {
-			throw new SimpleException(ErrorCode.WHERE_OPERATOR_NOT_FOUND, operator, operatorID);
+			List<String> validOperators = new ArrayList<>();
+			for (String key : whereClauseOperatorMap.keySet()) {
+				if (key.startsWith(typePrefix + "/")) {
+					validOperators.add(key.substring(typePrefix.length() + 1).toLowerCase());
+				}
+			}
+			Collections.sort(validOperators);
+			throw new SimpleException(ErrorCode.WHERE_OPERATOR_NOT_FOUND, operator.toLowerCase(), typePrefix, String.join(", ", validOperators));
 		}
 
 		List<Token> clauseValueTokens = new ArrayList<>();
