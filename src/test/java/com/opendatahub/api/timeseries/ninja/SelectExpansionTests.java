@@ -404,7 +404,7 @@ public class SelectExpansionTests {
 
 		seOpenDataHub.setWhereClause("mtransactiontime.lteq.2024-01-15T10:30:00+02:00");
 		seOpenDataHub.expand("mtransactiontime", "measurement");
-		assertEquals("(me.created_on =< :pwhere_0::timestamptz)", seOpenDataHub.getWhereSql());
+		assertEquals("(me.created_on <= :pwhere_0::timestamptz)", seOpenDataHub.getWhereSql());
 		assertEquals(java.time.OffsetDateTime.parse("2024-01-15T10:30:00+02:00"), seOpenDataHub.getWhereParameters().get("pwhere_0"));
 
 		seOpenDataHub.setWhereClause("mtransactiontime.eq.2024-01-15");

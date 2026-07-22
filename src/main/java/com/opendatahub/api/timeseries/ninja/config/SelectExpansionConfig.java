@@ -269,7 +269,7 @@ public class SelectExpansionConfig {
 		se.addOperator("DATE", "neq", "%c <> %v::timestamptz");
 		se.addOperator("DATE", "lt", "%c < %v::timestamptz");
 		se.addOperator("DATE", "gt", "%c > %v::timestamptz");
-		se.addOperator("DATE", "lteq", "%c =< %v::timestamptz");
+		se.addOperator("DATE", "lteq", "%c <= %v::timestamptz");
 		se.addOperator("DATE", "gteq", "%c >= %v::timestamptz");
 
 		/* JSON operators */
