@@ -6,6 +6,19 @@ openapi: 3.0.1
 info:
   title: Open Data Hub Timeseries / Mobility API
   description: >
+    ## ⚠️ Notices
+
+
+    > ⚠️ **Deprecated features:** The **Events** data type and the **station
+    metadata history** endpoint (`/{representation}/{stationTypes}/metadata/{from}/{to}`)
+    are deprecated and scheduled for **removal in May 2027**. Please avoid building new
+    integrations against them.
+
+
+    > ⚠️ **Domain change:** The `mobility.api.opendatahub.bz.it` domain will be dismissed
+    soon. Please switch to `mobility.api.opendatahub.com` instead.
+
+
     ## About this API
 
     This API exposes both historical and up to date time series data in a common format.
@@ -73,7 +86,7 @@ tags:
   - name: Edges
     description: Edge data connecting two stations
   - name: Events
-    description: "**Deprecated** — Events are slated for removal"
+    description: "**Deprecated** — Events are slated for removal in May 2027"
 paths:
   # V2 ----------------------------------------------------------------------------------------
   /v2/:
@@ -224,6 +237,7 @@ paths:
         - Events
       deprecated: true
       summary: List all event origins
+      description: "**Deprecated:** Events are scheduled for removal in May 2027."
       security:
         - OAuth2: []
       parameters:
@@ -362,7 +376,7 @@ paths:
         - Events
       deprecated: true
       summary: Events for given origins
-      description: Multiple origins supported as comma-separated values. Response fields prefixed with `ev` (event), `evl` (location) and `pr` (provenance).
+      description: "**Deprecated:** Events are scheduled for removal in May 2027. Multiple origins supported as comma-separated values. Response fields prefixed with `ev` (event), `evl` (location) and `pr` (provenance)."
       security:
         - OAuth2: []
       parameters:
@@ -397,7 +411,7 @@ paths:
         - Events
       deprecated: true
       summary: Latest events per origin and series UUID
-      description: Multiple origins supported as comma-separated values. Response fields prefixed with `ev` (event), `evl` (location) and `pr` (provenance).
+      description: "**Deprecated:** Events are scheduled for removal in May 2027. Multiple origins supported as comma-separated values. Response fields prefixed with `ev` (event), `evl` (location) and `pr` (provenance)."
       security:
         - OAuth2: []
       parameters:
@@ -432,7 +446,7 @@ paths:
         - Events
       deprecated: true
       summary: Events active at a given point in time
-      description: Multiple origins supported as comma-separated values. Response fields prefixed with `ev` (event), `evl` (location) and `pr` (provenance).
+      description: "**Deprecated:** Events are scheduled for removal in May 2027. Multiple origins supported as comma-separated values. Response fields prefixed with `ev` (event), `evl` (location) and `pr` (provenance)."
       security:
         - OAuth2: []
       parameters:
@@ -468,7 +482,7 @@ paths:
         - Events
       deprecated: true
       summary: Events active within a time interval
-      description: Multiple origins supported as comma-separated values. Response fields prefixed with `ev` (event), `evl` (location) and `pr` (provenance).
+      description: "**Deprecated:** Events are scheduled for removal in May 2027. Multiple origins supported as comma-separated values. Response fields prefixed with `ev` (event), `evl` (location) and `pr` (provenance)."
       security:
         - OAuth2: []
       parameters:
@@ -841,6 +855,7 @@ paths:
         - Timeseries
       deprecated: true
       summary: Metadata history for given station types
+      description: "**Deprecated:** This endpoint is scheduled for removal in May 2027."
       security:
         - OAuth2: []
       parameters:
