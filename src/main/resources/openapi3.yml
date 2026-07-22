@@ -993,7 +993,8 @@ components:
              e.g. `coordinate.dlt.(5000,11.2,46.7,4326)`
          -   `in`: Value found in list. Example: `name.in.(Peter,Patrick,Rudi)`
          -   `nin`: Value not found in list. Example: `name.nin.(Peter,Patrick,Rudi)`
-        Numbers are auto-cast to numeric type.  
+        Numbers are auto-cast to numeric type.
+        Values matching the date/time format `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]` (same format as `from`/`to`) are auto-cast to a timestamp, so `eq`, `neq`, `lt`, `gt`, `lteq` and `gteq` also work against date/timestamp fields, e.g. `mtransactiontime.gt.2024-01-01`. As with `from`/`to`, a value without an explicit zone/offset is interpreted as UTC.
         `"` quote values to force string comparison.
 
         ### Logical operators

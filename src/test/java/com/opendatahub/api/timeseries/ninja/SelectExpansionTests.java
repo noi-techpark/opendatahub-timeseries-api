@@ -395,4 +395,69 @@ public class SelectExpansionTests {
 		assertNull(list.get(0).getValue(3).getPayload("typedvalue"));
 	}
 
+	@Test
+	public void testOpenDataHubConfigDateFilters() {
+		seOpenDataHub.setWhereClause("mtransactiontime.gt.2024-01-15");
+		seOpenDataHub.expand("mtransactiontime", "measurement");
+		assertEquals("(me.created_on > :pwhere_0::timestamptz)", seOpenDataHub.getWhereSql());
+		assertEquals(java.time.OffsetDateTime.parse("2024-01-15T00:00:00Z"), seOpenDataHub.getWhereParameters().get("pwhere_0"));
+
+		seOpenDataHub.setWhereClause("mtransactiontime.lteq.2024-01-15T10:30:00+02:00");
+		seOpenDataHub.expand("mtransactiontime", "measurement");
+		assertEquals("(me.created_on =< :pwhere_0::timestamptz)", seOpenDataHub.getWhereSql());
+		assertEquals(java.time.OffsetDateTime.parse("2024-01-15T10:30:00+02:00"), seOpenDataHub.getWhereParameters().get("pwhere_0"));
+
+		seOpenDataHub.setWhereClause("mtransactiontime.eq.2024-01-15");
+		seOpenDataHub.expand("mtransactiontime", "measurement");
+		assertEquals("(me.created_on = :pwhere_0::timestamptz)", seOpenDataHub.getWhereSql());
+
+		seOpenDataHub.setWhereClause("mtransactiontime.neq.2024-01-15");
+		seOpenDataHub.expand("mtransactiontime", "measurement");
+		assertEquals("(me.created_on <> :pwhere_0::timestamptz)", seOpenDataHub.getWhereSql());
+
+		seOpenDataHub.setWhereClause("mtransactiontime.lt.2024-01-15");
+		seOpenDataHub.expand("mtransactiontime", "measurement");
+		assertEquals("(me.created_on < :pwhere_0::timestamptz)", seOpenDataHub.getWhereSql());
+
+		seOpenDataHub.setWhereClause("mtransactiontime.gteq.2024-01-15");
+		seOpenDataHub.expand("mtransactiontime", "measurement");
+		assertEquals("(me.created_on >= :pwhere_0::timestamptz)", seOpenDataHub.getWhereSql());
+	}
+
+	@Test
+	public void testOpenDataHubConfigDateFiltersVariousFormatsAndTimezones() {
+		/* RFC-822 style offset, no colon (as used in the /from/to examples) */
+		seOpenDataHub.setWhereClause("mtransactiontime.gt.2024-01-01T00:00:00+0200");
+		seOpenDataHub.expand("mtransactiontime", "measurement");
+		assertEquals("(me.created_on > :pwhere_0::timestamptz)", seOpenDataHub.getWhereSql());
+		assertEquals(java.time.OffsetDateTime.parse("2024-01-01T00:00:00+02:00"), seOpenDataHub.getWhereParameters().get("pwhere_0"));
+
+		/* explicit literal Z (UTC) offset */
+		seOpenDataHub.setWhereClause("mtransactiontime.gt.2024-01-15T10:30:00Z");
+		seOpenDataHub.expand("mtransactiontime", "measurement");
+		assertEquals(java.time.OffsetDateTime.parse("2024-01-15T10:30:00Z"), seOpenDataHub.getWhereParameters().get("pwhere_0"));
+
+		/* milliseconds precision, with negative offset */
+		seOpenDataHub.setWhereClause("mtransactiontime.gt.2024-01-15T10:30:00.123-0500");
+		seOpenDataHub.expand("mtransactiontime", "measurement");
+		assertEquals(java.time.OffsetDateTime.parse("2024-01-15T10:30:00.123-05:00"), seOpenDataHub.getWhereParameters().get("pwhere_0"));
+
+		/* date + time, no seconds, no zone -> defaults to UTC, same as /from/to would */
+		seOpenDataHub.setWhereClause("mtransactiontime.gt.2024-01-15T10:30");
+		seOpenDataHub.expand("mtransactiontime", "measurement");
+		assertEquals(java.time.OffsetDateTime.parse("2024-01-15T10:30:00Z"), seOpenDataHub.getWhereParameters().get("pwhere_0"));
+
+		/* mvalidtime is also a timestamptz column and must support the same date filters */
+		seOpenDataHub.setWhereClause("mvalidtime.lt.2024-06-01");
+		seOpenDataHub.expand("mvalidtime", "measurement");
+		assertEquals("(me.timestamp < :pwhere_0::timestamptz)", seOpenDataHub.getWhereSql());
+		assertEquals(java.time.OffsetDateTime.parse("2024-06-01T00:00:00Z"), seOpenDataHub.getWhereParameters().get("pwhere_0"));
+
+		/* mhtransactiontime (metadatahistory) is also a timestamptz column */
+		seOpenDataHub.setWhereClause("mhtransactiontime.gt.2024-01-15");
+		seOpenDataHub.expand("mhtransactiontime", "metadatahistory");
+		assertEquals("(mh.created_on > :pwhere_0::timestamptz)", seOpenDataHub.getWhereSql());
+		assertEquals(java.time.OffsetDateTime.parse("2024-01-15T00:00:00Z"), seOpenDataHub.getWhereParameters().get("pwhere_0"));
+	}
+
 }

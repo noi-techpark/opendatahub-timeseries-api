@@ -265,6 +265,13 @@ public class SelectExpansionConfig {
 		se.addOperator("STRING", "nre", "%c !~ %v");
 		se.addOperator("STRING", "nire", "%c !~* %v");
 
+		se.addOperator("DATE", "eq", "%c = %v::timestamptz");
+		se.addOperator("DATE", "neq", "%c <> %v::timestamptz");
+		se.addOperator("DATE", "lt", "%c < %v::timestamptz");
+		se.addOperator("DATE", "gt", "%c > %v::timestamptz");
+		se.addOperator("DATE", "lteq", "%c =< %v::timestamptz");
+		se.addOperator("DATE", "gteq", "%c >= %v::timestamptz");
+
 		/* JSON operators */
 		se.addOperator("JSON/NULL", "eq", "%c#>'{%j}' is %v");
 		se.addOperator("JSON/NULL", "neq", "%c#>'{%j}' is not %v");

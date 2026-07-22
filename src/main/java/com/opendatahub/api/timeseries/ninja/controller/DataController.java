@@ -6,14 +6,8 @@
 
 package com.opendatahub.api.timeseries.ninja.controller;
 
-import java.time.DateTimeException;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
 import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeFormatterBuilder;
 import java.time.format.DateTimeParseException;
-import java.time.temporal.ChronoField;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -40,6 +34,7 @@ import org.springframework.web.server.ResponseStatusException;
 import com.opendatahub.api.timeseries.ninja.DataFetcher;
 import com.opendatahub.api.timeseries.ninja.config.SelectExpansionConfig;
 import com.opendatahub.api.timeseries.ninja.quota.HistoryLimit;
+import com.opendatahub.api.timeseries.ninja.utils.DateTimeParser;
 import com.opendatahub.api.timeseries.ninja.utils.FileUtils;
 import com.opendatahub.api.timeseries.ninja.utils.Representation;
 import com.opendatahub.api.timeseries.ninja.utils.SecurityUtils;
@@ -56,21 +51,12 @@ import com.opendatahub.api.timeseries.ninja.utils.simpleexception.SimpleExceptio
 @RequestMapping(value = "")
 public class DataController {
 
-	/* Do not forget to update DOC_TIME, when changing this */
-	private static final String DATETIME_FORMAT_PATTERN = "yyyy-MM-dd['T'[HH][:mm][:ss][.SSS]][Z][z]";
+	private static final String DATETIME_FORMAT_PATTERN = DateTimeParser.DATETIME_FORMAT_PATTERN;
 	private static final String DEFAULT_LIMIT = "200";
 	private static final String DEFAULT_OFFSET = "0";
 	private static final String DEFAULT_SHOWNULL = "false";
 	private static final String DEFAULT_DISTINCT = "true";
 	private static final String DEFAULT_TIMEZONE = "UTC";
-
-	private static final DateTimeFormatter DATE_FORMAT = new DateTimeFormatterBuilder()
-			.appendPattern(DATETIME_FORMAT_PATTERN)
-			.parseDefaulting(ChronoField.HOUR_OF_DAY, 0)
-			.parseDefaulting(ChronoField.MINUTE_OF_HOUR, 0)
-			.parseDefaulting(ChronoField.SECOND_OF_MINUTE, 0)
-			.parseDefaulting(ChronoField.NANO_OF_SECOND, 0)
-			.toFormatter();
 
 	@Value("${ninja.baseurl}")
 	private String ninjaBaseUrl;
@@ -493,11 +479,7 @@ public class DataController {
 
 	private static ZonedDateTime getDateTime(final String dateString) {
 		try {
-			try {
-				return ZonedDateTime.from(DATE_FORMAT.parse(dateString));
-			} catch (DateTimeException e) {
-				return LocalDateTime.from(DATE_FORMAT.parse(dateString)).atZone(ZoneId.of("Z"));
-			}
+			return DateTimeParser.parse(dateString);
 		} catch (final DateTimeParseException e) {
 			throw new SimpleException(ErrorCode.DATE_PARSE_ERROR, DATETIME_FORMAT_PATTERN.replace("'", ""),
 					e.getMessage());

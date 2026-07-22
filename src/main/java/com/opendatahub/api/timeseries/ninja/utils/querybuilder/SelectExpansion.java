@@ -298,6 +298,7 @@ public class SelectExpansion {
 		case "NUMBER":
 		case "STRING":
 		case "BOOLEAN":
+		case "DATE":
 			value = clauseValueToken.getPayload("typedvalue");
 			clauseValueTokens.add(clauseValueToken);
 			break;

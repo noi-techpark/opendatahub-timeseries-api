@@ -5,6 +5,7 @@
 package com.opendatahub.api.timeseries.ninja;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
 
 import java.text.ParseException;
@@ -51,6 +52,74 @@ public class WhereClauseParserTests {
 		we.setInput("a_b.eq.ABC");
 		ast = we.parse();
 		assertEquals("AND{CLAUSE{{ALIAS=a_b}{OP=eq}{STRING=ABC}}}", ast.format());
+	}
+
+	private static Object[] dc(String value, String expectedOffsetDateTime) {
+		return new Object[] { value, expectedOffsetDateTime };
+	}
+
+	@Test
+	public void testDatesVariousFormatsAndTimezones() throws ParseException {
+		Object[][] cases = {
+			/* no zone given -> defaults to UTC */
+			dc("2024-01-15", "2024-01-15T00:00:00Z"),
+			dc("2024-01-15T10:30", "2024-01-15T10:30:00Z"),
+			dc("2024-01-15T10:30:00", "2024-01-15T10:30:00Z"),
+			dc("2024-01-15T10:30:00.123", "2024-01-15T10:30:00.123Z"),
+			dc("2024-01-15T10:30:00Z", "2024-01-15T10:30:00Z"),
+			dc("2024-01-15T10:30:00.123Z", "2024-01-15T10:30:00.123Z"),
+			/* RFC-822 style offset (no colon) */
+			dc("2024-01-15T10:30:00+0200", "2024-01-15T10:30:00+02:00"),
+			dc("2024-01-15T10:30:00+02:00", "2024-01-15T10:30:00+02:00"),
+			dc("2024-01-15T10:30:00-0500", "2024-01-15T10:30:00-05:00"),
+		};
+
+		WhereClauseParser we = new WhereClauseParser("a.eq.0");
+		for (Object[] c : cases) {
+			String value = (String) c[0];
+			java.time.OffsetDateTime expected = java.time.OffsetDateTime.parse((String) c[1]);
+
+			we.setInput("a.gt." + value);
+			Token ast = we.parse();
+			assertEquals("AND{CLAUSE{{ALIAS=a}{OP=gt}{DATE=" + value + "}}}", ast.format(), "AST for " + value);
+			Token dateToken = ast.getChild("CLAUSE").getChild("DATE");
+			assertEquals(expected, dateToken.getPayload("typedvalue"), "typedvalue for " + value);
+			assertTrue(dateToken.getPayload("typedvalue") instanceof java.time.OffsetDateTime, "type for " + value);
+		}
+	}
+
+	@Test
+	public void testDatesQuotedValueForcesString() throws ParseException {
+		/* quoting forces a string comparison, even if the value looks like a date */
+		WhereClauseParser we = new WhereClauseParser("a.eq.\"2024-01-15\"");
+		Token ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{STRING=2024-01-15}}}", ast.format());
+
+		we.setInput("a.eq.\"2024-01-15T10:30:00+02:00\"");
+		ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{STRING=2024-01-15T10:30:00+02:00}}}", ast.format());
+	}
+
+	@Test
+	public void testDatesInvalidOrPartialValuesStayString() throws ParseException {
+		WhereClauseParser we = new WhereClauseParser("a.eq.0");
+
+		we.setInput("a.eq.2024-01-32");
+		Token ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{STRING=2024-01-32}}}", ast.format());
+
+		we.setInput("a.eq.2024-13-01");
+		ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{STRING=2024-13-01}}}", ast.format());
+
+		/* does not match the required yyyy-MM-dd shape, so it's still treated as a number */
+		we.setInput("a.eq.2024");
+		ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{NUMBER=2024}}}", ast.format());
+
+		we.setInput("a.eq.not-a-date");
+		ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{STRING=not-a-date}}}", ast.format());
 	}
 
 	@Test
