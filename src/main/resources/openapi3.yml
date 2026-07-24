@@ -8,16 +8,11 @@ info:
   description: >
     ## ⚠️ Notices
 
+    > **Deprecated feature:** The **Events** data type is deprecated and scheduled for **removal in May 2027**. Data previously available here has been migrated to the [Content API](https://databrowser.opendatahub.com/dataset-overview/33923d9c-d2ce-4592-8cfe-1fa927cd5fb6)
+    > **Deprecated feature:** The **station metadata history** endpoint is deprecated and scheduled for **removal in May 2027**
 
-    > ⚠️ **Deprecated features:** The **Events** data type and the **station
-    metadata history** endpoint (`/{representation}/{stationTypes}/metadata/{from}/{to}`)
-    are deprecated and scheduled for **removal in May 2027**. Please avoid building new
-    integrations against them.
-
-
-    > ⚠️ **Domain change:** The `mobility.api.opendatahub.bz.it` domain will be dismissed
-    soon. Please switch to `mobility.api.opendatahub.com` instead.
-
+    > **Domain change:** The `mobility.api.opendatahub.bz.it` domain will be dismissed
+    soon. Use `mobility.api.opendatahub.com` exclusively.
 
     ## About this API
 
