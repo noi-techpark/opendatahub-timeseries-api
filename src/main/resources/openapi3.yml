@@ -1001,14 +1001,10 @@ components:
              e.g. `coordinate.dlt.(5000,11.2,46.7,4326)`
          -   `in`: Value found in list. Example: `name.in.(Peter,Patrick,Rudi)`
          -   `nin`: Value not found in list. Example: `name.nin.(Peter,Patrick,Rudi)`
-        Numbers are auto-cast to numeric type.
-        Values matching the date/time format `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]` are auto-cast to a timestamp, so `eq`, `neq`, `lt`, `gt`, `lteq` and `gteq` also work against date/timestamp fields, e.g. `mtransactiontime.gt.2024-01-01`. Values without an explicit zone/offset are interpreted as UTC.
 
-        **Shortened dates are padded with zeros, not expanded to a whole period.** If you leave out the time (or part of it), the missing pieces are filled in as `00:00:00.000` — the value is *not* treated as "any time during that day/hour/minute". So `2025-01-01` really means `2025-01-01T00:00:00.000`, down to the millisecond. This mostly matters for `eq`/`neq`:
-        - `field.eq.2025-01-01` does **not** match every record from that day — it only matches records at exactly midnight.
-        - `field.gt.2025-01-01` and similar range operators are usually unaffected in practice, since "after midnight on Jan 1st" already covers the rest of that day.
-        - To match a whole day, use a range instead: `field.gteq.2025-01-01,field.lt.2025-01-02` (comma = `and`).
-        `"` quote values to force string comparison.
+        Numbers are auto-cast to numeric type.  
+
+        Values matching the date/time format `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]` are auto-cast to timestamps with the missing precision being set as `00:00:00`. Values without an explicit zone/offset are interpreted as UTC.  
 
         ### Logical operators
         - `,`: multiple conditions separeted by comma are interpreted as `and`
