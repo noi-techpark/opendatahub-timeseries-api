@@ -4,6 +4,9 @@
 
 package com.opendatahub.api.timeseries.ninja.utils.querybuilder;
 
+import java.time.ZonedDateTime;
+
+import com.opendatahub.api.timeseries.ninja.utils.DateTimeParser;
 import com.opendatahub.api.timeseries.ninja.utils.miniparser.MiniParser;
 import com.opendatahub.api.timeseries.ninja.utils.miniparser.Token;
 import com.opendatahub.api.timeseries.ninja.utils.simpleexception.SimpleException;
@@ -177,9 +180,16 @@ public class WhereClauseParser extends MiniParser {
 					typedValue = Double.parseDouble(res.getValue());
 					res.setName("number");
 				} catch (NumberFormatException ex) {
-					/* nothing more to try, we will keep the given object
-					 * type and let Postgres handle possible casting errors */
-					res.setName("string");
+					/* not a number either: check if it is a date/timestamp */
+					ZonedDateTime dateValue = DateTimeParser.tryParse(res.getValue());
+					if (dateValue != null) {
+						typedValue = dateValue.toOffsetDateTime();
+						res.setName("date");
+					} else {
+						/* nothing more to try, we will keep the given object
+						 * type and let Postgres handle possible casting errors */
+						res.setName("string");
+					}
 				}
 			}
 		}
