@@ -1134,7 +1134,7 @@ components:
         mtransactiontime:
           type: string
           format: date-time
-          description: When has this value been recorded on the database the first time?
+          description: When has this value been written to the Open Data Hub?
         mperiod:
           type: integer
           description: Distance in seconds between two measurements
@@ -1387,7 +1387,7 @@ components:
         mtransactiontime:
           type: string
           format: date-time
-          description: When has this value been recorded on the database the first time?
+          description: When has this value been written to the Open Data Hub?
         mperiod:
           type: integer
           description: Distance in seconds between two measurements
