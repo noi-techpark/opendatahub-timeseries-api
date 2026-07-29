@@ -10,6 +10,7 @@ info:
 
      - **Deprecated feature:** The **Events** data type is deprecated and scheduled for **removal in May 2027**. Data previously available here has been migrated to the [Content API](https://databrowser.opendatahub.com/dataset-overview/33923d9c-d2ce-4592-8cfe-1fa927cd5fb6)
      - **Deprecated feature:** The **station metadata history** endpoint is deprecated and scheduled for **removal in May 2027**
+     - **Deprecated field:** The field `savailable` is deprecated and scheduled for **removal in May 2027**
      - **Domain change:** The `mobility.api.opendatahub.bz.it` domain will be dismissed soon. Use `mobility.api.opendatahub.com` exclusively.
 
     ## About this API
@@ -1220,7 +1221,7 @@ components:
           description: Is this station still used? Has it had updates recently?
         savailable:
           type: boolean
-          description: Should this station be visible to API consumers? (Do not use this, it will be removed. Only available stations are visible)
+          description: This field is deprecated and will be removed in May 2027
           deprecated: true
         scoordinate:
           $ref: "#/components/schemas/coordinate"
@@ -1420,6 +1421,7 @@ components:
         savailable:
           type: boolean
           deprecated: true
+          description: This field is deprecated and will be removed in May 2027
         scoordinate:
           $ref: "#/components/schemas/coordinate"
         smetadata:
