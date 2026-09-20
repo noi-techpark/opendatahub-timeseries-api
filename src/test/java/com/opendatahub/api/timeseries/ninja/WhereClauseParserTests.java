@@ -9,6 +9,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
 
 import java.text.ParseException;
+import java.time.Duration;
+import java.time.OffsetDateTime;
 
 import org.junit.jupiter.api.Test;
 
@@ -98,6 +100,28 @@ public class WhereClauseParserTests {
 		we.setInput("a.eq.\"2024-01-15T10:30:00+02:00\"");
 		ast = we.parse();
 		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{STRING=2024-01-15T10:30:00+02:00}}}", ast.format());
+	}
+
+	@Test
+	public void testRelativeDates() throws ParseException {
+		/* a static URL that always means the last ten minutes */
+		WhereClauseParser we = new WhereClauseParser("a.gt.-PT10M");
+		Token ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=gt}{DATE=-PT10M}}}", ast.format());
+		OffsetDateTime tenMinutesAgo = (OffsetDateTime) ast.getChild("CLAUSE").getChild("DATE")
+				.getPayload("typedvalue");
+		long minutesAgo = Duration.between(tenMinutesAgo, OffsetDateTime.now()).toMinutes();
+		assertTrue(minutesAgo >= 9 && minutesAgo <= 11,
+				"-PT10M should resolve to about ten minutes ago, was " + tenMinutesAgo);
+
+		we.setInput("a.lt.now");
+		ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=lt}{DATE=now}}}", ast.format());
+
+		/* quoting still forces a string, same as for absolute dates */
+		we.setInput("a.eq.\"now\"");
+		ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{STRING=now}}}", ast.format());
 	}
 
 	@Test

@@ -51,7 +51,6 @@ import com.opendatahub.api.timeseries.ninja.utils.simpleexception.SimpleExceptio
 @RequestMapping(value = "")
 public class DataController {
 
-	private static final String DATETIME_FORMAT_PATTERN = DateTimeParser.DATETIME_FORMAT_PATTERN;
 	private static final String DEFAULT_LIMIT = "200";
 	private static final String DEFAULT_OFFSET = "0";
 	private static final String DEFAULT_SHOWNULL = "false";
@@ -78,7 +77,7 @@ public class DataController {
 
 	public enum ErrorCode implements ErrorCodeInterface {
 		DATE_PARSE_ERROR(
-				"Invalid date given. Format must be %s, where [] denotes optionality. Do not forget, single digits must be leaded by 0. Error message: %s."),
+				"Invalid date given. Accepted are: %s. In the date format, [] denotes optionality, and single digits must be leaded by 0. Error message: %s."),
 		METHOD_NOT_ALLOWED("URL scheme not found '%s' not allowed with %s representation.");
 
 		private final String msg;
@@ -481,7 +480,7 @@ public class DataController {
 		try {
 			return DateTimeParser.parse(dateString);
 		} catch (final DateTimeParseException e) {
-			throw new SimpleException(ErrorCode.DATE_PARSE_ERROR, DATETIME_FORMAT_PATTERN.replace("'", ""),
+			throw new SimpleException(ErrorCode.DATE_PARSE_ERROR, DateTimeParser.ACCEPTED_FORMATS,
 					e.getMessage());
 		}
 	}
