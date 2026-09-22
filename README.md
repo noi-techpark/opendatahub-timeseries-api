@@ -236,6 +236,12 @@ GET /flat/ParkingStation/occupied/2019-01-01/2019-01-02T12:30:15
 The date format is `yyyy-MM-dd` or `yyyy-MM-ddThh:mm:ss.SSS`, where
 `Thh:mm:ss.SSS` is optional and any part of it can be shortened from
 left-to-right to any subset.
+Instead of an absolute date you can pass `now`, or an ISO 8601 duration
+relative to `now`.
+
+```
+GET /flat/ParkingStation/occupied/-P1D/now
+```
 
 ### Historical Station metadata
 The URL pattern is `/station-types/metadata/from/to`, where `from` and `to`
@@ -260,6 +266,8 @@ GET /flat/BluetoothStation/metadata/2019-01-01/2023-01-02T12:30:15
 The date format is `yyyy-MM-dd` or `yyyy-MM-ddThh:mm:ss.SSS`, where
 `Thh:mm:ss.SSS` is optional and any part of it can be shortened from
 left-to-right to any subset.
+Instead of an absolute date you can pass `now`, or an ISO 8601 duration
+relative to `now`.
 
 ### Pagination
 
