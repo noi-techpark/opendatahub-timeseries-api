@@ -283,4 +283,32 @@ public class WhereClauseParserTests {
 		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=in}LIST{{STRING=x,y}{STRING=z}}}}", ast.format());
 	}
 
+	@Test
+	public void testBackslashEscaping() throws ParseException {
+		/*
+		 * A single backslash is always an escape marker: it is stripped and the
+		 * character right after it is taken literally, whether that character
+		 * needed escaping or not, and regardless of quoting. So old-style
+		 * escaped requests (from before quoting supported literal parens/commas)
+		 * keep working unchanged after the fix.
+		 */
+		WhereClauseParser we = new WhereClauseParser("scode.eq.\"75:Marcia \\(verso San Genesio\\)\"");
+		Token ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=scode}{OP=eq}{STRING=75:Marcia (verso San Genesio)}}}", ast.format());
+
+		/* a literal backslash must therefore be doubled, both quoted and unquoted */
+		we.setInput("a.eq.\"C:\\\\path\"");
+		ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{STRING=C:\\path}}}", ast.format());
+
+		we.setInput("a.eq.C:\\\\path");
+		ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{STRING=C:\\path}}}", ast.format());
+
+		/* a single, unescaped backslash before an ordinary character just vanishes */
+		we.setInput("a.eq.\\x");
+		ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{STRING=x}}}", ast.format());
+	}
+
 }
