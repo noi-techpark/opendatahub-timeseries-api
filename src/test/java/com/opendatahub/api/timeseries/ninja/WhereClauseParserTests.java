@@ -254,5 +254,33 @@ public class WhereClauseParserTests {
 		assertEquals("AND{CLAUSE{{ALIAS=tmetadata}{JSONSEL=signal-codes.id}{OP=in}LIST{{NUMBER=0}{NUMBER=25}{NUMBER=73}}}}", ast.format());
 	}
 
+	@Test
+	public void testQuotedValuesDoNotNeedEscaping() throws ParseException {
+		/* parentheses, commas and single-quotes are literal inside double-quotes, no escaping needed */
+		WhereClauseParser we = new WhereClauseParser("scode.eq.\"75:Marcia (verso San Genesio)\"");
+		Token ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=scode}{OP=eq}{STRING=75:Marcia (verso San Genesio)}}}", ast.format());
+
+		we.setInput("scode.ire.\"(TRENTO|rovereto).*\"");
+		ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=scode}{OP=ire}{STRING=(TRENTO|rovereto).*}}}", ast.format());
+
+		we.setInput("a.eq.\"it's, indeed (a test)\"");
+		ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{STRING=it's, indeed (a test)}}}", ast.format());
+
+		/* a literal double-quote still needs escaping, even inside a quoted value */
+		we.setInput("a.eq.\"say \\\"hi\\\"\"");
+		ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{STRING=say \"hi\"}}}", ast.format());
+	}
+
+	@Test
+	public void testQuotedListItemWithComma() throws ParseException {
+		/* an unescaped comma inside a quoted list item no longer splits the item early */
+		WhereClauseParser we = new WhereClauseParser("a.in.(\"x,y\",z)");
+		Token ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=in}LIST{{STRING=x,y}{STRING=z}}}}", ast.format());
+	}
 
 }

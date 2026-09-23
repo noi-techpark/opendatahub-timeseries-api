@@ -147,7 +147,12 @@ public class WhereClauseParser extends MiniParser {
 	private Token value() {
 		boolean quoted = matchConsume('"');
 		Token res = doWhile("VALUE", t -> {
-			if ((match(')') || match(',') || (match('"') && quoted)) && clash('\\', -1)) {
+			if (quoted) {
+				/* Inside quotes, everything is literal; only an unescaped closing quote ends the value */
+				if (match('"') && clash('\\', -1)) {
+					return false;
+				}
+			} else if ((match(')') || match(',')) && clash('\\', -1)) {
 				return false;
 			} else if ((match('(') || match('\'') || match('"')) && clash('\\', -1)) {
 				error("Characters ('\" must be escaped within a filter VALUE");

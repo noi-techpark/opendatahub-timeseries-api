@@ -302,9 +302,11 @@ A `filter` has the form `alias.operator.value_or_list`.
 **value_or_list**
 
 - `value`: Whatever you want, also a regular expression. Use double-quotes to
-  force string recognition. Alternatively, you can escape characters `,`, `'`
-  and `"` with a `\`. Use url-encoding, if your tool does not support certain
-  characters. Special values are `null`, numbers and omitted values. Examples:
+  force string recognition; inside double-quotes every character is literal,
+  except `"` itself, which must be escaped as `\"`. Without double-quotes,
+  escape `,`, `'`, `"` and `(` with a `\`. Use url-encoding, if your tool does
+  not support certain characters. Special values are `null`, numbers and
+  omitted values. Examples:
   - `description.eq.null`, checks if a description is not set
   - `description.eq.`, checks if a description is a string of length 0
 - `list`: `(value,value,value)`
@@ -372,10 +374,12 @@ GET /flat/ParkingStation/occupied/2019-01-01/2019-01-02?where=mvalue.gt.100,sori
 ```
 
 Here the syntax for each clause is `attribute.operator.value`, where value can
-be composed of any character except `,'"`, which must be escaped like `\,`, `\'`
-or `\"`. A special value is `null`. If you want to use it as a literal value,
-that is, the String itself, then you must put it into double-quotes, like
-`"null"`.
+be composed of any character except `,'"(`, which must be escaped like `\,`,
+`\'`, `\"` or `\(`. A special value is `null`. If you want to use it as a
+literal value, that is, the String itself, then you must put it into
+double-quotes, like `"null"`. Inside double-quotes, only `"` needs escaping
+(as `\"`) — all other characters, including `(`, `)`, `,` and `'`, are taken
+literally.
 
 #### I want all creative industry station names, which do not have a sector assigned
 
