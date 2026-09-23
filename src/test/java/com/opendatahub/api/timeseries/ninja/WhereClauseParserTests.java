@@ -124,6 +124,90 @@ public class WhereClauseParserTests {
 		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{STRING=now}}}", ast.format());
 	}
 
+	private static OffsetDateTime dateTypedValue(Token ast) {
+		return (OffsetDateTime) ast.getChild("CLAUSE").getChild("DATE").getPayload("typedvalue");
+	}
+
+	@Test
+	public void testRelativeDatesNowIsCaseInsensitiveAndCloseToCurrentTime() throws ParseException {
+		WhereClauseParser we = new WhereClauseParser("a.eq.0");
+		for (String now : new String[] { "now", "NOW", "Now" }) {
+			OffsetDateTime before = OffsetDateTime.now();
+			we.setInput("a.eq." + now);
+			Token ast = we.parse();
+			OffsetDateTime after = OffsetDateTime.now();
+			assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{DATE=" + now + "}}}", ast.format(), now);
+			OffsetDateTime resolved = dateTypedValue(ast);
+			assertTrue(!resolved.isBefore(before) && !resolved.isAfter(after),
+					now + " should resolve to the current time, was " + resolved);
+		}
+	}
+
+	@Test
+	public void testRelativeDatesTimeBasedDurationsBothDirections() throws ParseException {
+		WhereClauseParser we = new WhereClauseParser("a.eq.0");
+		Object[][] cases = {
+			/* value, expected seconds offset from now (negative = past) */
+			{ "-PT10M", -600L },
+			{ "PT10M", 600L },
+			{ "-PT1H30M", -5400L },
+			{ "-P1D", -86400L },
+			{ "-PT30S", -30L },
+		};
+		for (Object[] c : cases) {
+			String value = (String) c[0];
+			long expectedSeconds = (Long) c[1];
+			we.setInput("a.gt." + value);
+			Token ast = we.parse();
+			assertEquals("AND{CLAUSE{{ALIAS=a}{OP=gt}{DATE=" + value + "}}}", ast.format(), value);
+			OffsetDateTime resolved = dateTypedValue(ast);
+			long actualSeconds = Duration.between(OffsetDateTime.now(), resolved).getSeconds();
+			assertTrue(Math.abs(actualSeconds - expectedSeconds) <= 5,
+					value + " expected offset " + expectedSeconds + "s, was " + actualSeconds + "s");
+		}
+	}
+
+	@Test
+	public void testRelativeDatesDateBasedDurationsUseCalendarArithmetic() throws ParseException {
+		/* calendar-based durations aren't a fixed number of seconds, so just check the direction and rough size */
+		WhereClauseParser we = new WhereClauseParser("a.eq.0");
+		for (String value : new String[] { "-P1M", "-P1Y", "-P1W", "P1D" }) {
+			we.setInput("a.gt." + value);
+			Token ast = we.parse();
+			assertEquals("AND{CLAUSE{{ALIAS=a}{OP=gt}{DATE=" + value + "}}}", ast.format(), value);
+			assertTrue(dateTypedValue(ast) instanceof OffsetDateTime, value);
+		}
+	}
+
+	@Test
+	public void testRelativeDatesMixedDateAndTimeOffsetIsNotSupported() throws ParseException {
+		/* neither Duration nor Period parses this shape, so it must fall back to a plain string */
+		WhereClauseParser we = new WhereClauseParser("a.eq.-P1MT10M");
+		Token ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{STRING=-P1MT10M}}}", ast.format());
+	}
+
+	@Test
+	public void testRelativeDatesInvalidDurationsStayString() throws ParseException {
+		WhereClauseParser we = new WhereClauseParser("a.eq.0");
+		for (String value : new String[] { "P", "PT", "PT10X", "P1", "-P" }) {
+			we.setInput("a.eq." + value);
+			Token ast = we.parse();
+			assertEquals("AND{CLAUSE{{ALIAS=a}{OP=eq}{STRING=" + value + "}}}", ast.format(), value);
+		}
+	}
+
+	@Test
+	public void testRelativeDatesInListsAndLogicalOperators() throws ParseException {
+		WhereClauseParser we = new WhereClauseParser("a.in.(now,-PT10M,PT1H)");
+		Token ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=in}LIST{{DATE=now}{DATE=-PT10M}{DATE=PT1H}}}}", ast.format());
+
+		we.setInput("a.gt.-P1D,a.lt.now");
+		ast = we.parse();
+		assertEquals("AND{CLAUSE{{ALIAS=a}{OP=gt}{DATE=-P1D}}CLAUSE{{ALIAS=a}{OP=lt}{DATE=now}}}", ast.format());
+	}
+
 	@Test
 	public void testDatesInvalidOrPartialValuesStayString() throws ParseException {
 		WhereClauseParser we = new WhereClauseParser("a.eq.0");
