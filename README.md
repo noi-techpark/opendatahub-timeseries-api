@@ -663,6 +663,27 @@ mvn spring-boot:run -Dspring-boot.run.profiles=local
 
 The server will startup and listen on `http://localhost:8081`.
 
+### Tests
+
+```bash
+mvn test
+```
+
+Needs Docker. The contract tests (`src/test/java/.../contract`) start the application against a
+PostGIS container and compare HTTP responses to the golden files in
+`src/test/resources/contract/golden`, recorded from the implementation before the streaming
+change (commit `c38994bd`). JSON is compared as data (key order and number notation are
+irrelevant). To re-record on purpose:
+`mvn test -Dcontract.record=true -Dtest='ApiContractTest,LimitedApiContractTest,FuzzContractTest'`
+
+### Memory: responses are streamed
+
+Rows are turned into JSON while they are read from the database, for flat and tree
+representations alike (`TreeStreamWriter` keeps only the path to the current row), so memory use
+does not depend on the response size. Consequences: an error after the first 64 KB were sent
+(e.g. a query timeout) cuts the response off; with `NINJA_RESPONSE_MAX_SIZE_MB` set, tree
+responses are held back until complete (memory up to 1 MB, then a temporary file).
+
 ### How to setup NOI Authentication Server locally? (optional)
 
 - [Here](https://github.com/noi-techpark/authentication-server) you can find how to run the server locally
