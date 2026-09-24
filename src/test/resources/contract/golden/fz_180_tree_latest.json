@@ -1,0 +1,67 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=smetadata.address.street,mvalue.b.c,sname,tdescription,stype&where=mvalue.gt.10 [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "MeteoStation" : {
+        "stations" : {
+          "T1" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Air temp",
+                "tmeasurements" : [ { } ]
+              }
+            },
+            "sname" : "Meteo Trento",
+            "stype" : "MeteoStation"
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tmeasurements" : [ { } ]
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ { } ]
+              }
+            },
+            "smetadata" : {
+              "address.street" : "Via Roma"
+            },
+            "sname" : "Parking Bolzano Centro",
+            "stype" : "ParkingStation"
+          }
+        }
+      },
+      "TrafficSensor" : {
+        "stations" : {
+          "A22:1:3" : {
+            "sdatatypes" : {
+              "vehicle-count" : {
+                "tdescription" : "Vehicles",
+                "tmeasurements" : [ { } ]
+              }
+            },
+            "sname" : "Traffic A22 1",
+            "stype" : "TrafficSensor"
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

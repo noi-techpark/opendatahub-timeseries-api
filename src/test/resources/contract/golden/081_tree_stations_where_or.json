@@ -1,0 +1,112 @@
+{
+  "request" : "GET /tree/*?where=or(sorigin.eq.NOI,scode.eq.P1) [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "CreativeIndustry" : {
+        "stations" : {
+          "CI1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "CI1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33,
+              "y" : 46.47
+            },
+            "smetadata" : {
+              "municipality" : {
+                "cap" : "39100"
+              },
+              "sector" : "Software"
+            },
+            "sname" : "Creative Co",
+            "sorigin" : "NOI",
+            "stype" : "CreativeIndustry"
+          },
+          "CI2" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "CI2",
+            "sname" : "Creative No Sector",
+            "sorigin" : "NOI",
+            "stype" : "CreativeIndustry"
+          }
+        }
+      },
+      "LinkStation" : {
+        "stations" : {
+          "L1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "L1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.1,
+              "y" : 46.1
+            },
+            "sname" : "Link start",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "L1->L2" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "L1->L2",
+            "sname" : "Link a->b",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "L2" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "L2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.2,
+              "y" : 46.2
+            },
+            "sname" : "Link end",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "P1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.35,
+              "y" : 46.49
+            },
+            "smetadata" : {
+              "address" : {
+                "nr" : 12,
+                "street" : "Via Roma"
+              },
+              "capacity" : 120,
+              "city" : "Bolzano"
+            },
+            "sname" : "Parking Bolzano Centro",
+            "sorigin" : "FAMAS",
+            "stype" : "ParkingStation"
+          }
+        }
+      }
+    },
+    "limit" : 200,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "request" : "GET /tree,event/*/latest?limit=-1&select=evlgeometry,evstart&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "A22" : {
+        "eventseries" : {
+          "s0000000-0000-0000-0000-000000000001" : {
+            "events" : {
+              "e0000000-0000-0000-0000-000000000002" : {
+                "evlocation" : {
+                  "evlgeometry" : {
+                    "bbox" : [ 11, 46, 11, 46 ],
+                    "coordinates" : [ 11, 46 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evprovenance" : { },
+                "evstart" : "2022-01-05 00:00:00.000+0000"
+              }
+            }
+          },
+          "s0000000-0000-0000-0000-000000000002" : {
+            "events" : {
+              "e0000000-0000-0000-0000-000000000003" : {
+                "evlocation" : {
+                  "evlgeometry" : null
+                },
+                "evprovenance" : { },
+                "evstart" : "2022-01-03 00:00:00.000+0000"
+              }
+            }
+          }
+        }
+      },
+      "OTHER" : {
+        "eventseries" : {
+          "s0000000-0000-0000-0000-000000000004" : {
+            "events" : {
+              "e0000000-0000-0000-0000-000000000005" : {
+                "evlocation" : {
+                  "evlgeometry" : null
+                },
+                "evprovenance" : { },
+                "evstart" : "2022-01-01 00:00:00.000+0000"
+              }
+            }
+          }
+        }
+      },
+      "PROVINCE_BZ" : {
+        "eventseries" : {
+          "s0000000-0000-0000-0000-000000000003" : {
+            "events" : {
+              "e0000000-0000-0000-0000-000000000004" : {
+                "evlocation" : {
+                  "evlgeometry" : {
+                    "bbox" : [ 0, 0, 1, 1 ],
+                    "coordinates" : [ [ [ 0, 0 ], [ 0, 1 ], [ 1, 1 ], [ 0, 0 ] ] ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Polygon"
+                  }
+                },
+                "evprovenance" : { },
+                "evstart" : "2023-01-01 00:00:00.000+0000"
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

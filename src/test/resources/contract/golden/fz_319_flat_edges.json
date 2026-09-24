@@ -1,0 +1,20 @@
+{
+  "request" : "GET /flat,edge/*?limit=-1&select=sename,seorigin&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : [ {
+      "sename" : "Link end",
+      "seorigin" : "NOI"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

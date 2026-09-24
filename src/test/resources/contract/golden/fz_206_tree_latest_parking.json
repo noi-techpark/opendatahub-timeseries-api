@@ -1,0 +1,189 @@
+{
+  "request" : "GET /tree/ParkingStation/*/latest?limit=-1&select=mprovenance,sorigin,mvalue.b.c,tmetadata.scale,smetadata.capacity,smetadata.city,tdescription&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  },
+                  "mvalue" : {
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : {
+                  "scale" : null
+                }
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  },
+                  "mvalue" : {
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prlineage" : null,
+                    "prname" : null,
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : {
+                  "scale" : "linear"
+                }
+              },
+              "raw" : {
+                "tdescription" : "Json payload",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : null,
+                    "prname" : null,
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "b.c" : [ 1, 2, 3 ]
+                  }
+                } ],
+                "tmetadata" : {
+                  "scale" : null
+                }
+              },
+              "state" : {
+                "tdescription" : "Textual state",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  },
+                  "mvalue" : {
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : {
+                  "scale" : null
+                }
+              }
+            },
+            "smetadata" : {
+              "capacity" : 120,
+              "city" : "Bolzano"
+            },
+            "sorigin" : "FAMAS",
+            "sparent" : { }
+          },
+          "P2" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : null,
+                    "prname" : null,
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : {
+                  "scale" : null
+                }
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "collector-b",
+                    "prversion" : "2.1.0"
+                  },
+                  "mvalue" : {
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : {
+                  "scale" : "linear"
+                }
+              }
+            },
+            "smetadata" : {
+              "capacity" : 60,
+              "city" : "Merano"
+            },
+            "sorigin" : "FAMAS",
+            "sparent" : { }
+          },
+          "P5:ü" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : null,
+                    "prname" : null,
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : {
+                  "scale" : "linear"
+                }
+              },
+              "state" : {
+                "tdescription" : "Textual state",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : null,
+                    "prname" : null,
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : {
+                  "scale" : null
+                }
+              }
+            },
+            "smetadata" : {
+              "capacity" : null,
+              "city" : null
+            },
+            "sorigin" : "FAMAS",
+            "sparent" : { }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

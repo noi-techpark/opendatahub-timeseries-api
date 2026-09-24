@@ -1,0 +1,29 @@
+{
+  "request" : "GET /flat,event/*?limit=-1&where=evcategory.eq.accident [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : [ {
+      "evcategory" : "accident",
+      "evdescription" : "Open ended",
+      "evname" : "A1",
+      "evorigin" : "A22",
+      "evseriesuuid" : "s0000000-0000-0000-0000-000000000002",
+      "evstart" : "2022-01-03 00:00:00.000+0000",
+      "evtransactiontime" : "2022-01-03 00:00:00.000+0000",
+      "evuuid" : "e0000000-0000-0000-0000-000000000003",
+      "prlineage" : "FAMAS",
+      "prname" : "collector-b",
+      "prversion" : "2.1.0"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

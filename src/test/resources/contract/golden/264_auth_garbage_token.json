@@ -1,0 +1,10 @@
+{
+  "request" : "GET /flat/ParkingStation?limit=1 [garbage]",
+  "status" : 401,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY"
+  },
+  "bodyEmpty" : true
+}

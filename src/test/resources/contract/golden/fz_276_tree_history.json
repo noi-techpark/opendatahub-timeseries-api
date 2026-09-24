@@ -1,0 +1,167 @@
+{
+  "request" : "GET /tree/ParkingStation/*/2024-04-01/2024-04-01T00:15:00Z?limit=-1&select=tdescription,tname,mtransactiontime,mperiod,prlineage&where=tname.in.(occupied,free)&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : null
+                  },
+                  "mtransactiontime" : "2024-04-01 00:00:01.000+0000",
+                  "mvalue" : null
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : null
+                  },
+                  "mtransactiontime" : "2024-04-01 00:05:01.000+0000",
+                  "mvalue" : null
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : null
+                  },
+                  "mtransactiontime" : "2024-04-01 00:10:01.000+0000",
+                  "mvalue" : null
+                } ],
+                "tname" : "free"
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "NOI"
+                  },
+                  "mtransactiontime" : "2024-04-01 00:00:01.000+0000",
+                  "mvalue" : null
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "NOI"
+                  },
+                  "mtransactiontime" : "2024-04-01 00:05:01.000+0000",
+                  "mvalue" : null
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "NOI"
+                  },
+                  "mtransactiontime" : "2024-04-01 00:10:01.000+0000",
+                  "mvalue" : null
+                } ],
+                "tname" : "occupied"
+              }
+            },
+            "sparent" : { }
+          },
+          "P2" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : null
+                  },
+                  "mtransactiontime" : "2024-04-01 00:00:01.000+0000",
+                  "mvalue" : null
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : null
+                  },
+                  "mtransactiontime" : "2024-04-01 00:05:01.000+0000",
+                  "mvalue" : null
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : null
+                  },
+                  "mtransactiontime" : "2024-04-01 00:10:01.000+0000",
+                  "mvalue" : null
+                } ],
+                "tname" : "free"
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : null
+                  },
+                  "mtransactiontime" : "2024-04-01 00:00:01.000+0000",
+                  "mvalue" : null
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : null
+                  },
+                  "mtransactiontime" : "2024-04-01 00:05:01.000+0000",
+                  "mvalue" : null
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : null
+                  },
+                  "mtransactiontime" : "2024-04-01 00:10:01.000+0000",
+                  "mvalue" : null
+                } ],
+                "tname" : "occupied"
+              }
+            },
+            "sparent" : { }
+          },
+          "P3" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : null
+                  },
+                  "mtransactiontime" : "2024-04-01 00:00:01.000+0000",
+                  "mvalue" : null
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : null
+                  },
+                  "mtransactiontime" : "2024-04-01 00:05:01.000+0000",
+                  "mvalue" : null
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : null
+                  },
+                  "mtransactiontime" : "2024-04-01 00:10:01.000+0000",
+                  "mvalue" : null
+                } ],
+                "tname" : "occupied"
+              }
+            },
+            "sparent" : { }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

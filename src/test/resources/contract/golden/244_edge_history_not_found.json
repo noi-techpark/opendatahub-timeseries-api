@@ -1,0 +1,18 @@
+{
+  "request" : "GET /tree,edge/LinkStation/*/2024-04-01/2024-04-02 [none]",
+  "status" : 404,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "code" : 404,
+    "error" : "Not Found",
+    "message" : "404 NOT_FOUND 'Route does not exist for representation TREE_EDGE'",
+    "timestamp" : "<masked-not-epoch-millis>"
+  }
+}

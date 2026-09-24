@@ -1,0 +1,25 @@
+{
+  "request" : "GET /flat/*?limit=-1&select=pcoordinate,pname,stype&where=smetadata.capacity.gt.50&shownull=true&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "pcoordinate" : null,
+      "pname" : null,
+      "stype" : "ParkingStation"
+    }, {
+      "pcoordinate" : null,
+      "pname" : null,
+      "stype" : "ParkingStation"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

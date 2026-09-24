@@ -1,0 +1,26 @@
+{
+  "request" : "GET /flat/*/*/latest?limit=-1&select=ttype,tdescription,tmetadata.scale,mprovenance,prlineage,porigin&where=mvalue.eq.%22open%22&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : [ {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "porigin" : null,
+      "prlineage" : "NOI",
+      "prname" : "collector-a",
+      "prversion" : "1.0.0",
+      "tdescription" : "Textual state",
+      "tmetadata.scale" : null,
+      "ttype" : "instantaneous"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

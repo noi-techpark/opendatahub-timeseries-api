@@ -1,0 +1,71 @@
+{
+  "request" : "GET /tree,event/*?limit=-1&select=evdescription&shownull=true&distinct=false [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "A22" : {
+        "eventseries" : {
+          "s0000000-0000-0000-0000-000000000001" : {
+            "events" : {
+              "e0000000-0000-0000-0000-000000000001" : {
+                "evdescription" : "Work 1",
+                "evlocation" : { },
+                "evprovenance" : { }
+              },
+              "e0000000-0000-0000-0000-000000000002" : {
+                "evdescription" : "Work 1b",
+                "evlocation" : { },
+                "evprovenance" : { }
+              }
+            }
+          },
+          "s0000000-0000-0000-0000-000000000002" : {
+            "events" : {
+              "e0000000-0000-0000-0000-000000000003" : {
+                "evdescription" : "Open ended",
+                "evlocation" : { },
+                "evprovenance" : { }
+              }
+            }
+          }
+        }
+      },
+      "OTHER" : {
+        "eventseries" : {
+          "s0000000-0000-0000-0000-000000000004" : {
+            "events" : {
+              "e0000000-0000-0000-0000-000000000005" : {
+                "evdescription" : "Hidden",
+                "evlocation" : { },
+                "evprovenance" : { }
+              }
+            }
+          }
+        }
+      },
+      "PROVINCE_BZ" : {
+        "eventseries" : {
+          "s0000000-0000-0000-0000-000000000003" : {
+            "events" : {
+              "e0000000-0000-0000-0000-000000000004" : {
+                "evdescription" : "Snow",
+                "evlocation" : { },
+                "evprovenance" : { }
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "request" : "GET /flat/ParkingStation/*/2024-04-01/2024-04-01T00:15:00Z?limit=-1&select=savailable,mperiod,tunit,prversion,smetadata.capacity&where=mvalue.eq.%22open%22&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : [ {
+      "_timestamp" : "2024-04-01 00:05:00.000+0000",
+      "mperiod" : 300,
+      "prversion" : null,
+      "savailable" : true,
+      "smetadata.capacity" : 120,
+      "tunit" : null
+    }, {
+      "_timestamp" : "2024-04-01 00:10:00.000+0000",
+      "mperiod" : 300,
+      "prversion" : null,
+      "savailable" : true,
+      "smetadata.capacity" : 120,
+      "tunit" : null
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

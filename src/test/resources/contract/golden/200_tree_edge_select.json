@@ -1,0 +1,42 @@
+{
+  "request" : "GET /tree,edge/LinkStation?select=ename,egeometry,sbname,sename [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "LinkStation" : {
+        "edges" : {
+          "L1->L2" : {
+            "ebegin" : {
+              "sbname" : "Link start"
+            },
+            "eend" : {
+              "sename" : "Link end"
+            },
+            "egeometry" : {
+              "bbox" : [ 11.1, 46.1, 11.2, 46.2 ],
+              "coordinates" : [ [ 11.1, 46.1 ], [ 11.2, 46.2 ] ],
+              "crs" : {
+                "properties" : {
+                  "name" : "EPSG:4326"
+                },
+                "type" : "name"
+              },
+              "type" : "LineString"
+            },
+            "ename" : "Link a->b"
+          }
+        }
+      }
+    },
+    "limit" : 200,
+    "offset" : 0
+  }
+}

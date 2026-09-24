@@ -1,0 +1,17 @@
+{
+  "request" : "GET /flat/ParkingStation/occupied/2024-01-01/2024-04-20?limit=1&referer=x [none]",
+  "status" : 429,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "3",
+    "x-rate-limit-policy" : "Referer"
+  },
+  "body" : {
+    "hint" : "https://github.com/noi-techpark/odh-docs/wiki/Api-Quota",
+    "message" : "You have exceeded the date range limit of 60 days",
+    "policy" : "Referer"
+  }
+}

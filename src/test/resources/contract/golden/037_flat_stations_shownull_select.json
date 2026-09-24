@@ -1,0 +1,33 @@
+{
+  "request" : "GET /flat/ParkingStation?shownull=true&select=scode,smetadata.city,smetadata.nothere [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "scode" : "P1",
+      "smetadata.city" : "Bolzano",
+      "smetadata.nothere" : null
+    }, {
+      "scode" : "P2",
+      "smetadata.city" : "Merano",
+      "smetadata.nothere" : null
+    }, {
+      "scode" : "P3",
+      "smetadata.city" : null,
+      "smetadata.nothere" : null
+    }, {
+      "scode" : "P5:ü",
+      "smetadata.city" : null,
+      "smetadata.nothere" : null
+    } ],
+    "limit" : 200,
+    "offset" : 0
+  }
+}

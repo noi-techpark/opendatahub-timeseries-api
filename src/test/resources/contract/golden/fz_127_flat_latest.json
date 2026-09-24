@@ -1,0 +1,73 @@
+{
+  "request" : "GET /flat/*/*/latest?limit=-1&select=tname,ttype,tmetadata.scale,mvalue.n,prversion,pmetadata [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : [ {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "prversion" : "1.0.0",
+      "tmetadata.scale" : "linear",
+      "tname" : "occupied",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "tmetadata.scale" : "linear",
+      "tname" : "occupied",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "prversion" : "1.0.0",
+      "tname" : "air-temperature",
+      "ttype" : "mean"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "prversion" : "1.0.0",
+      "tname" : "free",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "tname" : "vehicle-count",
+      "ttype" : "total"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "pmetadata" : {
+        "outlets" : 2,
+        "voltage" : 230
+      },
+      "tname" : "state",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "prversion" : "1.0.0",
+      "tname" : "state",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "tname" : "state",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "tname" : "raw",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-05-01 12:05:00.000+0000",
+      "prversion" : "2.1.0",
+      "tmetadata.scale" : "linear",
+      "tname" : "occupied",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-05-01 12:05:00.000+0000",
+      "tname" : "free",
+      "ttype" : "instantaneous"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

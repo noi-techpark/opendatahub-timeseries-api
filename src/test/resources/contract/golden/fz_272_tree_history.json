@@ -1,0 +1,96 @@
+{
+  "request" : "GET /tree/ParkingStation/*/2024-04-01/2024-04-01T00:15:00Z?limit=-1&select=tunit,tdescription,sorigin,pactive,mvalue.a&where=tname.in.(occupied,free)&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tunit" : "count"
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tunit" : "count"
+              }
+            },
+            "sorigin" : "FAMAS",
+            "sparent" : {
+              "pactive" : null
+            }
+          },
+          "P2" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tunit" : "count"
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tunit" : "count"
+              }
+            },
+            "sorigin" : "FAMAS",
+            "sparent" : {
+              "pactive" : null
+            }
+          },
+          "P3" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tunit" : "count"
+              }
+            },
+            "sorigin" : "PRIVATE",
+            "sparent" : {
+              "pactive" : null
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

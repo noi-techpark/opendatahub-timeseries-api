@@ -1,0 +1,113 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=mprovenance,mvalue.n,tmetadata,pmetadata.voltage,ptype,smetadata,prname,tdescription&where=tname.in.(occupied,free) [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  }
+                } ]
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  }
+                }, { } ],
+                "tmetadata" : {
+                  "range" : [ 0, 100 ],
+                  "scale" : "linear"
+                }
+              }
+            },
+            "smetadata" : {
+              "address" : {
+                "nr" : 12,
+                "street" : "Via Roma"
+              },
+              "capacity" : 120,
+              "city" : "Bolzano"
+            }
+          },
+          "P2" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tmeasurements" : [ { } ]
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "collector-b",
+                    "prversion" : "2.1.0"
+                  }
+                } ],
+                "tmetadata" : {
+                  "range" : [ 0, 100 ],
+                  "scale" : "linear"
+                }
+              }
+            },
+            "smetadata" : {
+              "capacity" : 60,
+              "city" : "Merano",
+              "tags" : [ "a", "b" ]
+            }
+          },
+          "P3" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ { } ],
+                "tmetadata" : {
+                  "range" : [ 0, 100 ],
+                  "scale" : "linear"
+                }
+              }
+            }
+          },
+          "P5:ü" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ { } ],
+                "tmetadata" : {
+                  "range" : [ 0, 100 ],
+                  "scale" : "linear"
+                }
+              }
+            },
+            "smetadata" : {
+              "nullvalue" : null,
+              "unicode" : "äöü \"quoted\" \\ back\nline"
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

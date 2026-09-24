@@ -1,0 +1,68 @@
+{
+  "request" : "GET /tree,edge/*?limit=-1&where=eactive.eq.true&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "LinkStation" : {
+        "edges" : {
+          "L1->L2" : {
+            "eactive" : true,
+            "eavailable" : true,
+            "ebegin" : {
+              "sbactive" : true,
+              "sbavailable" : true,
+              "sbcode" : "L1",
+              "sbcoordinate" : {
+                "srid" : 4326,
+                "x" : 11.1,
+                "y" : 46.1
+              },
+              "sbname" : "Link start",
+              "sborigin" : "NOI",
+              "sbtype" : "LinkStation"
+            },
+            "ecode" : "L1->L2",
+            "edirected" : true,
+            "eend" : {
+              "seactive" : true,
+              "seavailable" : true,
+              "secode" : "L2",
+              "secoordinate" : {
+                "srid" : 4326,
+                "x" : 11.2,
+                "y" : 46.2
+              },
+              "sename" : "Link end",
+              "seorigin" : "NOI",
+              "setype" : "LinkStation"
+            },
+            "egeometry" : {
+              "bbox" : [ 11.1, 46.1, 11.2, 46.2 ],
+              "coordinates" : [ [ 11.1, 46.1 ], [ 11.2, 46.2 ] ],
+              "crs" : {
+                "properties" : {
+                  "name" : "EPSG:4326"
+                },
+                "type" : "name"
+              },
+              "type" : "LineString"
+            },
+            "ename" : "Link a->b",
+            "eorigin" : "NOI",
+            "etype" : "LinkStation"
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

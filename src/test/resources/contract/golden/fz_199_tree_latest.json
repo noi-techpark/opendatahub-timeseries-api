@@ -1,0 +1,158 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&where=mvalue.gt.10 [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "MeteoStation" : {
+        "stations" : {
+          "T1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "T1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.12,
+              "y" : 46.07
+            },
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Air temp",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  },
+                  "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+                  "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+                  "mvalue" : 21.3
+                } ],
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "C"
+              }
+            },
+            "smetadata" : {
+              "city" : "Trento"
+            },
+            "sname" : "Meteo Trento",
+            "sorigin" : "meteotrentino",
+            "stype" : "MeteoStation"
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "P1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.35,
+              "y" : 46.49
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  },
+                  "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+                  "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+                  "mvalue" : 78.5
+                } ],
+                "tname" : "free",
+                "ttype" : "instantaneous",
+                "tunit" : "count"
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  },
+                  "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+                  "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+                  "mvalue" : 42
+                }, {
+                  "mperiod" : 3600,
+                  "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+                  "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+                  "mvalue" : 55
+                } ],
+                "tmetadata" : {
+                  "range" : [ 0, 100 ],
+                  "scale" : "linear"
+                },
+                "tname" : "occupied",
+                "ttype" : "instantaneous",
+                "tunit" : "count"
+              }
+            },
+            "smetadata" : {
+              "address" : {
+                "nr" : 12,
+                "street" : "Via Roma"
+              },
+              "capacity" : 120,
+              "city" : "Bolzano"
+            },
+            "sname" : "Parking Bolzano Centro",
+            "sorigin" : "FAMAS",
+            "stype" : "ParkingStation"
+          }
+        }
+      },
+      "TrafficSensor" : {
+        "stations" : {
+          "A22:1:3" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "A22:1:3",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.4,
+              "y" : 46.3
+            },
+            "sdatatypes" : {
+              "vehicle-count" : {
+                "tdescription" : "Vehicles",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+                  "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+                  "mvalue" : 1234567890.125
+                } ],
+                "tname" : "vehicle-count",
+                "ttype" : "total",
+                "tunit" : "n"
+              }
+            },
+            "sname" : "Traffic A22 1",
+            "sorigin" : "A22",
+            "stype" : "TrafficSensor"
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

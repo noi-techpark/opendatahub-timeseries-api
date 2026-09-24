@@ -1,0 +1,31 @@
+{
+  "request" : "GET /flat,edge/*?limit=-1&select=sename,egeometry,eorigin&where=eactive.eq.true&distinct=false [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : [ {
+      "egeometry" : {
+        "bbox" : [ 11.1, 46.1, 11.2, 46.2 ],
+        "coordinates" : [ [ 11.1, 46.1 ], [ 11.2, 46.2 ] ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "LineString"
+      },
+      "eorigin" : "NOI",
+      "sename" : "Link end"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "request" : "GET /tree/ParkingStation/raw/2024-04-01/2024-04-02?limit=5&select=scode,mvalue.n,mvalue.flag [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "scode" : "P1",
+            "sdatatypes" : {
+              "raw" : {
+                "tmeasurements" : [ {
+                  "mvalue" : {
+                    "flag" : false,
+                    "n" : 5
+                  }
+                }, {
+                  "mvalue" : {
+                    "flag" : true,
+                    "n" : 10
+                  }
+                }, {
+                  "mvalue" : {
+                    "flag" : false,
+                    "n" : 15
+                  }
+                }, {
+                  "mvalue" : {
+                    "flag" : true,
+                    "n" : 20
+                  }
+                }, {
+                  "mvalue" : {
+                    "flag" : true,
+                    "n" : 0
+                  }
+                } ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : 5,
+    "offset" : 0
+  }
+}

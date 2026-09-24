@@ -1,0 +1,28 @@
+{
+  "request" : "GET /flat,event/A22?select=evname,prname,prversion,evmetadata.city [roles:BDP_A22]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : [ {
+      "evmetadata.city" : "Bolzano",
+      "evname" : "W1",
+      "prname" : "collector-a",
+      "prversion" : "1.0.0"
+    }, {
+      "evname" : "A1",
+      "prname" : "collector-b",
+      "prversion" : "2.1.0"
+    }, {
+      "evname" : "W1b"
+    } ],
+    "limit" : 200,
+    "offset" : 0
+  }
+}

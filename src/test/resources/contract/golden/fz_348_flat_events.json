@@ -1,0 +1,32 @@
+{
+  "request" : "GET /flat,event/*?limit=-1&select=evorigin,prlineage&shownull=true&distinct=false [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : [ {
+      "evorigin" : "A22",
+      "prlineage" : "NOI"
+    }, {
+      "evorigin" : "A22",
+      "prlineage" : null
+    }, {
+      "evorigin" : "A22",
+      "prlineage" : "FAMAS"
+    }, {
+      "evorigin" : "PROVINCE_BZ",
+      "prlineage" : null
+    }, {
+      "evorigin" : "OTHER",
+      "prlineage" : null
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

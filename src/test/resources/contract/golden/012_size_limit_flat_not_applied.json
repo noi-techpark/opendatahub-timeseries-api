@@ -1,0 +1,14 @@
+{
+  "request" : "GET /flat/ParkingStation/occupied/2023-01-01/2023-01-29?limit=-1&where=scode.eq.%22P5%3A%C3%BC%22 [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "4",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "bodySha256" : "02a794e7aeaf36ba408473b228858d2d02ca8285330d3ec257a1329d5e99f003",
+  "bodyRecords" : 40000
+}

@@ -1,0 +1,18 @@
+{
+  "request" : "GET /tree/ParkingStation/occupied/2023-01-01/2023-01-29?limit=-1&where=scode.eq.%22P5%3A%C3%BC%22 [roles:BDP_ADMIN]",
+  "status" : 400,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "4",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "code" : 400,
+    "error" : "Bad Request",
+    "message" : "TREE BUILDING: Response size of 1 MB exceeded. Please rephrase your request. Use a flat representation, WHERE, SELECT, LIMIT with OFFSET or a narrow time interval.",
+    "timestamp" : "<masked-not-epoch-millis>"
+  }
+}

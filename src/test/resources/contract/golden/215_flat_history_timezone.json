@@ -1,0 +1,29 @@
+{
+  "request" : "GET /flat/ParkingStation/occupied/2024-04-01/2024-04-02?limit=3&timezone=America/New_York&select=mvalidtime,mvalue [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "_timestamp" : "2024-03-31 20:00:00.000-0400",
+      "mvalidtime" : "2024-03-31 20:00:00.000-0400",
+      "mvalue" : 7.4
+    }, {
+      "_timestamp" : "2024-03-31 20:00:00.000-0400",
+      "mvalidtime" : "2024-03-31 20:00:00.000-0400",
+      "mvalue" : 37
+    }, {
+      "_timestamp" : "2024-03-31 20:05:00.000-0400",
+      "mvalidtime" : "2024-03-31 20:05:00.000-0400",
+      "mvalue" : 8.3
+    } ],
+    "limit" : 3,
+    "offset" : 0
+  }
+}

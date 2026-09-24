@@ -1,0 +1,41 @@
+{
+  "request" : "GET /flat/ParkingStation/occupied/2019-04-02/2024-04-01?limit=1 [roles:ODH_ROLE_ADVANCED]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "5",
+    "x-rate-limit-policy" : "Authenticated Advanced"
+  },
+  "body" : {
+    "data" : [ {
+      "_timestamp" : "2023-01-01 00:00:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2023-01-01 00:00:00.000+0000",
+      "mvalidtime" : "2023-01-01 00:00:00.000+0000",
+      "mvalue" : 28.571429,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "P5:ü",
+      "smetadata" : {
+        "nullvalue" : null,
+        "unicode" : "äöü \"quoted\" \\ back\nline"
+      },
+      "sname" : "Unicode Stätiön \"q\"",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation",
+      "tdescription" : "Occupied places",
+      "tmetadata" : {
+        "range" : [ 0, 100 ],
+        "scale" : "linear"
+      },
+      "tname" : "occupied",
+      "ttype" : "instantaneous",
+      "tunit" : "count"
+    } ],
+    "limit" : 1,
+    "offset" : 0
+  }
+}

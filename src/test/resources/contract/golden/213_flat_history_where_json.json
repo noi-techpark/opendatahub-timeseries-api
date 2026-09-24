@@ -1,0 +1,59 @@
+{
+  "request" : "GET /flat/ParkingStation/raw/2024-04-01/2024-04-02?where=mvalue.n.gteq.50&limit=-1&select=scode,mvalue [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "_timestamp" : "2024-04-01 00:50:00.000+0000",
+      "mvalue" : {
+        "flag" : true,
+        "n" : 50
+      },
+      "scode" : "P1"
+    }, {
+      "_timestamp" : "2024-04-01 00:55:00.000+0000",
+      "mvalue" : {
+        "flag" : false,
+        "n" : 55
+      },
+      "scode" : "P1"
+    }, {
+      "_timestamp" : "2024-04-01 01:50:00.000+0000",
+      "mvalue" : {
+        "flag" : true,
+        "n" : 50
+      },
+      "scode" : "P1"
+    }, {
+      "_timestamp" : "2024-04-01 01:55:00.000+0000",
+      "mvalue" : {
+        "flag" : false,
+        "n" : 55
+      },
+      "scode" : "P1"
+    }, {
+      "_timestamp" : "2024-04-01 02:50:00.000+0000",
+      "mvalue" : {
+        "flag" : true,
+        "n" : 50
+      },
+      "scode" : "P1"
+    }, {
+      "_timestamp" : "2024-04-01 02:55:00.000+0000",
+      "mvalue" : {
+        "flag" : false,
+        "n" : 55
+      },
+      "scode" : "P1"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

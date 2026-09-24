@@ -1,0 +1,38 @@
+{
+  "request" : "GET /tree/ParkingStation?select=sname,scode [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "scode" : "P1",
+            "sname" : "Parking Bolzano Centro"
+          },
+          "P2" : {
+            "scode" : "P2",
+            "sname" : "Parking Merano"
+          },
+          "P3" : {
+            "scode" : "P3",
+            "sname" : "Parking Hidden"
+          },
+          "P5:ü" : {
+            "scode" : "P5:ü",
+            "sname" : "Unicode Stätiön \"q\""
+          }
+        }
+      }
+    },
+    "limit" : 200,
+    "offset" : 0
+  }
+}

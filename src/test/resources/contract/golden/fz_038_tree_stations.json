@@ -1,0 +1,61 @@
+{
+  "request" : "GET /tree/*?limit=-1&select=pmetadata&where=sorigin.neq.PRIVATE [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "CreativeIndustry" : {
+        "stations" : {
+          "CI1" : { },
+          "CI2" : { }
+        }
+      },
+      "EChargingPlug" : {
+        "stations" : {
+          "C1-1" : { },
+          "C1-2" : { }
+        }
+      },
+      "EChargingStation" : {
+        "stations" : {
+          "C1" : { }
+        }
+      },
+      "LinkStation" : {
+        "stations" : {
+          "L1" : { },
+          "L1->L2" : { },
+          "L2" : { }
+        }
+      },
+      "MeteoStation" : {
+        "stations" : {
+          "T1" : { }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : { },
+          "P2" : { },
+          "P5:ü" : { }
+        }
+      },
+      "TrafficSensor" : {
+        "stations" : {
+          "A22:1:3" : { },
+          "A22:2:3" : { },
+          "M1" : { }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "request" : "GET /flat/ParkingStation/occupied/2024-04-01/2024-04-02?where=mvalue.gt.20&limit=-1&select=scode,mvalidtime,mvalue [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "_timestamp" : "2024-04-01 00:00:00.000+0000",
+      "mvalidtime" : "2024-04-01 00:00:00.000+0000",
+      "mvalue" : 37,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 00:05:00.000+0000",
+      "mvalidtime" : "2024-04-01 00:05:00.000+0000",
+      "mvalue" : 41.5,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 00:10:00.000+0000",
+      "mvalidtime" : "2024-04-01 00:10:00.000+0000",
+      "mvalue" : 46,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 00:40:00.000+0000",
+      "mvalidtime" : "2024-04-01 00:40:00.000+0000",
+      "mvalue" : 24.5,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 00:45:00.000+0000",
+      "mvalidtime" : "2024-04-01 00:45:00.000+0000",
+      "mvalue" : 29,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 00:50:00.000+0000",
+      "mvalidtime" : "2024-04-01 00:50:00.000+0000",
+      "mvalue" : 33.5,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 00:55:00.000+0000",
+      "mvalidtime" : "2024-04-01 00:55:00.000+0000",
+      "mvalue" : 38,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 01:00:00.000+0000",
+      "mvalidtime" : "2024-04-01 01:00:00.000+0000",
+      "mvalue" : 42.5,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 01:05:00.000+0000",
+      "mvalidtime" : "2024-04-01 01:05:00.000+0000",
+      "mvalue" : 47,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 01:30:00.000+0000",
+      "mvalidtime" : "2024-04-01 01:30:00.000+0000",
+      "mvalue" : 21,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 01:35:00.000+0000",
+      "mvalidtime" : "2024-04-01 01:35:00.000+0000",
+      "mvalue" : 25.5,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 01:40:00.000+0000",
+      "mvalidtime" : "2024-04-01 01:40:00.000+0000",
+      "mvalue" : 30,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 01:45:00.000+0000",
+      "mvalidtime" : "2024-04-01 01:45:00.000+0000",
+      "mvalue" : 34.5,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 01:50:00.000+0000",
+      "mvalidtime" : "2024-04-01 01:50:00.000+0000",
+      "mvalue" : 39,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 01:55:00.000+0000",
+      "mvalidtime" : "2024-04-01 01:55:00.000+0000",
+      "mvalue" : 43.5,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 02:00:00.000+0000",
+      "mvalidtime" : "2024-04-01 02:00:00.000+0000",
+      "mvalue" : 48,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 02:25:00.000+0000",
+      "mvalidtime" : "2024-04-01 02:25:00.000+0000",
+      "mvalue" : 22,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 02:30:00.000+0000",
+      "mvalidtime" : "2024-04-01 02:30:00.000+0000",
+      "mvalue" : 26.5,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 02:35:00.000+0000",
+      "mvalidtime" : "2024-04-01 02:35:00.000+0000",
+      "mvalue" : 31,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 02:40:00.000+0000",
+      "mvalidtime" : "2024-04-01 02:40:00.000+0000",
+      "mvalue" : 35.5,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 02:45:00.000+0000",
+      "mvalidtime" : "2024-04-01 02:45:00.000+0000",
+      "mvalue" : 40,
+      "scode" : "P2"
+    }, {
+      "_timestamp" : "2024-04-01 02:50:00.000+0000",
+      "mvalidtime" : "2024-04-01 02:50:00.000+0000",
+      "mvalue" : 44.5,
+      "scode" : "P2"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=tmetadata.scale,prlineage,mprovenance,tname,sorigin&where=mvalue.gt.10 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "MeteoStation" : {
+        "stations" : {
+          "T1" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  }
+                } ],
+                "tname" : "air-temperature"
+              }
+            },
+            "sorigin" : "meteotrentino"
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  }
+                } ],
+                "tname" : "free"
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  }
+                }, { } ],
+                "tmetadata" : {
+                  "scale" : "linear"
+                },
+                "tname" : "occupied"
+              }
+            },
+            "sorigin" : "FAMAS"
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "request" : "GET /tree/EChargingPlug,EChargingStation?limit=-1&select=sactive,smetadata.city&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "EChargingPlug" : {
+        "stations" : {
+          "C1-1" : {
+            "sactive" : true,
+            "smetadata" : {
+              "city" : null
+            }
+          },
+          "C1-2" : {
+            "sactive" : false,
+            "smetadata" : {
+              "city" : null
+            }
+          }
+        }
+      },
+      "EChargingStation" : {
+        "stations" : {
+          "C1" : {
+            "sactive" : true,
+            "smetadata" : {
+              "city" : null
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

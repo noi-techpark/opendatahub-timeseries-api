@@ -1,0 +1,41 @@
+{
+  "request" : "GET / [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : [ {
+    "description" : "Data: Retrieve stations, data types and measurements in a hierarchical form: stationtype/station/datatype/measurement",
+    "id" : "tree,node",
+    "self" : "http://localhost:<port>/tree,node"
+  }, {
+    "description" : "Data: Retrieve stations, data types and measurements in a flattened form: Useful for aggregation and retrieval of subsets of data",
+    "id" : "flat,node",
+    "self" : "http://localhost:<port>/flat,node"
+  }, {
+    "description" : "Data: Retrieve edges in a hierarchical form: Useful when you want to see which stations are connected in a graph",
+    "id" : "tree,edge",
+    "self" : "http://localhost:<port>/tree,edge"
+  }, {
+    "description" : "Data: Retrieve edges in a flattened form: Useful when you want to see which stations are connected in a graph",
+    "id" : "flat,edge",
+    "self" : "http://localhost:<port>/flat,edge"
+  }, {
+    "description" : "Data: Retrieve events in a hierarchical form: origin/category/event. Events are like labels on timeseries.",
+    "id" : "tree,event",
+    "self" : "http://localhost:<port>/tree,event"
+  }, {
+    "description" : "Data: Retrieve events in a flattened form. Events are like labels on timeseries.",
+    "id" : "flat,event",
+    "self" : "http://localhost:<port>/flat,event"
+  }, {
+    "description" : "The API specification in an OpenAPI v3 Yaml format",
+    "id" : "apispec",
+    "self" : "http://localhost:<port>/apispec"
+  } ]
+}

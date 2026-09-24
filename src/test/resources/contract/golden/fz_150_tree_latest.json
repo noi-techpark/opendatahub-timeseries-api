@@ -1,0 +1,94 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=tdescription,mperiod&where=tname.in.(occupied,free)&shownull=true&distinct=false [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : { },
+                  "mvalue" : null
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "sparent" : { }
+          },
+          "P2" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "sparent" : { }
+          },
+          "P3" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "sparent" : { }
+          },
+          "P5:ü" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "sparent" : { }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

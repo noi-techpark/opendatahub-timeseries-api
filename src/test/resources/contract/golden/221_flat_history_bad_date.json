@@ -1,0 +1,18 @@
+{
+  "request" : "GET /flat/ParkingStation/occupied/yesterday/2024-04-02 [none]",
+  "status" : 400,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "code" : 400,
+    "error" : "Bad Request",
+    "message" : "PARSING ERROR: Invalid date given. Accepted are: yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z][z], or now, or an ISO 8601 duration relative to now (e.g. -PT10M). In the date format, [] denotes optionality, and single digits must be leaded by 0. Error message: Text 'yesterday' could not be parsed at index 0.",
+    "timestamp" : "<masked-not-epoch-millis>"
+  }
+}

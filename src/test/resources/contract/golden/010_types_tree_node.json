@@ -1,0 +1,69 @@
+{
+  "request" : "GET /tree,node [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : [ {
+    "description" : null,
+    "id" : "CreativeIndustry",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/CreativeIndustry",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/CreativeIndustry/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/CreativeIndustry/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "EChargingPlug",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/EChargingPlug",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/EChargingPlug/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/EChargingPlug/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "EChargingStation",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/EChargingStation",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/EChargingStation/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/EChargingStation/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "LinkStation",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/LinkStation",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/LinkStation/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/LinkStation/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "MeteoStation",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/MeteoStation",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/MeteoStation/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/MeteoStation/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "ParkingStation",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/ParkingStation",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/ParkingStation/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/ParkingStation/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "TrafficSensor",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/TrafficSensor",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/TrafficSensor/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/TrafficSensor/*/latest"
+    }
+  } ]
+}

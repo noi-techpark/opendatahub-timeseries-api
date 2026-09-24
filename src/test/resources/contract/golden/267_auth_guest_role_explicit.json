@@ -1,0 +1,434 @@
+{
+  "request" : "GET /flat/*/*/latest?limit=-1 [roles:BDP_GUEST]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : [ {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+      "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : 21.3,
+      "prlineage" : "NOI",
+      "prname" : "collector-a",
+      "prversion" : "1.0.0",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "T1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.12,
+        "y" : 46.07
+      },
+      "smetadata" : {
+        "city" : "Trento"
+      },
+      "sname" : "Meteo Trento",
+      "sorigin" : "meteotrentino",
+      "stype" : "MeteoStation",
+      "tdescription" : "Air temp",
+      "tname" : "air-temperature",
+      "ttype" : "mean",
+      "tunit" : "C"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+      "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : 78.5,
+      "prlineage" : "NOI",
+      "prname" : "collector-a",
+      "prversion" : "1.0.0",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "P1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.35,
+        "y" : 46.49
+      },
+      "smetadata" : {
+        "address" : {
+          "nr" : 12,
+          "street" : "Via Roma"
+        },
+        "capacity" : 120,
+        "city" : "Bolzano"
+      },
+      "sname" : "Parking Bolzano Centro",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation",
+      "tdescription" : "Free places",
+      "tname" : "free",
+      "ttype" : "instantaneous",
+      "tunit" : "count"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+      "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : 9,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "P5:ü",
+      "smetadata" : {
+        "nullvalue" : null,
+        "unicode" : "äöü \"quoted\" \\ back\nline"
+      },
+      "sname" : "Unicode Stätiön \"q\"",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation",
+      "tdescription" : "Occupied places",
+      "tmetadata" : {
+        "range" : [ 0, 100 ],
+        "scale" : "linear"
+      },
+      "tname" : "occupied",
+      "ttype" : "instantaneous",
+      "tunit" : "count"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+      "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : 42,
+      "prlineage" : "NOI",
+      "prname" : "collector-a",
+      "prversion" : "1.0.0",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "P1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.35,
+        "y" : 46.49
+      },
+      "smetadata" : {
+        "address" : {
+          "nr" : 12,
+          "street" : "Via Roma"
+        },
+        "capacity" : 120,
+        "city" : "Bolzano"
+      },
+      "sname" : "Parking Bolzano Centro",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation",
+      "tdescription" : "Occupied places",
+      "tmetadata" : {
+        "range" : [ 0, 100 ],
+        "scale" : "linear"
+      },
+      "tname" : "occupied",
+      "ttype" : "instantaneous",
+      "tunit" : "count"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+      "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : 55,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "P1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.35,
+        "y" : 46.49
+      },
+      "smetadata" : {
+        "address" : {
+          "nr" : 12,
+          "street" : "Via Roma"
+        },
+        "capacity" : 120,
+        "city" : "Bolzano"
+      },
+      "sname" : "Parking Bolzano Centro",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation",
+      "tdescription" : "Occupied places",
+      "tmetadata" : {
+        "range" : [ 0, 100 ],
+        "scale" : "linear"
+      },
+      "tname" : "occupied",
+      "ttype" : "instantaneous",
+      "tunit" : "count"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+      "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : "available",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "C1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34,
+        "y" : 46.5
+      },
+      "smetadata" : {
+        "outlets" : 2,
+        "voltage" : 230
+      },
+      "sname" : "Charger Bolzano",
+      "sorigin" : "ROUTE220",
+      "stype" : "EChargingStation",
+      "tdescription" : "Textual state",
+      "tname" : "state",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+      "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : "broken \"x\"",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "C1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34,
+        "y" : 46.5
+      },
+      "pmetadata" : {
+        "outlets" : 2,
+        "voltage" : 230
+      },
+      "pname" : "Charger Bolzano",
+      "porigin" : "ROUTE220",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "C1-2",
+      "sname" : "Charger Plug 2",
+      "sorigin" : "ROUTE220",
+      "stype" : "EChargingPlug",
+      "tdescription" : "Textual state",
+      "tname" : "state",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+      "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : "occupied",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "C1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34,
+        "y" : 46.5
+      },
+      "pmetadata" : {
+        "outlets" : 2,
+        "voltage" : 230
+      },
+      "pname" : "Charger Bolzano",
+      "porigin" : "ROUTE220",
+      "ptype" : "EChargingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "C1-1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34,
+        "y" : 46.5
+      },
+      "smetadata" : {
+        "outlets" : 2,
+        "voltage" : 230
+      },
+      "sname" : "Charger Plug 1",
+      "sorigin" : "ROUTE220",
+      "stype" : "EChargingPlug",
+      "tdescription" : "Textual state",
+      "tname" : "state",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+      "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : "open",
+      "prlineage" : "NOI",
+      "prname" : "collector-a",
+      "prversion" : "1.0.0",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "P1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.35,
+        "y" : 46.49
+      },
+      "smetadata" : {
+        "address" : {
+          "nr" : 12,
+          "street" : "Via Roma"
+        },
+        "capacity" : 120,
+        "city" : "Bolzano"
+      },
+      "sname" : "Parking Bolzano Centro",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation",
+      "tdescription" : "Textual state",
+      "tname" : "state",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+      "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : "ünï\\ncode\\t\"q\"\\\\",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "P5:ü",
+      "smetadata" : {
+        "nullvalue" : null,
+        "unicode" : "äöü \"quoted\" \\ back\nline"
+      },
+      "sname" : "Unicode Stätiön \"q\"",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation",
+      "tdescription" : "Textual state",
+      "tname" : "state",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+      "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : {
+        "a" : 2,
+        "nested" : {
+          "deep" : null
+        }
+      },
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "C1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34,
+        "y" : 46.5
+      },
+      "smetadata" : {
+        "outlets" : 2,
+        "voltage" : 230
+      },
+      "sname" : "Charger Bolzano",
+      "sorigin" : "ROUTE220",
+      "stype" : "EChargingStation",
+      "tdescription" : "Json payload",
+      "tname" : "raw",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2024-05-01 12:00:01.000+0000",
+      "mvalidtime" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : {
+        "a" : 1,
+        "b" : {
+          "c" : [ 1, 2, 3 ]
+        },
+        "s" : "x"
+      },
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "P1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.35,
+        "y" : 46.49
+      },
+      "smetadata" : {
+        "address" : {
+          "nr" : 12,
+          "street" : "Via Roma"
+        },
+        "capacity" : 120,
+        "city" : "Bolzano"
+      },
+      "sname" : "Parking Bolzano Centro",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation",
+      "tdescription" : "Json payload",
+      "tname" : "raw",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-05-01 12:05:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2024-05-01 12:05:02.000+0000",
+      "mvalidtime" : "2024-05-01 12:05:00.000+0000",
+      "mvalue" : 0,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "P2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.16,
+        "y" : 46.67
+      },
+      "smetadata" : {
+        "capacity" : 60,
+        "city" : "Merano",
+        "tags" : [ "a", "b" ]
+      },
+      "sname" : "Parking Merano",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation",
+      "tdescription" : "Free places",
+      "tname" : "free",
+      "ttype" : "instantaneous",
+      "tunit" : "count"
+    }, {
+      "_timestamp" : "2024-05-01 12:05:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2024-05-01 12:05:02.000+0000",
+      "mvalidtime" : "2024-05-01 12:05:00.000+0000",
+      "mvalue" : 7,
+      "prlineage" : "FAMAS",
+      "prname" : "collector-b",
+      "prversion" : "2.1.0",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "P2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.16,
+        "y" : 46.67
+      },
+      "smetadata" : {
+        "capacity" : 60,
+        "city" : "Merano",
+        "tags" : [ "a", "b" ]
+      },
+      "sname" : "Parking Merano",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation",
+      "tdescription" : "Occupied places",
+      "tmetadata" : {
+        "range" : [ 0, 100 ],
+        "scale" : "linear"
+      },
+      "tname" : "occupied",
+      "ttype" : "instantaneous",
+      "tunit" : "count"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

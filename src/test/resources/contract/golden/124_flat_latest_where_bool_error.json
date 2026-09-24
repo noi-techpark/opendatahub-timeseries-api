@@ -1,0 +1,18 @@
+{
+  "request" : "GET /flat/ParkingStation/*/latest?where=mvalue.eq.true [none]",
+  "status" : 400,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "code" : 400,
+    "error" : "Bad Request",
+    "message" : "DATA FETCHING ERROR: 'mvalue' can only be used with NULL, NUMBERS or STRINGS: 'BOOLEAN' given.",
+    "timestamp" : "<masked-not-epoch-millis>"
+  }
+}

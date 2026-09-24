@@ -1,0 +1,83 @@
+{
+  "request" : "GET /flat,event/*/latest [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : [ {
+      "evcategory" : "accident",
+      "evdescription" : "Open ended",
+      "evname" : "A1",
+      "evorigin" : "A22",
+      "evseriesuuid" : "s0000000-0000-0000-0000-000000000002",
+      "evstart" : "2022-01-03 00:00:00.000+0000",
+      "evtransactiontime" : "2022-01-03 00:00:00.000+0000",
+      "evuuid" : "e0000000-0000-0000-0000-000000000003",
+      "prlineage" : "FAMAS",
+      "prname" : "collector-b",
+      "prversion" : "2.1.0"
+    }, {
+      "evcategory" : "misc",
+      "evdescription" : "Hidden",
+      "evend" : "2022-01-05 00:00:00.000+0000",
+      "evname" : "H1",
+      "evorigin" : "OTHER",
+      "evseriesuuid" : "s0000000-0000-0000-0000-000000000004",
+      "evstart" : "2022-01-01 00:00:00.000+0000",
+      "evtransactiontime" : "2022-01-01 00:00:00.000+0000",
+      "evuuid" : "e0000000-0000-0000-0000-000000000005"
+    }, {
+      "evcategory" : "roadworks",
+      "evdescription" : "Work 1b",
+      "evend" : "2022-02-01 00:00:00.000+0000",
+      "evldescription" : "Point loc",
+      "evlgeometry" : {
+        "bbox" : [ 11, 46, 11, 46 ],
+        "coordinates" : [ 11, 46 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evname" : "W1b",
+      "evorigin" : "A22",
+      "evseriesuuid" : "s0000000-0000-0000-0000-000000000001",
+      "evstart" : "2022-01-05 00:00:00.000+0000",
+      "evtransactiontime" : "2022-01-05 00:00:00.000+0000",
+      "evuuid" : "e0000000-0000-0000-0000-000000000002"
+    }, {
+      "evcategory" : "snow",
+      "evdescription" : "Snow",
+      "evend" : "2023-01-02 00:00:00.000+0000",
+      "evldescription" : "Poly loc",
+      "evlgeometry" : {
+        "bbox" : [ 0, 0, 1, 1 ],
+        "coordinates" : [ [ [ 0, 0 ], [ 0, 1 ], [ 1, 1 ], [ 0, 0 ] ] ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Polygon"
+      },
+      "evname" : "S1",
+      "evorigin" : "PROVINCE_BZ",
+      "evseriesuuid" : "s0000000-0000-0000-0000-000000000003",
+      "evstart" : "2023-01-01 00:00:00.000+0000",
+      "evtransactiontime" : "2023-01-01 00:00:00.000+0000",
+      "evuuid" : "e0000000-0000-0000-0000-000000000004"
+    } ],
+    "limit" : 200,
+    "offset" : 0
+  }
+}

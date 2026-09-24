@@ -1,0 +1,18 @@
+{
+  "request" : "GET /bogus [none]",
+  "status" : 400,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "code" : 400,
+    "error" : "Bad Request",
+    "message" : "PARSING ERROR: Please choose 'flat' or 'tree' as representation, and 'event', 'edge' or 'node' (default) as dataset. Separate them with a comma. 'bogus' is not allowed.",
+    "timestamp" : "<masked-not-epoch-millis>"
+  }
+}

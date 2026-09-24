@@ -1,0 +1,12 @@
+{
+  "request" : "GET /flat/ParkingStation?limit=abc [none]",
+  "status" : 400,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodyEmpty" : true
+}

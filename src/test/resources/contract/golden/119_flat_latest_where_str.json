@@ -1,0 +1,22 @@
+{
+  "request" : "GET /flat/ParkingStation/*/latest?where=mvalue.eq.%22open%22&select=scode,tname,mvalue [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : "open",
+      "scode" : "P1",
+      "tname" : "state"
+    } ],
+    "limit" : 200,
+    "offset" : 0
+  }
+}

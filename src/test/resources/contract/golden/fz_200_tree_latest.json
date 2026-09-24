@@ -1,0 +1,42 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=tunit,tmetadata.scale,mvalue.a,prversion,tname&where=mvalue.eq.%22open%22&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "state" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "1.0.0"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "state",
+                "tunit" : null
+              }
+            },
+            "sparent" : { }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=mvalue.a,mvalue.b.c,tmetadata.scale,ttype&where=tname.in.(occupied,free)&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "ttype" : "instantaneous"
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : {
+                  "scale" : "linear"
+                },
+                "ttype" : "instantaneous"
+              }
+            },
+            "sparent" : { }
+          },
+          "P2" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "ttype" : "instantaneous"
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : {
+                  "scale" : "linear"
+                },
+                "ttype" : "instantaneous"
+              }
+            },
+            "sparent" : { }
+          },
+          "P3" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : {
+                  "scale" : "linear"
+                },
+                "ttype" : "instantaneous"
+              }
+            },
+            "sparent" : { }
+          },
+          "P5:ü" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : {
+                  "scale" : "linear"
+                },
+                "ttype" : "instantaneous"
+              }
+            },
+            "sparent" : { }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

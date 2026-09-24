@@ -1,0 +1,130 @@
+{
+  "request" : "GET /tree/ParkingStation/*/latest?limit=-1&select=mprovenance,scode,ttype,pactive,tmetadata.scale,mvalidtime,prlineage [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "scode" : "P1",
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  },
+                  "mvalidtime" : "2024-05-01 12:00:00.000+0000"
+                } ],
+                "ttype" : "instantaneous"
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  },
+                  "mvalidtime" : "2024-05-01 12:00:00.000+0000"
+                }, {
+                  "mvalidtime" : "2024-05-01 12:00:00.000+0000"
+                } ],
+                "tmetadata" : {
+                  "scale" : "linear"
+                },
+                "ttype" : "instantaneous"
+              },
+              "raw" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2024-05-01 12:00:00.000+0000"
+                } ],
+                "ttype" : "instantaneous"
+              },
+              "state" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  },
+                  "mvalidtime" : "2024-05-01 12:00:00.000+0000"
+                } ],
+                "ttype" : "instantaneous"
+              }
+            }
+          },
+          "P2" : {
+            "scode" : "P2",
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2024-05-01 12:05:00.000+0000"
+                } ],
+                "ttype" : "instantaneous"
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "collector-b",
+                    "prversion" : "2.1.0"
+                  },
+                  "mvalidtime" : "2024-05-01 12:05:00.000+0000"
+                } ],
+                "tmetadata" : {
+                  "scale" : "linear"
+                },
+                "ttype" : "instantaneous"
+              }
+            }
+          },
+          "P3" : {
+            "scode" : "P3",
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2024-05-01 12:00:00.000+0000"
+                } ],
+                "tmetadata" : {
+                  "scale" : "linear"
+                },
+                "ttype" : "instantaneous"
+              }
+            }
+          },
+          "P5:ü" : {
+            "scode" : "P5:ü",
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2024-05-01 12:00:00.000+0000"
+                } ],
+                "tmetadata" : {
+                  "scale" : "linear"
+                },
+                "ttype" : "instantaneous"
+              },
+              "state" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2024-05-01 12:00:00.000+0000"
+                } ],
+                "ttype" : "instantaneous"
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

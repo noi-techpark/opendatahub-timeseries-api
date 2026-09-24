@@ -1,0 +1,58 @@
+{
+  "request" : "GET /tree/ParkingStation/*/latest?limit=-1&select=ttype,smetadata.address.street,mprovenance,tdescription,scode,savailable,tmetadata&where=mvalue.lt.30,tname.eq.occupied [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P2" : {
+            "savailable" : true,
+            "scode" : "P2",
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "collector-b",
+                    "prversion" : "2.1.0"
+                  }
+                } ],
+                "tmetadata" : {
+                  "range" : [ 0, 100 ],
+                  "scale" : "linear"
+                },
+                "ttype" : "instantaneous"
+              }
+            }
+          },
+          "P5:ü" : {
+            "savailable" : true,
+            "scode" : "P5:ü",
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ { } ],
+                "tmetadata" : {
+                  "range" : [ 0, 100 ],
+                  "scale" : "linear"
+                },
+                "ttype" : "instantaneous"
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "request" : "GET /flat/ParkingStation/state/2024-04-01/2024-04-02?where=mvalue.re.%22(%22 [none]",
+  "status" : 400,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "code" : 400,
+    "description" : "Error from the database backend",
+    "error" : "Bad Request",
+    "message" : "ERROR: invalid regular expression: parentheses () not balanced",
+    "timestamp" : "<masked-not-epoch-millis>"
+  }
+}

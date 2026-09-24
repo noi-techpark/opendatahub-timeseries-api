@@ -1,0 +1,63 @@
+{
+  "request" : "GET /tree/*/*?limit=-1&select=tdescription,tunit&where=sorigin.eq.FAMAS [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tunit" : "count"
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tunit" : "count"
+              },
+              "raw" : {
+                "tdescription" : "Json payload"
+              },
+              "state" : {
+                "tdescription" : "Textual state"
+              }
+            }
+          },
+          "P2" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tunit" : "count"
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tunit" : "count"
+              }
+            }
+          },
+          "P5:ü" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tunit" : "count"
+              },
+              "state" : {
+                "tdescription" : "Textual state"
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

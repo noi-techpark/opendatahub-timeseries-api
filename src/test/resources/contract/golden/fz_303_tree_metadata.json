@@ -1,0 +1,61 @@
+{
+  "request" : "GET /tree/*/metadata/2023-01-01/2024-01-01?limit=-1&select=smetadata.nothere,sorigin,mhmetadata.v,savailable&where=mhmetadata.v.gt.1&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "savailable" : true,
+            "smetadata" : {
+              "nothere" : null
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "v" : 2
+              }
+            } ],
+            "sorigin" : "FAMAS",
+            "sparent" : { }
+          },
+          "P2" : {
+            "savailable" : true,
+            "smetadata" : {
+              "nothere" : null
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "v" : 3
+              }
+            } ],
+            "sorigin" : "FAMAS",
+            "sparent" : { }
+          },
+          "P3" : {
+            "savailable" : true,
+            "smetadata" : {
+              "nothere" : null
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "v" : 9
+              }
+            } ],
+            "sorigin" : "PRIVATE",
+            "sparent" : { }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

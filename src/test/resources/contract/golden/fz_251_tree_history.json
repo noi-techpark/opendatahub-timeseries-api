@@ -1,0 +1,268 @@
+{
+  "request" : "GET /tree/ParkingStation/*/2024-04-01/2024-04-01T00:15:00Z?limit=-1 [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "P1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.35,
+              "y" : 46.49
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:00:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:00:00.000+0000",
+                  "mvalue" : 14.8
+                }, {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:05:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:05:00.000+0000",
+                  "mvalue" : 16.6
+                }, {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:10:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:10:00.000+0000",
+                  "mvalue" : 18.4
+                } ],
+                "tname" : "free",
+                "ttype" : "instantaneous",
+                "tunit" : "count"
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  },
+                  "mtransactiontime" : "2024-04-01 00:00:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:00:00.000+0000",
+                  "mvalue" : 7.4
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  },
+                  "mtransactiontime" : "2024-04-01 00:05:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:05:00.000+0000",
+                  "mvalue" : 8.3
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "collector-a",
+                    "prversion" : "1.0.0"
+                  },
+                  "mtransactiontime" : "2024-04-01 00:10:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:10:00.000+0000",
+                  "mvalue" : 9.2
+                } ],
+                "tmetadata" : {
+                  "range" : [ 0, 100 ],
+                  "scale" : "linear"
+                },
+                "tname" : "occupied",
+                "ttype" : "instantaneous",
+                "tunit" : "count"
+              },
+              "raw" : {
+                "tdescription" : "Json payload",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:10:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:10:00.000+0000",
+                  "mvalue" : {
+                    "flag" : true,
+                    "n" : 10
+                  }
+                }, {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:00:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:00:00.000+0000",
+                  "mvalue" : {
+                    "flag" : true,
+                    "n" : 0
+                  }
+                }, {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:05:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:05:00.000+0000",
+                  "mvalue" : {
+                    "flag" : false,
+                    "n" : 5
+                  }
+                } ],
+                "tname" : "raw",
+                "ttype" : "instantaneous"
+              },
+              "state" : {
+                "tdescription" : "Textual state",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:00:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:00:00.000+0000",
+                  "mvalue" : "closed"
+                }, {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:10:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:10:00.000+0000",
+                  "mvalue" : "open"
+                }, {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:05:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:05:00.000+0000",
+                  "mvalue" : "open"
+                } ],
+                "tname" : "state",
+                "ttype" : "instantaneous"
+              }
+            },
+            "smetadata" : {
+              "address" : {
+                "nr" : 12,
+                "street" : "Via Roma"
+              },
+              "capacity" : 120,
+              "city" : "Bolzano"
+            },
+            "sname" : "Parking Bolzano Centro",
+            "sorigin" : "FAMAS",
+            "stype" : "ParkingStation"
+          },
+          "P2" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "P2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.16,
+              "y" : 46.67
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:10:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:10:00.000+0000",
+                  "mvalue" : 55.2
+                }, {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:00:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:00:00.000+0000",
+                  "mvalue" : 44.4
+                }, {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:05:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:05:00.000+0000",
+                  "mvalue" : 49.8
+                } ],
+                "tname" : "free",
+                "ttype" : "instantaneous",
+                "tunit" : "count"
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:10:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:10:00.000+0000",
+                  "mvalue" : 46
+                }, {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:05:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:05:00.000+0000",
+                  "mvalue" : 41.5
+                }, {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:00:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:00:00.000+0000",
+                  "mvalue" : 37
+                } ],
+                "tmetadata" : {
+                  "range" : [ 0, 100 ],
+                  "scale" : "linear"
+                },
+                "tname" : "occupied",
+                "ttype" : "instantaneous",
+                "tunit" : "count"
+              }
+            },
+            "smetadata" : {
+              "capacity" : 60,
+              "city" : "Merano",
+              "tags" : [ "a", "b" ]
+            },
+            "sname" : "Parking Merano",
+            "sorigin" : "FAMAS",
+            "stype" : "ParkingStation"
+          },
+          "P3" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "P3",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11,
+              "y" : 46
+            },
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:00:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:00:00.000+0000",
+                  "mvalue" : 51.8
+                }, {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:05:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:05:00.000+0000",
+                  "mvalue" : 58.1
+                }, {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-04-01 00:10:01.000+0000",
+                  "mvalidtime" : "2024-04-01 00:10:00.000+0000",
+                  "mvalue" : 64.4
+                } ],
+                "tmetadata" : {
+                  "range" : [ 0, 100 ],
+                  "scale" : "linear"
+                },
+                "tname" : "occupied",
+                "ttype" : "instantaneous",
+                "tunit" : "count"
+              }
+            },
+            "sname" : "Parking Hidden",
+            "sorigin" : "PRIVATE",
+            "stype" : "ParkingStation"
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

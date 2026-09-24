@@ -1,0 +1,14 @@
+{
+  "request" : "GET /actuator/health [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/vnd.spring-boot.actuator.v3+json",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY"
+  },
+  "body" : {
+    "groups" : [ "liveness", "readiness" ],
+    "status" : "UP"
+  }
+}

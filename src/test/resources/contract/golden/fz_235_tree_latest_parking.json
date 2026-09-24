@@ -1,0 +1,163 @@
+{
+  "request" : "GET /tree/ParkingStation/*/latest?limit=-1&select=smetadata.address.street,smetadata.city,mvalue.n,pavailable,prname&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prname" : "collector-a"
+                  },
+                  "mvalue" : {
+                    "n" : null
+                  }
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prname" : "collector-a"
+                  },
+                  "mvalue" : {
+                    "n" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prname" : null
+                  },
+                  "mvalue" : {
+                    "n" : null
+                  }
+                } ]
+              },
+              "raw" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prname" : null
+                  },
+                  "mvalue" : {
+                    "n" : null
+                  }
+                } ]
+              },
+              "state" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prname" : "collector-a"
+                  },
+                  "mvalue" : {
+                    "n" : null
+                  }
+                } ]
+              }
+            },
+            "smetadata" : {
+              "address.street" : "Via Roma",
+              "city" : "Bolzano"
+            },
+            "sparent" : {
+              "pavailable" : null
+            }
+          },
+          "P2" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prname" : null
+                  },
+                  "mvalue" : {
+                    "n" : null
+                  }
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prname" : "collector-b"
+                  },
+                  "mvalue" : {
+                    "n" : null
+                  }
+                } ]
+              }
+            },
+            "smetadata" : {
+              "address.street" : null,
+              "city" : "Merano"
+            },
+            "sparent" : {
+              "pavailable" : null
+            }
+          },
+          "P3" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prname" : null
+                  },
+                  "mvalue" : {
+                    "n" : null
+                  }
+                } ]
+              }
+            },
+            "smetadata" : {
+              "address.street" : null,
+              "city" : null
+            },
+            "sparent" : {
+              "pavailable" : null
+            }
+          },
+          "P5:ü" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prname" : null
+                  },
+                  "mvalue" : {
+                    "n" : null
+                  }
+                } ]
+              },
+              "state" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prname" : null
+                  },
+                  "mvalue" : {
+                    "n" : null
+                  }
+                } ]
+              }
+            },
+            "smetadata" : {
+              "address.street" : null,
+              "city" : null
+            },
+            "sparent" : {
+              "pavailable" : null
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

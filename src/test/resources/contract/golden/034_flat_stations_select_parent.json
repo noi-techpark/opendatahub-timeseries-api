@@ -1,0 +1,29 @@
+{
+  "request" : "GET /flat/EChargingPlug?select=scode,pname,pcode,ptype,pmetadata.voltage [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "pcode" : "C1",
+      "pmetadata.voltage" : 230,
+      "pname" : "Charger Bolzano",
+      "ptype" : "EChargingStation",
+      "scode" : "C1-1"
+    }, {
+      "pcode" : "C1",
+      "pmetadata.voltage" : 230,
+      "pname" : "Charger Bolzano",
+      "ptype" : "EChargingStation",
+      "scode" : "C1-2"
+    } ],
+    "limit" : 200,
+    "offset" : 0
+  }
+}

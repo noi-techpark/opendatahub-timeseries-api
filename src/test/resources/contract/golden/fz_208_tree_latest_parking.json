@@ -1,0 +1,50 @@
+{
+  "request" : "GET /tree/ParkingStation/*/latest?limit=-1&select=prname,scode,porigin,pcoordinate&where=mvalue.lt.30,tname.eq.occupied&distinct=false [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P2" : {
+            "scode" : "P2",
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prname" : "collector-b"
+                  }
+                } ]
+              }
+            }
+          },
+          "P3" : {
+            "scode" : "P3",
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "P5:ü" : {
+            "scode" : "P5:ü",
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

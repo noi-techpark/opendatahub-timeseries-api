@@ -1,0 +1,35 @@
+{
+  "request" : "GET /flat/*/*?limit=-1&select=tmetadata.scale,scode&where=scode.re.%22%5EP%22 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "scode" : "P1",
+      "tmetadata.scale" : "linear"
+    }, {
+      "scode" : "P2",
+      "tmetadata.scale" : "linear"
+    }, {
+      "scode" : "P3",
+      "tmetadata.scale" : "linear"
+    }, {
+      "scode" : "P5:ü",
+      "tmetadata.scale" : "linear"
+    }, {
+      "scode" : "P1"
+    }, {
+      "scode" : "P2"
+    }, {
+      "scode" : "P5:ü"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

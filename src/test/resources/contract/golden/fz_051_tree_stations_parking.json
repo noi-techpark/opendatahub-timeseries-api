@@ -1,0 +1,34 @@
+{
+  "request" : "GET /tree/ParkingStation?limit=-1&select=pmetadata.voltage,pcode,stype [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "stype" : "ParkingStation"
+          },
+          "P2" : {
+            "stype" : "ParkingStation"
+          },
+          "P3" : {
+            "stype" : "ParkingStation"
+          },
+          "P5:ü" : {
+            "stype" : "ParkingStation"
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "request" : "GET /tree/ParkingStation/*/latest?limit=-1&select=prversion,sorigin,ttype,tunit,tname,prname,stype&where=mvalue.lt.30,tname.eq.occupied&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P2" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prname" : "collector-b",
+                    "prversion" : "2.1.0"
+                  },
+                  "mvalue" : null
+                } ],
+                "tname" : "occupied",
+                "ttype" : "instantaneous",
+                "tunit" : "count"
+              }
+            },
+            "sorigin" : "FAMAS",
+            "sparent" : { },
+            "stype" : "ParkingStation"
+          },
+          "P3" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prname" : null,
+                    "prversion" : null
+                  },
+                  "mvalue" : null
+                } ],
+                "tname" : "occupied",
+                "ttype" : "instantaneous",
+                "tunit" : "count"
+              }
+            },
+            "sorigin" : "PRIVATE",
+            "sparent" : { },
+            "stype" : "ParkingStation"
+          },
+          "P5:ü" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prname" : null,
+                    "prversion" : null
+                  },
+                  "mvalue" : null
+                } ],
+                "tname" : "occupied",
+                "ttype" : "instantaneous",
+                "tunit" : "count"
+              }
+            },
+            "sorigin" : "FAMAS",
+            "sparent" : { },
+            "stype" : "ParkingStation"
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

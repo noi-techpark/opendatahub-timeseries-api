@@ -1,0 +1,218 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=savailable,tname,mvalue,tunit [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "EChargingPlug" : {
+        "stations" : {
+          "C1-1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "state" : {
+                "tmeasurements" : [ {
+                  "mvalue" : "occupied"
+                } ],
+                "tname" : "state"
+              }
+            }
+          },
+          "C1-2" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "state" : {
+                "tmeasurements" : [ {
+                  "mvalue" : "broken \"x\""
+                } ],
+                "tname" : "state"
+              }
+            }
+          }
+        }
+      },
+      "EChargingStation" : {
+        "stations" : {
+          "C1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "raw" : {
+                "tmeasurements" : [ {
+                  "mvalue" : {
+                    "a" : 2,
+                    "nested" : {
+                      "deep" : null
+                    }
+                  }
+                } ],
+                "tname" : "raw"
+              },
+              "state" : {
+                "tmeasurements" : [ {
+                  "mvalue" : "available"
+                } ],
+                "tname" : "state"
+              }
+            }
+          }
+        }
+      },
+      "MeteoStation" : {
+        "stations" : {
+          "T1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 21.3
+                } ],
+                "tname" : "air-temperature",
+                "tunit" : "C"
+              }
+            }
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 78.5
+                } ],
+                "tname" : "free",
+                "tunit" : "count"
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 42
+                }, {
+                  "mvalue" : 55
+                } ],
+                "tname" : "occupied",
+                "tunit" : "count"
+              },
+              "raw" : {
+                "tmeasurements" : [ {
+                  "mvalue" : {
+                    "a" : 1,
+                    "b" : {
+                      "c" : [ 1, 2, 3 ]
+                    },
+                    "s" : "x"
+                  }
+                } ],
+                "tname" : "raw"
+              },
+              "state" : {
+                "tmeasurements" : [ {
+                  "mvalue" : "open"
+                } ],
+                "tname" : "state"
+              }
+            }
+          },
+          "P2" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 0
+                } ],
+                "tname" : "free",
+                "tunit" : "count"
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 7
+                } ],
+                "tname" : "occupied",
+                "tunit" : "count"
+              }
+            }
+          },
+          "P3" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 1
+                } ],
+                "tname" : "occupied",
+                "tunit" : "count"
+              }
+            }
+          },
+          "P5:ü" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 9
+                } ],
+                "tname" : "occupied",
+                "tunit" : "count"
+              },
+              "state" : {
+                "tmeasurements" : [ {
+                  "mvalue" : "ünï\\ncode\\t\"q\"\\\\"
+                } ],
+                "tname" : "state"
+              }
+            }
+          }
+        }
+      },
+      "TrafficSensor" : {
+        "stations" : {
+          "A22:1:3" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "vehicle-count" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 1234567890.125
+                } ],
+                "tname" : "vehicle-count",
+                "tunit" : "n"
+              }
+            }
+          },
+          "A22:2:3" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "vehicle-count" : {
+                "tmeasurements" : [ {
+                  "mvalue" : -5
+                } ],
+                "tname" : "vehicle-count",
+                "tunit" : "n"
+              }
+            }
+          },
+          "M1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "vehicle-count" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 0
+                } ],
+                "tname" : "vehicle-count",
+                "tunit" : "n"
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

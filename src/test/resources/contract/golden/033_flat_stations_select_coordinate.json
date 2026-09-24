@@ -1,0 +1,40 @@
+{
+  "request" : "GET /flat/ParkingStation?select=scode,scoordinate [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "scode" : "P3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11,
+        "y" : 46
+      }
+    }, {
+      "scode" : "P2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.16,
+        "y" : 46.67
+      }
+    }, {
+      "scode" : "P5:ü"
+    }, {
+      "scode" : "P1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.35,
+        "y" : 46.49
+      }
+    } ],
+    "limit" : 200,
+    "offset" : 0
+  }
+}

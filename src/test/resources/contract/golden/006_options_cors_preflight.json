@@ -1,0 +1,16 @@
+{
+  "request" : "OPTIONS /flat/ParkingStation [none]",
+  "status" : 200,
+  "headers" : {
+    "access-control-allow-credentials" : "true",
+    "access-control-allow-methods" : "GET,HEAD,OPTIONS",
+    "access-control-allow-origin" : "http://example.org",
+    "allow" : "DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT, TRACE",
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodyEmpty" : true
+}

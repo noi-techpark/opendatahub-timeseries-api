@@ -1,0 +1,64 @@
+{
+  "request" : "GET /tree/*/*?limit=-1&select=tunit,stype&where=or(sorigin.eq.FAMAS,sorigin.eq.NOI)&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "free" : {
+                "tunit" : "count"
+              },
+              "occupied" : {
+                "tunit" : "count"
+              },
+              "raw" : {
+                "tunit" : null
+              },
+              "state" : {
+                "tunit" : null
+              }
+            },
+            "sparent" : { },
+            "stype" : "ParkingStation"
+          },
+          "P2" : {
+            "sdatatypes" : {
+              "free" : {
+                "tunit" : "count"
+              },
+              "occupied" : {
+                "tunit" : "count"
+              }
+            },
+            "sparent" : { },
+            "stype" : "ParkingStation"
+          },
+          "P5:ü" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tunit" : "count"
+              },
+              "state" : {
+                "tunit" : null
+              }
+            },
+            "sparent" : { },
+            "stype" : "ParkingStation"
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "request" : "GET /flat/ParkingStation?where=sname.eq [none]",
+  "status" : 400,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "code" : 400,
+    "description" : "Syntax error in WHERE-clause",
+    "error" : "Bad Request",
+    "message" : "PARSING ERROR: Syntax error at position 8 with character <EOL>: . expected",
+    "timestamp" : "<masked-not-epoch-millis>"
+  }
+}

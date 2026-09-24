@@ -1,0 +1,68 @@
+{
+  "request" : "GET /tree/ParkingStation/*/latest?limit=-1&select=pcoordinate,tname,tdescription,tmetadata.scale&where=tname.in.(occupied,free) [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tmeasurements" : [ { } ],
+                "tname" : "free"
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ { } ],
+                "tmetadata" : {
+                  "scale" : "linear"
+                },
+                "tname" : "occupied"
+              }
+            }
+          },
+          "P2" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "tmeasurements" : [ { } ],
+                "tname" : "free"
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ { } ],
+                "tmetadata" : {
+                  "scale" : "linear"
+                },
+                "tname" : "occupied"
+              }
+            }
+          },
+          "P5:ü" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "tmeasurements" : [ { } ],
+                "tmetadata" : {
+                  "scale" : "linear"
+                },
+                "tname" : "occupied"
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

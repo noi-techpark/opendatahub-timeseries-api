@@ -1,0 +1,120 @@
+{
+  "request" : "GET /flat/*/*/latest?limit=-1&select=sactive,porigin,savailable,mvalue [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : [ {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : -5,
+      "sactive" : true,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : 0,
+      "sactive" : true,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : 1,
+      "sactive" : true,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : 9,
+      "sactive" : true,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : 21.3,
+      "sactive" : true,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : 42,
+      "sactive" : true,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : 55,
+      "sactive" : true,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : 78.5,
+      "sactive" : true,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : 1234567890.125,
+      "sactive" : true,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : "available",
+      "sactive" : true,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : "broken \"x\"",
+      "porigin" : "ROUTE220",
+      "sactive" : false,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : "occupied",
+      "porigin" : "ROUTE220",
+      "sactive" : true,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : "open",
+      "sactive" : true,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : "ünï\\ncode\\t\"q\"\\\\",
+      "sactive" : true,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : {
+        "a" : 2,
+        "nested" : {
+          "deep" : null
+        }
+      },
+      "sactive" : true,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:00:00.000+0000",
+      "mvalue" : {
+        "a" : 1,
+        "b" : {
+          "c" : [ 1, 2, 3 ]
+        },
+        "s" : "x"
+      },
+      "sactive" : true,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:05:00.000+0000",
+      "mvalue" : 0,
+      "sactive" : true,
+      "savailable" : true
+    }, {
+      "_timestamp" : "2024-05-01 12:05:00.000+0000",
+      "mvalue" : 7,
+      "sactive" : true,
+      "savailable" : true
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

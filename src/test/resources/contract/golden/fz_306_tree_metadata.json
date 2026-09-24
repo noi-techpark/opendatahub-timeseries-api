@@ -1,0 +1,52 @@
+{
+  "request" : "GET /tree/*/metadata/2023-01-01/2024-01-01?limit=-1&select=pavailable,pmetadata,sname,mhtransactiontime&where=mhmetadata.v.gt.1&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "smetadatahistory" : [ {
+              "mhtransactiontime" : "2023-06-01 10:00:00.000+0000"
+            } ],
+            "sname" : "Parking Bolzano Centro",
+            "sparent" : {
+              "pavailable" : null,
+              "pmetadata" : null
+            }
+          },
+          "P2" : {
+            "smetadatahistory" : [ {
+              "mhtransactiontime" : "2023-03-15 00:00:00.000+0000"
+            } ],
+            "sname" : "Parking Merano",
+            "sparent" : {
+              "pavailable" : null,
+              "pmetadata" : null
+            }
+          },
+          "P3" : {
+            "smetadatahistory" : [ {
+              "mhtransactiontime" : "2023-03-15 00:00:00.000+0000"
+            } ],
+            "sname" : "Parking Hidden",
+            "sparent" : {
+              "pavailable" : null,
+              "pmetadata" : null
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

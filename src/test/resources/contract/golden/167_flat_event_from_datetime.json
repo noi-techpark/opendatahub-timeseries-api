@@ -1,0 +1,84 @@
+{
+  "request" : "GET /flat,event/A22/2022-01-03T10:00:00Z [roles:BDP_A22]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : [ {
+      "evcategory" : "accident",
+      "evdescription" : "Open ended",
+      "evname" : "A1",
+      "evorigin" : "A22",
+      "evseriesuuid" : "s0000000-0000-0000-0000-000000000002",
+      "evstart" : "2022-01-03 00:00:00.000+0000",
+      "evtransactiontime" : "2022-01-03 00:00:00.000+0000",
+      "evuuid" : "e0000000-0000-0000-0000-000000000003",
+      "prlineage" : "FAMAS",
+      "prname" : "collector-b",
+      "prversion" : "2.1.0"
+    }, {
+      "evcategory" : "roadworks",
+      "evdescription" : "Work 1",
+      "evend" : "2022-01-05 00:00:00.000+0000",
+      "evldescription" : "Brenner section",
+      "evlgeometry" : {
+        "bbox" : [ 11.4, 46.9, 11.5, 47 ],
+        "coordinates" : [ [ 11.4, 46.9 ], [ 11.5, 47 ] ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "LineString"
+      },
+      "evmetadata" : {
+        "address" : {
+          "nr" : 12,
+          "street" : "Via Roma"
+        },
+        "capacity" : 120,
+        "city" : "Bolzano"
+      },
+      "evname" : "W1",
+      "evorigin" : "A22",
+      "evseriesuuid" : "s0000000-0000-0000-0000-000000000001",
+      "evstart" : "2022-01-01 00:00:00.000+0000",
+      "evtransactiontime" : "2022-01-01 00:00:00.000+0000",
+      "evuuid" : "e0000000-0000-0000-0000-000000000001",
+      "prlineage" : "NOI",
+      "prname" : "collector-a",
+      "prversion" : "1.0.0"
+    }, {
+      "evcategory" : "roadworks",
+      "evdescription" : "Work 1b",
+      "evend" : "2022-02-01 00:00:00.000+0000",
+      "evldescription" : "Point loc",
+      "evlgeometry" : {
+        "bbox" : [ 11, 46, 11, 46 ],
+        "coordinates" : [ 11, 46 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evname" : "W1b",
+      "evorigin" : "A22",
+      "evseriesuuid" : "s0000000-0000-0000-0000-000000000001",
+      "evstart" : "2022-01-05 00:00:00.000+0000",
+      "evtransactiontime" : "2022-01-05 00:00:00.000+0000",
+      "evuuid" : "e0000000-0000-0000-0000-000000000002"
+    } ],
+    "limit" : 200,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "request" : "GET /flat/ParkingStation/*/latest?where=or(mvalue.gt.50,mvalue.eq.%22open%22)&select=scode,tname,mvalue [none]",
+  "status" : 400,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "code" : 400,
+    "description" : "Error from the database backend",
+    "error" : "Bad Request",
+    "message" : "ERROR: operator does not exist: double precision = character varying\n  Hint: No operator matches the given name and argument types. You might need to add explicit type casts.\n  Position: 2303",
+    "timestamp" : "<masked-not-epoch-millis>"
+  }
+}

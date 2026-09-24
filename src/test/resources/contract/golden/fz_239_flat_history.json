@@ -1,0 +1,137 @@
+{
+  "request" : "GET /flat/ParkingStation/*/2024-04-01/2024-04-01T00:15:00Z?limit=-1&select=smetadata.capacity,mvalue.n,pactive,tname,scoordinate,ttype&where=tname.in.(occupied,free)&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "_timestamp" : "2024-04-01 00:00:00.000+0000",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.35,
+        "y" : 46.49
+      },
+      "smetadata.capacity" : 120,
+      "tname" : "occupied",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-04-01 00:00:00.000+0000",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.35,
+        "y" : 46.49
+      },
+      "smetadata.capacity" : 120,
+      "tname" : "free",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-04-01 00:00:00.000+0000",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.16,
+        "y" : 46.67
+      },
+      "smetadata.capacity" : 60,
+      "tname" : "occupied",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-04-01 00:00:00.000+0000",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.16,
+        "y" : 46.67
+      },
+      "smetadata.capacity" : 60,
+      "tname" : "free",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-04-01 00:05:00.000+0000",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.35,
+        "y" : 46.49
+      },
+      "smetadata.capacity" : 120,
+      "tname" : "occupied",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-04-01 00:05:00.000+0000",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.35,
+        "y" : 46.49
+      },
+      "smetadata.capacity" : 120,
+      "tname" : "free",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-04-01 00:05:00.000+0000",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.16,
+        "y" : 46.67
+      },
+      "smetadata.capacity" : 60,
+      "tname" : "occupied",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-04-01 00:05:00.000+0000",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.16,
+        "y" : 46.67
+      },
+      "smetadata.capacity" : 60,
+      "tname" : "free",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-04-01 00:10:00.000+0000",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.35,
+        "y" : 46.49
+      },
+      "smetadata.capacity" : 120,
+      "tname" : "occupied",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-04-01 00:10:00.000+0000",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.35,
+        "y" : 46.49
+      },
+      "smetadata.capacity" : 120,
+      "tname" : "free",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-04-01 00:10:00.000+0000",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.16,
+        "y" : 46.67
+      },
+      "smetadata.capacity" : 60,
+      "tname" : "occupied",
+      "ttype" : "instantaneous"
+    }, {
+      "_timestamp" : "2024-04-01 00:10:00.000+0000",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.16,
+        "y" : 46.67
+      },
+      "smetadata.capacity" : 60,
+      "tname" : "free",
+      "ttype" : "instantaneous"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

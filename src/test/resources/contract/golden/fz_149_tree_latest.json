@@ -1,0 +1,84 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=mperiod,ttype,porigin,smetadata,mtransactiontime&where=mvalue.gt.10&distinct=false [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "MeteoStation" : {
+        "stations" : {
+          "T1" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mtransactiontime" : "2024-05-01 12:00:01.000+0000"
+                } ],
+                "ttype" : "mean"
+              }
+            },
+            "smetadata" : {
+              "city" : "Trento"
+            }
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-05-01 12:00:01.000+0000"
+                } ],
+                "ttype" : "instantaneous"
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mtransactiontime" : "2024-05-01 12:00:01.000+0000"
+                }, {
+                  "mperiod" : 3600,
+                  "mtransactiontime" : "2024-05-01 12:00:01.000+0000"
+                } ],
+                "ttype" : "instantaneous"
+              }
+            },
+            "smetadata" : {
+              "address" : {
+                "nr" : 12,
+                "street" : "Via Roma"
+              },
+              "capacity" : 120,
+              "city" : "Bolzano"
+            }
+          }
+        }
+      },
+      "TrafficSensor" : {
+        "stations" : {
+          "A22:1:3" : {
+            "sdatatypes" : {
+              "vehicle-count" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mtransactiontime" : "2024-05-01 12:00:01.000+0000"
+                } ],
+                "ttype" : "total"
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

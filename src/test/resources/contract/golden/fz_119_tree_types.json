@@ -1,0 +1,57 @@
+{
+  "request" : "GET /tree/*/*?limit=-1&select=smetadata.nothere,smetadata.address.street&where=or(sorigin.eq.FAMAS,sorigin.eq.NOI)&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "free" : { },
+              "occupied" : { },
+              "raw" : { },
+              "state" : { }
+            },
+            "smetadata" : {
+              "address.street" : "Via Roma",
+              "nothere" : null
+            },
+            "sparent" : { }
+          },
+          "P2" : {
+            "sdatatypes" : {
+              "free" : { },
+              "occupied" : { }
+            },
+            "smetadata" : {
+              "address.street" : null,
+              "nothere" : null
+            },
+            "sparent" : { }
+          },
+          "P5:ü" : {
+            "sdatatypes" : {
+              "occupied" : { },
+              "state" : { }
+            },
+            "smetadata" : {
+              "address.street" : null,
+              "nothere" : null
+            },
+            "sparent" : { }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "request" : "GET /flat,node [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : [ {
+    "description" : null,
+    "id" : "CreativeIndustry",
+    "self.stations" : "http://localhost:<port>/flat,node/CreativeIndustry",
+    "self.stations+datatypes" : "http://localhost:<port>/flat,node/CreativeIndustry/*",
+    "self.stations+datatypes+measurements" : "http://localhost:<port>/flat,node/CreativeIndustry/*/latest"
+  }, {
+    "description" : null,
+    "id" : "EChargingPlug",
+    "self.stations" : "http://localhost:<port>/flat,node/EChargingPlug",
+    "self.stations+datatypes" : "http://localhost:<port>/flat,node/EChargingPlug/*",
+    "self.stations+datatypes+measurements" : "http://localhost:<port>/flat,node/EChargingPlug/*/latest"
+  }, {
+    "description" : null,
+    "id" : "EChargingStation",
+    "self.stations" : "http://localhost:<port>/flat,node/EChargingStation",
+    "self.stations+datatypes" : "http://localhost:<port>/flat,node/EChargingStation/*",
+    "self.stations+datatypes+measurements" : "http://localhost:<port>/flat,node/EChargingStation/*/latest"
+  }, {
+    "description" : null,
+    "id" : "LinkStation",
+    "self.stations" : "http://localhost:<port>/flat,node/LinkStation",
+    "self.stations+datatypes" : "http://localhost:<port>/flat,node/LinkStation/*",
+    "self.stations+datatypes+measurements" : "http://localhost:<port>/flat,node/LinkStation/*/latest"
+  }, {
+    "description" : null,
+    "id" : "MeteoStation",
+    "self.stations" : "http://localhost:<port>/flat,node/MeteoStation",
+    "self.stations+datatypes" : "http://localhost:<port>/flat,node/MeteoStation/*",
+    "self.stations+datatypes+measurements" : "http://localhost:<port>/flat,node/MeteoStation/*/latest"
+  }, {
+    "description" : null,
+    "id" : "ParkingStation",
+    "self.stations" : "http://localhost:<port>/flat,node/ParkingStation",
+    "self.stations+datatypes" : "http://localhost:<port>/flat,node/ParkingStation/*",
+    "self.stations+datatypes+measurements" : "http://localhost:<port>/flat,node/ParkingStation/*/latest"
+  }, {
+    "description" : null,
+    "id" : "TrafficSensor",
+    "self.stations" : "http://localhost:<port>/flat,node/TrafficSensor",
+    "self.stations+datatypes" : "http://localhost:<port>/flat,node/TrafficSensor/*",
+    "self.stations+datatypes+measurements" : "http://localhost:<port>/flat,node/TrafficSensor/*/latest"
+  } ]
+}

@@ -1,0 +1,145 @@
+{
+  "request" : "GET /tree/*/*?limit=-1&select=ttype,pcode,tdescription&where=sactive.eq.true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "EChargingPlug" : {
+        "stations" : {
+          "C1-1" : {
+            "sdatatypes" : {
+              "state" : {
+                "tdescription" : "Textual state",
+                "ttype" : "instantaneous"
+              }
+            },
+            "sparent" : {
+              "pcode" : "C1"
+            }
+          }
+        }
+      },
+      "EChargingStation" : {
+        "stations" : {
+          "C1" : {
+            "sdatatypes" : {
+              "raw" : {
+                "tdescription" : "Json payload",
+                "ttype" : "instantaneous"
+              },
+              "state" : {
+                "tdescription" : "Textual state",
+                "ttype" : "instantaneous"
+              }
+            }
+          }
+        }
+      },
+      "MeteoStation" : {
+        "stations" : {
+          "T1" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Air temp",
+                "ttype" : "mean"
+              }
+            }
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "ttype" : "instantaneous"
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "ttype" : "instantaneous"
+              },
+              "raw" : {
+                "tdescription" : "Json payload",
+                "ttype" : "instantaneous"
+              },
+              "state" : {
+                "tdescription" : "Textual state",
+                "ttype" : "instantaneous"
+              }
+            }
+          },
+          "P2" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "Free places",
+                "ttype" : "instantaneous"
+              },
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "ttype" : "instantaneous"
+              }
+            }
+          },
+          "P3" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "ttype" : "instantaneous"
+              }
+            }
+          },
+          "P5:ü" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "Occupied places",
+                "ttype" : "instantaneous"
+              },
+              "state" : {
+                "tdescription" : "Textual state",
+                "ttype" : "instantaneous"
+              }
+            }
+          }
+        }
+      },
+      "TrafficSensor" : {
+        "stations" : {
+          "A22:1:3" : {
+            "sdatatypes" : {
+              "vehicle-count" : {
+                "tdescription" : "Vehicles",
+                "ttype" : "total"
+              }
+            }
+          },
+          "A22:2:3" : {
+            "sdatatypes" : {
+              "vehicle-count" : {
+                "tdescription" : "Vehicles",
+                "ttype" : "total"
+              }
+            }
+          },
+          "M1" : {
+            "sdatatypes" : {
+              "vehicle-count" : {
+                "tdescription" : "Vehicles",
+                "ttype" : "total"
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

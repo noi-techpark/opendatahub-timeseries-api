@@ -1,0 +1,83 @@
+{
+  "request" : "GET /flat/*?limit=-1&select=scode,pmetadata,pname&where=sorigin.neq.PRIVATE&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : [ {
+      "pmetadata" : null,
+      "pname" : null,
+      "scode" : "L1->L2"
+    }, {
+      "pmetadata" : null,
+      "pname" : null,
+      "scode" : "L2"
+    }, {
+      "pmetadata" : null,
+      "pname" : null,
+      "scode" : "CI2"
+    }, {
+      "pmetadata" : null,
+      "pname" : null,
+      "scode" : "M1"
+    }, {
+      "pmetadata" : {
+        "outlets" : 2,
+        "voltage" : 230
+      },
+      "pname" : "Charger Bolzano",
+      "scode" : "C1-2"
+    }, {
+      "pmetadata" : null,
+      "pname" : null,
+      "scode" : "L1"
+    }, {
+      "pmetadata" : null,
+      "pname" : null,
+      "scode" : "A22:2:3"
+    }, {
+      "pmetadata" : null,
+      "pname" : null,
+      "scode" : "P5:ü"
+    }, {
+      "pmetadata" : {
+        "outlets" : 2,
+        "voltage" : 230
+      },
+      "pname" : "Charger Bolzano",
+      "scode" : "C1-1"
+    }, {
+      "pmetadata" : null,
+      "pname" : null,
+      "scode" : "A22:1:3"
+    }, {
+      "pmetadata" : null,
+      "pname" : null,
+      "scode" : "P2"
+    }, {
+      "pmetadata" : null,
+      "pname" : null,
+      "scode" : "C1"
+    }, {
+      "pmetadata" : null,
+      "pname" : null,
+      "scode" : "T1"
+    }, {
+      "pmetadata" : null,
+      "pname" : null,
+      "scode" : "P1"
+    }, {
+      "pmetadata" : null,
+      "pname" : null,
+      "scode" : "CI1"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

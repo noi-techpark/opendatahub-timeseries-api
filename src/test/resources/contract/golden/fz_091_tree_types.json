@@ -1,0 +1,146 @@
+{
+  "request" : "GET /tree/*/*?limit=-1&select=sorigin,tunit&where=sorigin.neq.PRIVATE&shownull=true [roles:BDP_ADMIN]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : {
+      "EChargingPlug" : {
+        "stations" : {
+          "C1-1" : {
+            "sdatatypes" : {
+              "state" : {
+                "tunit" : null
+              }
+            },
+            "sorigin" : "ROUTE220",
+            "sparent" : { }
+          },
+          "C1-2" : {
+            "sdatatypes" : {
+              "state" : {
+                "tunit" : null
+              }
+            },
+            "sorigin" : "ROUTE220",
+            "sparent" : { }
+          }
+        }
+      },
+      "EChargingStation" : {
+        "stations" : {
+          "C1" : {
+            "sdatatypes" : {
+              "raw" : {
+                "tunit" : null
+              },
+              "state" : {
+                "tunit" : null
+              }
+            },
+            "sorigin" : "ROUTE220",
+            "sparent" : { }
+          }
+        }
+      },
+      "MeteoStation" : {
+        "stations" : {
+          "T1" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tunit" : "C"
+              }
+            },
+            "sorigin" : "meteotrentino",
+            "sparent" : { }
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "P1" : {
+            "sdatatypes" : {
+              "free" : {
+                "tunit" : "count"
+              },
+              "occupied" : {
+                "tunit" : "count"
+              },
+              "raw" : {
+                "tunit" : null
+              },
+              "state" : {
+                "tunit" : null
+              }
+            },
+            "sorigin" : "FAMAS",
+            "sparent" : { }
+          },
+          "P2" : {
+            "sdatatypes" : {
+              "free" : {
+                "tunit" : "count"
+              },
+              "occupied" : {
+                "tunit" : "count"
+              }
+            },
+            "sorigin" : "FAMAS",
+            "sparent" : { }
+          },
+          "P5:ü" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tunit" : "count"
+              },
+              "state" : {
+                "tunit" : null
+              }
+            },
+            "sorigin" : "FAMAS",
+            "sparent" : { }
+          }
+        }
+      },
+      "TrafficSensor" : {
+        "stations" : {
+          "A22:1:3" : {
+            "sdatatypes" : {
+              "vehicle-count" : {
+                "tunit" : "n"
+              }
+            },
+            "sorigin" : "A22",
+            "sparent" : { }
+          },
+          "A22:2:3" : {
+            "sdatatypes" : {
+              "vehicle-count" : {
+                "tunit" : "n"
+              }
+            },
+            "sorigin" : "A22",
+            "sparent" : { }
+          },
+          "M1" : {
+            "sdatatypes" : {
+              "vehicle-count" : {
+                "tunit" : "n"
+              }
+            },
+            "sorigin" : "Municipality of Merano",
+            "sparent" : { }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

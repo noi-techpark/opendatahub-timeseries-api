@@ -1,0 +1,55 @@
+{
+  "request" : "GET /flat,event/A22?select=evname,evcategory,evstart,evend,evldescription,evlgeometry [roles:BDP_A22]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Authenticated Basic"
+  },
+  "body" : {
+    "data" : [ {
+      "evcategory" : "accident",
+      "evname" : "A1",
+      "evstart" : "2022-01-03 00:00:00.000+0000"
+    }, {
+      "evcategory" : "roadworks",
+      "evend" : "2022-01-05 00:00:00.000+0000",
+      "evldescription" : "Brenner section",
+      "evlgeometry" : {
+        "bbox" : [ 11.4, 46.9, 11.5, 47 ],
+        "coordinates" : [ [ 11.4, 46.9 ], [ 11.5, 47 ] ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "LineString"
+      },
+      "evname" : "W1",
+      "evstart" : "2022-01-01 00:00:00.000+0000"
+    }, {
+      "evcategory" : "roadworks",
+      "evend" : "2022-02-01 00:00:00.000+0000",
+      "evldescription" : "Point loc",
+      "evlgeometry" : {
+        "bbox" : [ 11, 46, 11, 46 ],
+        "coordinates" : [ 11, 46 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evname" : "W1b",
+      "evstart" : "2022-01-05 00:00:00.000+0000"
+    } ],
+    "limit" : 200,
+    "offset" : 0
+  }
+}

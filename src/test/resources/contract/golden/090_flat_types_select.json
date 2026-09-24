@@ -1,0 +1,54 @@
+{
+  "request" : "GET /flat/ParkingStation/*?select=sname,tname,tunit,tmetadata.scale [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "sname" : "Parking Bolzano Centro",
+      "tmetadata.scale" : "linear",
+      "tname" : "occupied",
+      "tunit" : "count"
+    }, {
+      "sname" : "Parking Hidden",
+      "tmetadata.scale" : "linear",
+      "tname" : "occupied",
+      "tunit" : "count"
+    }, {
+      "sname" : "Parking Merano",
+      "tmetadata.scale" : "linear",
+      "tname" : "occupied",
+      "tunit" : "count"
+    }, {
+      "sname" : "Unicode Stätiön \"q\"",
+      "tmetadata.scale" : "linear",
+      "tname" : "occupied",
+      "tunit" : "count"
+    }, {
+      "sname" : "Parking Bolzano Centro",
+      "tname" : "free",
+      "tunit" : "count"
+    }, {
+      "sname" : "Parking Merano",
+      "tname" : "free",
+      "tunit" : "count"
+    }, {
+      "sname" : "Parking Bolzano Centro",
+      "tname" : "raw"
+    }, {
+      "sname" : "Parking Bolzano Centro",
+      "tname" : "state"
+    }, {
+      "sname" : "Unicode Stätiön \"q\"",
+      "tname" : "state"
+    } ],
+    "limit" : 200,
+    "offset" : 0
+  }
+}
