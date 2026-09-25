@@ -1,0 +1,14 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=prname,smetadata.municipality,scoordinate,porigin,tdescription,prlineage&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "34d1dfe669135ef533b31ed65ef9e639cb0bc7d1d99ff8759d931418d6627e58",
+  "bodyRecords" : 233046
+}

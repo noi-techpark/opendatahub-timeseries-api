@@ -1,0 +1,81 @@
+{
+  "request" : "GET /flat,event/*?limit=-1&select=evmetadata.name,evseriesuuid [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "evseriesuuid" : "8c140dc3-8a8c-5123-9ddb-eba7e2158cbe"
+    }, {
+      "evseriesuuid" : "b01aab9a-0302-5adf-93ba-90b28c513f50"
+    }, {
+      "evseriesuuid" : "a223099e-cd00-53fa-b54a-a71e62bee22d"
+    }, {
+      "evseriesuuid" : "692e4984-df35-5e1c-8b95-ddec3c72d76e"
+    }, {
+      "evseriesuuid" : "9b388300-b4ab-53e2-aba1-ab91cc11ca7a"
+    }, {
+      "evseriesuuid" : "8da56ad8-3dfa-5c55-bc87-8d55f7b1e5a4"
+    }, {
+      "evseriesuuid" : "5b104295-af7b-5485-afaa-e11d82794f0f"
+    }, {
+      "evseriesuuid" : "5c50f014-043d-5b20-86de-160786b5629a"
+    }, {
+      "evseriesuuid" : "5a7e1942-e87c-56a1-a9b1-13b51b25cdac"
+    }, {
+      "evseriesuuid" : "12992ffe-dfcf-5e5c-bb71-ab4cbfccd5e1"
+    }, {
+      "evseriesuuid" : "82958415-42b9-5801-b0d5-26145ec8edbb"
+    }, {
+      "evseriesuuid" : "b5dcb90f-00ab-5f79-803b-8b212d7039c7"
+    }, {
+      "evseriesuuid" : "fa32b5dc-64e3-5fc9-a396-223106ecc29b"
+    }, {
+      "evseriesuuid" : "510e3b9b-f230-55c0-8780-d38b39842222"
+    }, {
+      "evseriesuuid" : "5623c2e2-753f-5e00-80a7-61a86aa425e5"
+    }, {
+      "evseriesuuid" : "f20db353-1b3b-5951-a205-45230335603e"
+    }, {
+      "evseriesuuid" : "bc9a78a1-5be2-5beb-b1f0-354a836536fc"
+    }, {
+      "evseriesuuid" : "9eddf874-930d-5baa-840f-ecd856d4e559"
+    }, {
+      "evseriesuuid" : "8a9ac875-7072-5d69-8f96-454fc9dd9a46"
+    }, {
+      "evseriesuuid" : "7e63032e-c447-5f6b-bc83-38410253cdf0"
+    }, {
+      "evseriesuuid" : "f3ffb277-c8e2-59c4-b239-3f3983896603"
+    }, {
+      "evseriesuuid" : "fd7192a3-07dd-5a96-bc27-77c09cdbdf87"
+    }, {
+      "evseriesuuid" : "177b9398-f35b-5021-a4bb-bb5bd7829ac1"
+    }, {
+      "evseriesuuid" : "8fcf8f43-c025-5127-8d9d-8bd8069e0d77"
+    }, {
+      "evseriesuuid" : "4210adf9-cf7c-584e-8c53-f581d8441bb2"
+    }, {
+      "evseriesuuid" : "e2adc85a-07d3-5e64-8dc6-9706af35a8fc"
+    }, {
+      "evseriesuuid" : "f6ee401a-ff07-54f9-a535-fd6a4917dccd"
+    }, {
+      "evseriesuuid" : "7ff1ed0e-fe5e-549f-806b-e2fe227eaf1b"
+    }, {
+      "evseriesuuid" : "0229259f-6a33-514c-b3ae-5dd03affb20b"
+    }, {
+      "evseriesuuid" : "5150e06d-50d5-5fd9-8f24-45f2649393ad"
+    }, {
+      "evseriesuuid" : "c43e873f-8315-5433-a6c1-d67e8a75de61"
+    }, {
+      "evseriesuuid" : "c1515913-65ef-50b2-a7a1-b3bc2c4078ba"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

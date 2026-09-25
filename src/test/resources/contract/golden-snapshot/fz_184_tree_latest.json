@@ -1,0 +1,14 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&where=mvalue.gt.10 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "295b20382e0299d908a739e2ab791c47d7d537169e02e1f766ae748c619f83ac",
+  "bodyRecords" : 375850
+}

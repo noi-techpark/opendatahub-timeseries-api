@@ -1,0 +1,148 @@
+{
+  "request" : "GET /tree/ParkingStation/free/2026-09-24T08:05:00Z/2026-09-24T14:06:00Z?limit=2000&where=scode.eq.%22104%22&select=sname,tname,mvalue,mvalidtime [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "104" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 08:05:00.000+0000",
+                  "mvalue" : 20
+                }, {
+                  "mvalidtime" : "2026-09-24 08:10:00.000+0000",
+                  "mvalue" : 23
+                }, {
+                  "mvalidtime" : "2026-09-24 08:15:00.000+0000",
+                  "mvalue" : 21
+                }, {
+                  "mvalidtime" : "2026-09-24 08:20:00.000+0000",
+                  "mvalue" : 23
+                }, {
+                  "mvalidtime" : "2026-09-24 08:25:00.000+0000",
+                  "mvalue" : 22
+                }, {
+                  "mvalidtime" : "2026-09-24 08:30:00.000+0000",
+                  "mvalue" : 21
+                }, {
+                  "mvalidtime" : "2026-09-24 08:35:00.000+0000",
+                  "mvalue" : 23
+                }, {
+                  "mvalidtime" : "2026-09-24 08:40:00.000+0000",
+                  "mvalue" : 23
+                }, {
+                  "mvalidtime" : "2026-09-24 08:45:00.000+0000",
+                  "mvalue" : 20
+                }, {
+                  "mvalidtime" : "2026-09-24 08:50:00.000+0000",
+                  "mvalue" : 17
+                }, {
+                  "mvalidtime" : "2026-09-24 08:55:00.000+0000",
+                  "mvalue" : 21
+                }, {
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 23
+                }, {
+                  "mvalidtime" : "2026-09-24 09:05:00.000+0000",
+                  "mvalue" : 27
+                }, {
+                  "mvalidtime" : "2026-09-24 09:10:00.000+0000",
+                  "mvalue" : 29
+                }, {
+                  "mvalidtime" : "2026-09-24 09:15:00.000+0000",
+                  "mvalue" : 26
+                }, {
+                  "mvalidtime" : "2026-09-24 09:20:00.000+0000",
+                  "mvalue" : 29
+                }, {
+                  "mvalidtime" : "2026-09-24 09:25:00.000+0000",
+                  "mvalue" : 33
+                }, {
+                  "mvalidtime" : "2026-09-24 09:30:00.000+0000",
+                  "mvalue" : 30
+                }, {
+                  "mvalidtime" : "2026-09-24 09:35:00.000+0000",
+                  "mvalue" : 33
+                }, {
+                  "mvalidtime" : "2026-09-24 09:40:00.000+0000",
+                  "mvalue" : 35
+                }, {
+                  "mvalidtime" : "2026-09-24 09:45:00.000+0000",
+                  "mvalue" : 36
+                }, {
+                  "mvalidtime" : "2026-09-24 09:50:00.000+0000",
+                  "mvalue" : 42
+                }, {
+                  "mvalidtime" : "2026-09-24 09:55:00.000+0000",
+                  "mvalue" : 40
+                }, {
+                  "mvalidtime" : "2026-09-24 10:00:00.000+0000",
+                  "mvalue" : 40
+                }, {
+                  "mvalidtime" : "2026-09-24 10:10:00.000+0000",
+                  "mvalue" : 44
+                }, {
+                  "mvalidtime" : "2026-09-24 10:15:00.000+0000",
+                  "mvalue" : 44
+                }, {
+                  "mvalidtime" : "2026-09-24 10:20:00.000+0000",
+                  "mvalue" : 43
+                }, {
+                  "mvalidtime" : "2026-09-24 10:25:00.000+0000",
+                  "mvalue" : 43
+                }, {
+                  "mvalidtime" : "2026-09-24 10:30:00.000+0000",
+                  "mvalue" : 45
+                }, {
+                  "mvalidtime" : "2026-09-24 10:35:00.000+0000",
+                  "mvalue" : 42
+                }, {
+                  "mvalidtime" : "2026-09-24 10:40:00.000+0000",
+                  "mvalue" : 45
+                }, {
+                  "mvalidtime" : "2026-09-24 10:45:00.000+0000",
+                  "mvalue" : 43
+                }, {
+                  "mvalidtime" : "2026-09-24 10:50:00.000+0000",
+                  "mvalue" : 42
+                }, {
+                  "mvalidtime" : "2026-09-24 10:55:00.000+0000",
+                  "mvalue" : 43
+                }, {
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0000",
+                  "mvalue" : 40
+                }, {
+                  "mvalidtime" : "2026-09-24 11:05:00.000+0000",
+                  "mvalue" : 41
+                }, {
+                  "mvalidtime" : "2026-09-24 11:10:00.000+0000",
+                  "mvalue" : 42
+                }, {
+                  "mvalidtime" : "2026-09-24 11:15:00.000+0000",
+                  "mvalue" : 38
+                }, {
+                  "mvalidtime" : "2026-09-24 11:20:00.000+0000",
+                  "mvalue" : 40
+                } ],
+                "tname" : "free"
+              }
+            },
+            "sname" : "P04 - Luna via Molini"
+          }
+        }
+      }
+    },
+    "limit" : 2000,
+    "offset" : 0
+  }
+}

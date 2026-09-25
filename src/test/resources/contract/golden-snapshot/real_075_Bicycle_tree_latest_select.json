@@ -1,0 +1,238 @@
+{
+  "request" : "GET /tree/Bicycle/*/latest?limit=300&select=sname,tname,mvalue,mvalidtime,mperiod,prname [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "Bicycle" : {
+        "stations" : {
+          "bike118" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2016-10-25 16:30:15.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "availability"
+              },
+              "mountain-bike-child" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2016-07-14 10:50:15.000+0000",
+                  "mvalue" : 1
+                } ],
+                "tname" : "mountain-bike-child"
+              }
+            },
+            "sname" : "mountain-bike-child(118)"
+          },
+          "bike119" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2016-10-25 16:30:15.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "availability"
+              },
+              "mountain-bike-child" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2016-07-14 10:50:15.000+0000",
+                  "mvalue" : 1
+                } ],
+                "tname" : "mountain-bike-child"
+              }
+            },
+            "sname" : "mountain-bike-child(119)"
+          },
+          "bike136" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2016-10-25 16:30:15.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "availability"
+              },
+              "city-bike-adult-with-gears" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2016-07-14 10:45:16.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "city-bike-adult-with-gears"
+              }
+            },
+            "sname" : "city-bike-adult-with-gears(136)"
+          },
+          "bike139" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2016-10-25 16:25:15.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "availability"
+              },
+              "city-bike-adult-with-gears" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2016-07-14 10:45:16.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "city-bike-adult-with-gears"
+              }
+            },
+            "sname" : "city-bike-adult-with-gears(139)"
+          },
+          "bike51" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2016-10-25 16:30:15.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "availability"
+              },
+              "mountain-bike-adult" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2016-07-14 10:50:15.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "mountain-bike-adult"
+              }
+            },
+            "sname" : "mountain-bike-adult(51)"
+          },
+          "bike53" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2016-10-25 16:30:15.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "availability"
+              },
+              "mountain-bike-adult" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2016-07-14 10:50:15.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "mountain-bike-adult"
+              }
+            },
+            "sname" : "mountain-bike-adult(53)"
+          },
+          "bike55" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2016-10-25 16:30:15.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "availability"
+              },
+              "city-bike-adult-without-gears" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2016-07-14 10:50:15.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "city-bike-adult-without-gears"
+              }
+            },
+            "sname" : "city-bike-adult-without-gears(55)"
+          },
+          "bike74" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2016-10-25 16:30:15.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "availability"
+              },
+              "city-bike-adult-with-gears" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2016-07-14 10:50:15.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "city-bike-adult-with-gears"
+              }
+            },
+            "sname" : "city-bike-adult-with-gears(74)"
+          }
+        }
+      }
+    },
+    "limit" : 300,
+    "offset" : 0
+  }
+}

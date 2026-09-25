@@ -1,0 +1,306 @@
+{
+  "request" : "GET /tree/ParkingFacility/*/latest?limit=300&select=sname,tname,mvalue,mvalidtime,mperiod,prname [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingFacility" : {
+        "stations" : {
+          "105_facility" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-mybestparking"
+                  },
+                  "mvalidtime" : "2026-09-24 11:43:02.000+0000",
+                  "mvalue" : 27
+                } ],
+                "tname" : "free"
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-mybestparking"
+                  },
+                  "mvalidtime" : "2026-09-24 11:43:02.000+0000",
+                  "mvalue" : 16
+                } ],
+                "tname" : "free_short_stay"
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-mybestparking"
+                  },
+                  "mvalidtime" : "2026-09-24 11:30:02.000+0000",
+                  "mvalue" : 26
+                } ],
+                "tname" : "free_subscribers"
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-mybestparking"
+                  },
+                  "mvalidtime" : "2026-09-24 11:43:02.000+0000",
+                  "mvalue" : 63
+                } ],
+                "tname" : "occupied"
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-mybestparking"
+                  },
+                  "mvalidtime" : "2026-09-24 11:43:02.000+0000",
+                  "mvalue" : 74
+                } ],
+                "tname" : "occupied_short_stay"
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-mybestparking"
+                  },
+                  "mvalidtime" : "2026-09-24 06:28:05.000+0000",
+                  "mvalue" : 47
+                } ],
+                "tname" : "occupied_subscribers"
+              }
+            },
+            "sname" : "P05 - Laurin"
+          },
+          "607440" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-skidata"
+                  },
+                  "mvalidtime" : "2026-06-04 09:00:02.365+0000",
+                  "mvalue" : 201
+                } ],
+                "tname" : "free"
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-skidata"
+                  },
+                  "mvalidtime" : "2026-06-04 09:00:02.365+0000",
+                  "mvalue" : 165
+                } ],
+                "tname" : "free_short_stay"
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-skidata"
+                  },
+                  "mvalidtime" : "2026-06-04 09:00:02.365+0000",
+                  "mvalue" : 36
+                } ],
+                "tname" : "free_subscribers"
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-skidata"
+                  },
+                  "mvalidtime" : "2026-06-04 09:00:02.365+0000",
+                  "mvalue" : 279
+                } ],
+                "tname" : "occupied"
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-skidata"
+                  },
+                  "mvalidtime" : "2026-06-04 09:00:02.365+0000",
+                  "mvalue" : 239
+                } ],
+                "tname" : "occupied_short_stay"
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-skidata"
+                  },
+                  "mvalidtime" : "2026-06-04 09:00:02.365+0000",
+                  "mvalue" : 279
+                } ],
+                "tname" : "occupied_subscribers"
+              }
+            },
+            "sname" : "Parcheggio Stazione Bressanone"
+          },
+          "608612" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-skidata"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:31.000+0000",
+                  "mvalue" : 202
+                } ],
+                "tname" : "free"
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-skidata"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:31.000+0000",
+                  "mvalue" : 186
+                } ],
+                "tname" : "free_short_stay"
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-skidata"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:31.000+0000",
+                  "mvalue" : 16
+                } ],
+                "tname" : "free_subscribers"
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-skidata"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:31.000+0000",
+                  "mvalue" : 38
+                } ],
+                "tname" : "occupied"
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-skidata"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:31.000+0000",
+                  "mvalue" : 34
+                } ],
+                "tname" : "occupied_short_stay"
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-skidata"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:31.000+0000",
+                  "mvalue" : 38
+                } ],
+                "tname" : "occupied_subscribers"
+              }
+            },
+            "sname" : "Parcheggio Stazione Brunico"
+          },
+          "609883" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-mybestparking"
+                  },
+                  "mvalidtime" : "2026-09-24 11:43:01.000+0000",
+                  "mvalue" : 200
+                } ],
+                "tname" : "free"
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-mybestparking"
+                  },
+                  "mvalidtime" : "2026-09-24 11:43:01.000+0000",
+                  "mvalue" : 208
+                } ],
+                "tname" : "free_short_stay"
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-mybestparking"
+                  },
+                  "mvalidtime" : "2026-09-24 11:43:01.000+0000",
+                  "mvalue" : 506
+                } ],
+                "tname" : "free_subscribers"
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-mybestparking"
+                  },
+                  "mvalidtime" : "2026-09-24 11:43:01.000+0000",
+                  "mvalue" : 314
+                } ],
+                "tname" : "occupied"
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-mybestparking"
+                  },
+                  "mvalidtime" : "2026-09-24 11:43:01.000+0000",
+                  "mvalue" : 306
+                } ],
+                "tname" : "occupied_short_stay"
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "tr-parking-offstreet-mybestparking"
+                  },
+                  "mvalidtime" : "2026-09-24 11:43:01.000+0000",
+                  "mvalue" : 314
+                } ],
+                "tname" : "occupied_subscribers"
+              }
+            },
+            "sname" : "Parcheggio Waltherpark"
+          }
+        }
+      }
+    },
+    "limit" : 300,
+    "offset" : 0
+  }
+}

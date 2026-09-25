@@ -1,0 +1,14 @@
+{
+  "request" : "GET /flat/*/*?limit=-1&where=smetadata.capacity.gt.10&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "19ac9da593a9933853a2de60d5059a95e7e8c1a55b35a1d43d5da68e40b979d8",
+  "bodyRecords" : 189
+}

@@ -1,0 +1,470 @@
+{
+  "request" : "GET /tree/EChargingStation/metadata/2015-01-01/2026-09-24T14:06:00Z?limit=200 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "EChargingStation" : {
+        "stations" : {
+          "AER_00000001" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000001",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.326185,
+              "y" : 46.473003
+            },
+            "smetadata" : {
+              "accessType" : "PUBLIC",
+              "address" : "Piazza Fiera - Messeplatz",
+              "capacity" : 2,
+              "city" : "BOLZANO - BOZEN",
+              "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+              "provider" : "Neogy",
+              "state" : "TEMPORARYUNAVAILABLE"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Piazza Fiera - Messeplatz",
+                "capacity" : 2,
+                "city" : "BOLZANO - BOZEN",
+                "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+                "provider" : "Alperia Smart Mobility",
+                "state" : "ACTIVE"
+              },
+              "mhtransactiontime" : "2019-09-04 09:35:09.331+0000"
+            }, {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Piazza Fiera - Messeplatz",
+                "capacity" : 2,
+                "city" : "BOLZANO - BOZEN",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "ACTIVE"
+              },
+              "mhtransactiontime" : "2019-10-09 09:10:17.426+0000"
+            }, {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Piazza Fiera - Messeplatz",
+                "capacity" : 2,
+                "city" : "BOLZANO - BOZEN",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "TEMPORARYUNAVAILABLE"
+              },
+              "mhtransactiontime" : "2020-01-08 14:45:10.399+0000"
+            } ],
+            "sname" : "BZ_FIERA",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingStation"
+          },
+          "AER_00000005" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000005",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.349217,
+              "y" : 46.499702
+            },
+            "smetadata" : {
+              "accessType" : "PUBLIC",
+              "address" : "Via Cassa di Risparmio  - Sparkassenstraße 14",
+              "capacity" : 2,
+              "city" : "BOLZANO - BOZEN",
+              "municipality" : "Bolzano - Bozen",
+              "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+              "provider" : "Alperia Smart Mobility",
+              "state" : "ACTIVE"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Via Cassa di Risparmio  - Sparkassenstraße 14",
+                "capacity" : 2,
+                "city" : "BOLZANO - BOZEN",
+                "municipality" : "Bolzano - Bozen",
+                "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+                "provider" : "Alperia Smart Mobility",
+                "state" : "ACTIVE"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "BZ_CASSARISP_01",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingStation"
+          },
+          "AER_00000006" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000006",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.337837,
+              "y" : 46.4905
+            },
+            "smetadata" : {
+              "accessType" : "PUBLIC",
+              "address" : "Piazza Matteotti Platz",
+              "capacity" : 2,
+              "city" : "BOLZANO - BOZEN",
+              "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+              "provider" : "Neogy",
+              "state" : "TEMPORARYUNAVAILABLE"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Piazza Matteotti Platz",
+                "capacity" : 2,
+                "city" : "BOLZANO - BOZEN",
+                "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+                "provider" : "Alperia Smart Mobility",
+                "state" : "ACTIVE"
+              },
+              "mhtransactiontime" : "2019-09-23 08:40:13.470+0000"
+            }, {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Piazza Matteotti Platz",
+                "capacity" : 2,
+                "city" : "BOLZANO - BOZEN",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "ACTIVE"
+              },
+              "mhtransactiontime" : "2019-10-09 09:10:19.750+0000"
+            }, {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Piazza Matteotti Platz",
+                "capacity" : 2,
+                "city" : "BOLZANO - BOZEN",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "TEMPORARYUNAVAILABLE"
+              },
+              "mhtransactiontime" : "2019-12-09 13:30:19.686+0000"
+            } ],
+            "sname" : "BZ_PMATTEOTTI",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingStation"
+          },
+          "AER_00000007" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000007",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.345176,
+              "y" : 46.500862
+            },
+            "smetadata" : {
+              "accessType" : "PUBLIC",
+              "address" : "Piazza della Vittoria - Siegesplatz",
+              "capacity" : 2,
+              "city" : "BOLZANO - BOZEN",
+              "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+              "provider" : "Neogy",
+              "state" : "ACTIVE"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Piazza della Vittoria - Siegesplatz",
+                "capacity" : 2,
+                "city" : "BOLZANO - BOZEN",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "ACTIVE"
+              },
+              "mhtransactiontime" : "2020-02-10 10:10:19.224+0000"
+            }, {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Piazza della Vittoria - Siegesplatz",
+                "capacity" : 2,
+                "city" : "BOLZANO - BOZEN",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "ACTIVE"
+              },
+              "mhtransactiontime" : "2020-04-03 14:15:13.363+0000"
+            }, {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Piazza della Vittoria - Siegesplatz",
+                "capacity" : 2,
+                "city" : "BOLZANO - BOZEN",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "TEMPORARYUNAVAILABLE"
+              },
+              "mhtransactiontime" : "2020-03-25 08:45:14.458+0000"
+            } ],
+            "sname" : "BZ_PVITTORIA",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingStation"
+          },
+          "AER_00000008" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000008",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.339918,
+              "y" : 46.50122
+            },
+            "smetadata" : {
+              "accessType" : "PUBLIC",
+              "address" : "Piazza Mazzini Platz",
+              "capacity" : 2,
+              "city" : "BOLZANO - BOZEN",
+              "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+              "provider" : "Neogy",
+              "state" : "TEMPORARYUNAVAILABLE"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Piazza Mazzini Platz",
+                "capacity" : 2,
+                "city" : "BOLZANO - BOZEN",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "ACTIVE"
+              },
+              "mhtransactiontime" : "2019-10-22 08:20:21.163+0000"
+            }, {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Piazza Mazzini Platz",
+                "capacity" : 2,
+                "city" : "BOLZANO - BOZEN",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "TEMPORARYUNAVAILABLE"
+              },
+              "mhtransactiontime" : "2019-10-16 07:35:26.854+0000"
+            }, {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Piazza Mazzini Platz",
+                "capacity" : 2,
+                "city" : "BOLZANO - BOZEN",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "TEMPORARYUNAVAILABLE"
+              },
+              "mhtransactiontime" : "2019-11-18 15:10:20.042+0000"
+            } ],
+            "sname" : "BZ_PMAZZINI",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingStation"
+          },
+          "AER_00000039" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000039",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 10.955608,
+              "y" : 46.52789
+            },
+            "smetadata" : {
+              "accessType" : "PUBLIC",
+              "address" : "Pracupola - Kuppelwies",
+              "capacity" : 2,
+              "city" : "ULTIMO - ULTEN",
+              "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+              "provider" : "Neogy",
+              "state" : "ACTIVE"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Pracupola - Kuppelwies",
+                "capacity" : 2,
+                "city" : "ULTIMO - ULTEN",
+                "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+                "provider" : "Alperia Smart Mobility",
+                "state" : "ACTIVE"
+              },
+              "mhtransactiontime" : "2019-09-23 08:40:28.899+0000"
+            }, {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Pracupola - Kuppelwies",
+                "capacity" : 2,
+                "city" : "ULTIMO - ULTEN",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "ACTIVE"
+              },
+              "mhtransactiontime" : "2019-10-09 09:10:41.820+0000"
+            }, {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Pracupola - Kuppelwies",
+                "capacity" : 2,
+                "city" : "ULTIMO - ULTEN",
+                "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+                "provider" : "Alperia Smart Mobility",
+                "state" : "TEMPORARYUNAVAILABLE"
+              },
+              "mhtransactiontime" : "2019-09-18 11:30:38.579+0000"
+            } ],
+            "sname" : "ULTIMO_01",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingStation"
+          },
+          "AER_00000041" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000041",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.271506,
+              "y" : 46.314846
+            },
+            "smetadata" : {
+              "accessType" : "PUBLIC",
+              "address" : "Via Madonna - Marienstraße",
+              "capacity" : 2,
+              "city" : "EGNA - NEUMARKT",
+              "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+              "provider" : "Neogy",
+              "state" : "TEMPORARYUNAVAILABLE"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Via Madonna - Marienstraße",
+                "capacity" : 2,
+                "city" : "EGNA - NEUMARKT",
+                "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+                "provider" : "Alperia Smart Mobility",
+                "state" : "ACTIVE"
+              },
+              "mhtransactiontime" : "2019-09-04 09:35:17.910+0000"
+            }, {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Via Madonna - Marienstraße",
+                "capacity" : 2,
+                "city" : "EGNA - NEUMARKT",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "ACTIVE"
+              },
+              "mhtransactiontime" : "2019-10-09 09:10:32.116+0000"
+            }, {
+              "mhmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Via Madonna - Marienstraße",
+                "capacity" : 2,
+                "city" : "EGNA - NEUMARKT",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "TEMPORARYUNAVAILABLE"
+              },
+              "mhtransactiontime" : "2019-10-16 07:35:29.286+0000"
+            } ],
+            "sname" : "EGNA_01",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingStation"
+          },
+          "AER_00000042" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000042",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.323925,
+              "y" : 46.481113
+            },
+            "smetadata" : {
+              "accessInfo" : null,
+              "accessType" : "PUBLIC",
+              "address" : "Ponte Resia - Reschenbrücke",
+              "capacity" : 1,
+              "categories" : null,
+              "city" : "BOLZANO - BOZEN",
+              "flashInfo" : null,
+              "locationServiceInfo" : null,
+              "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+              "provider" : "Alperia Smart Mobility",
+              "reservable" : null,
+              "state" : "TEMPORARYUNAVAILABLE"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "accessInfo" : null,
+                "accessType" : "PUBLIC",
+                "address" : "Ponte Resia - Reschenbrücke",
+                "capacity" : 1,
+                "categories" : null,
+                "city" : "BOLZANO - BOZEN",
+                "flashInfo" : null,
+                "locationServiceInfo" : null,
+                "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+                "provider" : "Alperia Smart Mobility",
+                "reservable" : null,
+                "state" : "ACTIVE"
+              },
+              "mhtransactiontime" : "2019-04-02 08:25:42.599+0000"
+            }, {
+              "mhmetadata" : {
+                "accessInfo" : null,
+                "accessType" : "PUBLIC",
+                "address" : "Ponte Resia - Reschenbrücke",
+                "capacity" : 1,
+                "categories" : null,
+                "city" : "BOLZANO - BOZEN",
+                "flashInfo" : null,
+                "locationServiceInfo" : null,
+                "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+                "provider" : "Alperia Smart Mobility",
+                "reservable" : null,
+                "state" : "TEMPORARYUNAVAILABLE"
+              },
+              "mhtransactiontime" : "2019-04-01 09:10:26.767+0000"
+            }, {
+              "mhmetadata" : {
+                "accessInfo" : null,
+                "accessType" : "PUBLIC",
+                "address" : "Ponte Resia - Reschenbrücke",
+                "capacity" : 1,
+                "categories" : null,
+                "city" : "BOLZANO - BOZEN",
+                "flashInfo" : null,
+                "locationServiceInfo" : null,
+                "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+                "provider" : "Alperia Smart Mobility",
+                "reservable" : null,
+                "state" : "TEMPORARYUNAVAILABLE"
+              },
+              "mhtransactiontime" : "2019-06-20 07:55:09.189+0000"
+            } ],
+            "sname" : "BZ_PTE_RESIA_OLD",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingStation"
+          }
+        }
+      }
+    },
+    "limit" : 200,
+    "offset" : 0
+  }
+}

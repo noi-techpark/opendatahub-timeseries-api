@@ -1,0 +1,17 @@
+# name path   ({FROM} and {TO} are replaced by the most recent 3 days found in the database)
+stations_flat_all        /flat/*?limit=-1
+stations_tree_all        /tree/*?limit=-1
+datatypes_tree_all       /tree/*/*?limit=-1
+latest_flat_all          /flat/*/*/latest?limit=-1
+latest_tree_all          /tree/*/*/latest?limit=-1
+latest_tree_parking      /tree/ParkingStation/*/latest?limit=-1
+latest_tree_echarging    /tree/EChargingStation,EChargingPlug/*/latest?limit=-1
+history_flat_parking     /flat/ParkingStation/*/{FROM}/{TO}?limit=-1
+history_tree_parking     /tree/ParkingStation/*/{FROM}/{TO}?limit=-1
+history_flat_meteo       /flat/MeteoStation/*/{FROM}/{TO}?limit=-1
+history_tree_meteo       /tree/MeteoStation/*/{FROM}/{TO}?limit=-1
+history_tree_traffic     /tree/TrafficSensor/*/{FROM}/{TO}?limit=-1
+history_tree_all         /tree/*/*/{FROM}/{TO}?limit=-1
+history_tree_select      /tree/*/*/{FROM}/{TO}?limit=-1&select=scode,tname,mvalue,mvalidtime
+metadata_tree_all        /tree/*/metadata/2015-01-01/{TO}?limit=-1
+events_tree_all          /tree,event/*?limit=-1

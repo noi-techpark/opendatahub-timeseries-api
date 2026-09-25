@@ -1,0 +1,149 @@
+{
+  "request" : "GET /tree,node [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : [ {
+    "description" : null,
+    "id" : "Bicycle",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/Bicycle",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/Bicycle/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/Bicycle/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "Bicyclestationbay",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/Bicyclestationbay",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/Bicyclestationbay/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/Bicyclestationbay/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "BikeSharingService",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/BikeSharingService",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/BikeSharingService/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/BikeSharingService/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "BikesharingStation",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/BikesharingStation",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/BikesharingStation/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/BikesharingStation/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "BluetoothStation",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/BluetoothStation",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/BluetoothStation/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/BluetoothStation/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "EChargingPlug",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/EChargingPlug",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/EChargingPlug/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/EChargingPlug/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "EChargingStation",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/EChargingStation",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/EChargingStation/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/EChargingStation/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "EnvironmentStation",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/EnvironmentStation",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/EnvironmentStation/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/EnvironmentStation/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "LinkStation",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/LinkStation",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/LinkStation/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/LinkStation/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "MeteoStation",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/MeteoStation",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/MeteoStation/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/MeteoStation/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "ParkingFacility",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/ParkingFacility",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/ParkingFacility/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/ParkingFacility/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "ParkingStation",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/ParkingStation",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/ParkingStation/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/ParkingStation/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "RWISstation",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/RWISstation",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/RWISstation/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/RWISstation/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "Streetstation",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/Streetstation",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/Streetstation/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/Streetstation/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "TrafficStreetFactor",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/TrafficStreetFactor",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/TrafficStreetFactor/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/TrafficStreetFactor/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "Trafficstation",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/Trafficstation",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/Trafficstation/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/Trafficstation/*/latest"
+    }
+  }, {
+    "description" : null,
+    "id" : "traffic",
+    "self" : {
+      "stations" : "http://localhost:<port>/tree,node/traffic",
+      "stations+datatypes" : "http://localhost:<port>/tree,node/traffic/*",
+      "stations+datatypes+measurements" : "http://localhost:<port>/tree,node/traffic/*/latest"
+    }
+  } ]
+}

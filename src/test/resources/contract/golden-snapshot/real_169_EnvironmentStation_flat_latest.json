@@ -1,0 +1,1502 @@
+{
+  "request" : "GET /flat/EnvironmentStation/*/latest?limit=300 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "_timestamp" : "2018-05-14 02:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2018-05-14 02:00:01.214+0000",
+      "mvalidtime" : "2018-05-14 02:00:00.000+0000",
+      "mvalue" : 8.502,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.341833,
+        "y" : 46.482306
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 4 - Via C.Augusta",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "Medie orarie",
+      "tmetadata" : { },
+      "tname" : "nitrogen-dioxide",
+      "ttype" : "Mean",
+      "tunit" : "ug/mc"
+    }, {
+      "_timestamp" : "2018-05-14 02:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2018-05-14 02:00:01.752+0000",
+      "mvalidtime" : "2018-05-14 02:00:00.000+0000",
+      "mvalue" : 11.5485,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.339972,
+        "y" : 46.495472
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 5 - Piazza Adriano",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "Medie orarie",
+      "tmetadata" : { },
+      "tname" : "nitrogen-dioxide",
+      "ttype" : "Mean",
+      "tunit" : "ug/mc"
+    }, {
+      "_timestamp" : "2020-03-17 16:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2020-03-18 10:02:09.160+0000",
+      "mvalidtime" : "2020-03-17 16:00:00.000+0000",
+      "mvalue" : 9.4548,
+      "prlineage" : "APPABZ",
+      "prname" : "dc-appabz-opendata",
+      "prversion" : "2.0.0",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CR1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.227111,
+        "y" : 46.267333
+      },
+      "smetadata" : {
+        "municipality" : "Cortina ssdV"
+      },
+      "sname" : "Cortina ssdV - Strada del Vino",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "NO2 - Ossidi di azoto",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2020-03-17 16:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2020-03-18 10:02:09.169+0000",
+      "mvalidtime" : "2020-03-17 16:00:00.000+0000",
+      "mvalue" : 77.58,
+      "prlineage" : "APPABZ",
+      "prname" : "dc-appabz-opendata",
+      "prversion" : "2.0.0",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CR1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.227111,
+        "y" : 46.267333
+      },
+      "smetadata" : {
+        "municipality" : "Cortina ssdV"
+      },
+      "sname" : "Cortina ssdV - Strada del Vino",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "O3 - Ozono",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2020-03-17 16:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2020-03-18 10:02:09.178+0000",
+      "mvalidtime" : "2020-03-17 16:00:00.000+0000",
+      "mvalue" : 22.1833,
+      "prlineage" : "APPABZ",
+      "prname" : "dc-appabz-opendata",
+      "prversion" : "2.0.0",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CR1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.227111,
+        "y" : 46.267333
+      },
+      "smetadata" : {
+        "municipality" : "Cortina ssdV"
+      },
+      "sname" : "Cortina ssdV - Strada del Vino",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM10 - Polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2020-03-17 16:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2025-08-28 15:50:02.747+0000",
+      "mvalidtime" : "2020-03-17 16:00:00.000+0000",
+      "mvalue" : "good",
+      "prlineage" : "el-air-quality-rating",
+      "prname" : "el-air-quality-rating",
+      "prversion" : "0.1.0",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CR1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.227111,
+        "y" : 46.267333
+      },
+      "smetadata" : {
+        "municipality" : "Cortina ssdV"
+      },
+      "sname" : "Cortina ssdV - Strada del Vino",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "European Air Quality Index - NO2",
+      "tname" : "EAQI-NO2",
+      "ttype" : "rating",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2020-07-30 06:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2020-07-30 10:02:22.371+0000",
+      "mvalidtime" : "2020-07-30 06:00:00.000+0000",
+      "mvalue" : 0,
+      "prlineage" : "APPABZ",
+      "prname" : "dc-appabz-opendata",
+      "prversion" : "2.0.0",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CR1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.227111,
+        "y" : 46.267333
+      },
+      "smetadata" : {
+        "municipality" : "Cortina ssdV"
+      },
+      "sname" : "Cortina ssdV - Strada del Vino",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "Radioattività",
+      "ttype" : "Mean",
+      "tunit" : "µSv/h"
+    }, {
+      "_timestamp" : "2020-08-26 08:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2020-08-26 10:02:25.094+0000",
+      "mvalidtime" : "2020-08-26 08:00:00.000+0000",
+      "mvalue" : 0.2127,
+      "prlineage" : "APPABZ",
+      "prname" : "dc-appabz-opendata",
+      "prversion" : "2.0.0",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.279333,
+        "y" : 46.343653
+      },
+      "smetadata" : {
+        "municipality" : "Egna"
+      },
+      "sname" : "A22 Sud - Binnenland, Ora",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "CO - Monossido di carbonio",
+      "ttype" : "Mean",
+      "tunit" : "mg/m³"
+    }, {
+      "_timestamp" : "2020-08-26 08:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2020-08-26 10:02:25.270+0000",
+      "mvalidtime" : "2020-08-26 08:00:00.000+0000",
+      "mvalue" : 0.2185,
+      "prlineage" : "APPABZ",
+      "prname" : "dc-appabz-opendata",
+      "prversion" : "2.0.0",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.633306,
+        "y" : 46.687556
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "A22 Nord-Bx sud - Depuratore, Bx",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "CO - Monossido di carbonio",
+      "ttype" : "Mean",
+      "tunit" : "mg/m³"
+    }, {
+      "_timestamp" : "2020-08-26 08:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2020-08-26 10:02:25.618+0000",
+      "mvalidtime" : "2020-08-26 08:00:00.000+0000",
+      "mvalue" : 0.203,
+      "prlineage" : "APPABZ",
+      "prname" : "dc-appabz-opendata",
+      "prversion" : "2.0.0",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BX1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.654083,
+        "y" : 46.714917
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "Bressanone - Villa Adele - Viale Ratisbona",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "CO - Monossido di carbonio",
+      "ttype" : "Mean",
+      "tunit" : "mg/m³"
+    }, {
+      "_timestamp" : "2026-01-26 15:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-01-26 16:22:42.964+0000",
+      "mvalidtime" : "2026-01-26 15:00:00.000+0000",
+      "mvalue" : 0.12,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "353e38b689bbd5f37158d0e0817cfb99c4024a67",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.341972,
+        "y" : 46.499167
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 6 - Via Amba Alagi giardino",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "Radioattività",
+      "ttype" : "Mean",
+      "tunit" : "µSv/h"
+    }, {
+      "_timestamp" : "2026-01-26 16:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-01-26 17:22:54.735+0000",
+      "mvalidtime" : "2026-01-26 16:00:00.000+0000",
+      "mvalue" : 0.13,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "353e38b689bbd5f37158d0e0817cfb99c4024a67",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BX1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.654083,
+        "y" : 46.714917
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "Bressanone - Villa Adele - Viale Ratisbona",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "Radioattività",
+      "ttype" : "Mean",
+      "tunit" : "µSv/h"
+    }, {
+      "_timestamp" : "2026-09-24 08:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:00:00.907+0000",
+      "mvalidtime" : "2026-09-24 08:00:00.000+0000",
+      "mvalue" : "good",
+      "prlineage" : "el-air-quality-rating",
+      "prname" : "el-air-quality-rating",
+      "prversion" : "9aa9a3badf66d1b57926b6539562be8a27fc68e5",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "LS1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.340139,
+        "y" : 46.434833
+      },
+      "smetadata" : {
+        "municipality" : "Laives"
+      },
+      "sname" : "Laives - Via Galizia",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "European Air Quality Index - NO2",
+      "tname" : "EAQI-NO2",
+      "ttype" : "rating",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 08:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 10:13:24.592+0000",
+      "mvalidtime" : "2026-09-24 08:00:00.000+0000",
+      "mvalue" : 20.3433,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.633306,
+        "y" : 46.687556
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "A22 Nord-Bx sud - Depuratore, Bx",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "O3 - Ozono",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 08:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:00:00.907+0000",
+      "mvalidtime" : "2026-09-24 08:00:00.000+0000",
+      "mvalue" : "good",
+      "prlineage" : "el-air-quality-rating",
+      "prname" : "el-air-quality-rating",
+      "prversion" : "9aa9a3badf66d1b57926b6539562be8a27fc68e5",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.279333,
+        "y" : 46.343653
+      },
+      "smetadata" : {
+        "municipality" : "Egna"
+      },
+      "sname" : "A22 Sud - Binnenland, Ora",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "European Air Quality Index - NO2",
+      "tname" : "EAQI-NO2",
+      "ttype" : "rating",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 08:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:00:00.907+0000",
+      "mvalidtime" : "2026-09-24 08:00:00.000+0000",
+      "mvalue" : "good",
+      "prlineage" : "el-air-quality-rating",
+      "prname" : "el-air-quality-rating",
+      "prversion" : "9aa9a3badf66d1b57926b6539562be8a27fc68e5",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.633306,
+        "y" : 46.687556
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "A22 Nord-Bx sud - Depuratore, Bx",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "European Air Quality Index - NO2",
+      "tname" : "EAQI-NO2",
+      "ttype" : "rating",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 08:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:00:00.907+0000",
+      "mvalidtime" : "2026-09-24 08:00:00.000+0000",
+      "mvalue" : "good",
+      "prlineage" : "el-air-quality-rating",
+      "prname" : "el-air-quality-rating",
+      "prversion" : "9aa9a3badf66d1b57926b6539562be8a27fc68e5",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BX1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.654083,
+        "y" : 46.714917
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "Bressanone - Villa Adele - Viale Ratisbona",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "European Air Quality Index - NO2",
+      "tname" : "EAQI-NO2",
+      "ttype" : "rating",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 08:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:00:00.907+0000",
+      "mvalidtime" : "2026-09-24 08:00:00.000+0000",
+      "mvalue" : "good",
+      "prlineage" : "el-air-quality-rating",
+      "prname" : "el-air-quality-rating",
+      "prversion" : "9aa9a3badf66d1b57926b6539562be8a27fc68e5",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.341833,
+        "y" : 46.482306
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 4 - Via C.Augusta",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "European Air Quality Index - NO2",
+      "tname" : "EAQI-NO2",
+      "ttype" : "rating",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 08:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:00:00.907+0000",
+      "mvalidtime" : "2026-09-24 08:00:00.000+0000",
+      "mvalue" : "good",
+      "prlineage" : "el-air-quality-rating",
+      "prname" : "el-air-quality-rating",
+      "prversion" : "9aa9a3badf66d1b57926b6539562be8a27fc68e5",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.339972,
+        "y" : 46.495472
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 5 - Piazza Adriano",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "European Air Quality Index - NO2",
+      "tname" : "EAQI-NO2",
+      "ttype" : "rating",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 08:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:00:00.907+0000",
+      "mvalidtime" : "2026-09-24 08:00:00.000+0000",
+      "mvalue" : "good",
+      "prlineage" : "el-air-quality-rating",
+      "prname" : "el-air-quality-rating",
+      "prversion" : "9aa9a3badf66d1b57926b6539562be8a27fc68e5",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.341972,
+        "y" : 46.499167
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 6 - Via Amba Alagi giardino",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "European Air Quality Index - NO2",
+      "tname" : "EAQI-NO2",
+      "ttype" : "rating",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 36.98,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.341972,
+        "y" : 46.499167
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 6 - Via Amba Alagi giardino",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "O3 - Ozono",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 42.91,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "LS1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.340139,
+        "y" : 46.434833
+      },
+      "smetadata" : {
+        "municipality" : "Laives"
+      },
+      "sname" : "Laives - Via Galizia",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "O3 - Ozono",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:12:49.633+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 35.53,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.279333,
+        "y" : 46.343653
+      },
+      "smetadata" : {
+        "municipality" : "Egna"
+      },
+      "sname" : "A22 Sud - Binnenland, Ora",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "O3 - Ozono",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:12:49.633+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 38.9867,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BX1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.654083,
+        "y" : 46.714917
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "Bressanone - Villa Adele - Viale Ratisbona",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "O3 - Ozono",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 11.6017,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "LS1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.340139,
+        "y" : 46.434833
+      },
+      "smetadata" : {
+        "municipality" : "Laives"
+      },
+      "sname" : "Laives - Via Galizia",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM10 - Polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 15.3417,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.339972,
+        "y" : 46.495472
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 5 - Piazza Adriano",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM10 - Polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 15.5917,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.341833,
+        "y" : 46.482306
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 4 - Via C.Augusta",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM10 - Polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:12:49.633+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 10.08,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.279333,
+        "y" : 46.343653
+      },
+      "smetadata" : {
+        "municipality" : "Egna"
+      },
+      "sname" : "A22 Sud - Binnenland, Ora",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM10 - Polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:12:49.633+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 11.1417,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BX1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.654083,
+        "y" : 46.714917
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "Bressanone - Villa Adele - Viale Ratisbona",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM10 - Polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:12:49.633+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 12.9683,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.633306,
+        "y" : 46.687556
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "A22 Nord-Bx sud - Depuratore, Bx",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM10 - Polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 11.6017,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "LS1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.340139,
+        "y" : 46.434833
+      },
+      "smetadata" : {
+        "municipality" : "Laives"
+      },
+      "sname" : "Laives - Via Galizia",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM10 - Polveri sottili (OMS)",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 15.3417,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.339972,
+        "y" : 46.495472
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 5 - Piazza Adriano",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM10 - Polveri sottili (OMS)",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 15.5917,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.341833,
+        "y" : 46.482306
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 4 - Via C.Augusta",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM10 - Polveri sottili (OMS)",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:12:49.633+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 10.08,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.279333,
+        "y" : 46.343653
+      },
+      "smetadata" : {
+        "municipality" : "Egna"
+      },
+      "sname" : "A22 Sud - Binnenland, Ora",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM10 - Polveri sottili (OMS)",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:12:49.633+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 11.1417,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BX1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.654083,
+        "y" : 46.714917
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "Bressanone - Villa Adele - Viale Ratisbona",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM10 - Polveri sottili (OMS)",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:12:49.633+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 12.9683,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.633306,
+        "y" : 46.687556
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "A22 Nord-Bx sud - Depuratore, Bx",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM10 - Polveri sottili (OMS)",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 6.39,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "LS1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.340139,
+        "y" : 46.434833
+      },
+      "smetadata" : {
+        "municipality" : "Laives"
+      },
+      "sname" : "Laives - Via Galizia",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM2.5 - Polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 7.9333,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.339972,
+        "y" : 46.495472
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 5 - Piazza Adriano",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM2.5 - Polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 8.185,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.341833,
+        "y" : 46.482306
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 4 - Via C.Augusta",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM2.5 - Polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:12:49.633+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 6.8383,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.279333,
+        "y" : 46.343653
+      },
+      "smetadata" : {
+        "municipality" : "Egna"
+      },
+      "sname" : "A22 Sud - Binnenland, Ora",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM2.5 - Polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:12:49.633+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 6.9217,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.633306,
+        "y" : 46.687556
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "A22 Nord-Bx sud - Depuratore, Bx",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM2.5 - Polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 6.39,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "LS1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.340139,
+        "y" : 46.434833
+      },
+      "smetadata" : {
+        "municipality" : "Laives"
+      },
+      "sname" : "Laives - Via Galizia",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM2.5 - Polveri sottili (2030)",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 7.9333,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.339972,
+        "y" : 46.495472
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 5 - Piazza Adriano",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM2.5 - Polveri sottili (2030)",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 8.185,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.341833,
+        "y" : 46.482306
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 4 - Via C.Augusta",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM2.5 - Polveri sottili (2030)",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:12:49.633+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 6.8383,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.279333,
+        "y" : 46.343653
+      },
+      "smetadata" : {
+        "municipality" : "Egna"
+      },
+      "sname" : "A22 Sud - Binnenland, Ora",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM2.5 - Polveri sottili (2030)",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:12:49.633+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 6.9217,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.633306,
+        "y" : 46.687556
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "A22 Nord-Bx sud - Depuratore, Bx",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "PM2.5 - Polveri sottili (2030)",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 2.3674,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.341972,
+        "y" : 46.499167
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 6 - Via Amba Alagi giardino",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "SO2 - Biossido di zolfo",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 14.1275,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "LS1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.340139,
+        "y" : 46.434833
+      },
+      "smetadata" : {
+        "municipality" : "Laives"
+      },
+      "sname" : "Laives - Via Galizia",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "NO2 - Ossidi di azoto",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 0.2958,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.339972,
+        "y" : 46.495472
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 5 - Piazza Adriano",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "CO - Monossido di carbonio",
+      "ttype" : "Mean",
+      "tunit" : "mg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 20.3097,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.341972,
+        "y" : 46.499167
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 6 - Via Amba Alagi giardino",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "NO2 - Ossidi di azoto",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 20.9505,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.341833,
+        "y" : 46.482306
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 4 - Via C.Augusta",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "NO2 - Ossidi di azoto",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:03:02.620+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 23.8679,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.339972,
+        "y" : 46.495472
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 5 - Piazza Adriano",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "NO2 - Ossidi di azoto",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:12:49.633+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 15.5795,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BX1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.654083,
+        "y" : 46.714917
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "Bressanone - Villa Adele - Viale Ratisbona",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "NO2 - Ossidi di azoto",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:12:49.633+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 17.539,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.279333,
+        "y" : 46.343653
+      },
+      "smetadata" : {
+        "municipality" : "Egna"
+      },
+      "sname" : "A22 Sud - Binnenland, Ora",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "NO2 - Ossidi di azoto",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.000+0000",
+      "mperiod" : 3600,
+      "mtransactiontime" : "2026-09-24 11:12:49.633+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+      "mvalue" : 19.5158,
+      "prlineage" : "APPABZ",
+      "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.633306,
+        "y" : 46.687556
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "A22 Nord-Bx sud - Depuratore, Bx",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation",
+      "tmetadata" : { },
+      "tname" : "NO2 - Ossidi di azoto",
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    } ],
+    "limit" : 300,
+    "offset" : 0
+  }
+}

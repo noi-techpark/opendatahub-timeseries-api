@@ -1,0 +1,407 @@
+{
+  "request" : "GET /tree/BluetoothStation?limit=100&shownull=true&select=scode,sname,pname,smetadata [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "BluetoothStation" : {
+        "stations" : {
+          "A22_ML103" : {
+            "scode" : "A22_ML103",
+            "smetadata" : { },
+            "sname" : "A22_ML103"
+          },
+          "A22_ML107" : {
+            "scode" : "A22_ML107",
+            "smetadata" : { },
+            "sname" : "A22_ML107"
+          },
+          "Agip_Einstein" : {
+            "scode" : "Agip_Einstein",
+            "smetadata" : { },
+            "sname" : "Agip_Einstein"
+          },
+          "Arginale_Palermo" : {
+            "scode" : "Arginale_Palermo",
+            "smetadata" : {
+              "description" : "",
+              "name" : {
+                "en" : "Arginale Palermo",
+                "it" : "Arginale Palermo"
+              }
+            },
+            "sname" : "Arginale_Palermo"
+          },
+          "Arginale_Resia" : {
+            "scode" : "Arginale_Resia",
+            "smetadata" : { },
+            "sname" : "Arginale_Resia"
+          },
+          "Druso_Palermo" : {
+            "scode" : "Druso_Palermo",
+            "smetadata" : { },
+            "sname" : "Druso_Palermo"
+          },
+          "Galilei_Lancia" : {
+            "scode" : "Galilei_Lancia",
+            "smetadata" : { },
+            "sname" : "Galilei_Lancia"
+          },
+          "Galilei_Palermo" : {
+            "scode" : "Galilei_Palermo",
+            "smetadata" : {
+              "description" : "highway",
+              "name" : {
+                "de" : "Kreuzung Galilei Strasse - Palermo Brücke",
+                "en" : "Intersection Galilei Street - Palermo Bridge",
+                "it" : "Incrocio via Galilei - ponte Palermo"
+              }
+            },
+            "sname" : "Galilei_Palermo"
+          },
+          "Galilei_Roma" : {
+            "scode" : "Galilei_Roma",
+            "smetadata" : { },
+            "sname" : "Galilei_Roma"
+          },
+          "Galilei_Virgolo" : {
+            "scode" : "Galilei_Virgolo",
+            "smetadata" : { },
+            "sname" : "Galilei_Virgolo"
+          },
+          "Galleria_Virgolo" : {
+            "scode" : "Galleria_Virgolo",
+            "smetadata" : { },
+            "sname" : "Galleria_Virgolo"
+          },
+          "Maso_Pieve" : {
+            "scode" : "Maso_Pieve",
+            "smetadata" : { },
+            "sname" : "Maso_Pieve"
+          },
+          "Milano_Palermo" : {
+            "scode" : "Milano_Palermo",
+            "smetadata" : { },
+            "sname" : "Milano_Palermo"
+          },
+          "Milano_Resia" : {
+            "scode" : "Milano_Resia",
+            "smetadata" : { },
+            "sname" : "Milano_Resia"
+          },
+          "P_Campiglio" : {
+            "scode" : "P_Campiglio",
+            "smetadata" : {
+              "description" : "",
+              "name" : {
+                "de" : "Kampil",
+                "en" : "Campiglio",
+                "it" : "Campiglio"
+              }
+            },
+            "sname" : "P_Campiglio"
+          },
+          "Roma_Firenze" : {
+            "scode" : "Roma_Firenze",
+            "smetadata" : { },
+            "sname" : "Roma_Firenze"
+          },
+          "TN-Acquaviva" : {
+            "scode" : "TN-Acquaviva",
+            "smetadata" : { },
+            "sname" : "TN-Acquaviva"
+          },
+          "TN-Cadino" : {
+            "scode" : "TN-Cadino",
+            "smetadata" : { },
+            "sname" : "TN-Cadino"
+          },
+          "TN-Maccani" : {
+            "scode" : "TN-Maccani",
+            "smetadata" : { },
+            "sname" : "TN-Maccani"
+          },
+          "TN-Nord" : {
+            "scode" : "TN-Nord",
+            "smetadata" : { },
+            "sname" : "TN-Nord"
+          },
+          "TN-Sud" : {
+            "scode" : "TN-Sud",
+            "smetadata" : { },
+            "sname" : "TN-Sud"
+          },
+          "Torricelli" : {
+            "scode" : "Torricelli",
+            "smetadata" : { },
+            "sname" : "Torricelli"
+          },
+          "Via_Galilei_Virgolo" : {
+            "scode" : "Via_Galilei_Virgolo",
+            "smetadata" : { },
+            "sname" : "Via_Galilei_Virgolo"
+          },
+          "caugusta" : {
+            "scode" : "caugusta",
+            "smetadata" : { },
+            "sname" : "caugusta"
+          },
+          "cavour" : {
+            "scode" : "cavour",
+            "smetadata" : {
+              "description" : "ME20"
+            },
+            "sname" : "cavour"
+          },
+          "cfirmiano" : {
+            "scode" : "cfirmiano",
+            "smetadata" : { },
+            "sname" : "cfirmiano"
+          },
+          "corse_cappuccini" : {
+            "scode" : "corse_cappuccini",
+            "smetadata" : {
+              "description" : "ME23"
+            },
+            "sname" : "corse_cappuccini"
+          },
+          "druso-poste" : {
+            "scode" : "druso-poste",
+            "smetadata" : { },
+            "sname" : "druso-poste"
+          },
+          "galilei" : {
+            "scode" : "galilei",
+            "smetadata" : {
+              "description" : "ME13"
+            },
+            "sname" : "galilei"
+          },
+          "galvani" : {
+            "scode" : "galvani",
+            "smetadata" : { },
+            "sname" : "galvani"
+          },
+          "goethe-alpini" : {
+            "scode" : "goethe-alpini",
+            "smetadata" : {
+              "description" : "ME15"
+            },
+            "sname" : "goethe-alpini"
+          },
+          "goethe_ospedale" : {
+            "scode" : "goethe_ospedale",
+            "smetadata" : {
+              "description" : "ME14"
+            },
+            "sname" : "goethe_ospedale"
+          },
+          "hofer" : {
+            "scode" : "hofer",
+            "smetadata" : {
+              "description" : "ME05"
+            },
+            "sname" : "hofer"
+          },
+          "huber" : {
+            "scode" : "huber",
+            "smetadata" : {
+              "description" : "ME10"
+            },
+            "sname" : "huber"
+          },
+          "liberta-corse" : {
+            "scode" : "liberta-corse",
+            "smetadata" : {
+              "description" : "ME21"
+            },
+            "sname" : "liberta-corse"
+          },
+          "mazzini" : {
+            "scode" : "mazzini",
+            "smetadata" : {
+              "description" : "ME03"
+            },
+            "sname" : "mazzini"
+          },
+          "meinstein" : {
+            "scode" : "meinstein",
+            "smetadata" : { },
+            "sname" : "meinstein"
+          },
+          "petrarca" : {
+            "scode" : "petrarca",
+            "smetadata" : {
+              "description" : "ME22"
+            },
+            "sname" : "petrarca"
+          },
+          "piave-palade" : {
+            "scode" : "piave-palade",
+            "smetadata" : {
+              "description" : "ME12"
+            },
+            "sname" : "piave-palade"
+          },
+          "piave_matteotti" : {
+            "scode" : "piave_matteotti",
+            "smetadata" : {
+              "description" : "ME26"
+            },
+            "sname" : "piave_matteotti"
+          },
+          "ponte_rezia" : {
+            "scode" : "ponte_rezia",
+            "smetadata" : {
+              "description" : "ME07",
+              "name" : {
+                "de" : "Reschenbrücke",
+                "en" : "Ponte resia",
+                "it" : "Ponte resia"
+              }
+            },
+            "sname" : "ponte_rezia"
+          },
+          "presia" : {
+            "scode" : "presia",
+            "smetadata" : {
+              "municipality" : "Bolzano - Bozen"
+            },
+            "sname" : "ponte resia"
+          },
+          "proma" : {
+            "scode" : "proma",
+            "smetadata" : {
+              "description" : "",
+              "name" : {
+                "de" : "Roma Brücke",
+                "en" : "Roma Bridge",
+                "it" : "Ponte Roma"
+              }
+            },
+            "sname" : "proma"
+          },
+          "resiadruso" : {
+            "scode" : "resiadruso",
+            "smetadata" : {
+              "municipality" : "Bolzano - Bozen"
+            },
+            "sname" : "resiadruso"
+          },
+          "roma_nord" : {
+            "scode" : "roma_nord",
+            "smetadata" : {
+              "description" : "ME11"
+            },
+            "sname" : "roma_nord"
+          },
+          "roma_sud" : {
+            "scode" : "roma_sud",
+            "smetadata" : {
+              "description" : "ME16"
+            },
+            "sname" : "roma_sud"
+          },
+          "rosmini" : {
+            "scode" : "rosmini",
+            "smetadata" : {
+              "municipality" : "Bolzano - Bozen"
+            },
+            "sname" : "Via Rosmini"
+          },
+          "scena-leichter" : {
+            "scode" : "scena-leichter",
+            "smetadata" : {
+              "description" : "ME18"
+            },
+            "sname" : "scena-leichter"
+          },
+          "schaffer-winkel" : {
+            "scode" : "schaffer-winkel",
+            "smetadata" : {
+              "description" : "ME17"
+            },
+            "sname" : "schaffer-winkel"
+          },
+          "siemens" : {
+            "scode" : "siemens",
+            "smetadata" : {
+              "description" : "",
+              "name" : {
+                "de" : "Siemens Strasse",
+                "en" : "Siemens Street",
+                "it" : "Via Siemens"
+              }
+            },
+            "sname" : "siemens"
+          },
+          "sinigo" : {
+            "scode" : "sinigo",
+            "smetadata" : {
+              "description" : "ME25"
+            },
+            "sname" : "sinigo"
+          },
+          "stazione" : {
+            "scode" : "stazione",
+            "smetadata" : {
+              "description" : "ME08"
+            },
+            "sname" : "stazione"
+          },
+          "terme_est" : {
+            "scode" : "terme_est",
+            "smetadata" : {
+              "description" : "ME19"
+            },
+            "sname" : "terme_est"
+          },
+          "terme_ovest" : {
+            "scode" : "terme_ovest",
+            "smetadata" : {
+              "description" : "ME24"
+            },
+            "sname" : "terme_ovest"
+          },
+          "vveneto" : {
+            "scode" : "vveneto",
+            "smetadata" : {
+              "municipality" : "Bolzano - Bozen"
+            },
+            "sname" : "Vittorio veneto"
+          },
+          "wolf" : {
+            "scode" : "wolf",
+            "smetadata" : {
+              "description" : "ME06"
+            },
+            "sname" : "wolf"
+          },
+          "wolf-franziskus" : {
+            "scode" : "wolf-franziskus",
+            "smetadata" : {
+              "description" : "ME09"
+            },
+            "sname" : "wolf-franziskus"
+          },
+          "zuegg-palade" : {
+            "scode" : "zuegg-palade",
+            "smetadata" : {
+              "description" : "ME02"
+            },
+            "sname" : "zuegg-palade"
+          }
+        }
+      }
+    },
+    "limit" : 100,
+    "offset" : 0
+  }
+}

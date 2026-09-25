@@ -1,0 +1,1101 @@
+{
+  "request" : "GET /tree/EnvironmentStation/*/latest?limit=100&timezone=Europe/Rome [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "EnvironmentStation" : {
+        "stations" : {
+          "AB2" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "AB2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.279333,
+              "y" : 46.343653
+            },
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "dc-appabz-opendata",
+                    "prversion" : "2.0.0"
+                  },
+                  "mtransactiontime" : "2020-08-26 12:02:25.094+0200",
+                  "mvalidtime" : "2020-08-26 10:00:00.000+0200",
+                  "mvalue" : 0.2127
+                } ],
+                "tmetadata" : { },
+                "tname" : "CO - Monossido di carbonio",
+                "ttype" : "Mean",
+                "tunit" : "mg/m³"
+              },
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "el-air-quality-rating",
+                    "prname" : "el-air-quality-rating",
+                    "prversion" : "9aa9a3badf66d1b57926b6539562be8a27fc68e5"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:00:00.907+0200",
+                  "mvalidtime" : "2026-09-24 10:00:00.000+0200",
+                  "mvalue" : "good"
+                } ],
+                "tname" : "EAQI-NO2",
+                "ttype" : "rating",
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:12:49.633+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 17.539
+                } ],
+                "tmetadata" : { },
+                "tname" : "NO2 - Ossidi di azoto",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:12:49.633+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 35.53
+                } ],
+                "tmetadata" : { },
+                "tname" : "O3 - Ozono",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:12:49.633+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 10.08
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM10 - Polveri sottili",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:12:49.633+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 10.08
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM10 - Polveri sottili (OMS)",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:12:49.633+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 6.8383
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM2.5 - Polveri sottili",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:12:49.633+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 6.8383
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM2.5 - Polveri sottili (2030)",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Egna"
+            },
+            "sname" : "A22 Sud - Binnenland, Ora",
+            "sorigin" : "APPABZ",
+            "stype" : "EnvironmentStation"
+          },
+          "AB3" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "AB3",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.633306,
+              "y" : 46.687556
+            },
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "dc-appabz-opendata",
+                    "prversion" : "2.0.0"
+                  },
+                  "mtransactiontime" : "2020-08-26 12:02:25.270+0200",
+                  "mvalidtime" : "2020-08-26 10:00:00.000+0200",
+                  "mvalue" : 0.2185
+                } ],
+                "tmetadata" : { },
+                "tname" : "CO - Monossido di carbonio",
+                "ttype" : "Mean",
+                "tunit" : "mg/m³"
+              },
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "el-air-quality-rating",
+                    "prname" : "el-air-quality-rating",
+                    "prversion" : "9aa9a3badf66d1b57926b6539562be8a27fc68e5"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:00:00.907+0200",
+                  "mvalidtime" : "2026-09-24 10:00:00.000+0200",
+                  "mvalue" : "good"
+                } ],
+                "tname" : "EAQI-NO2",
+                "ttype" : "rating",
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:12:49.633+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 19.5158
+                } ],
+                "tmetadata" : { },
+                "tname" : "NO2 - Ossidi di azoto",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 12:13:24.592+0200",
+                  "mvalidtime" : "2026-09-24 10:00:00.000+0200",
+                  "mvalue" : 20.3433
+                } ],
+                "tmetadata" : { },
+                "tname" : "O3 - Ozono",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:12:49.633+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 12.9683
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM10 - Polveri sottili",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:12:49.633+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 12.9683
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM10 - Polveri sottili (OMS)",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:12:49.633+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 6.9217
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM2.5 - Polveri sottili",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:12:49.633+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 6.9217
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM2.5 - Polveri sottili (2030)",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bressanone"
+            },
+            "sname" : "A22 Nord-Bx sud - Depuratore, Bx",
+            "sorigin" : "APPABZ",
+            "stype" : "EnvironmentStation"
+          },
+          "BX1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "BX1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.654083,
+              "y" : 46.714917
+            },
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "dc-appabz-opendata",
+                    "prversion" : "2.0.0"
+                  },
+                  "mtransactiontime" : "2020-08-26 12:02:25.618+0200",
+                  "mvalidtime" : "2020-08-26 10:00:00.000+0200",
+                  "mvalue" : 0.203
+                } ],
+                "tmetadata" : { },
+                "tname" : "CO - Monossido di carbonio",
+                "ttype" : "Mean",
+                "tunit" : "mg/m³"
+              },
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "el-air-quality-rating",
+                    "prname" : "el-air-quality-rating",
+                    "prversion" : "9aa9a3badf66d1b57926b6539562be8a27fc68e5"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:00:00.907+0200",
+                  "mvalidtime" : "2026-09-24 10:00:00.000+0200",
+                  "mvalue" : "good"
+                } ],
+                "tname" : "EAQI-NO2",
+                "ttype" : "rating",
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:12:49.633+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 15.5795
+                } ],
+                "tmetadata" : { },
+                "tname" : "NO2 - Ossidi di azoto",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:12:49.633+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 38.9867
+                } ],
+                "tmetadata" : { },
+                "tname" : "O3 - Ozono",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:12:49.633+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 11.1417
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM10 - Polveri sottili",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:12:49.633+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 11.1417
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM10 - Polveri sottili (OMS)",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "Radioattività" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "353e38b689bbd5f37158d0e0817cfb99c4024a67"
+                  },
+                  "mtransactiontime" : "2026-01-26 18:22:54.735+0100",
+                  "mvalidtime" : "2026-01-26 17:00:00.000+0100",
+                  "mvalue" : 0.13
+                } ],
+                "tmetadata" : { },
+                "tname" : "Radioattività",
+                "ttype" : "Mean",
+                "tunit" : "µSv/h"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bressanone"
+            },
+            "sname" : "Bressanone - Villa Adele - Viale Ratisbona",
+            "sorigin" : "APPABZ",
+            "stype" : "EnvironmentStation"
+          },
+          "BZ4" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "BZ4",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.341833,
+              "y" : 46.482306
+            },
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "el-air-quality-rating",
+                    "prname" : "el-air-quality-rating",
+                    "prversion" : "9aa9a3badf66d1b57926b6539562be8a27fc68e5"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:00:00.907+0200",
+                  "mvalidtime" : "2026-09-24 10:00:00.000+0200",
+                  "mvalue" : "good"
+                } ],
+                "tname" : "EAQI-NO2",
+                "ttype" : "rating",
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 20.9505
+                } ],
+                "tmetadata" : { },
+                "tname" : "NO2 - Ossidi di azoto",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 15.5917
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM10 - Polveri sottili",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 15.5917
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM10 - Polveri sottili (OMS)",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 8.185
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM2.5 - Polveri sottili",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 8.185
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM2.5 - Polveri sottili (2030)",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "nitrogen-dioxide" : {
+                "tdescription" : "Medie orarie",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-05-14 04:00:01.214+0200",
+                  "mvalidtime" : "2018-05-14 04:00:00.000+0200",
+                  "mvalue" : 8.502
+                } ],
+                "tmetadata" : { },
+                "tname" : "nitrogen-dioxide",
+                "ttype" : "Mean",
+                "tunit" : "ug/mc"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano"
+            },
+            "sname" : "Bolzano 4 - Via C.Augusta",
+            "sorigin" : "APPABZ",
+            "stype" : "EnvironmentStation"
+          },
+          "BZ5" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "BZ5",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.339972,
+              "y" : 46.495472
+            },
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 0.2958
+                } ],
+                "tmetadata" : { },
+                "tname" : "CO - Monossido di carbonio",
+                "ttype" : "Mean",
+                "tunit" : "mg/m³"
+              },
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "el-air-quality-rating",
+                    "prname" : "el-air-quality-rating",
+                    "prversion" : "9aa9a3badf66d1b57926b6539562be8a27fc68e5"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:00:00.907+0200",
+                  "mvalidtime" : "2026-09-24 10:00:00.000+0200",
+                  "mvalue" : "good"
+                } ],
+                "tname" : "EAQI-NO2",
+                "ttype" : "rating",
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 23.8679
+                } ],
+                "tmetadata" : { },
+                "tname" : "NO2 - Ossidi di azoto",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 15.3417
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM10 - Polveri sottili",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 15.3417
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM10 - Polveri sottili (OMS)",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 7.9333
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM2.5 - Polveri sottili",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 7.9333
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM2.5 - Polveri sottili (2030)",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "nitrogen-dioxide" : {
+                "tdescription" : "Medie orarie",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-05-14 04:00:01.752+0200",
+                  "mvalidtime" : "2018-05-14 04:00:00.000+0200",
+                  "mvalue" : 11.5485
+                } ],
+                "tmetadata" : { },
+                "tname" : "nitrogen-dioxide",
+                "ttype" : "Mean",
+                "tunit" : "ug/mc"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano"
+            },
+            "sname" : "Bolzano 5 - Piazza Adriano",
+            "sorigin" : "APPABZ",
+            "stype" : "EnvironmentStation"
+          },
+          "BZ6" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "BZ6",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.341972,
+              "y" : 46.499167
+            },
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "el-air-quality-rating",
+                    "prname" : "el-air-quality-rating",
+                    "prversion" : "9aa9a3badf66d1b57926b6539562be8a27fc68e5"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:00:00.907+0200",
+                  "mvalidtime" : "2026-09-24 10:00:00.000+0200",
+                  "mvalue" : "good"
+                } ],
+                "tname" : "EAQI-NO2",
+                "ttype" : "rating",
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 20.3097
+                } ],
+                "tmetadata" : { },
+                "tname" : "NO2 - Ossidi di azoto",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 36.98
+                } ],
+                "tmetadata" : { },
+                "tname" : "O3 - Ozono",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "Radioattività" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "353e38b689bbd5f37158d0e0817cfb99c4024a67"
+                  },
+                  "mtransactiontime" : "2026-01-26 17:22:42.964+0100",
+                  "mvalidtime" : "2026-01-26 16:00:00.000+0100",
+                  "mvalue" : 0.12
+                } ],
+                "tmetadata" : { },
+                "tname" : "Radioattività",
+                "ttype" : "Mean",
+                "tunit" : "µSv/h"
+              },
+              "SO2 - Biossido di zolfo" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 2.3674
+                } ],
+                "tmetadata" : { },
+                "tname" : "SO2 - Biossido di zolfo",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano"
+            },
+            "sname" : "Bolzano 6 - Via Amba Alagi giardino",
+            "sorigin" : "APPABZ",
+            "stype" : "EnvironmentStation"
+          },
+          "CR1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "CR1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.227111,
+              "y" : 46.267333
+            },
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "el-air-quality-rating",
+                    "prname" : "el-air-quality-rating",
+                    "prversion" : "0.1.0"
+                  },
+                  "mtransactiontime" : "2025-08-28 17:50:02.747+0200",
+                  "mvalidtime" : "2020-03-17 17:00:00.000+0100",
+                  "mvalue" : "good"
+                } ],
+                "tname" : "EAQI-NO2",
+                "ttype" : "rating",
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "dc-appabz-opendata",
+                    "prversion" : "2.0.0"
+                  },
+                  "mtransactiontime" : "2020-03-18 11:02:09.160+0100",
+                  "mvalidtime" : "2020-03-17 17:00:00.000+0100",
+                  "mvalue" : 9.4548
+                } ],
+                "tmetadata" : { },
+                "tname" : "NO2 - Ossidi di azoto",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "dc-appabz-opendata",
+                    "prversion" : "2.0.0"
+                  },
+                  "mtransactiontime" : "2020-03-18 11:02:09.169+0100",
+                  "mvalidtime" : "2020-03-17 17:00:00.000+0100",
+                  "mvalue" : 77.58
+                } ],
+                "tmetadata" : { },
+                "tname" : "O3 - Ozono",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "dc-appabz-opendata",
+                    "prversion" : "2.0.0"
+                  },
+                  "mtransactiontime" : "2020-03-18 11:02:09.178+0100",
+                  "mvalidtime" : "2020-03-17 17:00:00.000+0100",
+                  "mvalue" : 22.1833
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM10 - Polveri sottili",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "Radioattività" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "dc-appabz-opendata",
+                    "prversion" : "2.0.0"
+                  },
+                  "mtransactiontime" : "2020-07-30 12:02:22.371+0200",
+                  "mvalidtime" : "2020-07-30 08:00:00.000+0200",
+                  "mvalue" : 0
+                } ],
+                "tmetadata" : { },
+                "tname" : "Radioattività",
+                "ttype" : "Mean",
+                "tunit" : "µSv/h"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Cortina ssdV"
+            },
+            "sname" : "Cortina ssdV - Strada del Vino",
+            "sorigin" : "APPABZ",
+            "stype" : "EnvironmentStation"
+          },
+          "LS1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "LS1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.340139,
+              "y" : 46.434833
+            },
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "el-air-quality-rating",
+                    "prname" : "el-air-quality-rating",
+                    "prversion" : "9aa9a3badf66d1b57926b6539562be8a27fc68e5"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:00:00.907+0200",
+                  "mvalidtime" : "2026-09-24 10:00:00.000+0200",
+                  "mvalue" : "good"
+                } ],
+                "tname" : "EAQI-NO2",
+                "ttype" : "rating",
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 14.1275
+                } ],
+                "tmetadata" : { },
+                "tname" : "NO2 - Ossidi di azoto",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 42.91
+                } ],
+                "tmetadata" : { },
+                "tname" : "O3 - Ozono",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 11.6017
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM10 - Polveri sottili",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 11.6017
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM10 - Polveri sottili (OMS)",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 6.39
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM2.5 - Polveri sottili",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "APPABZ",
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 13:03:02.620+0200",
+                  "mvalidtime" : "2026-09-24 11:00:00.000+0200",
+                  "mvalue" : 6.39
+                } ],
+                "tmetadata" : { },
+                "tname" : "PM2.5 - Polveri sottili (2030)",
+                "ttype" : "Mean",
+                "tunit" : "µg/m³"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Laives"
+            },
+            "sname" : "Laives - Via Galizia",
+            "sorigin" : "APPABZ",
+            "stype" : "EnvironmentStation"
+          }
+        }
+      }
+    },
+    "limit" : 100,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "request" : "GET /tree/Bicyclestationbay?limit=100 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "Bicyclestationbay" : {
+        "stations" : {
+          "Viale della Stazione - Bahnhofsallee:1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Viale della Stazione - Bahnhofsallee:1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.355516,
+              "y" : 46.497459
+            },
+            "smetadata" : {
+              "charger" : true,
+              "use" : "SHARING"
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:1",
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "stype" : "Bicyclestationbay"
+          },
+          "Viale della Stazione - Bahnhofsallee:2" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Viale della Stazione - Bahnhofsallee:2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.355516,
+              "y" : 46.497459
+            },
+            "smetadata" : {
+              "charger" : true,
+              "use" : "SHARING"
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:2",
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "stype" : "Bicyclestationbay"
+          },
+          "Viale della Stazione - Bahnhofsallee:3" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Viale della Stazione - Bahnhofsallee:3",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.355516,
+              "y" : 46.497459
+            },
+            "smetadata" : {
+              "charger" : true,
+              "use" : "SHARING"
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:3",
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "stype" : "Bicyclestationbay"
+          },
+          "Viale della Stazione - Bahnhofsallee:4" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Viale della Stazione - Bahnhofsallee:4",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.355516,
+              "y" : 46.497459
+            },
+            "smetadata" : {
+              "charger" : true,
+              "use" : "SHARING"
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:4",
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "stype" : "Bicyclestationbay"
+          },
+          "Viale della Stazione - Bahnhofsallee:5" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Viale della Stazione - Bahnhofsallee:5",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.355516,
+              "y" : 46.497459
+            },
+            "smetadata" : {
+              "charger" : true,
+              "use" : "SHARING"
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:5",
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "stype" : "Bicyclestationbay"
+          },
+          "Viale della Stazione - Bahnhofsallee:6" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Viale della Stazione - Bahnhofsallee:6",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.355516,
+              "y" : 46.497459
+            },
+            "smetadata" : {
+              "charger" : true,
+              "use" : "SHARING"
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:6",
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "stype" : "Bicyclestationbay"
+          },
+          "Viale della Stazione - Bahnhofsallee:7" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Viale della Stazione - Bahnhofsallee:7",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.355516,
+              "y" : 46.497459
+            },
+            "smetadata" : {
+              "charger" : true,
+              "use" : "SHARING"
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:7",
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "stype" : "Bicyclestationbay"
+          },
+          "Viale della Stazione - Bahnhofsallee:8" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Viale della Stazione - Bahnhofsallee:8",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.355516,
+              "y" : 46.497459
+            },
+            "smetadata" : {
+              "charger" : true,
+              "use" : "SHARING"
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:8",
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "stype" : "Bicyclestationbay"
+          }
+        }
+      }
+    },
+    "limit" : 100,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,1781 @@
+{
+  "request" : "GET /flat/Bicyclestationbay/usage-state/2026-09-24T08:05:00Z/2026-09-24T14:06:00Z?limit=2000&where=scode.eq.%22Viale%20della%20Stazione%20-%20Bahnhofsallee%3A2%22 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "_timestamp" : "2026-09-24 08:05:00.002+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 08:05:03.469+0000",
+      "mvalidtime" : "2026-09-24 08:05:00.002+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 08:10:00.001+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 08:10:04.210+0000",
+      "mvalidtime" : "2026-09-24 08:10:00.001+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 08:15:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 08:15:03.075+0000",
+      "mvalidtime" : "2026-09-24 08:15:00.000+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 08:20:00.004+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 08:20:04.133+0000",
+      "mvalidtime" : "2026-09-24 08:20:00.004+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 08:25:00.001+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 08:25:03.612+0000",
+      "mvalidtime" : "2026-09-24 08:25:00.001+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 08:30:00.007+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 08:30:02.927+0000",
+      "mvalidtime" : "2026-09-24 08:30:00.007+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 08:35:00.001+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 08:35:02.255+0000",
+      "mvalidtime" : "2026-09-24 08:35:00.001+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 08:40:00.004+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 08:40:05.072+0000",
+      "mvalidtime" : "2026-09-24 08:40:00.004+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 08:45:00.001+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 08:45:06.765+0000",
+      "mvalidtime" : "2026-09-24 08:45:00.001+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 08:50:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 08:50:04.906+0000",
+      "mvalidtime" : "2026-09-24 08:50:00.000+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 08:55:00.002+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 08:55:03.607+0000",
+      "mvalidtime" : "2026-09-24 08:55:00.002+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 09:00:00.002+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 09:00:04.292+0000",
+      "mvalidtime" : "2026-09-24 09:00:00.002+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 09:05:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 09:05:03.784+0000",
+      "mvalidtime" : "2026-09-24 09:05:00.000+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 09:10:00.001+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 09:10:05.142+0000",
+      "mvalidtime" : "2026-09-24 09:10:00.001+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 09:15:00.001+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 09:15:03.458+0000",
+      "mvalidtime" : "2026-09-24 09:15:00.001+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 09:20:00.005+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 09:20:02.288+0000",
+      "mvalidtime" : "2026-09-24 09:20:00.005+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 09:25:00.001+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 09:25:02.252+0000",
+      "mvalidtime" : "2026-09-24 09:25:00.001+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 09:30:00.007+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 09:30:02.595+0000",
+      "mvalidtime" : "2026-09-24 09:30:00.007+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 09:35:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 09:35:02.217+0000",
+      "mvalidtime" : "2026-09-24 09:35:00.000+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 09:40:00.005+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 09:40:02.230+0000",
+      "mvalidtime" : "2026-09-24 09:40:00.005+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 09:45:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 09:45:02.225+0000",
+      "mvalidtime" : "2026-09-24 09:45:00.000+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 09:50:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 09:50:02.114+0000",
+      "mvalidtime" : "2026-09-24 09:50:00.000+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 09:55:00.001+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 09:55:02.092+0000",
+      "mvalidtime" : "2026-09-24 09:55:00.001+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 10:00:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 10:00:02.577+0000",
+      "mvalidtime" : "2026-09-24 10:00:00.000+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 10:05:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 10:05:02.293+0000",
+      "mvalidtime" : "2026-09-24 10:05:00.000+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 10:10:00.002+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 10:10:02.184+0000",
+      "mvalidtime" : "2026-09-24 10:10:00.002+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 10:15:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 10:15:02.677+0000",
+      "mvalidtime" : "2026-09-24 10:15:00.000+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 10:20:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 10:20:02.161+0000",
+      "mvalidtime" : "2026-09-24 10:20:00.000+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 10:25:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 10:25:02.066+0000",
+      "mvalidtime" : "2026-09-24 10:25:00.000+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 10:30:00.012+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 10:30:02.224+0000",
+      "mvalidtime" : "2026-09-24 10:30:00.012+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 10:35:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 10:35:02.228+0000",
+      "mvalidtime" : "2026-09-24 10:35:00.000+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 10:40:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 10:40:02.206+0000",
+      "mvalidtime" : "2026-09-24 10:40:00.000+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 10:45:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 10:45:03.765+0000",
+      "mvalidtime" : "2026-09-24 10:45:00.000+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 10:50:00.007+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 10:50:02.189+0000",
+      "mvalidtime" : "2026-09-24 10:50:00.007+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 10:55:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 10:55:02.323+0000",
+      "mvalidtime" : "2026-09-24 10:55:00.000+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 11:00:00.001+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 11:00:02.471+0000",
+      "mvalidtime" : "2026-09-24 11:00:00.001+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 11:05:00.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 11:05:02.154+0000",
+      "mvalidtime" : "2026-09-24 11:05:00.000+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 11:10:00.005+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 11:10:02.405+0000",
+      "mvalidtime" : "2026-09-24 11:10:00.005+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 11:15:00.001+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 11:15:02.260+0000",
+      "mvalidtime" : "2026-09-24 11:15:00.001+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 11:20:00.003+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 11:20:02.184+0000",
+      "mvalidtime" : "2026-09-24 11:20:00.003+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 11:25:00.002+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 11:25:02.658+0000",
+      "mvalidtime" : "2026-09-24 11:25:00.002+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    }, {
+      "_timestamp" : "2026-09-24 11:30:00.004+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 11:30:02.436+0000",
+      "mvalidtime" : "2026-09-24 11:30:00.004+0000",
+      "mvalue" : "RICONSEGNA",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "prlineage" : "BIKE_SHARING_BOLZANO",
+      "prname" : "odh-mobility-dc-bikesharing-bz",
+      "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "tmetadata" : { },
+      "tname" : "usage-state"
+    } ],
+    "limit" : 2000,
+    "offset" : 0
+  }
+}

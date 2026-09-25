@@ -1,0 +1,78 @@
+{
+  "request" : "GET /tree/Bicycle?limit=100&shownull=true&select=scode,sname,pname,smetadata [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "Bicycle" : {
+        "stations" : {
+          "bike118" : {
+            "scode" : "bike118",
+            "smetadata" : {
+              "type" : "mountain-bike-child"
+            },
+            "sname" : "mountain-bike-child(118)"
+          },
+          "bike119" : {
+            "scode" : "bike119",
+            "smetadata" : {
+              "type" : "mountain-bike-child"
+            },
+            "sname" : "mountain-bike-child(119)"
+          },
+          "bike136" : {
+            "scode" : "bike136",
+            "smetadata" : {
+              "type" : "city-bike-adult-with-gears"
+            },
+            "sname" : "city-bike-adult-with-gears(136)"
+          },
+          "bike139" : {
+            "scode" : "bike139",
+            "smetadata" : {
+              "type" : "city-bike-adult-with-gears"
+            },
+            "sname" : "city-bike-adult-with-gears(139)"
+          },
+          "bike51" : {
+            "scode" : "bike51",
+            "smetadata" : {
+              "type" : "mountain-bike-adult"
+            },
+            "sname" : "mountain-bike-adult(51)"
+          },
+          "bike53" : {
+            "scode" : "bike53",
+            "smetadata" : {
+              "type" : "mountain-bike-adult"
+            },
+            "sname" : "mountain-bike-adult(53)"
+          },
+          "bike55" : {
+            "scode" : "bike55",
+            "smetadata" : {
+              "type" : "city-bike-adult-without-gears"
+            },
+            "sname" : "city-bike-adult-without-gears(55)"
+          },
+          "bike74" : {
+            "scode" : "bike74",
+            "smetadata" : {
+              "type" : "city-bike-adult-with-gears"
+            },
+            "sname" : "city-bike-adult-with-gears(74)"
+          }
+        }
+      }
+    },
+    "limit" : 100,
+    "offset" : 0
+  }
+}

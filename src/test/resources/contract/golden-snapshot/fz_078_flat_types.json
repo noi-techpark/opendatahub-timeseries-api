@@ -1,0 +1,3349 @@
+{
+  "request" : "GET /flat/*/*?limit=-1&select=ttype,stype,tdescription,sname,pcode,tunit&where=sactive.eq.true&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "free",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "Amount of occupied 'subscribers' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 240 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Acquaviva",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : "Mittelwerte",
+      "tunit" : "hPa"
+    }, {
+      "pcode" : null,
+      "sname" : "A22 Nord-Bx sud - Depuratore, Bx",
+      "stype" : "EnvironmentStation",
+      "tdescription" : null,
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "pcode" : null,
+      "sname" : "ISARCO A BRESSANONE",
+      "stype" : "MeteoStation",
+      "tdescription" : "Livello idrometrico",
+      "ttype" : null,
+      "tunit" : "cm"
+    }, {
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "sname" : "Viale della Stazione - Bahnhofsallee:3",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "availability",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "180 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 30 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 150 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Composti Organici Volatili",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 90 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 30 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di Zolfo",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 120 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 60 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ammoniaca",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Anidride carbonica",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano",
+      "stype" : "MeteoStation",
+      "tdescription" : "Durata soleggiamento",
+      "ttype" : null,
+      "tunit" : "s"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Polveri Totali Sospese",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 150 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 150 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 240 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 150 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Civezzano",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Stazione Brunico",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Vipiteno",
+      "stype" : "MeteoStation",
+      "tdescription" : "Velocitá raffica",
+      "ttype" : null,
+      "tunit" : "m/s"
+    }, {
+      "pcode" : null,
+      "sname" : "P13 – Direzional Park",
+      "stype" : "ParkingStation",
+      "tdescription" : "occupied",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano 6 - Via Amba Alagi giardino",
+      "stype" : "EnvironmentStation",
+      "tdescription" : null,
+      "ttype" : "Mean",
+      "tunit" : "µSv/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Anterselva di Sopra",
+      "stype" : "MeteoStation",
+      "tdescription" : "Maximum temperature",
+      "ttype" : "max",
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "Via Galilei - Galilei-Strasse",
+      "stype" : "BikesharingStation",
+      "tdescription" : "free-bays",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "sname" : "Viale della Stazione - Bahnhofsallee:6",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "availability",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 210 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "A22_ML107->A22_ML103",
+      "stype" : "LinkStation",
+      "tdescription" : "Velocita media dei veicoli",
+      "ttype" : "Mean",
+      "tunit" : "km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 30 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ammoniaca",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ammoniaca",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Maso_Pieve->meinstein",
+      "stype" : "LinkStation",
+      "tdescription" : null,
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "S. Martino in Badia",
+      "stype" : "MeteoStation",
+      "tdescription" : "Minimum temperature",
+      "ttype" : "min",
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "carvelo eCargo-Bike Sharing",
+      "stype" : "BikeSharingService",
+      "tdescription" : "number of available vehicles / charging points",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 30 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Agip_Einstein->meinstein",
+      "stype" : "LinkStation",
+      "tdescription" : "Velocita media dei veicoli",
+      "ttype" : "Mean",
+      "tunit" : "km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 240 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Cadino",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : "Mittelwerte",
+      "tunit" : "hPa"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Composti Organici Volatili",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Fuel Consumption",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Casa Cantoniera",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di Zolfo",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "180 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano 6 - Via Amba Alagi giardino",
+      "stype" : "EnvironmentStation",
+      "tdescription" : null,
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 180 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "A22 Sud - Binnenland, Ora",
+      "stype" : "EnvironmentStation",
+      "tdescription" : null,
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "180 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Composti Organici Volatili",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Cortina ssdV - Strada del Vino",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "European Air Quality Index - NO2",
+      "ttype" : "rating",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 240 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Anterselva di Sopra",
+      "stype" : "MeteoStation",
+      "tdescription" : "Precipitation",
+      "ttype" : "total",
+      "tunit" : "mm"
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 180 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano",
+      "stype" : "MeteoStation",
+      "tdescription" : "Precipitation",
+      "ttype" : "total",
+      "tunit" : "mm"
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano 4 - Via C.Augusta",
+      "stype" : "EnvironmentStation",
+      "tdescription" : null,
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano 6 - Via Amba Alagi giardino",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "European Air Quality Index - NO2",
+      "ttype" : "rating",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Monossido di carbonio",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Rocchetta",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "120 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "AURINO A S. GIORGIO",
+      "stype" : "MeteoStation",
+      "tdescription" : "Temperatura acqua",
+      "ttype" : null,
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 30 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano 5 - Piazza Adriano",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "Medie orarie",
+      "ttype" : "Mean",
+      "tunit" : "ug/mc"
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 210 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "carvelo eCargo-Bike Sharing",
+      "stype" : "BikeSharingService",
+      "tdescription" : "free floating bike statuses as JSON",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Metano",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 120 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 150 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano",
+      "stype" : "MeteoStation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : "Mittelwerte",
+      "tunit" : "hPa"
+    }, {
+      "pcode" : null,
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Fuel Consumption",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 120 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Agip_Einstein->meinstein",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "ttype" : "Count",
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Viale della Stazione - Bahnhofsallee",
+      "stype" : "BikesharingStation",
+      "tdescription" : "free-bays",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Fiera - Messe",
+      "stype" : "BikesharingStation",
+      "tdescription" : "free-bays",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "free",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "availability",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Waltherpark",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'short stay' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P07 - Mareccio via C. de Medici",
+      "stype" : "ParkingStation",
+      "tdescription" : "free",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Stazione Brunico",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'short stay' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "meinstein->Agip_Einstein",
+      "stype" : "LinkStation",
+      "tdescription" : "average speed of vehicles faster than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "km/h"
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "90 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Cadino",
+      "stype" : "RWISstation",
+      "tdescription" : "Mean temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 90 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "30 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Composti Organici Volatili",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 180 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 60 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Vipiteno",
+      "stype" : "MeteoStation",
+      "tdescription" : "Mean temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Anidride carbonica",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Metano",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 180 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Claudia Augusta",
+      "stype" : "BikesharingStation",
+      "tdescription" : "free-bays",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "150 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "sname" : "Viale della Stazione - Bahnhofsallee:4",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 90 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Metano",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "ISARCO A BOLZANO SUD",
+      "stype" : "MeteoStation",
+      "tdescription" : "Temperatura acqua",
+      "ttype" : null,
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di Zolfo",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "sname" : "Viale della Stazione - Bahnhofsallee:1",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 240 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "siemens->proma",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "ttype" : "Count",
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Anidride carbonica",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Civezzano",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : null,
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "Cortina ssdV - Strada del Vino",
+      "stype" : "EnvironmentStation",
+      "tdescription" : null,
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "pcode" : null,
+      "sname" : "Civezzano",
+      "stype" : "RWISstation",
+      "tdescription" : "Mean temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 60 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Monossido di carbonio",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "240 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Claudia Augusta",
+      "stype" : "BikesharingStation",
+      "tdescription" : "number of available vehicles / charging points",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "30 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 240 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 60 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 180 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "occupied",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 180 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Palasport - Stadthalle",
+      "stype" : "BikesharingStation",
+      "tdescription" : "availability",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Via Galilei - Galilei-Strasse",
+      "stype" : "BikesharingStation",
+      "tdescription" : "total-bays",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 180 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Via Maso della Pieve - Pfarrhofstrasse",
+      "stype" : "BikesharingStation",
+      "tdescription" : "free-bays",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Vipiteno",
+      "stype" : "MeteoStation",
+      "tdescription" : "Direzione del vento",
+      "ttype" : null,
+      "tunit" : "° "
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 120 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "90 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "sname" : "Viale della Stazione - Bahnhofsallee:1",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "availability",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Vipiteno",
+      "stype" : "MeteoStation",
+      "tdescription" : "Velocità del vento",
+      "ttype" : null,
+      "tunit" : "m/s"
+    }, {
+      "pcode" : null,
+      "sname" : "S. Martino in Badia",
+      "stype" : "MeteoStation",
+      "tdescription" : "Pressione atmosferica",
+      "ttype" : null,
+      "tunit" : "hPa"
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano",
+      "stype" : "MeteoStation",
+      "tdescription" : "Minimum temperature",
+      "ttype" : "min",
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Stazione Brunico",
+      "stype" : "ParkingFacility",
+      "tdescription" : "free",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 30 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "210 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "S. Martino in Badia",
+      "stype" : "MeteoStation",
+      "tdescription" : "Precipitation",
+      "ttype" : "total",
+      "tunit" : "mm"
+    }, {
+      "pcode" : null,
+      "sname" : "Rocchetta",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : null,
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 90 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Anidride carbonica",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Waltherpark",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of occupied 'short stay' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Monossido di carbonio",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "30 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "A22 Sud - Binnenland, Ora",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "European Air Quality Index - NO2",
+      "ttype" : "rating",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Polveri Totali Sospese",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano",
+      "stype" : "MeteoStation",
+      "tdescription" : "Pressione atmosferica",
+      "ttype" : null,
+      "tunit" : "hPa"
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "240 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "150 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "siemens->proma",
+      "stype" : "LinkStation",
+      "tdescription" : null,
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "free",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "proma->druso-poste",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "ttype" : "Count",
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "S. Martino in Badia",
+      "stype" : "MeteoStation",
+      "tdescription" : "Umidità relativa",
+      "ttype" : null,
+      "tunit" : "%"
+    }, {
+      "pcode" : null,
+      "sname" : "A22_ML103->A22_ML107",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "ttype" : "Instantaneous",
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 150 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of occupied 'subscribers' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 120 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Anterselva di Sopra",
+      "stype" : "MeteoStation",
+      "tdescription" : "Direzione del vento",
+      "ttype" : null,
+      "tunit" : "° "
+    }, {
+      "pcode" : null,
+      "sname" : "Laives - Via Galizia",
+      "stype" : "EnvironmentStation",
+      "tdescription" : null,
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Polveri Totali Sospese",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 30 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 60 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "A22_ML107->A22_ML103",
+      "stype" : "LinkStation",
+      "tdescription" : "Mode for vehicles fast than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "ms"
+    }, {
+      "pcode" : null,
+      "sname" : "S. Martino in Badia",
+      "stype" : "MeteoStation",
+      "tdescription" : "Velocitá raffica",
+      "ttype" : null,
+      "tunit" : "m/s"
+    }, {
+      "pcode" : null,
+      "sname" : "Bressanone - Villa Adele - Viale Ratisbona",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "European Air Quality Index - NO2",
+      "ttype" : "rating",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 240 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Via Galilei - Galilei-Strasse",
+      "stype" : "BikesharingStation",
+      "tdescription" : "availability",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano 5 - Piazza Adriano",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "European Air Quality Index - NO2",
+      "ttype" : "rating",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "Amount of free 'short stay' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 60 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 240 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 210 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 120 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano",
+      "stype" : "MeteoStation",
+      "tdescription" : "Direzione del vento",
+      "ttype" : null,
+      "tunit" : "° "
+    }, {
+      "pcode" : null,
+      "sname" : "A22_ML107->A22_ML103",
+      "stype" : "LinkStation",
+      "tdescription" : "average speed of vehicles faster than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano 5 - Piazza Adriano",
+      "stype" : "EnvironmentStation",
+      "tdescription" : null,
+      "ttype" : "Mean",
+      "tunit" : "mg/m³"
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "60 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "90 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano",
+      "stype" : "MeteoStation",
+      "tdescription" : "Umidità relativa",
+      "ttype" : null,
+      "tunit" : "%"
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 210 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Bressanone - Villa Adele - Viale Ratisbona",
+      "stype" : "EnvironmentStation",
+      "tdescription" : null,
+      "ttype" : "Mean",
+      "tunit" : "µSv/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 90 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Viadotto A22",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : "Mittelwerte",
+      "tunit" : "hPa"
+    }, {
+      "pcode" : null,
+      "sname" : "proma->druso-poste",
+      "stype" : "LinkStation",
+      "tdescription" : null,
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Fiera - Messe",
+      "stype" : "BikesharingStation",
+      "tdescription" : "number of available vehicles / charging points",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "A22_ML103->A22_ML107",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "ttype" : "Count",
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Stazione Bressanone",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Fuel Consumption",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Vipiteno",
+      "stype" : "MeteoStation",
+      "tdescription" : "Pressione atmosferica",
+      "ttype" : null,
+      "tunit" : "hPa"
+    }, {
+      "pcode" : null,
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingFacility",
+      "tdescription" : "occupied",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Viadotto A22",
+      "stype" : "RWISstation",
+      "tdescription" : "Umidità relativa",
+      "ttype" : null,
+      "tunit" : "%"
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 150 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Monossido di carbonio",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Acquaviva",
+      "stype" : "RWISstation",
+      "tdescription" : "Umidità relativa",
+      "ttype" : null,
+      "tunit" : "%"
+    }, {
+      "pcode" : null,
+      "sname" : "P07 - Mareccio via C. de Medici",
+      "stype" : "ParkingStation",
+      "tdescription" : "occupied",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Waltherpark",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of occupied 'subscribers' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 120 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 240 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "A22_ML107->A22_ML103",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "ttype" : "Count",
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 180 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 60 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Metano",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Anterselva di Sopra",
+      "stype" : "MeteoStation",
+      "tdescription" : "Minimum temperature",
+      "ttype" : "min",
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano 4 - Via C.Augusta",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "European Air Quality Index - NO2",
+      "ttype" : "rating",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'short stay' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di Zolfo",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "occupied",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 30 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "ISARCO A BRESSANONE",
+      "stype" : "MeteoStation",
+      "tdescription" : "Temperatura acqua",
+      "ttype" : null,
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "Palasport - Stadthalle",
+      "stype" : "BikesharingStation",
+      "tdescription" : "free-bays",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Cadino",
+      "stype" : "RWISstation",
+      "tdescription" : "Umidità relativa",
+      "ttype" : null,
+      "tunit" : "%"
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 150 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Cadino",
+      "stype" : "RWISstation",
+      "tdescription" : "Velocità del vento",
+      "ttype" : null,
+      "tunit" : "m/s"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Metano",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Via Maso della Pieve - Pfarrhofstrasse",
+      "stype" : "BikesharingStation",
+      "tdescription" : "number of available vehicles / charging points",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "120 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di azoto",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 120 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 180 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Acquaviva",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : null,
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "Acquaviva",
+      "stype" : "RWISstation",
+      "tdescription" : "Mean temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "Anterselva di Sopra",
+      "stype" : "MeteoStation",
+      "tdescription" : "Velocitá raffica",
+      "ttype" : null,
+      "tunit" : "m/s"
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 90 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 210 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Monossido di carbonio",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 60 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 180 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 60 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 240 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di azoto",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Viadotto A22",
+      "stype" : "RWISstation",
+      "tdescription" : "Mean temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "Viale della Stazione - Bahnhofsallee",
+      "stype" : "BikesharingStation",
+      "tdescription" : "total-bays",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Cortina ssdV - Strada del Vino",
+      "stype" : "EnvironmentStation",
+      "tdescription" : null,
+      "ttype" : "Mean",
+      "tunit" : "µSv/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 210 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 210 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Metano",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Anidride carbonica",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "A22_ML103->A22_ML107",
+      "stype" : "LinkStation",
+      "tdescription" : null,
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Agip_Einstein->meinstein",
+      "stype" : "LinkStation",
+      "tdescription" : null,
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di Zolfo",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "30 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "S. Martino in Badia",
+      "stype" : "MeteoStation",
+      "tdescription" : "Durata soleggiamento",
+      "ttype" : null,
+      "tunit" : "s"
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "occupied",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "druso-poste->proma",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "ttype" : "Count",
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Fiera - Messe",
+      "stype" : "BikesharingStation",
+      "tdescription" : "availability",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Viale della Stazione - Bahnhofsallee",
+      "stype" : "BikesharingStation",
+      "tdescription" : "availability",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 180 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Fuel Consumption",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "210 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Anterselva di Sopra",
+      "stype" : "MeteoStation",
+      "tdescription" : "Durata soleggiamento",
+      "ttype" : null,
+      "tunit" : "s"
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano 4 - Via C.Augusta",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "Medie orarie",
+      "ttype" : "Mean",
+      "tunit" : "ug/mc"
+    }, {
+      "pcode" : null,
+      "sname" : "Viadotto A22",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "S. Martino in Badia",
+      "stype" : "MeteoStation",
+      "tdescription" : "Mean temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 120 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Fuel Consumption",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "meinstein->Agip_Einstein",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "ttype" : "Instantaneous",
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Fiera - Messe",
+      "stype" : "BikesharingStation",
+      "tdescription" : "total-bays",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ammoniaca",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Maso_Pieve->meinstein",
+      "stype" : "LinkStation",
+      "tdescription" : "Velocita media dei veicoli",
+      "ttype" : "Mean",
+      "tunit" : "km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Casa Cantoniera",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : null,
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ammoniaca",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano",
+      "stype" : "MeteoStation",
+      "tdescription" : "Radiazione globale ",
+      "ttype" : null,
+      "tunit" : "W/m²"
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ammoniaca",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 150 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "S. Martino in Badia",
+      "stype" : "MeteoStation",
+      "tdescription" : "Direzione del vento",
+      "ttype" : null,
+      "tunit" : "° "
+    }, {
+      "pcode" : null,
+      "sname" : "Maso_Pieve->meinstein",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "ttype" : "Count",
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "150 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Acquaviva",
+      "stype" : "RWISstation",
+      "tdescription" : "Velocità del vento",
+      "ttype" : null,
+      "tunit" : "m/s"
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 210 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di Zolfo",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Vipiteno",
+      "stype" : "MeteoStation",
+      "tdescription" : "Radiazione globale ",
+      "ttype" : null,
+      "tunit" : "W/m²"
+    }, {
+      "pcode" : null,
+      "sname" : "Anterselva di Sopra",
+      "stype" : "MeteoStation",
+      "tdescription" : "Mean temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Polveri Totali Sospese",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "sname" : "Viale della Stazione - Bahnhofsallee:7",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "availability",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Vipiteno",
+      "stype" : "MeteoStation",
+      "tdescription" : "Precipitation",
+      "ttype" : "total",
+      "tunit" : "mm"
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "180 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Anterselva di Sopra",
+      "stype" : "MeteoStation",
+      "tdescription" : "Velocità del vento",
+      "ttype" : null,
+      "tunit" : "m/s"
+    }, {
+      "pcode" : null,
+      "sname" : "Maso_Pieve->meinstein",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "ttype" : "Instantaneous",
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di azoto",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "150 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "ISARCO A BOLZANO SUD",
+      "stype" : "MeteoStation",
+      "tdescription" : "Livello idrometrico",
+      "ttype" : null,
+      "tunit" : "cm"
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 60 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "210 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Anterselva di Sopra",
+      "stype" : "MeteoStation",
+      "tdescription" : "Radiazione globale ",
+      "ttype" : null,
+      "tunit" : "W/m²"
+    }, {
+      "pcode" : null,
+      "sname" : "meinstein->Agip_Einstein",
+      "stype" : "LinkStation",
+      "tdescription" : "Velocita media dei veicoli",
+      "ttype" : "Mean",
+      "tunit" : "km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Anidride carbonica",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Composti Organici Volatili",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "180 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 30 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "AURINO A S. GIORGIO",
+      "stype" : "MeteoStation",
+      "tdescription" : "Portata",
+      "ttype" : null,
+      "tunit" : "m³/s"
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 210 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "90 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Civezzano",
+      "stype" : "RWISstation",
+      "tdescription" : "Velocità del vento",
+      "ttype" : null,
+      "tunit" : "m/s"
+    }, {
+      "pcode" : null,
+      "sname" : "Laives - Via Galizia",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "European Air Quality Index - NO2",
+      "ttype" : "rating",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P13 – Direzional Park",
+      "stype" : "ParkingStation",
+      "tdescription" : "free",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "meinstein->Agip_Einstein",
+      "stype" : "LinkStation",
+      "tdescription" : "Mode for vehicles fast than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "ms"
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Waltherpark",
+      "stype" : "ParkingFacility",
+      "tdescription" : "free",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "druso-poste->proma",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "ttype" : "Instantaneous",
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Composti Organici Volatili",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Monossido di carbonio",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "ISARCO A BOLZANO SUD",
+      "stype" : "MeteoStation",
+      "tdescription" : "concentrazione solidi sospesi ",
+      "ttype" : null,
+      "tunit" : "mg/l"
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "240 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "150 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Cadino",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di azoto",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "A22_ML107->A22_ML103",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "ttype" : "Instantaneous",
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Composti Organici Volatili",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "AURINO A S. GIORGIO",
+      "stype" : "MeteoStation",
+      "tdescription" : "Livello idrometrico",
+      "ttype" : null,
+      "tunit" : "cm"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ammoniaca",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 90 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "S. Martino in Badia",
+      "stype" : "MeteoStation",
+      "tdescription" : "Radiazione globale ",
+      "ttype" : null,
+      "tunit" : "W/m²"
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 150 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 60 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "sname" : "Viale della Stazione - Bahnhofsallee:8",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano",
+      "stype" : "MeteoStation",
+      "tdescription" : "Velocità del vento",
+      "ttype" : null,
+      "tunit" : "m/s"
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Stazione Bressanone",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of occupied 'short stay' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 150 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 90 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Fuel Consumption",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingFacility",
+      "tdescription" : "free",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Bressanone - Villa Adele - Viale Ratisbona",
+      "stype" : "EnvironmentStation",
+      "tdescription" : null,
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 150 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ammoniaca",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Palasport - Stadthalle",
+      "stype" : "BikesharingStation",
+      "tdescription" : "number of available vehicles / charging points",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "sname" : "Viale della Stazione - Bahnhofsallee:6",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "sname" : "Viale della Stazione - Bahnhofsallee:3",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 120 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "occupied",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Claudia Augusta",
+      "stype" : "BikesharingStation",
+      "tdescription" : "total-bays",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Via Maso della Pieve - Pfarrhofstrasse",
+      "stype" : "BikesharingStation",
+      "tdescription" : "availability",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Metano",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 120 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "free",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 30 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "proma->druso-poste",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "ttype" : "Instantaneous",
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "90 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "60 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di Zolfo",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "60 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Anidride carbonica",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 240 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "210 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "210 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 120 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "druso-poste->proma",
+      "stype" : "LinkStation",
+      "tdescription" : null,
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Stazione Bressanone",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of occupied 'subscribers' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Waltherpark",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 150 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 30 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 60 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 120 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Claudia Augusta",
+      "stype" : "BikesharingStation",
+      "tdescription" : "availability",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "240 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 240 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Anterselva di Sopra",
+      "stype" : "MeteoStation",
+      "tdescription" : "Pressione atmosferica",
+      "ttype" : null,
+      "tunit" : "hPa"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di azoto",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Polveri Totali Sospese",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "A22_ML103->A22_ML107",
+      "stype" : "LinkStation",
+      "tdescription" : "Velocita media dei veicoli",
+      "ttype" : "Mean",
+      "tunit" : "km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di azoto",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "30 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Stazione Bressanone",
+      "stype" : "ParkingFacility",
+      "tdescription" : "occupied",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 180 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 30 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "A22 Nord-Bx sud - Depuratore, Bx",
+      "stype" : "EnvironmentStation",
+      "tdescription" : null,
+      "ttype" : "Mean",
+      "tunit" : "mg/m³"
+    }, {
+      "pcode" : null,
+      "sname" : "carvelo eCargo-Bike Sharing",
+      "stype" : "BikeSharingService",
+      "tdescription" : "number of available docks",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano",
+      "stype" : "MeteoStation",
+      "tdescription" : "Mean temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "60 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 210 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "A22_ML107->A22_ML103",
+      "stype" : "LinkStation",
+      "tdescription" : null,
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 90 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 30 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 240 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "ISARCO A BOLZANO SUD",
+      "stype" : "MeteoStation",
+      "tdescription" : "Portata",
+      "ttype" : null,
+      "tunit" : "m³/s"
+    }, {
+      "pcode" : null,
+      "sname" : "Casa Cantoniera",
+      "stype" : "RWISstation",
+      "tdescription" : "Velocità del vento",
+      "ttype" : null,
+      "tunit" : "m/s"
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano",
+      "stype" : "MeteoStation",
+      "tdescription" : "Maximum temperature",
+      "ttype" : "max",
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "Acquaviva",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano",
+      "stype" : "MeteoStation",
+      "tdescription" : "Velocitá raffica",
+      "ttype" : null,
+      "tunit" : "m/s"
+    }, {
+      "pcode" : null,
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Polveri Totali Sospese",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "A22_ML103->A22_ML107",
+      "stype" : "LinkStation",
+      "tdescription" : "Mode for vehicles fast than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "ms"
+    }, {
+      "pcode" : null,
+      "sname" : "Via Galilei - Galilei-Strasse",
+      "stype" : "BikesharingStation",
+      "tdescription" : "number of available vehicles / charging points",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "A22 Sud - Binnenland, Ora",
+      "stype" : "EnvironmentStation",
+      "tdescription" : null,
+      "ttype" : "Mean",
+      "tunit" : "mg/m³"
+    }, {
+      "pcode" : null,
+      "sname" : "S. Martino in Badia",
+      "stype" : "MeteoStation",
+      "tdescription" : "Maximum temperature",
+      "ttype" : "max",
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 210 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Civezzano",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : "Mittelwerte",
+      "tunit" : "hPa"
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 180 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "occupied",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di Zolfo",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Agip_Einstein->meinstein",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "ttype" : "Instantaneous",
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "AURINO A S. GIORGIO",
+      "stype" : "MeteoStation",
+      "tdescription" : "concentrazione solidi sospesi ",
+      "ttype" : null,
+      "tunit" : "mg/l"
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 90 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Rocchetta",
+      "stype" : "RWISstation",
+      "tdescription" : "Velocità del vento",
+      "ttype" : null,
+      "tunit" : "m/s"
+    }, {
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "sname" : "Viale della Stazione - Bahnhofsallee:5",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "availability",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 210 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Viadotto A22",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : null,
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "A22 Nord-Bx sud - Depuratore, Bx",
+      "stype" : "EnvironmentStation",
+      "tdescription" : "European Air Quality Index - NO2",
+      "ttype" : "rating",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "Amount of occupied 'short stay' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Viadotto A22",
+      "stype" : "RWISstation",
+      "tdescription" : "Velocità del vento",
+      "ttype" : null,
+      "tunit" : "m/s"
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Fuel Consumption",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Palasport - Stadthalle",
+      "stype" : "BikesharingStation",
+      "tdescription" : "total-bays",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Anterselva di Sopra",
+      "stype" : "MeteoStation",
+      "tdescription" : "Umidità relativa",
+      "ttype" : null,
+      "tunit" : "%"
+    }, {
+      "pcode" : null,
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of occupied 'short stay' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "meinstein->Agip_Einstein",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "ttype" : "Count",
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "free",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Polveri Totali Sospese",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Civezzano",
+      "stype" : "RWISstation",
+      "tdescription" : "Umidità relativa",
+      "ttype" : null,
+      "tunit" : "%"
+    }, {
+      "pcode" : null,
+      "sname" : "Casa Cantoniera",
+      "stype" : "RWISstation",
+      "tdescription" : "Umidità relativa",
+      "ttype" : null,
+      "tunit" : "%"
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 240 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Casa Cantoniera",
+      "stype" : "RWISstation",
+      "tdescription" : "Mean temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Stazione Brunico",
+      "stype" : "ParkingFacility",
+      "tdescription" : "occupied",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 210 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 30 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "105_facility",
+      "sname" : "P05 - Laurin",
+      "stype" : "ParkingStation",
+      "tdescription" : "120 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 180 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "sname" : "Viale della Stazione - Bahnhofsallee:8",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "availability",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "Rocchetta",
+      "stype" : "RWISstation",
+      "tdescription" : "Mean temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano",
+      "stype" : "MeteoStation",
+      "tdescription" : null,
+      "ttype" : "Sum",
+      "tunit" : "s"
+    }, {
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "sname" : "Viale della Stazione - Bahnhofsallee:4",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "availability",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "polveri sottili",
+      "ttype" : "Mean",
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Bressanone - Villa Adele - Viale Ratisbona",
+      "stype" : "EnvironmentStation",
+      "tdescription" : null,
+      "ttype" : "Mean",
+      "tunit" : "mg/m³"
+    }, {
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "sname" : "Viale della Stazione - Bahnhofsallee:5",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Anidride carbonica",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Vipiteno",
+      "stype" : "MeteoStation",
+      "tdescription" : "Durata soleggiamento",
+      "ttype" : null,
+      "tunit" : "s"
+    }, {
+      "pcode" : null,
+      "sname" : "Vipiteno",
+      "stype" : "MeteoStation",
+      "tdescription" : "Umidità relativa",
+      "ttype" : null,
+      "tunit" : "%"
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 120 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Monossido di carbonio",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Composti Organici Volatili",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 60 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Fuel Consumption",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Stazione Brunico",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of occupied 'subscribers' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "S. Martino in Badia",
+      "stype" : "MeteoStation",
+      "tdescription" : "Velocità del vento",
+      "ttype" : null,
+      "tunit" : "m/s"
+    }, {
+      "pcode" : null,
+      "sname" : "Rocchetta",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : "Mittelwerte",
+      "tunit" : "hPa"
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di azoto",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 90 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "60 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 150 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 90 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "optimistic 210 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Stazione Bressanone",
+      "stype" : "ParkingFacility",
+      "tdescription" : "free",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Bolzano 5 - Piazza Adriano",
+      "stype" : "EnvironmentStation",
+      "tdescription" : null,
+      "ttype" : "Mean",
+      "tunit" : "µg/m³"
+    }, {
+      "pcode" : null,
+      "sname" : "P03 - Piazza Walther",
+      "stype" : "ParkingStation",
+      "tdescription" : "mean square error of 90 minutes forecasts",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "meinstein->Agip_Einstein",
+      "stype" : "LinkStation",
+      "tdescription" : null,
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Metano",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Viale della Stazione - Bahnhofsallee",
+      "stype" : "BikesharingStation",
+      "tdescription" : "number of available vehicles / charging points",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Via Maso della Pieve - Pfarrhofstrasse",
+      "stype" : "BikesharingStation",
+      "tdescription" : "total-bays",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "siemens->proma",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "ttype" : "Instantaneous",
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Polveri Totali Sospese",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "120 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "A22_ML103->A22_ML107",
+      "stype" : "LinkStation",
+      "tdescription" : "average speed of vehicles faster than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "240 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Stazione Brunico",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of occupied 'short stay' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Rocchetta",
+      "stype" : "RWISstation",
+      "tdescription" : "Umidità relativa",
+      "ttype" : null,
+      "tunit" : "%"
+    }, {
+      "pcode" : null,
+      "sname" : "Cadino",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : null,
+      "tunit" : "°C"
+    }, {
+      "pcode" : null,
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di azoto",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Waltherpark",
+      "stype" : "ParkingFacility",
+      "tdescription" : "occupied",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "Casa Cantoniera",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : "Mittelwerte",
+      "tunit" : "hPa"
+    }, {
+      "pcode" : null,
+      "sname" : "P12 – Piazza Tribunale",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 90 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Monossido di carbonio",
+      "ttype" : null,
+      "tunit" : "g/km/h"
+    }, {
+      "pcode" : null,
+      "sname" : "P04 - Luna via Molini",
+      "stype" : "ParkingStation",
+      "tdescription" : "conservative 60 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "sname" : "Viale della Stazione - Bahnhofsallee:7",
+      "stype" : "Bicyclestationbay",
+      "tdescription" : "usage-state",
+      "ttype" : null,
+      "tunit" : null
+    }, {
+      "pcode" : null,
+      "sname" : "P15 - Palasport via Resia",
+      "stype" : "ParkingStation",
+      "tdescription" : "120 minutes forecast",
+      "ttype" : "Forecast",
+      "tunit" : ""
+    }, {
+      "pcode" : null,
+      "sname" : "ISARCO A BRESSANONE",
+      "stype" : "MeteoStation",
+      "tdescription" : "Portata",
+      "ttype" : null,
+      "tunit" : "m³/s"
+    }, {
+      "pcode" : null,
+      "sname" : "Parcheggio Stazione Bressanone",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'short stay' parking slots",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

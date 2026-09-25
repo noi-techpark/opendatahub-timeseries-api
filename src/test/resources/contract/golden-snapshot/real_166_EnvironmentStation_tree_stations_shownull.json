@@ -1,0 +1,78 @@
+{
+  "request" : "GET /tree/EnvironmentStation?limit=100&shownull=true&select=scode,sname,pname,smetadata [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "EnvironmentStation" : {
+        "stations" : {
+          "AB2" : {
+            "scode" : "AB2",
+            "smetadata" : {
+              "municipality" : "Egna"
+            },
+            "sname" : "A22 Sud - Binnenland, Ora"
+          },
+          "AB3" : {
+            "scode" : "AB3",
+            "smetadata" : {
+              "municipality" : "Bressanone"
+            },
+            "sname" : "A22 Nord-Bx sud - Depuratore, Bx"
+          },
+          "BX1" : {
+            "scode" : "BX1",
+            "smetadata" : {
+              "municipality" : "Bressanone"
+            },
+            "sname" : "Bressanone - Villa Adele - Viale Ratisbona"
+          },
+          "BZ4" : {
+            "scode" : "BZ4",
+            "smetadata" : {
+              "municipality" : "Bolzano"
+            },
+            "sname" : "Bolzano 4 - Via C.Augusta"
+          },
+          "BZ5" : {
+            "scode" : "BZ5",
+            "smetadata" : {
+              "municipality" : "Bolzano"
+            },
+            "sname" : "Bolzano 5 - Piazza Adriano"
+          },
+          "BZ6" : {
+            "scode" : "BZ6",
+            "smetadata" : {
+              "municipality" : "Bolzano"
+            },
+            "sname" : "Bolzano 6 - Via Amba Alagi giardino"
+          },
+          "CR1" : {
+            "scode" : "CR1",
+            "smetadata" : {
+              "municipality" : "Cortina ssdV"
+            },
+            "sname" : "Cortina ssdV - Strada del Vino"
+          },
+          "LS1" : {
+            "scode" : "LS1",
+            "smetadata" : {
+              "municipality" : "Laives"
+            },
+            "sname" : "Laives - Via Galizia"
+          }
+        }
+      }
+    },
+    "limit" : 100,
+    "offset" : 0
+  }
+}

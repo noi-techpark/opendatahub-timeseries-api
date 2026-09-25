@@ -1,0 +1,904 @@
+{
+  "request" : "GET /tree/RWISstation/*/latest?limit=100&timezone=Europe/Rome [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.151913,
+              "y" : 46.210154
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.243+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 53
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-humidity",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.283+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 14.1
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.325+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 988
+                } ],
+                "tname" : "atmospheric-pressure",
+                "ttype" : "Mittelwerte",
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.350+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 13.3
+                } ],
+                "tname" : "ground-surface-temperature",
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.399+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 0
+                } ],
+                "tname" : "precipitation-intensity"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.455+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 0
+                } ],
+                "tname" : "type-of-precipitation"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.533+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 3.3
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Faedo"
+            },
+            "sname" : "Cadino",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis2" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "rwis2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.134472,
+              "y" : 46.197769
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2015-11-30 19:50:02.620+0100",
+                  "mvalidtime" : "2015-11-30 12:00:00.000+0100",
+                  "mvalue" : 54
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-humidity",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2015-11-30 19:50:02.605+0100",
+                  "mvalidtime" : "2015-11-30 12:00:00.000+0100",
+                  "mvalue" : 2.96
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2015-11-30 19:50:02.661+0100",
+                  "mvalidtime" : "2015-11-30 12:00:00.000+0100",
+                  "mvalue" : 998
+                } ],
+                "tname" : "atmospheric-pressure",
+                "ttype" : "Mittelwerte",
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2015-11-30 19:50:02.710+0100",
+                  "mvalidtime" : "2015-11-30 12:00:00.000+0100",
+                  "mvalue" : 2.92
+                } ],
+                "tname" : "ground-surface-temperature",
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Migration from V1: Measurements"
+                  },
+                  "mtransactiontime" : "2015-11-30 19:50:02.697+0100",
+                  "mvalidtime" : "2015-11-30 12:00:00.000+0100",
+                  "mvalue" : 0
+                } ],
+                "tname" : "precipitation-intensity"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2015-11-30 19:50:02.678+0100",
+                  "mvalidtime" : "2015-11-30 12:00:00.000+0100",
+                  "mvalue" : 0
+                } ],
+                "tname" : "type-of-precipitation"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2015-11-30 19:50:02.647+0100",
+                  "mvalidtime" : "2015-11-30 12:00:00.000+0100",
+                  "mvalue" : 5.7
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "San Michele all'Adige"
+            },
+            "sname" : "S.Michele",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis3" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis3",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.069111,
+              "y" : 46.23165
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.597+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 50
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-humidity",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.638+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 13.3
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.678+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 984
+                } ],
+                "tname" : "atmospheric-pressure",
+                "ttype" : "Mittelwerte",
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.725+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 15.2
+                } ],
+                "tname" : "ground-surface-temperature",
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.769+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 0
+                } ],
+                "tname" : "precipitation-intensity"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.801+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 0
+                } ],
+                "tname" : "type-of-precipitation"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.839+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 12.7
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Predaia"
+            },
+            "sname" : "Rocchetta",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis4" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis4",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.101253,
+              "y" : 46.151711
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.891+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 48
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-humidity",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.930+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 13.7
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:02.971+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 990
+                } ],
+                "tname" : "atmospheric-pressure",
+                "ttype" : "Mittelwerte",
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.012+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 14.8
+                } ],
+                "tname" : "ground-surface-temperature",
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.059+0200",
+                  "mvalidtime" : "2018-04-03 18:50:00.000+0200",
+                  "mvalue" : 0
+                } ],
+                "tname" : "precipitation-intensity"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.104+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 0
+                } ],
+                "tname" : "type-of-precipitation"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.131+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 8.1
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Lavis"
+            },
+            "sname" : "Casa Cantoniera",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis5" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis5",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.08575,
+              "y" : 46.122225
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.172+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 45
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-humidity",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.206+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 13.9
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.218+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 876
+                } ],
+                "tname" : "atmospheric-pressure",
+                "ttype" : "Mittelwerte",
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.265+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 15.9
+                } ],
+                "tname" : "ground-surface-temperature",
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.318+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 0
+                } ],
+                "tname" : "precipitation-intensity"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.356+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 0
+                } ],
+                "tname" : "type-of-precipitation"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.399+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 14.2
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Trento"
+            },
+            "sname" : "Viadotto A22",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis6" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis6",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.113311,
+              "y" : 45.97342
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.436+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 60
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-humidity",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.471+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 14.2
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.507+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 996
+                } ],
+                "tname" : "atmospheric-pressure",
+                "ttype" : "Mittelwerte",
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.533+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 16.2
+                } ],
+                "tname" : "ground-surface-temperature",
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.576+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 1
+                } ],
+                "tname" : "precipitation-intensity"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.606+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 1
+                } ],
+                "tname" : "type-of-precipitation"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.637+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 8.3
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Calliano"
+            },
+            "sname" : "Acquaviva",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis7" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis7",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.183341,
+              "y" : 46.083308
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.666+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 56
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-humidity",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.705+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 13.1
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.731+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 969
+                } ],
+                "tname" : "atmospheric-pressure",
+                "ttype" : "Mittelwerte",
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.762+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 14.2
+                } ],
+                "tname" : "ground-surface-temperature",
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.787+0200",
+                  "mvalidtime" : "2018-04-03 18:50:00.000+0200",
+                  "mvalue" : 0
+                } ],
+                "tname" : "precipitation-intensity"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.823+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 0
+                } ],
+                "tname" : "type-of-precipitation"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 19:20:03.853+0200",
+                  "mvalidtime" : "2018-04-03 19:00:00.000+0200",
+                  "mvalue" : 2.1
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Civezzano"
+            },
+            "sname" : "Civezzano",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          }
+        }
+      }
+    },
+    "limit" : 100,
+    "offset" : 0
+  }
+}

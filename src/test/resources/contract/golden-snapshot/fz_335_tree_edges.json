@@ -1,0 +1,1951 @@
+{
+  "request" : "GET /tree,edge/*?limit=-1&select=secode,etype&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "LinkStation" : {
+        "edges" : {
+          "1853-1854" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : null
+            },
+            "etype" : "LinkStation"
+          },
+          "A22_ML103->A22_ML107" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "A22_ML107"
+            },
+            "etype" : "LinkStation"
+          },
+          "A22_ML103->Torricelli" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Torricelli"
+            },
+            "etype" : "LinkStation"
+          },
+          "A22_ML107->A22_ML103" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "A22_ML103"
+            },
+            "etype" : "LinkStation"
+          },
+          "Agip_Einstein->Torricelli" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Torricelli"
+            },
+            "etype" : "LinkStation"
+          },
+          "Agip_Einstein->meinstein" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Agip_Einstein"
+            },
+            "etype" : "LinkStation"
+          },
+          "Arginale_Palermo->Arginale_Resia" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Arginale_Resia"
+            },
+            "etype" : "LinkStation"
+          },
+          "Arginale_Palermo->Milano_Palermo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Milano_Palermo"
+            },
+            "etype" : "LinkStation"
+          },
+          "Arginale_Resia->A22_ML103" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "A22_ML103"
+            },
+            "etype" : "LinkStation"
+          },
+          "Arginale_Resia->Agip_Einstein" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Agip_Einstein"
+            },
+            "etype" : "LinkStation"
+          },
+          "Arginale_Resia->Milano_Resia" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Milano_Resia"
+            },
+            "etype" : "LinkStation"
+          },
+          "Druso_Palermo->Milano_Palermo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Milano_Palermo"
+            },
+            "etype" : "LinkStation"
+          },
+          "Druso_Palermo->Milano_Resia" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Milano_Resia"
+            },
+            "etype" : "LinkStation"
+          },
+          "Druso_Palermo->druso-poste" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "druso-poste"
+            },
+            "etype" : "LinkStation"
+          },
+          "Galilei_Lancia->Galilei_Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Galilei_Virgolo"
+            },
+            "etype" : "LinkStation"
+          },
+          "Galilei_Lancia->galvani" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "galvani"
+            },
+            "etype" : "LinkStation"
+          },
+          "Galilei_Palermo->Galilei_Lancia" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Galilei_Lancia"
+            },
+            "etype" : "LinkStation"
+          },
+          "Galilei_Roma->Maso_Pieve" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Maso_Pieve"
+            },
+            "etype" : "LinkStation"
+          },
+          "Galilei_Roma->caugusta" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "caugusta"
+            },
+            "etype" : "LinkStation"
+          },
+          "Galilei_Roma->druso-poste" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "druso-poste"
+            },
+            "etype" : "LinkStation"
+          },
+          "Galilei_Virgolo->Galilei_Roma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Galilei_Roma"
+            },
+            "etype" : "LinkStation"
+          },
+          "Galilei_Virgolo->Galleria_Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Galleria_Virgolo"
+            },
+            "etype" : "LinkStation"
+          },
+          "Galleria_Virgolo->Arginale_Palermo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Arginale_Palermo"
+            },
+            "etype" : "LinkStation"
+          },
+          "Galleria_Virgolo->P_Campiglio" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "P_Campiglio"
+            },
+            "etype" : "LinkStation"
+          },
+          "Galleria_Virgolo->proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "LinkStation"
+          },
+          "Maso_Pieve->meinstein" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "meinstein"
+            },
+            "etype" : "LinkStation"
+          },
+          "Milano_Palermo->Druso_Palermo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Druso_Palermo"
+            },
+            "etype" : "LinkStation"
+          },
+          "Milano_Palermo->Milano_Resia" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Milano_Resia"
+            },
+            "etype" : "LinkStation"
+          },
+          "Milano_Palermo->Roma_Firenze" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Roma_Firenze"
+            },
+            "etype" : "LinkStation"
+          },
+          "Milano_Resia->Druso_Palermo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Druso_Palermo"
+            },
+            "etype" : "LinkStation"
+          },
+          "Milano_Resia->Milano_Palermo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Milano_Palermo"
+            },
+            "etype" : "LinkStation"
+          },
+          "P_Campiglio->Arginale_Resia" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Arginale_Resia"
+            },
+            "etype" : "LinkStation"
+          },
+          "P_Campiglio->Galleria_Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Galleria_Virgolo"
+            },
+            "etype" : "LinkStation"
+          },
+          "Roma_Firenze->Milano_Palermo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Milano_Palermo"
+            },
+            "etype" : "LinkStation"
+          },
+          "Roma_Firenze->druso-poste" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "druso-poste"
+            },
+            "etype" : "LinkStation"
+          },
+          "Roma_Firenze->proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "LinkStation"
+          },
+          "TN-Acquaviva->TN-Sud" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "TN-Sud"
+            },
+            "etype" : "LinkStation"
+          },
+          "TN-Cadino->TN-Nord" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "TN-Nord"
+            },
+            "etype" : "LinkStation"
+          },
+          "TN-Maccani->TN-Nord" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "TN-Nord"
+            },
+            "etype" : "LinkStation"
+          },
+          "TN-Maccani->TN-Sud" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "TN-Sud"
+            },
+            "etype" : "LinkStation"
+          },
+          "TN-Nord->TN-Cadino" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "TN-Cadino"
+            },
+            "etype" : "LinkStation"
+          },
+          "TN-Nord->TN-Maccani" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "TN-Maccani"
+            },
+            "etype" : "LinkStation"
+          },
+          "TN-Sud->TN-Acquaviva" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "TN-Acquaviva"
+            },
+            "etype" : "LinkStation"
+          },
+          "TN-Sud->TN-Maccani" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "TN-Maccani"
+            },
+            "etype" : "LinkStation"
+          },
+          "Torricelli->P_Campiglio" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "P_Campiglio"
+            },
+            "etype" : "LinkStation"
+          },
+          "Torricelli->siemens" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "siemens"
+            },
+            "etype" : "LinkStation"
+          },
+          "caugusta->Galilei_Roma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Galilei_Roma"
+            },
+            "etype" : "LinkStation"
+          },
+          "caugusta->Maso_Pieve" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Maso_Pieve"
+            },
+            "etype" : "LinkStation"
+          },
+          "cavour->scena-leichter" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "scena-leichter"
+            },
+            "etype" : "LinkStation"
+          },
+          "cavour->schaffer-winkel" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "schaffer-winkel"
+            },
+            "etype" : "LinkStation"
+          },
+          "cavour->sinigo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "sinigo"
+            },
+            "etype" : "LinkStation"
+          },
+          "cavour->terme_est" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "terme_est"
+            },
+            "etype" : "LinkStation"
+          },
+          "corse_cappuccini->galilei" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "galilei"
+            },
+            "etype" : "LinkStation"
+          },
+          "corse_cappuccini->wolf" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "wolf"
+            },
+            "etype" : "LinkStation"
+          },
+          "corse_cappuccini->wolf-franziskus" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "wolf-franziskus"
+            },
+            "etype" : "LinkStation"
+          },
+          "druso-poste->Druso_Palermo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Druso_Palermo"
+            },
+            "etype" : "LinkStation"
+          },
+          "druso-poste->Galilei_Roma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Galilei_Roma"
+            },
+            "etype" : "LinkStation"
+          },
+          "druso-poste->Roma_Firenze" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Roma_Firenze"
+            },
+            "etype" : "LinkStation"
+          },
+          "druso-poste->proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "LinkStation"
+          },
+          "galilei->corse_cappuccini" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "corse_cappuccini"
+            },
+            "etype" : "LinkStation"
+          },
+          "galvani->Galilei_Lancia" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Galilei_Lancia"
+            },
+            "etype" : "LinkStation"
+          },
+          "galvani->meinstein" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "meinstein"
+            },
+            "etype" : "LinkStation"
+          },
+          "goethe-alpini->hofer" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "hofer"
+            },
+            "etype" : "LinkStation"
+          },
+          "goethe_ospedale->hofer" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "hofer"
+            },
+            "etype" : "LinkStation"
+          },
+          "goethe_ospedale->sinigo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "sinigo"
+            },
+            "etype" : "LinkStation"
+          },
+          "goethe_ospedale->stazione" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "stazione"
+            },
+            "etype" : "LinkStation"
+          },
+          "goethe_ospedale->wolf-franziskus" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "wolf-franziskus"
+            },
+            "etype" : "LinkStation"
+          },
+          "hofer->goethe-alpini" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "goethe-alpini"
+            },
+            "etype" : "LinkStation"
+          },
+          "hofer->goethe_ospedale" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "goethe_ospedale"
+            },
+            "etype" : "LinkStation"
+          },
+          "huber->liberta-corse" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "liberta-corse"
+            },
+            "etype" : "LinkStation"
+          },
+          "huber->mazzini" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "mazzini"
+            },
+            "etype" : "LinkStation"
+          },
+          "liberta-corse->corse_cappuccini" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "corse_cappuccini"
+            },
+            "etype" : "LinkStation"
+          },
+          "liberta-corse->huber" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "huber"
+            },
+            "etype" : "LinkStation"
+          },
+          "liberta-corse->mazzini" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "mazzini"
+            },
+            "etype" : "LinkStation"
+          },
+          "liberta-corse->terme_ovest" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "terme_ovest"
+            },
+            "etype" : "LinkStation"
+          },
+          "mazzini->huber" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "huber"
+            },
+            "etype" : "LinkStation"
+          },
+          "mazzini->ponte_rezia" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte_rezia"
+            },
+            "etype" : "LinkStation"
+          },
+          "mazzini->stazione" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "stazione"
+            },
+            "etype" : "LinkStation"
+          },
+          "meinstein->Agip_Einstein" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "meinstein"
+            },
+            "etype" : "LinkStation"
+          },
+          "meinstein->Maso_Pieve" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Maso_Pieve"
+            },
+            "etype" : "LinkStation"
+          },
+          "meinstein->galvani" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "galvani"
+            },
+            "etype" : "LinkStation"
+          },
+          "petrarca->ponte_rezia" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte_rezia"
+            },
+            "etype" : "LinkStation"
+          },
+          "piave-palade->piave_matteotti" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "piave_matteotti"
+            },
+            "etype" : "LinkStation"
+          },
+          "piave-palade->zuegg-palade" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "zuegg-palade"
+            },
+            "etype" : "LinkStation"
+          },
+          "piave_matteotti->piave-palade" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "piave-palade"
+            },
+            "etype" : "LinkStation"
+          },
+          "piave_matteotti->roma_nord" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "roma_nord"
+            },
+            "etype" : "LinkStation"
+          },
+          "ponte_rezia->mazzini" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "mazzini"
+            },
+            "etype" : "LinkStation"
+          },
+          "ponte_rezia->petrarca" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "petrarca"
+            },
+            "etype" : "LinkStation"
+          },
+          "proma->Roma_Firenze" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Roma_Firenze"
+            },
+            "etype" : "LinkStation"
+          },
+          "proma->druso-poste" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "druso-poste"
+            },
+            "etype" : "LinkStation"
+          },
+          "roma_nord->roma_sud" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "roma_sud"
+            },
+            "etype" : "LinkStation"
+          },
+          "roma_nord->terme_est" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "terme_est"
+            },
+            "etype" : "LinkStation"
+          },
+          "roma_sud->roma_nord" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "roma_nord"
+            },
+            "etype" : "LinkStation"
+          },
+          "roma_sud->sinigo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "sinigo"
+            },
+            "etype" : "LinkStation"
+          },
+          "scena-leichter->cavour" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "cavour"
+            },
+            "etype" : "LinkStation"
+          },
+          "schaffer-winkel->cavour" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "cavour"
+            },
+            "etype" : "LinkStation"
+          },
+          "siemens->Galilei_Palermo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Galilei_Palermo"
+            },
+            "etype" : "LinkStation"
+          },
+          "siemens->proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "LinkStation"
+          },
+          "sinigo->cavour" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "cavour"
+            },
+            "etype" : "LinkStation"
+          },
+          "sinigo->goethe_ospedale" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "goethe_ospedale"
+            },
+            "etype" : "LinkStation"
+          },
+          "sinigo->roma_sud" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "roma_sud"
+            },
+            "etype" : "LinkStation"
+          },
+          "stazione->goethe_ospedale" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "goethe_ospedale"
+            },
+            "etype" : "LinkStation"
+          },
+          "stazione->mazzini" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "mazzini"
+            },
+            "etype" : "LinkStation"
+          },
+          "terme_est->terme_ovest" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "terme_ovest"
+            },
+            "etype" : "LinkStation"
+          },
+          "terme_ovest->liberta-corse" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "liberta-corse"
+            },
+            "etype" : "LinkStation"
+          },
+          "terme_ovest->piave_matteotti" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "piave_matteotti"
+            },
+            "etype" : "LinkStation"
+          },
+          "terme_ovest->zuegg-palade" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "zuegg-palade"
+            },
+            "etype" : "LinkStation"
+          },
+          "wolf->corse_cappuccini" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "corse_cappuccini"
+            },
+            "etype" : "LinkStation"
+          },
+          "wolf-franziskus->corse_cappuccini" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "corse_cappuccini"
+            },
+            "etype" : "LinkStation"
+          },
+          "wolf-franziskus->goethe_ospedale" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "goethe_ospedale"
+            },
+            "etype" : "LinkStation"
+          },
+          "zuegg-palade->piave-palade" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "piave-palade"
+            },
+            "etype" : "LinkStation"
+          },
+          "zuegg-palade->terme_est" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "terme_est"
+            },
+            "etype" : "LinkStation"
+          }
+        }
+      },
+      "TrafficStreetFactor" : {
+        "edges" : {
+          "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN + Autostrada Fittizzia" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Autostrada Fittizzia"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1 + via Vittorio Veneto" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Vittorio Veneto"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 3 + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "CORSO ITALIA / ITALIENALLEE + druso-poste" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "druso-poste"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "COSTA DI SOTTO / UNTERLEITACH + SS12 Cardano" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "SS12 Cardano"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "GALLERIA DEL VIRGOLO / VIRGL TUNNEL + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "GALLERIA SS12 / SS12 TUNNEL + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1 + aeinstein" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Agip_Einstein"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2 + aeinstein" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Agip_Einstein"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "PIAZZA ADRIANO + druso-poste" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "druso-poste"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "PIAZZA GIUSEPPE MAZZINI / GIUSEPPE-MAZZINI-PLATZ + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "PIAZZA GIUSEPPE VERDI / GIUSEPPE-VERDI-PLATZ + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "PIAZZA GRIES / GRIESER PLATZ + via Vittorio Veneto" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Vittorio Veneto"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "PIAZZA VITTORIA + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "PONTE DRUSO / DRUSUSBRCKE + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "PONTE PALERMO / PALERMOBRCKE + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "PONTE ROMA + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "PONTE ROMA / ROMBRCKE 1 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "PONTE ROMA / ROMBRCKE 2 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "PONTE SANT'ANTONIO / ST.-ANTON-BRCKE + Sarentino" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Sarentino"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "PONTE TALVERA / TALFERBRCKE + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "PONTE VIRGOLO + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "S.S. RENON + Renon" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Renon"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "SP 99 S. GENESIO / LS 99 JENESIEN 1 + S. Genesio" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "S. Genesio"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "SP 99 S. GENESIO / LS 99 JENESIEN 2 + S. Genesio" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "S. Genesio"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "SP 99 S. GENESIO / LS 99 JENESIEN 3 + S. Genesio" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "S. Genesio"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "SS 12 / SS12  1 + SS12 Pineta" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "SS12 Pineta"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "SS 12 / SS12  2 + SS12 Pineta" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "SS12 Pineta"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "SS 38 / SS38 + Settequerce" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Settequerce"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "SS 42 / SS42 + SS42" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "SS42"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "SVINCOLO VIA GALILEI 1 + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "SVINCOLO VIA GALILEI 2 + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 1 + via Einstein 1" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Einstein 1"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 2 + incrocio via Duerer - Pfarrhofstrasse" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "incrocio via Duerer - Pfarrhofstrasse"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 3 + via Einstein 1" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Einstein 1"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 4 + SS12 Pineta" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "SS12 Pineta"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ALESSANDRIA + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE + galvani" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "galvani"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1 + siemens" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "siemens"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 2 + siemens" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "siemens"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ANTONIO ROSMINI / ANTONIO-ROSMINI-STRASSE + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ARMANDO DIAZ / ARMANDO-DIAZ-STRASSE + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA BARI + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA BEATO ARRIGO / SELIG-HEINRICH-STRASSE + Sarentino" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Sarentino"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA BRENNERO + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA BRENNERO / BRENNERSTRASSE + Renon" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Renon"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA BUOZZI 1 + galvani" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "galvani"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA BUOZZI 2 + galvani" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "galvani"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA BUOZZI 3 + galvani" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "galvani"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA CASSA DI RISPARMIO + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA CASSA DI RISPARMIO / SPARKASSENSTRASSE + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA CASTEL FIRMIANO / SIGMUNDSKRONER STRASSE + SS42" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "SS42"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA CAVOUR + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA CESARE BATTISTI + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA CLAUDIA AUGUSTA 1 + incrocio via Duerer - Pfarrhofstrasse" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "incrocio via Duerer - Pfarrhofstrasse"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA CLAUDIA AUGUSTA 2 + via Claudia Augusta 1" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Claudia Augusta 1"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA CLAUDIA AUGUSTA 3 + incrocio via Duerer - Pfarrhofstrasse" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "incrocio via Duerer - Pfarrhofstrasse"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA CLAUDIA AUGUSTA 4 + via Claudia Augusta 1" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Claudia Augusta 1"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA CLAUDIA AUGUSTA 5 + via Claudia Augusta 1" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Claudia Augusta 1"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA COLOGNA / GLANINGER WEG + S. Genesio" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "S. Genesio"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA DALMAZIA 1 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA DALMAZIA 2 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA DANTE / DANTESTRASSE + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA DEL MACELLO 1 + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA DEL MACELLO 2 + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA DEL MACELLO 3 + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA DEL MACELLO 4 + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA DELL OSPEDALE / SPITALGASSE + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA DUCA Di AOSTA 1 + druso-poste" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "druso-poste"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA DUCA Di AOSTA 2 + druso-poste" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "druso-poste"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA EBNER + galvani" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "galvani"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA EDISON + via Torricelli" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Torricelli"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE + aeinstein" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Agip_Einstein"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA EVANGELISTA TORRICELLI / EVANGELISTA-TORRICELLI-STRASSE + via Torricelli" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Torricelli"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA FAGO / FAGENSTRASSE + via Vittorio Veneto" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Vittorio Veneto"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA GAISMAIR + druso-poste" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "druso-poste"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA GALILEI + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA GALILEO GALILEI / GALILEO-GALILEI-STRASSE + siemens" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "siemens"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA GIOSUÈ CARDUCCI / GIOSUÈ-CARDUCCI-STRASSE + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA GIUSEPPE GARIBALDI / GIUSEPPE-GARIBALDI-STRASSE + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA GUGLIELMO MARCONI / GUGLIELMO-MARCONI-STRASSE + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA INNSBRUCK / INNSBRUCKER STRASSE 2 + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA INNSBRUCK / INNSBRUCKER STRASSE 3 + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA INNSBRUCK / INNSBRUCKER STRASSE 4 + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA INNSBRUCK / INNSBRUCKER STRASSE 5 + SS12 Cardano" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "SS12 Cardano"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA INNSBRUCK / INNSBRUCKER STRASSE 6 + SS12 Cardano" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "SS12 Cardano"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA INNSBRUCK / INNSBRUCKER STRASSE 7 + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA LORENZ BHLER / LORENZ-BHLER-STRASSE + Settequerce" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Settequerce"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA LORIS MUSY / LORIS-MUSY-STRASSE + incrocio via Duerer - Pfarrhofstrasse" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "incrocio via Duerer - Pfarrhofstrasse"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 1 + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 2 + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 1 + galvani" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "galvani"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 2 + galvani" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "galvani"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 1 + incrocio via Duerer - Pfarrhofstrasse" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "incrocio via Duerer - Pfarrhofstrasse"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 2 + incrocio via Duerer - Pfarrhofstrasse" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "incrocio via Duerer - Pfarrhofstrasse"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 3 + incrocio via Duerer - Pfarrhofstrasse" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "incrocio via Duerer - Pfarrhofstrasse"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA MAYR NUSSER 1 + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA MAYR NUSSER 2 + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA MAYR NUSSER 3 + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA MAYR NUSSER 4 + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 1 + MEBO" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "MEBO"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 2 + MEBO" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "MEBO"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 3 + MEBO" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "MEBO"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA MENDOLA + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA MERANO / MERANER STRASSE 1 + incrocio via Resia - viale Druso 1" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "incrocio via Resia - viale Druso 1"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA MERANO / MERANER STRASSE 2 + Settequerce" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Settequerce"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA MILANO 1 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA MILANO 2 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA MIRAMONTI / REICHRIEGLERWEG + S. Genesio" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "S. Genesio"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA MUSEO / MUSEUMSTRASSE + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA OLTRADIGE / UEBERETSCHER STRASSE + SS42" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "SS42"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA PALERMO / PALERMOSTRASSE 1 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA PALERMO / PALERMOSTRASSE 2 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA PALERMO / PALERMOSTRASSE 3 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA PARMA 1 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA PARMA 2 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA RENCIO / RENTSCHER STRASSE + SS12 Cardano" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "SS12 Cardano"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA RENCIO / RENTSCHNER STRASSE + Renon" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Renon"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA RENON / RITTNER STRASSE + ponte Virgolo" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Virgolo"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA RESIA 2 + incrocio via Resia - viale Druso 1" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "incrocio via Resia - viale Druso 1"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA RIGHI + siemens" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "siemens"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ROEN + druso-poste" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "druso-poste"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ROMA / ROMSTRASSE + via Claudia Augusta 1" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Claudia Augusta 1"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ROMA / ROMSTRASSE 1 + via Claudia Augusta 1" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Claudia Augusta 1"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ROMA / ROMSTRASSE 2 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ROMA / ROMSTRASSE 3 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ROVIGO 1 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA ROVIGO 2 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA S. GIACOMO / ST.-JAKOB-STRASSE + incrocio via Duerer - Pfarrhofstrasse" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "incrocio via Duerer - Pfarrhofstrasse"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA S. MAURIZIO + Settequerce" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Settequerce"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA S. QUIRINO + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA SAN GENESIO / JENESIER WEG + S. Genesio" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "S. Genesio"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA SAN MAURIZIO / MORITZINGER WEG + via Vittorio Veneto" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Vittorio Veneto"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA SANT'ANTONIO / ST.-ANTON-STRASSE + Sarentino" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Sarentino"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA SARENTINO / SARNTALER  STRASSE 1 + Sarentino" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Sarentino"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA SARENTINO / SARNTALER  STRASSE 2 + Sarentino" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Sarentino"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA SASSARI 1 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA SASSARI 2 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA SASSARI 3 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA TALVERA + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA TORINO 1 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA TORINO 2 + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA TORRICELLI + via Torricelli" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Torricelli"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA TRE SANTI + via Vittorio Veneto" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Vittorio Veneto"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA VENEZIA + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE + galvani" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "galvani"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA VINTOLA 1 + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA VINTOLA 2 + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA VITTORIO VENETO / VITTORIO-VENETO-STRASSE + via Vittorio Veneto" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Vittorio Veneto"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA WEGGENSTEIN + Sarentino" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Sarentino"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA WEGGENSTEIN / WEGGENSTEINSTRASSE + Sarentino" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "Sarentino"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA WERNER VON SIEMENS / WERNER-VON-SIEMENS-STRASSE 1 + siemens" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "siemens"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIA WERNER VON SIEMENS / WERNER-VON-SIEMENS-STRASSE 2 + siemens" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "siemens"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIALE DRUSO / DRUSUSALLEE 1 + incrocio via Resia - viale Druso 1" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "incrocio via Resia - viale Druso 1"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIALE DRUSO / DRUSUSALLEE 2 + incrocio via Resia - viale Druso 1" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "incrocio via Resia - viale Druso 1"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIALE DRUSO 1 + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIALE DRUSO 2 + ponte Talvera" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "ponte Talvera"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIALE DRUSO 3 + druso-poste" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "druso-poste"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIALE DRUSO 4 + incrocio via Resia - viale Druso 1" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "incrocio via Resia - viale Druso 1"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIALE EUROPA + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIALE TRENTO + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VIALE TRIESTE + proma" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "proma"
+            },
+            "etype" : "TrafficStreetFactor"
+          },
+          "VICOLO FUCINE + via Vittorio Veneto" : {
+            "ebegin" : { },
+            "eend" : {
+              "secode" : "via Vittorio Veneto"
+            },
+            "etype" : "TrafficStreetFactor"
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

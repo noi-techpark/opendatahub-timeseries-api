@@ -1,0 +1,2542 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=mvalue,pmetadata&where=mvalue.gt.10 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "BikeSharingService" : {
+        "stations" : {
+          "sharedmobility-ch:pr:carvelo2go" : {
+            "sdatatypes" : {
+              "num-docks-available" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 40
+                } ]
+              },
+              "number-available" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 520
+                } ]
+              }
+            }
+          }
+        }
+      },
+      "BikesharingStation" : {
+        "stations" : {
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3" : {
+            "sdatatypes" : {
+              "free-bays" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 11
+                } ]
+              },
+              "total-bays" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12
+                } ]
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3008cf824e352d9854585d3731568fe6e0a042d2" : {
+            "sdatatypes" : {
+              "free-bays" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12
+                } ]
+              },
+              "total-bays" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12
+                } ]
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3242fbb9d66046deac446c8b89768cd1b6fc9c9f" : {
+            "sdatatypes" : {
+              "free-bays" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 11
+                } ]
+              },
+              "total-bays" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12
+                } ]
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--845248b808d1bf6c6115e471e41ccdca99f09743" : {
+            "sdatatypes" : {
+              "free-bays" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 11
+                } ]
+              },
+              "total-bays" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12
+                } ]
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1b380c7315ed00d73a49269e2feab2e5b0452a00" : {
+            "sdatatypes" : {
+              "free-bays" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12
+                } ]
+              },
+              "total-bays" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12
+                } ]
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c4e26e1fd97da55bd1a1fe7ccf67f1b70c69453a" : {
+            "sdatatypes" : {
+              "total-bays" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12
+                } ]
+              }
+            }
+          },
+          "bikestation1" : {
+            "sdatatypes" : {
+              "city-bike-adult-with-gears" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 20
+                } ]
+              },
+              "number-available" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 42
+                } ]
+              }
+            }
+          },
+          "bikestation2" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 26
+                } ]
+              }
+            }
+          }
+        }
+      },
+      "EnvironmentStation" : {
+        "stations" : {
+          "AB2" : {
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 17.539
+                } ]
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 35.53
+                } ]
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 10.08
+                } ]
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 10.08
+                } ]
+              }
+            }
+          },
+          "AB3" : {
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 19.5158
+                } ]
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 20.3433
+                } ]
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12.9683
+                } ]
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12.9683
+                } ]
+              }
+            }
+          },
+          "BX1" : {
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 15.5795
+                } ]
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 38.9867
+                } ]
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 11.1417
+                } ]
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 11.1417
+                } ]
+              }
+            }
+          },
+          "BZ4" : {
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 20.9505
+                } ]
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 15.5917
+                } ]
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 15.5917
+                } ]
+              }
+            }
+          },
+          "BZ5" : {
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 23.8679
+                } ]
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 15.3417
+                } ]
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 15.3417
+                } ]
+              },
+              "nitrogen-dioxide" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 11.5485
+                } ]
+              }
+            }
+          },
+          "BZ6" : {
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 20.3097
+                } ]
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 36.98
+                } ]
+              }
+            }
+          },
+          "CR1" : {
+            "sdatatypes" : {
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 77.58
+                } ]
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 22.1833
+                } ]
+              }
+            }
+          },
+          "LS1" : {
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 14.1275
+                } ]
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 42.91
+                } ]
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 11.6017
+                } ]
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 11.6017
+                } ]
+              }
+            }
+          }
+        }
+      },
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 20
+                }, {
+                  "mvalue" : 32
+                }, {
+                  "mvalue" : 162
+                }, {
+                  "mvalue" : 332
+                }, {
+                  "mvalue" : 1259
+                } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 129
+                }, {
+                  "mvalue" : 132
+                } ]
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 132
+                } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 133
+                } ]
+              },
+              "speed greater than 100 km/h" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 116.251615
+                } ]
+              },
+              "velocita'" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 116.251615
+                }, {
+                  "mvalue" : 118.955141
+                } ]
+              }
+            }
+          },
+          "A22_ML107->A22_ML103" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12
+                }, {
+                  "mvalue" : 25
+                }, {
+                  "mvalue" : 137
+                }, {
+                  "mvalue" : 264
+                }, {
+                  "mvalue" : 862
+                } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 179
+                }, {
+                  "mvalue" : 184
+                }, {
+                  "mvalue" : 185
+                } ]
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 129
+                } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 121
+                } ]
+              },
+              "speed greater than 100 km/h" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 118.643843
+                } ]
+              },
+              "velocita'" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 82.730031
+                }, {
+                  "mvalue" : 83.179651
+                }, {
+                  "mvalue" : 85.503105
+                } ]
+              }
+            }
+          },
+          "Agip_Einstein->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12
+                }, {
+                  "mvalue" : 60
+                }, {
+                  "mvalue" : 141
+                }, {
+                  "mvalue" : 423
+                } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 78
+                }, {
+                  "mvalue" : 81
+                }, {
+                  "mvalue" : 108
+                } ]
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 28
+                } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 72
+                } ]
+              },
+              "speed greater than 100 km/h" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 130.811767
+                } ]
+              },
+              "velocita'" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 33.914162
+                }, {
+                  "mvalue" : 45.218882
+                }, {
+                  "mvalue" : 46.95807
+                } ]
+              }
+            }
+          },
+          "Maso_Pieve->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 44
+                } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 165
+                } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 150
+                } ]
+              },
+              "velocita'" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 34.406553
+                } ]
+              }
+            }
+          },
+          "druso-poste->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12
+                }, {
+                  "mvalue" : 59
+                } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 113
+                }, {
+                  "mvalue" : 114
+                }, {
+                  "mvalue" : 3553
+                } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 99
+                } ]
+              }
+            }
+          },
+          "meinstein->Agip_Einstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 14
+                }, {
+                  "mvalue" : 22
+                }, {
+                  "mvalue" : 94
+                }, {
+                  "mvalue" : 183
+                }, {
+                  "mvalue" : 573
+                } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 75
+                }, {
+                  "mvalue" : 95
+                }, {
+                  "mvalue" : 96
+                } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 97
+                } ]
+              },
+              "velocita'" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 38.627437
+                }, {
+                  "mvalue" : 39.034042
+                }, {
+                  "mvalue" : 49.44312
+                } ]
+              }
+            }
+          },
+          "proma->druso-poste" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 13
+                }, {
+                  "mvalue" : 24
+                }, {
+                  "mvalue" : 73
+                } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 120
+                }, {
+                  "mvalue" : 122
+                } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 86
+                } ]
+              }
+            }
+          },
+          "siemens->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 25
+                }, {
+                  "mvalue" : 119
+                } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 161
+                }, {
+                  "mvalue" : 207
+                } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 192
+                } ]
+              }
+            }
+          }
+        }
+      },
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : {
+            "sdatatypes" : {
+              "atmospheric-pressure-reduced" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 1017.6451
+                } ]
+              }
+            }
+          },
+          "37100MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 48.7
+                }, {
+                  "mvalue" : 55.2
+                }, {
+                  "mvalue" : 59.3
+                }, {
+                  "mvalue" : 61.3
+                }, {
+                  "mvalue" : 64.7
+                }, {
+                  "mvalue" : 100
+                } ]
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 14.9
+                }, {
+                  "mvalue" : 16.1
+                }, {
+                  "mvalue" : 26.7
+                } ]
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 1015.6
+                }, {
+                  "mvalue" : 1017.9
+                }, {
+                  "mvalue" : 1020
+                }, {
+                  "mvalue" : 1021
+                }, {
+                  "mvalue" : 1021.3
+                } ]
+              },
+              "global-radiation" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 123.5
+                }, {
+                  "mvalue" : 610.4
+                } ]
+              },
+              "precipitation" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 40.8
+                } ]
+              },
+              "sunshine-duration" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 600
+                } ]
+              },
+              "wind-direction" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 11.4
+                }, {
+                  "mvalue" : 97.6
+                }, {
+                  "mvalue" : 112.7
+                }, {
+                  "mvalue" : 118
+                }, {
+                  "mvalue" : 131.7
+                }, {
+                  "mvalue" : 211.7
+                }, {
+                  "mvalue" : 249.5
+                }, {
+                  "mvalue" : 249.8
+                }, {
+                  "mvalue" : 257.2
+                }, {
+                  "mvalue" : 258.1
+                }, {
+                  "mvalue" : 264.6
+                }, {
+                  "mvalue" : 282.7
+                }, {
+                  "mvalue" : 294.9
+                }, {
+                  "mvalue" : 295.6
+                }, {
+                  "mvalue" : 298.5
+                }, {
+                  "mvalue" : 333.4
+                }, {
+                  "mvalue" : 341.3
+                } ]
+              }
+            }
+          },
+          "47400MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 42.3
+                }, {
+                  "mvalue" : 45.7
+                }, {
+                  "mvalue" : 54.2
+                }, {
+                  "mvalue" : 68
+                }, {
+                  "mvalue" : 73.7
+                }, {
+                  "mvalue" : 100
+                } ]
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 13.3
+                }, {
+                  "mvalue" : 14.5
+                }, {
+                  "mvalue" : 19.1
+                } ]
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 1014.9
+                }, {
+                  "mvalue" : 1015.5
+                }, {
+                  "mvalue" : 1017.9
+                }, {
+                  "mvalue" : 1018.4
+                }, {
+                  "mvalue" : 1018.7
+                }, {
+                  "mvalue" : 1026
+                }, {
+                  "mvalue" : 1026.2
+                } ]
+              },
+              "global-radiation" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 562.6
+                } ]
+              },
+              "precipitation" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 39.2
+                } ]
+              },
+              "sunshine-duration" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 599
+                }, {
+                  "mvalue" : 600
+                } ]
+              },
+              "wind-direction" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 15.1
+                }, {
+                  "mvalue" : 28.6
+                }, {
+                  "mvalue" : 30.4
+                }, {
+                  "mvalue" : 30.5
+                }, {
+                  "mvalue" : 31
+                }, {
+                  "mvalue" : 31.6
+                }, {
+                  "mvalue" : 35.2
+                }, {
+                  "mvalue" : 35.5
+                }, {
+                  "mvalue" : 35.7
+                }, {
+                  "mvalue" : 39.9
+                }, {
+                  "mvalue" : 40.3
+                }, {
+                  "mvalue" : 40.5
+                }, {
+                  "mvalue" : 42.1
+                }, {
+                  "mvalue" : 42.6
+                }, {
+                  "mvalue" : 43
+                }, {
+                  "mvalue" : 44
+                }, {
+                  "mvalue" : 46
+                }, {
+                  "mvalue" : 46.2
+                }, {
+                  "mvalue" : 49.5
+                }, {
+                  "mvalue" : 50.2
+                }, {
+                  "mvalue" : 51.2
+                }, {
+                  "mvalue" : 51.4
+                }, {
+                  "mvalue" : 53.6
+                }, {
+                  "mvalue" : 62.5
+                }, {
+                  "mvalue" : 66
+                }, {
+                  "mvalue" : 78.3
+                }, {
+                  "mvalue" : 80.6
+                }, {
+                  "mvalue" : 81.6
+                }, {
+                  "mvalue" : 82.3
+                }, {
+                  "mvalue" : 82.5
+                }, {
+                  "mvalue" : 83.2
+                }, {
+                  "mvalue" : 93.7
+                }, {
+                  "mvalue" : 95.2
+                }, {
+                  "mvalue" : 119.4
+                }, {
+                  "mvalue" : 125.9
+                }, {
+                  "mvalue" : 211.2
+                }, {
+                  "mvalue" : 276.6
+                }, {
+                  "mvalue" : 284.6
+                }, {
+                  "mvalue" : 288
+                }, {
+                  "mvalue" : 288.7
+                }, {
+                  "mvalue" : 294.7
+                }, {
+                  "mvalue" : 297.1
+                }, {
+                  "mvalue" : 300
+                }, {
+                  "mvalue" : 305.4
+                }, {
+                  "mvalue" : 307.8
+                }, {
+                  "mvalue" : 327.2
+                }, {
+                  "mvalue" : 334.6
+                }, {
+                  "mvalue" : 346.6
+                }, {
+                  "mvalue" : 350.6
+                }, {
+                  "mvalue" : 355.4
+                }, {
+                  "mvalue" : 358.9
+                } ]
+              }
+            }
+          },
+          "59450PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 11.5
+                }, {
+                  "mvalue" : 11.9
+                }, {
+                  "mvalue" : 14.9
+                }, {
+                  "mvalue" : 17.9
+                }, {
+                  "mvalue" : 23.8
+                }, {
+                  "mvalue" : 24.9
+                } ]
+              },
+              "suspended-solids-in-watercourse" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 20
+                }, {
+                  "mvalue" : 29
+                }, {
+                  "mvalue" : 263
+                }, {
+                  "mvalue" : 409
+                }, {
+                  "mvalue" : 483
+                }, {
+                  "mvalue" : 4696
+                } ]
+              },
+              "water-level" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 84
+                }, {
+                  "mvalue" : 97
+                }, {
+                  "mvalue" : 98
+                }, {
+                  "mvalue" : 106
+                }, {
+                  "mvalue" : 113
+                }, {
+                  "mvalue" : 125
+                }, {
+                  "mvalue" : 127
+                } ]
+              },
+              "water-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 11.2
+                }, {
+                  "mvalue" : 11.3
+                }, {
+                  "mvalue" : 11.9
+                }, {
+                  "mvalue" : 14.9
+                }, {
+                  "mvalue" : 15.2
+                } ]
+              }
+            }
+          },
+          "62600MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 49.5
+                }, {
+                  "mvalue" : 69.9
+                }, {
+                  "mvalue" : 74
+                }, {
+                  "mvalue" : 88.4
+                }, {
+                  "mvalue" : 98.5
+                }, {
+                  "mvalue" : 100
+                } ]
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12.6
+                }, {
+                  "mvalue" : 14.5
+                } ]
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 1005.9
+                }, {
+                  "mvalue" : 1018.1
+                }, {
+                  "mvalue" : 1019.4
+                }, {
+                  "mvalue" : 1020.9
+                }, {
+                  "mvalue" : 1022.3
+                }, {
+                  "mvalue" : 1025.2
+                } ]
+              },
+              "global-radiation" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 73
+                }, {
+                  "mvalue" : 547.4
+                } ]
+              },
+              "precipitation" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 36.1
+                } ]
+              },
+              "sunshine-duration" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 600
+                } ]
+              },
+              "wind-direction" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 157.4
+                }, {
+                  "mvalue" : 163.5
+                }, {
+                  "mvalue" : 172.5
+                }, {
+                  "mvalue" : 208
+                }, {
+                  "mvalue" : 347.5
+                } ]
+              }
+            }
+          },
+          "69790PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 16.8
+                }, {
+                  "mvalue" : 25.6
+                }, {
+                  "mvalue" : 33.8
+                }, {
+                  "mvalue" : 48.6
+                }, {
+                  "mvalue" : 67
+                }, {
+                  "mvalue" : 74.8
+                } ]
+              },
+              "water-level" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 94
+                }, {
+                  "mvalue" : 119
+                }, {
+                  "mvalue" : 136
+                }, {
+                  "mvalue" : 154
+                }, {
+                  "mvalue" : 161
+                } ]
+              },
+              "water-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 10.6
+                } ]
+              }
+            }
+          },
+          "83200MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 42.7
+                }, {
+                  "mvalue" : 49.1
+                }, {
+                  "mvalue" : 55.4
+                }, {
+                  "mvalue" : 64.5
+                }, {
+                  "mvalue" : 97.8
+                } ]
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 13.2
+                }, {
+                  "mvalue" : 17.4
+                }, {
+                  "mvalue" : 19.3
+                }, {
+                  "mvalue" : 30
+                } ]
+              },
+              "air-temperature-max" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12.3
+                } ]
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 998.8
+                } ]
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 1014.9
+                }, {
+                  "mvalue" : 1016.3
+                }, {
+                  "mvalue" : 1017.8
+                }, {
+                  "mvalue" : 1019.9
+                }, {
+                  "mvalue" : 1020.1
+                } ]
+              },
+              "global-radiation" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 38.1
+                }, {
+                  "mvalue" : 498.5
+                } ]
+              },
+              "precipitation" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 36.6
+                } ]
+              },
+              "sunshine-duration" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 600
+                } ]
+              },
+              "wind-direction" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 51.8
+                }, {
+                  "mvalue" : 79.1
+                }, {
+                  "mvalue" : 118.5
+                }, {
+                  "mvalue" : 224.5
+                }, {
+                  "mvalue" : 228.5
+                }, {
+                  "mvalue" : 355.4
+                } ]
+              }
+            }
+          },
+          "83450PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 50.39
+                }, {
+                  "mvalue" : 79.5
+                }, {
+                  "mvalue" : 109
+                }, {
+                  "mvalue" : 132
+                }, {
+                  "mvalue" : 143
+                }, {
+                  "mvalue" : 167
+                }, {
+                  "mvalue" : 290
+                } ]
+              },
+              "suspended-solids-in-watercourse" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 13
+                }, {
+                  "mvalue" : 29
+                } ]
+              },
+              "water-level" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 141
+                }, {
+                  "mvalue" : 187
+                }, {
+                  "mvalue" : 208.3
+                }, {
+                  "mvalue" : 222.4
+                }, {
+                  "mvalue" : 229
+                }, {
+                  "mvalue" : 243.9
+                }, {
+                  "mvalue" : 301.3
+                } ]
+              }
+            }
+          }
+        }
+      },
+      "ParkingFacility" : {
+        "stations" : {
+          "105_facility" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 27
+                } ]
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 16
+                } ]
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 26
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 63
+                } ]
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 74
+                } ]
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 47
+                } ]
+              }
+            }
+          },
+          "607440" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 201
+                } ]
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 165
+                } ]
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 36
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 279
+                } ]
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 239
+                } ]
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 279
+                } ]
+              }
+            }
+          },
+          "608612" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 202
+                } ]
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 186
+                } ]
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 16
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 38
+                } ]
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 34
+                } ]
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 38
+                } ]
+              }
+            }
+          },
+          "609883" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 200
+                } ]
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 208
+                } ]
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 506
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 314
+                } ]
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 306
+                } ]
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 314
+                } ]
+              }
+            }
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "102" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 233
+                } ]
+              }
+            }
+          },
+          "103" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 118
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 283
+                } ]
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 240.2
+                } ]
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 229.8
+                } ]
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 222
+                } ]
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 207.3
+                } ]
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 198.6
+                } ]
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 266.2
+                } ]
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 260.6
+                } ]
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 244.9
+                } ]
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 243.9
+                } ]
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 235.3
+                } ]
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 225
+                } ]
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 212.3
+                } ]
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 202.5
+                } ]
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 267.8
+                } ]
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 264.9
+                } ]
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 247.6
+                } ]
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 235.4
+                } ]
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 225.6
+                } ]
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 217.4
+                } ]
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 203.9
+                } ]
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 194.1
+                } ]
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 264
+                } ]
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 257.5
+                } ]
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 242.1
+                } ]
+              },
+              "parking-forecast-rmse-120" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 41.8
+                } ]
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 43.4
+                } ]
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 42.6
+                } ]
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 42.2
+                } ]
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 38.9
+                } ]
+              },
+              "parking-forecast-rmse-30" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 25.5
+                } ]
+              },
+              "parking-forecast-rmse-60" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 31.7
+                } ]
+              },
+              "parking-forecast-rmse-90" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 38.4
+                } ]
+              }
+            }
+          },
+          "104" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 39
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 112
+                } ]
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 115.5
+                } ]
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 117.1
+                } ]
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 116.7
+                } ]
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 115.6
+                } ]
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 113.9
+                } ]
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 109
+                } ]
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 110.8
+                } ]
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 113.4
+                } ]
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 117.7
+                } ]
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 119.5
+                } ]
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 119.8
+                } ]
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 120.4
+                } ]
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 115.2
+                } ]
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 112.5
+                } ]
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 112.2
+                } ]
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 115
+                } ]
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 113.6
+                } ]
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 115
+                } ]
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 114.6
+                } ]
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 112.6
+                } ]
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 112.8
+                } ]
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 105.7
+                } ]
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 109.5
+                } ]
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 111.9
+                } ]
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12.2
+                } ]
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 15.2
+                } ]
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 17.6
+                } ]
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 19.1
+                } ]
+              }
+            }
+          },
+          "105" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 11
+                }, {
+                  "mvalue" : 27
+                } ]
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 16
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 63
+                }, {
+                  "mvalue" : 79
+                } ]
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 74
+                } ]
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 66.6
+                } ]
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 65
+                } ]
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 63.8
+                } ]
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 61.8
+                } ]
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 60.1
+                } ]
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 67.7
+                } ]
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 65.8
+                } ]
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 67.4
+                } ]
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 68.6
+                } ]
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 68.5
+                } ]
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 67.2
+                } ]
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 67.1
+                } ]
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 65.2
+                } ]
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 69.6
+                } ]
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 67.6
+                } ]
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 71.3
+                } ]
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 63.9
+                } ]
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 63.2
+                } ]
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 61.8
+                } ]
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 58.8
+                } ]
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 56
+                } ]
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 65.2
+                } ]
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 62.9
+                } ]
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 64.2
+                } ]
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12.6
+                } ]
+              }
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "capacity" : 90,
+                "capacity_short_stay" : 90,
+                "capacity_subscribers" : 90,
+                "municipality" : "Bolzano - Bozen",
+                "name_de" : "Laurin",
+                "name_en" : "Laurin",
+                "name_it" : "Laurin",
+                "netex_parking" : {
+                  "charging" : true,
+                  "hazard_prohibited" : true,
+                  "layout" : "openSpace",
+                  "reservation" : "noReservations",
+                  "surveillance" : true,
+                  "type" : "urbanParking",
+                  "vehicletypes" : "allPassengerVehicles"
+                },
+                "standard_name" : "Parcheggio Laurin"
+              }
+            }
+          },
+          "107" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 144
+                } ]
+              }
+            }
+          },
+          "112" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 84
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 88
+                } ]
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 86.6
+                } ]
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 86.7
+                } ]
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 84.3
+                } ]
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 83.5
+                } ]
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 82.9
+                } ]
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 86.5
+                } ]
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 85.5
+                } ]
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 87.1
+                } ]
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 88.3
+                } ]
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 89.5
+                } ]
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 85.7
+                } ]
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 85.4
+                } ]
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 84.6
+                } ]
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 89.8
+                } ]
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 87.1
+                } ]
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 88.8
+                } ]
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 83.5
+                } ]
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 84.7
+                } ]
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 82.2
+                } ]
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 82.7
+                } ]
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 80.8
+                } ]
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 83.9
+                } ]
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 84.4
+                } ]
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 83.9
+                } ]
+              }
+            }
+          },
+          "113" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 115
+                } ]
+              }
+            }
+          },
+          "115" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 189
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 236
+                } ]
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 233.4
+                } ]
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 233.3
+                } ]
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 233.2
+                } ]
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 226.5
+                } ]
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 229.2
+                } ]
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 230.4
+                } ]
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 233.8
+                } ]
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 232.2
+                } ]
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 237.4
+                } ]
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 236.4
+                } ]
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 238.2
+                } ]
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 233.8
+                } ]
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 231.6
+                } ]
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 232.4
+                } ]
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 237.8
+                } ]
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 234
+                } ]
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 230.2
+                } ]
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 229.2
+                } ]
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 228.8
+                } ]
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 218.2
+                } ]
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 227.2
+                } ]
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 227.5
+                } ]
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 230.5
+                } ]
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 229.3
+                } ]
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 10.4
+                } ]
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 10.8
+                } ]
+              }
+            }
+          }
+        }
+      },
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 53
+                } ]
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 14.1
+                } ]
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 988
+                } ]
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 13.3
+                } ]
+              }
+            }
+          },
+          "rwis2" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 54
+                } ]
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 998
+                } ]
+              }
+            }
+          },
+          "rwis3" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 50
+                } ]
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 13.3
+                } ]
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 984
+                } ]
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 15.2
+                } ]
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12.7
+                } ]
+              }
+            }
+          },
+          "rwis4" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 48
+                } ]
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 13.7
+                } ]
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 990
+                } ]
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 14.8
+                } ]
+              }
+            }
+          },
+          "rwis5" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 45
+                } ]
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 13.9
+                } ]
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 876
+                } ]
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 15.9
+                } ]
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 14.2
+                } ]
+              }
+            }
+          },
+          "rwis6" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 60
+                } ]
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 14.2
+                } ]
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 996
+                } ]
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 16.2
+                } ]
+              }
+            }
+          },
+          "rwis7" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 56
+                } ]
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 13.1
+                } ]
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 969
+                } ]
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 14.2
+                } ]
+              }
+            }
+          }
+        }
+      },
+      "Streetstation" : {
+        "stations" : {
+          "CORSO ITALIA / ITALIENALLEE" : {
+            "sdatatypes" : {
+              "CO" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 822.46164
+                } ]
+              },
+              "CO2" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 49790.447055
+                } ]
+              },
+              "COV" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 185.715378
+                } ]
+              },
+              "FC" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 15851.170896
+                } ]
+              },
+              "NOX" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 118.42492
+                } ]
+              }
+            }
+          },
+          "PONTE PALERMO / PALERMOBRCKE" : {
+            "sdatatypes" : {
+              "CO" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 588.666152
+                } ]
+              },
+              "CO2" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 34823.305209
+                } ]
+              },
+              "COV" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 129.248613
+                } ]
+              },
+              "FC" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 11085.435573
+                } ]
+              },
+              "NOX" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 78.458847
+                } ]
+              }
+            }
+          },
+          "PONTE ROMA / ROMBRCKE 1" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 11.507959
+                } ]
+              },
+              "CO" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 1368.991051
+                } ]
+              },
+              "CO2" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 80984.430719
+                } ]
+              },
+              "COV" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 300.57817
+                } ]
+              },
+              "FC" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 25780.082729
+                } ]
+              },
+              "NOX" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 182.462435
+                } ]
+              }
+            }
+          },
+          "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE" : {
+            "sdatatypes" : {
+              "CO" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 31.5964
+                } ]
+              },
+              "CO2" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 1901.406565
+                } ]
+              },
+              "FC" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 605.352931
+                } ]
+              }
+            }
+          },
+          "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 16.41038
+                } ]
+              },
+              "CO" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 1642.028231
+                } ]
+              },
+              "CO2" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 98163.746752
+                } ]
+              },
+              "COV" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 370.374901
+                } ]
+              },
+              "FC" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 31252.321863
+                } ]
+              },
+              "NH3" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12.980922
+                } ]
+              },
+              "NOX" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 235.601901
+                } ]
+              },
+              "PM10" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12.299655
+                } ]
+              },
+              "PTS" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12.332677
+                } ]
+              }
+            }
+          },
+          "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE" : {
+            "sdatatypes" : {
+              "CO" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 637.76356
+                } ]
+              },
+              "CO2" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 38027.694288
+                } ]
+              },
+              "COV" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 142.44809
+                } ]
+              },
+              "FC" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 12107.094548
+                } ]
+              },
+              "NOX" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 92.901268
+                } ]
+              }
+            }
+          },
+          "VIA PALERMO / PALERMOSTRASSE 1" : {
+            "sdatatypes" : {
+              "CO" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 821.394631
+                } ]
+              },
+              "CO2" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 48590.658432
+                } ]
+              },
+              "COV" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 180.346902
+                } ]
+              },
+              "FC" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 15468.049637
+                } ]
+              },
+              "NOX" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 109.477461
+                } ]
+              }
+            }
+          },
+          "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE" : {
+            "sdatatypes" : {
+              "CO" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 50.961936
+                } ]
+              },
+              "CO2" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 3066.784782
+                } ]
+              },
+              "COV" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 11.493116
+                } ]
+              },
+              "FC" : {
+                "tmeasurements" : [ {
+                  "mvalue" : 976.375695
+                } ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

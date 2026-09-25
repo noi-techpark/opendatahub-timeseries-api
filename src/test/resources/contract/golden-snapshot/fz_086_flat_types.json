@@ -1,0 +1,53 @@
+{
+  "request" : "GET /flat/*/*?limit=-1&select=tunit,ttype,tname&where=sname.ire.park&shownull=true&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "tname" : "occupied",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "tname" : "occupied",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "tname" : "free",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "tname" : "free",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "tname" : "free_short_stay",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "tname" : "occupied",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "tname" : "occupied_short_stay",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "tname" : "occupied_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

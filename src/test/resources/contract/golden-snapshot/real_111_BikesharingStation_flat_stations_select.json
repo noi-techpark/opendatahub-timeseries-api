@@ -1,0 +1,135 @@
+{
+  "request" : "GET /flat/BikesharingStation?limit=100&select=scode,sname,sorigin,scoordinate,smetadata,pcode [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee",
+      "sorigin" : "BIKE_SHARING_BOLZANO"
+    }, {
+      "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3008cf824e352d9854585d3731568fe6e0a042d2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.343183,
+        "y" : 46.483579
+      },
+      "smetadata" : {
+        "address" : "Via Claudia Augusta, 42",
+        "total-bays" : 12
+      },
+      "sname" : "Claudia Augusta",
+      "sorigin" : "BIKE_SHARING_BOLZANO"
+    }, {
+      "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3242fbb9d66046deac446c8b89768cd1b6fc9c9f",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.333071,
+        "y" : 46.46461
+      },
+      "smetadata" : {
+        "address" : "Piazzetta Caduti Nassirija",
+        "total-bays" : 12
+      },
+      "sname" : "Via Maso della Pieve - Pfarrhofstrasse",
+      "sorigin" : "BIKE_SHARING_BOLZANO"
+    }, {
+      "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--845248b808d1bf6c6115e471e41ccdca99f09743",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.325996,
+        "y" : 46.473876
+      },
+      "smetadata" : {
+        "address" : "Via Buozzi, 31",
+        "total-bays" : 12
+      },
+      "sname" : "Fiera - Messe",
+      "sorigin" : "BIKE_SHARING_BOLZANO"
+    }, {
+      "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1b380c7315ed00d73a49269e2feab2e5b0452a00",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.335918,
+        "y" : 46.485846
+      },
+      "smetadata" : {
+        "address" : "Via Galilei, 23",
+        "total-bays" : 12
+      },
+      "sname" : "Via Galilei - Galilei-Strasse",
+      "sorigin" : "BIKE_SHARING_BOLZANO"
+    }, {
+      "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c4e26e1fd97da55bd1a1fe7ccf67f1b70c69453a",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.316234,
+        "y" : 46.491091
+      },
+      "smetadata" : {
+        "address" : "Via Resia, 39/A",
+        "total-bays" : 12
+      },
+      "sname" : "Palasport - Stadthalle",
+      "sorigin" : "BIKE_SHARING_BOLZANO"
+    }, {
+      "scode" : "bikestation1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "smetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "sname" : "Terme",
+      "sorigin" : "ALGORAB"
+    }, {
+      "scode" : "bikestation2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.150187,
+        "y" : 46.672476
+      },
+      "smetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 9,
+          "city-bike-adult-without-gears" : 5,
+          "mountain-bike-adult" : 4,
+          "mountain-bike-child" : 8,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 28
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "sname" : "Stazione treni",
+      "sorigin" : "ALGORAB"
+    } ],
+    "limit" : 100,
+    "offset" : 0
+  }
+}

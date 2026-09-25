@@ -1,0 +1,183 @@
+{
+  "request" : "GET /tree/*/*?limit=-1&select=smetadata.nothere,pmetadata&where=or(sorigin.eq.NOI,sorigin.eq.SIAG) [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : { },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth Elapsed time greater than 100 km/h" : { },
+              "Bluetooth match" : { },
+              "speed greater than 100 km/h" : { },
+              "velocita'" : { }
+            }
+          },
+          "A22_ML107->A22_ML103" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : { },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth Elapsed time greater than 100 km/h" : { },
+              "Bluetooth match" : { },
+              "speed greater than 100 km/h" : { },
+              "velocita'" : { }
+            }
+          },
+          "Agip_Einstein->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : { },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth Elapsed time greater than 100 km/h" : { },
+              "Bluetooth match" : { },
+              "speed greater than 100 km/h" : { },
+              "velocita'" : { }
+            }
+          },
+          "Maso_Pieve->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : { },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth match" : { },
+              "velocita'" : { }
+            }
+          },
+          "druso-poste->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : { },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth match" : { }
+            }
+          },
+          "meinstein->Agip_Einstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : { },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth match" : { },
+              "velocita'" : { }
+            }
+          },
+          "proma->druso-poste" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : { },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth match" : { }
+            }
+          },
+          "siemens->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : { },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth match" : { }
+            }
+          }
+        }
+      },
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : {
+            "sdatatypes" : {
+              "air-temperature" : { },
+              "atmospheric-pressure-reduced" : { },
+              "precipitation" : { }
+            }
+          },
+          "37100MS" : {
+            "sdatatypes" : {
+              "air-humidity" : { },
+              "air-temperature" : { },
+              "atmospheric-pressure-reduced" : { },
+              "global-radiation" : { },
+              "precipitation" : { },
+              "sunshine-duration" : { },
+              "wind-direction" : { },
+              "wind-gust-speed" : { },
+              "wind-speed" : { }
+            }
+          },
+          "47400MS" : {
+            "sdatatypes" : {
+              "air-humidity" : { },
+              "air-temperature" : { },
+              "air-temperature-max" : { },
+              "air-temperature-min" : { },
+              "atmospheric-pressure-reduced" : { },
+              "global-radiation" : { },
+              "precipitation" : { },
+              "sunshine-duration" : { },
+              "wind-direction" : { },
+              "wind-gust-speed" : { },
+              "wind-speed" : { }
+            }
+          },
+          "59450PG" : {
+            "sdatatypes" : {
+              "flow-rate" : { },
+              "suspended-solids-in-watercourse" : { },
+              "water-level" : { },
+              "water-temperature" : { }
+            }
+          },
+          "62600MS" : {
+            "sdatatypes" : {
+              "air-humidity" : { },
+              "air-temperature" : { },
+              "air-temperature-max" : { },
+              "air-temperature-min" : { },
+              "atmospheric-pressure-reduced" : { },
+              "global-radiation" : { },
+              "precipitation" : { },
+              "sunshine-duration" : { },
+              "wind-direction" : { },
+              "wind-gust-speed" : { },
+              "wind-speed" : { }
+            }
+          },
+          "69790PG" : {
+            "sdatatypes" : {
+              "flow-rate" : { },
+              "water-level" : { },
+              "water-temperature" : { }
+            }
+          },
+          "83200MS" : {
+            "sdatatypes" : {
+              "air-humidity" : { },
+              "air-temperature" : { },
+              "air-temperature-max" : { },
+              "air-temperature-min" : { },
+              "atmospheric-pressure" : { },
+              "atmospheric-pressure-reduced" : { },
+              "global-radiation" : { },
+              "precipitation" : { },
+              "rainfall-duration" : { },
+              "sunshine-duration" : { },
+              "wind-direction" : { },
+              "wind-gust-speed" : { },
+              "wind-speed" : { }
+            }
+          },
+          "83450PG" : {
+            "sdatatypes" : {
+              "flow-rate" : { },
+              "suspended-solids-in-watercourse" : { },
+              "water-level" : { },
+              "water-temperature" : { }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

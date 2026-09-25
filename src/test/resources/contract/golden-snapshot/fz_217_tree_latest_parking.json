@@ -1,0 +1,1464 @@
+{
+  "request" : "GET /tree/ParkingStation/*/latest?limit=-1&select=prlineage,smetadata.capacity&shownull=true&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "102" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : null
+                  },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "smetadata" : {
+              "capacity" : 233
+            },
+            "sparent" : { }
+          },
+          "103" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "el-parking-free-slot-calculation"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "smetadata" : {
+              "capacity" : 403
+            },
+            "sparent" : { }
+          },
+          "104" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "el-parking-free-slot-calculation"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "smetadata" : {
+              "capacity" : 150
+            },
+            "sparent" : { }
+          },
+          "105" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "skidata"
+                  },
+                  "mvalue" : null
+                }, {
+                  "mprovenance" : {
+                    "prlineage" : "NOI"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "skidata"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "skidata"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS"
+                  },
+                  "mvalue" : null
+                }, {
+                  "mprovenance" : {
+                    "prlineage" : "skidata"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "skidata"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "skidata"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "smetadata" : {
+              "capacity" : 90
+            },
+            "sparent" : { }
+          },
+          "107" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "NOI"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS"
+                  },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "smetadata" : {
+              "capacity" : 145
+            },
+            "sparent" : { }
+          },
+          "112" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "el-parking-free-slot-calculation"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "smetadata" : {
+              "capacity" : 174
+            },
+            "sparent" : { }
+          },
+          "113" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "el-parking-free-slot-calculation"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS"
+                  },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "smetadata" : {
+              "capacity" : 114
+            },
+            "sparent" : { }
+          },
+          "115" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "el-parking-free-slot-calculation"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA"
+                  },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "smetadata" : {
+              "capacity" : 425
+            },
+            "sparent" : { }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

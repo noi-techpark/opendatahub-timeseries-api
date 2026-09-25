@@ -1,0 +1,1718 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&where=tname.in.(air-temperature,wind-speed)&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "102343",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.388134,
+              "y" : 46.94982
+            },
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2016-02-03 13:20:33.482+0000",
+                  "mvalidtime" : "2016-02-03 13:00:00.000+0000",
+                  "mvalue" : -0.5
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              }
+            },
+            "smetadata" : {
+              "area" : "---"
+            },
+            "sname" : "Brenner",
+            "sorigin" : "SIAG",
+            "stype" : "MeteoStation"
+          },
+          "37100MS" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "37100MS",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.4386,
+              "y" : 46.885
+            },
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 1200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mtransactiontime" : "2026-07-28 20:51:05.466+0000",
+                  "mvalidtime" : "2026-07-28 18:50:00.000+0000",
+                  "mvalue" : 26.7
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:41:13.300+0000",
+                  "mvalidtime" : "2026-09-24 09:40:00.000+0000",
+                  "mvalue" : 16.1
+                }, {
+                  "mperiod" : 8400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mtransactiontime" : "2026-07-22 02:11:08.119+0000",
+                  "mvalidtime" : "2026-07-22 00:10:00.000+0000",
+                  "mvalue" : 14.9
+                }, {
+                  "mperiod" : 2400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mtransactiontime" : "2026-07-22 02:01:07.111+0000",
+                  "mvalidtime" : "2026-07-21 21:50:00.000+0000",
+                  "mvalue" : 16.1
+                }, {
+                  "mperiod" : 6000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-03-13 18:50:28.615+0000",
+                  "mvalidtime" : "2024-03-13 17:50:00.000+0000",
+                  "mvalue" : 8.1
+                }, {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "e5e30561d496f968a095ebce0248080060b6cb67"
+                  },
+                  "mtransactiontime" : "2022-11-30 09:00:24.096+0000",
+                  "mvalidtime" : "2022-11-30 08:00:00.000+0000",
+                  "mvalue" : -3
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 6000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-03-13 18:50:28.714+0000",
+                  "mvalidtime" : "2024-03-13 17:50:00.000+0000",
+                  "mvalue" : 4.3
+                }, {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-01-05 01:30:27.661+0000",
+                  "mvalidtime" : "2024-01-05 00:30:00.000+0000",
+                  "mvalue" : 0.3
+                }, {
+                  "mperiod" : 4800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mtransactiontime" : "2026-01-08 03:51:06.582+0000",
+                  "mvalidtime" : "2026-01-08 02:50:00.000+0000",
+                  "mvalue" : 0.6
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:41:13.300+0000",
+                  "mvalidtime" : "2026-09-24 09:40:00.000+0000",
+                  "mvalue" : 1
+                }, {
+                  "mperiod" : 1200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mtransactiontime" : "2026-07-28 20:51:05.466+0000",
+                  "mvalidtime" : "2026-07-28 18:50:00.000+0000",
+                  "mvalue" : 2.5
+                }, {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2023-10-25 04:20:26.931+0000",
+                  "mvalidtime" : "2023-10-25 02:20:00.000+0000",
+                  "mvalue" : 2.2
+                }, {
+                  "mperiod" : 6600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2023-10-11 23:20:33.068+0000",
+                  "mvalidtime" : "2023-10-11 21:20:00.000+0000",
+                  "mvalue" : 0.2
+                }, {
+                  "mperiod" : 19800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2023-10-28 06:30:28.667+0000",
+                  "mvalidtime" : "2023-10-28 04:30:00.000+0000",
+                  "mvalue" : 1.2
+                }, {
+                  "mperiod" : 15000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2023-10-18 03:10:29.900+0000",
+                  "mvalidtime" : "2023-10-18 01:10:00.000+0000",
+                  "mvalue" : 1.3
+                }, {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2023-11-18 05:30:27.558+0000",
+                  "mvalidtime" : "2023-11-18 04:30:00.000+0000",
+                  "mvalue" : 4.7
+                }, {
+                  "mperiod" : 8400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mtransactiontime" : "2026-07-22 02:11:08.123+0000",
+                  "mvalidtime" : "2026-07-22 00:10:00.000+0000",
+                  "mvalue" : 4.7
+                }, {
+                  "mperiod" : 7800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2023-10-25 02:20:27.927+0000",
+                  "mvalidtime" : "2023-10-25 00:20:00.000+0000",
+                  "mvalue" : 2.4
+                }, {
+                  "mperiod" : 4200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mtransactiontime" : "2026-01-05 01:30:57.158+0000",
+                  "mvalidtime" : "2026-01-05 00:30:00.000+0000",
+                  "mvalue" : 0.8
+                }, {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mtransactiontime" : "2025-12-24 06:20:47.288+0000",
+                  "mvalidtime" : "2025-12-24 05:20:00.000+0000",
+                  "mvalue" : 1
+                }, {
+                  "mperiod" : 3000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mtransactiontime" : "2026-02-15 03:40:22.976+0000",
+                  "mvalidtime" : "2026-02-15 02:40:00.000+0000",
+                  "mvalue" : 1
+                }, {
+                  "mperiod" : 2400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mtransactiontime" : "2026-07-22 02:01:07.115+0000",
+                  "mvalidtime" : "2026-07-21 21:50:00.000+0000",
+                  "mvalue" : 4.4
+                }, {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mtransactiontime" : "2026-01-13 03:21:04.218+0000",
+                  "mvalidtime" : "2026-01-13 02:20:00.000+0000",
+                  "mvalue" : 0.3
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "Sterzing",
+              "name_en" : "Sterzing",
+              "name_it" : "Vipiteno"
+            },
+            "sname" : "Vipiteno",
+            "sorigin" : "SIAG",
+            "stype" : "MeteoStation"
+          },
+          "47400MS" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "47400MS",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 12.1166,
+              "y" : 46.8704
+            },
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 6000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-03-13 18:50:49.875+0000",
+                  "mvalidtime" : "2024-03-13 17:50:00.000+0000",
+                  "mvalue" : 3.3
+                }, {
+                  "mperiod" : 6600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-01-23 05:30:55.327+0000",
+                  "mvalidtime" : "2024-01-23 00:10:00.000+0000",
+                  "mvalue" : -4
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:42:07.852+0000",
+                  "mvalidtime" : "2026-09-24 09:40:00.000+0000",
+                  "mvalue" : 13.3
+                }, {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mtransactiontime" : "2026-07-22 02:01:57.202+0000",
+                  "mvalidtime" : "2026-07-21 23:30:00.000+0000",
+                  "mvalue" : 14.5
+                }, {
+                  "mperiod" : 1200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mtransactiontime" : "2026-07-28 20:51:54.178+0000",
+                  "mvalidtime" : "2026-07-28 18:50:00.000+0000",
+                  "mvalue" : 19.1
+                }, {
+                  "mperiod" : 31536000,
+                  "mprovenance" : {
+                    "prlineage" : "EURAC",
+                    "prname" : "odh-mobility-dc-meteorology-eurac",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-04-21 11:00:03.492+0000",
+                  "mvalidtime" : "2025-12-01 00:00:00.000+0000",
+                  "mvalue" : -2.9
+                }, {
+                  "mperiod" : 86400,
+                  "mprovenance" : {
+                    "prlineage" : "EURAC",
+                    "prname" : "odh-mobility-dc-meteorology-eurac",
+                    "prversion" : "4ab1bcc5c8e60c9c7700a8ab860827522761be6d"
+                  },
+                  "mtransactiontime" : "2022-07-20 14:11:23.318+0000",
+                  "mvalidtime" : "2021-12-31 12:00:00.000+0000",
+                  "mvalue" : 3
+                }, {
+                  "mperiod" : 23400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mtransactiontime" : "2025-05-09 05:31:05.954+0000",
+                  "mvalidtime" : "2025-05-09 03:30:00.000+0000",
+                  "mvalue" : 3.7
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 64200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-24 00:20:54.165+0000",
+                  "mvalidtime" : "2024-05-23 22:20:00.000+0000",
+                  "mvalue" : 0.4
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-26 05:00:50.501+0000",
+                  "mvalidtime" : "2024-06-26 03:00:00.000+0000",
+                  "mvalue" : 1.4
+                }, {
+                  "mperiod" : 1200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-01 08:10:59.551+0000",
+                  "mvalidtime" : "2024-06-01 06:10:00.000+0000",
+                  "mvalue" : 0.6
+                }, {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-04 23:20:57.313+0000",
+                  "mvalidtime" : "2024-06-04 21:20:00.000+0000",
+                  "mvalue" : 0.8
+                }, {
+                  "mperiod" : 2400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-22 06:10:47.623+0000",
+                  "mvalidtime" : "2024-06-22 04:10:00.000+0000",
+                  "mvalue" : 0.3
+                }, {
+                  "mperiod" : 3000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-13 07:10:49.162+0000",
+                  "mvalidtime" : "2024-06-13 05:10:00.000+0000",
+                  "mvalue" : 0.8
+                }, {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-14 07:50:46.534+0000",
+                  "mvalidtime" : "2024-06-14 05:50:00.000+0000",
+                  "mvalue" : 0.4
+                }, {
+                  "mperiod" : 4200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-14 06:50:45.389+0000",
+                  "mvalidtime" : "2024-06-14 04:50:00.000+0000",
+                  "mvalue" : 1.4
+                }, {
+                  "mperiod" : 4800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-28 06:30:53.944+0000",
+                  "mvalidtime" : "2024-05-28 04:30:00.000+0000",
+                  "mvalue" : 0.2
+                }, {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-13 03:40:45.836+0000",
+                  "mvalidtime" : "2024-06-13 01:40:00.000+0000",
+                  "mvalue" : 0.5
+                }, {
+                  "mperiod" : 6000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-13 05:30:46.422+0000",
+                  "mvalidtime" : "2024-06-13 03:30:00.000+0000",
+                  "mvalue" : 0.4
+                }, {
+                  "mperiod" : 6600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-15 08:00:51.403+0000",
+                  "mvalidtime" : "2024-06-15 06:00:00.000+0000",
+                  "mvalue" : 0.5
+                }, {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-04 10:50:47.037+0000",
+                  "mvalidtime" : "2024-05-04 08:50:00.000+0000",
+                  "mvalue" : 0.8
+                }, {
+                  "mperiod" : 7800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-24 02:40:51.162+0000",
+                  "mvalidtime" : "2024-05-24 00:40:00.000+0000",
+                  "mvalue" : 0.2
+                }, {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-28 00:50:49.234+0000",
+                  "mvalidtime" : "2024-05-27 22:50:00.000+0000",
+                  "mvalue" : 1
+                }, {
+                  "mperiod" : 9600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-02 21:50:52.463+0000",
+                  "mvalidtime" : "2024-06-02 19:50:00.000+0000",
+                  "mvalue" : 0.4
+                }, {
+                  "mperiod" : 10200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-05 02:11:02.003+0000",
+                  "mvalidtime" : "2024-06-05 00:10:00.000+0000",
+                  "mvalue" : 0.1
+                }, {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-02 19:30:50.582+0000",
+                  "mvalidtime" : "2024-05-02 17:30:00.000+0000",
+                  "mvalue" : 1.3
+                }, {
+                  "mperiod" : 12000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-04-15 13:40:46.396+0000",
+                  "mvalidtime" : "2024-04-15 11:40:00.000+0000",
+                  "mvalue" : 1.9
+                }, {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-24 08:00:59.366+0000",
+                  "mvalidtime" : "2024-05-24 06:00:00.000+0000",
+                  "mvalue" : 0.6
+                }, {
+                  "mperiod" : 13200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-04-12 14:50:45.329+0000",
+                  "mvalidtime" : "2024-04-12 12:50:00.000+0000",
+                  "mvalue" : 2
+                }, {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-19 07:30:48.734+0000",
+                  "mvalidtime" : "2024-05-19 05:30:00.000+0000",
+                  "mvalue" : 0.6
+                }, {
+                  "mperiod" : 15600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-28 05:11:00.423+0000",
+                  "mvalidtime" : "2024-05-28 03:10:00.000+0000",
+                  "mvalue" : 1
+                }, {
+                  "mperiod" : 18000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-04-05 19:00:52.581+0000",
+                  "mvalidtime" : "2024-04-05 17:00:00.000+0000",
+                  "mvalue" : 1.6
+                }, {
+                  "mperiod" : 19800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-23 06:30:50.874+0000",
+                  "mvalidtime" : "2024-05-23 04:30:00.000+0000",
+                  "mvalue" : 1.3
+                }, {
+                  "mperiod" : 21600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-04-29 15:20:49.683+0000",
+                  "mvalidtime" : "2024-04-29 13:20:00.000+0000",
+                  "mvalue" : 1.9
+                }, {
+                  "mperiod" : 22200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-11 23:50:50.923+0000",
+                  "mvalidtime" : "2024-06-11 21:50:00.000+0000",
+                  "mvalue" : 0.7
+                }, {
+                  "mperiod" : 25800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-04-06 18:40:50.342+0000",
+                  "mvalidtime" : "2024-04-06 16:40:00.000+0000",
+                  "mvalue" : 2.1
+                }, {
+                  "mperiod" : 27000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-04-13 18:20:49.469+0000",
+                  "mvalidtime" : "2024-04-13 16:20:00.000+0000",
+                  "mvalue" : 5
+                }, {
+                  "mperiod" : 27600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-31 03:40:55.184+0000",
+                  "mvalidtime" : "2024-05-31 01:40:00.000+0000",
+                  "mvalue" : 0.2
+                }, {
+                  "mperiod" : 28800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-05 18:00:52.019+0000",
+                  "mvalidtime" : "2024-05-05 16:00:00.000+0000",
+                  "mvalue" : 0.9
+                }, {
+                  "mperiod" : 29400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-04-09 19:10:52.147+0000",
+                  "mvalidtime" : "2024-04-09 17:10:00.000+0000",
+                  "mvalue" : 2.6
+                }, {
+                  "mperiod" : 30600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-08 06:10:52.092+0000",
+                  "mvalidtime" : "2024-05-08 04:10:00.000+0000",
+                  "mvalue" : 0.1
+                }, {
+                  "mperiod" : 34200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-04-14 19:10:54.412+0000",
+                  "mvalidtime" : "2024-04-14 17:10:00.000+0000",
+                  "mvalue" : 3.9
+                }, {
+                  "mperiod" : 35400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-15 06:10:49.830+0000",
+                  "mvalidtime" : "2024-06-15 04:10:00.000+0000",
+                  "mvalue" : 0.6
+                }, {
+                  "mperiod" : 43200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-02 19:11:00.408+0000",
+                  "mvalidtime" : "2024-06-02 17:10:00.000+0000",
+                  "mvalue" : 1.3
+                }, {
+                  "mperiod" : 45000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-14 20:20:46.494+0000",
+                  "mvalidtime" : "2024-06-14 18:20:00.000+0000",
+                  "mvalue" : 1.1
+                }, {
+                  "mperiod" : 50400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-11 17:40:55.167+0000",
+                  "mvalidtime" : "2024-06-11 15:40:00.000+0000",
+                  "mvalue" : 1.2
+                }, {
+                  "mperiod" : 54000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-25 20:52:44.420+0000",
+                  "mvalidtime" : "2024-05-25 18:50:00.000+0000",
+                  "mvalue" : 0.5
+                }, {
+                  "mperiod" : 70200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-25 03:30:52.934+0000",
+                  "mvalidtime" : "2024-05-25 01:30:00.000+0000",
+                  "mvalue" : 0.8
+                }, {
+                  "mperiod" : 70800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-18 00:10:56.564+0000",
+                  "mvalidtime" : "2024-05-17 22:10:00.000+0000",
+                  "mvalue" : 0.6
+                }, {
+                  "mperiod" : 74400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-20 04:10:59.016+0000",
+                  "mvalidtime" : "2024-05-20 02:10:00.000+0000",
+                  "mvalue" : 0.6
+                }, {
+                  "mperiod" : 76200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-23 01:00:56.854+0000",
+                  "mvalidtime" : "2024-05-22 23:00:00.000+0000",
+                  "mvalue" : 0.4
+                }, {
+                  "mperiod" : 77400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-17 02:10:57.805+0000",
+                  "mvalidtime" : "2024-05-17 00:10:00.000+0000",
+                  "mvalue" : 1.7
+                }, {
+                  "mperiod" : 78600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-02 06:01:00.953+0000",
+                  "mvalidtime" : "2024-06-02 04:00:00.000+0000",
+                  "mvalue" : 0.4
+                }, {
+                  "mperiod" : 81000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-14 05:40:45.461+0000",
+                  "mvalidtime" : "2024-06-14 03:40:00.000+0000",
+                  "mvalue" : 0.8
+                }, {
+                  "mperiod" : 82200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-16 06:50:43.573+0000",
+                  "mvalidtime" : "2024-06-16 04:50:00.000+0000",
+                  "mvalue" : 0.4
+                }, {
+                  "mperiod" : 94800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-13 02:10:46.927+0000",
+                  "mvalidtime" : "2024-06-13 00:10:00.000+0000",
+                  "mvalue" : 0.9
+                }, {
+                  "mperiod" : 99000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-01 07:20:56.619+0000",
+                  "mvalidtime" : "2024-06-01 05:20:00.000+0000",
+                  "mvalue" : 0.6
+                }, {
+                  "mperiod" : 138000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-27 22:20:49.205+0000",
+                  "mvalidtime" : "2024-05-27 20:20:00.000+0000",
+                  "mvalue" : 0.7
+                }, {
+                  "mperiod" : 168600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-22 03:50:52.579+0000",
+                  "mvalidtime" : "2024-05-22 01:50:00.000+0000",
+                  "mvalue" : 0.2
+                }, {
+                  "mperiod" : 173400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-16 04:40:52.784+0000",
+                  "mvalidtime" : "2024-05-16 02:40:00.000+0000",
+                  "mvalue" : 0.5
+                }, {
+                  "mperiod" : 175800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-04 22:40:51.565+0000",
+                  "mvalidtime" : "2024-06-04 20:40:00.000+0000",
+                  "mvalue" : 0.4
+                }, {
+                  "mperiod" : 186000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-30 10:10:59.670+0000",
+                  "mvalidtime" : "2024-05-30 08:10:00.000+0000",
+                  "mvalue" : 1
+                }, {
+                  "mperiod" : 340800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-26 04:50:46.042+0000",
+                  "mvalidtime" : "2024-06-26 02:50:00.000+0000",
+                  "mvalue" : 0.2
+                }, {
+                  "mperiod" : 431400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-05-14 04:30:54.885+0000",
+                  "mvalidtime" : "2024-05-14 02:30:00.000+0000",
+                  "mvalue" : 0.6
+                }, {
+                  "mperiod" : 513000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-22 05:20:44.990+0000",
+                  "mvalidtime" : "2024-06-22 03:20:00.000+0000",
+                  "mvalue" : 0.9
+                }, {
+                  "mperiod" : 523800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-06-11 03:40:56.000+0000",
+                  "mvalidtime" : "2024-06-11 01:40:00.000+0000",
+                  "mvalue" : 1
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "Antholz Obertal",
+              "name_en" : "Antholz Obertal",
+              "name_it" : "Anterselva di Sopra"
+            },
+            "sname" : "Anterselva di Sopra",
+            "sorigin" : "SIAG",
+            "stype" : "MeteoStation"
+          },
+          "62600MS" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "62600MS",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.8979,
+              "y" : 46.6792
+            },
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 31536000,
+                  "mprovenance" : {
+                    "prlineage" : "EURAC",
+                    "prname" : "odh-mobility-dc-meteorology-eurac",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-04-21 11:00:03.761+0000",
+                  "mvalidtime" : "2025-12-01 00:00:00.000+0000",
+                  "mvalue" : -3.3
+                }, {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mtransactiontime" : "2026-07-22 02:12:38.029+0000",
+                  "mvalidtime" : "2026-07-22 00:10:00.000+0000",
+                  "mvalue" : 8.7
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:42:50.850+0000",
+                  "mvalidtime" : "2026-09-24 09:40:00.000+0000",
+                  "mvalue" : 14.5
+                }, {
+                  "mperiod" : 1200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mtransactiontime" : "2026-07-21 23:02:39.001+0000",
+                  "mvalidtime" : "2026-07-21 21:00:00.000+0000",
+                  "mvalue" : 12.6
+                }, {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "e5e30561d496f968a095ebce0248080060b6cb67"
+                  },
+                  "mtransactiontime" : "2022-11-30 09:00:59.698+0000",
+                  "mvalidtime" : "2022-11-30 08:00:00.000+0000",
+                  "mvalue" : -3.4
+                }, {
+                  "mperiod" : 6000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-03-13 18:51:07.045+0000",
+                  "mvalidtime" : "2024-03-13 17:50:00.000+0000",
+                  "mvalue" : 3.6
+                }, {
+                  "mperiod" : 6600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mtransactiontime" : "2025-05-09 05:31:29.202+0000",
+                  "mvalidtime" : "2025-05-09 01:30:00.000+0000",
+                  "mvalue" : 4.3
+                }, {
+                  "mperiod" : 86400,
+                  "mprovenance" : {
+                    "prlineage" : "EURAC",
+                    "prname" : "odh-mobility-dc-meteorology-eurac",
+                    "prversion" : "4ab1bcc5c8e60c9c7700a8ab860827522761be6d"
+                  },
+                  "mtransactiontime" : "2022-07-20 14:29:41.401+0000",
+                  "mvalidtime" : "2021-12-31 12:00:00.000+0000",
+                  "mvalue" : 0.4
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mtransactiontime" : "2026-07-22 02:12:38.034+0000",
+                  "mvalidtime" : "2026-07-22 00:10:00.000+0000",
+                  "mvalue" : 1
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:42:50.850+0000",
+                  "mvalidtime" : "2026-09-24 09:40:00.000+0000",
+                  "mvalue" : 0.9
+                }, {
+                  "mperiod" : 6000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-03-13 18:51:07.134+0000",
+                  "mvalidtime" : "2024-03-13 17:50:00.000+0000",
+                  "mvalue" : 0.6
+                }, {
+                  "mperiod" : 2400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-03-26 01:30:36.283+0000",
+                  "mvalidtime" : "2026-03-26 00:30:00.000+0000",
+                  "mvalue" : 2.4
+                }, {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "e5e30561d496f968a095ebce0248080060b6cb67"
+                  },
+                  "mtransactiontime" : "2022-11-30 09:00:59.818+0000",
+                  "mvalidtime" : "2022-11-30 08:00:00.000+0000",
+                  "mvalue" : 0.8
+                }, {
+                  "mperiod" : 1200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mtransactiontime" : "2026-08-15 18:42:32.997+0000",
+                  "mvalidtime" : "2026-08-15 16:40:00.000+0000",
+                  "mvalue" : 0.8
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "St. Martin in Thurn",
+              "name_en" : "S. Martin de Tor",
+              "name_it" : "S. Martino in Badia"
+            },
+            "sname" : "S. Martino in Badia",
+            "sorigin" : "SIAG",
+            "stype" : "MeteoStation"
+          },
+          "83200MS" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "83200MS",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.3128,
+              "y" : 46.4977
+            },
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 86400,
+                  "mprovenance" : {
+                    "prlineage" : "EURAC",
+                    "prname" : "odh-mobility-dc-meteorology-eurac",
+                    "prversion" : "4ab1bcc5c8e60c9c7700a8ab860827522761be6d"
+                  },
+                  "mtransactiontime" : "2022-07-20 14:32:30.326+0000",
+                  "mvalidtime" : "2021-12-31 12:00:00.000+0000",
+                  "mvalue" : 6.5
+                }, {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "e5e30561d496f968a095ebce0248080060b6cb67"
+                  },
+                  "mtransactiontime" : "2022-11-30 09:00:38.527+0000",
+                  "mvalidtime" : "2022-11-30 08:00:00.000+0000",
+                  "mvalue" : 2.4
+                }, {
+                  "mperiod" : 6000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-03-13 18:50:44.251+0000",
+                  "mvalidtime" : "2024-03-13 17:50:00.000+0000",
+                  "mvalue" : 13.2
+                }, {
+                  "mperiod" : 1200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mtransactiontime" : "2026-07-28 20:51:41.084+0000",
+                  "mvalidtime" : "2026-07-28 18:50:00.000+0000",
+                  "mvalue" : 30
+                }, {
+                  "mperiod" : 3000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mtransactiontime" : "2026-07-22 02:01:43.801+0000",
+                  "mvalidtime" : "2026-07-22 00:00:00.000+0000",
+                  "mvalue" : 19.3
+                }, {
+                  "mperiod" : 31536000,
+                  "mprovenance" : {
+                    "prlineage" : "EURAC",
+                    "prname" : "odh-mobility-dc-meteorology-eurac",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-04-21 11:00:04.040+0000",
+                  "mvalidtime" : "2025-12-01 00:00:00.000+0000",
+                  "mvalue" : 1.7
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:41:53.366+0000",
+                  "mvalidtime" : "2026-09-24 09:40:00.000+0000",
+                  "mvalue" : 17.4
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mtransactiontime" : "2025-05-21 15:10:45.229+0000",
+                  "mvalidtime" : "2025-05-21 13:10:00.000+0000",
+                  "mvalue" : 1.7
+                }, {
+                  "mperiod" : 3000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mtransactiontime" : "2026-07-22 02:01:43.806+0000",
+                  "mvalidtime" : "2026-07-22 00:00:00.000+0000",
+                  "mvalue" : 0.9
+                }, {
+                  "mperiod" : 1200,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mtransactiontime" : "2026-07-28 20:51:41.084+0000",
+                  "mvalidtime" : "2026-07-28 18:50:00.000+0000",
+                  "mvalue" : 0.5
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:41:53.366+0000",
+                  "mvalidtime" : "2026-09-24 09:40:00.000+0000",
+                  "mvalue" : 1
+                }, {
+                  "mperiod" : 6000,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mtransactiontime" : "2024-03-13 18:50:44.344+0000",
+                  "mvalidtime" : "2024-03-13 17:50:00.000+0000",
+                  "mvalue" : 1.1
+                }, {
+                  "mperiod" : 2400,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "ded1456a1547fcac17065ebb21bec37741784d53"
+                  },
+                  "mtransactiontime" : "2022-04-07 08:50:38.773+0000",
+                  "mvalidtime" : "2022-04-07 06:50:00.000+0000",
+                  "mvalue" : 2.5
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "Bozen",
+              "name_en" : "Bolzano",
+              "name_it" : "Bolzano"
+            },
+            "sname" : "Bolzano",
+            "sorigin" : "SIAG",
+            "stype" : "MeteoStation"
+          }
+        }
+      },
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.151913,
+              "y" : 46.210154
+            },
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 17:20:02.283+0000",
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 14.1
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 17:20:02.533+0000",
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 3.3
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Faedo"
+            },
+            "sname" : "Cadino",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis2" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "rwis2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.134472,
+              "y" : 46.197769
+            },
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2015-11-30 18:50:02.605+0000",
+                  "mvalidtime" : "2015-11-30 11:00:00.000+0000",
+                  "mvalue" : 2.96
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2015-11-30 18:50:02.647+0000",
+                  "mvalidtime" : "2015-11-30 11:00:00.000+0000",
+                  "mvalue" : 5.7
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "San Michele all'Adige"
+            },
+            "sname" : "S.Michele",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis3" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis3",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.069111,
+              "y" : 46.23165
+            },
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 17:20:02.638+0000",
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 13.3
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 17:20:02.839+0000",
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 12.7
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Predaia"
+            },
+            "sname" : "Rocchetta",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis4" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis4",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.101253,
+              "y" : 46.151711
+            },
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 17:20:02.930+0000",
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 13.7
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 17:20:03.131+0000",
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 8.1
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Lavis"
+            },
+            "sname" : "Casa Cantoniera",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis5" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis5",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.08575,
+              "y" : 46.122225
+            },
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 17:20:03.206+0000",
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 13.9
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 17:20:03.399+0000",
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 14.2
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Trento"
+            },
+            "sname" : "Viadotto A22",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis6" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis6",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.113311,
+              "y" : 45.97342
+            },
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 17:20:03.471+0000",
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 14.2
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 17:20:03.637+0000",
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 8.3
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Calliano"
+            },
+            "sname" : "Acquaviva",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis7" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis7",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.183341,
+              "y" : 46.083308
+            },
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 17:20:03.705+0000",
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 13.1
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "VARIOUS",
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mtransactiontime" : "2018-04-03 17:20:03.853+0000",
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 2.1
+                } ],
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Civezzano"
+            },
+            "sname" : "Civezzano",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

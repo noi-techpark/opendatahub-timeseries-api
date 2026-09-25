@@ -1,0 +1,666 @@
+{
+  "request" : "GET /tree/ParkingStation/*/latest?limit=-1&select=tname,mvalue.b.c,tunit,mvalidtime&where=mvalue.lt.100,mvalue.gt.0 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "103" : {
+            "sdatatypes" : {
+              "parking-forecast-rmse-120" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 13:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-120",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 13:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-150",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 14:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-180",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 14:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-210",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 15:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-240",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 11:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-30",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 12:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-60",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 12:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-90",
+                "tunit" : ""
+              }
+            }
+          },
+          "104" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000"
+                } ],
+                "tname" : "free",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-120" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-03-07 13:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-120",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-03-07 13:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-150",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-03-07 14:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-180",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-03-07 14:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-210",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-03-07 15:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-240",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-03-07 11:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-30",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-03-07 12:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-60",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-03-07 12:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-90",
+                "tunit" : ""
+              }
+            }
+          },
+          "105" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2021-06-17 12:50:00.000+0000"
+                }, {
+                  "mvalidtime" : "2026-09-24 11:43:02.000+0000"
+                } ],
+                "tname" : "free",
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 11:43:02.000+0000"
+                } ],
+                "tname" : "free_short_stay",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2021-06-17 12:50:00.000+0000"
+                }, {
+                  "mvalidtime" : "2026-09-24 11:43:02.000+0000"
+                } ],
+                "tname" : "occupied",
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 11:43:02.000+0000"
+                } ],
+                "tname" : "occupied_short_stay",
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 13:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-120",
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 13:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-150",
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 14:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-180",
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 14:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-210",
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 15:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-240",
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-30",
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 12:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-60",
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 12:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-90",
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 13:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-high-120",
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 13:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-high-150",
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 14:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-high-180",
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 14:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-high-210",
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 15:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-high-240",
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-high-30",
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 12:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-high-60",
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 12:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-high-90",
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 13:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-low-120",
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 13:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-low-150",
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 14:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-low-180",
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 14:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-low-210",
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 15:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-low-240",
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-low-30",
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 12:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-low-60",
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 12:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-low-90",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-120" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 13:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-120",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 13:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-150",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 14:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-180",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 14:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-210",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 15:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-240",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 11:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-30",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 12:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-60",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 12:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-90",
+                "tunit" : ""
+              }
+            }
+          },
+          "107" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-05-14 17:00:54.000+0000"
+                } ],
+                "tname" : "occupied",
+                "tunit" : ""
+              }
+            }
+          },
+          "112" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000"
+                } ],
+                "tname" : "free",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 11:40:00.000+0000"
+                } ],
+                "tname" : "occupied",
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 13:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-120",
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 13:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-150",
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 14:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-180",
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 14:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-210",
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 15:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-240",
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-30",
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 12:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-60",
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 12:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-90",
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 13:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-high-120",
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 13:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-high-150",
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 14:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-high-180",
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 14:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-high-210",
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 15:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-high-240",
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-high-30",
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 12:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-high-60",
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 12:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-high-90",
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 13:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-low-120",
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 13:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-low-150",
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 14:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-low-180",
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 14:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-low-210",
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 15:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-low-240",
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-low-30",
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 12:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-low-60",
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 12:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-low-90",
+                "tunit" : ""
+              }
+            }
+          },
+          "115" : {
+            "sdatatypes" : {
+              "parking-forecast-rmse-120" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 13:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-120",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 13:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-150",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 14:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-180",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 14:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-210",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 15:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-240",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 11:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-30",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 12:05:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-60",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2025-09-18 12:35:00.000+0000"
+                } ],
+                "tname" : "parking-forecast-rmse-90",
+                "tunit" : ""
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

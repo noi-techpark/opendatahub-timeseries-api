@@ -1,0 +1,110 @@
+{
+  "request" : "GET /tree/Bicycle?limit=100 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "Bicycle" : {
+        "stations" : {
+          "bike118" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "bike118",
+            "smetadata" : {
+              "type" : "mountain-bike-child"
+            },
+            "sname" : "mountain-bike-child(118)",
+            "sorigin" : "ALGORAB",
+            "stype" : "Bicycle"
+          },
+          "bike119" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "bike119",
+            "smetadata" : {
+              "type" : "mountain-bike-child"
+            },
+            "sname" : "mountain-bike-child(119)",
+            "sorigin" : "ALGORAB",
+            "stype" : "Bicycle"
+          },
+          "bike136" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "bike136",
+            "smetadata" : {
+              "type" : "city-bike-adult-with-gears"
+            },
+            "sname" : "city-bike-adult-with-gears(136)",
+            "sorigin" : "ALGORAB",
+            "stype" : "Bicycle"
+          },
+          "bike139" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "bike139",
+            "smetadata" : {
+              "type" : "city-bike-adult-with-gears"
+            },
+            "sname" : "city-bike-adult-with-gears(139)",
+            "sorigin" : "ALGORAB",
+            "stype" : "Bicycle"
+          },
+          "bike51" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "bike51",
+            "smetadata" : {
+              "type" : "mountain-bike-adult"
+            },
+            "sname" : "mountain-bike-adult(51)",
+            "sorigin" : "ALGORAB",
+            "stype" : "Bicycle"
+          },
+          "bike53" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "bike53",
+            "smetadata" : {
+              "type" : "mountain-bike-adult"
+            },
+            "sname" : "mountain-bike-adult(53)",
+            "sorigin" : "ALGORAB",
+            "stype" : "Bicycle"
+          },
+          "bike55" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "bike55",
+            "smetadata" : {
+              "type" : "city-bike-adult-without-gears"
+            },
+            "sname" : "city-bike-adult-without-gears(55)",
+            "sorigin" : "ALGORAB",
+            "stype" : "Bicycle"
+          },
+          "bike74" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "bike74",
+            "smetadata" : {
+              "type" : "city-bike-adult-with-gears"
+            },
+            "sname" : "city-bike-adult-with-gears(74)",
+            "sorigin" : "ALGORAB",
+            "stype" : "Bicycle"
+          }
+        }
+      }
+    },
+    "limit" : 100,
+    "offset" : 0
+  }
+}

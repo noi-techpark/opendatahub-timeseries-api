@@ -1,0 +1,55 @@
+{
+  "request" : "GET /tree/MeteoStation/atmospheric-pressure-reduced/2026-09-24T08:05:00Z/2026-09-24T14:06:00Z?limit=2000&where=scode.eq.%2283200MS%22&select=sname,tname,mvalue,mvalidtime [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "MeteoStation" : {
+        "stations" : {
+          "83200MS" : {
+            "sdatatypes" : {
+              "atmospheric-pressure-reduced" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 08:10:00.000+0000",
+                  "mvalue" : 1021.9
+                }, {
+                  "mvalidtime" : "2026-09-24 08:20:00.000+0000",
+                  "mvalue" : 1021.9
+                }, {
+                  "mvalidtime" : "2026-09-24 08:30:00.000+0000",
+                  "mvalue" : 1021.6
+                }, {
+                  "mvalidtime" : "2026-09-24 08:40:00.000+0000",
+                  "mvalue" : 1021.4
+                }, {
+                  "mvalidtime" : "2026-09-24 08:50:00.000+0000",
+                  "mvalue" : 1021.2
+                }, {
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 1020.9
+                }, {
+                  "mvalidtime" : "2026-09-24 09:10:00.000+0000",
+                  "mvalue" : 1020.7
+                }, {
+                  "mvalidtime" : "2026-09-24 09:20:00.000+0000",
+                  "mvalue" : 1020.5
+                } ],
+                "tname" : "atmospheric-pressure-reduced"
+              }
+            },
+            "sname" : "Bolzano"
+          }
+        }
+      }
+    },
+    "limit" : 2000,
+    "offset" : 0
+  }
+}

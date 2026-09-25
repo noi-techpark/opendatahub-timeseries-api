@@ -1,0 +1,14 @@
+{
+  "request" : "GET /flat/*/*/latest?limit=-1&where=mvalue.lt.100,mvalue.gt.0&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "3c485374859df6d9a52756c971fce39b73b42f7d8d4f6fb0ceeff623c7d6ba1f",
+  "bodyRecords" : 641
+}

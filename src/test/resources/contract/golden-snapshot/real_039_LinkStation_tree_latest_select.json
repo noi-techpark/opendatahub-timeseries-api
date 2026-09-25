@@ -1,0 +1,574 @@
+{
+  "request" : "GET /tree/LinkStation/*/latest?limit=300&select=sname,tname,mvalue,mvalidtime,mperiod,prname [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 162
+                }, {
+                  "mperiod" : 21600,
+                  "mvalidtime" : "2021-06-17 09:00:00.000+0000",
+                  "mvalue" : 1259
+                }, {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 20
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 32
+                }, {
+                  "mperiod" : 7200,
+                  "mvalidtime" : "2021-06-17 11:00:00.000+0000",
+                  "mvalue" : 332
+                } ],
+                "tname" : "Bluetooth Count match"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 132
+                }, {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 129
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 132
+                } ],
+                "tname" : "Bluetooth Elapsed time (test)"
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 132
+                } ],
+                "tname" : "Bluetooth Elapsed time greater than 100 km/h"
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1,
+                  "mvalidtime" : "2021-06-17 11:58:18.000+0000",
+                  "mvalue" : 133
+                } ],
+                "tname" : "Bluetooth match"
+              },
+              "speed greater than 100 km/h" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 116.251615
+                } ],
+                "tname" : "speed greater than 100 km/h"
+              },
+              "velocita'" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 116.251615
+                }, {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 118.955141
+                }, {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 116.251615
+                } ],
+                "tname" : "velocita'"
+              }
+            },
+            "sname" : "A22_ML103->A22_ML107"
+          },
+          "A22_ML107->A22_ML103" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mvalidtime" : "2021-06-17 11:00:00.000+0000",
+                  "mvalue" : 264
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 25
+                }, {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 137
+                }, {
+                  "mperiod" : 21600,
+                  "mvalidtime" : "2021-06-17 09:00:00.000+0000",
+                  "mvalue" : 862
+                }, {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 12
+                } ],
+                "tname" : "Bluetooth Count match"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 179
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 184
+                }, {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 185
+                } ],
+                "tname" : "Bluetooth Elapsed time (test)"
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 129
+                } ],
+                "tname" : "Bluetooth Elapsed time greater than 100 km/h"
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1,
+                  "mvalidtime" : "2021-06-17 11:54:29.000+0000",
+                  "mvalue" : 121
+                } ],
+                "tname" : "Bluetooth match"
+              },
+              "speed greater than 100 km/h" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 118.643843
+                } ],
+                "tname" : "speed greater than 100 km/h"
+              },
+              "velocita'" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 82.730031
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 83.179651
+                }, {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 85.503105
+                } ],
+                "tname" : "velocita'"
+              }
+            },
+            "sname" : "A22_ML107->A22_ML103"
+          },
+          "Agip_Einstein->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mvalidtime" : "2021-06-17 11:00:00.000+0000",
+                  "mvalue" : 141
+                }, {
+                  "mperiod" : 21600,
+                  "mvalidtime" : "2021-06-17 09:00:00.000+0000",
+                  "mvalue" : 423
+                }, {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 7
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 12
+                }, {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 60
+                } ],
+                "tname" : "Bluetooth Count match"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 108
+                }, {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 78
+                }, {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 81
+                } ],
+                "tname" : "Bluetooth Elapsed time (test)"
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2017-03-10 13:55:00.000+0000",
+                  "mvalue" : 28
+                } ],
+                "tname" : "Bluetooth Elapsed time greater than 100 km/h"
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1,
+                  "mvalidtime" : "2021-06-17 11:59:09.000+0000",
+                  "mvalue" : 72
+                } ],
+                "tname" : "Bluetooth match"
+              },
+              "speed greater than 100 km/h" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2017-03-10 13:55:00.000+0000",
+                  "mvalue" : 130.811767
+                } ],
+                "tname" : "speed greater than 100 km/h"
+              },
+              "velocita'" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 45.218882
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 33.914162
+                }, {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 46.95807
+                } ],
+                "tname" : "velocita'"
+              }
+            },
+            "sname" : "meinstein->Agip_Einstein"
+          },
+          "Maso_Pieve->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 1
+                }, {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 4
+                }, {
+                  "mperiod" : 7200,
+                  "mvalidtime" : "2021-06-17 11:00:00.000+0000",
+                  "mvalue" : 10
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 1
+                }, {
+                  "mperiod" : 21600,
+                  "mvalidtime" : "2021-06-17 09:00:00.000+0000",
+                  "mvalue" : 44
+                } ],
+                "tname" : "Bluetooth Count match"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 165
+                }, {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 165
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 165
+                } ],
+                "tname" : "Bluetooth Elapsed time (test)"
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1,
+                  "mvalidtime" : "2021-06-17 11:51:32.000+0000",
+                  "mvalue" : 150
+                } ],
+                "tname" : "Bluetooth match"
+              },
+              "velocita'" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 34.406553
+                }, {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 34.406553
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 34.406553
+                } ],
+                "tname" : "velocita'"
+              }
+            },
+            "sname" : "Maso_Pieve->meinstein"
+          },
+          "druso-poste->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mvalidtime" : "2021-06-17 11:00:00.000+0000",
+                  "mvalue" : 12
+                }, {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 1
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 1
+                }, {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 5
+                }, {
+                  "mperiod" : 21600,
+                  "mvalidtime" : "2021-06-17 09:00:00.000+0000",
+                  "mvalue" : 59
+                } ],
+                "tname" : "Bluetooth Count match"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2020-04-24 16:45:00.000+0000",
+                  "mvalue" : 3553
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 114
+                }, {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 113
+                } ],
+                "tname" : "Bluetooth Elapsed time (test)"
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1,
+                  "mvalidtime" : "2021-06-17 11:58:23.000+0000",
+                  "mvalue" : 99
+                } ],
+                "tname" : "Bluetooth match"
+              }
+            },
+            "sname" : "druso-poste->proma"
+          },
+          "meinstein->Agip_Einstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 14
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 22
+                }, {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 94
+                }, {
+                  "mperiod" : 21600,
+                  "mvalidtime" : "2021-06-17 09:00:00.000+0000",
+                  "mvalue" : 573
+                }, {
+                  "mperiod" : 7200,
+                  "mvalidtime" : "2021-06-17 11:00:00.000+0000",
+                  "mvalue" : 183
+                } ],
+                "tname" : "Bluetooth Count match"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 95
+                }, {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 75
+                }, {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 96
+                } ],
+                "tname" : "Bluetooth Elapsed time (test)"
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1,
+                  "mvalidtime" : "2021-06-17 11:58:33.000+0000",
+                  "mvalue" : 97
+                } ],
+                "tname" : "Bluetooth match"
+              },
+              "velocita'" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 38.627437
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 39.034042
+                }, {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 49.44312
+                } ],
+                "tname" : "velocita'"
+              }
+            },
+            "sname" : "Agip_Einstein->meinstein"
+          },
+          "proma->druso-poste" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mvalidtime" : "2021-06-17 11:00:00.000+0000",
+                  "mvalue" : 24
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:37:30.000+0000",
+                  "mvalue" : 5
+                }, {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 13
+                }, {
+                  "mperiod" : 21600,
+                  "mvalidtime" : "2021-06-17 09:00:00.000+0000",
+                  "mvalue" : 73
+                }, {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:45:00.000+0000",
+                  "mvalue" : 2
+                } ],
+                "tname" : "Bluetooth Count match"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2020-04-24 16:45:00.000+0000",
+                  "mvalue" : 122
+                }, {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 120
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:37:30.000+0000",
+                  "mvalue" : 120
+                } ],
+                "tname" : "Bluetooth Elapsed time (test)"
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1,
+                  "mvalidtime" : "2021-06-17 11:43:07.000+0000",
+                  "mvalue" : 86
+                } ],
+                "tname" : "Bluetooth match"
+              }
+            },
+            "sname" : "proma->druso-poste"
+          },
+          "siemens->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 1
+                }, {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 1
+                }, {
+                  "mperiod" : 21600,
+                  "mvalidtime" : "2021-06-17 09:00:00.000+0000",
+                  "mvalue" : 119
+                }, {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 9
+                }, {
+                  "mperiod" : 7200,
+                  "mvalidtime" : "2021-06-17 11:00:00.000+0000",
+                  "mvalue" : 25
+                } ],
+                "tname" : "Bluetooth Count match"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mvalidtime" : "2021-06-17 11:30:00.000+0000",
+                  "mvalue" : 161
+                }, {
+                  "mperiod" : 900,
+                  "mvalidtime" : "2021-06-17 11:52:30.000+0000",
+                  "mvalue" : 207
+                }, {
+                  "mperiod" : 600,
+                  "mvalidtime" : "2021-06-17 11:55:00.000+0000",
+                  "mvalue" : 207
+                } ],
+                "tname" : "Bluetooth Elapsed time (test)"
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1,
+                  "mvalidtime" : "2021-06-17 11:51:19.000+0000",
+                  "mvalue" : 192
+                } ],
+                "tname" : "Bluetooth match"
+              }
+            },
+            "sname" : "siemens->proma"
+          }
+        }
+      }
+    },
+    "limit" : 300,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=sname,tmetadata,mvalidtime,tname,pmetadata.voltage,tunit&where=mvalue.lt.100,mvalue.gt.0&shownull=true&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "93a18983477956b6332d73545f81cf08405842eabce3e2b70a5a2d3afc47566e",
+  "bodyRecords" : 176513
+}

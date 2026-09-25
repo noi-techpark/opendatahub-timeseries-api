@@ -1,0 +1,1113 @@
+{
+  "request" : "GET /flat,edge/*?limit=-1&select=edirected,eorigin,sbname&where=eactive.eq.true&shownull=true&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Agip_Einstein"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "meinstein"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "PONTE ROMA"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "PONTE ROMA / ROMBRCKE 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIALE TRENTO"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA MAYR NUSSER 3"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 6"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 7"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA MAYR NUSSER 4"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 3"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA DEL MACELLO 4"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "S.S. RENON"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 5"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "SS 12 / SS12  1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA WEGGENSTEIN / WEGGENSTEINSTRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA VITTORIO VENETO / VITTORIO-VENETO-STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA TALVERA"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA EVANGELISTA TORRICELLI / EVANGELISTA-TORRICELLI-STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA SAN MAURIZIO / MORITZINGER WEG"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "PONTE SANT'ANTONIO / ST.-ANTON-BRCKE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA SANT'ANTONIO / ST.-ANTON-STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "PONTE ROMA / ROMBRCKE 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ROMA / ROMSTRASSE 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ANTONIO ROSMINI / ANTONIO-ROSMINI-STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA RENCIO / RENTSCHNER STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA RENON / RITTNER STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA DELL OSPEDALE / SPITALGASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "PONTE PALERMO / PALERMOBRCKE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA PALERMO / PALERMOSTRASSE 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA MUSEO / MUSEUMSTRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA LORIS MUSY / LORIS-MUSY-STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA OLTRADIGE / UEBERETSCHER STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA MIRAMONTI / REICHRIEGLERWEG"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA GUGLIELMO MARCONI / GUGLIELMO-MARCONI-STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "CORSO ITALIA / ITALIENALLEE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA GALILEO GALILEI / GALILEO-GALILEI-STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA GIUSEPPE GARIBALDI / GIUSEPPE-GARIBALDI-STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ARMANDO DIAZ / ARMANDO-DIAZ-STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "COSTA DI SOTTO / UNTERLEITACH"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA DANTE / DANTESTRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA CASSA DI RISPARMIO / SPARKASSENSTRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA CASTEL FIRMIANO / SIGMUNDSKRONER STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA GIOSUÈ CARDUCCI / GIOSUÈ-CARDUCCI-STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA BRENNERO / BRENNERSTRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA BEATO ARRIGO / SELIG-HEINRICH-STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA LORENZ BHLER / LORENZ-BHLER-STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "PIAZZA GIUSEPPE VERDI / GIUSEPPE-VERDI-PLATZ"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA SAN GENESIO / JENESIER WEG"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA WERNER VON SIEMENS / WERNER-VON-SIEMENS-STRASSE 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "PONTE TALVERA / TALFERBRCKE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "PONTE DRUSO / DRUSUSBRCKE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA COLOGNA / GLANINGER WEG"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "GALLERIA DEL VIRGOLO / VIRGL TUNNEL"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIALE DRUSO / DRUSUSALLEE 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "PIAZZA GIUSEPPE MAZZINI / GIUSEPPE-MAZZINI-PLATZ"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA SARENTINO / SARNTALER  STRASSE 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA SARENTINO / SARNTALER  STRASSE 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA MERANO / MERANER STRASSE 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 3"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ROMA / ROMSTRASSE 3"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 3"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 4"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 3"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 4"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "GALLERIA SS12 / SS12 TUNNEL"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA WERNER VON SIEMENS / WERNER-VON-SIEMENS-STRASSE 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "SP 99 S. GENESIO / LS 99 JENESIEN 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "SP 99 S. GENESIO / LS 99 JENESIEN 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "SP 99 S. GENESIO / LS 99 JENESIEN 3"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "PIAZZA GRIES / GRIESER PLATZ"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "SS 42 / SS42"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "SS 38 / SS38"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA RENCIO / RENTSCHER STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA S. GIACOMO / ST.-JAKOB-STRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA FAGO / FAGENSTRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA TORRICELLI"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA EDISON"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA BUOZZI 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA BUOZZI 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA CLAUDIA AUGUSTA 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA CLAUDIA AUGUSTA 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA CLAUDIA AUGUSTA 3"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA CLAUDIA AUGUSTA 4"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA CLAUDIA AUGUSTA 5"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA RESIA 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIALE EUROPA"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA MILANO 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA MILANO 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA CAVOUR"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA CASSA DI RISPARMIO"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA VINTOLA 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA VINTOLA 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA WEGGENSTEIN"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ROVIGO 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA GAISMAIR"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ROVIGO 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA DALMAZIA 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA DALMAZIA 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "SVINCOLO VIA GALILEI 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "SVINCOLO VIA GALILEI 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA RIGHI"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA EBNER"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ALESSANDRIA"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA BARI"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA PARMA 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA PARMA 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA SASSARI 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA SASSARI 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA DUCA Di AOSTA 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA MENDOLA"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA CESARE BATTISTI"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ROEN"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA DUCA Di AOSTA 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "PIAZZA VITTORIA"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA S. QUIRINO"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA VENEZIA"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIALE TRIESTE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA TORINO 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA DEL MACELLO 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA DEL MACELLO 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA MAYR NUSSER 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "PONTE VIRGOLO"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA MAYR NUSSER 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA DEL MACELLO 3"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA BRENNERO"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA S. MAURIZIO"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA TRE SANTI"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VICOLO FUCINE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIALE DRUSO 1"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIALE DRUSO 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "PIAZZA ADRIANO"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIALE DRUSO 3"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIALE DRUSO 4"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIALE DRUSO / DRUSUSALLEE 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ROMA / ROMSTRASSE 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA TORINO 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA PALERMO / PALERMOSTRASSE 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA PALERMO / PALERMOSTRASSE 3"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "SS 12 / SS12  2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 3"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA BUOZZI 3"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA SASSARI 3"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA MERANO / MERANER STRASSE 2"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA ROMA / ROMSTRASSE"
+    }, {
+      "edirected" : true,
+      "eorigin" : null,
+      "sbname" : "VIA GALILEI"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "A22_ML103"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "A22_ML107"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Maso_Pieve"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "TN-Cadino"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "TN-Nord"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "TN-Nord"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "TN-Maccani"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "TN-Maccani"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "TN-Sud"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "TN-Sud"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "TN-Acquaviva"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Milano_Resia"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Druso_Palermo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Druso_Palermo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "P_Campiglio"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Galleria_Virgolo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Milano_Resia"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "roma_sud"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "petrarca"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "wolf"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "galilei"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "terme_ovest"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "sinigo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "cavour"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "druso-poste"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Galilei_Roma"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "meinstein"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Agip_Einstein"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "A22_ML103"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Torricelli"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "siemens"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Galilei_Palermo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Galilei_Lancia"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Galilei_Virgolo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "wolf-franziskus"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Galleria_Virgolo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Torricelli"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "meinstein"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "galvani"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "galvani"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Galilei_Lancia"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "caugusta"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Galilei_Virgolo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Galilei_Roma"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "caugusta"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "proma"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Roma_Firenze"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Roma_Firenze"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "druso-poste"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Galilei_Roma"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Roma_Firenze"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Milano_Palermo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Milano_Palermo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "corse_cappuccini"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Druso_Palermo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Arginale_Palermo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Arginale_Resia"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Arginale_Resia"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Milano_Palermo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Arginale_Resia"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "P_Campiglio"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Arginale_Palermo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "Galleria_Virgolo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "druso-poste"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "roma_sud"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "sinigo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "roma_nord"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "piave_matteotti"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "piave_matteotti"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "piave-palade"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "zuegg-palade"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "roma_nord"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "piave-palade"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "cavour"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "cavour"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "cavour"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "scena-leichter"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "schaffer-winkel"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "terme_est"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "terme_ovest"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "liberta-corse"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "ponte_rezia"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "terme_ovest"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "ponte_rezia"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "liberta-corse"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "mazzini"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "mazzini"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "stazione"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "stazione"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "goethe_ospedale"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "goethe_ospedale"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "hofer"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "hofer"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "corse_cappuccini"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "corse_cappuccini"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "goethe-alpini"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "liberta-corse"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "mazzini"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "liberta-corse"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "huber"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "huber"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "goethe_ospedale"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "wolf-franziskus"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "sinigo"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "goethe_ospedale"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "zuegg-palade"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "siemens"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "proma"
+    }, {
+      "edirected" : true,
+      "eorigin" : "NOI",
+      "sbname" : "druso-poste"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

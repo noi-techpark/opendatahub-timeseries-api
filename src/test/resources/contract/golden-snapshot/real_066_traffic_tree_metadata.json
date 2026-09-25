@@ -1,0 +1,262 @@
+{
+  "request" : "GET /tree/traffic/metadata/2015-01-01/2026-09-24T14:06:00Z?limit=200 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "traffic" : {
+        "stations" : {
+          "Autostrada Fittizzia" : {
+            "savailable" : true,
+            "scode" : "Autostrada Fittizzia",
+            "smetadata" : {
+              "description" : "spiraFITTIZIA"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "description" : "spiraFITTIZIA"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "Autostrada Fittizzia",
+            "stype" : "traffic"
+          },
+          "MEBO" : {
+            "savailable" : true,
+            "scode" : "MEBO",
+            "smetadata" : {
+              "description" : "spiraPAB"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "description" : "spiraPAB"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "MEBO",
+            "stype" : "traffic"
+          },
+          "Renon" : {
+            "savailable" : true,
+            "scode" : "Renon",
+            "smetadata" : {
+              "description" : "spiraPAB"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "description" : "spiraPAB"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "Renon",
+            "stype" : "traffic"
+          },
+          "S. Genesio" : {
+            "savailable" : true,
+            "scode" : "S. Genesio",
+            "smetadata" : {
+              "description" : "spiraPAB"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "description" : "spiraPAB"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "S. Genesio",
+            "stype" : "traffic"
+          },
+          "SS12 Cardano" : {
+            "savailable" : true,
+            "scode" : "SS12 Cardano",
+            "smetadata" : {
+              "description" : "spiraPAB"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "description" : "spiraPAB"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "SS12 Cardano",
+            "stype" : "traffic"
+          },
+          "SS12 Pineta" : {
+            "savailable" : true,
+            "scode" : "SS12 Pineta",
+            "smetadata" : {
+              "description" : "spiraPAB"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "description" : "spiraPAB"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "SS12 Pineta",
+            "stype" : "traffic"
+          },
+          "SS42" : {
+            "savailable" : true,
+            "scode" : "SS42",
+            "smetadata" : {
+              "description" : "spiraPAB"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "description" : "spiraPAB"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "SS42",
+            "stype" : "traffic"
+          },
+          "Sarentino" : {
+            "savailable" : true,
+            "scode" : "Sarentino",
+            "smetadata" : {
+              "description" : "spiraPAB"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "description" : "spiraPAB"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "Sarentino",
+            "stype" : "traffic"
+          },
+          "Settequerce" : {
+            "savailable" : true,
+            "scode" : "Settequerce",
+            "smetadata" : {
+              "description" : "spiraPAB"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "description" : "spiraPAB"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "Settequerce",
+            "stype" : "traffic"
+          },
+          "incrocio via Duerer - Pfarrhofstrasse" : {
+            "savailable" : true,
+            "scode" : "incrocio via Duerer - Pfarrhofstrasse",
+            "smetadata" : {
+              "description" : "spiraBZ"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "description" : "spiraBZ"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "incrocio via Duerer - Pfarrhofstrasse",
+            "stype" : "traffic"
+          },
+          "incrocio via Resia - viale Druso 1" : {
+            "savailable" : true,
+            "scode" : "incrocio via Resia - viale Druso 1",
+            "smetadata" : {
+              "description" : "spiraBZ"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "description" : "spiraBZ"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "incrocio via Resia - viale Druso 1",
+            "stype" : "traffic"
+          },
+          "ponte Talvera" : {
+            "savailable" : true,
+            "scode" : "ponte Talvera",
+            "smetadata" : {
+              "description" : "spiraBZ"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "description" : "spiraBZ"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "ponte Talvera",
+            "stype" : "traffic"
+          },
+          "ponte Virgolo" : {
+            "savailable" : true,
+            "scode" : "ponte Virgolo",
+            "smetadata" : {
+              "description" : "spiraBZ"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "description" : "spiraBZ"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "ponte Virgolo",
+            "stype" : "traffic"
+          },
+          "via Claudia Augusta 1" : {
+            "savailable" : true,
+            "scode" : "via Claudia Augusta 1",
+            "smetadata" : {
+              "description" : "spiraBZ"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "description" : "spiraBZ"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "via Claudia Augusta 1",
+            "stype" : "traffic"
+          },
+          "via Einstein 1" : {
+            "savailable" : true,
+            "scode" : "via Einstein 1",
+            "smetadata" : {
+              "description" : "spiraBZ"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "description" : "spiraBZ"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "via Einstein 1",
+            "stype" : "traffic"
+          },
+          "via Vittorio Veneto" : {
+            "savailable" : true,
+            "scode" : "via Vittorio Veneto",
+            "smetadata" : {
+              "description" : "spiraBZ"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "description" : "spiraBZ"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "via Vittorio Veneto",
+            "stype" : "traffic"
+          }
+        }
+      }
+    },
+    "limit" : 200,
+    "offset" : 0
+  }
+}

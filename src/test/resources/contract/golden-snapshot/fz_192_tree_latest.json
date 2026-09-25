@@ -1,0 +1,1226 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=prversion,mvalue.a,tmetadata,mperiod&where=tname.in.(air-temperature,wind-speed)&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : { }
+          },
+          "37100MS" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 1200,
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prversion" : "e5e30561d496f968a095ebce0248080060b6cb67"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 2400,
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 6000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 8400,
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 1200,
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 2400,
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 3000,
+                  "mprovenance" : {
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 4200,
+                  "mprovenance" : {
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 4800,
+                  "mprovenance" : {
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 6000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 6600,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 7800,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 8400,
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 15000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 19800,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : { }
+          },
+          "47400MS" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 1200,
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 6000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 6600,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 23400,
+                  "mprovenance" : {
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 86400,
+                  "mprovenance" : {
+                    "prversion" : "4ab1bcc5c8e60c9c7700a8ab860827522761be6d"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 31536000,
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 1200,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 2400,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 3000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 4200,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 4800,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 6000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 6600,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 7800,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 9600,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 10200,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 12000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 13200,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 15600,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 18000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 19800,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 21600,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 22200,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 25800,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 27000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 27600,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 28800,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 29400,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 30600,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 34200,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 35400,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 43200,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 45000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 50400,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 54000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 64200,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 70200,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 70800,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 74400,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 76200,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 77400,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 78600,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 81000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 82200,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 94800,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 99000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 138000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 168600,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 173400,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 175800,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 186000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 340800,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 431400,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 513000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 523800,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : { }
+          },
+          "62600MS" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 1200,
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prversion" : "e5e30561d496f968a095ebce0248080060b6cb67"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 6000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 6600,
+                  "mprovenance" : {
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 86400,
+                  "mprovenance" : {
+                    "prversion" : "4ab1bcc5c8e60c9c7700a8ab860827522761be6d"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 31536000,
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 1200,
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prversion" : "e5e30561d496f968a095ebce0248080060b6cb67"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 2400,
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 6000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : { }
+          },
+          "83200MS" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 1200,
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prversion" : "e5e30561d496f968a095ebce0248080060b6cb67"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 3000,
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 6000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 86400,
+                  "mprovenance" : {
+                    "prversion" : "4ab1bcc5c8e60c9c7700a8ab860827522761be6d"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 31536000,
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 1200,
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 2400,
+                  "mprovenance" : {
+                    "prversion" : "ded1456a1547fcac17065ebb21bec37741784d53"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 3000,
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                }, {
+                  "mperiod" : 6000,
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : { }
+          }
+        }
+      },
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : { }
+          },
+          "rwis2" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : { }
+          },
+          "rwis3" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : { }
+          },
+          "rwis4" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : { }
+          },
+          "rwis5" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : { }
+          },
+          "rwis6" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : { }
+          },
+          "rwis7" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : { }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

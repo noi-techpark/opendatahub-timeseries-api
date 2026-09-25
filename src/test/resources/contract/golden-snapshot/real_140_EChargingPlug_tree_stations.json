@@ -1,0 +1,213 @@
+{
+  "request" : "GET /tree/EChargingPlug?limit=100 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "EChargingPlug" : {
+        "stations" : {
+          "AER_00000001-1" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000001-1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.326185,
+              "y" : 46.473003
+            },
+            "smetadata" : {
+              "outlets" : [ {
+                "hasFixedCable" : false,
+                "id" : "1",
+                "maxCurrent" : 31,
+                "maxPower" : 22,
+                "minCurrent" : 0,
+                "outletTypeCode" : "Type2Mennekes"
+              } ]
+            },
+            "sname" : "BZ_FIERA-241",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingPlug"
+          },
+          "AER_00000001-2" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000001-2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.326185,
+              "y" : 46.473003
+            },
+            "smetadata" : {
+              "outlets" : [ {
+                "hasFixedCable" : false,
+                "id" : "2",
+                "maxCurrent" : 31,
+                "maxPower" : 22,
+                "minCurrent" : 0,
+                "outletTypeCode" : "Type2Mennekes"
+              } ]
+            },
+            "sname" : "BZ_FIERA-242",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingPlug"
+          },
+          "AER_00000006-2" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000006-2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.337837,
+              "y" : 46.4905
+            },
+            "smetadata" : {
+              "outlets" : [ {
+                "hasFixedCable" : false,
+                "id" : "2",
+                "maxCurrent" : 31,
+                "maxPower" : 22,
+                "minCurrent" : 0,
+                "outletTypeCode" : "Type2Mennekes"
+              } ]
+            },
+            "sname" : "BZ_PMATTEOTTI-256",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingPlug"
+          },
+          "AER_00000039-1" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000039-1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 10.955608,
+              "y" : 46.52789
+            },
+            "smetadata" : {
+              "outlets" : [ {
+                "hasFixedCable" : false,
+                "id" : "1",
+                "maxCurrent" : 31,
+                "maxPower" : 22,
+                "minCurrent" : 0,
+                "outletTypeCode" : "Type2Mennekes"
+              } ]
+            },
+            "sname" : "ULTIMO_01-432",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingPlug"
+          },
+          "AER_00000039-2" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000039-2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 10.955608,
+              "y" : 46.52789
+            },
+            "smetadata" : {
+              "outlets" : [ {
+                "hasFixedCable" : false,
+                "id" : "2",
+                "maxCurrent" : 31,
+                "maxPower" : 22,
+                "minCurrent" : 0,
+                "outletTypeCode" : "Type2Mennekes"
+              } ]
+            },
+            "sname" : "ULTIMO_01-433",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingPlug"
+          },
+          "AER_00000041-1" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000041-1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.271506,
+              "y" : 46.314846
+            },
+            "smetadata" : {
+              "outlets" : [ {
+                "hasFixedCable" : false,
+                "id" : "1",
+                "maxCurrent" : 31,
+                "maxPower" : 22,
+                "minCurrent" : 0,
+                "outletTypeCode" : "Type2Mennekes"
+              } ]
+            },
+            "sname" : "EGNA_01-451",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingPlug"
+          },
+          "AER_00000041-2" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000041-2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.271506,
+              "y" : 46.314846
+            },
+            "smetadata" : {
+              "outlets" : [ {
+                "hasFixedCable" : false,
+                "id" : "2",
+                "maxCurrent" : 31,
+                "maxPower" : 22,
+                "minCurrent" : 0,
+                "outletTypeCode" : "Type2Mennekes"
+              } ]
+            },
+            "sname" : "EGNA_01-452",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingPlug"
+          },
+          "AER_00000042-1" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000042-1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.323925,
+              "y" : 46.481113
+            },
+            "smetadata" : {
+              "outlets" : [ {
+                "hasFixedCable" : true,
+                "id" : "1",
+                "maxCurrent" : 120,
+                "maxPower" : 45,
+                "minCurrent" : 0,
+                "outletTypeCode" : "CHAdeMO"
+              }, {
+                "hasFixedCable" : true,
+                "id" : "2",
+                "maxCurrent" : 120,
+                "maxPower" : 45,
+                "minCurrent" : 0,
+                "outletTypeCode" : "CCS"
+              } ]
+            },
+            "sname" : "BZ_PTE_RESIA_OLD-456",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingPlug"
+          }
+        }
+      }
+    },
+    "limit" : 100,
+    "offset" : 0
+  }
+}

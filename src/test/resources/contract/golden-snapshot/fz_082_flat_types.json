@@ -1,0 +1,70 @@
+{
+  "request" : "GET /flat/*/*?limit=-1&select=smetadata.name_en,tdescription,tname,pmetadata,ttype,stype&where=sname.ire.park&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "stype" : "ParkingStation",
+      "tdescription" : "occupied",
+      "tname" : "occupied",
+      "ttype" : "Instantaneous"
+    }, {
+      "smetadata.name_en" : "Direzional Park",
+      "stype" : "ParkingStation",
+      "tdescription" : "occupied",
+      "tname" : "occupied",
+      "ttype" : "Instantaneous"
+    }, {
+      "smetadata.name_en" : "Direzional Park",
+      "stype" : "ParkingStation",
+      "tdescription" : "free",
+      "tname" : "free",
+      "ttype" : "Instantaneous"
+    }, {
+      "smetadata.name_en" : "Waltherpark",
+      "stype" : "ParkingFacility",
+      "tdescription" : "free",
+      "tname" : "free",
+      "ttype" : "Instantaneous"
+    }, {
+      "smetadata.name_en" : "Waltherpark",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous"
+    }, {
+      "smetadata.name_en" : "Waltherpark",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'short stay' parking slots",
+      "tname" : "free_short_stay",
+      "ttype" : "Instantaneous"
+    }, {
+      "smetadata.name_en" : "Waltherpark",
+      "stype" : "ParkingFacility",
+      "tdescription" : "occupied",
+      "tname" : "occupied",
+      "ttype" : "Instantaneous"
+    }, {
+      "smetadata.name_en" : "Waltherpark",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of occupied 'short stay' parking slots",
+      "tname" : "occupied_short_stay",
+      "ttype" : "Instantaneous"
+    }, {
+      "smetadata.name_en" : "Waltherpark",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of occupied 'subscribers' parking slots",
+      "tname" : "occupied_subscribers",
+      "ttype" : "Instantaneous"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

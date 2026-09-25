@@ -1,0 +1,14 @@
+{
+  "request" : "GET /tree/BikeSharingService/free-bike-status/2026-09-24T08:05:00Z/2026-09-24T14:06:00Z?limit=2000&where=scode.eq.%22sharedmobility-ch%3Apr%3Acarvelo2go%22&select=sname,tname,mvalue,mvalidtime [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "9ebc2a4da591abc6680502111d783e4f4c9cbe5265a1cb2ebc91c9fc155988d2",
+  "bodyRecords" : 4899864
+}

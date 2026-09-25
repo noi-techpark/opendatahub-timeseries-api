@@ -1,0 +1,14 @@
+{
+  "request" : "GET /tree/MeteoStation/*/latest?limit=300 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "e0587308f7b7766ee1c10004beba9dd5fb40baf45b59d99f6fad156bc5fca2ad",
+  "bodyRecords" : 141522
+}

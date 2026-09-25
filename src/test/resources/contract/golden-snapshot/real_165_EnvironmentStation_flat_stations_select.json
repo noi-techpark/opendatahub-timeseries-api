@@ -1,0 +1,113 @@
+{
+  "request" : "GET /flat/EnvironmentStation?limit=100&select=scode,sname,sorigin,scoordinate,smetadata,pcode [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "scode" : "AB2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.279333,
+        "y" : 46.343653
+      },
+      "smetadata" : {
+        "municipality" : "Egna"
+      },
+      "sname" : "A22 Sud - Binnenland, Ora",
+      "sorigin" : "APPABZ"
+    }, {
+      "scode" : "AB3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.633306,
+        "y" : 46.687556
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "A22 Nord-Bx sud - Depuratore, Bx",
+      "sorigin" : "APPABZ"
+    }, {
+      "scode" : "BX1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.654083,
+        "y" : 46.714917
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "Bressanone - Villa Adele - Viale Ratisbona",
+      "sorigin" : "APPABZ"
+    }, {
+      "scode" : "BZ4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.341833,
+        "y" : 46.482306
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 4 - Via C.Augusta",
+      "sorigin" : "APPABZ"
+    }, {
+      "scode" : "BZ5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.339972,
+        "y" : 46.495472
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 5 - Piazza Adriano",
+      "sorigin" : "APPABZ"
+    }, {
+      "scode" : "BZ6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.341972,
+        "y" : 46.499167
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 6 - Via Amba Alagi giardino",
+      "sorigin" : "APPABZ"
+    }, {
+      "scode" : "CR1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.227111,
+        "y" : 46.267333
+      },
+      "smetadata" : {
+        "municipality" : "Cortina ssdV"
+      },
+      "sname" : "Cortina ssdV - Strada del Vino",
+      "sorigin" : "APPABZ"
+    }, {
+      "scode" : "LS1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.340139,
+        "y" : 46.434833
+      },
+      "smetadata" : {
+        "municipality" : "Laives"
+      },
+      "sname" : "Laives - Via Galizia",
+      "sorigin" : "APPABZ"
+    } ],
+    "limit" : 100,
+    "offset" : 0
+  }
+}

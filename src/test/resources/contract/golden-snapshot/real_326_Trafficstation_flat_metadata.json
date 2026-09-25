@@ -1,0 +1,30 @@
+{
+  "request" : "GET /flat/Trafficstation/metadata/2015-01-01/2026-09-24T14:06:00Z?limit=200 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "mhmetadata" : {
+        "description" : "spiraBZ"
+      },
+      "mhtransactiontime" : "2019-03-19 10:46:20.807+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "via Torricelli",
+      "smetadata" : {
+        "description" : "spiraBZ"
+      },
+      "sname" : "via Torricelli",
+      "stype" : "Trafficstation"
+    } ],
+    "limit" : 200,
+    "offset" : 0
+  }
+}

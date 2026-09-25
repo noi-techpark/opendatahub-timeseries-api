@@ -1,0 +1,866 @@
+{
+  "request" : "GET /tree/BluetoothStation?limit=100 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "BluetoothStation" : {
+        "stations" : {
+          "A22_ML103" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "A22_ML103",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.26693,
+              "y" : 46.32098
+            },
+            "smetadata" : { },
+            "sname" : "A22_ML103",
+            "stype" : "BluetoothStation"
+          },
+          "A22_ML107" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "A22_ML107",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.23751,
+              "y" : 46.28884
+            },
+            "smetadata" : { },
+            "sname" : "A22_ML107",
+            "stype" : "BluetoothStation"
+          },
+          "Agip_Einstein" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Agip_Einstein",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.31655,
+              "y" : 46.47129
+            },
+            "smetadata" : { },
+            "sname" : "Agip_Einstein",
+            "stype" : "BluetoothStation"
+          },
+          "Arginale_Palermo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Arginale_Palermo",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.3345,
+              "y" : 46.48662
+            },
+            "smetadata" : {
+              "description" : "",
+              "name" : {
+                "en" : "Arginale Palermo",
+                "it" : "Arginale Palermo"
+              }
+            },
+            "sname" : "Arginale_Palermo",
+            "stype" : "BluetoothStation"
+          },
+          "Arginale_Resia" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Arginale_Resia",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.32538,
+              "y" : 46.48257
+            },
+            "smetadata" : { },
+            "sname" : "Arginale_Resia",
+            "stype" : "BluetoothStation"
+          },
+          "Druso_Palermo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Druso_Palermo",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33269,
+              "y" : 46.49508
+            },
+            "smetadata" : { },
+            "sname" : "Druso_Palermo",
+            "stype" : "BluetoothStation"
+          },
+          "Galilei_Lancia" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galilei_Lancia",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33707,
+              "y" : 46.48615
+            },
+            "smetadata" : { },
+            "sname" : "Galilei_Lancia",
+            "stype" : "BluetoothStation"
+          },
+          "Galilei_Palermo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galilei_Palermo",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.3326,
+              "y" : 46.48501
+            },
+            "smetadata" : {
+              "description" : "highway",
+              "name" : {
+                "de" : "Kreuzung Galilei Strasse - Palermo Brücke",
+                "en" : "Intersection Galilei Street - Palermo Bridge",
+                "it" : "Incrocio via Galilei - ponte Palermo"
+              }
+            },
+            "sname" : "Galilei_Palermo",
+            "stype" : "BluetoothStation"
+          },
+          "Galilei_Roma" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galilei_Roma",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.34355,
+              "y" : 46.48697
+            },
+            "smetadata" : { },
+            "sname" : "Galilei_Roma",
+            "stype" : "BluetoothStation"
+          },
+          "Galilei_Virgolo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galilei_Virgolo",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.34142,
+              "y" : 46.48699
+            },
+            "smetadata" : { },
+            "sname" : "Galilei_Virgolo",
+            "stype" : "BluetoothStation"
+          },
+          "Galleria_Virgolo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galleria_Virgolo",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.35919,
+              "y" : 46.49203
+            },
+            "smetadata" : { },
+            "sname" : "Galleria_Virgolo",
+            "stype" : "BluetoothStation"
+          },
+          "Maso_Pieve" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Maso_Pieve",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33751,
+              "y" : 46.47574
+            },
+            "smetadata" : { },
+            "sname" : "Maso_Pieve",
+            "stype" : "BluetoothStation"
+          },
+          "Milano_Palermo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Milano_Palermo",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33175,
+              "y" : 46.48955
+            },
+            "smetadata" : { },
+            "sname" : "Milano_Palermo",
+            "stype" : "BluetoothStation"
+          },
+          "Milano_Resia" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Milano_Resia",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.31705,
+              "y" : 46.48972
+            },
+            "smetadata" : { },
+            "sname" : "Milano_Resia",
+            "stype" : "BluetoothStation"
+          },
+          "P_Campiglio" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "P_Campiglio",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.37137,
+              "y" : 46.49248
+            },
+            "smetadata" : {
+              "description" : "",
+              "name" : {
+                "de" : "Kampil",
+                "en" : "Campiglio",
+                "it" : "Campiglio"
+              }
+            },
+            "sname" : "P_Campiglio",
+            "stype" : "BluetoothStation"
+          },
+          "Roma_Firenze" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Roma_Firenze",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.34129,
+              "y" : 46.49226
+            },
+            "smetadata" : { },
+            "sname" : "Roma_Firenze",
+            "stype" : "BluetoothStation"
+          },
+          "TN-Acquaviva" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "TN-Acquaviva",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.1133,
+              "y" : 45.9735
+            },
+            "smetadata" : { },
+            "sname" : "TN-Acquaviva",
+            "stype" : "BluetoothStation"
+          },
+          "TN-Cadino" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "TN-Cadino",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.1519,
+              "y" : 46.2103
+            },
+            "smetadata" : { },
+            "sname" : "TN-Cadino",
+            "stype" : "BluetoothStation"
+          },
+          "TN-Maccani" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "TN-Maccani",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.1093,
+              "y" : 46.085
+            },
+            "smetadata" : { },
+            "sname" : "TN-Maccani",
+            "stype" : "BluetoothStation"
+          },
+          "TN-Nord" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "TN-Nord",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.082,
+              "y" : 46.1331
+            },
+            "smetadata" : { },
+            "sname" : "TN-Nord",
+            "stype" : "BluetoothStation"
+          },
+          "TN-Sud" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "TN-Sud",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.1215,
+              "y" : 46.0391
+            },
+            "smetadata" : { },
+            "sname" : "TN-Sud",
+            "stype" : "BluetoothStation"
+          },
+          "Torricelli" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Torricelli",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.32402,
+              "y" : 46.47806
+            },
+            "smetadata" : { },
+            "sname" : "Torricelli",
+            "stype" : "BluetoothStation"
+          },
+          "Via_Galilei_Virgolo" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "Via_Galilei_Virgolo",
+            "smetadata" : { },
+            "sname" : "Via_Galilei_Virgolo",
+            "stype" : "BluetoothStation"
+          },
+          "caugusta" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "caugusta",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.34236,
+              "y" : 46.48252
+            },
+            "smetadata" : { },
+            "sname" : "caugusta",
+            "stype" : "BluetoothStation"
+          },
+          "cavour" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "cavour",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.16729,
+              "y" : 46.66844
+            },
+            "smetadata" : {
+              "description" : "ME20"
+            },
+            "sname" : "cavour",
+            "stype" : "BluetoothStation"
+          },
+          "cfirmiano" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "cfirmiano",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.310146,
+              "y" : 46.493382
+            },
+            "smetadata" : { },
+            "sname" : "cfirmiano",
+            "stype" : "BluetoothStation"
+          },
+          "corse_cappuccini" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "corse_cappuccini",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.15939,
+              "y" : 46.67385
+            },
+            "smetadata" : {
+              "description" : "ME23"
+            },
+            "sname" : "corse_cappuccini",
+            "stype" : "BluetoothStation"
+          },
+          "druso-poste" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "druso-poste",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33965,
+              "y" : 46.49511
+            },
+            "smetadata" : { },
+            "sname" : "druso-poste",
+            "stype" : "BluetoothStation"
+          },
+          "galilei" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "galilei",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.1613,
+              "y" : 46.67362
+            },
+            "smetadata" : {
+              "description" : "ME13"
+            },
+            "sname" : "galilei",
+            "stype" : "BluetoothStation"
+          },
+          "galvani" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "galvani",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33168,
+              "y" : 46.47405
+            },
+            "smetadata" : { },
+            "sname" : "galvani",
+            "stype" : "BluetoothStation"
+          },
+          "goethe-alpini" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "goethe-alpini",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.15578,
+              "y" : 46.6748
+            },
+            "smetadata" : {
+              "description" : "ME15"
+            },
+            "sname" : "goethe-alpini",
+            "stype" : "BluetoothStation"
+          },
+          "goethe_ospedale" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "goethe_ospedale",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.1488,
+              "y" : 46.67679
+            },
+            "smetadata" : {
+              "description" : "ME14"
+            },
+            "sname" : "goethe_ospedale",
+            "stype" : "BluetoothStation"
+          },
+          "hofer" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "hofer",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.15241,
+              "y" : 46.67512
+            },
+            "smetadata" : {
+              "description" : "ME05"
+            },
+            "sname" : "hofer",
+            "stype" : "BluetoothStation"
+          },
+          "huber" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "huber",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.15655,
+              "y" : 46.67285
+            },
+            "smetadata" : {
+              "description" : "ME10"
+            },
+            "sname" : "huber",
+            "stype" : "BluetoothStation"
+          },
+          "liberta-corse" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "liberta-corse",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.15941,
+              "y" : 46.67063
+            },
+            "smetadata" : {
+              "description" : "ME21"
+            },
+            "sname" : "liberta-corse",
+            "stype" : "BluetoothStation"
+          },
+          "mazzini" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "mazzini",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.15261,
+              "y" : 46.67105
+            },
+            "smetadata" : {
+              "description" : "ME03"
+            },
+            "sname" : "mazzini",
+            "stype" : "BluetoothStation"
+          },
+          "meinstein" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "meinstein",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.32819,
+              "y" : 46.46834
+            },
+            "smetadata" : { },
+            "sname" : "meinstein",
+            "stype" : "BluetoothStation"
+          },
+          "petrarca" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "petrarca",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.15639,
+              "y" : 46.66672
+            },
+            "smetadata" : {
+              "description" : "ME22"
+            },
+            "sname" : "petrarca",
+            "stype" : "BluetoothStation"
+          },
+          "piave-palade" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "piave-palade",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.16018,
+              "y" : 46.66167
+            },
+            "smetadata" : {
+              "description" : "ME12"
+            },
+            "sname" : "piave-palade",
+            "stype" : "BluetoothStation"
+          },
+          "piave_matteotti" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "piave_matteotti",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.15903,
+              "y" : 46.66425
+            },
+            "smetadata" : {
+              "description" : "ME26"
+            },
+            "sname" : "piave_matteotti",
+            "stype" : "BluetoothStation"
+          },
+          "ponte_rezia" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "ponte_rezia",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.15313,
+              "y" : 46.66851
+            },
+            "smetadata" : {
+              "description" : "ME07",
+              "name" : {
+                "de" : "Reschenbrücke",
+                "en" : "Ponte resia",
+                "it" : "Ponte resia"
+              }
+            },
+            "sname" : "ponte_rezia",
+            "stype" : "BluetoothStation"
+          },
+          "presia" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "presia",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.323833,
+              "y" : 46.481331
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano - Bozen"
+            },
+            "sname" : "ponte resia",
+            "stype" : "BluetoothStation"
+          },
+          "proma" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "proma",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.34202,
+              "y" : 46.49034
+            },
+            "smetadata" : {
+              "description" : "",
+              "name" : {
+                "de" : "Roma Brücke",
+                "en" : "Roma Bridge",
+                "it" : "Ponte Roma"
+              }
+            },
+            "sname" : "proma",
+            "stype" : "BluetoothStation"
+          },
+          "resiadruso" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "resiadruso",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.314341,
+              "y" : 46.494042
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano - Bozen"
+            },
+            "sname" : "resiadruso",
+            "stype" : "BluetoothStation"
+          },
+          "roma_nord" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "roma_nord",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.1627,
+              "y" : 46.66755
+            },
+            "smetadata" : {
+              "description" : "ME11"
+            },
+            "sname" : "roma_nord",
+            "stype" : "BluetoothStation"
+          },
+          "roma_sud" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "roma_sud",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.1678,
+              "y" : 46.65691
+            },
+            "smetadata" : {
+              "description" : "ME16"
+            },
+            "sname" : "roma_sud",
+            "stype" : "BluetoothStation"
+          },
+          "rosmini" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "rosmini",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.347846,
+              "y" : 46.499077
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano - Bozen"
+            },
+            "sname" : "Via Rosmini",
+            "stype" : "BluetoothStation"
+          },
+          "scena-leichter" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "scena-leichter",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.17816,
+              "y" : 46.66955
+            },
+            "smetadata" : {
+              "description" : "ME18"
+            },
+            "sname" : "scena-leichter",
+            "stype" : "BluetoothStation"
+          },
+          "schaffer-winkel" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "schaffer-winkel",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.17013,
+              "y" : 46.66577
+            },
+            "smetadata" : {
+              "description" : "ME17"
+            },
+            "sname" : "schaffer-winkel",
+            "stype" : "BluetoothStation"
+          },
+          "siemens" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "siemens",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33051,
+              "y" : 46.48242
+            },
+            "smetadata" : {
+              "description" : "",
+              "name" : {
+                "de" : "Siemens Strasse",
+                "en" : "Siemens Street",
+                "it" : "Via Siemens"
+              }
+            },
+            "sname" : "siemens",
+            "stype" : "BluetoothStation"
+          },
+          "sinigo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "sinigo",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.17759,
+              "y" : 46.64202
+            },
+            "smetadata" : {
+              "description" : "ME25"
+            },
+            "sname" : "sinigo",
+            "stype" : "BluetoothStation"
+          },
+          "stazione" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "stazione",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.15009,
+              "y" : 46.67327
+            },
+            "smetadata" : {
+              "description" : "ME08"
+            },
+            "sname" : "stazione",
+            "stype" : "BluetoothStation"
+          },
+          "terme_est" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "terme_est",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.16426,
+              "y" : 46.66929
+            },
+            "smetadata" : {
+              "description" : "ME19"
+            },
+            "sname" : "terme_est",
+            "stype" : "BluetoothStation"
+          },
+          "terme_ovest" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "terme_ovest",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.15959,
+              "y" : 46.66948
+            },
+            "smetadata" : {
+              "description" : "ME24"
+            },
+            "sname" : "terme_ovest",
+            "stype" : "BluetoothStation"
+          },
+          "vveneto" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "vveneto",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.330587,
+              "y" : 46.502537
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano - Bozen"
+            },
+            "sname" : "Vittorio veneto",
+            "stype" : "BluetoothStation"
+          },
+          "wolf" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "wolf",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.15919,
+              "y" : 46.67445
+            },
+            "smetadata" : {
+              "description" : "ME06"
+            },
+            "sname" : "wolf",
+            "stype" : "BluetoothStation"
+          },
+          "wolf-franziskus" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "wolf-franziskus",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.15587,
+              "y" : 46.67795
+            },
+            "smetadata" : {
+              "description" : "ME09"
+            },
+            "sname" : "wolf-franziskus",
+            "stype" : "BluetoothStation"
+          },
+          "zuegg-palade" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "zuegg-palade",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.14589,
+              "y" : 46.65885
+            },
+            "smetadata" : {
+              "description" : "ME02"
+            },
+            "sname" : "zuegg-palade",
+            "stype" : "BluetoothStation"
+          }
+        }
+      }
+    },
+    "limit" : 100,
+    "offset" : 0
+  }
+}

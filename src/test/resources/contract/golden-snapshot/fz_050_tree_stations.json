@@ -1,0 +1,143 @@
+{
+  "request" : "GET /tree/*?limit=-1&select=pcoordinate&where=sorigin.neq.NOI [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "Bicycle" : {
+        "stations" : {
+          "bike118" : { },
+          "bike119" : { },
+          "bike136" : { },
+          "bike139" : { },
+          "bike51" : { },
+          "bike53" : { },
+          "bike55" : { },
+          "bike74" : { }
+        }
+      },
+      "Bicyclestationbay" : {
+        "stations" : {
+          "Viale della Stazione - Bahnhofsallee:1" : { },
+          "Viale della Stazione - Bahnhofsallee:2" : { },
+          "Viale della Stazione - Bahnhofsallee:3" : { },
+          "Viale della Stazione - Bahnhofsallee:4" : { },
+          "Viale della Stazione - Bahnhofsallee:5" : { },
+          "Viale della Stazione - Bahnhofsallee:6" : { },
+          "Viale della Stazione - Bahnhofsallee:7" : { },
+          "Viale della Stazione - Bahnhofsallee:8" : { }
+        }
+      },
+      "BikeSharingService" : {
+        "stations" : {
+          "sharedmobility-ch:pr:carvelo2go" : { }
+        }
+      },
+      "BikesharingStation" : {
+        "stations" : {
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3" : { },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3008cf824e352d9854585d3731568fe6e0a042d2" : { },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3242fbb9d66046deac446c8b89768cd1b6fc9c9f" : { },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--845248b808d1bf6c6115e471e41ccdca99f09743" : { },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1b380c7315ed00d73a49269e2feab2e5b0452a00" : { },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c4e26e1fd97da55bd1a1fe7ccf67f1b70c69453a" : { },
+          "bikestation1" : { },
+          "bikestation2" : { }
+        }
+      },
+      "EChargingPlug" : {
+        "stations" : {
+          "AER_00000001-1" : { },
+          "AER_00000001-2" : { },
+          "AER_00000006-2" : { },
+          "AER_00000039-1" : { },
+          "AER_00000039-2" : { },
+          "AER_00000041-1" : { },
+          "AER_00000041-2" : { },
+          "AER_00000042-1" : { }
+        }
+      },
+      "EChargingStation" : {
+        "stations" : {
+          "AER_00000001" : { },
+          "AER_00000005" : { },
+          "AER_00000006" : { },
+          "AER_00000007" : { },
+          "AER_00000008" : { },
+          "AER_00000039" : { },
+          "AER_00000041" : { },
+          "AER_00000042" : { }
+        }
+      },
+      "EnvironmentStation" : {
+        "stations" : {
+          "AB2" : { },
+          "AB3" : { },
+          "BX1" : { },
+          "BZ4" : { },
+          "BZ5" : { },
+          "BZ6" : { },
+          "CR1" : { },
+          "LS1" : { }
+        }
+      },
+      "LinkStation" : {
+        "stations" : {
+          "1853-1854" : { }
+        }
+      },
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : { },
+          "37100MS" : { },
+          "47400MS" : { },
+          "59450PG" : { },
+          "62600MS" : { },
+          "69790PG" : { },
+          "83200MS" : { },
+          "83450PG" : { }
+        }
+      },
+      "ParkingFacility" : {
+        "stations" : {
+          "105_facility" : { },
+          "607440" : { },
+          "608612" : { },
+          "609883" : { }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "102" : { },
+          "103" : { },
+          "104" : { },
+          "105" : { },
+          "107" : { },
+          "112" : { },
+          "113" : { },
+          "115" : { }
+        }
+      },
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : { },
+          "rwis2" : { },
+          "rwis3" : { },
+          "rwis4" : { },
+          "rwis5" : { },
+          "rwis6" : { },
+          "rwis7" : { }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

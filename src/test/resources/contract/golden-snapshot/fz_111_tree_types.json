@@ -1,0 +1,443 @@
+{
+  "request" : "GET /tree/*/*?limit=-1&where=sorigin.eq.NOI&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "A22_ML103->A22_ML107",
+            "scoordinate" : null,
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "tmetadata" : null,
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count",
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tdescription" : null,
+                "tmetadata" : null,
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null,
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tdescription" : "Mode for vehicles fast than 100 km/h",
+                "tmetadata" : null,
+                "tname" : "Bluetooth Elapsed time greater than 100 km/h",
+                "ttype" : "Mode",
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "tmetadata" : null,
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous",
+                "tunit" : null
+              },
+              "speed greater than 100 km/h" : {
+                "tdescription" : "average speed of vehicles faster than 100 km/h",
+                "tmetadata" : null,
+                "tname" : "speed greater than 100 km/h",
+                "ttype" : "Mode",
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "tmetadata" : null,
+                "tname" : "velocita'",
+                "ttype" : "Mean",
+                "tunit" : "km/h"
+              }
+            },
+            "smetadata" : null,
+            "sname" : "A22_ML103->A22_ML107",
+            "sorigin" : "NOI",
+            "sparent" : {
+              "pactive" : null,
+              "pavailable" : null,
+              "pcode" : null,
+              "pcoordinate" : null,
+              "pmetadata" : null,
+              "pname" : null,
+              "porigin" : null,
+              "ptype" : null
+            },
+            "stype" : "LinkStation"
+          },
+          "A22_ML107->A22_ML103" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "A22_ML107->A22_ML103",
+            "scoordinate" : null,
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "tmetadata" : null,
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count",
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tdescription" : null,
+                "tmetadata" : null,
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null,
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tdescription" : "Mode for vehicles fast than 100 km/h",
+                "tmetadata" : null,
+                "tname" : "Bluetooth Elapsed time greater than 100 km/h",
+                "ttype" : "Mode",
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "tmetadata" : null,
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous",
+                "tunit" : null
+              },
+              "speed greater than 100 km/h" : {
+                "tdescription" : "average speed of vehicles faster than 100 km/h",
+                "tmetadata" : null,
+                "tname" : "speed greater than 100 km/h",
+                "ttype" : "Mode",
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "tmetadata" : null,
+                "tname" : "velocita'",
+                "ttype" : "Mean",
+                "tunit" : "km/h"
+              }
+            },
+            "smetadata" : null,
+            "sname" : "A22_ML107->A22_ML103",
+            "sorigin" : "NOI",
+            "sparent" : {
+              "pactive" : null,
+              "pavailable" : null,
+              "pcode" : null,
+              "pcoordinate" : null,
+              "pmetadata" : null,
+              "pname" : null,
+              "porigin" : null,
+              "ptype" : null
+            },
+            "stype" : "LinkStation"
+          },
+          "Agip_Einstein->meinstein" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Agip_Einstein->meinstein",
+            "scoordinate" : null,
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "tmetadata" : null,
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count",
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tdescription" : null,
+                "tmetadata" : null,
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null,
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tdescription" : "Mode for vehicles fast than 100 km/h",
+                "tmetadata" : null,
+                "tname" : "Bluetooth Elapsed time greater than 100 km/h",
+                "ttype" : "Mode",
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "tmetadata" : null,
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous",
+                "tunit" : null
+              },
+              "speed greater than 100 km/h" : {
+                "tdescription" : "average speed of vehicles faster than 100 km/h",
+                "tmetadata" : null,
+                "tname" : "speed greater than 100 km/h",
+                "ttype" : "Mode",
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "tmetadata" : null,
+                "tname" : "velocita'",
+                "ttype" : "Mean",
+                "tunit" : "km/h"
+              }
+            },
+            "smetadata" : null,
+            "sname" : "meinstein->Agip_Einstein",
+            "sorigin" : "NOI",
+            "sparent" : {
+              "pactive" : null,
+              "pavailable" : null,
+              "pcode" : null,
+              "pcoordinate" : null,
+              "pmetadata" : null,
+              "pname" : null,
+              "porigin" : null,
+              "ptype" : null
+            },
+            "stype" : "LinkStation"
+          },
+          "Maso_Pieve->meinstein" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Maso_Pieve->meinstein",
+            "scoordinate" : null,
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "tmetadata" : null,
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count",
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tdescription" : null,
+                "tmetadata" : null,
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null,
+                "tunit" : null
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "tmetadata" : null,
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous",
+                "tunit" : null
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "tmetadata" : null,
+                "tname" : "velocita'",
+                "ttype" : "Mean",
+                "tunit" : "km/h"
+              }
+            },
+            "smetadata" : null,
+            "sname" : "Maso_Pieve->meinstein",
+            "sorigin" : "NOI",
+            "sparent" : {
+              "pactive" : null,
+              "pavailable" : null,
+              "pcode" : null,
+              "pcoordinate" : null,
+              "pmetadata" : null,
+              "pname" : null,
+              "porigin" : null,
+              "ptype" : null
+            },
+            "stype" : "LinkStation"
+          },
+          "druso-poste->proma" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "druso-poste->proma",
+            "scoordinate" : null,
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "tmetadata" : null,
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count",
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tdescription" : null,
+                "tmetadata" : null,
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null,
+                "tunit" : null
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "tmetadata" : null,
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous",
+                "tunit" : null
+              }
+            },
+            "smetadata" : null,
+            "sname" : "druso-poste->proma",
+            "sorigin" : "NOI",
+            "sparent" : {
+              "pactive" : null,
+              "pavailable" : null,
+              "pcode" : null,
+              "pcoordinate" : null,
+              "pmetadata" : null,
+              "pname" : null,
+              "porigin" : null,
+              "ptype" : null
+            },
+            "stype" : "LinkStation"
+          },
+          "meinstein->Agip_Einstein" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "meinstein->Agip_Einstein",
+            "scoordinate" : null,
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "tmetadata" : null,
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count",
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tdescription" : null,
+                "tmetadata" : null,
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null,
+                "tunit" : null
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "tmetadata" : null,
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous",
+                "tunit" : null
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "tmetadata" : null,
+                "tname" : "velocita'",
+                "ttype" : "Mean",
+                "tunit" : "km/h"
+              }
+            },
+            "smetadata" : null,
+            "sname" : "Agip_Einstein->meinstein",
+            "sorigin" : "NOI",
+            "sparent" : {
+              "pactive" : null,
+              "pavailable" : null,
+              "pcode" : null,
+              "pcoordinate" : null,
+              "pmetadata" : null,
+              "pname" : null,
+              "porigin" : null,
+              "ptype" : null
+            },
+            "stype" : "LinkStation"
+          },
+          "proma->druso-poste" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "proma->druso-poste",
+            "scoordinate" : null,
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "tmetadata" : null,
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count",
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tdescription" : null,
+                "tmetadata" : null,
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null,
+                "tunit" : null
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "tmetadata" : null,
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous",
+                "tunit" : null
+              }
+            },
+            "smetadata" : null,
+            "sname" : "proma->druso-poste",
+            "sorigin" : "NOI",
+            "sparent" : {
+              "pactive" : null,
+              "pavailable" : null,
+              "pcode" : null,
+              "pcoordinate" : null,
+              "pmetadata" : null,
+              "pname" : null,
+              "porigin" : null,
+              "ptype" : null
+            },
+            "stype" : "LinkStation"
+          },
+          "siemens->proma" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "siemens->proma",
+            "scoordinate" : null,
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "tmetadata" : null,
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count",
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tdescription" : null,
+                "tmetadata" : null,
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null,
+                "tunit" : null
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "tmetadata" : null,
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous",
+                "tunit" : null
+              }
+            },
+            "smetadata" : null,
+            "sname" : "siemens->proma",
+            "sorigin" : "NOI",
+            "sparent" : {
+              "pactive" : null,
+              "pavailable" : null,
+              "pcode" : null,
+              "pcoordinate" : null,
+              "pmetadata" : null,
+              "pname" : null,
+              "porigin" : null,
+              "ptype" : null
+            },
+            "stype" : "LinkStation"
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

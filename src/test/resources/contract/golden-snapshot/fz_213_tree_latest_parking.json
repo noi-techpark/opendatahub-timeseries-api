@@ -1,0 +1,1608 @@
+{
+  "request" : "GET /tree/ParkingStation/*/latest?limit=-1&select=mperiod,scoordinate,scode,tmetadata,prlineage,prname&where=mvalue.gt.10&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "102" : {
+            "scode" : "102",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.356305,
+              "y" : 46.496449
+            },
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300
+                } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "103" : {
+            "scode" : "103",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.355115,
+              "y" : 46.497805
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "el-parking-free-slot-calculation",
+                    "prname" : "el-parking-free-slot-calculation"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "tr-parking-offstreet-famas"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-120" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-30" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-60" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-90" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "104" : {
+            "scode" : "104",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.358216,
+              "y" : 46.500551
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "el-parking-free-slot-calculation",
+                    "prname" : "el-parking-free-slot-calculation"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "tr-parking-offstreet-famas"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "105" : {
+            "scode" : "105",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.357255,
+              "y" : 46.498174
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "FreeParkingSlotsCalculation"
+                  }
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "skidata",
+                    "prname" : "tr-parking-offstreet-mybestparking"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "skidata",
+                    "prname" : "tr-parking-offstreet-mybestparking"
+                  }
+                } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "skidata",
+                    "prname" : "tr-parking-offstreet-mybestparking"
+                  }
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "dc-parking-MeBo"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "skidata",
+                    "prname" : "tr-parking-offstreet-mybestparking"
+                  }
+                } ]
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "107" : {
+            "scode" : "107",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.351793,
+              "y" : 46.502958
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "odh-mobility-el-parking-free-slot-calculation"
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "112" : {
+            "scode" : "112",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33851,
+              "y" : 46.49781
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "el-parking-free-slot-calculation",
+                    "prname" : "el-parking-free-slot-calculation"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "tr-parking-offstreet-famas"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "113" : {
+            "scode" : "113",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33818,
+              "y" : 46.49869
+            },
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "tr-parking-offstreet-famas"
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "115" : {
+            "scode" : "115",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.318078,
+              "y" : 46.491603
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "el-parking-free-slot-calculation",
+                    "prname" : "el-parking-free-slot-calculation"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "tr-parking-offstreet-famas"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast"
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

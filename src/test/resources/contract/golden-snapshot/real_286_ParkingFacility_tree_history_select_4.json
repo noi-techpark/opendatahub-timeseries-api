@@ -1,0 +1,94 @@
+{
+  "request" : "GET /tree/ParkingFacility/occupied/2026-09-24T08:05:00Z/2026-09-24T14:06:00Z?limit=2000&where=scode.eq.%22608612%22&select=sname,tname,mvalue,mvalidtime [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingFacility" : {
+        "stations" : {
+          "608612" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 08:10:27.000+0000",
+                  "mvalue" : 35
+                }, {
+                  "mvalidtime" : "2026-09-24 08:20:33.000+0000",
+                  "mvalue" : 35
+                }, {
+                  "mvalidtime" : "2026-09-24 08:30:31.000+0000",
+                  "mvalue" : 35
+                }, {
+                  "mvalidtime" : "2026-09-24 08:40:32.000+0000",
+                  "mvalue" : 36
+                }, {
+                  "mvalidtime" : "2026-09-24 08:50:31.000+0000",
+                  "mvalue" : 35
+                }, {
+                  "mvalidtime" : "2026-09-24 09:00:32.000+0000",
+                  "mvalue" : 35
+                }, {
+                  "mvalidtime" : "2026-09-24 09:10:31.000+0000",
+                  "mvalue" : 35
+                }, {
+                  "mvalidtime" : "2026-09-24 09:20:31.000+0000",
+                  "mvalue" : 36
+                }, {
+                  "mvalidtime" : "2026-09-24 09:30:32.000+0000",
+                  "mvalue" : 40
+                }, {
+                  "mvalidtime" : "2026-09-24 09:40:30.000+0000",
+                  "mvalue" : 41
+                }, {
+                  "mvalidtime" : "2026-09-24 09:50:36.000+0000",
+                  "mvalue" : 44
+                }, {
+                  "mvalidtime" : "2026-09-24 10:00:32.000+0000",
+                  "mvalue" : 41
+                }, {
+                  "mvalidtime" : "2026-09-24 10:10:33.000+0000",
+                  "mvalue" : 40
+                }, {
+                  "mvalidtime" : "2026-09-24 10:20:31.000+0000",
+                  "mvalue" : 39
+                }, {
+                  "mvalidtime" : "2026-09-24 10:30:32.000+0000",
+                  "mvalue" : 39
+                }, {
+                  "mvalidtime" : "2026-09-24 10:40:31.000+0000",
+                  "mvalue" : 39
+                }, {
+                  "mvalidtime" : "2026-09-24 10:50:30.000+0000",
+                  "mvalue" : 39
+                }, {
+                  "mvalidtime" : "2026-09-24 11:00:31.000+0000",
+                  "mvalue" : 39
+                }, {
+                  "mvalidtime" : "2026-09-24 11:10:31.000+0000",
+                  "mvalue" : 39
+                }, {
+                  "mvalidtime" : "2026-09-24 11:20:32.000+0000",
+                  "mvalue" : 38
+                }, {
+                  "mvalidtime" : "2026-09-24 11:30:32.000+0000",
+                  "mvalue" : 37
+                } ],
+                "tname" : "occupied"
+              }
+            },
+            "sname" : "Parcheggio Stazione Brunico"
+          }
+        }
+      }
+    },
+    "limit" : 2000,
+    "offset" : 0
+  }
+}

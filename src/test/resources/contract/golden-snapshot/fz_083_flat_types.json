@@ -1,0 +1,194 @@
+{
+  "request" : "GET /flat/*/*?limit=-1&select=pname,sorigin,sactive,ttype [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "sactive" : true,
+      "sorigin" : "NOI",
+      "ttype" : "Count"
+    }, {
+      "sactive" : true,
+      "sorigin" : "APPABZ",
+      "ttype" : "rating"
+    }, {
+      "sactive" : false,
+      "sorigin" : "ALGORAB"
+    }, {
+      "sactive" : true,
+      "sorigin" : "SIAG",
+      "ttype" : "Mittelwerte"
+    }, {
+      "sactive" : false,
+      "sorigin" : "ALGORAB",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : false,
+      "sorigin" : "SIAG",
+      "ttype" : "mean"
+    }, {
+      "pname" : "P05 - Laurin",
+      "sactive" : true,
+      "sorigin" : "skidata",
+      "ttype" : "Forecast"
+    }, {
+      "sactive" : true,
+      "sorigin" : "SIAG",
+      "ttype" : "mean"
+    }, {
+      "sactive" : false,
+      "sorigin" : "SIAG",
+      "ttype" : "total"
+    }, {
+      "sactive" : true,
+      "sorigin" : "NOI",
+      "ttype" : "Mean"
+    }, {
+      "sactive" : true,
+      "sorigin" : "skidata",
+      "ttype" : "Instantaneous"
+    }, {
+      "pname" : "Terme",
+      "sactive" : false,
+      "sorigin" : "ALGORAB"
+    }, {
+      "sactive" : false,
+      "sorigin" : "InfoMobility",
+      "ttype" : "Mittelwerte"
+    }, {
+      "sactive" : true,
+      "sorigin" : "SIAG",
+      "ttype" : "max"
+    }, {
+      "sactive" : true
+    }, {
+      "sactive" : true,
+      "sorigin" : "SIAG"
+    }, {
+      "sactive" : true,
+      "sorigin" : "NOI"
+    }, {
+      "pname" : "EGNA_01",
+      "sactive" : false,
+      "sorigin" : "ALPERIA",
+      "ttype" : ""
+    }, {
+      "pname" : "BZ_PMATTEOTTI",
+      "sactive" : false,
+      "sorigin" : "ALPERIA",
+      "ttype" : ""
+    }, {
+      "sactive" : false,
+      "sorigin" : "InfoMobility",
+      "ttype" : "mean"
+    }, {
+      "pname" : "Stazione treni",
+      "sactive" : false,
+      "sorigin" : "ALGORAB"
+    }, {
+      "sactive" : true,
+      "sorigin" : "InfoMobility",
+      "ttype" : "Mittelwerte"
+    }, {
+      "sactive" : true,
+      "sorigin" : "SIAG",
+      "ttype" : "Sum"
+    }, {
+      "sactive" : true,
+      "sorigin" : "APPABZ",
+      "ttype" : "Mean"
+    }, {
+      "sactive" : true,
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "sorigin" : "NOI",
+      "ttype" : "Instantaneous"
+    }, {
+      "pname" : "BZ_FIERA",
+      "sactive" : false,
+      "sorigin" : "ALPERIA",
+      "ttype" : ""
+    }, {
+      "pname" : "BZ_PTE_RESIA_OLD",
+      "sactive" : false,
+      "sorigin" : "ALPERIA",
+      "ttype" : ""
+    }, {
+      "sactive" : true,
+      "sorigin" : "FAMAS",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "ttype" : "Mean"
+    }, {
+      "sactive" : true,
+      "sorigin" : "InfoMobility",
+      "ttype" : "mean"
+    }, {
+      "sactive" : true,
+      "sorigin" : "SIAG",
+      "ttype" : "total"
+    }, {
+      "sactive" : true,
+      "sorigin" : "SIAG",
+      "ttype" : "min"
+    }, {
+      "sactive" : true,
+      "sorigin" : "NOI",
+      "ttype" : "Mode"
+    }, {
+      "sactive" : true,
+      "sorigin" : "sharedmobility-ch",
+      "ttype" : "Instantaneous"
+    }, {
+      "pname" : "P05 - Laurin",
+      "sactive" : true,
+      "sorigin" : "skidata",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : false,
+      "sorigin" : "FAMAS",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "sorigin" : "InfoMobility"
+    }, {
+      "pname" : "ULTIMO_01",
+      "sactive" : false,
+      "sorigin" : "ALPERIA",
+      "ttype" : ""
+    }, {
+      "sactive" : true,
+      "sorigin" : "FAMAS",
+      "ttype" : "Forecast"
+    }, {
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "sactive" : true,
+      "sorigin" : "BIKE_SHARING_BOLZANO"
+    }, {
+      "sactive" : false,
+      "sorigin" : "SIAG"
+    }, {
+      "sactive" : true,
+      "sorigin" : "BIKE_SHARING_BOLZANO"
+    }, {
+      "sactive" : false,
+      "sorigin" : "ALPERIA",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : false,
+      "sorigin" : "InfoMobility"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

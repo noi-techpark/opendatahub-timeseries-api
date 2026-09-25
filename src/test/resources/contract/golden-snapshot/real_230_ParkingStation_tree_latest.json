@@ -1,0 +1,14 @@
+{
+  "request" : "GET /tree/ParkingStation/*/latest?limit=300 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "49c37d646d993b8687de9f34f1b35157835d42dcaa7f16789417d89c2b1a02a9",
+  "bodyRecords" : 138168
+}

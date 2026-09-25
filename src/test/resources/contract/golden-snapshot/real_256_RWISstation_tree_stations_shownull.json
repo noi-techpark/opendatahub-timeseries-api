@@ -1,0 +1,71 @@
+{
+  "request" : "GET /tree/RWISstation?limit=100&shownull=true&select=scode,sname,pname,smetadata [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : {
+            "scode" : "rwis1",
+            "smetadata" : {
+              "municipality" : "Faedo"
+            },
+            "sname" : "Cadino"
+          },
+          "rwis2" : {
+            "scode" : "rwis2",
+            "smetadata" : {
+              "municipality" : "San Michele all'Adige"
+            },
+            "sname" : "S.Michele"
+          },
+          "rwis3" : {
+            "scode" : "rwis3",
+            "smetadata" : {
+              "municipality" : "Predaia"
+            },
+            "sname" : "Rocchetta"
+          },
+          "rwis4" : {
+            "scode" : "rwis4",
+            "smetadata" : {
+              "municipality" : "Lavis"
+            },
+            "sname" : "Casa Cantoniera"
+          },
+          "rwis5" : {
+            "scode" : "rwis5",
+            "smetadata" : {
+              "municipality" : "Trento"
+            },
+            "sname" : "Viadotto A22"
+          },
+          "rwis6" : {
+            "scode" : "rwis6",
+            "smetadata" : {
+              "municipality" : "Calliano"
+            },
+            "sname" : "Acquaviva"
+          },
+          "rwis7" : {
+            "scode" : "rwis7",
+            "smetadata" : {
+              "municipality" : "Civezzano"
+            },
+            "sname" : "Civezzano"
+          }
+        }
+      }
+    },
+    "limit" : 100,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,1030 @@
+{
+  "request" : "GET /tree/Streetstation/*/latest?limit=300&select=sname,tname,mvalue,mvalidtime,mperiod,prname [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "Streetstation" : {
+        "stations" : {
+          "CORSO ITALIA / ITALIENALLEE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 7.84429
+                } ],
+                "tname" : "CH4"
+              },
+              "CO" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 822.46164
+                } ],
+                "tname" : "CO"
+              },
+              "CO2" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 49790.447055
+                } ],
+                "tname" : "CO2"
+              },
+              "COV" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 185.715378
+                } ],
+                "tname" : "COV"
+              },
+              "FC" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 15851.170896
+                } ],
+                "tname" : "FC"
+              },
+              "IPA" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.000301
+                } ],
+                "tname" : "IPA"
+              },
+              "NH3" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 5.454362
+                } ],
+                "tname" : "NH3"
+              },
+              "NOX" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 118.42492
+                } ],
+                "tname" : "NOX"
+              },
+              "PM10" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 6.123523
+                } ],
+                "tname" : "PM10"
+              },
+              "PTS" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 6.143353
+                } ],
+                "tname" : "PTS"
+              },
+              "S02" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.154791
+                } ],
+                "tname" : "S02"
+              }
+            },
+            "sname" : "CORSO ITALIA / ITALIENALLEE"
+          },
+          "PONTE PALERMO / PALERMOBRCKE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 4.948422
+                } ],
+                "tname" : "CH4"
+              },
+              "CO" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 588.666152
+                } ],
+                "tname" : "CO"
+              },
+              "CO2" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 34823.305209
+                } ],
+                "tname" : "CO2"
+              },
+              "COV" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 129.248613
+                } ],
+                "tname" : "COV"
+              },
+              "FC" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 11085.435573
+                } ],
+                "tname" : "FC"
+              },
+              "IPA" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.000181
+                } ],
+                "tname" : "IPA"
+              },
+              "NH3" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 2.922544
+                } ],
+                "tname" : "NH3"
+              },
+              "NOX" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 78.458847
+                } ],
+                "tname" : "NOX"
+              },
+              "PM10" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 4.008603
+                } ],
+                "tname" : "PM10"
+              },
+              "PTS" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 4.022339
+                } ],
+                "tname" : "PTS"
+              },
+              "S02" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.108412
+                } ],
+                "tname" : "S02"
+              }
+            },
+            "sname" : "PONTE PALERMO / PALERMOBRCKE"
+          },
+          "PONTE ROMA / ROMBRCKE 1" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 11.507959
+                } ],
+                "tname" : "CH4"
+              },
+              "CO" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 1368.991051
+                } ],
+                "tname" : "CO"
+              },
+              "CO2" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 80984.430719
+                } ],
+                "tname" : "CO2"
+              },
+              "COV" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 300.57817
+                } ],
+                "tname" : "COV"
+              },
+              "FC" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 25780.082729
+                } ],
+                "tname" : "FC"
+              },
+              "IPA" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.000421
+                } ],
+                "tname" : "IPA"
+              },
+              "NH3" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 6.796613
+                } ],
+                "tname" : "NH3"
+              },
+              "NOX" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 182.462435
+                } ],
+                "tname" : "NOX"
+              },
+              "PM10" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 9.322332
+                } ],
+                "tname" : "PM10"
+              },
+              "PTS" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 9.354277
+                } ],
+                "tname" : "PTS"
+              },
+              "S02" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.252121
+                } ],
+                "tname" : "S02"
+              }
+            },
+            "sname" : "PONTE ROMA / ROMBRCKE 1"
+          },
+          "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.316136
+                } ],
+                "tname" : "CH4"
+              },
+              "CO" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 31.5964
+                } ],
+                "tname" : "CO"
+              },
+              "CO2" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 1901.406565
+                } ],
+                "tname" : "CO2"
+              },
+              "COV" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 7.125732
+                } ],
+                "tname" : "COV"
+              },
+              "FC" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 605.352931
+                } ],
+                "tname" : "FC"
+              },
+              "IPA" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.000013
+                } ],
+                "tname" : "IPA"
+              },
+              "NH3" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.249716
+                } ],
+                "tname" : "NH3"
+              },
+              "NOX" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 4.609619
+                } ],
+                "tname" : "NOX"
+              },
+              "PM10" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.239323
+                } ],
+                "tname" : "PM10"
+              },
+              "PTS" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.24001
+                } ],
+                "tname" : "PTS"
+              },
+              "S02" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.005906
+                } ],
+                "tname" : "S02"
+              }
+            },
+            "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE"
+          },
+          "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 16.41038
+                } ],
+                "tname" : "CH4"
+              },
+              "CO" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 1642.028231
+                } ],
+                "tname" : "CO"
+              },
+              "CO2" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 98163.746752
+                } ],
+                "tname" : "CO2"
+              },
+              "COV" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 370.374901
+                } ],
+                "tname" : "COV"
+              },
+              "FC" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 31252.321863
+                } ],
+                "tname" : "FC"
+              },
+              "IPA" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.000651
+                } ],
+                "tname" : "IPA"
+              },
+              "NH3" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 12.980922
+                } ],
+                "tname" : "NH3"
+              },
+              "NOX" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 235.601901
+                } ],
+                "tname" : "NOX"
+              },
+              "PM10" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 12.299655
+                } ],
+                "tname" : "PM10"
+              },
+              "PTS" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 12.332677
+                } ],
+                "tname" : "PTS"
+              },
+              "S02" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.304886
+                } ],
+                "tname" : "S02"
+              }
+            },
+            "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1"
+          },
+          "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 6.402678
+                } ],
+                "tname" : "CH4"
+              },
+              "CO" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 637.76356
+                } ],
+                "tname" : "CO"
+              },
+              "CO2" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 38027.694288
+                } ],
+                "tname" : "CO2"
+              },
+              "COV" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 142.44809
+                } ],
+                "tname" : "COV"
+              },
+              "FC" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 12107.094548
+                } ],
+                "tname" : "FC"
+              },
+              "IPA" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.000259
+                } ],
+                "tname" : "IPA"
+              },
+              "NH3" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 5.318853
+                } ],
+                "tname" : "NH3"
+              },
+              "NOX" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 92.901268
+                } ],
+                "tname" : "NOX"
+              },
+              "PM10" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 4.81213
+                } ],
+                "tname" : "PM10"
+              },
+              "PTS" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 4.825276
+                } ],
+                "tname" : "PTS"
+              },
+              "S02" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.118091
+                } ],
+                "tname" : "S02"
+              }
+            },
+            "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE"
+          },
+          "VIA PALERMO / PALERMOSTRASSE 1" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 6.904775
+                } ],
+                "tname" : "CH4"
+              },
+              "CO" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 821.394631
+                } ],
+                "tname" : "CO"
+              },
+              "CO2" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 48590.658432
+                } ],
+                "tname" : "CO2"
+              },
+              "COV" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 180.346902
+                } ],
+                "tname" : "COV"
+              },
+              "FC" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 15468.049637
+                } ],
+                "tname" : "FC"
+              },
+              "IPA" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.000252
+                } ],
+                "tname" : "IPA"
+              },
+              "NH3" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 4.077968
+                } ],
+                "tname" : "NH3"
+              },
+              "NOX" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 109.477461
+                } ],
+                "tname" : "NOX"
+              },
+              "PM10" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 5.593399
+                } ],
+                "tname" : "PM10"
+              },
+              "PTS" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 5.612566
+                } ],
+                "tname" : "PTS"
+              },
+              "S02" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.151273
+                } ],
+                "tname" : "S02"
+              }
+            },
+            "sname" : "VIA PALERMO / PALERMOSTRASSE 1"
+          },
+          "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.509896
+                } ],
+                "tname" : "CH4"
+              },
+              "CO" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 50.961936
+                } ],
+                "tname" : "CO"
+              },
+              "CO2" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 3066.784782
+                } ],
+                "tname" : "CO2"
+              },
+              "COV" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 11.493116
+                } ],
+                "tname" : "COV"
+              },
+              "FC" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 976.375695
+                } ],
+                "tname" : "FC"
+              },
+              "IPA" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.00002
+                } ],
+                "tname" : "IPA"
+              },
+              "NH3" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.402768
+                } ],
+                "tname" : "NH3"
+              },
+              "NOX" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 7.434869
+                } ],
+                "tname" : "NOX"
+              },
+              "PM10" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.386005
+                } ],
+                "tname" : "PM10"
+              },
+              "PTS" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.387113
+                } ],
+                "tname" : "PTS"
+              },
+              "S02" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.009526
+                } ],
+                "tname" : "S02"
+              }
+            },
+            "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE"
+          }
+        }
+      }
+    },
+    "limit" : 300,
+    "offset" : 0
+  }
+}

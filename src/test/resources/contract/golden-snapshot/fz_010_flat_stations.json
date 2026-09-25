@@ -1,0 +1,350 @@
+{
+  "request" : "GET /flat/*?limit=-1&select=sorigin,sname&where=sorigin.eq.NOI&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "sname" : "Maso_Pieve->meinstein",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "mazzini->huber",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Milano_Palermo->Milano_Resia",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Galilei_Lancia->Galilei_Virgolo",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "corse_cappuccini->wolf",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Arginale_Resia->Milano_Resia",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Galilei_Lancia->galvani",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "corse_cappuccini->galilei",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Torricelli->P_Campiglio",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "proma->Roma_Firenze",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "liberta-corse->corse_cappuccini",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "P_Campiglio->Arginale_Resia",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "piave_matteotti->piave-palade",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "petrarca->ponte_rezia",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "A22_ML107->A22_ML103",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "roma_sud->sinigo",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Milano_Palermo->Druso_Palermo",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "druso-poste->Roma_Firenze",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Galleria_Virgolo->Arginale_Palermo",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "liberta-corse->mazzini",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "piave-palade->piave_matteotti",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Roma_Firenze->druso-poste",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "wolf-franziskus->corse_cappuccini",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "proma->druso-poste",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "siemens->proma",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "terme_ovest->liberta-corse",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "cavour->schaffer-winkel",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "cavour->sinigo",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "wolf->corse_cappuccini",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "galvani->Galilei_Lancia",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Galilei_Roma->Maso_Pieve",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Arginale_Resia->Agip_Einstein",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "galvani->meinstein",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "TN-Acquaviva->TN-Sud",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "goethe_ospedale->hofer",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "A22_ML103->Torricelli",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "hofer->goethe-alpini",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Galleria_Virgolo->proma",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Galleria_Virgolo->P_Campiglio",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Agip_Einstein->meinstein",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "TN-Cadino->TN-Nord",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "meinstein->Agip_Einstein",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "piave-palade->zuegg-palade",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Arginale_Palermo->Milano_Palermo",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Roma_Firenze->proma",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "wolf-franziskus->goethe_ospedale",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "terme_ovest->piave_matteotti",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Druso_Palermo->druso-poste",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "sinigo->goethe_ospedale",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "cavour->terme_est",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "P_Campiglio->Galleria_Virgolo",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Galilei_Roma->druso-poste",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "galilei->corse_cappuccini",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Druso_Palermo->Milano_Palermo",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "TN-Nord->TN-Maccani",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "goethe_ospedale->sinigo",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "TN-Maccani->TN-Sud",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "huber->liberta-corse",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "liberta-corse->huber",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "druso-poste->proma",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "roma_sud->roma_nord",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "terme_est->terme_ovest",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "piave_matteotti->roma_nord",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Galilei_Virgolo->Galilei_Roma",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Galilei_Palermo->Galilei_Lancia",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "corse_cappuccini->wolf-franziskus",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "stazione->mazzini",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "druso-poste->Druso_Palermo",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "ponte_rezia->mazzini",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "meinstein->galvani",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "mazzini->stazione",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "roma_nord->roma_sud",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "sinigo->roma_sud",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "scena-leichter->cavour",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "cavour->scena-leichter",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "caugusta->Maso_Pieve",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "TN-Nord->TN-Cadino",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Galilei_Roma->caugusta",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "A22_ML103->A22_ML107",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "meinstein->Maso_Pieve",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Galilei_Virgolo->Galleria_Virgolo",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "goethe_ospedale->wolf-franziskus",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "stazione->goethe_ospedale",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "sinigo->cavour",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "goethe-alpini->hofer",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "TN-Maccani->TN-Nord",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "zuegg-palade->piave-palade",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "schaffer-winkel->cavour",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Arginale_Palermo->Arginale_Resia",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "roma_nord->terme_est",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "huber->mazzini",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "mazzini->ponte_rezia",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Arginale_Resia->A22_ML103",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "caugusta->Galilei_Roma",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "siemens->Galilei_Palermo",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "goethe_ospedale->stazione",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "TN-Sud->TN-Acquaviva",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "liberta-corse->terme_ovest",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "terme_ovest->zuegg-palade",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Roma_Firenze->Milano_Palermo",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "zuegg-palade->terme_est",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "hofer->goethe_ospedale",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Milano_Palermo->Roma_Firenze",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "TN-Sud->TN-Maccani",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Agip_Einstein->Torricelli",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Milano_Resia->Druso_Palermo",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "druso-poste->Galilei_Roma",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Torricelli->siemens",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "ponte_rezia->petrarca",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Druso_Palermo->Milano_Resia",
+      "sorigin" : "NOI"
+    }, {
+      "sname" : "Milano_Resia->Milano_Palermo",
+      "sorigin" : "NOI"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

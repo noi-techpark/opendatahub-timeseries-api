@@ -1,0 +1,14 @@
+{
+  "request" : "GET /flat,edge/*?limit=-1 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "2db718c08456e66ec4c723466d8b5fa8e09cb5690012e97faedbc1ce8695b002",
+  "bodyRecords" : 275
+}

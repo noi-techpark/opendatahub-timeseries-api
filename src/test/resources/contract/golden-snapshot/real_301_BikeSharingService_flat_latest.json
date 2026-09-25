@@ -1,0 +1,2345 @@
+{
+  "request" : "GET /flat/BikeSharingService/*/latest?limit=300 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "_timestamp" : "2026-09-24 11:40:04.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 11:40:12.093+0000",
+      "mvalidtime" : "2026-09-24 11:40:04.000+0000",
+      "mvalue" : 40,
+      "prlineage" : "sharedmobility-ch",
+      "prname" : "tr-sharedmobility-ch",
+      "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "sharedmobility-ch:pr:carvelo2go",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 8.2275,
+        "y" : 46.8182
+      },
+      "smetadata" : {
+        "system_pricing_plans" : [ {
+          "currency" : "CHF",
+          "description" : "5 unlock fee, 5.00 per day time hour (from 8 till 22), 0.00 per night time hour (from 22 till 8)",
+          "is_taxable" : false,
+          "name" : "Smargo Daytime Rate",
+          "plan_id" : "carvelo2go:b23fccfc-22f8-49d6-a681-a735cad6f046",
+          "price" : 5,
+          "provider_id" : "carvelo2go"
+        }, {
+          "currency" : "CHF",
+          "description" : "5 unlock fee, 3.50 per day time hour (from 8 till 22), 0.00 per night time hour (from 22 till 8)",
+          "is_taxable" : false,
+          "name" : "Simple Daytime Rate",
+          "plan_id" : "carvelo2go:efee4075-81aa-4707-de2e-e0b087e66c49",
+          "price" : 5,
+          "provider_id" : "carvelo2go"
+        } ]
+      },
+      "sname" : "carvelo eCargo-Bike Sharing",
+      "sorigin" : "sharedmobility-ch",
+      "stype" : "BikeSharingService",
+      "tdescription" : "number of available docks",
+      "tname" : "num-docks-available",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 11:40:04.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 11:40:12.093+0000",
+      "mvalidtime" : "2026-09-24 11:40:04.000+0000",
+      "mvalue" : 520,
+      "prlineage" : "sharedmobility-ch",
+      "prname" : "tr-sharedmobility-ch",
+      "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "sharedmobility-ch:pr:carvelo2go",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 8.2275,
+        "y" : 46.8182
+      },
+      "smetadata" : {
+        "system_pricing_plans" : [ {
+          "currency" : "CHF",
+          "description" : "5 unlock fee, 5.00 per day time hour (from 8 till 22), 0.00 per night time hour (from 22 till 8)",
+          "is_taxable" : false,
+          "name" : "Smargo Daytime Rate",
+          "plan_id" : "carvelo2go:b23fccfc-22f8-49d6-a681-a735cad6f046",
+          "price" : 5,
+          "provider_id" : "carvelo2go"
+        }, {
+          "currency" : "CHF",
+          "description" : "5 unlock fee, 3.50 per day time hour (from 8 till 22), 0.00 per night time hour (from 22 till 8)",
+          "is_taxable" : false,
+          "name" : "Simple Daytime Rate",
+          "plan_id" : "carvelo2go:efee4075-81aa-4707-de2e-e0b087e66c49",
+          "price" : 5,
+          "provider_id" : "carvelo2go"
+        } ]
+      },
+      "sname" : "carvelo eCargo-Bike Sharing",
+      "sorigin" : "sharedmobility-ch",
+      "stype" : "BikeSharingService",
+      "tdescription" : "number of available vehicles / charging points",
+      "tmetadata" : { },
+      "tname" : "number-available",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 11:40:04.000+0000",
+      "mperiod" : 300,
+      "mtransactiontime" : "2026-09-24 11:40:12.093+0000",
+      "mvalidtime" : "2026-09-24 11:40:04.000+0000",
+      "mvalue" : {
+        "free_bike_status" : [ {
+          "bike_id" : "carvelo2go:cc243ad3-956a-4617-8757-0ab76f09a2d1",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.567726,
+          "lon" : 7.576877,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:0e74f40b-3d2d-4a4f-95ab-be60103bd532"
+        }, {
+          "bike_id" : "carvelo2go:975cb02d-5cf5-406d-bd2f-63fbcb2c539f",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.940376,
+          "lon" : 7.433015,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:19281ecb-b2da-4b3c-af06-5660a891b4b5"
+        }, {
+          "bike_id" : "carvelo2go:eadb5619-dcbc-4efa-ef84-c77cd0842453",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.393337,
+          "lon" : 8.529448,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:1a9891f2-6fe8-49b9-b445-f51aadfbbcb6"
+        }, {
+          "bike_id" : "carvelo2go:04690e4a-10d9-4ef4-b4a0-cc5468d16d16",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.096733,
+          "lon" : 7.0686264,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:1a9891f2-6fe8-49b9-b445-f51aadfbbcb6"
+        }, {
+          "bike_id" : "carvelo2go:52cdc768-28fd-4e9d-cb90-8ee71ff58db6",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.206608,
+          "lon" : 6.142153,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:1a9891f2-6fe8-49b9-b445-f51aadfbbcb6"
+        }, {
+          "bike_id" : "carvelo2go:ca740ed3-89bc-462c-8242-1df403c50c43",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.96315,
+          "lon" : 7.431884,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:31723046-bf4f-4ab9-c21c-e449ecc8b78f"
+        }, {
+          "bike_id" : "carvelo2go:2434ebec-20b5-4d4e-c413-c8729f6624ee",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.424675,
+          "lon" : 9.372437,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:34cb33d7-9dc0-4c06-a914-aae04441661d"
+        }, {
+          "bike_id" : "carvelo2go:289864c3-7b98-47a4-887e-60833e83719b",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.947712,
+          "lon" : 7.436442,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:40198dbc-125e-4254-80ce-c93feceb3813"
+        }, {
+          "bike_id" : "carvelo2go:ba49718a-470d-4156-8b1a-7f3090a3db17",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.19054,
+          "lon" : 6.1438603,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:6171f9a4-f418-4e1a-99e3-10790480606a"
+        }, {
+          "bike_id" : "carvelo2go:ed96f41a-951f-4fd4-c41c-d181b8115e0e",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.13691,
+          "lon" : 7.24636,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:6171f9a4-f418-4e1a-99e3-10790480606a"
+        }, {
+          "bike_id" : "carvelo2go:cf66c66c-e0c6-402a-8ff9-9567ae38bb67",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.511288,
+          "lon" : 6.63664,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:6171f9a4-f418-4e1a-99e3-10790480606a"
+        }, {
+          "bike_id" : "carvelo2go:44de7d28-6685-4437-c5a5-cdb666739c3f",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.37726,
+          "lon" : 8.522989,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:6171f9a4-f418-4e1a-99e3-10790480606a"
+        }, {
+          "bike_id" : "carvelo2go:6d5607d1-57cd-468e-d864-169b9b9959f1",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.949734,
+          "lon" : 7.4424663,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:6171f9a4-f418-4e1a-99e3-10790480606a"
+        }, {
+          "bike_id" : "carvelo2go:86fe78f8-0236-4e8f-fcde-490fd7b3b83f",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.055195,
+          "lon" : 8.312627,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:651f1ba2-2e3c-4f97-8ed9-988327c16db0"
+        }, {
+          "bike_id" : "carvelo2go:a86bfcad-f306-4964-e9aa-549332342037",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.046783,
+          "lon" : 8.316486,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:651f1ba2-2e3c-4f97-8ed9-988327c16db0"
+        }, {
+          "bike_id" : "carvelo2go:ef2977e6-c9b6-4ced-fa11-41002df82c7f",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.944508,
+          "lon" : 7.4235992,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:651f1ba2-2e3c-4f97-8ed9-988327c16db0"
+        }, {
+          "bike_id" : "carvelo2go:29dd1db2-c97a-48d7-acf5-4315174d15ce",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.375835,
+          "lon" : 8.517455,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:651f1ba2-2e3c-4f97-8ed9-988327c16db0"
+        }, {
+          "bike_id" : "carvelo2go:7d47ffef-9062-452b-b79c-1ce35a462899",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.522133,
+          "lon" : 6.6263394,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:651f1ba2-2e3c-4f97-8ed9-988327c16db0"
+        }, {
+          "bike_id" : "carvelo2go:6c2f0129-4cc0-4930-9c9c-46188e0d2172",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.55886,
+          "lon" : 7.600314,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:6dded85d-fdf7-43d6-c5aa-954180c03d9e"
+        }, {
+          "bike_id" : "carvelo2go:233854ef-3439-4180-9e7e-5db693b05939",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.04885,
+          "lon" : 8.300365,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:716d9b9e-b835-4737-efe4-c18589b80440"
+        }, {
+          "bike_id" : "carvelo2go:6f36ea5a-1a6c-44dd-a1ad-e824cdd0e5d2",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.959263,
+          "lon" : 7.446948,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:73a010ad-0131-4c1f-bf9f-d7d2daac38b0"
+        }, {
+          "bike_id" : "carvelo2go:73e18a3d-21b7-4741-9d1d-f82801c8e828",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.522133,
+          "lon" : 6.6263394,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:8e4b6626-26b1-48c0-cc51-f83000decb88"
+        }, {
+          "bike_id" : "carvelo2go:c600433b-2714-4d8f-f257-25eedd02ec22",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.569733,
+          "lon" : 7.633337,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:e1892c63-eadc-4c65-d700-47f8171f79a4",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.783897,
+          "lon" : 9.67953,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:38c17833-5057-4b76-9a6c-5f37ed149a10",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.466934,
+          "lon" : 8.324535,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:3cc218cd-33c0-492e-cd19-199d35df55cb",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.172474,
+          "lon" : 8.514878,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:59d06774-2bde-4f05-961c-c7897d0cfbaf",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.338875,
+          "lon" : 8.519383,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:a9fb1c19-712f-4aa1-902a-aea5655dc46e",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.370136,
+          "lon" : 8.510515,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:055997f7-3e4b-45d4-e2b7-90c5f5f2ec17",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.92642,
+          "lon" : 7.433654,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:0540c855-88d2-4ea8-e71a-b5cf1e67d5c2",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.212486,
+          "lon" : 7.6191792,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:e0cde699-2b6e-4ab5-a7a8-722e2f69c26f",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.25336,
+          "lon" : 8.69229,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:82484fa8-a4c1-4bb8-b9a5-f549d87de769",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.951077,
+          "lon" : 7.436197,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:fa7e6db4-4a4e-4c67-b751-45bd399055f8",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.368908,
+          "lon" : 8.537668,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:eba65fb1-29ab-4e79-d733-d47dab543119",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.475876,
+          "lon" : 8.305354,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:56ca58d2-640b-4abd-9e6f-cbc3e00ccfee",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.79492,
+          "lon" : 7.15685,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:697188eb-2b20-4634-e6ca-9837f2e6159e",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.96485,
+          "lon" : 7.383964,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:00f65ffc-51f2-4792-d10b-79dfa59f433e",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.61637,
+          "lon" : 7.057434,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:c3b81612-d9f2-4803-d56f-4eaabd902ff8",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.3739,
+          "lon" : 8.518081,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:f2a48e43-34c7-4505-d4cd-de275a76fd6e",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.39602,
+          "lon" : 8.540657,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:809dc2e8-f49e-4ca4-f711-445e88ba8a3c",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.51523,
+          "lon" : 6.627819,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:855088c0-7d8b-42ba-ce4e-d65e45d37ddc",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.205326,
+          "lon" : 6.13228,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:d8766def-79e7-41ba-dcc0-2657694a443b",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.005985,
+          "lon" : 8.967376,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:12588e55-e3ba-4c5e-e923-c6b2fdb55895",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.37857,
+          "lon" : 8.533483,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:32520a18-64de-4763-c2b3-3064045ae193",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.209705,
+          "lon" : 6.117355,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:72e2276a-15de-4e8e-9eee-6e45be9e5809",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.387825,
+          "lon" : 8.526348,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:c27da2ec-ff9b-4bb3-bede-319d72454bbe",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.378124,
+          "lon" : 8.532833,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:fb0aa516-c231-47d5-f0b9-079420891bd5",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.469852,
+          "lon" : 7.596732,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:25e029a0-959c-45c5-e2da-d9e0ebdc2cc6",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.203167,
+          "lon" : 6.1350756,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:d7bfc0cf-b066-439e-a8e8-5721a0406b1e",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.418663,
+          "lon" : 8.561407,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:9ff464d3-607b-4316-ddd8-79a25657bb93",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.26171,
+          "lon" : 8.594973,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:2ea73011-fdae-4e3c-f0f8-18c23179dd0c",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.518475,
+          "lon" : 6.630067,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:9181c6a5-4598-46d5-cdd0-9dc1f6028916",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.93823,
+          "lon" : 7.39892,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:a69a4598-31e2-4aa1-cd6d-8e0d2729c281",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.41663,
+          "lon" : 8.593006,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:dcae05fa-9ac5-4817-a8b6-788967b20941",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.42463,
+          "lon" : 9.381908,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:669a9362-39ac-48c5-84ec-1a9a0c7dd5eb",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.508293,
+          "lon" : 6.498588,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:b85302da-1fc8-4fb7-857f-802716663c39",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.176712,
+          "lon" : 8.511982,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:8d119a12-c0eb-49e9-e146-ee63079d09d6",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.1969,
+          "lon" : 8.485886,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:cff2c998-e694-48c7-fbce-8b000285033d",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.518475,
+          "lon" : 6.630067,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:95806ab4-63c7-42be-d835-f1c2efae9b88",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.940052,
+          "lon" : 7.3898716,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:12610f7f-0c4e-4439-8d8e-564957cb7ab1",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.37541,
+          "lon" : 8.543648,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:a4eff069-4f57-4570-e7a3-a2185763211c",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.44947,
+          "lon" : 8.293258,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:d6f96e8c-11dc-4727-c874-5140b48be8d5",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.504417,
+          "lon" : 8.724807,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:9699a2eb-8f15-49f2-b815-a65c2eb39e5a",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.033653,
+          "lon" : 8.278094,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:b25fcf15-efa3-434b-a3ed-f14f458bb4a9",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.944508,
+          "lon" : 7.4235992,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:09e5fb85-3ac1-4cfa-a99c-d605852e05f7",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.95871,
+          "lon" : 7.454235,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:607a7046-2524-4419-e72a-b59572db03ab",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.376736,
+          "lon" : 8.516195,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:4ca29c7a-6e7f-4420-ee45-cd13ade97a81",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.92988,
+          "lon" : 7.448226,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:79ae2dea-85f2-4c50-99ce-9c2f0b81b706",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.78164,
+          "lon" : 6.6450477,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:219a482a-f680-459d-9921-6dc1ccbfbd44",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.95657,
+          "lon" : 7.482613,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:3b2416d0-e58c-4630-9ac8-5211dad4cf30",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.56522,
+          "lon" : 7.5664983,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:530d25d3-4bbc-44c7-b1c0-70adbe91a6da",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.458347,
+          "lon" : 6.858134,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:dd7ab62a-349a-43f9-c0af-6a5deb47923e",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.561394,
+          "lon" : 7.578889,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:aa81d69a-6019-4222-8a59-5001b337b557",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.164562,
+          "lon" : 8.515106,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:874188b9-8e39-4f77-fcda-6d802202a97d",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.387222,
+          "lon" : 8.523265,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:398a15a7-22f3-4c00-cce4-00f57074ce82",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.36497,
+          "lon" : 8.566491,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:dfc2c753-13c9-4ab7-ffea-b48e78ae51f5",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.95666,
+          "lon" : 7.444791,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:39daef35-e955-4405-82b0-e75985fbec70",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.954876,
+          "lon" : 7.452069,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:d4b2aa4a-e610-46ed-ac00-aa2ae6033ffa",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.377674,
+          "lon" : 8.499055,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:16a207dc-758c-46d6-ba0e-04e8f7536970",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.20299,
+          "lon" : 6.1600657,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:1c369428-542a-4126-e61d-2fe974cb1801",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.005367,
+          "lon" : 7.020156,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:5d16bf17-bf3c-4729-b762-cbaf83f9eb03",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : true,
+          "lat" : 47.545254,
+          "lon" : 7.5994935,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:e20405e2-3a99-47df-b7ca-37792145d14d",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 45.86737,
+          "lon" : 8.984815,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:55580487-93b8-4e1c-8dc4-1975405d74af",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.94916,
+          "lon" : 7.4447517,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:04a2c632-1d79-4926-a13f-2946188f31cc",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.460808,
+          "lon" : 6.838842,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:33893fe1-6d04-4b6b-a1bd-74e92b7af84f",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.34608,
+          "lon" : 8.69705,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:97e12550-c2b7-4b2f-8654-6d284f228de9",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.95469,
+          "lon" : 7.433766,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:577ac876-a299-4bf1-fa08-98f2bf3946ff",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.39228,
+          "lon" : 8.058391,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:1737b95a-8568-4fcf-c226-3a928f5954a9",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.04332,
+          "lon" : 8.306244,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:e5be470d-18c1-4943-f110-c060bab7b418",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 45.99134,
+          "lon" : 8.942991,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:4444a9b8-d138-4ed7-eddd-25436961e700",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.55768,
+          "lon" : 7.559511,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:7c8aa530-cd31-4521-99b4-fc54fee4bff0",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.497066,
+          "lon" : 8.727119,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:11759781-3163-411f-997f-d0a46203770b",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.210487,
+          "lon" : 6.141205,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:f0ba0d4a-1053-4f98-8dc0-689c0fe3c1a7",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.534855,
+          "lon" : 6.590109,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:539d89c6-4d42-46d1-d2ac-6633654d7441",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.93706,
+          "lon" : 7.4360995,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:5015e5a8-4562-47b6-eea3-4704f9b8d1ff",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.05302,
+          "lon" : 8.3042,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:993ca51d-ade4-404b-9eaf-e29cdc7573bf",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.169113,
+          "lon" : 8.768842,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:136ddef0-aa47-4b8d-f4a5-d01964be0091",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.95398,
+          "lon" : 7.433126,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:128586ce-d166-4904-8a50-afb3d3bf9da3",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.204586,
+          "lon" : 7.538845,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:43ba6932-1313-40ca-cd8a-3e1c4171fd35",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.198204,
+          "lon" : 7.52364,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:1f187b9c-d0c1-43b0-9f79-51019a169b8f",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.565807,
+          "lon" : 7.5888605,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:4c9f73bd-2c3e-4d8d-f22a-e07d0890ac60",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.534576,
+          "lon" : 6.541124,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:93e394c6-a7e7-4aed-81ea-18dadcb8bfc6",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.35096,
+          "lon" : 8.71664,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:525d268d-f7a1-4df1-fe35-39ebb12657d9",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.875137,
+          "lon" : 7.563332,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:f1ee3b4a-5196-454c-f010-28d31e76dd08",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.048378,
+          "lon" : 8.307457,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:33d3fbe8-6b56-4f1e-a36d-ad7786ec3f31",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.046783,
+          "lon" : 8.316486,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:f5d288b5-d858-4550-c4bb-f3cd311e3dcc",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.57015,
+          "lon" : 7.598848,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:f410625f-47ae-4293-afd1-7458f07a5b41",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.497776,
+          "lon" : 8.741133,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:9ca5eaca-3bc7-4407-82b9-bf2d1bb712dc",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.996384,
+          "lon" : 6.936729,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:57e90109-5dd8-493c-b7df-5afb95a9483b",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.935272,
+          "lon" : 7.4978933,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:690693f1-c212-4792-e463-d8a6c931fa26",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.94987,
+          "lon" : 7.474431,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:d45ed408-1c7f-44a8-c907-99d025e05fbc",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.50864,
+          "lon" : 6.497491,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:98050cc3-f01b-4466-df24-8a9a334d045f",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.556797,
+          "lon" : 7.588357,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:14e90820-7a3f-46b1-ac8c-c4be8e7ee686",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.220306,
+          "lon" : 6.097452,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:7b7b7ac4-0ec1-4c8f-ff09-30edc3eaee32",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.129173,
+          "lon" : 7.23772,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:a6ec04ad-8fc5-45d8-eb08-16d06d7d6121",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.173935,
+          "lon" : 8.9988165,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:d5bbb971-8360-4681-f196-07805473bde7",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.532528,
+          "lon" : 6.646982,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:84a4089a-459e-437a-c41b-609f928eb671",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.133556,
+          "lon" : 7.2446322,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:0c0f31a8-ac61-4bf7-f356-c2bcf39f7c6b",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.04128,
+          "lon" : 8.307179,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:c3e3b2fc-de3c-48ba-ee8d-ea3ceb2a357a",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.362446,
+          "lon" : 8.518835,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:e134dec3-8201-4fe9-bf64-9d4a521c854e",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.193405,
+          "lon" : 6.146178,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:50c81fc3-6d8a-47fa-f6e9-ef84d2912145",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.051144,
+          "lon" : 8.301234,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:6b8954e3-2930-4895-efcf-dd92af2d95a0",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.393764,
+          "lon" : 8.043805,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:4809bfba-9f8c-42d5-f92e-4a5bf95e5339",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.258022,
+          "lon" : 8.849248,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:19130a92-76f9-433d-faf4-230a675cdedb",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.20154,
+          "lon" : 6.142055,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:367b3b94-6d17-42e0-a272-039dff887887",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.125824,
+          "lon" : 8.190344,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:8594a063-ea1d-4093-d2d2-8c59281df876",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.392532,
+          "lon" : 8.051504,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:4c3a9649-5336-4e2b-99cc-d44ef8863e7b",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.543354,
+          "lon" : 7.5857778,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:91f1a210-c84a-4499-80d8-6c6e8b0ecbdc",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.568268,
+          "lon" : 7.590259,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:391b9409-d2a2-4329-beb4-2eca584db5ba",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.52381,
+          "lon" : 6.629851,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:ee5c7809-1976-4e9c-d45c-a8ba8a25ab7c",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : true,
+          "lat" : 46.18136,
+          "lon" : 6.141012,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:d9f664ce-b55a-4258-9c4b-3a0f747535f1",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.401733,
+          "lon" : 8.499645,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:ee9cce6a-8b08-440d-f10a-8e753261acfa",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.212215,
+          "lon" : 7.78746,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:c2f6ae86-7b0b-4490-97cc-5c81f0cb68fd",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.94774,
+          "lon" : 7.439382,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:d3016ed5-4485-4293-ea1e-839597d35a3a",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.704266,
+          "lon" : 8.622742,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:a84fdba2-245a-4f07-c918-7952cd764ee5",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.94509,
+          "lon" : 7.417533,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:9dd0a906-bc2b-4faf-b7d6-1b3474840080",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.94864,
+          "lon" : 7.4493465,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:1fd5cd9a-a1ae-4466-bde0-2084e7d6175e",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.37279,
+          "lon" : 8.525275,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:c201cff6-040c-409c-fcd0-e726609b2592",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.80359,
+          "lon" : 7.151729,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:b5b43e57-a357-41b1-fdd3-4a49fca11f0d",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.064926,
+          "lon" : 8.310993,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:bd4e3c47-3417-4ff4-a627-e267aaf299bf",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.52372,
+          "lon" : 6.638514,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:6d3859ab-81f9-47a1-cfd5-0de59e86c39e",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.5194,
+          "lon" : 6.637083,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:899c1ec8-0220-49fe-e769-4fdadf205fb8",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.19438,
+          "lon" : 9.027694,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:23c0bd2a-c147-4305-b5ab-5c4a4b952b66",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.55774,
+          "lon" : 7.580677,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:abb28f48-2ee8-4c4c-fe93-54cf43d8b93a",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.65591,
+          "lon" : 9.12918,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:664d8796-50c1-40b9-eb28-e587591a07fd",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.56672,
+          "lon" : 7.592416,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:1af1633e-4497-4d84-ca31-399146c85e26",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.805485,
+          "lon" : 7.1619763,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:3009e855-ffb4-4616-d6b6-e1b56ba4dc85",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.219425,
+          "lon" : 6.147151,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:17b18d9a-dccb-44b4-895e-3a2b089321cb",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.42091,
+          "lon" : 9.35969,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:6f9873e4-10bd-4aa6-f30d-96cd28285fa0",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.49406,
+          "lon" : 8.734406,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:23d67d8e-74b5-4420-8fb5-e845d4d24bbb",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.167267,
+          "lon" : 6.1166534,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:4de29dbc-72ae-4b78-9f12-dfe22fd40b22",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.94374,
+          "lon" : 7.46393,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:e437436b-9eb0-4f2a-eeca-fb0557c34dd3",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.553555,
+          "lon" : 7.590482,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:0af97585-a83a-4d33-d377-cc9447f72c16",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.202286,
+          "lon" : 6.134383,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:10c1ae87-5d3b-473f-afce-cc036468e51b",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.16774,
+          "lon" : 8.796241,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:9fa373fd-bb69-4c0a-cb01-4032ac4cc595",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.58525,
+          "lon" : 7.651464,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:5a8a1ee4-c315-4ce8-aef7-fa586bc89f86",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.55053,
+          "lon" : 6.552015,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:3e7036c3-c15f-4c33-8a7c-a7b1555b28a2",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.389458,
+          "lon" : 8.486505,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:5f3ddcea-3a33-4295-eb68-acade76560af",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.943645,
+          "lon" : 7.4061685,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:193d9c2c-3ed7-4eac-99aa-248b6088965c",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.47365,
+          "lon" : 8.308096,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:ab6f677e-9b59-48b8-a107-55f60589c47c",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.34959,
+          "lon" : 8.715846,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:8915838d-3a3a-41e7-dd79-1fd5e27c581b",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.525036,
+          "lon" : 6.633741,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:79a70f5e-d050-4b98-d730-a6ae7ecc7dcd",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.458202,
+          "lon" : 6.850752,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:038760f1-12ea-4635-a42a-051ee2e6377b",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.94668,
+          "lon" : 7.43624,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:04d340d8-f5aa-45d5-be3d-0439419bedb7",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.56244,
+          "lon" : 7.595526,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:888de639-756e-4aa5-fa31-53defe9990e2",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.38525,
+          "lon" : 8.518719,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:e32dddc7-01dc-42cd-d82c-67b44a6c25e1",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.52867,
+          "lon" : 6.566498,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:69163536-1afc-4eb3-da36-757e51066a6a",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.480167,
+          "lon" : 8.3138685,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:465df45c-df6e-4121-ff8a-0248d615cf6c",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.395596,
+          "lon" : 8.505742,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:986d7106-f588-41b8-94f0-05676854893d",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.167336,
+          "lon" : 6.1075983,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:fd45b14b-8959-4557-81d1-dc84d198813c",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.137943,
+          "lon" : 7.246314,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:0bf8a4c5-5cbc-4f4d-8dd6-8b205e1968fa",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.361057,
+          "lon" : 8.506359,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:d162c754-22fc-45db-eba7-f60fb7bdfdab",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.562145,
+          "lon" : 7.5957317,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:04e154de-3d31-44df-ffb4-e681e2035ab9",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.39097,
+          "lon" : 8.509517,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:0195f1f8-88b8-4b72-8253-dbbb78aba614",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.162716,
+          "lon" : 8.768471,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:b65b2bc6-2a68-428a-a148-52a55198941f",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.913063,
+          "lon" : 7.0349784,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:98aac148-47b8-47df-a6e0-804a4da5f27e"
+        }, {
+          "bike_id" : "carvelo2go:1d8ae3a2-7a69-4476-f985-5ca72513f92e",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.385704,
+          "lon" : 8.51944,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:a3c200ac-5aa6-4dd7-c8ba-0d8b570291b8"
+        }, {
+          "bike_id" : "carvelo2go:84887999-82fb-4a50-b9cf-d7728e752d10",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.38978,
+          "lon" : 8.521133,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:a90060b5-9075-445d-cad0-d0fbb1ac8bdb"
+        }, {
+          "bike_id" : "carvelo2go:4efe6f86-8141-46fb-e666-03ed94c55d15",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.93171,
+          "lon" : 7.433612,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:a90060b5-9075-445d-cad0-d0fbb1ac8bdb"
+        }, {
+          "bike_id" : "carvelo2go:24f57e00-6d36-4ccb-dc6b-77d0282483c1",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.95657,
+          "lon" : 7.482613,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:a90060b5-9075-445d-cad0-d0fbb1ac8bdb"
+        }, {
+          "bike_id" : "carvelo2go:11aeab15-1d1a-4399-a741-79a1faea6ae1",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.551273,
+          "lon" : 7.5958495,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:abd7bfa8-b746-4c87-c82e-feec4d9852b2"
+        }, {
+          "bike_id" : "carvelo2go:6f60f87a-9e7d-4308-edb3-65d292e9c2bf",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.41856,
+          "lon" : 8.398314,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:b6ccfc11-7cd2-4d8c-c4ac-43774e20372e"
+        }, {
+          "bike_id" : "carvelo2go:973e27e8-b243-4907-f30e-232e133a4e93",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : true,
+          "lat" : 47.394913,
+          "lon" : 8.538788,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:57ae8d90-3696-4488-ce60-358e0f4a24f7",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.94691,
+          "lon" : 7.456627,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:0f428eb2-8414-4c2f-eb3b-4c07154d2d27",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.367214,
+          "lon" : 8.503677,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:c79b8b61-b598-4fb7-bcf9-ee388c062d41",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.39472,
+          "lon" : 8.536279,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:09861e9c-0d77-4afe-cb30-3caa49bd5dca",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.79743,
+          "lon" : 7.147182,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:e03fc993-8090-433a-8260-c9b485658893",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.94645,
+          "lon" : 7.436741,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:eaa7be48-8f89-4e0e-8356-16ef820f45d5",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.333313,
+          "lon" : 8.534852,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:0f7ad9e0-cc04-4163-9fd7-716cf547ef54",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.49382,
+          "lon" : 8.717824,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:ba65c3f2-3772-4df4-c2ec-886e10201879",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.229916,
+          "lon" : 8.674867,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:a0cf74ad-35db-4e66-a200-805f23d258b8",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.379787,
+          "lon" : 8.514413,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:7d9a8810-3603-411f-f1f4-450133084f23",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.942,
+          "lon" : 7.4486613,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:67b1ce55-f52d-40af-dbd1-07307b8af17b",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.556744,
+          "lon" : 6.634966,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:0328824f-58f6-4cc4-f02d-ae67514302c6",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.24421,
+          "lon" : 8.6483,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:c8521502-fa97-4139-dd5e-6cb7e856f2d5",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.56055,
+          "lon" : 7.571313,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:ce998ce6-e779-43ed-a787-2726f0360224",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.39893,
+          "lon" : 8.057913,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:e56fe48e-40fd-4714-bda1-1654978cef8f",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.39005,
+          "lon" : 8.530966,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:a1525efc-991c-4c19-9314-a4f220ad4790",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.0828,
+          "lon" : 8.311979,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:a103bf0d-76f0-4c3e-c8a2-9818d6e91c46",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.379787,
+          "lon" : 8.514413,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:a2db0bc6-4378-494b-c3dd-6d9f44380d8c",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.508324,
+          "lon" : 6.623121,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:a29d5a51-2bc5-4279-cb92-6ad352b70b02",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.487816,
+          "lon" : 7.605351,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:b55715e7-959e-4901-fe6e-9512181835c8",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.36919,
+          "lon" : 8.686834,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:3b68df06-2a57-475b-f9e6-8451e5d6b8e4",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.406197,
+          "lon" : 8.4821205,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:9308e68c-9bca-466f-d400-be15ac4f8084",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.038628,
+          "lon" : 8.312715,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:d1c9e565-6aae-401a-9e9b-96657eb3270a",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.379787,
+          "lon" : 8.514413,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:3148b35d-66ec-4e0d-bf07-f505cf26dd1c",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.294003,
+          "lon" : 8.557385,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:51e4d8bd-3fdf-4867-de0b-0260d011b4b4",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.468254,
+          "lon" : 6.8399496,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:2a890771-f9bd-4fe9-fb01-5e4155976bef",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.95718,
+          "lon" : 8.368767,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:b877d575-8f7b-4675-8c57-cf0238c2acbf",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.392048,
+          "lon" : 8.519359,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:48e0f330-6f87-4a46-dab6-7ca5d56c0ec4",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.353035,
+          "lon" : 8.550648,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:ebb6fa19-f944-41a4-eb86-5c746254074e",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.0828,
+          "lon" : 8.311979,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:775d9aee-7631-44b9-8afb-63b13291cbea",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.96315,
+          "lon" : 7.431884,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:7b3ce3f5-915f-46d0-c8ed-95267fd62c20",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.351486,
+          "lon" : 8.561145,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:11d6b8c4-7b3a-4262-dfe3-dce4f16d91be",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.36919,
+          "lon" : 8.686834,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:ef1b3fb7-7d10-4564-ce03-7e14fa4fdbb8",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.392048,
+          "lon" : 8.519359,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:3101c476-ed18-496f-fa08-044b40c2ec4c",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.388832,
+          "lon" : 8.49613,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:421676b1-9c1d-4955-b82d-0ed23904d520",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.487816,
+          "lon" : 7.605351,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:d869e9a1-2c7b-4201-881d-056e477aea7c",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.193,
+          "lon" : 8.488036,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:be31edc2-7bd9-4239-b686-2ca94fa80f41"
+        }, {
+          "bike_id" : "carvelo2go:cb262814-2dbd-49a8-fca4-94fd975e2d32",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.935932,
+          "lon" : 7.4170294,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:dcf43aa6-b228-4d80-ce42-36fbea2ece11",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.173573,
+          "lon" : 6.1299777,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:77f7b2e0-7c6f-49b0-dcae-2544460c8ee9",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.644215,
+          "lon" : 6.6365275,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:2ab8ef9e-fc37-415a-ea1e-bd2a1ebe5f9d",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.619884,
+          "lon" : 7.052422,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:56e4ef4b-ce11-449b-c125-0bf4d0b93447",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.160416,
+          "lon" : 6.1487904,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:ba58e1c1-d9d2-4a2f-8de2-31eae2b1cdb1",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.54902,
+          "lon" : 7.60175,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:2a533359-5e6f-44f6-93b2-9c7d9cf1694d",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.482388,
+          "lon" : 8.209191,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:7487a702-a5da-4d86-a735-c07c432e33d1",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.221436,
+          "lon" : 6.1479974,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:d8802b8b-e8f8-4032-e2a4-6da39b2af4fc",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.991657,
+          "lon" : 6.9282346,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:1ac5524c-0061-4254-ae60-09364e48e450",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.775215,
+          "lon" : 6.6493297,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:b0aef0ef-a153-4b10-8dc8-a83646550339",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.186726,
+          "lon" : 6.1244426,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:30cbd545-2479-4752-971e-d5c9f18339d1",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.22511,
+          "lon" : 8.815598,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:e6cb047b-1b36-4123-a124-e592b43647db",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.18545,
+          "lon" : 6.100599,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:afa59b79-dc40-4421-bd1a-7e5f5eb05bc6",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.565277,
+          "lon" : 9.367035,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:8b0fdf2c-ed68-4608-c017-9009b73200b5",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.20439,
+          "lon" : 7.5423717,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:97301eb3-3287-4adc-c8df-467c7e604959",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.799377,
+          "lon" : 6.745292,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:14fd5dce-ac66-43ff-82aa-ea01ad790408",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.208374,
+          "lon" : 6.13844,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:c3664999-818b-4758-d5a9-027a73f98367"
+        }, {
+          "bike_id" : "carvelo2go:2abdb679-6db0-4a0c-88c1-201951b6a6c5",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.309856,
+          "lon" : 8.778214,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:d36ea486-19c4-4ba7-e01a-84fba632220f"
+        }, {
+          "bike_id" : "carvelo2go:ae49a30c-bca2-4112-c408-e906a03def00",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.998146,
+          "lon" : 7.459931,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:d36ea486-19c4-4ba7-e01a-84fba632220f"
+        }, {
+          "bike_id" : "carvelo2go:8dcca820-b920-49d9-b07c-6cdbaba8b4b8",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.216694,
+          "lon" : 7.7905,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:d36ea486-19c4-4ba7-e01a-84fba632220f"
+        }, {
+          "bike_id" : "carvelo2go:a48f146c-7c36-454d-fa41-9ee1ee3b7865",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.31849,
+          "lon" : 6.933857,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:d36ea486-19c4-4ba7-e01a-84fba632220f"
+        }, {
+          "bike_id" : "carvelo2go:422fc33c-73f5-46f0-b822-da861f762cc8",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.060535,
+          "lon" : 7.6199493,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:d36ea486-19c4-4ba7-e01a-84fba632220f"
+        }, {
+          "bike_id" : "carvelo2go:eb386dba-9c2e-456d-fd74-8678e18e9e9f",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.22427,
+          "lon" : 8.843174,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:d36ea486-19c4-4ba7-e01a-84fba632220f"
+        }, {
+          "bike_id" : "carvelo2go:fa8baf2c-86c7-47ab-c36c-362fede4c94c",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.060535,
+          "lon" : 7.6199493,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:dbbff2b0-4ddd-4aef-eb71-b00c01d4763f"
+        }, {
+          "bike_id" : "carvelo2go:c218f342-bf7b-416a-fb50-3f88f1661362",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 47.06683,
+          "lon" : 8.315783,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:ec740063-bf40-493b-dfad-4339b3303c7c"
+        }, {
+          "bike_id" : "carvelo2go:3584d4a9-dd23-4a18-b42d-f549c002b86d",
+          "current_range_meters" : 0,
+          "is_disabled" : false,
+          "is_reserved" : false,
+          "lat" : 46.95657,
+          "lon" : 7.482613,
+          "pricing_plan_id" : "",
+          "vehicle_type_id" : "carvelo2go:f9a20d5a-f190-4a5c-915f-d28b3dbdbde8"
+        } ]
+      },
+      "prlineage" : "sharedmobility-ch",
+      "prname" : "tr-sharedmobility-ch",
+      "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "sharedmobility-ch:pr:carvelo2go",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 8.2275,
+        "y" : 46.8182
+      },
+      "smetadata" : {
+        "system_pricing_plans" : [ {
+          "currency" : "CHF",
+          "description" : "5 unlock fee, 5.00 per day time hour (from 8 till 22), 0.00 per night time hour (from 22 till 8)",
+          "is_taxable" : false,
+          "name" : "Smargo Daytime Rate",
+          "plan_id" : "carvelo2go:b23fccfc-22f8-49d6-a681-a735cad6f046",
+          "price" : 5,
+          "provider_id" : "carvelo2go"
+        }, {
+          "currency" : "CHF",
+          "description" : "5 unlock fee, 3.50 per day time hour (from 8 till 22), 0.00 per night time hour (from 22 till 8)",
+          "is_taxable" : false,
+          "name" : "Simple Daytime Rate",
+          "plan_id" : "carvelo2go:efee4075-81aa-4707-de2e-e0b087e66c49",
+          "price" : 5,
+          "provider_id" : "carvelo2go"
+        } ]
+      },
+      "sname" : "carvelo eCargo-Bike Sharing",
+      "sorigin" : "sharedmobility-ch",
+      "stype" : "BikeSharingService",
+      "tdescription" : "free floating bike statuses as JSON",
+      "tname" : "free-bike-status",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    } ],
+    "limit" : 300,
+    "offset" : 0
+  }
+}

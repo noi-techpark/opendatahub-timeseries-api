@@ -1,0 +1,1478 @@
+{
+  "request" : "GET /tree/Streetstation/*/latest?limit=300 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "Streetstation" : {
+        "stations" : {
+          "CORSO ITALIA / ITALIENALLEE" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "CORSO ITALIA / ITALIENALLEE",
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 7.84429
+                } ],
+                "tname" : "CH4",
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 822.46164
+                } ],
+                "tname" : "CO",
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 49790.447055
+                } ],
+                "tname" : "CO2",
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 185.715378
+                } ],
+                "tname" : "COV",
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 15851.170896
+                } ],
+                "tname" : "FC",
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.000301
+                } ],
+                "tname" : "IPA",
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 5.454362
+                } ],
+                "tname" : "NH3",
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 118.42492
+                } ],
+                "tname" : "NOX",
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 6.123523
+                } ],
+                "tname" : "PM10",
+                "ttype" : "Mean",
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 6.143353
+                } ],
+                "tname" : "PTS",
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.154791
+                } ],
+                "tname" : "S02",
+                "tunit" : "g/km/h"
+              }
+            },
+            "smetadata" : {
+              "description" : " CORSO ITALIA / ITALIENALLEE",
+              "length" : 620,
+              "linegeometry" : "0102000020787F0000040000001E7B99D9DEBC244108B3A11A90A7534188E1FFBF2ABD24418A9EF3C218A753416D879B043ABD244101D59EB5F9A653418AE1FFBF42BD2441F7DBFD99F5A65341",
+              "old_idstr" : 25,
+              "speed_default" : 35
+            },
+            "sname" : "CORSO ITALIA / ITALIENALLEE",
+            "stype" : "Streetstation"
+          },
+          "PONTE PALERMO / PALERMOBRCKE" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "PONTE PALERMO / PALERMOBRCKE",
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 4.948422
+                } ],
+                "tname" : "CH4",
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 588.666152
+                } ],
+                "tname" : "CO",
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 34823.305209
+                } ],
+                "tname" : "CO2",
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 129.248613
+                } ],
+                "tname" : "COV",
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 11085.435573
+                } ],
+                "tname" : "FC",
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.000181
+                } ],
+                "tname" : "IPA",
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 2.922544
+                } ],
+                "tname" : "NH3",
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 78.458847
+                } ],
+                "tname" : "NOX",
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 4.008603
+                } ],
+                "tname" : "PM10",
+                "ttype" : "Mean",
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 4.022339
+                } ],
+                "tname" : "PTS",
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.108412
+                } ],
+                "tname" : "S02",
+                "tunit" : "g/km/h"
+              }
+            },
+            "smetadata" : {
+              "description" : " PONTE PALERMO / PALERMOBRCKE",
+              "length" : 365,
+              "linegeometry" : "0102000020787F00000800000024D953A3F7B72441A51D5EDF32A653414589C6CBE8B724410DAF4B242AA65341A2431098E5B72441A2F2D6A825A6534113811A6FE6B724417DEC55B321A65341FC7CC420F6B72441683E0E421BA6534196EBD6234FB824415190C66805A653413104DB39DDB82441F3561220E4A55341592AA8E4F9B82441A0EDCEA3E0A55341",
+              "old_idstr" : 15,
+              "speed_default" : 25
+            },
+            "sname" : "PONTE PALERMO / PALERMOBRCKE",
+            "stype" : "Streetstation"
+          },
+          "PONTE ROMA / ROMBRCKE 1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "PONTE ROMA / ROMBRCKE 1",
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 11.507959
+                } ],
+                "tname" : "CH4",
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 1368.991051
+                } ],
+                "tname" : "CO",
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 80984.430719
+                } ],
+                "tname" : "CO2",
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 300.57817
+                } ],
+                "tname" : "COV",
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 25780.082729
+                } ],
+                "tname" : "FC",
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.000421
+                } ],
+                "tname" : "IPA",
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 6.796613
+                } ],
+                "tname" : "NH3",
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 182.462435
+                } ],
+                "tname" : "NOX",
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 9.322332
+                } ],
+                "tname" : "PM10",
+                "ttype" : "Mean",
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 9.354277
+                } ],
+                "tname" : "PTS",
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.252121
+                } ],
+                "tname" : "S02",
+                "tunit" : "g/km/h"
+              }
+            },
+            "smetadata" : {
+              "description" : " PONTE ROMA / ROMBRCKE",
+              "length" : 207,
+              "linegeometry" : "0102000020787F000002000000CE14337397BE244115388D6C70A65341570556C315BF2441D5D3332B3FA65341",
+              "old_idstr" : 8,
+              "speed_default" : 25
+            },
+            "sname" : "PONTE ROMA / ROMBRCKE 1",
+            "stype" : "Streetstation"
+          },
+          "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.316136
+                } ],
+                "tname" : "CH4",
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 31.5964
+                } ],
+                "tname" : "CO",
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 1901.406565
+                } ],
+                "tname" : "CO2",
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 7.125732
+                } ],
+                "tname" : "COV",
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 605.352931
+                } ],
+                "tname" : "FC",
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.000013
+                } ],
+                "tname" : "IPA",
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.249716
+                } ],
+                "tname" : "NH3",
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 4.609619
+                } ],
+                "tname" : "NOX",
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.239323
+                } ],
+                "tname" : "PM10",
+                "ttype" : "Mean",
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.24001
+                } ],
+                "tname" : "PTS",
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.005906
+                } ],
+                "tname" : "S02",
+                "tunit" : "g/km/h"
+              }
+            },
+            "smetadata" : {
+              "description" : " VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+              "length" : 1198,
+              "linegeometry" : "0102000020787F00000F0000006C57837CC8B3244109F27FFF70A55341B8F7D84E25B424419096471667A553418F70C27556B42441F627355B63A553418E1AB408A0B42441A39A9DD45FA55341D471E04355B524417428D2E35AA553419FC6D0C277B52441B79EF35259A55341CE5671FB97B5244181AFBA3959A553411E04DB39D1B6244134B5CC5951A55341F49EC1770CB72441CCBDE7BB50A55341BE04D4DB31B72441F60C82604FA55341BB4766269FB72441032EB6184CA55341F7A3F5E875B92441BA23DF4440A55341600A5CCFAFB92441AC4C3B843EA55341488570FD40BA24414CBD78DE3BA553418F5ADB16CDBC24410B1B4A212BA55341",
+              "old_idstr" : 2,
+              "speed_default" : 44
+            },
+            "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+            "stype" : "Streetstation"
+          },
+          "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 16.41038
+                } ],
+                "tname" : "CH4",
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 1642.028231
+                } ],
+                "tname" : "CO",
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 98163.746752
+                } ],
+                "tname" : "CO2",
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 370.374901
+                } ],
+                "tname" : "COV",
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 31252.321863
+                } ],
+                "tname" : "FC",
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.000651
+                } ],
+                "tname" : "IPA",
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 12.980922
+                } ],
+                "tname" : "NH3",
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 235.601901
+                } ],
+                "tname" : "NOX",
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 12.299655
+                } ],
+                "tname" : "PM10",
+                "ttype" : "Mean",
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 12.332677
+                } ],
+                "tname" : "PTS",
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.304886
+                } ],
+                "tname" : "S02",
+                "tunit" : "g/km/h"
+              }
+            },
+            "smetadata" : {
+              "description" : " VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE",
+              "length" : 322,
+              "linegeometry" : "0102000020787F000004000000CD4DD4DB31B724411F0B80604FA553411609777765B72441D86388CC5BA55341C91E0A97FDB72441EE7F6ED78CA553419CE2D6051EB8244199A073139AA55341",
+              "old_idstr" : 14,
+              "speed_default" : 44
+            },
+            "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+            "stype" : "Streetstation"
+          },
+          "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 6.402678
+                } ],
+                "tname" : "CH4",
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 637.76356
+                } ],
+                "tname" : "CO",
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 38027.694288
+                } ],
+                "tname" : "CO2",
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 142.44809
+                } ],
+                "tname" : "COV",
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 12107.094548
+                } ],
+                "tname" : "FC",
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.000259
+                } ],
+                "tname" : "IPA",
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 5.318853
+                } ],
+                "tname" : "NH3",
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 92.901268
+                } ],
+                "tname" : "NOX",
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 4.81213
+                } ],
+                "tname" : "PM10",
+                "ttype" : "Mean",
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 4.825276
+                } ],
+                "tname" : "PTS",
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.118091
+                } ],
+                "tname" : "S02",
+                "tunit" : "g/km/h"
+              }
+            },
+            "smetadata" : {
+              "description" : " VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+              "length" : 795,
+              "linegeometry" : "0102000020787F000018000000320EB21DABB22441CBC97A99DBA45341EB57BEDF6FB22441D11F8976CCA45341EDADCC4C39B2244122AD2075C2A453416041E51009B22441B6C524BBBBA45341B24F1203B1B124412D593D67B1A453412764C00A25B12441D71F89EE9CA45341781CDF4FF7B02441DC4A10F596A45341CB2A0CC2A9B0244116D451E58DA453411F3939B487B024417A0F31458BA45341BFD4FDD4EBAF24413BAF4B2484A4534183F5ADC7B4AF244162B5CCD980A453419AF9039697AF24416E8C70FA7DA45341FE34E3A57CAF24417FE4A9367AA45341269172A86DAF244189BB4D5777A45341D603DBF961AF244177388D0C74A45341B228E1FA59AF2441E64A10756FA45341EE0731485CAF244159B3A13A67A453414EC27A5463AF244186653F0264A45341B1FD59E470AF24414DDCFD5160A45341B428E17A80AF244163B5CC395DA453419F4F128393AF2441CE7141755AA453415CC4A59BA5AF2441BC19082958A45341699B498CEAAF2441D99EF37A52A45341D2EBF5A8FAAF244123438DD74CA45341",
+              "old_idstr" : 22,
+              "speed_default" : 48
+            },
+            "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+            "stype" : "Streetstation"
+          },
+          "VIA PALERMO / PALERMOSTRASSE 1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "VIA PALERMO / PALERMOSTRASSE 1",
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 6.904775
+                } ],
+                "tname" : "CH4",
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 821.394631
+                } ],
+                "tname" : "CO",
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 48590.658432
+                } ],
+                "tname" : "CO2",
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 180.346902
+                } ],
+                "tname" : "COV",
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 15468.049637
+                } ],
+                "tname" : "FC",
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.000252
+                } ],
+                "tname" : "IPA",
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 4.077968
+                } ],
+                "tname" : "NH3",
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 109.477461
+                } ],
+                "tname" : "NOX",
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 5.593399
+                } ],
+                "tname" : "PM10",
+                "ttype" : "Mean",
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 5.612566
+                } ],
+                "tname" : "PTS",
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 09:43:38.000+0000",
+                  "mvalidtime" : "2017-08-09 08:30:00.000+0000",
+                  "mvalue" : 0.151273
+                } ],
+                "tname" : "S02",
+                "tunit" : "g/km/h"
+              }
+            },
+            "smetadata" : {
+              "description" : " VIA PALERMO / PALERMOSTRASSE",
+              "length" : 179,
+              "linegeometry" : "0102000020787F00000300000024D953A3F7B72441A51D5EDF32A65341E5A3F56815B82441D650911240A65341E4786E1247B82441D0FA82855EA65341",
+              "old_idstr" : 16,
+              "speed_default" : 25
+            },
+            "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+            "stype" : "Streetstation"
+          },
+          "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.509896
+                } ],
+                "tname" : "CH4",
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 50.961936
+                } ],
+                "tname" : "CO",
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 3066.784782
+                } ],
+                "tname" : "CO2",
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 11.493116
+                } ],
+                "tname" : "COV",
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 976.375695
+                } ],
+                "tname" : "FC",
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.00002
+                } ],
+                "tname" : "IPA",
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.402768
+                } ],
+                "tname" : "NH3",
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 7.434869
+                } ],
+                "tname" : "NOX",
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.386005
+                } ],
+                "tname" : "PM10",
+                "ttype" : "Mean",
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.387113
+                } ],
+                "tname" : "PTS",
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "Migration from V1: Elaborations"
+                  },
+                  "mtransactiontime" : "2017-08-09 07:35:51.000+0000",
+                  "mvalidtime" : "2017-08-09 04:30:00.000+0000",
+                  "mvalue" : 0.009526
+                } ],
+                "tname" : "S02",
+                "tunit" : "g/km/h"
+              }
+            },
+            "smetadata" : {
+              "description" : " VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+              "length" : 842,
+              "linegeometry" : "0102000020787F00000600000033D7281C15BA244181F0ABC13CA55341DD4766A6FABA24415E6BC07F9DA5534108A52FED29BB24418BB5FF9BAEA55341EB1E0A974CBB244148BD78EEBFA553413EA317A6EDBB244169327B3804A6534181696554E8BB2441946B22F301A65341",
+              "old_idstr" : 23,
+              "speed_default" : 44
+            },
+            "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+            "stype" : "Streetstation"
+          }
+        }
+      }
+    },
+    "limit" : 300,
+    "offset" : 0
+  }
+}

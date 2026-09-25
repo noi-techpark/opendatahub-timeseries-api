@@ -1,0 +1,1394 @@
+{
+  "request" : "GET /flat,edge/*?limit=-1&select=secode,sbname,sbcoordinate [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.35919,
+        "y" : 46.49203
+      },
+      "sbname" : "Galleria_Virgolo",
+      "secode" : "P_Campiglio"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.35919,
+        "y" : 46.49203
+      },
+      "sbname" : "Galleria_Virgolo",
+      "secode" : "proma"
+    }, {
+      "sbname" : "VIA PALERMO / PALERMOSTRASSE 2",
+      "secode" : "proma"
+    }, {
+      "sbname" : "VIA ROVIGO 1",
+      "secode" : "proma"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.32538,
+        "y" : 46.48257
+      },
+      "sbname" : "Arginale_Resia",
+      "secode" : "A22_ML103"
+    }, {
+      "sbname" : "VIA TORINO 2",
+      "secode" : "proma"
+    }, {
+      "sbname" : "VIA ROMA / ROMSTRASSE",
+      "secode" : "via Claudia Augusta 1"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15941,
+        "y" : 46.67063
+      },
+      "sbname" : "liberta-corse",
+      "secode" : "corse_cappuccini"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15587,
+        "y" : 46.67795
+      },
+      "sbname" : "wolf-franziskus",
+      "secode" : "corse_cappuccini"
+    }, {
+      "sbname" : "VIA SAN GENESIO / JENESIER WEG",
+      "secode" : "S. Genesio"
+    }, {
+      "sbname" : "VIA VINTOLA 1",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "PONTE DRUSO / DRUSUSBRCKE",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "VIA RENCIO / RENTSCHNER STRASSE",
+      "secode" : "Renon"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.1093,
+        "y" : 46.085
+      },
+      "sbname" : "TN-Maccani",
+      "secode" : "TN-Sud"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33175,
+        "y" : 46.48955
+      },
+      "sbname" : "Milano_Palermo",
+      "secode" : "Roma_Firenze"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15313,
+        "y" : 46.66851
+      },
+      "sbname" : "ponte_rezia",
+      "secode" : "mazzini"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34202,
+        "y" : 46.49034
+      },
+      "sbname" : "proma",
+      "secode" : "Roma_Firenze"
+    }, {
+      "sbname" : "VIA GUGLIELMO MARCONI / GUGLIELMO-MARCONI-STRASSE",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33051,
+        "y" : 46.48242
+      },
+      "sbname" : "siemens",
+      "secode" : "proma"
+    }, {
+      "sbname" : "PONTE PALERMO / PALERMOBRCKE",
+      "secode" : "proma"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.1627,
+        "y" : 46.66755
+      },
+      "sbname" : "roma_nord",
+      "secode" : "roma_sud"
+    }, {
+      "sbname" : "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 2",
+      "secode" : "galvani"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.1488,
+        "y" : 46.67679
+      },
+      "sbname" : "goethe_ospedale",
+      "secode" : "sinigo"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.17759,
+        "y" : 46.64202
+      },
+      "sbname" : "sinigo",
+      "secode" : "cavour"
+    }, {
+      "sbname" : "VIA DEL MACELLO 1",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbname" : "VIA ROMA / ROMSTRASSE 3",
+      "secode" : "proma"
+    }, {
+      "sbname" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2",
+      "secode" : "Agip_Einstein"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15903,
+        "y" : 46.66425
+      },
+      "sbname" : "piave_matteotti",
+      "secode" : "piave-palade"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33707,
+        "y" : 46.48615
+      },
+      "sbname" : "Galilei_Lancia",
+      "secode" : "Galilei_Virgolo"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33168,
+        "y" : 46.47405
+      },
+      "sbname" : "galvani",
+      "secode" : "meinstein"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.35919,
+        "y" : 46.49203
+      },
+      "sbname" : "Galleria_Virgolo",
+      "secode" : "Arginale_Palermo"
+    }, {
+      "sbname" : "VIA CASSA DI RISPARMIO",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "VIA MAYR NUSSER 4",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbname" : "VIALE DRUSO 1",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3345,
+        "y" : 46.48662
+      },
+      "sbname" : "Arginale_Palermo",
+      "secode" : "Milano_Palermo"
+    }, {
+      "sbname" : "VIALE DRUSO 3",
+      "secode" : "druso-poste"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33269,
+        "y" : 46.49508
+      },
+      "sbname" : "Druso_Palermo",
+      "secode" : "druso-poste"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.26693,
+        "y" : 46.32098
+      },
+      "sbname" : "A22_ML103",
+      "secode" : "A22_ML107"
+    }, {
+      "sbname" : "VIA VENEZIA",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "VIA SASSARI 2",
+      "secode" : "proma"
+    }, {
+      "sbname" : "VIA MILANO 2",
+      "secode" : "proma"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34129,
+        "y" : 46.49226
+      },
+      "sbname" : "Roma_Firenze",
+      "secode" : "Milano_Palermo"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.32402,
+        "y" : 46.47806
+      },
+      "sbname" : "Torricelli",
+      "secode" : "P_Campiglio"
+    }, {
+      "sbname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 2",
+      "secode" : "MEBO"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.17759,
+        "y" : 46.64202
+      },
+      "sbname" : "sinigo",
+      "secode" : "goethe_ospedale"
+    }, {
+      "sbname" : "VIA SASSARI 3",
+      "secode" : "proma"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.32819,
+        "y" : 46.46834
+      },
+      "sbname" : "meinstein",
+      "secode" : "galvani"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15939,
+        "y" : 46.67385
+      },
+      "sbname" : "corse_cappuccini",
+      "secode" : "wolf"
+    }, {
+      "sbname" : "VIA BUOZZI 1",
+      "secode" : "galvani"
+    }, {
+      "sbname" : "VIA RIGHI",
+      "secode" : "siemens"
+    }, {
+      "sbname" : "VIA BEATO ARRIGO / SELIG-HEINRICH-STRASSE",
+      "secode" : "Sarentino"
+    }, {
+      "sbname" : "PONTE VIRGOLO",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33965,
+        "y" : 46.49511
+      },
+      "sbname" : "druso-poste",
+      "secode" : "proma"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.37137,
+        "y" : 46.49248
+      },
+      "sbname" : "P_Campiglio",
+      "secode" : "Galleria_Virgolo"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15578,
+        "y" : 46.6748
+      },
+      "sbname" : "goethe-alpini",
+      "secode" : "hofer"
+    }, {
+      "sbname" : "SS 12 / SS12  1",
+      "secode" : "SS12 Pineta"
+    }, {
+      "sbname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "secode" : "galvani"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3345,
+        "y" : 46.48662
+      },
+      "sbname" : "Arginale_Palermo",
+      "secode" : "Arginale_Resia"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33751,
+        "y" : 46.47574
+      },
+      "sbname" : "Maso_Pieve",
+      "secode" : "meinstein"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.1678,
+        "y" : 46.65691
+      },
+      "sbname" : "roma_sud",
+      "secode" : "roma_nord"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.082,
+        "y" : 46.1331
+      },
+      "sbname" : "TN-Nord",
+      "secode" : "TN-Maccani"
+    }, {
+      "sbname" : "VIA ROVIGO 2",
+      "secode" : "proma"
+    }, {
+      "sbname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 1",
+      "secode" : "MEBO"
+    }, {
+      "sbname" : "VIA SARENTINO / SARNTALER  STRASSE 1",
+      "secode" : "Sarentino"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15009,
+        "y" : 46.67327
+      },
+      "sbname" : "stazione",
+      "secode" : "mazzini"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15919,
+        "y" : 46.67445
+      },
+      "sbname" : "wolf",
+      "secode" : "corse_cappuccini"
+    }, {
+      "sbname" : "SP 99 S. GENESIO / LS 99 JENESIEN 2",
+      "secode" : "S. Genesio"
+    }, {
+      "sbname" : "VIA FAGO / FAGENSTRASSE",
+      "secode" : "via Vittorio Veneto"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15939,
+        "y" : 46.67385
+      },
+      "sbname" : "corse_cappuccini",
+      "secode" : "galilei"
+    }, {
+      "sbname" : "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 2",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "VIA ARMANDO DIAZ / ARMANDO-DIAZ-STRASSE",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.32538,
+        "y" : 46.48257
+      },
+      "sbname" : "Arginale_Resia",
+      "secode" : "Milano_Resia"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.16018,
+        "y" : 46.66167
+      },
+      "sbname" : "piave-palade",
+      "secode" : "zuegg-palade"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.16729,
+        "y" : 46.66844
+      },
+      "sbname" : "cavour",
+      "secode" : "scena-leichter"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.1215,
+        "y" : 46.0391
+      },
+      "sbname" : "TN-Sud",
+      "secode" : "TN-Acquaviva"
+    }, {
+      "sbname" : "VIA RESIA 2",
+      "secode" : "incrocio via Resia - viale Druso 1"
+    }, {
+      "sbname" : "VIA S. MAURIZIO",
+      "secode" : "Settequerce"
+    }, {
+      "sbname" : "VIA GALILEO GALILEI / GALILEO-GALILEI-STRASSE",
+      "secode" : "siemens"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.17759,
+        "y" : 46.64202
+      },
+      "sbname" : "sinigo",
+      "secode" : "roma_sud"
+    }, {
+      "sbname" : "VIA VITTORIO VENETO / VITTORIO-VENETO-STRASSE",
+      "secode" : "via Vittorio Veneto"
+    }, {
+      "sbname" : "VIA SARENTINO / SARNTALER  STRASSE 2",
+      "secode" : "Sarentino"
+    }, {
+      "sbname" : "VIA MAYR NUSSER 3",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 2",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbname" : "VIA BUOZZI 3",
+      "secode" : "galvani"
+    }, {
+      "sbname" : "SVINCOLO VIA GALILEI 2",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbname" : "VIALE TRIESTE",
+      "secode" : "proma"
+    }, {
+      "sbname" : "PIAZZA GRIES / GRIESER PLATZ",
+      "secode" : "via Vittorio Veneto"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.16729,
+        "y" : 46.66844
+      },
+      "sbname" : "cavour",
+      "secode" : "terme_est"
+    }, {
+      "sbname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 1",
+      "secode" : "via Einstein 1"
+    }, {
+      "sbname" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1",
+      "secode" : "Agip_Einstein"
+    }, {
+      "sbname" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 1",
+      "secode" : "incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "sbname" : "VIA MERANO / MERANER STRASSE 1",
+      "secode" : "incrocio via Resia - viale Druso 1"
+    }, {
+      "sbname" : "VIA OLTRADIGE / UEBERETSCHER STRASSE",
+      "secode" : "SS42"
+    }, {
+      "sbname" : "VIA DEL MACELLO 3",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbname" : "VIA TALVERA",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "VIA MAYR NUSSER 2",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbname" : "PONTE TALVERA / TALFERBRCKE",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "secode" : "Agip_Einstein"
+    }, {
+      "sbname" : "VIA DALMAZIA 2",
+      "secode" : "proma"
+    }, {
+      "sbname" : "VIA GIUSEPPE GARIBALDI / GIUSEPPE-GARIBALDI-STRASSE",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbname" : "VIA SASSARI 1",
+      "secode" : "proma"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15009,
+        "y" : 46.67327
+      },
+      "sbname" : "stazione",
+      "secode" : "goethe_ospedale"
+    }, {
+      "sbname" : "VIA CLAUDIA AUGUSTA 2",
+      "secode" : "via Claudia Augusta 1"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.1488,
+        "y" : 46.67679
+      },
+      "sbname" : "goethe_ospedale",
+      "secode" : "stazione"
+    }, {
+      "sbname" : "VIA CLAUDIA AUGUSTA 4",
+      "secode" : "via Claudia Augusta 1"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15241,
+        "y" : 46.67512
+      },
+      "sbname" : "hofer",
+      "secode" : "goethe-alpini"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.082,
+        "y" : 46.1331
+      },
+      "sbname" : "TN-Nord",
+      "secode" : "TN-Cadino"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15959,
+        "y" : 46.66948
+      },
+      "sbname" : "terme_ovest",
+      "secode" : "liberta-corse"
+    }, {
+      "sbname" : "PIAZZA GIUSEPPE MAZZINI / GIUSEPPE-MAZZINI-PLATZ",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "VICOLO FUCINE",
+      "secode" : "via Vittorio Veneto"
+    }, {
+      "sbname" : "VIA PARMA 2",
+      "secode" : "proma"
+    }, {
+      "sbname" : "PONTE ROMA / ROMBRCKE 1",
+      "secode" : "proma"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.31655,
+        "y" : 46.47129
+      },
+      "sbname" : "Agip_Einstein",
+      "secode" : "Torricelli"
+    }, {
+      "sbname" : "SP 99 S. GENESIO / LS 99 JENESIEN 3",
+      "secode" : "S. Genesio"
+    }, {
+      "sbname" : "VIA MUSEO / MUSEUMSTRASSE",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "VIA WEGGENSTEIN / WEGGENSTEINSTRASSE",
+      "secode" : "Sarentino"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34142,
+        "y" : 46.48699
+      },
+      "sbname" : "Galilei_Virgolo",
+      "secode" : "Galilei_Roma"
+    }, {
+      "sbname" : "SS 42 / SS42",
+      "secode" : "SS42"
+    }, {
+      "sbname" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 2",
+      "secode" : "incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "sbname" : "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 1",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.1519,
+        "y" : 46.2103
+      },
+      "sbname" : "TN-Cadino",
+      "secode" : "TN-Nord"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.26693,
+        "y" : 46.32098
+      },
+      "sbname" : "A22_ML103",
+      "secode" : "Torricelli"
+    }, {
+      "sbname" : "VIA CESARE BATTISTI",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.1093,
+        "y" : 46.085
+      },
+      "sbname" : "TN-Maccani",
+      "secode" : "TN-Nord"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33175,
+        "y" : 46.48955
+      },
+      "sbname" : "Milano_Palermo",
+      "secode" : "Druso_Palermo"
+    }, {
+      "sbname" : "VIA LORENZ BHLER / LORENZ-BHLER-STRASSE",
+      "secode" : "Settequerce"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15655,
+        "y" : 46.67285
+      },
+      "sbname" : "huber",
+      "secode" : "liberta-corse"
+    }, {
+      "sbname" : "VIA BRENNERO",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "VIA COLOGNA / GLANINGER WEG",
+      "secode" : "S. Genesio"
+    }, {
+      "sbname" : "VIA MENDOLA",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "VIA RENON / RITTNER STRASSE",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbname" : "VIA CLAUDIA AUGUSTA 1",
+      "secode" : "incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34142,
+        "y" : 46.48699
+      },
+      "sbname" : "Galilei_Virgolo",
+      "secode" : "Galleria_Virgolo"
+    }, {
+      "sbname" : "PONTE ROMA / ROMBRCKE 2",
+      "secode" : "proma"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.1488,
+        "y" : 46.67679
+      },
+      "sbname" : "goethe_ospedale",
+      "secode" : "hofer"
+    }, {
+      "sbname" : "GALLERIA DEL VIRGOLO / VIRGL TUNNEL",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15261,
+        "y" : 46.67105
+      },
+      "sbname" : "mazzini",
+      "secode" : "huber"
+    }, {
+      "sbname" : "VIA SAN MAURIZIO / MORITZINGER WEG",
+      "secode" : "via Vittorio Veneto"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15941,
+        "y" : 46.67063
+      },
+      "sbname" : "liberta-corse",
+      "secode" : "mazzini"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33168,
+        "y" : 46.47405
+      },
+      "sbname" : "galvani",
+      "secode" : "Galilei_Lancia"
+    }, {
+      "sbname" : "VIA TORINO 1",
+      "secode" : "proma"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34355,
+        "y" : 46.48697
+      },
+      "sbname" : "Galilei_Roma",
+      "secode" : "Maso_Pieve"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.31655,
+        "y" : 46.47129
+      },
+      "sbname" : "Agip_Einstein",
+      "secode" : "meinstein"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33965,
+        "y" : 46.49511
+      },
+      "sbname" : "druso-poste",
+      "secode" : "Roma_Firenze"
+    }, {
+      "sbname" : "VIA PARMA 1",
+      "secode" : "proma"
+    }, {
+      "sbname" : "VIA PALERMO / PALERMOSTRASSE 3",
+      "secode" : "proma"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15655,
+        "y" : 46.67285
+      },
+      "sbname" : "huber",
+      "secode" : "mazzini"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33965,
+        "y" : 46.49511
+      },
+      "sbname" : "druso-poste",
+      "secode" : "Galilei_Roma"
+    }, {
+      "sbname" : "VIA LORIS MUSY / LORIS-MUSY-STRASSE",
+      "secode" : "incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "sbname" : "COSTA DI SOTTO / UNTERLEITACH",
+      "secode" : "SS12 Cardano"
+    }, {
+      "sbname" : "VIA CLAUDIA AUGUSTA 5",
+      "secode" : "via Claudia Augusta 1"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15313,
+        "y" : 46.66851
+      },
+      "sbname" : "ponte_rezia",
+      "secode" : "petrarca"
+    }, {
+      "sbname" : "VIA DUCA Di AOSTA 2",
+      "secode" : "druso-poste"
+    }, {
+      "sbname" : "VIA RENCIO / RENTSCHER STRASSE",
+      "secode" : "SS12 Cardano"
+    }, {
+      "sbname" : "VIA TRE SANTI",
+      "secode" : "via Vittorio Veneto"
+    }, {
+      "sbname" : "VIA DELL OSPEDALE / SPITALGASSE",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.32819,
+        "y" : 46.46834
+      },
+      "sbname" : "meinstein",
+      "secode" : "Maso_Pieve"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.37137,
+        "y" : 46.49248
+      },
+      "sbname" : "P_Campiglio",
+      "secode" : "Arginale_Resia"
+    }, {
+      "sbname" : "CORSO ITALIA / ITALIENALLEE",
+      "secode" : "druso-poste"
+    }, {
+      "sbname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "secode" : "proma"
+    }, {
+      "sbname" : "VIA MAYR NUSSER 1",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbname" : "VIA ALESSANDRIA",
+      "secode" : "proma"
+    }, {
+      "sbname" : "VIA DALMAZIA 1",
+      "secode" : "proma"
+    }, {
+      "sbname" : "VIA CASSA DI RISPARMIO / SPARKASSENSTRASSE",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "GALLERIA SS12 / SS12 TUNNEL",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbname" : "VIA MILANO 1",
+      "secode" : "proma"
+    }, {
+      "sbname" : "VIA WERNER VON SIEMENS / WERNER-VON-SIEMENS-STRASSE 1",
+      "secode" : "siemens"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34129,
+        "y" : 46.49226
+      },
+      "sbname" : "Roma_Firenze",
+      "secode" : "proma"
+    }, {
+      "sbname" : "VIA BRENNERO / BRENNERSTRASSE",
+      "secode" : "Renon"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34236,
+        "y" : 46.48252
+      },
+      "sbname" : "caugusta",
+      "secode" : "Maso_Pieve"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15959,
+        "y" : 46.66948
+      },
+      "sbname" : "terme_ovest",
+      "secode" : "zuegg-palade"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.14589,
+        "y" : 46.65885
+      },
+      "sbname" : "zuegg-palade",
+      "secode" : "terme_est"
+    }, {
+      "sbname" : "VIA VINTOLA 2",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 2",
+      "secode" : "siemens"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15939,
+        "y" : 46.67385
+      },
+      "sbname" : "corse_cappuccini",
+      "secode" : "wolf-franziskus"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.1133,
+        "y" : 45.9735
+      },
+      "sbname" : "TN-Acquaviva",
+      "secode" : "TN-Sud"
+    }, {
+      "sbname" : "VIALE DRUSO / DRUSUSALLEE 2",
+      "secode" : "incrocio via Resia - viale Druso 1"
+    }, {
+      "sbname" : "VIA ANTONIO ROSMINI / ANTONIO-ROSMINI-STRASSE",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "SP 99 S. GENESIO / LS 99 JENESIEN 1",
+      "secode" : "S. Genesio"
+    }, {
+      "sbname" : "PONTE ROMA",
+      "secode" : "proma"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33965,
+        "y" : 46.49511
+      },
+      "sbname" : "druso-poste",
+      "secode" : "Druso_Palermo"
+    }, {
+      "sbname" : "VIA S. QUIRINO",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "PIAZZA GIUSEPPE VERDI / GIUSEPPE-VERDI-PLATZ",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34236,
+        "y" : 46.48252
+      },
+      "sbname" : "caugusta",
+      "secode" : "Galilei_Roma"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15959,
+        "y" : 46.66948
+      },
+      "sbname" : "terme_ovest",
+      "secode" : "piave_matteotti"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.14589,
+        "y" : 46.65885
+      },
+      "sbname" : "zuegg-palade",
+      "secode" : "piave-palade"
+    }, {
+      "sbname" : "VIA DEL MACELLO 2",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbname" : "VIA CAVOUR",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "VIA CLAUDIA AUGUSTA 3",
+      "secode" : "incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "sbname" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 3",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33175,
+        "y" : 46.48955
+      },
+      "sbname" : "Milano_Palermo",
+      "secode" : "Milano_Resia"
+    }, {
+      "sbname" : "VIA S. GIACOMO / ST.-JAKOB-STRASSE",
+      "secode" : "incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "sbname" : "VIALE DRUSO / DRUSUSALLEE 1",
+      "secode" : "incrocio via Resia - viale Druso 1"
+    }, {
+      "sbname" : "VIA ROEN",
+      "secode" : "druso-poste"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.1627,
+        "y" : 46.66755
+      },
+      "sbname" : "roma_nord",
+      "secode" : "terme_est"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3326,
+        "y" : 46.48501
+      },
+      "sbname" : "Galilei_Palermo",
+      "secode" : "Galilei_Lancia"
+    }, {
+      "sbname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 3",
+      "secode" : "via Einstein 1"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33269,
+        "y" : 46.49508
+      },
+      "sbname" : "Druso_Palermo",
+      "secode" : "Milano_Palermo"
+    }, {
+      "sbname" : "PIAZZA ADRIANO",
+      "secode" : "druso-poste"
+    }, {
+      "sbname" : "VIALE EUROPA",
+      "secode" : "proma"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34355,
+        "y" : 46.48697
+      },
+      "sbname" : "Galilei_Roma",
+      "secode" : "druso-poste"
+    }, {
+      "sbname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 2",
+      "secode" : "incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.16018,
+        "y" : 46.66167
+      },
+      "sbname" : "piave-palade",
+      "secode" : "piave_matteotti"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.32819,
+        "y" : 46.46834
+      },
+      "sbname" : "meinstein",
+      "secode" : "Agip_Einstein"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.16729,
+        "y" : 46.66844
+      },
+      "sbname" : "cavour",
+      "secode" : "schaffer-winkel"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34202,
+        "y" : 46.49034
+      },
+      "sbname" : "proma",
+      "secode" : "druso-poste"
+    }, {
+      "sbname" : "VIA EDISON",
+      "secode" : "via Torricelli"
+    }, {
+      "sbname" : "VIA DANTE / DANTESTRASSE",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1",
+      "secode" : "via Vittorio Veneto"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15261,
+        "y" : 46.67105
+      },
+      "sbname" : "mazzini",
+      "secode" : "ponte_rezia"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15587,
+        "y" : 46.67795
+      },
+      "sbname" : "wolf-franziskus",
+      "secode" : "goethe_ospedale"
+    }, {
+      "sbname" : "SS 12 / SS12  2",
+      "secode" : "SS12 Pineta"
+    }, {
+      "sbname" : "VIALE DRUSO 4",
+      "secode" : "incrocio via Resia - viale Druso 1"
+    }, {
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 4",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbname" : "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN",
+      "secode" : "Autostrada Fittizzia"
+    }, {
+      "sbname" : "PONTE SANT'ANTONIO / ST.-ANTON-BRCKE",
+      "secode" : "Sarentino"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34129,
+        "y" : 46.49226
+      },
+      "sbname" : "Roma_Firenze",
+      "secode" : "druso-poste"
+    }, {
+      "sbname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "secode" : "siemens"
+    }, {
+      "sbname" : "VIA EVANGELISTA TORRICELLI / EVANGELISTA-TORRICELLI-STRASSE",
+      "secode" : "via Torricelli"
+    }, {
+      "sbname" : "VIA GAISMAIR",
+      "secode" : "druso-poste"
+    }, {
+      "sbname" : "VIALE TRENTO",
+      "secode" : "proma"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.1678,
+        "y" : 46.65691
+      },
+      "sbname" : "roma_sud",
+      "secode" : "sinigo"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.31705,
+        "y" : 46.48972
+      },
+      "sbname" : "Milano_Resia",
+      "secode" : "Milano_Palermo"
+    }, {
+      "sbname" : "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 1",
+      "secode" : "galvani"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.1488,
+        "y" : 46.67679
+      },
+      "sbname" : "goethe_ospedale",
+      "secode" : "wolf-franziskus"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15261,
+        "y" : 46.67105
+      },
+      "sbname" : "mazzini",
+      "secode" : "stazione"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33051,
+        "y" : 46.48242
+      },
+      "sbname" : "siemens",
+      "secode" : "Galilei_Palermo"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.23751,
+        "y" : 46.28884
+      },
+      "sbname" : "A22_ML107",
+      "secode" : "A22_ML103"
+    }, {
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 6",
+      "secode" : "SS12 Cardano"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15903,
+        "y" : 46.66425
+      },
+      "sbname" : "piave_matteotti",
+      "secode" : "roma_nord"
+    }, {
+      "sbname" : "VIA CASTEL FIRMIANO / SIGMUNDSKRONER STRASSE",
+      "secode" : "SS42"
+    }, {
+      "sbname" : "VIA ROMA / ROMSTRASSE 1",
+      "secode" : "via Claudia Augusta 1"
+    }, {
+      "sbname" : "VIA GALILEI",
+      "secode" : "proma"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.32538,
+        "y" : 46.48257
+      },
+      "sbname" : "Arginale_Resia",
+      "secode" : "Agip_Einstein"
+    }, {
+      "sbname" : "VIA DEL MACELLO 4",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15941,
+        "y" : 46.67063
+      },
+      "sbname" : "liberta-corse",
+      "secode" : "huber"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.16729,
+        "y" : 46.66844
+      },
+      "sbname" : "cavour",
+      "secode" : "sinigo"
+    }, {
+      "sbname" : "VIA BUOZZI 2",
+      "secode" : "galvani"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15241,
+        "y" : 46.67512
+      },
+      "sbname" : "hofer",
+      "secode" : "goethe_ospedale"
+    }, {
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 7",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.17816,
+        "y" : 46.66955
+      },
+      "sbname" : "scena-leichter",
+      "secode" : "cavour"
+    }, {
+      "sbname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 4",
+      "secode" : "SS12 Pineta"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.31705,
+        "y" : 46.48972
+      },
+      "sbname" : "Milano_Resia",
+      "secode" : "Druso_Palermo"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.1613,
+        "y" : 46.67362
+      },
+      "sbname" : "galilei",
+      "secode" : "corse_cappuccini"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33269,
+        "y" : 46.49508
+      },
+      "sbname" : "Druso_Palermo",
+      "secode" : "Milano_Resia"
+    }, {
+      "sbname" : "VIA WEGGENSTEIN",
+      "secode" : "Sarentino"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33707,
+        "y" : 46.48615
+      },
+      "sbname" : "Galilei_Lancia",
+      "secode" : "galvani"
+    }, {
+      "sbname" : "S.S. RENON",
+      "secode" : "Renon"
+    }, {
+      "sbname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 3",
+      "secode" : "MEBO"
+    }, {
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 3",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.34355,
+        "y" : 46.48697
+      },
+      "sbname" : "Galilei_Roma",
+      "secode" : "caugusta"
+    }, {
+      "sbname" : "VIALE DRUSO 2",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "VIA WERNER VON SIEMENS / WERNER-VON-SIEMENS-STRASSE 2",
+      "secode" : "siemens"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.32402,
+        "y" : 46.47806
+      },
+      "sbname" : "Torricelli",
+      "secode" : "siemens"
+    }, {
+      "sbname" : "VIA GIOSUÈ CARDUCCI / GIOSUÈ-CARDUCCI-STRASSE",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbname" : "VIA MERANO / MERANER STRASSE 2",
+      "secode" : "Settequerce"
+    }, {
+      "sbname" : "VIA EBNER",
+      "secode" : "galvani"
+    }, {
+      "sbname" : "VIA TORRICELLI",
+      "secode" : "via Torricelli"
+    }, {
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 5",
+      "secode" : "SS12 Cardano"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.16426,
+        "y" : 46.66929
+      },
+      "sbname" : "terme_est",
+      "secode" : "terme_ovest"
+    }, {
+      "sbname" : "VIA DUCA Di AOSTA 1",
+      "secode" : "druso-poste"
+    }, {
+      "sbname" : "VIA ROMA / ROMSTRASSE 2",
+      "secode" : "proma"
+    }, {
+      "sbname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "secode" : "galvani"
+    }, {
+      "sbname" : "VIA MIRAMONTI / REICHRIEGLERWEG",
+      "secode" : "S. Genesio"
+    }, {
+      "sbname" : "VIA SANT'ANTONIO / ST.-ANTON-STRASSE",
+      "secode" : "Sarentino"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15941,
+        "y" : 46.67063
+      },
+      "sbname" : "liberta-corse",
+      "secode" : "terme_ovest"
+    }, {
+      "sbname" : "PIAZZA VITTORIA",
+      "secode" : "ponte Talvera"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.1215,
+        "y" : 46.0391
+      },
+      "sbname" : "TN-Sud",
+      "secode" : "TN-Maccani"
+    }, {
+      "sbname" : "SVINCOLO VIA GALILEI 1",
+      "secode" : "ponte Virgolo"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.15639,
+        "y" : 46.66672
+      },
+      "sbname" : "petrarca",
+      "secode" : "ponte_rezia"
+    }, {
+      "sbcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.17013,
+        "y" : 46.66577
+      },
+      "sbname" : "schaffer-winkel",
+      "secode" : "cavour"
+    }, {
+      "sbname" : "VIA BARI",
+      "secode" : "proma"
+    }, {
+      "sbname" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 3",
+      "secode" : "incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "sbname" : "SS 38 / SS38",
+      "secode" : "Settequerce"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,1033 @@
+{
+  "request" : "GET /tree/*/*?limit=-1&select=ttype,tmetadata,smetadata,ptype&where=smetadata.capacity.gt.10&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingFacility" : {
+        "stations" : {
+          "105_facility" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "free_short_stay" : {
+                "tmetadata" : null,
+                "ttype" : "Instantaneous"
+              },
+              "free_subscribers" : {
+                "tmetadata" : null,
+                "ttype" : "Instantaneous"
+              },
+              "occupied" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "occupied_short_stay" : {
+                "tmetadata" : null,
+                "ttype" : "Instantaneous"
+              },
+              "occupied_subscribers" : {
+                "tmetadata" : null,
+                "ttype" : "Instantaneous"
+              }
+            },
+            "smetadata" : {
+              "capacity" : 90,
+              "capacity_short_stay" : 90,
+              "capacity_subscribers" : 90,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Laurin",
+              "name_en" : "Laurin",
+              "name_it" : "Laurin",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "openSpace",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Laurin"
+            },
+            "sparent" : {
+              "ptype" : null
+            }
+          },
+          "608612" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "free_short_stay" : {
+                "tmetadata" : null,
+                "ttype" : "Instantaneous"
+              },
+              "free_subscribers" : {
+                "tmetadata" : null,
+                "ttype" : "Instantaneous"
+              },
+              "occupied" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "occupied_short_stay" : {
+                "tmetadata" : null,
+                "ttype" : "Instantaneous"
+              },
+              "occupied_subscribers" : {
+                "tmetadata" : null,
+                "ttype" : "Instantaneous"
+              }
+            },
+            "smetadata" : {
+              "capacity" : 240,
+              "capacity_short_stay" : 240,
+              "capacity_subscribers" : 240,
+              "municipality" : "Brunico – Bruneck",
+              "standard_name" : "Parcheggio Stazione Brunico"
+            },
+            "sparent" : {
+              "ptype" : null
+            }
+          },
+          "609883" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "free_short_stay" : {
+                "tmetadata" : null,
+                "ttype" : "Instantaneous"
+              },
+              "free_subscribers" : {
+                "tmetadata" : null,
+                "ttype" : "Instantaneous"
+              },
+              "occupied" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "occupied_short_stay" : {
+                "tmetadata" : null,
+                "ttype" : "Instantaneous"
+              },
+              "occupied_subscribers" : {
+                "tmetadata" : null,
+                "ttype" : "Instantaneous"
+              }
+            },
+            "smetadata" : {
+              "capacity" : 514,
+              "capacity_short_stay" : 514,
+              "capacity_subscribers" : 514,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Waltherpark",
+              "name_en" : "Waltherpark",
+              "name_it" : "Waltherpark",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "covered",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Waltherpark"
+            },
+            "sparent" : {
+              "ptype" : null
+            }
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "102" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              }
+            },
+            "smetadata" : {
+              "capacity" : 233,
+              "disabledtoiletavailable" : true,
+              "mainaddress" : "Via Dr. Julius Perathoner",
+              "municipality" : "Bolzano - Bozen",
+              "phonenumber" : "0471 970289",
+              "state" : 1
+            },
+            "sparent" : {
+              "ptype" : null
+            }
+          },
+          "103" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "occupied" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "parking-forecast-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              }
+            },
+            "smetadata" : {
+              "capacity" : 403,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Waltherplatz",
+              "name_en" : "Piazza Walther",
+              "name_it" : "Piazza Walther",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "underground",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Piazza Walther"
+            },
+            "sparent" : {
+              "ptype" : null
+            }
+          },
+          "104" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "occupied" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "parking-forecast-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              }
+            },
+            "smetadata" : {
+              "capacity" : 150,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Luna MoliniStraße",
+              "name_en" : "Luna via Molini",
+              "name_it" : "Luna via Molini it",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "underground",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Luna Via Molini"
+            },
+            "sparent" : {
+              "ptype" : null
+            }
+          },
+          "105" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "free_short_stay" : {
+                "tmetadata" : null,
+                "ttype" : "Instantaneous"
+              },
+              "free_subscribers" : {
+                "tmetadata" : null,
+                "ttype" : "Instantaneous"
+              },
+              "occupied" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "occupied_short_stay" : {
+                "tmetadata" : null,
+                "ttype" : "Instantaneous"
+              },
+              "occupied_subscribers" : {
+                "tmetadata" : null,
+                "ttype" : "Instantaneous"
+              },
+              "parking-forecast-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              }
+            },
+            "smetadata" : {
+              "capacity" : 90,
+              "free_limit" : 89,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Laurin",
+              "name_en" : "Laurin",
+              "name_it" : "Laurin",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "openSpace",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "occupancy_limit" : 90,
+              "standard_name" : "Parcheggio Laurin"
+            },
+            "sparent" : {
+              "ptype" : "ParkingFacility"
+            }
+          },
+          "107" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "occupied" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              }
+            },
+            "smetadata" : {
+              "capacity" : 145,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Mareccio C. de Medici Strasse",
+              "name_en" : "Mareccio via C. de Medici",
+              "name_it" : "Mareccio via C. de Medici",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "openSpace",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Mareccio"
+            },
+            "sparent" : {
+              "ptype" : null
+            }
+          },
+          "112" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "occupied" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "parking-forecast-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              }
+            },
+            "smetadata" : {
+              "capacity" : 174,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Gerichtsplatz",
+              "name_en" : "Piazza Tribunale",
+              "name_it" : "Piazza Tribunale",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "underground",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Tribunale"
+            },
+            "sparent" : {
+              "ptype" : null
+            }
+          },
+          "113" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "occupied" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              }
+            },
+            "smetadata" : {
+              "capacity" : 114,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Direzional Park",
+              "name_en" : "Direzional Park",
+              "name_it" : "Direzional Park",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "underground",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Direzional Park"
+            },
+            "sparent" : {
+              "ptype" : null
+            }
+          },
+          "115" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "occupied" : {
+                "tmetadata" : { },
+                "ttype" : "Instantaneous"
+              },
+              "parking-forecast-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-high-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-low-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-120" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-150" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-180" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-210" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-240" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-30" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-60" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              },
+              "parking-forecast-rmse-90" : {
+                "tmetadata" : { },
+                "ttype" : "Forecast"
+              }
+            },
+            "smetadata" : {
+              "capacity" : 425,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Palasport Reschenstraße",
+              "name_en" : "Palasport via Resia",
+              "name_it" : "Palasport via Resia",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "openSpace",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Palasport"
+            },
+            "sparent" : {
+              "ptype" : null
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

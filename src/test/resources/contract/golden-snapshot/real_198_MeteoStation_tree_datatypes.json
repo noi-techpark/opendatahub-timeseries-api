@@ -1,0 +1,543 @@
+{
+  "request" : "GET /tree/MeteoStation/*?limit=200 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "102343",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.388134,
+              "y" : 46.94982
+            },
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tmetadata" : { },
+                "tname" : "atmospheric-pressure-reduced",
+                "tunit" : "hPa"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "tmetadata" : { },
+                "tname" : "precipitation",
+                "ttype" : "total",
+                "tunit" : "mm"
+              }
+            },
+            "smetadata" : {
+              "area" : "---"
+            },
+            "sname" : "Brenner",
+            "sorigin" : "SIAG",
+            "stype" : "MeteoStation"
+          },
+          "37100MS" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "37100MS",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.4386,
+              "y" : 46.885
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmetadata" : { },
+                "tname" : "air-humidity",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tmetadata" : { },
+                "tname" : "atmospheric-pressure-reduced",
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale ",
+                "tmetadata" : { },
+                "tname" : "global-radiation",
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "tmetadata" : { },
+                "tname" : "precipitation",
+                "ttype" : "total",
+                "tunit" : "mm"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento",
+                "tmetadata" : { },
+                "tname" : "sunshine-duration",
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento",
+                "tmetadata" : { },
+                "tname" : "wind-direction",
+                "tunit" : "° "
+              },
+              "wind-gust-speed" : {
+                "tdescription" : "Velocitá raffica",
+                "tmetadata" : { },
+                "tname" : "wind-gust-speed",
+                "tunit" : "m/s"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "Sterzing",
+              "name_en" : "Sterzing",
+              "name_it" : "Vipiteno"
+            },
+            "sname" : "Vipiteno",
+            "sorigin" : "SIAG",
+            "stype" : "MeteoStation"
+          },
+          "47400MS" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "47400MS",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 12.1166,
+              "y" : 46.8704
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmetadata" : { },
+                "tname" : "air-humidity",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "air-temperature-max" : {
+                "tdescription" : "Maximum temperature",
+                "tmetadata" : { },
+                "tname" : "air-temperature-max",
+                "ttype" : "max",
+                "tunit" : "°C"
+              },
+              "air-temperature-min" : {
+                "tdescription" : "Minimum temperature",
+                "tmetadata" : { },
+                "tname" : "air-temperature-min",
+                "ttype" : "min",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tmetadata" : { },
+                "tname" : "atmospheric-pressure-reduced",
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale ",
+                "tmetadata" : { },
+                "tname" : "global-radiation",
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "tmetadata" : { },
+                "tname" : "precipitation",
+                "ttype" : "total",
+                "tunit" : "mm"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento",
+                "tmetadata" : { },
+                "tname" : "sunshine-duration",
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento",
+                "tmetadata" : { },
+                "tname" : "wind-direction",
+                "tunit" : "° "
+              },
+              "wind-gust-speed" : {
+                "tdescription" : "Velocitá raffica",
+                "tmetadata" : { },
+                "tname" : "wind-gust-speed",
+                "tunit" : "m/s"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "Antholz Obertal",
+              "name_en" : "Antholz Obertal",
+              "name_it" : "Anterselva di Sopra"
+            },
+            "sname" : "Anterselva di Sopra",
+            "sorigin" : "SIAG",
+            "stype" : "MeteoStation"
+          },
+          "59450PG" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "59450PG",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.93472,
+              "y" : 46.81704
+            },
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tdescription" : "Portata",
+                "tmetadata" : { },
+                "tname" : "flow-rate",
+                "tunit" : "m³/s"
+              },
+              "suspended-solids-in-watercourse" : {
+                "tdescription" : "concentrazione solidi sospesi ",
+                "tmetadata" : { },
+                "tname" : "suspended-solids-in-watercourse",
+                "tunit" : "mg/l"
+              },
+              "water-level" : {
+                "tdescription" : "Livello idrometrico",
+                "tmetadata" : { },
+                "tname" : "water-level",
+                "tunit" : "cm"
+              },
+              "water-temperature" : {
+                "tdescription" : "Temperatura acqua",
+                "tmetadata" : { },
+                "tname" : "water-temperature",
+                "tunit" : "°C"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "AHR BEI ST.GEORGEN",
+              "name_en" : "AHR BEI ST.GEORGEN",
+              "name_it" : "AURINO A S. GIORGIO"
+            },
+            "sname" : "AURINO A S. GIORGIO",
+            "sorigin" : "SIAG",
+            "stype" : "MeteoStation"
+          },
+          "62600MS" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "62600MS",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.8979,
+              "y" : 46.6792
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmetadata" : { },
+                "tname" : "air-humidity",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "air-temperature-max" : {
+                "tdescription" : "Maximum temperature",
+                "tmetadata" : { },
+                "tname" : "air-temperature-max",
+                "ttype" : "max",
+                "tunit" : "°C"
+              },
+              "air-temperature-min" : {
+                "tdescription" : "Minimum temperature",
+                "tmetadata" : { },
+                "tname" : "air-temperature-min",
+                "ttype" : "min",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tmetadata" : { },
+                "tname" : "atmospheric-pressure-reduced",
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale ",
+                "tmetadata" : { },
+                "tname" : "global-radiation",
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "tmetadata" : { },
+                "tname" : "precipitation",
+                "ttype" : "total",
+                "tunit" : "mm"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento",
+                "tmetadata" : { },
+                "tname" : "sunshine-duration",
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento",
+                "tmetadata" : { },
+                "tname" : "wind-direction",
+                "tunit" : "° "
+              },
+              "wind-gust-speed" : {
+                "tdescription" : "Velocitá raffica",
+                "tmetadata" : { },
+                "tname" : "wind-gust-speed",
+                "tunit" : "m/s"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "St. Martin in Thurn",
+              "name_en" : "S. Martin de Tor",
+              "name_it" : "S. Martino in Badia"
+            },
+            "sname" : "S. Martino in Badia",
+            "sorigin" : "SIAG",
+            "stype" : "MeteoStation"
+          },
+          "69790PG" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "69790PG",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.6572,
+              "y" : 46.70738
+            },
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tdescription" : "Portata",
+                "tmetadata" : { },
+                "tname" : "flow-rate",
+                "tunit" : "m³/s"
+              },
+              "water-level" : {
+                "tdescription" : "Livello idrometrico",
+                "tmetadata" : { },
+                "tname" : "water-level",
+                "tunit" : "cm"
+              },
+              "water-temperature" : {
+                "tdescription" : "Temperatura acqua",
+                "tmetadata" : { },
+                "tname" : "water-temperature",
+                "tunit" : "°C"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "EISACK BEI BRIXEN",
+              "name_en" : "EISACK BEI BRIXEN",
+              "name_it" : "ISARCO A BRESSANONE"
+            },
+            "sname" : "ISARCO A BRESSANONE",
+            "sorigin" : "SIAG",
+            "stype" : "MeteoStation"
+          },
+          "83200MS" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "83200MS",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.3128,
+              "y" : 46.4977
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmetadata" : { },
+                "tname" : "air-humidity",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmetadata" : { },
+                "tname" : "air-temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "air-temperature-max" : {
+                "tdescription" : "Maximum temperature",
+                "tmetadata" : { },
+                "tname" : "air-temperature-max",
+                "ttype" : "max",
+                "tunit" : "°C"
+              },
+              "air-temperature-min" : {
+                "tdescription" : "Minimum temperature",
+                "tmetadata" : { },
+                "tname" : "air-temperature-min",
+                "ttype" : "min",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tname" : "atmospheric-pressure",
+                "ttype" : "Mittelwerte",
+                "tunit" : "hPa"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tmetadata" : { },
+                "tname" : "atmospheric-pressure-reduced",
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale ",
+                "tmetadata" : { },
+                "tname" : "global-radiation",
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "tmetadata" : { },
+                "tname" : "precipitation",
+                "ttype" : "total",
+                "tunit" : "mm"
+              },
+              "rainfall-duration" : {
+                "tname" : "rainfall-duration",
+                "ttype" : "Sum",
+                "tunit" : "s"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento",
+                "tmetadata" : { },
+                "tname" : "sunshine-duration",
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento",
+                "tmetadata" : { },
+                "tname" : "wind-direction",
+                "tunit" : "° "
+              },
+              "wind-gust-speed" : {
+                "tdescription" : "Velocitá raffica",
+                "tmetadata" : { },
+                "tname" : "wind-gust-speed",
+                "tunit" : "m/s"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmetadata" : { },
+                "tname" : "wind-speed",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "Bozen",
+              "name_en" : "Bolzano",
+              "name_it" : "Bolzano"
+            },
+            "sname" : "Bolzano",
+            "sorigin" : "SIAG",
+            "stype" : "MeteoStation"
+          },
+          "83450PG" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "83450PG",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.30278,
+              "y" : 46.45877
+            },
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tdescription" : "Portata",
+                "tmetadata" : { },
+                "tname" : "flow-rate",
+                "tunit" : "m³/s"
+              },
+              "suspended-solids-in-watercourse" : {
+                "tdescription" : "concentrazione solidi sospesi ",
+                "tmetadata" : { },
+                "tname" : "suspended-solids-in-watercourse",
+                "tunit" : "mg/l"
+              },
+              "water-level" : {
+                "tdescription" : "Livello idrometrico",
+                "tmetadata" : { },
+                "tname" : "water-level",
+                "tunit" : "cm"
+              },
+              "water-temperature" : {
+                "tdescription" : "Temperatura acqua",
+                "tmetadata" : { },
+                "tname" : "water-temperature",
+                "tunit" : "°C"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "EISACK BEI BOZEN SÜD",
+              "name_en" : "EISACK BEI BOZEN SÜD",
+              "name_it" : "ISARCO A BOLZANO SUD"
+            },
+            "sname" : "ISARCO A BOLZANO SUD",
+            "sorigin" : "SIAG",
+            "stype" : "MeteoStation"
+          }
+        }
+      }
+    },
+    "limit" : 200,
+    "offset" : 0
+  }
+}

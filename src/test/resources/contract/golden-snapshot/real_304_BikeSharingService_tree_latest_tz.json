@@ -1,0 +1,14 @@
+{
+  "request" : "GET /tree/BikeSharingService/*/latest?limit=100&timezone=Europe/Rome [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "77fcb1b48b181d53958a3e2261e2bf95c6f30155a23d7b0a314450b8978f622a",
+  "bodyRecords" : 113676
+}

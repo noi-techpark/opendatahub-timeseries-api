@@ -1,0 +1,46 @@
+{
+  "request" : "GET /tree/ParkingStation/parking-forecast-150/2026-09-24T08:05:00Z/2026-09-24T14:06:00Z?limit=2000&where=scode.eq.%22104%22&select=sname,tname,mvalue,mvalidtime [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "104" : {
+            "sdatatypes" : {
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 08:35:00.000+0000",
+                  "mvalue" : 126
+                }, {
+                  "mvalidtime" : "2026-09-24 09:35:00.000+0000",
+                  "mvalue" : 124.3
+                }, {
+                  "mvalidtime" : "2026-09-24 10:35:00.000+0000",
+                  "mvalue" : 120
+                }, {
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000",
+                  "mvalue" : 115.7
+                }, {
+                  "mvalidtime" : "2026-09-24 12:35:00.000+0000",
+                  "mvalue" : 115.2
+                } ],
+                "tname" : "parking-forecast-150"
+              }
+            },
+            "sname" : "P04 - Luna via Molini"
+          }
+        }
+      }
+    },
+    "limit" : 2000,
+    "offset" : 0
+  }
+}

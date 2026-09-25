@@ -1,0 +1,92 @@
+{
+  "request" : "GET /flat/*/*?limit=-1&select=tdescription,tmetadata&where=scode.re.%22%5E%5BA-M%5D%22&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "tdescription" : "Count matches within 15minutes",
+      "tmetadata" : null
+    }, {
+      "tdescription" : null,
+      "tmetadata" : null
+    }, {
+      "tdescription" : null,
+      "tmetadata" : { }
+    }, {
+      "tdescription" : "total-bays",
+      "tmetadata" : { }
+    }, {
+      "tdescription" : "Medie orarie",
+      "tmetadata" : { }
+    }, {
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "tmetadata" : null
+    }, {
+      "tdescription" : "Anidride carbonica",
+      "tmetadata" : null
+    }, {
+      "tdescription" : "Monossido di carbonio",
+      "tmetadata" : null
+    }, {
+      "tdescription" : "European Air Quality Index - NO2",
+      "tmetadata" : null
+    }, {
+      "tdescription" : "Velocita media dei veicoli",
+      "tmetadata" : null
+    }, {
+      "tdescription" : "Fuel Consumption",
+      "tmetadata" : null
+    }, {
+      "tdescription" : "Polveri Totali Sospese",
+      "tmetadata" : null
+    }, {
+      "tdescription" : "average speed of vehicles faster than 100 km/h",
+      "tmetadata" : null
+    }, {
+      "tdescription" : "Ossidi di Zolfo",
+      "tmetadata" : null
+    }, {
+      "tdescription" : "availability",
+      "tmetadata" : { }
+    }, {
+      "tdescription" : "number of available vehicles / charging points",
+      "tmetadata" : { }
+    }, {
+      "tdescription" : "Metano",
+      "tmetadata" : null
+    }, {
+      "tdescription" : "polveri sottili",
+      "tmetadata" : null
+    }, {
+      "tdescription" : "Ammoniaca",
+      "tmetadata" : null
+    }, {
+      "tdescription" : "the state can either be 0, which means that the plug is currently not available, or it can be 1 which means it is",
+      "tmetadata" : { }
+    }, {
+      "tdescription" : "Ossidi di azoto",
+      "tmetadata" : null
+    }, {
+      "tdescription" : "free-bays",
+      "tmetadata" : { }
+    }, {
+      "tdescription" : "Match",
+      "tmetadata" : null
+    }, {
+      "tdescription" : "Composti Organici Volatili",
+      "tmetadata" : null
+    }, {
+      "tdescription" : "Mode for vehicles fast than 100 km/h",
+      "tmetadata" : null
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

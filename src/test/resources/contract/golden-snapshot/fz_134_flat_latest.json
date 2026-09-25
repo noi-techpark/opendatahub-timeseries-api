@@ -1,0 +1,14 @@
+{
+  "request" : "GET /flat/*/*/latest?limit=-1&select=smetadata.nothere,prlineage,mperiod,mvalue,savailable&where=mvalue.gt.10&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "fcd416173142b3604c9c47524f4f999d21eb95f8af6e2b6f7d803dab73cdbc70",
+  "bodyRecords" : 557
+}

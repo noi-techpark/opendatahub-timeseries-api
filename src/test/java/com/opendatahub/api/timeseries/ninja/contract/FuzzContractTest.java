@@ -11,15 +11,13 @@ import java.util.Map;
 import java.util.Random;
 
 /**
- * Many generated combinations of routes, SELECT lists, WHERE clauses and null handling. The cases
+ * On the public real data snapshot: many generated combinations of routes, SELECT lists, WHERE clauses and null handling. The cases
  * (and therefore the golden files) are the same for every run: the random generator is seeded.
  */
 class FuzzContractTest extends AbstractContractTest {
 
-	private static final String ADMIN = "roles:BDP_ADMIN";
-
 	private static final List<String> STATION = List.of("sname", "stype", "scode", "sorigin", "sactive", "savailable",
-			"scoordinate", "smetadata", "smetadata.city", "smetadata.capacity", "smetadata.address.street",
+			"scoordinate", "smetadata", "smetadata.capacity", "smetadata.municipality", "smetadata.name_en",
 			"smetadata.nothere", "pname", "ptype", "pcode", "porigin", "pactive", "pavailable", "pcoordinate", "pmetadata",
 			"pmetadata.voltage");
 	private static final List<String> TYPE = List.of("tname", "tunit", "ttype", "tdescription", "tmetadata", "tmetadata.scale");
@@ -30,13 +28,18 @@ class FuzzContractTest extends AbstractContractTest {
 			"edirected", "egeometry", "sbname", "sbtype", "sbcode", "sborigin", "sbactive", "sbavailable", "sbcoordinate",
 			"sename", "setype", "secode", "seorigin", "seactive", "seavailable", "secoordinate");
 	private static final List<String> EVENT = List.of("evcategory", "evseriesuuid", "evtransactiontime", "evdescription",
-			"evstart", "evend", "evorigin", "evuuid", "evname", "evmetadata", "evmetadata.city", "evldescription",
+			"evstart", "evend", "evorigin", "evuuid", "evname", "evmetadata", "evmetadata.name", "evldescription",
 			"evlgeometry", "prname", "prversion", "prlineage");
 
-	private static final List<String> STATION_WHERE = List.of("", "sorigin.eq.FAMAS", "sactive.eq.true", "scode.re.%22%5EP%22",
-			"smetadata.capacity.gt.50", "or(sorigin.eq.FAMAS,sorigin.eq.NOI)", "sorigin.neq.PRIVATE");
-	private static final List<String> MEASUREMENT_WHERE = List.of("", "mvalue.gt.10", "mvalue.lt.30,tname.eq.occupied",
-			"tname.in.(occupied,free)", "mvalue.eq.%22open%22");
+	private static final List<String> STATION_WHERE = List.of("", "sorigin.eq.NOI", "sactive.eq.true", "scode.re.%22%5E%5BA-M%5D%22",
+			"smetadata.capacity.gt.10", "or(sorigin.eq.NOI,sorigin.eq.SIAG)", "sorigin.neq.NOI", "sname.ire.park");
+	private static final List<String> MEASUREMENT_WHERE = List.of("", "mvalue.gt.10", "mvalue.lt.100,mvalue.gt.0",
+			"tname.in.(air-temperature,wind-speed)", "mvalue.eq.%22open%22", "mvalue.eq.null");
+
+	@Override
+	protected ContractEnv.Dataset dataset() {
+		return ContractEnv.Dataset.SNAPSHOT;
+	}
 
 	@Override
 	protected Map<String, String> settings() {
@@ -71,8 +74,8 @@ class FuzzContractTest extends AbstractContractTest {
 				family("tree_metadata", "/tree/*/metadata/2023-01-01/2024-01-01", List.of("", "mhmetadata.v.gt.1"), 20, STATION, METADATA_HISTORY),
 				family("flat_edges", "/flat,edge/*", List.of("", "eactive.eq.true"), 10, EDGE),
 				family("tree_edges", "/tree,edge/*", List.of("", "eactive.eq.true"), 20, EDGE),
-				family("flat_events", "/flat,event/*", List.of("", "evcategory.eq.accident"), 10, EVENT),
-				family("tree_events", "/tree,event/*", List.of("", "evcategory.eq.accident"), 25, EVENT),
+				family("flat_events", "/flat,event/*", List.of("", "evcategory.re.%22.%22"), 10, EVENT),
+				family("tree_events", "/tree,event/*", List.of("", "evcategory.re.%22.%22"), 25, EVENT),
 				family("tree_events_latest", "/tree,event/*/latest", List.of(""), 10, EVENT));
 
 		List<Case> cases = new ArrayList<>();
@@ -103,7 +106,7 @@ class FuzzContractTest extends AbstractContractTest {
 				if (rnd.nextInt(6) == 0) {
 					q.append("&distinct=false");
 				}
-				Case c = Case.get(String.format("fz_%03d_%s", ++n, f.name()), f.path() + q).as(rnd.nextInt(5) == 0 ? "none" : ADMIN);
+				Case c = Case.get(String.format("fz_%03d_%s", ++n, f.name()), f.path() + q).as("none");
 				cases.add(c);
 			}
 		}

@@ -1,0 +1,484 @@
+{
+  "request" : "GET /tree/BikeSharingService/number-available/2026-09-24T08:05:00Z/2026-09-24T14:06:00Z?limit=2000&where=scode.eq.%22sharedmobility-ch%3Apr%3Acarvelo2go%22 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "BikeSharingService" : {
+        "stations" : {
+          "sharedmobility-ch:pr:carvelo2go" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "sharedmobility-ch:pr:carvelo2go",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 8.2275,
+              "y" : 46.8182
+            },
+            "sdatatypes" : {
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 08:05:09.059+0000",
+                  "mvalidtime" : "2026-09-24 08:05:03.000+0000",
+                  "mvalue" : 526
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 08:10:12.285+0000",
+                  "mvalidtime" : "2026-09-24 08:10:04.000+0000",
+                  "mvalue" : 526
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 08:15:13.075+0000",
+                  "mvalidtime" : "2026-09-24 08:15:05.000+0000",
+                  "mvalue" : 526
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 08:20:14.183+0000",
+                  "mvalidtime" : "2026-09-24 08:20:04.000+0000",
+                  "mvalue" : 526
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 08:25:10.889+0000",
+                  "mvalidtime" : "2026-09-24 08:25:03.000+0000",
+                  "mvalue" : 526
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 08:30:12.030+0000",
+                  "mvalidtime" : "2026-09-24 08:30:03.000+0000",
+                  "mvalue" : 526
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 08:35:10.284+0000",
+                  "mvalidtime" : "2026-09-24 08:35:03.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 08:40:13.293+0000",
+                  "mvalidtime" : "2026-09-24 08:40:04.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 08:45:11.607+0000",
+                  "mvalidtime" : "2026-09-24 08:45:04.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 08:50:11.900+0000",
+                  "mvalidtime" : "2026-09-24 08:50:04.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 08:55:08.936+0000",
+                  "mvalidtime" : "2026-09-24 08:55:02.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 09:00:12.279+0000",
+                  "mvalidtime" : "2026-09-24 09:00:05.000+0000",
+                  "mvalue" : 529
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 09:05:10.590+0000",
+                  "mvalidtime" : "2026-09-24 09:05:03.000+0000",
+                  "mvalue" : 534
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 09:10:11.612+0000",
+                  "mvalidtime" : "2026-09-24 09:10:03.000+0000",
+                  "mvalue" : 533
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 09:15:08.960+0000",
+                  "mvalidtime" : "2026-09-24 09:15:03.000+0000",
+                  "mvalue" : 533
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 09:20:11.546+0000",
+                  "mvalidtime" : "2026-09-24 09:20:03.000+0000",
+                  "mvalue" : 533
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 09:25:09.976+0000",
+                  "mvalidtime" : "2026-09-24 09:25:03.000+0000",
+                  "mvalue" : 533
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 09:30:12.659+0000",
+                  "mvalidtime" : "2026-09-24 09:30:04.000+0000",
+                  "mvalue" : 532
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 09:35:09.536+0000",
+                  "mvalidtime" : "2026-09-24 09:35:03.000+0000",
+                  "mvalue" : 528
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 09:40:12.837+0000",
+                  "mvalidtime" : "2026-09-24 09:40:05.000+0000",
+                  "mvalue" : 528
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 09:45:09.716+0000",
+                  "mvalidtime" : "2026-09-24 09:45:03.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 09:50:12.757+0000",
+                  "mvalidtime" : "2026-09-24 09:50:05.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 09:55:09.023+0000",
+                  "mvalidtime" : "2026-09-24 09:55:03.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:00:12.510+0000",
+                  "mvalidtime" : "2026-09-24 10:00:04.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:05:10.335+0000",
+                  "mvalidtime" : "2026-09-24 10:05:03.000+0000",
+                  "mvalue" : 505
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:10:12.701+0000",
+                  "mvalidtime" : "2026-09-24 10:10:04.000+0000",
+                  "mvalue" : 504
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:15:10.711+0000",
+                  "mvalidtime" : "2026-09-24 10:15:03.000+0000",
+                  "mvalue" : 504
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:20:11.532+0000",
+                  "mvalidtime" : "2026-09-24 10:20:04.000+0000",
+                  "mvalue" : 503
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:25:09.288+0000",
+                  "mvalidtime" : "2026-09-24 10:25:03.000+0000",
+                  "mvalue" : 503
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:30:12.405+0000",
+                  "mvalidtime" : "2026-09-24 10:30:04.000+0000",
+                  "mvalue" : 503
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:35:09.335+0000",
+                  "mvalidtime" : "2026-09-24 10:35:03.000+0000",
+                  "mvalue" : 504
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:40:12.972+0000",
+                  "mvalidtime" : "2026-09-24 10:40:05.000+0000",
+                  "mvalue" : 504
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:45:10.301+0000",
+                  "mvalidtime" : "2026-09-24 10:45:03.000+0000",
+                  "mvalue" : 504
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:50:12.545+0000",
+                  "mvalidtime" : "2026-09-24 10:50:03.000+0000",
+                  "mvalue" : 504
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:55:11.909+0000",
+                  "mvalidtime" : "2026-09-24 10:55:04.000+0000",
+                  "mvalue" : 503
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:00:11.521+0000",
+                  "mvalidtime" : "2026-09-24 11:00:04.000+0000",
+                  "mvalue" : 503
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:05:08.673+0000",
+                  "mvalidtime" : "2026-09-24 11:05:03.000+0000",
+                  "mvalue" : 508
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:10:13.238+0000",
+                  "mvalidtime" : "2026-09-24 11:10:05.000+0000",
+                  "mvalue" : 506
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:15:10.286+0000",
+                  "mvalidtime" : "2026-09-24 11:15:04.000+0000",
+                  "mvalue" : 506
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:20:12.093+0000",
+                  "mvalidtime" : "2026-09-24 11:20:04.000+0000",
+                  "mvalue" : 507
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:25:12.382+0000",
+                  "mvalidtime" : "2026-09-24 11:25:03.000+0000",
+                  "mvalue" : 507
+                }, {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "sharedmobility-ch",
+                    "prname" : "tr-sharedmobility-ch",
+                    "prversion" : "5de7271a1bd9236f35c10f3b8adae7ce20a5bde3"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:30:12.858+0000",
+                  "mvalidtime" : "2026-09-24 11:30:05.000+0000",
+                  "mvalue" : 507
+                } ],
+                "tmetadata" : { },
+                "tname" : "number-available",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "system_pricing_plans" : [ {
+                "currency" : "CHF",
+                "description" : "5 unlock fee, 5.00 per day time hour (from 8 till 22), 0.00 per night time hour (from 22 till 8)",
+                "is_taxable" : false,
+                "name" : "Smargo Daytime Rate",
+                "plan_id" : "carvelo2go:b23fccfc-22f8-49d6-a681-a735cad6f046",
+                "price" : 5,
+                "provider_id" : "carvelo2go"
+              }, {
+                "currency" : "CHF",
+                "description" : "5 unlock fee, 3.50 per day time hour (from 8 till 22), 0.00 per night time hour (from 22 till 8)",
+                "is_taxable" : false,
+                "name" : "Simple Daytime Rate",
+                "plan_id" : "carvelo2go:efee4075-81aa-4707-de2e-e0b087e66c49",
+                "price" : 5,
+                "provider_id" : "carvelo2go"
+              } ]
+            },
+            "sname" : "carvelo eCargo-Bike Sharing",
+            "sorigin" : "sharedmobility-ch",
+            "stype" : "BikeSharingService"
+          }
+        }
+      }
+    },
+    "limit" : 2000,
+    "offset" : 0
+  }
+}

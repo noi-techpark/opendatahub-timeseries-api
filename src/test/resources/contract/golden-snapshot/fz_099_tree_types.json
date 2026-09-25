@@ -1,0 +1,2882 @@
+{
+  "request" : "GET /tree/*/*?limit=-1&select=smetadata.nothere,tdescription,pmetadata&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "Bicycle" : {
+        "stations" : {
+          "bike118" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "mountain-bike-child" : {
+                "tdescription" : null
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "bikes" : {
+                  "city-bike-adult-with-gears" : 23,
+                  "city-bike-adult-without-gears" : 13,
+                  "mountain-bike-adult" : 5,
+                  "mountain-bike-child" : 7,
+                  "mountain-bike-teenager" : 3,
+                  "number-available" : 49
+                },
+                "municipality" : "Meran - Merano"
+              }
+            }
+          },
+          "bike119" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "mountain-bike-child" : {
+                "tdescription" : null
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "bikes" : {
+                  "city-bike-adult-with-gears" : 23,
+                  "city-bike-adult-without-gears" : 13,
+                  "mountain-bike-adult" : 5,
+                  "mountain-bike-child" : 7,
+                  "mountain-bike-teenager" : 3,
+                  "number-available" : 49
+                },
+                "municipality" : "Meran - Merano"
+              }
+            }
+          },
+          "bike136" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "city-bike-adult-with-gears" : {
+                "tdescription" : null
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "bikes" : {
+                  "city-bike-adult-with-gears" : 23,
+                  "city-bike-adult-without-gears" : 13,
+                  "mountain-bike-adult" : 5,
+                  "mountain-bike-child" : 7,
+                  "mountain-bike-teenager" : 3,
+                  "number-available" : 49
+                },
+                "municipality" : "Meran - Merano"
+              }
+            }
+          },
+          "bike139" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "city-bike-adult-with-gears" : {
+                "tdescription" : null
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "bikes" : {
+                  "city-bike-adult-with-gears" : 9,
+                  "city-bike-adult-without-gears" : 5,
+                  "mountain-bike-adult" : 4,
+                  "mountain-bike-child" : 8,
+                  "mountain-bike-teenager" : 3,
+                  "number-available" : 28
+                },
+                "municipality" : "Meran - Merano"
+              }
+            }
+          },
+          "bike51" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "mountain-bike-adult" : {
+                "tdescription" : null
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "bikes" : {
+                  "city-bike-adult-with-gears" : 23,
+                  "city-bike-adult-without-gears" : 13,
+                  "mountain-bike-adult" : 5,
+                  "mountain-bike-child" : 7,
+                  "mountain-bike-teenager" : 3,
+                  "number-available" : 49
+                },
+                "municipality" : "Meran - Merano"
+              }
+            }
+          },
+          "bike53" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "mountain-bike-adult" : {
+                "tdescription" : null
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "bikes" : {
+                  "city-bike-adult-with-gears" : 9,
+                  "city-bike-adult-without-gears" : 5,
+                  "mountain-bike-adult" : 4,
+                  "mountain-bike-child" : 8,
+                  "mountain-bike-teenager" : 3,
+                  "number-available" : 28
+                },
+                "municipality" : "Meran - Merano"
+              }
+            }
+          },
+          "bike55" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "city-bike-adult-without-gears" : {
+                "tdescription" : null
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "bikes" : {
+                  "city-bike-adult-with-gears" : 23,
+                  "city-bike-adult-without-gears" : 13,
+                  "mountain-bike-adult" : 5,
+                  "mountain-bike-child" : 7,
+                  "mountain-bike-teenager" : 3,
+                  "number-available" : 49
+                },
+                "municipality" : "Meran - Merano"
+              }
+            }
+          },
+          "bike74" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "city-bike-adult-with-gears" : {
+                "tdescription" : null
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "bikes" : {
+                  "city-bike-adult-with-gears" : 23,
+                  "city-bike-adult-without-gears" : 13,
+                  "mountain-bike-adult" : 5,
+                  "mountain-bike-child" : 7,
+                  "mountain-bike-teenager" : 3,
+                  "number-available" : 49
+                },
+                "municipality" : "Meran - Merano"
+              }
+            }
+          }
+        }
+      },
+      "Bicyclestationbay" : {
+        "stations" : {
+          "Viale della Stazione - Bahnhofsallee:1" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "usage-state" : {
+                "tdescription" : "usage-state"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "address" : "Viale Stazione, 5",
+                "total-bays" : 12
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:2" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "usage-state" : {
+                "tdescription" : "usage-state"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "address" : "Viale Stazione, 5",
+                "total-bays" : 12
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:3" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "usage-state" : {
+                "tdescription" : "usage-state"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "address" : "Viale Stazione, 5",
+                "total-bays" : 12
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:4" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "usage-state" : {
+                "tdescription" : "usage-state"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "address" : "Viale Stazione, 5",
+                "total-bays" : 12
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:5" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "usage-state" : {
+                "tdescription" : "usage-state"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "address" : "Viale Stazione, 5",
+                "total-bays" : 12
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:6" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "usage-state" : {
+                "tdescription" : "usage-state"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "address" : "Viale Stazione, 5",
+                "total-bays" : 12
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:7" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "usage-state" : {
+                "tdescription" : "usage-state"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "address" : "Viale Stazione, 5",
+                "total-bays" : 12
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:8" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "usage-state" : {
+                "tdescription" : "usage-state"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "address" : "Viale Stazione, 5",
+                "total-bays" : 12
+              }
+            }
+          }
+        }
+      },
+      "BikeSharingService" : {
+        "stations" : {
+          "sharedmobility-ch:pr:carvelo2go" : {
+            "sdatatypes" : {
+              "free-bike-status" : {
+                "tdescription" : "free floating bike statuses as JSON"
+              },
+              "num-docks-available" : {
+                "tdescription" : "number of available docks"
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          }
+        }
+      },
+      "BikesharingStation" : {
+        "stations" : {
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "free-bays" : {
+                "tdescription" : "free-bays"
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3008cf824e352d9854585d3731568fe6e0a042d2" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "free-bays" : {
+                "tdescription" : "free-bays"
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3242fbb9d66046deac446c8b89768cd1b6fc9c9f" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "free-bays" : {
+                "tdescription" : "free-bays"
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--845248b808d1bf6c6115e471e41ccdca99f09743" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "free-bays" : {
+                "tdescription" : "free-bays"
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1b380c7315ed00d73a49269e2feab2e5b0452a00" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "free-bays" : {
+                "tdescription" : "free-bays"
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c4e26e1fd97da55bd1a1fe7ccf67f1b70c69453a" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "free-bays" : {
+                "tdescription" : "free-bays"
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "bikestation1" : {
+            "sdatatypes" : {
+              "city-bike-adult-with-gears" : {
+                "tdescription" : null
+              },
+              "city-bike-adult-without-gears" : {
+                "tdescription" : null
+              },
+              "mountain-bike-adult" : {
+                "tdescription" : null
+              },
+              "mountain-bike-child" : {
+                "tdescription" : null
+              },
+              "mountain-bike-teenager" : {
+                "tdescription" : null
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "bikestation2" : {
+            "sdatatypes" : {
+              "city-bike-adult-with-gears" : {
+                "tdescription" : null
+              },
+              "city-bike-adult-without-gears" : {
+                "tdescription" : null
+              },
+              "mountain-bike-adult" : {
+                "tdescription" : null
+              },
+              "mountain-bike-child" : {
+                "tdescription" : null
+              },
+              "mountain-bike-teenager" : {
+                "tdescription" : null
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          }
+        }
+      },
+      "EChargingPlug" : {
+        "stations" : {
+          "AER_00000001-1" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tdescription" : "the state can either be 0, which means that the plug is currently not available, or it can be 1 which means it is"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Piazza Fiera - Messeplatz",
+                "capacity" : 2,
+                "city" : "BOLZANO - BOZEN",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "TEMPORARYUNAVAILABLE"
+              }
+            }
+          },
+          "AER_00000001-2" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tdescription" : "the state can either be 0, which means that the plug is currently not available, or it can be 1 which means it is"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Piazza Fiera - Messeplatz",
+                "capacity" : 2,
+                "city" : "BOLZANO - BOZEN",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "TEMPORARYUNAVAILABLE"
+              }
+            }
+          },
+          "AER_00000006-2" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tdescription" : "the state can either be 0, which means that the plug is currently not available, or it can be 1 which means it is"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Piazza Matteotti Platz",
+                "capacity" : 2,
+                "city" : "BOLZANO - BOZEN",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "TEMPORARYUNAVAILABLE"
+              }
+            }
+          },
+          "AER_00000039-1" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tdescription" : "the state can either be 0, which means that the plug is currently not available, or it can be 1 which means it is"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Pracupola - Kuppelwies",
+                "capacity" : 2,
+                "city" : "ULTIMO - ULTEN",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "ACTIVE"
+              }
+            }
+          },
+          "AER_00000039-2" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tdescription" : "the state can either be 0, which means that the plug is currently not available, or it can be 1 which means it is"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Pracupola - Kuppelwies",
+                "capacity" : 2,
+                "city" : "ULTIMO - ULTEN",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "ACTIVE"
+              }
+            }
+          },
+          "AER_00000041-1" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tdescription" : "the state can either be 0, which means that the plug is currently not available, or it can be 1 which means it is"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Via Madonna - Marienstraße",
+                "capacity" : 2,
+                "city" : "EGNA - NEUMARKT",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "TEMPORARYUNAVAILABLE"
+              }
+            }
+          },
+          "AER_00000041-2" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tdescription" : "the state can either be 0, which means that the plug is currently not available, or it can be 1 which means it is"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "accessType" : "PUBLIC",
+                "address" : "Via Madonna - Marienstraße",
+                "capacity" : 2,
+                "city" : "EGNA - NEUMARKT",
+                "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+                "provider" : "Neogy",
+                "state" : "TEMPORARYUNAVAILABLE"
+              }
+            }
+          },
+          "AER_00000042-1" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tdescription" : "the state can either be 0, which means that the plug is currently not available, or it can be 1 which means it is"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "accessInfo" : null,
+                "accessType" : "PUBLIC",
+                "address" : "Ponte Resia - Reschenbrücke",
+                "capacity" : 1,
+                "categories" : null,
+                "city" : "BOLZANO - BOZEN",
+                "flashInfo" : null,
+                "locationServiceInfo" : null,
+                "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+                "provider" : "Alperia Smart Mobility",
+                "reservable" : null,
+                "state" : "TEMPORARYUNAVAILABLE"
+              }
+            }
+          }
+        }
+      },
+      "EChargingStation" : {
+        "stations" : {
+          "AER_00000001" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "AER_00000005" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "AER_00000006" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "AER_00000007" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "AER_00000008" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "AER_00000039" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "AER_00000041" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "AER_00000042" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          }
+        }
+      },
+      "EnvironmentStation" : {
+        "stations" : {
+          "AB2" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tdescription" : null
+              },
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tdescription" : null
+              },
+              "O3 - Ozono" : {
+                "tdescription" : null
+              },
+              "PM10 - Polveri sottili" : {
+                "tdescription" : null
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tdescription" : null
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tdescription" : null
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tdescription" : null
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "AB3" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tdescription" : null
+              },
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tdescription" : null
+              },
+              "O3 - Ozono" : {
+                "tdescription" : null
+              },
+              "PM10 - Polveri sottili" : {
+                "tdescription" : null
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tdescription" : null
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tdescription" : null
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tdescription" : null
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "BX1" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tdescription" : null
+              },
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tdescription" : null
+              },
+              "O3 - Ozono" : {
+                "tdescription" : null
+              },
+              "PM10 - Polveri sottili" : {
+                "tdescription" : null
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tdescription" : null
+              },
+              "Radioattività" : {
+                "tdescription" : null
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "BZ4" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tdescription" : null
+              },
+              "PM10 - Polveri sottili" : {
+                "tdescription" : null
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tdescription" : null
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tdescription" : null
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tdescription" : null
+              },
+              "nitrogen-dioxide" : {
+                "tdescription" : "Medie orarie"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "BZ5" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tdescription" : null
+              },
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tdescription" : null
+              },
+              "PM10 - Polveri sottili" : {
+                "tdescription" : null
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tdescription" : null
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tdescription" : null
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tdescription" : null
+              },
+              "nitrogen-dioxide" : {
+                "tdescription" : "Medie orarie"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "BZ6" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tdescription" : null
+              },
+              "O3 - Ozono" : {
+                "tdescription" : null
+              },
+              "Radioattività" : {
+                "tdescription" : null
+              },
+              "SO2 - Biossido di zolfo" : {
+                "tdescription" : null
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "CR1" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tdescription" : null
+              },
+              "O3 - Ozono" : {
+                "tdescription" : null
+              },
+              "PM10 - Polveri sottili" : {
+                "tdescription" : null
+              },
+              "Radioattività" : {
+                "tdescription" : null
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "LS1" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tdescription" : null
+              },
+              "O3 - Ozono" : {
+                "tdescription" : null
+              },
+              "PM10 - Polveri sottili" : {
+                "tdescription" : null
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tdescription" : null
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tdescription" : null
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tdescription" : null
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          }
+        }
+      },
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tdescription" : null
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tdescription" : "Mode for vehicles fast than 100 km/h"
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match"
+              },
+              "speed greater than 100 km/h" : {
+                "tdescription" : "average speed of vehicles faster than 100 km/h"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "A22_ML107->A22_ML103" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tdescription" : null
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tdescription" : "Mode for vehicles fast than 100 km/h"
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match"
+              },
+              "speed greater than 100 km/h" : {
+                "tdescription" : "average speed of vehicles faster than 100 km/h"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "Agip_Einstein->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tdescription" : null
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tdescription" : "Mode for vehicles fast than 100 km/h"
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match"
+              },
+              "speed greater than 100 km/h" : {
+                "tdescription" : "average speed of vehicles faster than 100 km/h"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "Maso_Pieve->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tdescription" : null
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "druso-poste->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tdescription" : null
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "meinstein->Agip_Einstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tdescription" : null
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "proma->druso-poste" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tdescription" : null
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "siemens->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tdescription" : null
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          }
+        }
+      },
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "37100MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale "
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento"
+              },
+              "wind-gust-speed" : {
+                "tdescription" : "Velocitá raffica"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "47400MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature"
+              },
+              "air-temperature-max" : {
+                "tdescription" : "Maximum temperature"
+              },
+              "air-temperature-min" : {
+                "tdescription" : "Minimum temperature"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale "
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento"
+              },
+              "wind-gust-speed" : {
+                "tdescription" : "Velocitá raffica"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "59450PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tdescription" : "Portata"
+              },
+              "suspended-solids-in-watercourse" : {
+                "tdescription" : "concentrazione solidi sospesi "
+              },
+              "water-level" : {
+                "tdescription" : "Livello idrometrico"
+              },
+              "water-temperature" : {
+                "tdescription" : "Temperatura acqua"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "62600MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature"
+              },
+              "air-temperature-max" : {
+                "tdescription" : "Maximum temperature"
+              },
+              "air-temperature-min" : {
+                "tdescription" : "Minimum temperature"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale "
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento"
+              },
+              "wind-gust-speed" : {
+                "tdescription" : "Velocitá raffica"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "69790PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tdescription" : "Portata"
+              },
+              "water-level" : {
+                "tdescription" : "Livello idrometrico"
+              },
+              "water-temperature" : {
+                "tdescription" : "Temperatura acqua"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "83200MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature"
+              },
+              "air-temperature-max" : {
+                "tdescription" : "Maximum temperature"
+              },
+              "air-temperature-min" : {
+                "tdescription" : "Minimum temperature"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale "
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation"
+              },
+              "rainfall-duration" : {
+                "tdescription" : null
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento"
+              },
+              "wind-gust-speed" : {
+                "tdescription" : "Velocitá raffica"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "83450PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tdescription" : "Portata"
+              },
+              "suspended-solids-in-watercourse" : {
+                "tdescription" : "concentrazione solidi sospesi "
+              },
+              "water-level" : {
+                "tdescription" : "Livello idrometrico"
+              },
+              "water-temperature" : {
+                "tdescription" : "Temperatura acqua"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          }
+        }
+      },
+      "ParkingFacility" : {
+        "stations" : {
+          "105_facility" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free"
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots"
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots"
+              },
+              "occupied" : {
+                "tdescription" : "occupied"
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots"
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "607440" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free"
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots"
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots"
+              },
+              "occupied" : {
+                "tdescription" : "occupied"
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots"
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "608612" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free"
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots"
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots"
+              },
+              "occupied" : {
+                "tdescription" : "occupied"
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots"
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "609883" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free"
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots"
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots"
+              },
+              "occupied" : {
+                "tdescription" : "occupied"
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots"
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "102" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "occupied"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "103" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free"
+              },
+              "occupied" : {
+                "tdescription" : "occupied"
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast"
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast"
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast"
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast"
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast"
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast"
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast"
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast"
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast"
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast"
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast"
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast"
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast"
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast"
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast"
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast"
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast"
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast"
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast"
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast"
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast"
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast"
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast"
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast"
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts"
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts"
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts"
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts"
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts"
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts"
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts"
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "104" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free"
+              },
+              "occupied" : {
+                "tdescription" : "occupied"
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast"
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast"
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast"
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast"
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast"
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast"
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast"
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast"
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast"
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast"
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast"
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast"
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast"
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast"
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast"
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast"
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast"
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast"
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast"
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast"
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast"
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast"
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast"
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast"
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts"
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts"
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts"
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts"
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts"
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts"
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts"
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "105" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free"
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots"
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots"
+              },
+              "occupied" : {
+                "tdescription" : "occupied"
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots"
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots"
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast"
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast"
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast"
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast"
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast"
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast"
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast"
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast"
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast"
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast"
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast"
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast"
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast"
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast"
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast"
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast"
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast"
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast"
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast"
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast"
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast"
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast"
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast"
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast"
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts"
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts"
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts"
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts"
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts"
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts"
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts"
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "capacity" : 90,
+                "capacity_short_stay" : 90,
+                "capacity_subscribers" : 90,
+                "municipality" : "Bolzano - Bozen",
+                "name_de" : "Laurin",
+                "name_en" : "Laurin",
+                "name_it" : "Laurin",
+                "netex_parking" : {
+                  "charging" : true,
+                  "hazard_prohibited" : true,
+                  "layout" : "openSpace",
+                  "reservation" : "noReservations",
+                  "surveillance" : true,
+                  "type" : "urbanParking",
+                  "vehicletypes" : "allPassengerVehicles"
+                },
+                "standard_name" : "Parcheggio Laurin"
+              }
+            }
+          },
+          "107" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free"
+              },
+              "occupied" : {
+                "tdescription" : "occupied"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "112" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free"
+              },
+              "occupied" : {
+                "tdescription" : "occupied"
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast"
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast"
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast"
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast"
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast"
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast"
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast"
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast"
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast"
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast"
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast"
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast"
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast"
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast"
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast"
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast"
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast"
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast"
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast"
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast"
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast"
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast"
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast"
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "113" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free"
+              },
+              "occupied" : {
+                "tdescription" : "occupied"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "115" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free"
+              },
+              "occupied" : {
+                "tdescription" : "occupied"
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast"
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast"
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast"
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast"
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast"
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast"
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast"
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast"
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast"
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast"
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast"
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast"
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast"
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast"
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast"
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast"
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast"
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast"
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast"
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast"
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast"
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast"
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast"
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast"
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts"
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts"
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts"
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts"
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts"
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts"
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts"
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          }
+        }
+      },
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "rwis2" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "rwis3" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "rwis4" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "rwis5" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "rwis6" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "rwis7" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          }
+        }
+      },
+      "Streetstation" : {
+        "stations" : {
+          "CORSO ITALIA / ITALIENALLEE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "PONTE PALERMO / PALERMOBRCKE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "PONTE ROMA / ROMBRCKE 1" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "VIA PALERMO / PALERMOSTRASSE 1" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo"
+              }
+            },
+            "smetadata" : {
+              "nothere" : null
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

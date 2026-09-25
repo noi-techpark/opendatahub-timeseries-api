@@ -1,0 +1,100 @@
+{
+  "request" : "GET /flat/*?limit=-1&select=sorigin,pcoordinate&where=sorigin.neq.NOI [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "sorigin" : "FAMAS"
+    }, {
+      "sorigin" : "SIAG"
+    }, {
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 10.955608,
+        "y" : 46.52789
+      },
+      "sorigin" : "ALPERIA"
+    }, {
+      "sorigin" : "ALGORAB"
+    }, {
+      "sorigin" : "skidata"
+    }, {
+      "sorigin" : "InfoMobility"
+    }, {
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.271506,
+        "y" : 46.314846
+      },
+      "sorigin" : "ALPERIA"
+    }, {
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "sorigin" : "ALGORAB"
+    }, {
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.357255,
+        "y" : 46.498174
+      },
+      "sorigin" : "skidata"
+    }, {
+      "sorigin" : "BIKE_SHARING_BOLZANO"
+    }, {
+      "sorigin" : "ALPERIA"
+    }, {
+      "sorigin" : "sharedmobility-ch"
+    }, {
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.150187,
+        "y" : 46.672476
+      },
+      "sorigin" : "ALGORAB"
+    }, {
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "sorigin" : "BIKE_SHARING_BOLZANO"
+    }, {
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.323925,
+        "y" : 46.481113
+      },
+      "sorigin" : "ALPERIA"
+    }, {
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.337837,
+        "y" : 46.4905
+      },
+      "sorigin" : "ALPERIA"
+    }, {
+      "sorigin" : "A22"
+    }, {
+      "sorigin" : "APPABZ"
+    }, {
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.326185,
+        "y" : 46.473003
+      },
+      "sorigin" : "ALPERIA"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

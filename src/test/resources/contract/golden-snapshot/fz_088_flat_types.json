@@ -1,0 +1,14 @@
+{
+  "request" : "GET /flat/*/*?limit=-1&where=sorigin.neq.NOI&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "1dfc8e199aefae408513b33e36518f0b6e810d208a66f7ed5943f9ff7b16d6cd",
+  "bodyRecords" : 444
+}

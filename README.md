@@ -669,12 +669,21 @@ The server will startup and listen on `http://localhost:8081`.
 mvn test
 ```
 
-Needs Docker. The contract tests (`src/test/java/.../contract`) start the application against a
-PostGIS container and compare HTTP responses to the golden files in
-`src/test/resources/contract/golden`, recorded from the implementation before the streaming
-change (commit `c38994bd`). JSON is compared as data (key order and number notation are
-irrelevant). To re-record on purpose:
-`mvn test -Dcontract.record=true -Dtest='ApiContractTest,LimitedApiContractTest,FuzzContractTest'`
+Needs Docker. The contract tests (`src/test/java/.../contract`) start the application against a PostGIS
+container and compare HTTP responses to expected responses recorded from the implementation before the
+streaming change (commit `c38994bd`). JSON is compared as data: key order and number notation do not
+matter (array order does, except for measurements with equal timestamps).
+
+| Test | Data | Expected responses |
+|---|---|---|
+| `SnapshotContractTest`, `FuzzContractTest` | a small extract of the real, **public** data (`contract/snapshot`, requests without credentials only) | `contract/golden-snapshot` |
+| `ApiContractTest`, `LimitedApiContractTest`, `ClientAbortTest` | invented data (`contract/data.sql`): routing, errors, roles and access rules, quotas, size limit | `contract/golden` |
+
+Responses over 100 KB are stored as a digest. To change the expected behavior on purpose, re-record from a
+reference build and review the diff: `tools/realdata/record-goldens.sh`. The snapshot is rebuilt with
+`tools/realdata/extract.sh` (read-only copy of a slice of the real database) and `tools/realdata/snapshot.sh`
+(only what the guest access rules allow). `tools/realdata/compare.sh` and `tools/bench/run.sh` compare and
+benchmark against the reference on the bigger local copy.
 
 ### Memory: responses are streamed
 

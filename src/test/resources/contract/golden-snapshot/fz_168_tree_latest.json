@@ -1,0 +1,2700 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=savailable,tunit [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "Bicycle" : {
+        "stations" : {
+          "bike118" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "mountain-bike-child" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "bike119" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "mountain-bike-child" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "bike136" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "city-bike-adult-with-gears" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "bike139" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "city-bike-adult-with-gears" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "bike51" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "mountain-bike-adult" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "bike53" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "mountain-bike-adult" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "bike55" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "city-bike-adult-without-gears" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "bike74" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "city-bike-adult-with-gears" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          }
+        }
+      },
+      "Bicyclestationbay" : {
+        "stations" : {
+          "Viale della Stazione - Bahnhofsallee:1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "usage-state" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:2" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "usage-state" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:3" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "usage-state" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:4" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "usage-state" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:5" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "usage-state" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:6" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "usage-state" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:7" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "usage-state" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:8" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "usage-state" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          }
+        }
+      },
+      "BikeSharingService" : {
+        "stations" : {
+          "sharedmobility-ch:pr:carvelo2go" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "free-bike-status" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "num-docks-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          }
+        }
+      },
+      "BikesharingStation" : {
+        "stations" : {
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "free-bays" : {
+                "tmeasurements" : [ { } ]
+              },
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3008cf824e352d9854585d3731568fe6e0a042d2" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "free-bays" : {
+                "tmeasurements" : [ { } ]
+              },
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3242fbb9d66046deac446c8b89768cd1b6fc9c9f" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "free-bays" : {
+                "tmeasurements" : [ { } ]
+              },
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--845248b808d1bf6c6115e471e41ccdca99f09743" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "free-bays" : {
+                "tmeasurements" : [ { } ]
+              },
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1b380c7315ed00d73a49269e2feab2e5b0452a00" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "free-bays" : {
+                "tmeasurements" : [ { } ]
+              },
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c4e26e1fd97da55bd1a1fe7ccf67f1b70c69453a" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ { } ]
+              },
+              "free-bays" : {
+                "tmeasurements" : [ { } ]
+              },
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "bikestation1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "city-bike-adult-with-gears" : {
+                "tmeasurements" : [ { } ]
+              },
+              "city-bike-adult-without-gears" : {
+                "tmeasurements" : [ { } ]
+              },
+              "mountain-bike-adult" : {
+                "tmeasurements" : [ { } ]
+              },
+              "mountain-bike-child" : {
+                "tmeasurements" : [ { } ]
+              },
+              "mountain-bike-teenager" : {
+                "tmeasurements" : [ { } ]
+              },
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "bikestation2" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "city-bike-adult-with-gears" : {
+                "tmeasurements" : [ { } ]
+              },
+              "city-bike-adult-without-gears" : {
+                "tmeasurements" : [ { } ]
+              },
+              "mountain-bike-adult" : {
+                "tmeasurements" : [ { } ]
+              },
+              "mountain-bike-child" : {
+                "tmeasurements" : [ { } ]
+              },
+              "mountain-bike-teenager" : {
+                "tmeasurements" : [ { } ]
+              },
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          }
+        }
+      },
+      "EChargingPlug" : {
+        "stations" : {
+          "AER_00000001-1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "AER_00000001-2" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "AER_00000006-2" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "AER_00000039-1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "AER_00000039-2" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "AER_00000041-1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "AER_00000041-2" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "AER_00000042-1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          }
+        }
+      },
+      "EChargingStation" : {
+        "stations" : {
+          "AER_00000001" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "AER_00000005" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "AER_00000006" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "AER_00000007" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "AER_00000008" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "AER_00000039" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "AER_00000041" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "AER_00000042" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          }
+        }
+      },
+      "EnvironmentStation" : {
+        "stations" : {
+          "AB2" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "mg/m³"
+              },
+              "EAQI-NO2" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              }
+            }
+          },
+          "AB3" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "mg/m³"
+              },
+              "EAQI-NO2" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              }
+            }
+          },
+          "BX1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "mg/m³"
+              },
+              "EAQI-NO2" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "Radioattività" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µSv/h"
+              }
+            }
+          },
+          "BZ4" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "nitrogen-dioxide" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "ug/mc"
+              }
+            }
+          },
+          "BZ5" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "mg/m³"
+              },
+              "EAQI-NO2" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "nitrogen-dioxide" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "ug/mc"
+              }
+            }
+          },
+          "BZ6" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "Radioattività" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µSv/h"
+              },
+              "SO2 - Biossido di zolfo" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              }
+            }
+          },
+          "CR1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "Radioattività" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µSv/h"
+              }
+            }
+          },
+          "LS1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              }
+            }
+          }
+        }
+      },
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "speed greater than 100 km/h" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "km/h"
+              }
+            }
+          },
+          "A22_ML107->A22_ML103" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "speed greater than 100 km/h" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "km/h"
+              }
+            }
+          },
+          "Agip_Einstein->meinstein" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "speed greater than 100 km/h" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "km/h"
+              }
+            }
+          },
+          "Maso_Pieve->meinstein" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "velocita'" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "km/h"
+              }
+            }
+          },
+          "druso-poste->proma" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "meinstein->Agip_Einstein" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "velocita'" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "km/h"
+              }
+            }
+          },
+          "proma->druso-poste" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "siemens->proma" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          }
+        }
+      },
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "precipitation" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "mm"
+              }
+            }
+          },
+          "37100MS" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "mm"
+              },
+              "sunshine-duration" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "° "
+              },
+              "wind-gust-speed" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "47400MS" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "air-temperature-max" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "air-temperature-min" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "mm"
+              },
+              "sunshine-duration" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "° "
+              },
+              "wind-gust-speed" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "59450PG" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m³/s"
+              },
+              "suspended-solids-in-watercourse" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "mg/l"
+              },
+              "water-level" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "cm"
+              },
+              "water-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              }
+            }
+          },
+          "62600MS" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "air-temperature-max" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "air-temperature-min" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "mm"
+              },
+              "sunshine-duration" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "° "
+              },
+              "wind-gust-speed" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "69790PG" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m³/s"
+              },
+              "water-level" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "cm"
+              },
+              "water-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              }
+            }
+          },
+          "83200MS" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "air-temperature-max" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "air-temperature-min" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "mm"
+              },
+              "rainfall-duration" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "s"
+              },
+              "sunshine-duration" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "° "
+              },
+              "wind-gust-speed" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "83450PG" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m³/s"
+              },
+              "suspended-solids-in-watercourse" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "mg/l"
+              },
+              "water-level" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "cm"
+              },
+              "water-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              }
+            }
+          }
+        }
+      },
+      "ParkingFacility" : {
+        "stations" : {
+          "105_facility" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "607440" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "608612" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "609883" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "102" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "103" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "104" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "105" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "107" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "112" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "113" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          },
+          "115" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-120" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            }
+          }
+        }
+      },
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tmeasurements" : [ { } ]
+              },
+              "type-of-precipitation" : {
+                "tmeasurements" : [ { } ]
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "rwis2" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tmeasurements" : [ { } ]
+              },
+              "type-of-precipitation" : {
+                "tmeasurements" : [ { } ]
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "rwis3" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tmeasurements" : [ { } ]
+              },
+              "type-of-precipitation" : {
+                "tmeasurements" : [ { } ]
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "rwis4" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tmeasurements" : [ { } ]
+              },
+              "type-of-precipitation" : {
+                "tmeasurements" : [ { } ]
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "rwis5" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tmeasurements" : [ { } ]
+              },
+              "type-of-precipitation" : {
+                "tmeasurements" : [ { } ]
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "rwis6" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tmeasurements" : [ { } ]
+              },
+              "type-of-precipitation" : {
+                "tmeasurements" : [ { } ]
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "rwis7" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tmeasurements" : [ { } ]
+              },
+              "type-of-precipitation" : {
+                "tmeasurements" : [ { } ]
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              }
+            }
+          }
+        }
+      },
+      "Streetstation" : {
+        "stations" : {
+          "CORSO ITALIA / ITALIENALLEE" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              }
+            }
+          },
+          "PONTE PALERMO / PALERMOBRCKE" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              }
+            }
+          },
+          "PONTE ROMA / ROMBRCKE 1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              }
+            }
+          },
+          "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              }
+            }
+          },
+          "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              }
+            }
+          },
+          "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              }
+            }
+          },
+          "VIA PALERMO / PALERMOSTRASSE 1" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              }
+            }
+          },
+          "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE" : {
+            "savailable" : true,
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

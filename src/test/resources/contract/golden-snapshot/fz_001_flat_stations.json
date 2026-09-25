@@ -1,0 +1,2369 @@
+{
+  "request" : "GET /flat/*?limit=-1&where=sorigin.neq.NOI&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000001",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.326185,
+        "y" : 46.473003
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Piazza Fiera - Messeplatz",
+        "capacity" : 2,
+        "city" : "BOLZANO - BOZEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "BZ_FIERA",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000001-1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.326185,
+        "y" : 46.473003
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "1",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "BZ_FIERA-241",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3008cf824e352d9854585d3731568fe6e0a042d2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.343183,
+        "y" : 46.483579
+      },
+      "smetadata" : {
+        "address" : "Via Claudia Augusta, 42",
+        "total-bays" : 12
+      },
+      "sname" : "Claudia Augusta",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "BikesharingStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--845248b808d1bf6c6115e471e41ccdca99f09743",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.325996,
+        "y" : 46.473876
+      },
+      "smetadata" : {
+        "address" : "Via Buozzi, 31",
+        "total-bays" : 12
+      },
+      "sname" : "Fiera - Messe",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "BikesharingStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "107",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.351793,
+        "y" : 46.502958
+      },
+      "smetadata" : {
+        "capacity" : 145,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Mareccio C. de Medici Strasse",
+        "name_en" : "Mareccio via C. de Medici",
+        "name_it" : "Mareccio via C. de Medici",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Mareccio"
+      },
+      "sname" : "P07 - Mareccio via C. de Medici",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.341972,
+        "y" : 46.499167
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 6 - Via Amba Alagi giardino",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation"
+    }, {
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:6",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "115",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.318078,
+        "y" : 46.491603
+      },
+      "smetadata" : {
+        "capacity" : 425,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Palasport Reschenstraße",
+        "name_en" : "Palasport via Resia",
+        "name_it" : "Palasport via Resia",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Palasport"
+      },
+      "sname" : "P15 - Palasport via Resia",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.339972,
+        "y" : 46.495472
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 5 - Piazza Adriano",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation"
+    }, {
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:5",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.08575,
+        "y" : 46.122225
+      },
+      "smetadata" : {
+        "municipality" : "Trento"
+      },
+      "sname" : "Viadotto A22",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bikestation1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "smetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "sname" : "Terme",
+      "sorigin" : "ALGORAB",
+      "stype" : "BikesharingStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "609883",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.35497,
+        "y" : 46.49458
+      },
+      "smetadata" : {
+        "capacity" : 514,
+        "capacity_short_stay" : 514,
+        "capacity_subscribers" : 514,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Waltherpark",
+        "name_en" : "Waltherpark",
+        "name_it" : "Waltherpark",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "covered",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Waltherpark"
+      },
+      "sname" : "Parcheggio Waltherpark",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike119",
+      "scoordinate" : null,
+      "smetadata" : {
+        "type" : "mountain-bike-child"
+      },
+      "sname" : "mountain-bike-child(119)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "104",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.358216,
+        "y" : 46.500551
+      },
+      "smetadata" : {
+        "capacity" : 150,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Luna MoliniStraße",
+        "name_en" : "Luna via Molini",
+        "name_it" : "Luna via Molini it",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Luna Via Molini"
+      },
+      "sname" : "P04 - Luna via Molini",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "607440",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.650498,
+        "y" : 46.713708
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone – Brixen",
+        "standard_name" : "Parcheggio Stazione Bressanone"
+      },
+      "sname" : "Parcheggio Stazione Bressanone",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike136",
+      "scoordinate" : null,
+      "smetadata" : {
+        "type" : "city-bike-adult-with-gears"
+      },
+      "sname" : "city-bike-adult-with-gears(136)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000006",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.337837,
+        "y" : 46.4905
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Piazza Matteotti Platz",
+        "capacity" : 2,
+        "city" : "BOLZANO - BOZEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "BZ_PMATTEOTTI",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000006-2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.337837,
+        "y" : 46.4905
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "BZ_PMATTEOTTI-256",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.279333,
+        "y" : 46.343653
+      },
+      "smetadata" : {
+        "municipality" : "Egna"
+      },
+      "sname" : "A22 Sud - Binnenland, Ora",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility"
+    }, {
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:7",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:7",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis7",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.183341,
+        "y" : 46.083308
+      },
+      "smetadata" : {
+        "municipality" : "Civezzano"
+      },
+      "sname" : "Civezzano",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "AB3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.633306,
+        "y" : 46.687556
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "A22 Nord-Bx sud - Depuratore, Bx",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BX1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.654083,
+        "y" : 46.714917
+      },
+      "smetadata" : {
+        "municipality" : "Bressanone"
+      },
+      "sname" : "Bressanone - Villa Adele - Viale Ratisbona",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000039",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 10.955608,
+        "y" : 46.52789
+      },
+      "smetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Pracupola - Kuppelwies",
+        "capacity" : 2,
+        "city" : "ULTIMO - ULTEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "ACTIVE"
+      },
+      "sname" : "ULTIMO_01",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.101253,
+        "y" : 46.151711
+      },
+      "smetadata" : {
+        "municipality" : "Lavis"
+      },
+      "sname" : "Casa Cantoniera",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000001",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.326185,
+        "y" : 46.473003
+      },
+      "smetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Piazza Fiera - Messeplatz",
+        "capacity" : 2,
+        "city" : "BOLZANO - BOZEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "sname" : "BZ_FIERA",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000008",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.339918,
+        "y" : 46.50122
+      },
+      "smetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Piazza Mazzini Platz",
+        "capacity" : 2,
+        "city" : "BOLZANO - BOZEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "sname" : "BZ_PMAZZINI",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "113",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33818,
+        "y" : 46.49869
+      },
+      "smetadata" : {
+        "capacity" : 114,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Direzional Park",
+        "name_en" : "Direzional Park",
+        "name_it" : "Direzional Park",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Direzional Park"
+      },
+      "sname" : "P13 – Direzional Park",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "1853-1854",
+      "scoordinate" : null,
+      "smetadata" : {
+        "iddirezione" : "Sud",
+        "latitudinefine" : 46.4743265,
+        "latitudineinizio" : 46.49480603,
+        "longitudinefine" : 11.31618225,
+        "longitudininizio" : 11.40778351,
+        "lunghezza" : 7800,
+        "metrofine" : 85300,
+        "metroinizio" : 77500
+      },
+      "sname" : "BOLZANO NORD - BOLZANO SUD",
+      "sorigin" : "A22",
+      "stype" : "LinkStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "105_facility",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.357255,
+        "y" : 46.498174
+      },
+      "smetadata" : {
+        "capacity" : 90,
+        "capacity_short_stay" : 90,
+        "capacity_subscribers" : 90,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Laurin",
+        "name_en" : "Laurin",
+        "name_it" : "Laurin",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Laurin"
+      },
+      "sname" : "P05 - Laurin",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "102343",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.388134,
+        "y" : 46.94982
+      },
+      "smetadata" : {
+        "area" : "---"
+      },
+      "sname" : "Brenner",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000007",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.345176,
+        "y" : 46.500862
+      },
+      "smetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Piazza della Vittoria - Siegesplatz",
+        "capacity" : 2,
+        "city" : "BOLZANO - BOZEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "ACTIVE"
+      },
+      "sname" : "BZ_PVITTORIA",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3242fbb9d66046deac446c8b89768cd1b6fc9c9f",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.333071,
+        "y" : 46.46461
+      },
+      "smetadata" : {
+        "address" : "Piazzetta Caduti Nassirija",
+        "total-bays" : 12
+      },
+      "sname" : "Via Maso della Pieve - Pfarrhofstrasse",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "BikesharingStation"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike118",
+      "scoordinate" : null,
+      "smetadata" : {
+        "type" : "mountain-bike-child"
+      },
+      "sname" : "mountain-bike-child(118)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "37100MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.4386,
+        "y" : 46.885
+      },
+      "smetadata" : {
+        "name_de" : "Sterzing",
+        "name_en" : "Sterzing",
+        "name_it" : "Vipiteno"
+      },
+      "sname" : "Vipiteno",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bikestation2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.150187,
+        "y" : 46.672476
+      },
+      "smetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 9,
+          "city-bike-adult-without-gears" : 5,
+          "mountain-bike-adult" : 4,
+          "mountain-bike-child" : 8,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 28
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "sname" : "Stazione treni",
+      "sorigin" : "ALGORAB",
+      "stype" : "BikesharingStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "BikesharingStation"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation2",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.150187,
+        "y" : 46.672476
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 9,
+          "city-bike-adult-without-gears" : 5,
+          "mountain-bike-adult" : 4,
+          "mountain-bike-child" : 8,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 28
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Stazione treni",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike53",
+      "scoordinate" : null,
+      "smetadata" : {
+        "type" : "mountain-bike-adult"
+      },
+      "sname" : "mountain-bike-adult(53)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "rwis2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.134472,
+        "y" : 46.197769
+      },
+      "smetadata" : {
+        "municipality" : "San Michele all'Adige"
+      },
+      "sname" : "S.Michele",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation"
+    }, {
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:4",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "LS1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.340139,
+        "y" : 46.434833
+      },
+      "smetadata" : {
+        "municipality" : "Laives"
+      },
+      "sname" : "Laives - Via Galizia",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000006",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.337837,
+        "y" : 46.4905
+      },
+      "smetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Piazza Matteotti Platz",
+        "capacity" : 2,
+        "city" : "BOLZANO - BOZEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "sname" : "BZ_PMATTEOTTI",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000005",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.349217,
+        "y" : 46.499702
+      },
+      "smetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Via Cassa di Risparmio  - Sparkassenstraße 14",
+        "capacity" : 2,
+        "city" : "BOLZANO - BOZEN",
+        "municipality" : "Bolzano - Bozen",
+        "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+        "provider" : "Alperia Smart Mobility",
+        "state" : "ACTIVE"
+      },
+      "sname" : "BZ_CASSARISP_01",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "47400MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 12.1166,
+        "y" : 46.8704
+      },
+      "smetadata" : {
+        "name_de" : "Antholz Obertal",
+        "name_en" : "Antholz Obertal",
+        "name_it" : "Anterselva di Sopra"
+      },
+      "sname" : "Anterselva di Sopra",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c4e26e1fd97da55bd1a1fe7ccf67f1b70c69453a",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.316234,
+        "y" : 46.491091
+      },
+      "smetadata" : {
+        "address" : "Via Resia, 39/A",
+        "total-bays" : 12
+      },
+      "sname" : "Palasport - Stadthalle",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "BikesharingStation"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000041",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.271506,
+        "y" : 46.314846
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Via Madonna - Marienstraße",
+        "capacity" : 2,
+        "city" : "EGNA - NEUMARKT",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "EGNA_01",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000041-1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.271506,
+        "y" : 46.314846
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "1",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "EGNA_01-451",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:2",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "sharedmobility-ch:pr:carvelo2go",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 8.2275,
+        "y" : 46.8182
+      },
+      "smetadata" : {
+        "system_pricing_plans" : [ {
+          "currency" : "CHF",
+          "description" : "5 unlock fee, 5.00 per day time hour (from 8 till 22), 0.00 per night time hour (from 22 till 8)",
+          "is_taxable" : false,
+          "name" : "Smargo Daytime Rate",
+          "plan_id" : "carvelo2go:b23fccfc-22f8-49d6-a681-a735cad6f046",
+          "price" : 5,
+          "provider_id" : "carvelo2go"
+        }, {
+          "currency" : "CHF",
+          "description" : "5 unlock fee, 3.50 per day time hour (from 8 till 22), 0.00 per night time hour (from 22 till 8)",
+          "is_taxable" : false,
+          "name" : "Simple Daytime Rate",
+          "plan_id" : "carvelo2go:efee4075-81aa-4707-de2e-e0b087e66c49",
+          "price" : 5,
+          "provider_id" : "carvelo2go"
+        } ]
+      },
+      "sname" : "carvelo eCargo-Bike Sharing",
+      "sorigin" : "sharedmobility-ch",
+      "stype" : "BikeSharingService"
+    }, {
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:1",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.151913,
+        "y" : 46.210154
+      },
+      "smetadata" : {
+        "municipality" : "Faedo"
+      },
+      "sname" : "Cadino",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "112",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33851,
+        "y" : 46.49781
+      },
+      "smetadata" : {
+        "capacity" : 174,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Gerichtsplatz",
+        "name_en" : "Piazza Tribunale",
+        "name_it" : "Piazza Tribunale",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Tribunale"
+      },
+      "sname" : "P12 – Piazza Tribunale",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:8",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:8",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "59450PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.93472,
+        "y" : 46.81704
+      },
+      "smetadata" : {
+        "name_de" : "AHR BEI ST.GEORGEN",
+        "name_en" : "AHR BEI ST.GEORGEN",
+        "name_it" : "AURINO A S. GIORGIO"
+      },
+      "sname" : "AURINO A S. GIORGIO",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike55",
+      "scoordinate" : null,
+      "smetadata" : {
+        "type" : "city-bike-adult-without-gears"
+      },
+      "sname" : "city-bike-adult-without-gears(55)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000042",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.323925,
+        "y" : 46.481113
+      },
+      "smetadata" : {
+        "accessInfo" : null,
+        "accessType" : "PUBLIC",
+        "address" : "Ponte Resia - Reschenbrücke",
+        "capacity" : 1,
+        "categories" : null,
+        "city" : "BOLZANO - BOZEN",
+        "flashInfo" : null,
+        "locationServiceInfo" : null,
+        "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+        "provider" : "Alperia Smart Mobility",
+        "reservable" : null,
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "sname" : "BZ_PTE_RESIA_OLD",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1b380c7315ed00d73a49269e2feab2e5b0452a00",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.335918,
+        "y" : 46.485846
+      },
+      "smetadata" : {
+        "address" : "Via Galilei, 23",
+        "total-bays" : 12
+      },
+      "sname" : "Via Galilei - Galilei-Strasse",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "BikesharingStation"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000001",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.326185,
+        "y" : 46.473003
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Piazza Fiera - Messeplatz",
+        "capacity" : 2,
+        "city" : "BOLZANO - BOZEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "BZ_FIERA",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000001-2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.326185,
+        "y" : 46.473003
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "BZ_FIERA-242",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CR1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.227111,
+        "y" : 46.267333
+      },
+      "smetadata" : {
+        "municipality" : "Cortina ssdV"
+      },
+      "sname" : "Cortina ssdV - Strada del Vino",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "103",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355115,
+        "y" : 46.497805
+      },
+      "smetadata" : {
+        "capacity" : 403,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Waltherplatz",
+        "name_en" : "Piazza Walther",
+        "name_it" : "Piazza Walther",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Piazza Walther"
+      },
+      "sname" : "P03 - Piazza Walther",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000042",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.323925,
+        "y" : 46.481113
+      },
+      "pmetadata" : {
+        "accessInfo" : null,
+        "accessType" : "PUBLIC",
+        "address" : "Ponte Resia - Reschenbrücke",
+        "capacity" : 1,
+        "categories" : null,
+        "city" : "BOLZANO - BOZEN",
+        "flashInfo" : null,
+        "locationServiceInfo" : null,
+        "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+        "provider" : "Alperia Smart Mobility",
+        "reservable" : null,
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "BZ_PTE_RESIA_OLD",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000042-1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.323925,
+        "y" : 46.481113
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : true,
+          "id" : "1",
+          "maxCurrent" : 120,
+          "maxPower" : 45,
+          "minCurrent" : 0,
+          "outletTypeCode" : "CHAdeMO"
+        }, {
+          "hasFixedCable" : true,
+          "id" : "2",
+          "maxCurrent" : 120,
+          "maxPower" : 45,
+          "minCurrent" : 0,
+          "outletTypeCode" : "CCS"
+        } ]
+      },
+      "sname" : "BZ_PTE_RESIA_OLD-456",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.113311,
+        "y" : 45.97342
+      },
+      "smetadata" : {
+        "municipality" : "Calliano"
+      },
+      "sname" : "Acquaviva",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000041",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.271506,
+        "y" : 46.314846
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Via Madonna - Marienstraße",
+        "capacity" : 2,
+        "city" : "EGNA - NEUMARKT",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "EGNA_01",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000041-2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.271506,
+        "y" : 46.314846
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "EGNA_01-452",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83200MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3128,
+        "y" : 46.4977
+      },
+      "smetadata" : {
+        "name_de" : "Bozen",
+        "name_en" : "Bolzano",
+        "name_it" : "Bolzano"
+      },
+      "sname" : "Bolzano",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000041",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.271506,
+        "y" : 46.314846
+      },
+      "smetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Via Madonna - Marienstraße",
+        "capacity" : 2,
+        "city" : "EGNA - NEUMARKT",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "sname" : "EGNA_01",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingStation"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike51",
+      "scoordinate" : null,
+      "smetadata" : {
+        "type" : "mountain-bike-adult"
+      },
+      "sname" : "mountain-bike-adult(51)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "102",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.356305,
+        "y" : 46.496449
+      },
+      "smetadata" : {
+        "capacity" : 233,
+        "disabledtoiletavailable" : true,
+        "mainaddress" : "Via Dr. Julius Perathoner",
+        "municipality" : "Bolzano - Bozen",
+        "phonenumber" : "0471 970289",
+        "state" : 1
+      },
+      "sname" : "P02 - City parking",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "105_facility",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.357255,
+        "y" : 46.498174
+      },
+      "pmetadata" : {
+        "capacity" : 90,
+        "capacity_short_stay" : 90,
+        "capacity_subscribers" : 90,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Laurin",
+        "name_en" : "Laurin",
+        "name_it" : "Laurin",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Laurin"
+      },
+      "pname" : "P05 - Laurin",
+      "porigin" : "skidata",
+      "ptype" : "ParkingFacility",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "105",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.357255,
+        "y" : 46.498174
+      },
+      "smetadata" : {
+        "capacity" : 90,
+        "free_limit" : 89,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Laurin",
+        "name_en" : "Laurin",
+        "name_it" : "Laurin",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "occupancy_limit" : 90,
+        "standard_name" : "Parcheggio Laurin"
+      },
+      "sname" : "P05 - Laurin",
+      "sorigin" : "skidata",
+      "stype" : "ParkingStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.069111,
+        "y" : 46.23165
+      },
+      "smetadata" : {
+        "municipality" : "Predaia"
+      },
+      "sname" : "Rocchetta",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation2",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.150187,
+        "y" : 46.672476
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 9,
+          "city-bike-adult-without-gears" : 5,
+          "mountain-bike-adult" : 4,
+          "mountain-bike-child" : 8,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 28
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Stazione treni",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike139",
+      "scoordinate" : null,
+      "smetadata" : {
+        "type" : "city-bike-adult-with-gears"
+      },
+      "sname" : "city-bike-adult-with-gears(139)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000039",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 10.955608,
+        "y" : 46.52789
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Pracupola - Kuppelwies",
+        "capacity" : 2,
+        "city" : "ULTIMO - ULTEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "ACTIVE"
+      },
+      "pname" : "ULTIMO_01",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000039-1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 10.955608,
+        "y" : 46.52789
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "1",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "ULTIMO_01-432",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike74",
+      "scoordinate" : null,
+      "smetadata" : {
+        "type" : "city-bike-adult-with-gears"
+      },
+      "sname" : "city-bike-adult-with-gears(74)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle"
+    }, {
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "pmetadata" : {
+        "address" : "Viale Stazione, 5",
+        "total-bays" : 12
+      },
+      "pname" : "Viale della Stazione - Bahnhofsallee",
+      "porigin" : "BIKE_SHARING_BOLZANO",
+      "ptype" : "BikesharingStation",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Viale della Stazione - Bahnhofsallee:3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355516,
+        "y" : 46.497459
+      },
+      "smetadata" : {
+        "charger" : true,
+        "use" : "SHARING"
+      },
+      "sname" : "Viale della Stazione - Bahnhofsallee:3",
+      "sorigin" : "BIKE_SHARING_BOLZANO",
+      "stype" : "Bicyclestationbay"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "69790PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.6572,
+        "y" : 46.70738
+      },
+      "smetadata" : {
+        "name_de" : "EISACK BEI BRIXEN",
+        "name_en" : "EISACK BEI BRIXEN",
+        "name_it" : "ISARCO A BRESSANONE"
+      },
+      "sname" : "ISARCO A BRESSANONE",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83450PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.30278,
+        "y" : 46.45877
+      },
+      "smetadata" : {
+        "name_de" : "EISACK BEI BOZEN SÜD",
+        "name_en" : "EISACK BEI BOZEN SÜD",
+        "name_it" : "ISARCO A BOLZANO SUD"
+      },
+      "sname" : "ISARCO A BOLZANO SUD",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "62600MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.8979,
+        "y" : 46.6792
+      },
+      "smetadata" : {
+        "name_de" : "St. Martin in Thurn",
+        "name_en" : "S. Martin de Tor",
+        "name_it" : "S. Martino in Badia"
+      },
+      "sname" : "S. Martino in Badia",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000039",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 10.955608,
+        "y" : 46.52789
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Pracupola - Kuppelwies",
+        "capacity" : 2,
+        "city" : "ULTIMO - ULTEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "ACTIVE"
+      },
+      "pname" : "ULTIMO_01",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000039-2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 10.955608,
+        "y" : 46.52789
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "ULTIMO_01-433",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "pactive" : null,
+      "pavailable" : null,
+      "pcode" : null,
+      "pcoordinate" : null,
+      "pmetadata" : null,
+      "pname" : null,
+      "porigin" : null,
+      "ptype" : null,
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "BZ4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.341833,
+        "y" : 46.482306
+      },
+      "smetadata" : {
+        "municipality" : "Bolzano"
+      },
+      "sname" : "Bolzano 4 - Via C.Augusta",
+      "sorigin" : "APPABZ",
+      "stype" : "EnvironmentStation"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

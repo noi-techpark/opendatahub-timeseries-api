@@ -1,0 +1,14 @@
+{
+  "request" : "GET /flat/ParkingStation/*?limit=200 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "482e7d6ab6d41d78e00a2edcaea3cae24a09836525bd7c4797d2b0fd297b1349",
+  "bodyRecords" : 171
+}

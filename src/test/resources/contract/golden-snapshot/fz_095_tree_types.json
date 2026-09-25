@@ -1,0 +1,536 @@
+{
+  "request" : "GET /tree/*/*?limit=-1&select=tunit,smetadata,tdescription,sname,stype,ttype&where=or(sorigin.eq.NOI,sorigin.eq.SIAG) [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tdescription" : "Mode for vehicles fast than 100 km/h",
+                "ttype" : "Mode",
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "ttype" : "Instantaneous"
+              },
+              "speed greater than 100 km/h" : {
+                "tdescription" : "average speed of vehicles faster than 100 km/h",
+                "ttype" : "Mode",
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "ttype" : "Mean",
+                "tunit" : "km/h"
+              }
+            },
+            "sname" : "A22_ML103->A22_ML107",
+            "stype" : "LinkStation"
+          },
+          "A22_ML107->A22_ML103" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tdescription" : "Mode for vehicles fast than 100 km/h",
+                "ttype" : "Mode",
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "ttype" : "Instantaneous"
+              },
+              "speed greater than 100 km/h" : {
+                "tdescription" : "average speed of vehicles faster than 100 km/h",
+                "ttype" : "Mode",
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "ttype" : "Mean",
+                "tunit" : "km/h"
+              }
+            },
+            "sname" : "A22_ML107->A22_ML103",
+            "stype" : "LinkStation"
+          },
+          "Agip_Einstein->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tdescription" : "Mode for vehicles fast than 100 km/h",
+                "ttype" : "Mode",
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "ttype" : "Instantaneous"
+              },
+              "speed greater than 100 km/h" : {
+                "tdescription" : "average speed of vehicles faster than 100 km/h",
+                "ttype" : "Mode",
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "ttype" : "Mean",
+                "tunit" : "km/h"
+              }
+            },
+            "sname" : "meinstein->Agip_Einstein",
+            "stype" : "LinkStation"
+          },
+          "Maso_Pieve->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "ttype" : "Instantaneous"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "ttype" : "Mean",
+                "tunit" : "km/h"
+              }
+            },
+            "sname" : "Maso_Pieve->meinstein",
+            "stype" : "LinkStation"
+          },
+          "druso-poste->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "ttype" : "Instantaneous"
+              }
+            },
+            "sname" : "druso-poste->proma",
+            "stype" : "LinkStation"
+          },
+          "meinstein->Agip_Einstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "ttype" : "Instantaneous"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "ttype" : "Mean",
+                "tunit" : "km/h"
+              }
+            },
+            "sname" : "Agip_Einstein->meinstein",
+            "stype" : "LinkStation"
+          },
+          "proma->druso-poste" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "ttype" : "Instantaneous"
+              }
+            },
+            "sname" : "proma->druso-poste",
+            "stype" : "LinkStation"
+          },
+          "siemens->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "ttype" : "Instantaneous"
+              }
+            },
+            "sname" : "siemens->proma",
+            "stype" : "LinkStation"
+          }
+        }
+      },
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tunit" : "hPa"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "ttype" : "total",
+                "tunit" : "mm"
+              }
+            },
+            "smetadata" : {
+              "area" : "---"
+            },
+            "sname" : "Brenner",
+            "stype" : "MeteoStation"
+          },
+          "37100MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale ",
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "ttype" : "total",
+                "tunit" : "mm"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento",
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento",
+                "tunit" : "° "
+              },
+              "wind-gust-speed" : {
+                "tdescription" : "Velocitá raffica",
+                "tunit" : "m/s"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "Sterzing",
+              "name_en" : "Sterzing",
+              "name_it" : "Vipiteno"
+            },
+            "sname" : "Vipiteno",
+            "stype" : "MeteoStation"
+          },
+          "47400MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "air-temperature-max" : {
+                "tdescription" : "Maximum temperature",
+                "ttype" : "max",
+                "tunit" : "°C"
+              },
+              "air-temperature-min" : {
+                "tdescription" : "Minimum temperature",
+                "ttype" : "min",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale ",
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "ttype" : "total",
+                "tunit" : "mm"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento",
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento",
+                "tunit" : "° "
+              },
+              "wind-gust-speed" : {
+                "tdescription" : "Velocitá raffica",
+                "tunit" : "m/s"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "Antholz Obertal",
+              "name_en" : "Antholz Obertal",
+              "name_it" : "Anterselva di Sopra"
+            },
+            "sname" : "Anterselva di Sopra",
+            "stype" : "MeteoStation"
+          },
+          "59450PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tdescription" : "Portata",
+                "tunit" : "m³/s"
+              },
+              "suspended-solids-in-watercourse" : {
+                "tdescription" : "concentrazione solidi sospesi ",
+                "tunit" : "mg/l"
+              },
+              "water-level" : {
+                "tdescription" : "Livello idrometrico",
+                "tunit" : "cm"
+              },
+              "water-temperature" : {
+                "tdescription" : "Temperatura acqua",
+                "tunit" : "°C"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "AHR BEI ST.GEORGEN",
+              "name_en" : "AHR BEI ST.GEORGEN",
+              "name_it" : "AURINO A S. GIORGIO"
+            },
+            "sname" : "AURINO A S. GIORGIO",
+            "stype" : "MeteoStation"
+          },
+          "62600MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "air-temperature-max" : {
+                "tdescription" : "Maximum temperature",
+                "ttype" : "max",
+                "tunit" : "°C"
+              },
+              "air-temperature-min" : {
+                "tdescription" : "Minimum temperature",
+                "ttype" : "min",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale ",
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "ttype" : "total",
+                "tunit" : "mm"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento",
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento",
+                "tunit" : "° "
+              },
+              "wind-gust-speed" : {
+                "tdescription" : "Velocitá raffica",
+                "tunit" : "m/s"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "St. Martin in Thurn",
+              "name_en" : "S. Martin de Tor",
+              "name_it" : "S. Martino in Badia"
+            },
+            "sname" : "S. Martino in Badia",
+            "stype" : "MeteoStation"
+          },
+          "69790PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tdescription" : "Portata",
+                "tunit" : "m³/s"
+              },
+              "water-level" : {
+                "tdescription" : "Livello idrometrico",
+                "tunit" : "cm"
+              },
+              "water-temperature" : {
+                "tdescription" : "Temperatura acqua",
+                "tunit" : "°C"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "EISACK BEI BRIXEN",
+              "name_en" : "EISACK BEI BRIXEN",
+              "name_it" : "ISARCO A BRESSANONE"
+            },
+            "sname" : "ISARCO A BRESSANONE",
+            "stype" : "MeteoStation"
+          },
+          "83200MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "ttype" : "mean",
+                "tunit" : "°C"
+              },
+              "air-temperature-max" : {
+                "tdescription" : "Maximum temperature",
+                "ttype" : "max",
+                "tunit" : "°C"
+              },
+              "air-temperature-min" : {
+                "tdescription" : "Minimum temperature",
+                "ttype" : "min",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "ttype" : "Mittelwerte",
+                "tunit" : "hPa"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale ",
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "ttype" : "total",
+                "tunit" : "mm"
+              },
+              "rainfall-duration" : {
+                "ttype" : "Sum",
+                "tunit" : "s"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento",
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento",
+                "tunit" : "° "
+              },
+              "wind-gust-speed" : {
+                "tdescription" : "Velocitá raffica",
+                "tunit" : "m/s"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "Bozen",
+              "name_en" : "Bolzano",
+              "name_it" : "Bolzano"
+            },
+            "sname" : "Bolzano",
+            "stype" : "MeteoStation"
+          },
+          "83450PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tdescription" : "Portata",
+                "tunit" : "m³/s"
+              },
+              "suspended-solids-in-watercourse" : {
+                "tdescription" : "concentrazione solidi sospesi ",
+                "tunit" : "mg/l"
+              },
+              "water-level" : {
+                "tdescription" : "Livello idrometrico",
+                "tunit" : "cm"
+              },
+              "water-temperature" : {
+                "tdescription" : "Temperatura acqua",
+                "tunit" : "°C"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "EISACK BEI BOZEN SÜD",
+              "name_en" : "EISACK BEI BOZEN SÜD",
+              "name_it" : "ISARCO A BOLZANO SUD"
+            },
+            "sname" : "ISARCO A BOLZANO SUD",
+            "stype" : "MeteoStation"
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

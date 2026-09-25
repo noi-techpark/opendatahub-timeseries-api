@@ -1,0 +1,145 @@
+{
+  "request" : "GET /flat/traffic?limit=100 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "savailable" : true,
+      "scode" : "Autostrada Fittizzia",
+      "smetadata" : {
+        "description" : "spiraFITTIZIA"
+      },
+      "sname" : "Autostrada Fittizzia",
+      "stype" : "traffic"
+    }, {
+      "savailable" : true,
+      "scode" : "MEBO",
+      "smetadata" : {
+        "description" : "spiraPAB"
+      },
+      "sname" : "MEBO",
+      "stype" : "traffic"
+    }, {
+      "savailable" : true,
+      "scode" : "Renon",
+      "smetadata" : {
+        "description" : "spiraPAB"
+      },
+      "sname" : "Renon",
+      "stype" : "traffic"
+    }, {
+      "savailable" : true,
+      "scode" : "S. Genesio",
+      "smetadata" : {
+        "description" : "spiraPAB"
+      },
+      "sname" : "S. Genesio",
+      "stype" : "traffic"
+    }, {
+      "savailable" : true,
+      "scode" : "SS12 Cardano",
+      "smetadata" : {
+        "description" : "spiraPAB"
+      },
+      "sname" : "SS12 Cardano",
+      "stype" : "traffic"
+    }, {
+      "savailable" : true,
+      "scode" : "SS12 Pineta",
+      "smetadata" : {
+        "description" : "spiraPAB"
+      },
+      "sname" : "SS12 Pineta",
+      "stype" : "traffic"
+    }, {
+      "savailable" : true,
+      "scode" : "SS42",
+      "smetadata" : {
+        "description" : "spiraPAB"
+      },
+      "sname" : "SS42",
+      "stype" : "traffic"
+    }, {
+      "savailable" : true,
+      "scode" : "Sarentino",
+      "smetadata" : {
+        "description" : "spiraPAB"
+      },
+      "sname" : "Sarentino",
+      "stype" : "traffic"
+    }, {
+      "savailable" : true,
+      "scode" : "Settequerce",
+      "smetadata" : {
+        "description" : "spiraPAB"
+      },
+      "sname" : "Settequerce",
+      "stype" : "traffic"
+    }, {
+      "savailable" : true,
+      "scode" : "incrocio via Duerer - Pfarrhofstrasse",
+      "smetadata" : {
+        "description" : "spiraBZ"
+      },
+      "sname" : "incrocio via Duerer - Pfarrhofstrasse",
+      "stype" : "traffic"
+    }, {
+      "savailable" : true,
+      "scode" : "incrocio via Resia - viale Druso 1",
+      "smetadata" : {
+        "description" : "spiraBZ"
+      },
+      "sname" : "incrocio via Resia - viale Druso 1",
+      "stype" : "traffic"
+    }, {
+      "savailable" : true,
+      "scode" : "ponte Talvera",
+      "smetadata" : {
+        "description" : "spiraBZ"
+      },
+      "sname" : "ponte Talvera",
+      "stype" : "traffic"
+    }, {
+      "savailable" : true,
+      "scode" : "ponte Virgolo",
+      "smetadata" : {
+        "description" : "spiraBZ"
+      },
+      "sname" : "ponte Virgolo",
+      "stype" : "traffic"
+    }, {
+      "savailable" : true,
+      "scode" : "via Claudia Augusta 1",
+      "smetadata" : {
+        "description" : "spiraBZ"
+      },
+      "sname" : "via Claudia Augusta 1",
+      "stype" : "traffic"
+    }, {
+      "savailable" : true,
+      "scode" : "via Einstein 1",
+      "smetadata" : {
+        "description" : "spiraBZ"
+      },
+      "sname" : "via Einstein 1",
+      "stype" : "traffic"
+    }, {
+      "savailable" : true,
+      "scode" : "via Vittorio Veneto",
+      "smetadata" : {
+        "description" : "spiraBZ"
+      },
+      "sname" : "via Vittorio Veneto",
+      "stype" : "traffic"
+    } ],
+    "limit" : 100,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,2218 @@
+{
+  "request" : "GET /tree,edge/*?limit=-1&select=setype,sborigin&where=eactive.eq.true&shownull=true&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "LinkStation" : {
+        "edges" : {
+          "A22_ML103->A22_ML107" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "A22_ML103->Torricelli" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "A22_ML107->A22_ML103" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Agip_Einstein->Torricelli" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Agip_Einstein->meinstein" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Arginale_Palermo->Arginale_Resia" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Arginale_Palermo->Milano_Palermo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Arginale_Resia->A22_ML103" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Arginale_Resia->Agip_Einstein" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Arginale_Resia->Milano_Resia" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Druso_Palermo->Milano_Palermo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Druso_Palermo->Milano_Resia" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Druso_Palermo->druso-poste" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Galilei_Lancia->Galilei_Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Galilei_Lancia->galvani" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Galilei_Palermo->Galilei_Lancia" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Galilei_Roma->Maso_Pieve" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Galilei_Roma->caugusta" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Galilei_Roma->druso-poste" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Galilei_Virgolo->Galilei_Roma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Galilei_Virgolo->Galleria_Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Galleria_Virgolo->Arginale_Palermo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Galleria_Virgolo->P_Campiglio" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Galleria_Virgolo->proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Maso_Pieve->meinstein" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Milano_Palermo->Druso_Palermo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Milano_Palermo->Milano_Resia" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Milano_Palermo->Roma_Firenze" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Milano_Resia->Druso_Palermo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Milano_Resia->Milano_Palermo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "P_Campiglio->Arginale_Resia" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "P_Campiglio->Galleria_Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Roma_Firenze->Milano_Palermo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Roma_Firenze->druso-poste" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Roma_Firenze->proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "TN-Acquaviva->TN-Sud" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "TN-Cadino->TN-Nord" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "TN-Maccani->TN-Nord" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "TN-Maccani->TN-Sud" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "TN-Nord->TN-Cadino" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "TN-Nord->TN-Maccani" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "TN-Sud->TN-Acquaviva" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "TN-Sud->TN-Maccani" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Torricelli->P_Campiglio" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "Torricelli->siemens" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "caugusta->Galilei_Roma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "caugusta->Maso_Pieve" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "cavour->scena-leichter" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "cavour->schaffer-winkel" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "cavour->sinigo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "cavour->terme_est" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "corse_cappuccini->galilei" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "corse_cappuccini->wolf" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "corse_cappuccini->wolf-franziskus" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "druso-poste->Druso_Palermo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "druso-poste->Galilei_Roma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "druso-poste->Roma_Firenze" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "druso-poste->proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "galilei->corse_cappuccini" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "galvani->Galilei_Lancia" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "galvani->meinstein" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "goethe-alpini->hofer" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "goethe_ospedale->hofer" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "goethe_ospedale->sinigo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "goethe_ospedale->stazione" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "goethe_ospedale->wolf-franziskus" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "hofer->goethe-alpini" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "hofer->goethe_ospedale" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "huber->liberta-corse" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "huber->mazzini" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "liberta-corse->corse_cappuccini" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "liberta-corse->huber" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "liberta-corse->mazzini" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "liberta-corse->terme_ovest" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "mazzini->huber" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "mazzini->ponte_rezia" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "mazzini->stazione" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "meinstein->Agip_Einstein" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "meinstein->Maso_Pieve" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "meinstein->galvani" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "petrarca->ponte_rezia" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "piave-palade->piave_matteotti" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "piave-palade->zuegg-palade" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "piave_matteotti->piave-palade" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "piave_matteotti->roma_nord" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "ponte_rezia->mazzini" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "ponte_rezia->petrarca" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "proma->Roma_Firenze" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "proma->druso-poste" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "roma_nord->roma_sud" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "roma_nord->terme_est" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "roma_sud->roma_nord" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "roma_sud->sinigo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "scena-leichter->cavour" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "schaffer-winkel->cavour" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "siemens->Galilei_Palermo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "siemens->proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "sinigo->cavour" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "sinigo->goethe_ospedale" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "sinigo->roma_sud" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "stazione->goethe_ospedale" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "stazione->mazzini" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "terme_est->terme_ovest" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "terme_ovest->liberta-corse" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "terme_ovest->piave_matteotti" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "terme_ovest->zuegg-palade" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "wolf->corse_cappuccini" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "wolf-franziskus->corse_cappuccini" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "wolf-franziskus->goethe_ospedale" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "zuegg-palade->piave-palade" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "zuegg-palade->terme_est" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          }
+        }
+      },
+      "TrafficStreetFactor" : {
+        "edges" : {
+          "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN + Autostrada Fittizzia" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1 + via Vittorio Veneto" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 3 + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "CORSO ITALIA / ITALIENALLEE + druso-poste" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "COSTA DI SOTTO / UNTERLEITACH + SS12 Cardano" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "GALLERIA DEL VIRGOLO / VIRGL TUNNEL + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "GALLERIA SS12 / SS12 TUNNEL + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1 + aeinstein" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2 + aeinstein" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "PIAZZA ADRIANO + druso-poste" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "PIAZZA GIUSEPPE MAZZINI / GIUSEPPE-MAZZINI-PLATZ + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "PIAZZA GIUSEPPE VERDI / GIUSEPPE-VERDI-PLATZ + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "PIAZZA GRIES / GRIESER PLATZ + via Vittorio Veneto" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "PIAZZA VITTORIA + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "PONTE DRUSO / DRUSUSBRCKE + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "PONTE PALERMO / PALERMOBRCKE + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "PONTE ROMA + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "PONTE ROMA / ROMBRCKE 1 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "PONTE ROMA / ROMBRCKE 2 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "PONTE SANT'ANTONIO / ST.-ANTON-BRCKE + Sarentino" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "PONTE TALVERA / TALFERBRCKE + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "PONTE VIRGOLO + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "S.S. RENON + Renon" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "SP 99 S. GENESIO / LS 99 JENESIEN 1 + S. Genesio" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "SP 99 S. GENESIO / LS 99 JENESIEN 2 + S. Genesio" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "SP 99 S. GENESIO / LS 99 JENESIEN 3 + S. Genesio" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "SS 12 / SS12  1 + SS12 Pineta" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "SS 12 / SS12  2 + SS12 Pineta" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "SS 38 / SS38 + Settequerce" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "SS 42 / SS42 + SS42" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "SVINCOLO VIA GALILEI 1 + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "SVINCOLO VIA GALILEI 2 + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 1 + via Einstein 1" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 2 + incrocio via Duerer - Pfarrhofstrasse" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 3 + via Einstein 1" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 4 + SS12 Pineta" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA ALESSANDRIA + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE + galvani" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1 + siemens" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 2 + siemens" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA ANTONIO ROSMINI / ANTONIO-ROSMINI-STRASSE + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA ARMANDO DIAZ / ARMANDO-DIAZ-STRASSE + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA BARI + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA BEATO ARRIGO / SELIG-HEINRICH-STRASSE + Sarentino" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA BRENNERO + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA BRENNERO / BRENNERSTRASSE + Renon" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA BUOZZI 1 + galvani" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA BUOZZI 2 + galvani" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA BUOZZI 3 + galvani" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA CASSA DI RISPARMIO + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA CASSA DI RISPARMIO / SPARKASSENSTRASSE + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA CASTEL FIRMIANO / SIGMUNDSKRONER STRASSE + SS42" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA CAVOUR + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA CESARE BATTISTI + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA CLAUDIA AUGUSTA 1 + incrocio via Duerer - Pfarrhofstrasse" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA CLAUDIA AUGUSTA 2 + via Claudia Augusta 1" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA CLAUDIA AUGUSTA 3 + incrocio via Duerer - Pfarrhofstrasse" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA CLAUDIA AUGUSTA 4 + via Claudia Augusta 1" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA CLAUDIA AUGUSTA 5 + via Claudia Augusta 1" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA COLOGNA / GLANINGER WEG + S. Genesio" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA DALMAZIA 1 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA DALMAZIA 2 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA DANTE / DANTESTRASSE + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA DEL MACELLO 1 + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA DEL MACELLO 2 + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA DEL MACELLO 3 + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA DEL MACELLO 4 + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA DELL OSPEDALE / SPITALGASSE + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA DUCA Di AOSTA 1 + druso-poste" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA DUCA Di AOSTA 2 + druso-poste" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA EBNER + galvani" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA EDISON + via Torricelli" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "Trafficstation"
+            }
+          },
+          "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE + aeinstein" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA EVANGELISTA TORRICELLI / EVANGELISTA-TORRICELLI-STRASSE + via Torricelli" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "Trafficstation"
+            }
+          },
+          "VIA FAGO / FAGENSTRASSE + via Vittorio Veneto" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA GAISMAIR + druso-poste" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA GALILEI + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA GALILEO GALILEI / GALILEO-GALILEI-STRASSE + siemens" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA GIOSUÈ CARDUCCI / GIOSUÈ-CARDUCCI-STRASSE + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA GIUSEPPE GARIBALDI / GIUSEPPE-GARIBALDI-STRASSE + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA GUGLIELMO MARCONI / GUGLIELMO-MARCONI-STRASSE + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA INNSBRUCK / INNSBRUCKER STRASSE 2 + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA INNSBRUCK / INNSBRUCKER STRASSE 3 + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA INNSBRUCK / INNSBRUCKER STRASSE 4 + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA INNSBRUCK / INNSBRUCKER STRASSE 5 + SS12 Cardano" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA INNSBRUCK / INNSBRUCKER STRASSE 6 + SS12 Cardano" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA INNSBRUCK / INNSBRUCKER STRASSE 7 + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA LORENZ BHLER / LORENZ-BHLER-STRASSE + Settequerce" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA LORIS MUSY / LORIS-MUSY-STRASSE + incrocio via Duerer - Pfarrhofstrasse" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 1 + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 2 + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 1 + galvani" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 2 + galvani" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 1 + incrocio via Duerer - Pfarrhofstrasse" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 2 + incrocio via Duerer - Pfarrhofstrasse" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 3 + incrocio via Duerer - Pfarrhofstrasse" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA MAYR NUSSER 1 + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA MAYR NUSSER 2 + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA MAYR NUSSER 3 + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA MAYR NUSSER 4 + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 1 + MEBO" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 2 + MEBO" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 3 + MEBO" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA MENDOLA + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA MERANO / MERANER STRASSE 1 + incrocio via Resia - viale Druso 1" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA MERANO / MERANER STRASSE 2 + Settequerce" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA MILANO 1 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA MILANO 2 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA MIRAMONTI / REICHRIEGLERWEG + S. Genesio" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA MUSEO / MUSEUMSTRASSE + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA OLTRADIGE / UEBERETSCHER STRASSE + SS42" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA PALERMO / PALERMOSTRASSE 1 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA PALERMO / PALERMOSTRASSE 2 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA PALERMO / PALERMOSTRASSE 3 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA PARMA 1 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA PARMA 2 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA RENCIO / RENTSCHER STRASSE + SS12 Cardano" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA RENCIO / RENTSCHNER STRASSE + Renon" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA RENON / RITTNER STRASSE + ponte Virgolo" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA RESIA 2 + incrocio via Resia - viale Druso 1" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA RIGHI + siemens" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA ROEN + druso-poste" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA ROMA / ROMSTRASSE + via Claudia Augusta 1" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA ROMA / ROMSTRASSE 1 + via Claudia Augusta 1" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA ROMA / ROMSTRASSE 2 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA ROMA / ROMSTRASSE 3 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA ROVIGO 1 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA ROVIGO 2 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA S. GIACOMO / ST.-JAKOB-STRASSE + incrocio via Duerer - Pfarrhofstrasse" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA S. MAURIZIO + Settequerce" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA S. QUIRINO + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA SAN GENESIO / JENESIER WEG + S. Genesio" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA SAN MAURIZIO / MORITZINGER WEG + via Vittorio Veneto" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA SANT'ANTONIO / ST.-ANTON-STRASSE + Sarentino" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA SARENTINO / SARNTALER  STRASSE 1 + Sarentino" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA SARENTINO / SARNTALER  STRASSE 2 + Sarentino" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA SASSARI 1 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA SASSARI 2 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA SASSARI 3 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA TALVERA + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA TORINO 1 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA TORINO 2 + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA TORRICELLI + via Torricelli" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "Trafficstation"
+            }
+          },
+          "VIA TRE SANTI + via Vittorio Veneto" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA VENEZIA + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE + galvani" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA VINTOLA 1 + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA VINTOLA 2 + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA VITTORIO VENETO / VITTORIO-VENETO-STRASSE + via Vittorio Veneto" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA WEGGENSTEIN + Sarentino" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA WEGGENSTEIN / WEGGENSTEINSTRASSE + Sarentino" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIA WERNER VON SIEMENS / WERNER-VON-SIEMENS-STRASSE 1 + siemens" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIA WERNER VON SIEMENS / WERNER-VON-SIEMENS-STRASSE 2 + siemens" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIALE DRUSO / DRUSUSALLEE 1 + incrocio via Resia - viale Druso 1" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIALE DRUSO / DRUSUSALLEE 2 + incrocio via Resia - viale Druso 1" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIALE DRUSO 1 + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIALE DRUSO 2 + ponte Talvera" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIALE DRUSO 3 + druso-poste" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIALE DRUSO 4 + incrocio via Resia - viale Druso 1" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          },
+          "VIALE EUROPA + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIALE TRENTO + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VIALE TRIESTE + proma" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "BluetoothStation"
+            }
+          },
+          "VICOLO FUCINE + via Vittorio Veneto" : {
+            "ebegin" : {
+              "sborigin" : null
+            },
+            "eend" : {
+              "setype" : "traffic"
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

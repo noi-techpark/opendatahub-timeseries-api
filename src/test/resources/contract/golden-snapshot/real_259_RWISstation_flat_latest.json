@@ -1,0 +1,1263 @@
+{
+  "request" : "GET /flat/RWISstation/*/latest?limit=300 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "_timestamp" : "2015-11-30 11:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2015-11-30 18:50:02.605+0000",
+      "mvalidtime" : "2015-11-30 11:00:00.000+0000",
+      "mvalue" : 2.96,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "rwis2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.134472,
+        "y" : 46.197769
+      },
+      "smetadata" : {
+        "municipality" : "San Michele all'Adige"
+      },
+      "sname" : "S.Michele",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Mean temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "_timestamp" : "2015-11-30 11:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2015-11-30 18:50:02.620+0000",
+      "mvalidtime" : "2015-11-30 11:00:00.000+0000",
+      "mvalue" : 54,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "rwis2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.134472,
+        "y" : 46.197769
+      },
+      "smetadata" : {
+        "municipality" : "San Michele all'Adige"
+      },
+      "sname" : "S.Michele",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Umidità relativa",
+      "tmetadata" : { },
+      "tname" : "air-humidity",
+      "tunit" : "%"
+    }, {
+      "_timestamp" : "2015-11-30 11:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2015-11-30 18:50:02.647+0000",
+      "mvalidtime" : "2015-11-30 11:00:00.000+0000",
+      "mvalue" : 5.7,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "rwis2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.134472,
+        "y" : 46.197769
+      },
+      "smetadata" : {
+        "municipality" : "San Michele all'Adige"
+      },
+      "sname" : "S.Michele",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Velocità del vento",
+      "tmetadata" : { },
+      "tname" : "wind-speed",
+      "tunit" : "m/s"
+    }, {
+      "_timestamp" : "2015-11-30 11:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2015-11-30 18:50:02.661+0000",
+      "mvalidtime" : "2015-11-30 11:00:00.000+0000",
+      "mvalue" : 998,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "rwis2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.134472,
+        "y" : 46.197769
+      },
+      "smetadata" : {
+        "municipality" : "San Michele all'Adige"
+      },
+      "sname" : "S.Michele",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "atmospheric-pressure",
+      "ttype" : "Mittelwerte",
+      "tunit" : "hPa"
+    }, {
+      "_timestamp" : "2015-11-30 11:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2015-11-30 18:50:02.710+0000",
+      "mvalidtime" : "2015-11-30 11:00:00.000+0000",
+      "mvalue" : 2.92,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "rwis2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.134472,
+        "y" : 46.197769
+      },
+      "smetadata" : {
+        "municipality" : "San Michele all'Adige"
+      },
+      "sname" : "S.Michele",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "ground-surface-temperature",
+      "tunit" : "°C"
+    }, {
+      "_timestamp" : "2015-11-30 11:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2015-11-30 18:50:02.697+0000",
+      "mvalidtime" : "2015-11-30 11:00:00.000+0000",
+      "mvalue" : 0,
+      "prlineage" : "VARIOUS",
+      "prname" : "Migration from V1: Measurements",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "rwis2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.134472,
+        "y" : 46.197769
+      },
+      "smetadata" : {
+        "municipality" : "San Michele all'Adige"
+      },
+      "sname" : "S.Michele",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "precipitation-intensity"
+    }, {
+      "_timestamp" : "2015-11-30 11:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2015-11-30 18:50:02.678+0000",
+      "mvalidtime" : "2015-11-30 11:00:00.000+0000",
+      "mvalue" : 0,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "rwis2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.134472,
+        "y" : 46.197769
+      },
+      "smetadata" : {
+        "municipality" : "San Michele all'Adige"
+      },
+      "sname" : "S.Michele",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "type-of-precipitation"
+    }, {
+      "_timestamp" : "2018-04-03 16:50:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.059+0000",
+      "mvalidtime" : "2018-04-03 16:50:00.000+0000",
+      "mvalue" : 0,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.101253,
+        "y" : 46.151711
+      },
+      "smetadata" : {
+        "municipality" : "Lavis"
+      },
+      "sname" : "Casa Cantoniera",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "precipitation-intensity"
+    }, {
+      "_timestamp" : "2018-04-03 16:50:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.787+0000",
+      "mvalidtime" : "2018-04-03 16:50:00.000+0000",
+      "mvalue" : 0,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis7",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.183341,
+        "y" : 46.083308
+      },
+      "smetadata" : {
+        "municipality" : "Civezzano"
+      },
+      "sname" : "Civezzano",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "precipitation-intensity"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.283+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 14.1,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.151913,
+        "y" : 46.210154
+      },
+      "smetadata" : {
+        "municipality" : "Faedo"
+      },
+      "sname" : "Cadino",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Mean temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.638+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 13.3,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.069111,
+        "y" : 46.23165
+      },
+      "smetadata" : {
+        "municipality" : "Predaia"
+      },
+      "sname" : "Rocchetta",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Mean temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.930+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 13.7,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.101253,
+        "y" : 46.151711
+      },
+      "smetadata" : {
+        "municipality" : "Lavis"
+      },
+      "sname" : "Casa Cantoniera",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Mean temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.206+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 13.9,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.08575,
+        "y" : 46.122225
+      },
+      "smetadata" : {
+        "municipality" : "Trento"
+      },
+      "sname" : "Viadotto A22",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Mean temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.471+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 14.2,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.113311,
+        "y" : 45.97342
+      },
+      "smetadata" : {
+        "municipality" : "Calliano"
+      },
+      "sname" : "Acquaviva",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Mean temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.705+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 13.1,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis7",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.183341,
+        "y" : 46.083308
+      },
+      "smetadata" : {
+        "municipality" : "Civezzano"
+      },
+      "sname" : "Civezzano",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Mean temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.243+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 53,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.151913,
+        "y" : 46.210154
+      },
+      "smetadata" : {
+        "municipality" : "Faedo"
+      },
+      "sname" : "Cadino",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Umidità relativa",
+      "tmetadata" : { },
+      "tname" : "air-humidity",
+      "tunit" : "%"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.597+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 50,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.069111,
+        "y" : 46.23165
+      },
+      "smetadata" : {
+        "municipality" : "Predaia"
+      },
+      "sname" : "Rocchetta",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Umidità relativa",
+      "tmetadata" : { },
+      "tname" : "air-humidity",
+      "tunit" : "%"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.891+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 48,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.101253,
+        "y" : 46.151711
+      },
+      "smetadata" : {
+        "municipality" : "Lavis"
+      },
+      "sname" : "Casa Cantoniera",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Umidità relativa",
+      "tmetadata" : { },
+      "tname" : "air-humidity",
+      "tunit" : "%"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.172+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 45,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.08575,
+        "y" : 46.122225
+      },
+      "smetadata" : {
+        "municipality" : "Trento"
+      },
+      "sname" : "Viadotto A22",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Umidità relativa",
+      "tmetadata" : { },
+      "tname" : "air-humidity",
+      "tunit" : "%"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.436+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 60,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.113311,
+        "y" : 45.97342
+      },
+      "smetadata" : {
+        "municipality" : "Calliano"
+      },
+      "sname" : "Acquaviva",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Umidità relativa",
+      "tmetadata" : { },
+      "tname" : "air-humidity",
+      "tunit" : "%"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.666+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 56,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis7",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.183341,
+        "y" : 46.083308
+      },
+      "smetadata" : {
+        "municipality" : "Civezzano"
+      },
+      "sname" : "Civezzano",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Umidità relativa",
+      "tmetadata" : { },
+      "tname" : "air-humidity",
+      "tunit" : "%"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.533+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 3.3,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.151913,
+        "y" : 46.210154
+      },
+      "smetadata" : {
+        "municipality" : "Faedo"
+      },
+      "sname" : "Cadino",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Velocità del vento",
+      "tmetadata" : { },
+      "tname" : "wind-speed",
+      "tunit" : "m/s"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.839+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 12.7,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.069111,
+        "y" : 46.23165
+      },
+      "smetadata" : {
+        "municipality" : "Predaia"
+      },
+      "sname" : "Rocchetta",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Velocità del vento",
+      "tmetadata" : { },
+      "tname" : "wind-speed",
+      "tunit" : "m/s"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.131+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 8.1,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.101253,
+        "y" : 46.151711
+      },
+      "smetadata" : {
+        "municipality" : "Lavis"
+      },
+      "sname" : "Casa Cantoniera",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Velocità del vento",
+      "tmetadata" : { },
+      "tname" : "wind-speed",
+      "tunit" : "m/s"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.399+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 14.2,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.08575,
+        "y" : 46.122225
+      },
+      "smetadata" : {
+        "municipality" : "Trento"
+      },
+      "sname" : "Viadotto A22",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Velocità del vento",
+      "tmetadata" : { },
+      "tname" : "wind-speed",
+      "tunit" : "m/s"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.637+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 8.3,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.113311,
+        "y" : 45.97342
+      },
+      "smetadata" : {
+        "municipality" : "Calliano"
+      },
+      "sname" : "Acquaviva",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Velocità del vento",
+      "tmetadata" : { },
+      "tname" : "wind-speed",
+      "tunit" : "m/s"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.853+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 2.1,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis7",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.183341,
+        "y" : 46.083308
+      },
+      "smetadata" : {
+        "municipality" : "Civezzano"
+      },
+      "sname" : "Civezzano",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "Velocità del vento",
+      "tmetadata" : { },
+      "tname" : "wind-speed",
+      "tunit" : "m/s"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.325+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 988,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.151913,
+        "y" : 46.210154
+      },
+      "smetadata" : {
+        "municipality" : "Faedo"
+      },
+      "sname" : "Cadino",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "atmospheric-pressure",
+      "ttype" : "Mittelwerte",
+      "tunit" : "hPa"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.678+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 984,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.069111,
+        "y" : 46.23165
+      },
+      "smetadata" : {
+        "municipality" : "Predaia"
+      },
+      "sname" : "Rocchetta",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "atmospheric-pressure",
+      "ttype" : "Mittelwerte",
+      "tunit" : "hPa"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.971+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 990,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.101253,
+        "y" : 46.151711
+      },
+      "smetadata" : {
+        "municipality" : "Lavis"
+      },
+      "sname" : "Casa Cantoniera",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "atmospheric-pressure",
+      "ttype" : "Mittelwerte",
+      "tunit" : "hPa"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.218+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 876,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.08575,
+        "y" : 46.122225
+      },
+      "smetadata" : {
+        "municipality" : "Trento"
+      },
+      "sname" : "Viadotto A22",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "atmospheric-pressure",
+      "ttype" : "Mittelwerte",
+      "tunit" : "hPa"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.507+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 996,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.113311,
+        "y" : 45.97342
+      },
+      "smetadata" : {
+        "municipality" : "Calliano"
+      },
+      "sname" : "Acquaviva",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "atmospheric-pressure",
+      "ttype" : "Mittelwerte",
+      "tunit" : "hPa"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.731+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 969,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis7",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.183341,
+        "y" : 46.083308
+      },
+      "smetadata" : {
+        "municipality" : "Civezzano"
+      },
+      "sname" : "Civezzano",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "atmospheric-pressure",
+      "ttype" : "Mittelwerte",
+      "tunit" : "hPa"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.350+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 13.3,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.151913,
+        "y" : 46.210154
+      },
+      "smetadata" : {
+        "municipality" : "Faedo"
+      },
+      "sname" : "Cadino",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "ground-surface-temperature",
+      "tunit" : "°C"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.725+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 15.2,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.069111,
+        "y" : 46.23165
+      },
+      "smetadata" : {
+        "municipality" : "Predaia"
+      },
+      "sname" : "Rocchetta",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "ground-surface-temperature",
+      "tunit" : "°C"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.012+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 14.8,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.101253,
+        "y" : 46.151711
+      },
+      "smetadata" : {
+        "municipality" : "Lavis"
+      },
+      "sname" : "Casa Cantoniera",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "ground-surface-temperature",
+      "tunit" : "°C"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.265+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 15.9,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.08575,
+        "y" : 46.122225
+      },
+      "smetadata" : {
+        "municipality" : "Trento"
+      },
+      "sname" : "Viadotto A22",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "ground-surface-temperature",
+      "tunit" : "°C"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.533+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 16.2,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.113311,
+        "y" : 45.97342
+      },
+      "smetadata" : {
+        "municipality" : "Calliano"
+      },
+      "sname" : "Acquaviva",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "ground-surface-temperature",
+      "tunit" : "°C"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.762+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 14.2,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis7",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.183341,
+        "y" : 46.083308
+      },
+      "smetadata" : {
+        "municipality" : "Civezzano"
+      },
+      "sname" : "Civezzano",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "ground-surface-temperature",
+      "tunit" : "°C"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.399+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 0,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.151913,
+        "y" : 46.210154
+      },
+      "smetadata" : {
+        "municipality" : "Faedo"
+      },
+      "sname" : "Cadino",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "precipitation-intensity"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.769+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 0,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.069111,
+        "y" : 46.23165
+      },
+      "smetadata" : {
+        "municipality" : "Predaia"
+      },
+      "sname" : "Rocchetta",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "precipitation-intensity"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.318+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 0,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.08575,
+        "y" : 46.122225
+      },
+      "smetadata" : {
+        "municipality" : "Trento"
+      },
+      "sname" : "Viadotto A22",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "precipitation-intensity"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.576+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 1,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.113311,
+        "y" : 45.97342
+      },
+      "smetadata" : {
+        "municipality" : "Calliano"
+      },
+      "sname" : "Acquaviva",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "precipitation-intensity"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.455+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 0,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.151913,
+        "y" : 46.210154
+      },
+      "smetadata" : {
+        "municipality" : "Faedo"
+      },
+      "sname" : "Cadino",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "type-of-precipitation"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:02.801+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 0,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.069111,
+        "y" : 46.23165
+      },
+      "smetadata" : {
+        "municipality" : "Predaia"
+      },
+      "sname" : "Rocchetta",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "type-of-precipitation"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.104+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 0,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.101253,
+        "y" : 46.151711
+      },
+      "smetadata" : {
+        "municipality" : "Lavis"
+      },
+      "sname" : "Casa Cantoniera",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "type-of-precipitation"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.356+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 0,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.08575,
+        "y" : 46.122225
+      },
+      "smetadata" : {
+        "municipality" : "Trento"
+      },
+      "sname" : "Viadotto A22",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "type-of-precipitation"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.606+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 1,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.113311,
+        "y" : 45.97342
+      },
+      "smetadata" : {
+        "municipality" : "Calliano"
+      },
+      "sname" : "Acquaviva",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "type-of-precipitation"
+    }, {
+      "_timestamp" : "2018-04-03 17:00:00.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2018-04-03 17:20:03.823+0000",
+      "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+      "mvalue" : 0,
+      "prlineage" : "VARIOUS",
+      "prname" : "Delta migration-script from V1 to V2",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "rwis7",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.183341,
+        "y" : 46.083308
+      },
+      "smetadata" : {
+        "municipality" : "Civezzano"
+      },
+      "sname" : "Civezzano",
+      "sorigin" : "InfoMobility",
+      "stype" : "RWISstation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "type-of-precipitation"
+    } ],
+    "limit" : 300,
+    "offset" : 0
+  }
+}

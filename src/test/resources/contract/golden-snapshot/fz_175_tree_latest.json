@@ -1,0 +1,14 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=mperiod,mvalidtime,smetadata.nothere,porigin&where=mvalue.lt.100,mvalue.gt.0&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "795e452bdd57afd0daad453c02cbdcb05a2a41e639727bbd845890adff29a4b9",
+  "bodyRecords" : 161768
+}

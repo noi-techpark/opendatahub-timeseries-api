@@ -1,0 +1,1433 @@
+{
+  "request" : "GET /flat/Streetstation/*?limit=200 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+        "length" : 795,
+        "linegeometry" : "0102000020787F000018000000320EB21DABB22441CBC97A99DBA45341EB57BEDF6FB22441D11F8976CCA45341EDADCC4C39B2244122AD2075C2A453416041E51009B22441B6C524BBBBA45341B24F1203B1B124412D593D67B1A453412764C00A25B12441D71F89EE9CA45341781CDF4FF7B02441DC4A10F596A45341CB2A0CC2A9B0244116D451E58DA453411F3939B487B024417A0F31458BA45341BFD4FDD4EBAF24413BAF4B2484A4534183F5ADC7B4AF244162B5CCD980A453419AF9039697AF24416E8C70FA7DA45341FE34E3A57CAF24417FE4A9367AA45341269172A86DAF244189BB4D5777A45341D603DBF961AF244177388D0C74A45341B228E1FA59AF2441E64A10756FA45341EE0731485CAF244159B3A13A67A453414EC27A5463AF244186653F0264A45341B1FD59E470AF24414DDCFD5160A45341B428E17A80AF244163B5CC395DA453419F4F128393AF2441CE7141755AA453415CC4A59BA5AF2441BC19082958A45341699B498CEAAF2441D99EF37A52A45341D2EBF5A8FAAF244123438DD74CA45341",
+        "old_idstr" : 22,
+        "speed_default" : 48
+      },
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Anidride carbonica",
+      "tname" : "CO2",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CORSO ITALIA / ITALIENALLEE",
+      "smetadata" : {
+        "description" : " CORSO ITALIA / ITALIENALLEE",
+        "length" : 620,
+        "linegeometry" : "0102000020787F0000040000001E7B99D9DEBC244108B3A11A90A7534188E1FFBF2ABD24418A9EF3C218A753416D879B043ABD244101D59EB5F9A653418AE1FFBF42BD2441F7DBFD99F5A65341",
+        "old_idstr" : 25,
+        "speed_default" : 35
+      },
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Composti Organici Volatili",
+      "tname" : "COV",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+        "length" : 795,
+        "linegeometry" : "0102000020787F000018000000320EB21DABB22441CBC97A99DBA45341EB57BEDF6FB22441D11F8976CCA45341EDADCC4C39B2244122AD2075C2A453416041E51009B22441B6C524BBBBA45341B24F1203B1B124412D593D67B1A453412764C00A25B12441D71F89EE9CA45341781CDF4FF7B02441DC4A10F596A45341CB2A0CC2A9B0244116D451E58DA453411F3939B487B024417A0F31458BA45341BFD4FDD4EBAF24413BAF4B2484A4534183F5ADC7B4AF244162B5CCD980A453419AF9039697AF24416E8C70FA7DA45341FE34E3A57CAF24417FE4A9367AA45341269172A86DAF244189BB4D5777A45341D603DBF961AF244177388D0C74A45341B228E1FA59AF2441E64A10756FA45341EE0731485CAF244159B3A13A67A453414EC27A5463AF244186653F0264A45341B1FD59E470AF24414DDCFD5160A45341B428E17A80AF244163B5CC395DA453419F4F128393AF2441CE7141755AA453415CC4A59BA5AF2441BC19082958A45341699B498CEAAF2441D99EF37A52A45341D2EBF5A8FAAF244123438DD74CA45341",
+        "old_idstr" : 22,
+        "speed_default" : 48
+      },
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Fuel Consumption",
+      "tname" : "FC",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE ROMA / ROMBRCKE 1",
+      "smetadata" : {
+        "description" : " PONTE ROMA / ROMBRCKE",
+        "length" : 207,
+        "linegeometry" : "0102000020787F000002000000CE14337397BE244115388D6C70A65341570556C315BF2441D5D3332B3FA65341",
+        "old_idstr" : 8,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Fuel Consumption",
+      "tname" : "FC",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE ROMA / ROMBRCKE 1",
+      "smetadata" : {
+        "description" : " PONTE ROMA / ROMBRCKE",
+        "length" : 207,
+        "linegeometry" : "0102000020787F000002000000CE14337397BE244115388D6C70A65341570556C315BF2441D5D3332B3FA65341",
+        "old_idstr" : 8,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Polveri Totali Sospese",
+      "tname" : "PTS",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE ROMA / ROMBRCKE 1",
+      "smetadata" : {
+        "description" : " PONTE ROMA / ROMBRCKE",
+        "length" : 207,
+        "linegeometry" : "0102000020787F000002000000CE14337397BE244115388D6C70A65341570556C315BF2441D5D3332B3FA65341",
+        "old_idstr" : 8,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di azoto",
+      "tname" : "NOX",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "smetadata" : {
+        "description" : " VIA PALERMO / PALERMOSTRASSE",
+        "length" : 179,
+        "linegeometry" : "0102000020787F00000300000024D953A3F7B72441A51D5EDF32A65341E5A3F56815B82441D650911240A65341E4786E1247B82441D0FA82855EA65341",
+        "old_idstr" : 16,
+        "speed_default" : 25
+      },
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "tname" : "IPA",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+        "length" : 842,
+        "linegeometry" : "0102000020787F00000600000033D7281C15BA244181F0ABC13CA55341DD4766A6FABA24415E6BC07F9DA5534108A52FED29BB24418BB5FF9BAEA55341EB1E0A974CBB244148BD78EEBFA553413EA317A6EDBB244169327B3804A6534181696554E8BB2441946B22F301A65341",
+        "old_idstr" : 23,
+        "speed_default" : 44
+      },
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di azoto",
+      "tname" : "NOX",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+        "length" : 842,
+        "linegeometry" : "0102000020787F00000600000033D7281C15BA244181F0ABC13CA55341DD4766A6FABA24415E6BC07F9DA5534108A52FED29BB24418BB5FF9BAEA55341EB1E0A974CBB244148BD78EEBFA553413EA317A6EDBB244169327B3804A6534181696554E8BB2441946B22F301A65341",
+        "old_idstr" : 23,
+        "speed_default" : 44
+      },
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Anidride carbonica",
+      "tname" : "CO2",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE PALERMO / PALERMOBRCKE",
+      "smetadata" : {
+        "description" : " PONTE PALERMO / PALERMOBRCKE",
+        "length" : 365,
+        "linegeometry" : "0102000020787F00000800000024D953A3F7B72441A51D5EDF32A653414589C6CBE8B724410DAF4B242AA65341A2431098E5B72441A2F2D6A825A6534113811A6FE6B724417DEC55B321A65341FC7CC420F6B72441683E0E421BA6534196EBD6234FB824415190C66805A653413104DB39DDB82441F3561220E4A55341592AA8E4F9B82441A0EDCEA3E0A55341",
+        "old_idstr" : 15,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "polveri sottili",
+      "tname" : "PM10",
+      "ttype" : "Mean",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE ROMA / ROMBRCKE 1",
+      "smetadata" : {
+        "description" : " PONTE ROMA / ROMBRCKE",
+        "length" : 207,
+        "linegeometry" : "0102000020787F000002000000CE14337397BE244115388D6C70A65341570556C315BF2441D5D3332B3FA65341",
+        "old_idstr" : 8,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Anidride carbonica",
+      "tname" : "CO2",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "smetadata" : {
+        "description" : " VIA PALERMO / PALERMOSTRASSE",
+        "length" : 179,
+        "linegeometry" : "0102000020787F00000300000024D953A3F7B72441A51D5EDF32A65341E5A3F56815B82441D650911240A65341E4786E1247B82441D0FA82855EA65341",
+        "old_idstr" : 16,
+        "speed_default" : 25
+      },
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Anidride carbonica",
+      "tname" : "CO2",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+        "length" : 842,
+        "linegeometry" : "0102000020787F00000600000033D7281C15BA244181F0ABC13CA55341DD4766A6FABA24415E6BC07F9DA5534108A52FED29BB24418BB5FF9BAEA55341EB1E0A974CBB244148BD78EEBFA553413EA317A6EDBB244169327B3804A6534181696554E8BB2441946B22F301A65341",
+        "old_idstr" : 23,
+        "speed_default" : 44
+      },
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Polveri Totali Sospese",
+      "tname" : "PTS",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+        "length" : 795,
+        "linegeometry" : "0102000020787F000018000000320EB21DABB22441CBC97A99DBA45341EB57BEDF6FB22441D11F8976CCA45341EDADCC4C39B2244122AD2075C2A453416041E51009B22441B6C524BBBBA45341B24F1203B1B124412D593D67B1A453412764C00A25B12441D71F89EE9CA45341781CDF4FF7B02441DC4A10F596A45341CB2A0CC2A9B0244116D451E58DA453411F3939B487B024417A0F31458BA45341BFD4FDD4EBAF24413BAF4B2484A4534183F5ADC7B4AF244162B5CCD980A453419AF9039697AF24416E8C70FA7DA45341FE34E3A57CAF24417FE4A9367AA45341269172A86DAF244189BB4D5777A45341D603DBF961AF244177388D0C74A45341B228E1FA59AF2441E64A10756FA45341EE0731485CAF244159B3A13A67A453414EC27A5463AF244186653F0264A45341B1FD59E470AF24414DDCFD5160A45341B428E17A80AF244163B5CC395DA453419F4F128393AF2441CE7141755AA453415CC4A59BA5AF2441BC19082958A45341699B498CEAAF2441D99EF37A52A45341D2EBF5A8FAAF244123438DD74CA45341",
+        "old_idstr" : 22,
+        "speed_default" : 48
+      },
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Polveri Totali Sospese",
+      "tname" : "PTS",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+        "length" : 842,
+        "linegeometry" : "0102000020787F00000600000033D7281C15BA244181F0ABC13CA55341DD4766A6FABA24415E6BC07F9DA5534108A52FED29BB24418BB5FF9BAEA55341EB1E0A974CBB244148BD78EEBFA553413EA317A6EDBB244169327B3804A6534181696554E8BB2441946B22F301A65341",
+        "old_idstr" : 23,
+        "speed_default" : 44
+      },
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di Zolfo",
+      "tname" : "S02",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE PALERMO / PALERMOBRCKE",
+      "smetadata" : {
+        "description" : " PONTE PALERMO / PALERMOBRCKE",
+        "length" : 365,
+        "linegeometry" : "0102000020787F00000800000024D953A3F7B72441A51D5EDF32A653414589C6CBE8B724410DAF4B242AA65341A2431098E5B72441A2F2D6A825A6534113811A6FE6B724417DEC55B321A65341FC7CC420F6B72441683E0E421BA6534196EBD6234FB824415190C66805A653413104DB39DDB82441F3561220E4A55341592AA8E4F9B82441A0EDCEA3E0A55341",
+        "old_idstr" : 15,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Anidride carbonica",
+      "tname" : "CO2",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "smetadata" : {
+        "description" : " VIA PALERMO / PALERMOSTRASSE",
+        "length" : 179,
+        "linegeometry" : "0102000020787F00000300000024D953A3F7B72441A51D5EDF32A65341E5A3F56815B82441D650911240A65341E4786E1247B82441D0FA82855EA65341",
+        "old_idstr" : 16,
+        "speed_default" : 25
+      },
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "polveri sottili",
+      "tname" : "PM10",
+      "ttype" : "Mean",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "smetadata" : {
+        "description" : " VIA PALERMO / PALERMOSTRASSE",
+        "length" : 179,
+        "linegeometry" : "0102000020787F00000300000024D953A3F7B72441A51D5EDF32A65341E5A3F56815B82441D650911240A65341E4786E1247B82441D0FA82855EA65341",
+        "old_idstr" : 16,
+        "speed_default" : 25
+      },
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ammoniaca",
+      "tname" : "NH3",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "smetadata" : {
+        "description" : " VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE",
+        "length" : 322,
+        "linegeometry" : "0102000020787F000004000000CD4DD4DB31B724411F0B80604FA553411609777765B72441D86388CC5BA55341C91E0A97FDB72441EE7F6ED78CA553419CE2D6051EB8244199A073139AA55341",
+        "old_idstr" : 14,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "polveri sottili",
+      "tname" : "PM10",
+      "ttype" : "Mean",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+        "length" : 795,
+        "linegeometry" : "0102000020787F000018000000320EB21DABB22441CBC97A99DBA45341EB57BEDF6FB22441D11F8976CCA45341EDADCC4C39B2244122AD2075C2A453416041E51009B22441B6C524BBBBA45341B24F1203B1B124412D593D67B1A453412764C00A25B12441D71F89EE9CA45341781CDF4FF7B02441DC4A10F596A45341CB2A0CC2A9B0244116D451E58DA453411F3939B487B024417A0F31458BA45341BFD4FDD4EBAF24413BAF4B2484A4534183F5ADC7B4AF244162B5CCD980A453419AF9039697AF24416E8C70FA7DA45341FE34E3A57CAF24417FE4A9367AA45341269172A86DAF244189BB4D5777A45341D603DBF961AF244177388D0C74A45341B228E1FA59AF2441E64A10756FA45341EE0731485CAF244159B3A13A67A453414EC27A5463AF244186653F0264A45341B1FD59E470AF24414DDCFD5160A45341B428E17A80AF244163B5CC395DA453419F4F128393AF2441CE7141755AA453415CC4A59BA5AF2441BC19082958A45341699B498CEAAF2441D99EF37A52A45341D2EBF5A8FAAF244123438DD74CA45341",
+        "old_idstr" : 22,
+        "speed_default" : 48
+      },
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "tname" : "IPA",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "smetadata" : {
+        "description" : " VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE",
+        "length" : 322,
+        "linegeometry" : "0102000020787F000004000000CD4DD4DB31B724411F0B80604FA553411609777765B72441D86388CC5BA55341C91E0A97FDB72441EE7F6ED78CA553419CE2D6051EB8244199A073139AA55341",
+        "old_idstr" : 14,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ammoniaca",
+      "tname" : "NH3",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "smetadata" : {
+        "description" : " VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE",
+        "length" : 322,
+        "linegeometry" : "0102000020787F000004000000CD4DD4DB31B724411F0B80604FA553411609777765B72441D86388CC5BA55341C91E0A97FDB72441EE7F6ED78CA553419CE2D6051EB8244199A073139AA55341",
+        "old_idstr" : 14,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Anidride carbonica",
+      "tname" : "CO2",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE ROMA / ROMBRCKE 1",
+      "smetadata" : {
+        "description" : " PONTE ROMA / ROMBRCKE",
+        "length" : 207,
+        "linegeometry" : "0102000020787F000002000000CE14337397BE244115388D6C70A65341570556C315BF2441D5D3332B3FA65341",
+        "old_idstr" : 8,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "polveri sottili",
+      "tname" : "PM10",
+      "ttype" : "Mean",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+        "length" : 842,
+        "linegeometry" : "0102000020787F00000600000033D7281C15BA244181F0ABC13CA55341DD4766A6FABA24415E6BC07F9DA5534108A52FED29BB24418BB5FF9BAEA55341EB1E0A974CBB244148BD78EEBFA553413EA317A6EDBB244169327B3804A6534181696554E8BB2441946B22F301A65341",
+        "old_idstr" : 23,
+        "speed_default" : 44
+      },
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Metano",
+      "tname" : "CH4",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+        "length" : 1198,
+        "linegeometry" : "0102000020787F00000F0000006C57837CC8B3244109F27FFF70A55341B8F7D84E25B424419096471667A553418F70C27556B42441F627355B63A553418E1AB408A0B42441A39A9DD45FA55341D471E04355B524417428D2E35AA553419FC6D0C277B52441B79EF35259A55341CE5671FB97B5244181AFBA3959A553411E04DB39D1B6244134B5CC5951A55341F49EC1770CB72441CCBDE7BB50A55341BE04D4DB31B72441F60C82604FA55341BB4766269FB72441032EB6184CA55341F7A3F5E875B92441BA23DF4440A55341600A5CCFAFB92441AC4C3B843EA55341488570FD40BA24414CBD78DE3BA553418F5ADB16CDBC24410B1B4A212BA55341",
+        "old_idstr" : 2,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di azoto",
+      "tname" : "NOX",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+        "length" : 1198,
+        "linegeometry" : "0102000020787F00000F0000006C57837CC8B3244109F27FFF70A55341B8F7D84E25B424419096471667A553418F70C27556B42441F627355B63A553418E1AB408A0B42441A39A9DD45FA55341D471E04355B524417428D2E35AA553419FC6D0C277B52441B79EF35259A55341CE5671FB97B5244181AFBA3959A553411E04DB39D1B6244134B5CC5951A55341F49EC1770CB72441CCBDE7BB50A55341BE04D4DB31B72441F60C82604FA55341BB4766269FB72441032EB6184CA55341F7A3F5E875B92441BA23DF4440A55341600A5CCFAFB92441AC4C3B843EA55341488570FD40BA24414CBD78DE3BA553418F5ADB16CDBC24410B1B4A212BA55341",
+        "old_idstr" : 2,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "polveri sottili",
+      "tname" : "PM10",
+      "ttype" : "Mean",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+        "length" : 842,
+        "linegeometry" : "0102000020787F00000600000033D7281C15BA244181F0ABC13CA55341DD4766A6FABA24415E6BC07F9DA5534108A52FED29BB24418BB5FF9BAEA55341EB1E0A974CBB244148BD78EEBFA553413EA317A6EDBB244169327B3804A6534181696554E8BB2441946B22F301A65341",
+        "old_idstr" : 23,
+        "speed_default" : 44
+      },
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ammoniaca",
+      "tname" : "NH3",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CORSO ITALIA / ITALIENALLEE",
+      "smetadata" : {
+        "description" : " CORSO ITALIA / ITALIENALLEE",
+        "length" : 620,
+        "linegeometry" : "0102000020787F0000040000001E7B99D9DEBC244108B3A11A90A7534188E1FFBF2ABD24418A9EF3C218A753416D879B043ABD244101D59EB5F9A653418AE1FFBF42BD2441F7DBFD99F5A65341",
+        "old_idstr" : 25,
+        "speed_default" : 35
+      },
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Anidride carbonica",
+      "tname" : "CO2",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "smetadata" : {
+        "description" : " VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE",
+        "length" : 322,
+        "linegeometry" : "0102000020787F000004000000CD4DD4DB31B724411F0B80604FA553411609777765B72441D86388CC5BA55341C91E0A97FDB72441EE7F6ED78CA553419CE2D6051EB8244199A073139AA55341",
+        "old_idstr" : 14,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Monossido di carbonio",
+      "tname" : "CO",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+        "length" : 842,
+        "linegeometry" : "0102000020787F00000600000033D7281C15BA244181F0ABC13CA55341DD4766A6FABA24415E6BC07F9DA5534108A52FED29BB24418BB5FF9BAEA55341EB1E0A974CBB244148BD78EEBFA553413EA317A6EDBB244169327B3804A6534181696554E8BB2441946B22F301A65341",
+        "old_idstr" : 23,
+        "speed_default" : 44
+      },
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Fuel Consumption",
+      "tname" : "FC",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CORSO ITALIA / ITALIENALLEE",
+      "smetadata" : {
+        "description" : " CORSO ITALIA / ITALIENALLEE",
+        "length" : 620,
+        "linegeometry" : "0102000020787F0000040000001E7B99D9DEBC244108B3A11A90A7534188E1FFBF2ABD24418A9EF3C218A753416D879B043ABD244101D59EB5F9A653418AE1FFBF42BD2441F7DBFD99F5A65341",
+        "old_idstr" : 25,
+        "speed_default" : 35
+      },
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ammoniaca",
+      "tname" : "NH3",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CORSO ITALIA / ITALIENALLEE",
+      "smetadata" : {
+        "description" : " CORSO ITALIA / ITALIENALLEE",
+        "length" : 620,
+        "linegeometry" : "0102000020787F0000040000001E7B99D9DEBC244108B3A11A90A7534188E1FFBF2ABD24418A9EF3C218A753416D879B043ABD244101D59EB5F9A653418AE1FFBF42BD2441F7DBFD99F5A65341",
+        "old_idstr" : 25,
+        "speed_default" : 35
+      },
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Monossido di carbonio",
+      "tname" : "CO",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE PALERMO / PALERMOBRCKE",
+      "smetadata" : {
+        "description" : " PONTE PALERMO / PALERMOBRCKE",
+        "length" : 365,
+        "linegeometry" : "0102000020787F00000800000024D953A3F7B72441A51D5EDF32A653414589C6CBE8B724410DAF4B242AA65341A2431098E5B72441A2F2D6A825A6534113811A6FE6B724417DEC55B321A65341FC7CC420F6B72441683E0E421BA6534196EBD6234FB824415190C66805A653413104DB39DDB82441F3561220E4A55341592AA8E4F9B82441A0EDCEA3E0A55341",
+        "old_idstr" : 15,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Metano",
+      "tname" : "CH4",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+        "length" : 795,
+        "linegeometry" : "0102000020787F000018000000320EB21DABB22441CBC97A99DBA45341EB57BEDF6FB22441D11F8976CCA45341EDADCC4C39B2244122AD2075C2A453416041E51009B22441B6C524BBBBA45341B24F1203B1B124412D593D67B1A453412764C00A25B12441D71F89EE9CA45341781CDF4FF7B02441DC4A10F596A45341CB2A0CC2A9B0244116D451E58DA453411F3939B487B024417A0F31458BA45341BFD4FDD4EBAF24413BAF4B2484A4534183F5ADC7B4AF244162B5CCD980A453419AF9039697AF24416E8C70FA7DA45341FE34E3A57CAF24417FE4A9367AA45341269172A86DAF244189BB4D5777A45341D603DBF961AF244177388D0C74A45341B228E1FA59AF2441E64A10756FA45341EE0731485CAF244159B3A13A67A453414EC27A5463AF244186653F0264A45341B1FD59E470AF24414DDCFD5160A45341B428E17A80AF244163B5CC395DA453419F4F128393AF2441CE7141755AA453415CC4A59BA5AF2441BC19082958A45341699B498CEAAF2441D99EF37A52A45341D2EBF5A8FAAF244123438DD74CA45341",
+        "old_idstr" : 22,
+        "speed_default" : 48
+      },
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Monossido di carbonio",
+      "tname" : "CO",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CORSO ITALIA / ITALIENALLEE",
+      "smetadata" : {
+        "description" : " CORSO ITALIA / ITALIENALLEE",
+        "length" : 620,
+        "linegeometry" : "0102000020787F0000040000001E7B99D9DEBC244108B3A11A90A7534188E1FFBF2ABD24418A9EF3C218A753416D879B043ABD244101D59EB5F9A653418AE1FFBF42BD2441F7DBFD99F5A65341",
+        "old_idstr" : 25,
+        "speed_default" : 35
+      },
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "tname" : "IPA",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+        "length" : 795,
+        "linegeometry" : "0102000020787F000018000000320EB21DABB22441CBC97A99DBA45341EB57BEDF6FB22441D11F8976CCA45341EDADCC4C39B2244122AD2075C2A453416041E51009B22441B6C524BBBBA45341B24F1203B1B124412D593D67B1A453412764C00A25B12441D71F89EE9CA45341781CDF4FF7B02441DC4A10F596A45341CB2A0CC2A9B0244116D451E58DA453411F3939B487B024417A0F31458BA45341BFD4FDD4EBAF24413BAF4B2484A4534183F5ADC7B4AF244162B5CCD980A453419AF9039697AF24416E8C70FA7DA45341FE34E3A57CAF24417FE4A9367AA45341269172A86DAF244189BB4D5777A45341D603DBF961AF244177388D0C74A45341B228E1FA59AF2441E64A10756FA45341EE0731485CAF244159B3A13A67A453414EC27A5463AF244186653F0264A45341B1FD59E470AF24414DDCFD5160A45341B428E17A80AF244163B5CC395DA453419F4F128393AF2441CE7141755AA453415CC4A59BA5AF2441BC19082958A45341699B498CEAAF2441D99EF37A52A45341D2EBF5A8FAAF244123438DD74CA45341",
+        "old_idstr" : 22,
+        "speed_default" : 48
+      },
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "polveri sottili",
+      "tname" : "PM10",
+      "ttype" : "Mean",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE PALERMO / PALERMOBRCKE",
+      "smetadata" : {
+        "description" : " PONTE PALERMO / PALERMOBRCKE",
+        "length" : 365,
+        "linegeometry" : "0102000020787F00000800000024D953A3F7B72441A51D5EDF32A653414589C6CBE8B724410DAF4B242AA65341A2431098E5B72441A2F2D6A825A6534113811A6FE6B724417DEC55B321A65341FC7CC420F6B72441683E0E421BA6534196EBD6234FB824415190C66805A653413104DB39DDB82441F3561220E4A55341592AA8E4F9B82441A0EDCEA3E0A55341",
+        "old_idstr" : 15,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ammoniaca",
+      "tname" : "NH3",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+        "length" : 795,
+        "linegeometry" : "0102000020787F000018000000320EB21DABB22441CBC97A99DBA45341EB57BEDF6FB22441D11F8976CCA45341EDADCC4C39B2244122AD2075C2A453416041E51009B22441B6C524BBBBA45341B24F1203B1B124412D593D67B1A453412764C00A25B12441D71F89EE9CA45341781CDF4FF7B02441DC4A10F596A45341CB2A0CC2A9B0244116D451E58DA453411F3939B487B024417A0F31458BA45341BFD4FDD4EBAF24413BAF4B2484A4534183F5ADC7B4AF244162B5CCD980A453419AF9039697AF24416E8C70FA7DA45341FE34E3A57CAF24417FE4A9367AA45341269172A86DAF244189BB4D5777A45341D603DBF961AF244177388D0C74A45341B228E1FA59AF2441E64A10756FA45341EE0731485CAF244159B3A13A67A453414EC27A5463AF244186653F0264A45341B1FD59E470AF24414DDCFD5160A45341B428E17A80AF244163B5CC395DA453419F4F128393AF2441CE7141755AA453415CC4A59BA5AF2441BC19082958A45341699B498CEAAF2441D99EF37A52A45341D2EBF5A8FAAF244123438DD74CA45341",
+        "old_idstr" : 22,
+        "speed_default" : 48
+      },
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Metano",
+      "tname" : "CH4",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "smetadata" : {
+        "description" : " VIA PALERMO / PALERMOSTRASSE",
+        "length" : 179,
+        "linegeometry" : "0102000020787F00000300000024D953A3F7B72441A51D5EDF32A65341E5A3F56815B82441D650911240A65341E4786E1247B82441D0FA82855EA65341",
+        "old_idstr" : 16,
+        "speed_default" : 25
+      },
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Monossido di carbonio",
+      "tname" : "CO",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CORSO ITALIA / ITALIENALLEE",
+      "smetadata" : {
+        "description" : " CORSO ITALIA / ITALIENALLEE",
+        "length" : 620,
+        "linegeometry" : "0102000020787F0000040000001E7B99D9DEBC244108B3A11A90A7534188E1FFBF2ABD24418A9EF3C218A753416D879B043ABD244101D59EB5F9A653418AE1FFBF42BD2441F7DBFD99F5A65341",
+        "old_idstr" : 25,
+        "speed_default" : 35
+      },
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Metano",
+      "tname" : "CH4",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CORSO ITALIA / ITALIENALLEE",
+      "smetadata" : {
+        "description" : " CORSO ITALIA / ITALIENALLEE",
+        "length" : 620,
+        "linegeometry" : "0102000020787F0000040000001E7B99D9DEBC244108B3A11A90A7534188E1FFBF2ABD24418A9EF3C218A753416D879B043ABD244101D59EB5F9A653418AE1FFBF42BD2441F7DBFD99F5A65341",
+        "old_idstr" : 25,
+        "speed_default" : 35
+      },
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di azoto",
+      "tname" : "NOX",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+        "length" : 1198,
+        "linegeometry" : "0102000020787F00000F0000006C57837CC8B3244109F27FFF70A55341B8F7D84E25B424419096471667A553418F70C27556B42441F627355B63A553418E1AB408A0B42441A39A9DD45FA55341D471E04355B524417428D2E35AA553419FC6D0C277B52441B79EF35259A55341CE5671FB97B5244181AFBA3959A553411E04DB39D1B6244134B5CC5951A55341F49EC1770CB72441CCBDE7BB50A55341BE04D4DB31B72441F60C82604FA55341BB4766269FB72441032EB6184CA55341F7A3F5E875B92441BA23DF4440A55341600A5CCFAFB92441AC4C3B843EA55341488570FD40BA24414CBD78DE3BA553418F5ADB16CDBC24410B1B4A212BA55341",
+        "old_idstr" : 2,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "tname" : "IPA",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+        "length" : 795,
+        "linegeometry" : "0102000020787F000018000000320EB21DABB22441CBC97A99DBA45341EB57BEDF6FB22441D11F8976CCA45341EDADCC4C39B2244122AD2075C2A453416041E51009B22441B6C524BBBBA45341B24F1203B1B124412D593D67B1A453412764C00A25B12441D71F89EE9CA45341781CDF4FF7B02441DC4A10F596A45341CB2A0CC2A9B0244116D451E58DA453411F3939B487B024417A0F31458BA45341BFD4FDD4EBAF24413BAF4B2484A4534183F5ADC7B4AF244162B5CCD980A453419AF9039697AF24416E8C70FA7DA45341FE34E3A57CAF24417FE4A9367AA45341269172A86DAF244189BB4D5777A45341D603DBF961AF244177388D0C74A45341B228E1FA59AF2441E64A10756FA45341EE0731485CAF244159B3A13A67A453414EC27A5463AF244186653F0264A45341B1FD59E470AF24414DDCFD5160A45341B428E17A80AF244163B5CC395DA453419F4F128393AF2441CE7141755AA453415CC4A59BA5AF2441BC19082958A45341699B498CEAAF2441D99EF37A52A45341D2EBF5A8FAAF244123438DD74CA45341",
+        "old_idstr" : 22,
+        "speed_default" : 48
+      },
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di azoto",
+      "tname" : "NOX",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+        "length" : 1198,
+        "linegeometry" : "0102000020787F00000F0000006C57837CC8B3244109F27FFF70A55341B8F7D84E25B424419096471667A553418F70C27556B42441F627355B63A553418E1AB408A0B42441A39A9DD45FA55341D471E04355B524417428D2E35AA553419FC6D0C277B52441B79EF35259A55341CE5671FB97B5244181AFBA3959A553411E04DB39D1B6244134B5CC5951A55341F49EC1770CB72441CCBDE7BB50A55341BE04D4DB31B72441F60C82604FA55341BB4766269FB72441032EB6184CA55341F7A3F5E875B92441BA23DF4440A55341600A5CCFAFB92441AC4C3B843EA55341488570FD40BA24414CBD78DE3BA553418F5ADB16CDBC24410B1B4A212BA55341",
+        "old_idstr" : 2,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Polveri Totali Sospese",
+      "tname" : "PTS",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+        "length" : 842,
+        "linegeometry" : "0102000020787F00000600000033D7281C15BA244181F0ABC13CA55341DD4766A6FABA24415E6BC07F9DA5534108A52FED29BB24418BB5FF9BAEA55341EB1E0A974CBB244148BD78EEBFA553413EA317A6EDBB244169327B3804A6534181696554E8BB2441946B22F301A65341",
+        "old_idstr" : 23,
+        "speed_default" : 44
+      },
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Monossido di carbonio",
+      "tname" : "CO",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE PALERMO / PALERMOBRCKE",
+      "smetadata" : {
+        "description" : " PONTE PALERMO / PALERMOBRCKE",
+        "length" : 365,
+        "linegeometry" : "0102000020787F00000800000024D953A3F7B72441A51D5EDF32A653414589C6CBE8B724410DAF4B242AA65341A2431098E5B72441A2F2D6A825A6534113811A6FE6B724417DEC55B321A65341FC7CC420F6B72441683E0E421BA6534196EBD6234FB824415190C66805A653413104DB39DDB82441F3561220E4A55341592AA8E4F9B82441A0EDCEA3E0A55341",
+        "old_idstr" : 15,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di Zolfo",
+      "tname" : "S02",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "smetadata" : {
+        "description" : " VIA PALERMO / PALERMOSTRASSE",
+        "length" : 179,
+        "linegeometry" : "0102000020787F00000300000024D953A3F7B72441A51D5EDF32A65341E5A3F56815B82441D650911240A65341E4786E1247B82441D0FA82855EA65341",
+        "old_idstr" : 16,
+        "speed_default" : 25
+      },
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Metano",
+      "tname" : "CH4",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "smetadata" : {
+        "description" : " VIA PALERMO / PALERMOSTRASSE",
+        "length" : 179,
+        "linegeometry" : "0102000020787F00000300000024D953A3F7B72441A51D5EDF32A65341E5A3F56815B82441D650911240A65341E4786E1247B82441D0FA82855EA65341",
+        "old_idstr" : 16,
+        "speed_default" : 25
+      },
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Composti Organici Volatili",
+      "tname" : "COV",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+        "length" : 1198,
+        "linegeometry" : "0102000020787F00000F0000006C57837CC8B3244109F27FFF70A55341B8F7D84E25B424419096471667A553418F70C27556B42441F627355B63A553418E1AB408A0B42441A39A9DD45FA55341D471E04355B524417428D2E35AA553419FC6D0C277B52441B79EF35259A55341CE5671FB97B5244181AFBA3959A553411E04DB39D1B6244134B5CC5951A55341F49EC1770CB72441CCBDE7BB50A55341BE04D4DB31B72441F60C82604FA55341BB4766269FB72441032EB6184CA55341F7A3F5E875B92441BA23DF4440A55341600A5CCFAFB92441AC4C3B843EA55341488570FD40BA24414CBD78DE3BA553418F5ADB16CDBC24410B1B4A212BA55341",
+        "old_idstr" : 2,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Composti Organici Volatili",
+      "tname" : "COV",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE ROMA / ROMBRCKE 1",
+      "smetadata" : {
+        "description" : " PONTE ROMA / ROMBRCKE",
+        "length" : 207,
+        "linegeometry" : "0102000020787F000002000000CE14337397BE244115388D6C70A65341570556C315BF2441D5D3332B3FA65341",
+        "old_idstr" : 8,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di Zolfo",
+      "tname" : "S02",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+        "length" : 842,
+        "linegeometry" : "0102000020787F00000600000033D7281C15BA244181F0ABC13CA55341DD4766A6FABA24415E6BC07F9DA5534108A52FED29BB24418BB5FF9BAEA55341EB1E0A974CBB244148BD78EEBFA553413EA317A6EDBB244169327B3804A6534181696554E8BB2441946B22F301A65341",
+        "old_idstr" : 23,
+        "speed_default" : 44
+      },
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "tname" : "IPA",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "smetadata" : {
+        "description" : " VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE",
+        "length" : 322,
+        "linegeometry" : "0102000020787F000004000000CD4DD4DB31B724411F0B80604FA553411609777765B72441D86388CC5BA55341C91E0A97FDB72441EE7F6ED78CA553419CE2D6051EB8244199A073139AA55341",
+        "old_idstr" : 14,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "tname" : "IPA",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "smetadata" : {
+        "description" : " VIA PALERMO / PALERMOSTRASSE",
+        "length" : 179,
+        "linegeometry" : "0102000020787F00000300000024D953A3F7B72441A51D5EDF32A65341E5A3F56815B82441D650911240A65341E4786E1247B82441D0FA82855EA65341",
+        "old_idstr" : 16,
+        "speed_default" : 25
+      },
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Fuel Consumption",
+      "tname" : "FC",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE PALERMO / PALERMOBRCKE",
+      "smetadata" : {
+        "description" : " PONTE PALERMO / PALERMOBRCKE",
+        "length" : 365,
+        "linegeometry" : "0102000020787F00000800000024D953A3F7B72441A51D5EDF32A653414589C6CBE8B724410DAF4B242AA65341A2431098E5B72441A2F2D6A825A6534113811A6FE6B724417DEC55B321A65341FC7CC420F6B72441683E0E421BA6534196EBD6234FB824415190C66805A653413104DB39DDB82441F3561220E4A55341592AA8E4F9B82441A0EDCEA3E0A55341",
+        "old_idstr" : 15,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Fuel Consumption",
+      "tname" : "FC",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "smetadata" : {
+        "description" : " VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE",
+        "length" : 322,
+        "linegeometry" : "0102000020787F000004000000CD4DD4DB31B724411F0B80604FA553411609777765B72441D86388CC5BA55341C91E0A97FDB72441EE7F6ED78CA553419CE2D6051EB8244199A073139AA55341",
+        "old_idstr" : 14,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Fuel Consumption",
+      "tname" : "FC",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+        "length" : 795,
+        "linegeometry" : "0102000020787F000018000000320EB21DABB22441CBC97A99DBA45341EB57BEDF6FB22441D11F8976CCA45341EDADCC4C39B2244122AD2075C2A453416041E51009B22441B6C524BBBBA45341B24F1203B1B124412D593D67B1A453412764C00A25B12441D71F89EE9CA45341781CDF4FF7B02441DC4A10F596A45341CB2A0CC2A9B0244116D451E58DA453411F3939B487B024417A0F31458BA45341BFD4FDD4EBAF24413BAF4B2484A4534183F5ADC7B4AF244162B5CCD980A453419AF9039697AF24416E8C70FA7DA45341FE34E3A57CAF24417FE4A9367AA45341269172A86DAF244189BB4D5777A45341D603DBF961AF244177388D0C74A45341B228E1FA59AF2441E64A10756FA45341EE0731485CAF244159B3A13A67A453414EC27A5463AF244186653F0264A45341B1FD59E470AF24414DDCFD5160A45341B428E17A80AF244163B5CC395DA453419F4F128393AF2441CE7141755AA453415CC4A59BA5AF2441BC19082958A45341699B498CEAAF2441D99EF37A52A45341D2EBF5A8FAAF244123438DD74CA45341",
+        "old_idstr" : 22,
+        "speed_default" : 48
+      },
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Composti Organici Volatili",
+      "tname" : "COV",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "smetadata" : {
+        "description" : " VIA PALERMO / PALERMOSTRASSE",
+        "length" : 179,
+        "linegeometry" : "0102000020787F00000300000024D953A3F7B72441A51D5EDF32A65341E5A3F56815B82441D650911240A65341E4786E1247B82441D0FA82855EA65341",
+        "old_idstr" : 16,
+        "speed_default" : 25
+      },
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Polveri Totali Sospese",
+      "tname" : "PTS",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+        "length" : 795,
+        "linegeometry" : "0102000020787F000018000000320EB21DABB22441CBC97A99DBA45341EB57BEDF6FB22441D11F8976CCA45341EDADCC4C39B2244122AD2075C2A453416041E51009B22441B6C524BBBBA45341B24F1203B1B124412D593D67B1A453412764C00A25B12441D71F89EE9CA45341781CDF4FF7B02441DC4A10F596A45341CB2A0CC2A9B0244116D451E58DA453411F3939B487B024417A0F31458BA45341BFD4FDD4EBAF24413BAF4B2484A4534183F5ADC7B4AF244162B5CCD980A453419AF9039697AF24416E8C70FA7DA45341FE34E3A57CAF24417FE4A9367AA45341269172A86DAF244189BB4D5777A45341D603DBF961AF244177388D0C74A45341B228E1FA59AF2441E64A10756FA45341EE0731485CAF244159B3A13A67A453414EC27A5463AF244186653F0264A45341B1FD59E470AF24414DDCFD5160A45341B428E17A80AF244163B5CC395DA453419F4F128393AF2441CE7141755AA453415CC4A59BA5AF2441BC19082958A45341699B498CEAAF2441D99EF37A52A45341D2EBF5A8FAAF244123438DD74CA45341",
+        "old_idstr" : 22,
+        "speed_default" : 48
+      },
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ammoniaca",
+      "tname" : "NH3",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "smetadata" : {
+        "description" : " VIA PALERMO / PALERMOSTRASSE",
+        "length" : 179,
+        "linegeometry" : "0102000020787F00000300000024D953A3F7B72441A51D5EDF32A65341E5A3F56815B82441D650911240A65341E4786E1247B82441D0FA82855EA65341",
+        "old_idstr" : 16,
+        "speed_default" : 25
+      },
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di azoto",
+      "tname" : "NOX",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "smetadata" : {
+        "description" : " VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE",
+        "length" : 322,
+        "linegeometry" : "0102000020787F000004000000CD4DD4DB31B724411F0B80604FA553411609777765B72441D86388CC5BA55341C91E0A97FDB72441EE7F6ED78CA553419CE2D6051EB8244199A073139AA55341",
+        "old_idstr" : 14,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di Zolfo",
+      "tname" : "S02",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+        "length" : 1198,
+        "linegeometry" : "0102000020787F00000F0000006C57837CC8B3244109F27FFF70A55341B8F7D84E25B424419096471667A553418F70C27556B42441F627355B63A553418E1AB408A0B42441A39A9DD45FA55341D471E04355B524417428D2E35AA553419FC6D0C277B52441B79EF35259A55341CE5671FB97B5244181AFBA3959A553411E04DB39D1B6244134B5CC5951A55341F49EC1770CB72441CCBDE7BB50A55341BE04D4DB31B72441F60C82604FA55341BB4766269FB72441032EB6184CA55341F7A3F5E875B92441BA23DF4440A55341600A5CCFAFB92441AC4C3B843EA55341488570FD40BA24414CBD78DE3BA553418F5ADB16CDBC24410B1B4A212BA55341",
+        "old_idstr" : 2,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Fuel Consumption",
+      "tname" : "FC",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CORSO ITALIA / ITALIENALLEE",
+      "smetadata" : {
+        "description" : " CORSO ITALIA / ITALIENALLEE",
+        "length" : 620,
+        "linegeometry" : "0102000020787F0000040000001E7B99D9DEBC244108B3A11A90A7534188E1FFBF2ABD24418A9EF3C218A753416D879B043ABD244101D59EB5F9A653418AE1FFBF42BD2441F7DBFD99F5A65341",
+        "old_idstr" : 25,
+        "speed_default" : 35
+      },
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "polveri sottili",
+      "tname" : "PM10",
+      "ttype" : "Mean",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE PALERMO / PALERMOBRCKE",
+      "smetadata" : {
+        "description" : " PONTE PALERMO / PALERMOBRCKE",
+        "length" : 365,
+        "linegeometry" : "0102000020787F00000800000024D953A3F7B72441A51D5EDF32A653414589C6CBE8B724410DAF4B242AA65341A2431098E5B72441A2F2D6A825A6534113811A6FE6B724417DEC55B321A65341FC7CC420F6B72441683E0E421BA6534196EBD6234FB824415190C66805A653413104DB39DDB82441F3561220E4A55341592AA8E4F9B82441A0EDCEA3E0A55341",
+        "old_idstr" : 15,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Polveri Totali Sospese",
+      "tname" : "PTS",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE PALERMO / PALERMOBRCKE",
+      "smetadata" : {
+        "description" : " PONTE PALERMO / PALERMOBRCKE",
+        "length" : 365,
+        "linegeometry" : "0102000020787F00000800000024D953A3F7B72441A51D5EDF32A653414589C6CBE8B724410DAF4B242AA65341A2431098E5B72441A2F2D6A825A6534113811A6FE6B724417DEC55B321A65341FC7CC420F6B72441683E0E421BA6534196EBD6234FB824415190C66805A653413104DB39DDB82441F3561220E4A55341592AA8E4F9B82441A0EDCEA3E0A55341",
+        "old_idstr" : 15,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "tname" : "IPA",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE ROMA / ROMBRCKE 1",
+      "smetadata" : {
+        "description" : " PONTE ROMA / ROMBRCKE",
+        "length" : 207,
+        "linegeometry" : "0102000020787F000002000000CE14337397BE244115388D6C70A65341570556C315BF2441D5D3332B3FA65341",
+        "old_idstr" : 8,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Idrocarburi Policiclici Aromatici",
+      "tname" : "IPA",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+        "length" : 842,
+        "linegeometry" : "0102000020787F00000600000033D7281C15BA244181F0ABC13CA55341DD4766A6FABA24415E6BC07F9DA5534108A52FED29BB24418BB5FF9BAEA55341EB1E0A974CBB244148BD78EEBFA553413EA317A6EDBB244169327B3804A6534181696554E8BB2441946B22F301A65341",
+        "old_idstr" : 23,
+        "speed_default" : 44
+      },
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Composti Organici Volatili",
+      "tname" : "COV",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CORSO ITALIA / ITALIENALLEE",
+      "smetadata" : {
+        "description" : " CORSO ITALIA / ITALIENALLEE",
+        "length" : 620,
+        "linegeometry" : "0102000020787F0000040000001E7B99D9DEBC244108B3A11A90A7534188E1FFBF2ABD24418A9EF3C218A753416D879B043ABD244101D59EB5F9A653418AE1FFBF42BD2441F7DBFD99F5A65341",
+        "old_idstr" : 25,
+        "speed_default" : 35
+      },
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di Zolfo",
+      "tname" : "S02",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE PALERMO / PALERMOBRCKE",
+      "smetadata" : {
+        "description" : " PONTE PALERMO / PALERMOBRCKE",
+        "length" : 365,
+        "linegeometry" : "0102000020787F00000800000024D953A3F7B72441A51D5EDF32A653414589C6CBE8B724410DAF4B242AA65341A2431098E5B72441A2F2D6A825A6534113811A6FE6B724417DEC55B321A65341FC7CC420F6B72441683E0E421BA6534196EBD6234FB824415190C66805A653413104DB39DDB82441F3561220E4A55341592AA8E4F9B82441A0EDCEA3E0A55341",
+        "old_idstr" : 15,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di azoto",
+      "tname" : "NOX",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE ROMA / ROMBRCKE 1",
+      "smetadata" : {
+        "description" : " PONTE ROMA / ROMBRCKE",
+        "length" : 207,
+        "linegeometry" : "0102000020787F000002000000CE14337397BE244115388D6C70A65341570556C315BF2441D5D3332B3FA65341",
+        "old_idstr" : 8,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ammoniaca",
+      "tname" : "NH3",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "smetadata" : {
+        "description" : " VIA PALERMO / PALERMOSTRASSE",
+        "length" : 179,
+        "linegeometry" : "0102000020787F00000300000024D953A3F7B72441A51D5EDF32A65341E5A3F56815B82441D650911240A65341E4786E1247B82441D0FA82855EA65341",
+        "old_idstr" : 16,
+        "speed_default" : 25
+      },
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di Zolfo",
+      "tname" : "S02",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+        "length" : 1198,
+        "linegeometry" : "0102000020787F00000F0000006C57837CC8B3244109F27FFF70A55341B8F7D84E25B424419096471667A553418F70C27556B42441F627355B63A553418E1AB408A0B42441A39A9DD45FA55341D471E04355B524417428D2E35AA553419FC6D0C277B52441B79EF35259A55341CE5671FB97B5244181AFBA3959A553411E04DB39D1B6244134B5CC5951A55341F49EC1770CB72441CCBDE7BB50A55341BE04D4DB31B72441F60C82604FA55341BB4766269FB72441032EB6184CA55341F7A3F5E875B92441BA23DF4440A55341600A5CCFAFB92441AC4C3B843EA55341488570FD40BA24414CBD78DE3BA553418F5ADB16CDBC24410B1B4A212BA55341",
+        "old_idstr" : 2,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Metano",
+      "tname" : "CH4",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE PALERMO / PALERMOBRCKE",
+      "smetadata" : {
+        "description" : " PONTE PALERMO / PALERMOBRCKE",
+        "length" : 365,
+        "linegeometry" : "0102000020787F00000800000024D953A3F7B72441A51D5EDF32A653414589C6CBE8B724410DAF4B242AA65341A2431098E5B72441A2F2D6A825A6534113811A6FE6B724417DEC55B321A65341FC7CC420F6B72441683E0E421BA6534196EBD6234FB824415190C66805A653413104DB39DDB82441F3561220E4A55341592AA8E4F9B82441A0EDCEA3E0A55341",
+        "old_idstr" : 15,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Composti Organici Volatili",
+      "tname" : "COV",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE ROMA / ROMBRCKE 1",
+      "smetadata" : {
+        "description" : " PONTE ROMA / ROMBRCKE",
+        "length" : 207,
+        "linegeometry" : "0102000020787F000002000000CE14337397BE244115388D6C70A65341570556C315BF2441D5D3332B3FA65341",
+        "old_idstr" : 8,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Monossido di carbonio",
+      "tname" : "CO",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CORSO ITALIA / ITALIENALLEE",
+      "smetadata" : {
+        "description" : " CORSO ITALIA / ITALIENALLEE",
+        "length" : 620,
+        "linegeometry" : "0102000020787F0000040000001E7B99D9DEBC244108B3A11A90A7534188E1FFBF2ABD24418A9EF3C218A753416D879B043ABD244101D59EB5F9A653418AE1FFBF42BD2441F7DBFD99F5A65341",
+        "old_idstr" : 25,
+        "speed_default" : 35
+      },
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Fuel Consumption",
+      "tname" : "FC",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE PALERMO / PALERMOBRCKE",
+      "smetadata" : {
+        "description" : " PONTE PALERMO / PALERMOBRCKE",
+        "length" : 365,
+        "linegeometry" : "0102000020787F00000800000024D953A3F7B72441A51D5EDF32A653414589C6CBE8B724410DAF4B242AA65341A2431098E5B72441A2F2D6A825A6534113811A6FE6B724417DEC55B321A65341FC7CC420F6B72441683E0E421BA6534196EBD6234FB824415190C66805A653413104DB39DDB82441F3561220E4A55341592AA8E4F9B82441A0EDCEA3E0A55341",
+        "old_idstr" : 15,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE PALERMO / PALERMOBRCKE",
+      "stype" : "Streetstation",
+      "tdescription" : "Monossido di carbonio",
+      "tname" : "CO",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+        "length" : 1198,
+        "linegeometry" : "0102000020787F00000F0000006C57837CC8B3244109F27FFF70A55341B8F7D84E25B424419096471667A553418F70C27556B42441F627355B63A553418E1AB408A0B42441A39A9DD45FA55341D471E04355B524417428D2E35AA553419FC6D0C277B52441B79EF35259A55341CE5671FB97B5244181AFBA3959A553411E04DB39D1B6244134B5CC5951A55341F49EC1770CB72441CCBDE7BB50A55341BE04D4DB31B72441F60C82604FA55341BB4766269FB72441032EB6184CA55341F7A3F5E875B92441BA23DF4440A55341600A5CCFAFB92441AC4C3B843EA55341488570FD40BA24414CBD78DE3BA553418F5ADB16CDBC24410B1B4A212BA55341",
+        "old_idstr" : 2,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Anidride carbonica",
+      "tname" : "CO2",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE ROMA / ROMBRCKE 1",
+      "smetadata" : {
+        "description" : " PONTE ROMA / ROMBRCKE",
+        "length" : 207,
+        "linegeometry" : "0102000020787F000002000000CE14337397BE244115388D6C70A65341570556C315BF2441D5D3332B3FA65341",
+        "old_idstr" : 8,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Composti Organici Volatili",
+      "tname" : "COV",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "CORSO ITALIA / ITALIENALLEE",
+      "smetadata" : {
+        "description" : " CORSO ITALIA / ITALIENALLEE",
+        "length" : 620,
+        "linegeometry" : "0102000020787F0000040000001E7B99D9DEBC244108B3A11A90A7534188E1FFBF2ABD24418A9EF3C218A753416D879B043ABD244101D59EB5F9A653418AE1FFBF42BD2441F7DBFD99F5A65341",
+        "old_idstr" : 25,
+        "speed_default" : 35
+      },
+      "sname" : "CORSO ITALIA / ITALIENALLEE",
+      "stype" : "Streetstation",
+      "tdescription" : "Polveri Totali Sospese",
+      "tname" : "PTS",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "PONTE ROMA / ROMBRCKE 1",
+      "smetadata" : {
+        "description" : " PONTE ROMA / ROMBRCKE",
+        "length" : 207,
+        "linegeometry" : "0102000020787F000002000000CE14337397BE244115388D6C70A65341570556C315BF2441D5D3332B3FA65341",
+        "old_idstr" : 8,
+        "speed_default" : 25
+      },
+      "sname" : "PONTE ROMA / ROMBRCKE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Metano",
+      "tname" : "CH4",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+        "length" : 1198,
+        "linegeometry" : "0102000020787F00000F0000006C57837CC8B3244109F27FFF70A55341B8F7D84E25B424419096471667A553418F70C27556B42441F627355B63A553418E1AB408A0B42441A39A9DD45FA55341D471E04355B524417428D2E35AA553419FC6D0C277B52441B79EF35259A55341CE5671FB97B5244181AFBA3959A553411E04DB39D1B6244134B5CC5951A55341F49EC1770CB72441CCBDE7BB50A55341BE04D4DB31B72441F60C82604FA55341BB4766269FB72441032EB6184CA55341F7A3F5E875B92441BA23DF4440A55341600A5CCFAFB92441AC4C3B843EA55341488570FD40BA24414CBD78DE3BA553418F5ADB16CDBC24410B1B4A212BA55341",
+        "old_idstr" : 2,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ammoniaca",
+      "tname" : "NH3",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "smetadata" : {
+        "description" : " VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE",
+        "length" : 322,
+        "linegeometry" : "0102000020787F000004000000CD4DD4DB31B724411F0B80604FA553411609777765B72441D86388CC5BA55341C91E0A97FDB72441EE7F6ED78CA553419CE2D6051EB8244199A073139AA55341",
+        "old_idstr" : 14,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Composti Organici Volatili",
+      "tname" : "COV",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "smetadata" : {
+        "description" : " VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE",
+        "length" : 322,
+        "linegeometry" : "0102000020787F000004000000CD4DD4DB31B724411F0B80604FA553411609777765B72441D86388CC5BA55341C91E0A97FDB72441EE7F6ED78CA553419CE2D6051EB8244199A073139AA55341",
+        "old_idstr" : 14,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di azoto",
+      "tname" : "NOX",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+        "length" : 1198,
+        "linegeometry" : "0102000020787F00000F0000006C57837CC8B3244109F27FFF70A55341B8F7D84E25B424419096471667A553418F70C27556B42441F627355B63A553418E1AB408A0B42441A39A9DD45FA55341D471E04355B524417428D2E35AA553419FC6D0C277B52441B79EF35259A55341CE5671FB97B5244181AFBA3959A553411E04DB39D1B6244134B5CC5951A55341F49EC1770CB72441CCBDE7BB50A55341BE04D4DB31B72441F60C82604FA55341BB4766269FB72441032EB6184CA55341F7A3F5E875B92441BA23DF4440A55341600A5CCFAFB92441AC4C3B843EA55341488570FD40BA24414CBD78DE3BA553418F5ADB16CDBC24410B1B4A212BA55341",
+        "old_idstr" : 2,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di Zolfo",
+      "tname" : "S02",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+        "length" : 1198,
+        "linegeometry" : "0102000020787F00000F0000006C57837CC8B3244109F27FFF70A55341B8F7D84E25B424419096471667A553418F70C27556B42441F627355B63A553418E1AB408A0B42441A39A9DD45FA55341D471E04355B524417428D2E35AA553419FC6D0C277B52441B79EF35259A55341CE5671FB97B5244181AFBA3959A553411E04DB39D1B6244134B5CC5951A55341F49EC1770CB72441CCBDE7BB50A55341BE04D4DB31B72441F60C82604FA55341BB4766269FB72441032EB6184CA55341F7A3F5E875B92441BA23DF4440A55341600A5CCFAFB92441AC4C3B843EA55341488570FD40BA24414CBD78DE3BA553418F5ADB16CDBC24410B1B4A212BA55341",
+        "old_idstr" : 2,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Monossido di carbonio",
+      "tname" : "CO",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "smetadata" : {
+        "description" : " VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE",
+        "length" : 322,
+        "linegeometry" : "0102000020787F000004000000CD4DD4DB31B724411F0B80604FA553411609777765B72441D86388CC5BA55341C91E0A97FDB72441EE7F6ED78CA553419CE2D6051EB8244199A073139AA55341",
+        "old_idstr" : 14,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Polveri Totali Sospese",
+      "tname" : "PTS",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "smetadata" : {
+        "description" : " VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE",
+        "length" : 322,
+        "linegeometry" : "0102000020787F000004000000CD4DD4DB31B724411F0B80604FA553411609777765B72441D86388CC5BA55341C91E0A97FDB72441EE7F6ED78CA553419CE2D6051EB8244199A073139AA55341",
+        "old_idstr" : 14,
+        "speed_default" : 44
+      },
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "stype" : "Streetstation",
+      "tdescription" : "Metano",
+      "tname" : "CH4",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "smetadata" : {
+        "description" : " VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+        "length" : 842,
+        "linegeometry" : "0102000020787F00000600000033D7281C15BA244181F0ABC13CA55341DD4766A6FABA24415E6BC07F9DA5534108A52FED29BB24418BB5FF9BAEA55341EB1E0A974CBB244148BD78EEBFA553413EA317A6EDBB244169327B3804A6534181696554E8BB2441946B22F301A65341",
+        "old_idstr" : 23,
+        "speed_default" : 44
+      },
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "polveri sottili",
+      "tname" : "PM10",
+      "ttype" : "Mean",
+      "tunit" : "g/km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "smetadata" : {
+        "description" : " VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+        "length" : 795,
+        "linegeometry" : "0102000020787F000018000000320EB21DABB22441CBC97A99DBA45341EB57BEDF6FB22441D11F8976CCA45341EDADCC4C39B2244122AD2075C2A453416041E51009B22441B6C524BBBBA45341B24F1203B1B124412D593D67B1A453412764C00A25B12441D71F89EE9CA45341781CDF4FF7B02441DC4A10F596A45341CB2A0CC2A9B0244116D451E58DA453411F3939B487B024417A0F31458BA45341BFD4FDD4EBAF24413BAF4B2484A4534183F5ADC7B4AF244162B5CCD980A453419AF9039697AF24416E8C70FA7DA45341FE34E3A57CAF24417FE4A9367AA45341269172A86DAF244189BB4D5777A45341D603DBF961AF244177388D0C74A45341B228E1FA59AF2441E64A10756FA45341EE0731485CAF244159B3A13A67A453414EC27A5463AF244186653F0264A45341B1FD59E470AF24414DDCFD5160A45341B428E17A80AF244163B5CC395DA453419F4F128393AF2441CE7141755AA453415CC4A59BA5AF2441BC19082958A45341699B498CEAAF2441D99EF37A52A45341D2EBF5A8FAAF244123438DD74CA45341",
+        "old_idstr" : 22,
+        "speed_default" : 48
+      },
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "stype" : "Streetstation",
+      "tdescription" : "Ossidi di Zolfo",
+      "tname" : "S02",
+      "tunit" : "g/km/h"
+    } ],
+    "limit" : 200,
+    "offset" : 0
+  }
+}

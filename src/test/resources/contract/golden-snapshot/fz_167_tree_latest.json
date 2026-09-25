@@ -1,0 +1,2420 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=smetadata,tmetadata.scale,tunit,tdescription,mvalue.b.c&where=mvalue.gt.10&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "BikeSharingService" : {
+        "stations" : {
+          "sharedmobility-ch:pr:carvelo2go" : {
+            "sdatatypes" : {
+              "num-docks-available" : {
+                "tdescription" : "number of available docks",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "system_pricing_plans" : [ {
+                "currency" : "CHF",
+                "description" : "5 unlock fee, 5.00 per day time hour (from 8 till 22), 0.00 per night time hour (from 22 till 8)",
+                "is_taxable" : false,
+                "name" : "Smargo Daytime Rate",
+                "plan_id" : "carvelo2go:b23fccfc-22f8-49d6-a681-a735cad6f046",
+                "price" : 5,
+                "provider_id" : "carvelo2go"
+              }, {
+                "currency" : "CHF",
+                "description" : "5 unlock fee, 3.50 per day time hour (from 8 till 22), 0.00 per night time hour (from 22 till 8)",
+                "is_taxable" : false,
+                "name" : "Simple Daytime Rate",
+                "plan_id" : "carvelo2go:efee4075-81aa-4707-de2e-e0b087e66c49",
+                "price" : 5,
+                "provider_id" : "carvelo2go"
+              } ]
+            }
+          }
+        }
+      },
+      "BikesharingStation" : {
+        "stations" : {
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3" : {
+            "sdatatypes" : {
+              "free-bays" : {
+                "tdescription" : "free-bays",
+                "tmeasurements" : [ { } ]
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays",
+                "tmeasurements" : [ { } ]
+              }
+            },
+            "smetadata" : {
+              "address" : "Viale Stazione, 5",
+              "total-bays" : 12
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3008cf824e352d9854585d3731568fe6e0a042d2" : {
+            "sdatatypes" : {
+              "free-bays" : {
+                "tdescription" : "free-bays",
+                "tmeasurements" : [ { } ]
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays",
+                "tmeasurements" : [ { } ]
+              }
+            },
+            "smetadata" : {
+              "address" : "Via Claudia Augusta, 42",
+              "total-bays" : 12
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3242fbb9d66046deac446c8b89768cd1b6fc9c9f" : {
+            "sdatatypes" : {
+              "free-bays" : {
+                "tdescription" : "free-bays",
+                "tmeasurements" : [ { } ]
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays",
+                "tmeasurements" : [ { } ]
+              }
+            },
+            "smetadata" : {
+              "address" : "Piazzetta Caduti Nassirija",
+              "total-bays" : 12
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--845248b808d1bf6c6115e471e41ccdca99f09743" : {
+            "sdatatypes" : {
+              "free-bays" : {
+                "tdescription" : "free-bays",
+                "tmeasurements" : [ { } ]
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays",
+                "tmeasurements" : [ { } ]
+              }
+            },
+            "smetadata" : {
+              "address" : "Via Buozzi, 31",
+              "total-bays" : 12
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1b380c7315ed00d73a49269e2feab2e5b0452a00" : {
+            "sdatatypes" : {
+              "free-bays" : {
+                "tdescription" : "free-bays",
+                "tmeasurements" : [ { } ]
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays",
+                "tmeasurements" : [ { } ]
+              }
+            },
+            "smetadata" : {
+              "address" : "Via Galilei, 23",
+              "total-bays" : 12
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c4e26e1fd97da55bd1a1fe7ccf67f1b70c69453a" : {
+            "sdatatypes" : {
+              "total-bays" : {
+                "tdescription" : "total-bays",
+                "tmeasurements" : [ { } ]
+              }
+            },
+            "smetadata" : {
+              "address" : "Via Resia, 39/A",
+              "total-bays" : 12
+            }
+          },
+          "bikestation1" : {
+            "sdatatypes" : {
+              "city-bike-adult-with-gears" : {
+                "tmeasurements" : [ { } ]
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "bikes" : {
+                "city-bike-adult-with-gears" : 23,
+                "city-bike-adult-without-gears" : 13,
+                "mountain-bike-adult" : 5,
+                "mountain-bike-child" : 7,
+                "mountain-bike-teenager" : 3,
+                "number-available" : 49
+              },
+              "municipality" : "Meran - Merano"
+            }
+          },
+          "bikestation2" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "bikes" : {
+                "city-bike-adult-with-gears" : 9,
+                "city-bike-adult-without-gears" : 5,
+                "mountain-bike-adult" : 4,
+                "mountain-bike-child" : 8,
+                "mountain-bike-teenager" : 3,
+                "number-available" : 28
+              },
+              "municipality" : "Meran - Merano"
+            }
+          }
+        }
+      },
+      "EnvironmentStation" : {
+        "stations" : {
+          "AB2" : {
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Egna"
+            }
+          },
+          "AB3" : {
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bressanone"
+            }
+          },
+          "BX1" : {
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bressanone"
+            }
+          },
+          "BZ4" : {
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano"
+            }
+          },
+          "BZ5" : {
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "nitrogen-dioxide" : {
+                "tdescription" : "Medie orarie",
+                "tmeasurements" : [ { } ],
+                "tunit" : "ug/mc"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano"
+            }
+          },
+          "BZ6" : {
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano"
+            }
+          },
+          "CR1" : {
+            "sdatatypes" : {
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Cortina ssdV"
+            }
+          },
+          "LS1" : {
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tunit" : "µg/m³"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Laives"
+            }
+          }
+        }
+      },
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "tmeasurements" : [ { }, { }, { }, { }, { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tdescription" : "Mode for vehicles fast than 100 km/h",
+                "tmeasurements" : [ { } ],
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "tmeasurements" : [ { } ]
+              },
+              "speed greater than 100 km/h" : {
+                "tdescription" : "average speed of vehicles faster than 100 km/h",
+                "tmeasurements" : [ { } ],
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "tmeasurements" : [ { }, { }, { } ],
+                "tunit" : "km/h"
+              }
+            }
+          },
+          "A22_ML107->A22_ML103" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "tmeasurements" : [ { }, { }, { }, { }, { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tdescription" : "Mode for vehicles fast than 100 km/h",
+                "tmeasurements" : [ { } ],
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "tmeasurements" : [ { } ]
+              },
+              "speed greater than 100 km/h" : {
+                "tdescription" : "average speed of vehicles faster than 100 km/h",
+                "tmeasurements" : [ { } ],
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "tmeasurements" : [ { }, { }, { } ],
+                "tunit" : "km/h"
+              }
+            }
+          },
+          "Agip_Einstein->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "tmeasurements" : [ { }, { }, { }, { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tdescription" : "Mode for vehicles fast than 100 km/h",
+                "tmeasurements" : [ { } ],
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "tmeasurements" : [ { } ]
+              },
+              "speed greater than 100 km/h" : {
+                "tdescription" : "average speed of vehicles faster than 100 km/h",
+                "tmeasurements" : [ { } ],
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "tmeasurements" : [ { }, { }, { } ],
+                "tunit" : "km/h"
+              }
+            }
+          },
+          "Maso_Pieve->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "tmeasurements" : [ { } ]
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "tmeasurements" : [ { }, { }, { } ],
+                "tunit" : "km/h"
+              }
+            }
+          },
+          "druso-poste->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "tmeasurements" : [ { }, { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "meinstein->Agip_Einstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "tmeasurements" : [ { }, { }, { }, { }, { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "tmeasurements" : [ { } ]
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "tmeasurements" : [ { }, { }, { } ],
+                "tunit" : "km/h"
+              }
+            }
+          },
+          "proma->druso-poste" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "siemens->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes",
+                "tmeasurements" : [ { }, { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match",
+                "tmeasurements" : [ { } ]
+              }
+            }
+          }
+        }
+      },
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : {
+            "sdatatypes" : {
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              }
+            },
+            "smetadata" : {
+              "area" : "---"
+            }
+          },
+          "37100MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { }, { }, { }, { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tmeasurements" : [ { }, { }, { }, { }, { } ],
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale ",
+                "tmeasurements" : [ { }, { } ],
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "tmeasurements" : [ { } ],
+                "tunit" : "mm"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento",
+                "tmeasurements" : [ { }, { } ],
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { } ],
+                "tunit" : "° "
+              }
+            },
+            "smetadata" : {
+              "name_de" : "Sterzing",
+              "name_en" : "Sterzing",
+              "name_it" : "Vipiteno"
+            }
+          },
+          "47400MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { }, { }, { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { } ],
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale ",
+                "tmeasurements" : [ { } ],
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "tmeasurements" : [ { } ],
+                "tunit" : "mm"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento",
+                "tmeasurements" : [ { }, { } ],
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { } ],
+                "tunit" : "° "
+              }
+            },
+            "smetadata" : {
+              "name_de" : "Antholz Obertal",
+              "name_en" : "Antholz Obertal",
+              "name_it" : "Anterselva di Sopra"
+            }
+          },
+          "59450PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tdescription" : "Portata",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ],
+                "tunit" : "m³/s"
+              },
+              "suspended-solids-in-watercourse" : {
+                "tdescription" : "concentrazione solidi sospesi ",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { } ],
+                "tunit" : "mg/l"
+              },
+              "water-level" : {
+                "tdescription" : "Livello idrometrico",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { } ],
+                "tunit" : "cm"
+              },
+              "water-temperature" : {
+                "tdescription" : "Temperatura acqua",
+                "tmeasurements" : [ { }, { }, { }, { }, { } ],
+                "tunit" : "°C"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "AHR BEI ST.GEORGEN",
+              "name_en" : "AHR BEI ST.GEORGEN",
+              "name_it" : "AURINO A S. GIORGIO"
+            }
+          },
+          "62600MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { }, { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ],
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale ",
+                "tmeasurements" : [ { }, { } ],
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "tmeasurements" : [ { } ],
+                "tunit" : "mm"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento",
+                "tmeasurements" : [ { } ],
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento",
+                "tmeasurements" : [ { }, { }, { }, { }, { } ],
+                "tunit" : "° "
+              }
+            },
+            "smetadata" : {
+              "name_de" : "St. Martin in Thurn",
+              "name_en" : "S. Martin de Tor",
+              "name_it" : "S. Martino in Badia"
+            }
+          },
+          "69790PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tdescription" : "Portata",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { } ],
+                "tunit" : "m³/s"
+              },
+              "water-level" : {
+                "tdescription" : "Livello idrometrico",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ],
+                "tunit" : "cm"
+              },
+              "water-temperature" : {
+                "tdescription" : "Temperatura acqua",
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "EISACK BEI BRIXEN",
+              "name_en" : "EISACK BEI BRIXEN",
+              "name_it" : "ISARCO A BRESSANONE"
+            }
+          },
+          "83200MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ { }, { }, { }, { }, { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { }, { }, { }, { } ],
+                "tunit" : "°C"
+              },
+              "air-temperature-max" : {
+                "tdescription" : "Maximum temperature",
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tmeasurements" : [ { }, { }, { }, { }, { } ],
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale ",
+                "tmeasurements" : [ { }, { } ],
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "tmeasurements" : [ { } ],
+                "tunit" : "mm"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento",
+                "tmeasurements" : [ { } ],
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ],
+                "tunit" : "° "
+              }
+            },
+            "smetadata" : {
+              "name_de" : "Bozen",
+              "name_en" : "Bolzano",
+              "name_it" : "Bolzano"
+            }
+          },
+          "83450PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tdescription" : "Portata",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { } ],
+                "tunit" : "m³/s"
+              },
+              "suspended-solids-in-watercourse" : {
+                "tdescription" : "concentrazione solidi sospesi ",
+                "tmeasurements" : [ { }, { } ],
+                "tunit" : "mg/l"
+              },
+              "water-level" : {
+                "tdescription" : "Livello idrometrico",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { } ],
+                "tunit" : "cm"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "EISACK BEI BOZEN SÜD",
+              "name_en" : "EISACK BEI BOZEN SÜD",
+              "name_it" : "ISARCO A BOLZANO SUD"
+            }
+          }
+        }
+      },
+      "ParkingFacility" : {
+        "stations" : {
+          "105_facility" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 90,
+              "capacity_short_stay" : 90,
+              "capacity_subscribers" : 90,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Laurin",
+              "name_en" : "Laurin",
+              "name_it" : "Laurin",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "openSpace",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Laurin"
+            }
+          },
+          "607440" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bressanone – Brixen",
+              "standard_name" : "Parcheggio Stazione Bressanone"
+            }
+          },
+          "608612" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 240,
+              "capacity_short_stay" : 240,
+              "capacity_subscribers" : 240,
+              "municipality" : "Brunico – Bruneck",
+              "standard_name" : "Parcheggio Stazione Brunico"
+            }
+          },
+          "609883" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 514,
+              "capacity_short_stay" : 514,
+              "capacity_subscribers" : 514,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Waltherpark",
+              "name_en" : "Waltherpark",
+              "name_it" : "Waltherpark",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "covered",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Waltherpark"
+            }
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "102" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 233,
+              "disabledtoiletavailable" : true,
+              "mainaddress" : "Via Dr. Julius Perathoner",
+              "municipality" : "Bolzano - Bozen",
+              "phonenumber" : "0471 970289",
+              "state" : 1
+            }
+          },
+          "103" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 403,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Waltherplatz",
+              "name_en" : "Piazza Walther",
+              "name_it" : "Piazza Walther",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "underground",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Piazza Walther"
+            }
+          },
+          "104" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 150,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Luna MoliniStraße",
+              "name_en" : "Luna via Molini",
+              "name_it" : "Luna via Molini it",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "underground",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Luna Via Molini"
+            }
+          },
+          "105" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ { }, { } ],
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ { }, { } ],
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 90,
+              "free_limit" : 89,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Laurin",
+              "name_en" : "Laurin",
+              "name_it" : "Laurin",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "openSpace",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "occupancy_limit" : 90,
+              "standard_name" : "Parcheggio Laurin"
+            }
+          },
+          "107" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 145,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Mareccio C. de Medici Strasse",
+              "name_en" : "Mareccio via C. de Medici",
+              "name_it" : "Mareccio via C. de Medici",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "openSpace",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Mareccio"
+            }
+          },
+          "112" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 174,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Gerichtsplatz",
+              "name_en" : "Piazza Tribunale",
+              "name_it" : "Piazza Tribunale",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "underground",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Tribunale"
+            }
+          },
+          "113" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 114,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Direzional Park",
+              "name_en" : "Direzional Park",
+              "name_it" : "Direzional Park",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "underground",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Direzional Park"
+            }
+          },
+          "115" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tmeasurements" : [ { } ],
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 425,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Palasport Reschenstraße",
+              "name_en" : "Palasport via Resia",
+              "name_it" : "Palasport via Resia",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "openSpace",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Palasport"
+            }
+          }
+        }
+      },
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Faedo"
+            }
+          },
+          "rwis2" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "San Michele all'Adige"
+            }
+          },
+          "rwis3" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Predaia"
+            }
+          },
+          "rwis4" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Lavis"
+            }
+          },
+          "rwis5" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ { } ],
+                "tunit" : "m/s"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Trento"
+            }
+          },
+          "rwis6" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Calliano"
+            }
+          },
+          "rwis7" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ { } ],
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ { } ],
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tmeasurements" : [ { } ],
+                "tunit" : "°C"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Civezzano"
+            }
+          }
+        }
+      },
+      "Streetstation" : {
+        "stations" : {
+          "CORSO ITALIA / ITALIENALLEE" : {
+            "sdatatypes" : {
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              }
+            },
+            "smetadata" : {
+              "description" : " CORSO ITALIA / ITALIENALLEE",
+              "length" : 620,
+              "linegeometry" : "0102000020787F0000040000001E7B99D9DEBC244108B3A11A90A7534188E1FFBF2ABD24418A9EF3C218A753416D879B043ABD244101D59EB5F9A653418AE1FFBF42BD2441F7DBFD99F5A65341",
+              "old_idstr" : 25,
+              "speed_default" : 35
+            }
+          },
+          "PONTE PALERMO / PALERMOBRCKE" : {
+            "sdatatypes" : {
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              }
+            },
+            "smetadata" : {
+              "description" : " PONTE PALERMO / PALERMOBRCKE",
+              "length" : 365,
+              "linegeometry" : "0102000020787F00000800000024D953A3F7B72441A51D5EDF32A653414589C6CBE8B724410DAF4B242AA65341A2431098E5B72441A2F2D6A825A6534113811A6FE6B724417DEC55B321A65341FC7CC420F6B72441683E0E421BA6534196EBD6234FB824415190C66805A653413104DB39DDB82441F3561220E4A55341592AA8E4F9B82441A0EDCEA3E0A55341",
+              "old_idstr" : 15,
+              "speed_default" : 25
+            }
+          },
+          "PONTE ROMA / ROMBRCKE 1" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              }
+            },
+            "smetadata" : {
+              "description" : " PONTE ROMA / ROMBRCKE",
+              "length" : 207,
+              "linegeometry" : "0102000020787F000002000000CE14337397BE244115388D6C70A65341570556C315BF2441D5D3332B3FA65341",
+              "old_idstr" : 8,
+              "speed_default" : 25
+            }
+          },
+          "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE" : {
+            "sdatatypes" : {
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              }
+            },
+            "smetadata" : {
+              "description" : " VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+              "length" : 1198,
+              "linegeometry" : "0102000020787F00000F0000006C57837CC8B3244109F27FFF70A55341B8F7D84E25B424419096471667A553418F70C27556B42441F627355B63A553418E1AB408A0B42441A39A9DD45FA55341D471E04355B524417428D2E35AA553419FC6D0C277B52441B79EF35259A55341CE5671FB97B5244181AFBA3959A553411E04DB39D1B6244134B5CC5951A55341F49EC1770CB72441CCBDE7BB50A55341BE04D4DB31B72441F60C82604FA55341BB4766269FB72441032EB6184CA55341F7A3F5E875B92441BA23DF4440A55341600A5CCFAFB92441AC4C3B843EA55341488570FD40BA24414CBD78DE3BA553418F5ADB16CDBC24410B1B4A212BA55341",
+              "old_idstr" : 2,
+              "speed_default" : 44
+            }
+          },
+          "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              }
+            },
+            "smetadata" : {
+              "description" : " VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE",
+              "length" : 322,
+              "linegeometry" : "0102000020787F000004000000CD4DD4DB31B724411F0B80604FA553411609777765B72441D86388CC5BA55341C91E0A97FDB72441EE7F6ED78CA553419CE2D6051EB8244199A073139AA55341",
+              "old_idstr" : 14,
+              "speed_default" : 44
+            }
+          },
+          "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE" : {
+            "sdatatypes" : {
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              }
+            },
+            "smetadata" : {
+              "description" : " VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+              "length" : 795,
+              "linegeometry" : "0102000020787F000018000000320EB21DABB22441CBC97A99DBA45341EB57BEDF6FB22441D11F8976CCA45341EDADCC4C39B2244122AD2075C2A453416041E51009B22441B6C524BBBBA45341B24F1203B1B124412D593D67B1A453412764C00A25B12441D71F89EE9CA45341781CDF4FF7B02441DC4A10F596A45341CB2A0CC2A9B0244116D451E58DA453411F3939B487B024417A0F31458BA45341BFD4FDD4EBAF24413BAF4B2484A4534183F5ADC7B4AF244162B5CCD980A453419AF9039697AF24416E8C70FA7DA45341FE34E3A57CAF24417FE4A9367AA45341269172A86DAF244189BB4D5777A45341D603DBF961AF244177388D0C74A45341B228E1FA59AF2441E64A10756FA45341EE0731485CAF244159B3A13A67A453414EC27A5463AF244186653F0264A45341B1FD59E470AF24414DDCFD5160A45341B428E17A80AF244163B5CC395DA453419F4F128393AF2441CE7141755AA453415CC4A59BA5AF2441BC19082958A45341699B498CEAAF2441D99EF37A52A45341D2EBF5A8FAAF244123438DD74CA45341",
+              "old_idstr" : 22,
+              "speed_default" : 48
+            }
+          },
+          "VIA PALERMO / PALERMOSTRASSE 1" : {
+            "sdatatypes" : {
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              }
+            },
+            "smetadata" : {
+              "description" : " VIA PALERMO / PALERMOSTRASSE",
+              "length" : 179,
+              "linegeometry" : "0102000020787F00000300000024D953A3F7B72441A51D5EDF32A65341E5A3F56815B82441D650911240A65341E4786E1247B82441D0FA82855EA65341",
+              "old_idstr" : 16,
+              "speed_default" : 25
+            }
+          },
+          "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE" : {
+            "sdatatypes" : {
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tmeasurements" : [ { } ],
+                "tunit" : "g/km/h"
+              }
+            },
+            "smetadata" : {
+              "description" : " VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+              "length" : 842,
+              "linegeometry" : "0102000020787F00000600000033D7281C15BA244181F0ABC13CA55341DD4766A6FABA24415E6BC07F9DA5534108A52FED29BB24418BB5FF9BAEA55341EB1E0A974CBB244148BD78EEBFA553413EA317A6EDBB244169327B3804A6534181696554E8BB2441946B22F301A65341",
+              "old_idstr" : 23,
+              "speed_default" : 44
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

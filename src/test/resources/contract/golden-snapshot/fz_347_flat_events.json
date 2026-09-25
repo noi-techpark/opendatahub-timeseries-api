@@ -1,0 +1,355 @@
+{
+  "request" : "GET /flat,event/*?limit=-1&select=evlgeometry,evorigin&where=evcategory.re.%22.%22 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "evlgeometry" : {
+        "bbox" : [ 10.550994787, 46.573077009, 10.550994787, 46.573077009 ],
+        "coordinates" : [ 10.550994787, 46.573077009 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 10.843819403, 44.757566767, 10.843819403, 44.757566767 ],
+        "coordinates" : [ 10.843819403, 44.757566767 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 10.890750778, 46.626457867, 10.890750778, 46.626457867 ],
+        "coordinates" : [ 10.890750778, 46.626457867 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.028385021, 45.904042315, 11.028385021, 45.904042315 ],
+        "coordinates" : [ 11.028385021, 45.904042315 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.096344628, 46.679717536, 11.096344628, 46.679717536 ],
+        "coordinates" : [ 11.096344628, 46.679717536 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.107237479, 46.675797011, 11.107237479, 46.675797011 ],
+        "coordinates" : [ 11.107237479, 46.675797011 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.111495855, 46.046952496, 11.111495855, 46.046952496 ],
+        "coordinates" : [ 11.111495855, 46.046952496 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.111592264, 46.046846939, 11.111592264, 46.046846939 ],
+        "coordinates" : [ 11.111592264, 46.046846939 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.12329986, 46.678229622, 11.12329986, 46.678229622 ],
+        "coordinates" : [ 11.12329986, 46.678229622 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.175144329, 46.234950637, 11.175144329, 46.234950637 ],
+        "coordinates" : [ 11.175144329, 46.234950637 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.298319052, 46.3609526, 11.298319052, 46.3609526 ],
+        "coordinates" : [ 11.298319052, 46.3609526 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.303747129, 46.330211459, 11.303747129, 46.330211459 ],
+        "coordinates" : [ 11.303747129, 46.330211459 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.30706463, 46.452268224, 11.30706463, 46.452268224 ],
+        "coordinates" : [ 11.30706463, 46.452268224 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.317300174, 46.475884221, 11.317300174, 46.475884221 ],
+        "coordinates" : [ 11.317300174, 46.475884221 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.356964002, 46.51790658, 11.356964002, 46.51790658 ],
+        "coordinates" : [ 11.356964002, 46.51790658 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.358142175, 46.496616967, 11.358142175, 46.496616967 ],
+        "coordinates" : [ 11.358142175, 46.496616967 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.42333805, 46.489395232, 11.42333805, 46.489395232 ],
+        "coordinates" : [ 11.42333805, 46.489395232 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.435940087, 46.884650528, 11.435940087, 46.884650528 ],
+        "coordinates" : [ 11.435940087, 46.884650528 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.50196884, 46.996281239, 11.50196884, 46.996281239 ],
+        "coordinates" : [ 11.50196884, 46.996281239 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.514705737, 46.366676332, 11.514705737, 46.366676332 ],
+        "coordinates" : [ 11.514705737, 46.366676332 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.578348779, 46.572614517, 11.578348779, 46.572614517 ],
+        "coordinates" : [ 11.578348779, 46.572614517 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.632998891, 46.687559422, 11.632998891, 46.687559422 ],
+        "coordinates" : [ 11.632998891, 46.687559422 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.668529992, 46.795304215, 11.668529992, 46.795304215 ],
+        "coordinates" : [ 11.668529992, 46.795304215 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.668648162, 46.778109691, 11.668648162, 46.778109691 ],
+        "coordinates" : [ 11.668648162, 46.778109691 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.668936511, 46.778872977, 11.668936511, 46.778872977 ],
+        "coordinates" : [ 11.668936511, 46.778872977 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    }, {
+      "evlgeometry" : {
+        "bbox" : [ 11.683379913, 46.809523307, 11.683379913, 46.809523307 ],
+        "coordinates" : [ 11.683379913, 46.809523307 ],
+        "crs" : {
+          "properties" : {
+            "name" : "EPSG:4326"
+          },
+          "type" : "name"
+        },
+        "type" : "Point"
+      },
+      "evorigin" : "PROVINCE_BZ"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

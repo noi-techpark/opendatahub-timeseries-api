@@ -1,0 +1,668 @@
+{
+  "request" : "GET /flat/ParkingFacility/free_subscribers/2026-09-24T08:05:00Z/2026-09-24T14:06:00Z?limit=2000&where=scode.eq.%22608612%22 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "_timestamp" : "2026-09-24 08:10:27.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 08:10:27.470+0000",
+      "mvalidtime" : "2026-09-24 08:10:27.000+0000",
+      "mvalue" : 17,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 08:20:33.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 08:20:33.158+0000",
+      "mvalidtime" : "2026-09-24 08:20:33.000+0000",
+      "mvalue" : 17,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 08:30:31.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 08:30:31.733+0000",
+      "mvalidtime" : "2026-09-24 08:30:31.000+0000",
+      "mvalue" : 17,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 08:40:32.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 08:40:32.296+0000",
+      "mvalidtime" : "2026-09-24 08:40:32.000+0000",
+      "mvalue" : 17,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 08:50:31.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 08:50:31.531+0000",
+      "mvalidtime" : "2026-09-24 08:50:31.000+0000",
+      "mvalue" : 17,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 09:00:32.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 09:00:32.387+0000",
+      "mvalidtime" : "2026-09-24 09:00:32.000+0000",
+      "mvalue" : 17,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 09:10:31.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 09:10:31.461+0000",
+      "mvalidtime" : "2026-09-24 09:10:31.000+0000",
+      "mvalue" : 17,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 09:20:31.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 09:20:31.138+0000",
+      "mvalidtime" : "2026-09-24 09:20:31.000+0000",
+      "mvalue" : 17,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 09:30:32.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 09:30:32.809+0000",
+      "mvalidtime" : "2026-09-24 09:30:32.000+0000",
+      "mvalue" : 15,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 09:40:30.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 09:40:31.046+0000",
+      "mvalidtime" : "2026-09-24 09:40:30.000+0000",
+      "mvalue" : 15,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 09:50:36.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 09:50:36.959+0000",
+      "mvalidtime" : "2026-09-24 09:50:36.000+0000",
+      "mvalue" : 15,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 10:00:32.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 10:00:32.251+0000",
+      "mvalidtime" : "2026-09-24 10:00:32.000+0000",
+      "mvalue" : 16,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 10:10:33.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 10:10:33.844+0000",
+      "mvalidtime" : "2026-09-24 10:10:33.000+0000",
+      "mvalue" : 16,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 10:20:31.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 10:20:31.487+0000",
+      "mvalidtime" : "2026-09-24 10:20:31.000+0000",
+      "mvalue" : 16,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 10:30:32.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 10:30:33.000+0000",
+      "mvalidtime" : "2026-09-24 10:30:32.000+0000",
+      "mvalue" : 16,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 10:40:31.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 10:40:31.084+0000",
+      "mvalidtime" : "2026-09-24 10:40:31.000+0000",
+      "mvalue" : 16,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 10:50:30.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 10:50:31.045+0000",
+      "mvalidtime" : "2026-09-24 10:50:30.000+0000",
+      "mvalue" : 16,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 11:00:31.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 11:00:31.774+0000",
+      "mvalidtime" : "2026-09-24 11:00:31.000+0000",
+      "mvalue" : 16,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 11:10:31.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 11:10:31.272+0000",
+      "mvalidtime" : "2026-09-24 11:10:31.000+0000",
+      "mvalue" : 16,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 11:20:32.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 11:20:32.196+0000",
+      "mvalidtime" : "2026-09-24 11:20:32.000+0000",
+      "mvalue" : 16,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    }, {
+      "_timestamp" : "2026-09-24 11:30:32.000+0000",
+      "mperiod" : 600,
+      "mtransactiontime" : "2026-09-24 11:30:32.960+0000",
+      "mvalidtime" : "2026-09-24 11:30:32.000+0000",
+      "mvalue" : 16,
+      "prlineage" : "skidata",
+      "prname" : "tr-parking-offstreet-skidata",
+      "prversion" : "c444898a16bd03644de951857541e4b2bca9516d",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "608612",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.927622,
+        "y" : 46.792815
+      },
+      "smetadata" : {
+        "capacity" : 240,
+        "capacity_short_stay" : 240,
+        "capacity_subscribers" : 240,
+        "municipality" : "Brunico – Bruneck",
+        "standard_name" : "Parcheggio Stazione Brunico"
+      },
+      "sname" : "Parcheggio Stazione Brunico",
+      "sorigin" : "skidata",
+      "stype" : "ParkingFacility",
+      "tdescription" : "Amount of free 'subscribers' parking slots",
+      "tname" : "free_subscribers",
+      "ttype" : "Instantaneous",
+      "tunit" : ""
+    } ],
+    "limit" : 2000,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "request" : "GET /tree/*?limit=-1&select=pcode,scode&where=or(sorigin.eq.NOI,sorigin.eq.SIAG)&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "scode" : "A22_ML103->A22_ML107"
+          },
+          "A22_ML103->Torricelli" : {
+            "scode" : "A22_ML103->Torricelli"
+          },
+          "A22_ML107->A22_ML103" : {
+            "scode" : "A22_ML107->A22_ML103"
+          },
+          "Agip_Einstein->Torricelli" : {
+            "scode" : "Agip_Einstein->Torricelli"
+          },
+          "Agip_Einstein->meinstein" : {
+            "scode" : "Agip_Einstein->meinstein"
+          },
+          "Arginale_Palermo->Arginale_Resia" : {
+            "scode" : "Arginale_Palermo->Arginale_Resia"
+          },
+          "Arginale_Palermo->Milano_Palermo" : {
+            "scode" : "Arginale_Palermo->Milano_Palermo"
+          },
+          "Arginale_Resia->A22_ML103" : {
+            "scode" : "Arginale_Resia->A22_ML103"
+          },
+          "Arginale_Resia->Agip_Einstein" : {
+            "scode" : "Arginale_Resia->Agip_Einstein"
+          },
+          "Arginale_Resia->Milano_Resia" : {
+            "scode" : "Arginale_Resia->Milano_Resia"
+          },
+          "Druso_Palermo->Milano_Palermo" : {
+            "scode" : "Druso_Palermo->Milano_Palermo"
+          },
+          "Druso_Palermo->Milano_Resia" : {
+            "scode" : "Druso_Palermo->Milano_Resia"
+          },
+          "Druso_Palermo->druso-poste" : {
+            "scode" : "Druso_Palermo->druso-poste"
+          },
+          "Galilei_Lancia->Galilei_Virgolo" : {
+            "scode" : "Galilei_Lancia->Galilei_Virgolo"
+          },
+          "Galilei_Lancia->galvani" : {
+            "scode" : "Galilei_Lancia->galvani"
+          },
+          "Galilei_Palermo->Galilei_Lancia" : {
+            "scode" : "Galilei_Palermo->Galilei_Lancia"
+          },
+          "Galilei_Roma->Maso_Pieve" : {
+            "scode" : "Galilei_Roma->Maso_Pieve"
+          },
+          "Galilei_Roma->caugusta" : {
+            "scode" : "Galilei_Roma->caugusta"
+          },
+          "Galilei_Roma->druso-poste" : {
+            "scode" : "Galilei_Roma->druso-poste"
+          },
+          "Galilei_Virgolo->Galilei_Roma" : {
+            "scode" : "Galilei_Virgolo->Galilei_Roma"
+          },
+          "Galilei_Virgolo->Galleria_Virgolo" : {
+            "scode" : "Galilei_Virgolo->Galleria_Virgolo"
+          },
+          "Galleria_Virgolo->Arginale_Palermo" : {
+            "scode" : "Galleria_Virgolo->Arginale_Palermo"
+          },
+          "Galleria_Virgolo->P_Campiglio" : {
+            "scode" : "Galleria_Virgolo->P_Campiglio"
+          },
+          "Galleria_Virgolo->proma" : {
+            "scode" : "Galleria_Virgolo->proma"
+          },
+          "Maso_Pieve->meinstein" : {
+            "scode" : "Maso_Pieve->meinstein"
+          },
+          "Milano_Palermo->Druso_Palermo" : {
+            "scode" : "Milano_Palermo->Druso_Palermo"
+          },
+          "Milano_Palermo->Milano_Resia" : {
+            "scode" : "Milano_Palermo->Milano_Resia"
+          },
+          "Milano_Palermo->Roma_Firenze" : {
+            "scode" : "Milano_Palermo->Roma_Firenze"
+          },
+          "Milano_Resia->Druso_Palermo" : {
+            "scode" : "Milano_Resia->Druso_Palermo"
+          },
+          "Milano_Resia->Milano_Palermo" : {
+            "scode" : "Milano_Resia->Milano_Palermo"
+          },
+          "P_Campiglio->Arginale_Resia" : {
+            "scode" : "P_Campiglio->Arginale_Resia"
+          },
+          "P_Campiglio->Galleria_Virgolo" : {
+            "scode" : "P_Campiglio->Galleria_Virgolo"
+          },
+          "Roma_Firenze->Milano_Palermo" : {
+            "scode" : "Roma_Firenze->Milano_Palermo"
+          },
+          "Roma_Firenze->druso-poste" : {
+            "scode" : "Roma_Firenze->druso-poste"
+          },
+          "Roma_Firenze->proma" : {
+            "scode" : "Roma_Firenze->proma"
+          },
+          "TN-Acquaviva->TN-Sud" : {
+            "scode" : "TN-Acquaviva->TN-Sud"
+          },
+          "TN-Cadino->TN-Nord" : {
+            "scode" : "TN-Cadino->TN-Nord"
+          },
+          "TN-Maccani->TN-Nord" : {
+            "scode" : "TN-Maccani->TN-Nord"
+          },
+          "TN-Maccani->TN-Sud" : {
+            "scode" : "TN-Maccani->TN-Sud"
+          },
+          "TN-Nord->TN-Cadino" : {
+            "scode" : "TN-Nord->TN-Cadino"
+          },
+          "TN-Nord->TN-Maccani" : {
+            "scode" : "TN-Nord->TN-Maccani"
+          },
+          "TN-Sud->TN-Acquaviva" : {
+            "scode" : "TN-Sud->TN-Acquaviva"
+          },
+          "TN-Sud->TN-Maccani" : {
+            "scode" : "TN-Sud->TN-Maccani"
+          },
+          "Torricelli->P_Campiglio" : {
+            "scode" : "Torricelli->P_Campiglio"
+          },
+          "Torricelli->siemens" : {
+            "scode" : "Torricelli->siemens"
+          },
+          "caugusta->Galilei_Roma" : {
+            "scode" : "caugusta->Galilei_Roma"
+          },
+          "caugusta->Maso_Pieve" : {
+            "scode" : "caugusta->Maso_Pieve"
+          },
+          "cavour->scena-leichter" : {
+            "scode" : "cavour->scena-leichter"
+          },
+          "cavour->schaffer-winkel" : {
+            "scode" : "cavour->schaffer-winkel"
+          },
+          "cavour->sinigo" : {
+            "scode" : "cavour->sinigo"
+          },
+          "cavour->terme_est" : {
+            "scode" : "cavour->terme_est"
+          },
+          "corse_cappuccini->galilei" : {
+            "scode" : "corse_cappuccini->galilei"
+          },
+          "corse_cappuccini->wolf" : {
+            "scode" : "corse_cappuccini->wolf"
+          },
+          "corse_cappuccini->wolf-franziskus" : {
+            "scode" : "corse_cappuccini->wolf-franziskus"
+          },
+          "druso-poste->Druso_Palermo" : {
+            "scode" : "druso-poste->Druso_Palermo"
+          },
+          "druso-poste->Galilei_Roma" : {
+            "scode" : "druso-poste->Galilei_Roma"
+          },
+          "druso-poste->Roma_Firenze" : {
+            "scode" : "druso-poste->Roma_Firenze"
+          },
+          "druso-poste->proma" : {
+            "scode" : "druso-poste->proma"
+          },
+          "galilei->corse_cappuccini" : {
+            "scode" : "galilei->corse_cappuccini"
+          },
+          "galvani->Galilei_Lancia" : {
+            "scode" : "galvani->Galilei_Lancia"
+          },
+          "galvani->meinstein" : {
+            "scode" : "galvani->meinstein"
+          },
+          "goethe-alpini->hofer" : {
+            "scode" : "goethe-alpini->hofer"
+          },
+          "goethe_ospedale->hofer" : {
+            "scode" : "goethe_ospedale->hofer"
+          },
+          "goethe_ospedale->sinigo" : {
+            "scode" : "goethe_ospedale->sinigo"
+          },
+          "goethe_ospedale->stazione" : {
+            "scode" : "goethe_ospedale->stazione"
+          },
+          "goethe_ospedale->wolf-franziskus" : {
+            "scode" : "goethe_ospedale->wolf-franziskus"
+          },
+          "hofer->goethe-alpini" : {
+            "scode" : "hofer->goethe-alpini"
+          },
+          "hofer->goethe_ospedale" : {
+            "scode" : "hofer->goethe_ospedale"
+          },
+          "huber->liberta-corse" : {
+            "scode" : "huber->liberta-corse"
+          },
+          "huber->mazzini" : {
+            "scode" : "huber->mazzini"
+          },
+          "liberta-corse->corse_cappuccini" : {
+            "scode" : "liberta-corse->corse_cappuccini"
+          },
+          "liberta-corse->huber" : {
+            "scode" : "liberta-corse->huber"
+          },
+          "liberta-corse->mazzini" : {
+            "scode" : "liberta-corse->mazzini"
+          },
+          "liberta-corse->terme_ovest" : {
+            "scode" : "liberta-corse->terme_ovest"
+          },
+          "mazzini->huber" : {
+            "scode" : "mazzini->huber"
+          },
+          "mazzini->ponte_rezia" : {
+            "scode" : "mazzini->ponte_rezia"
+          },
+          "mazzini->stazione" : {
+            "scode" : "mazzini->stazione"
+          },
+          "meinstein->Agip_Einstein" : {
+            "scode" : "meinstein->Agip_Einstein"
+          },
+          "meinstein->Maso_Pieve" : {
+            "scode" : "meinstein->Maso_Pieve"
+          },
+          "meinstein->galvani" : {
+            "scode" : "meinstein->galvani"
+          },
+          "petrarca->ponte_rezia" : {
+            "scode" : "petrarca->ponte_rezia"
+          },
+          "piave-palade->piave_matteotti" : {
+            "scode" : "piave-palade->piave_matteotti"
+          },
+          "piave-palade->zuegg-palade" : {
+            "scode" : "piave-palade->zuegg-palade"
+          },
+          "piave_matteotti->piave-palade" : {
+            "scode" : "piave_matteotti->piave-palade"
+          },
+          "piave_matteotti->roma_nord" : {
+            "scode" : "piave_matteotti->roma_nord"
+          },
+          "ponte_rezia->mazzini" : {
+            "scode" : "ponte_rezia->mazzini"
+          },
+          "ponte_rezia->petrarca" : {
+            "scode" : "ponte_rezia->petrarca"
+          },
+          "proma->Roma_Firenze" : {
+            "scode" : "proma->Roma_Firenze"
+          },
+          "proma->druso-poste" : {
+            "scode" : "proma->druso-poste"
+          },
+          "roma_nord->roma_sud" : {
+            "scode" : "roma_nord->roma_sud"
+          },
+          "roma_nord->terme_est" : {
+            "scode" : "roma_nord->terme_est"
+          },
+          "roma_sud->roma_nord" : {
+            "scode" : "roma_sud->roma_nord"
+          },
+          "roma_sud->sinigo" : {
+            "scode" : "roma_sud->sinigo"
+          },
+          "scena-leichter->cavour" : {
+            "scode" : "scena-leichter->cavour"
+          },
+          "schaffer-winkel->cavour" : {
+            "scode" : "schaffer-winkel->cavour"
+          },
+          "siemens->Galilei_Palermo" : {
+            "scode" : "siemens->Galilei_Palermo"
+          },
+          "siemens->proma" : {
+            "scode" : "siemens->proma"
+          },
+          "sinigo->cavour" : {
+            "scode" : "sinigo->cavour"
+          },
+          "sinigo->goethe_ospedale" : {
+            "scode" : "sinigo->goethe_ospedale"
+          },
+          "sinigo->roma_sud" : {
+            "scode" : "sinigo->roma_sud"
+          },
+          "stazione->goethe_ospedale" : {
+            "scode" : "stazione->goethe_ospedale"
+          },
+          "stazione->mazzini" : {
+            "scode" : "stazione->mazzini"
+          },
+          "terme_est->terme_ovest" : {
+            "scode" : "terme_est->terme_ovest"
+          },
+          "terme_ovest->liberta-corse" : {
+            "scode" : "terme_ovest->liberta-corse"
+          },
+          "terme_ovest->piave_matteotti" : {
+            "scode" : "terme_ovest->piave_matteotti"
+          },
+          "terme_ovest->zuegg-palade" : {
+            "scode" : "terme_ovest->zuegg-palade"
+          },
+          "wolf->corse_cappuccini" : {
+            "scode" : "wolf->corse_cappuccini"
+          },
+          "wolf-franziskus->corse_cappuccini" : {
+            "scode" : "wolf-franziskus->corse_cappuccini"
+          },
+          "wolf-franziskus->goethe_ospedale" : {
+            "scode" : "wolf-franziskus->goethe_ospedale"
+          },
+          "zuegg-palade->piave-palade" : {
+            "scode" : "zuegg-palade->piave-palade"
+          },
+          "zuegg-palade->terme_est" : {
+            "scode" : "zuegg-palade->terme_est"
+          }
+        }
+      },
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : {
+            "scode" : "102343"
+          },
+          "37100MS" : {
+            "scode" : "37100MS"
+          },
+          "47400MS" : {
+            "scode" : "47400MS"
+          },
+          "59450PG" : {
+            "scode" : "59450PG"
+          },
+          "62600MS" : {
+            "scode" : "62600MS"
+          },
+          "69790PG" : {
+            "scode" : "69790PG"
+          },
+          "83200MS" : {
+            "scode" : "83200MS"
+          },
+          "83450PG" : {
+            "scode" : "83450PG"
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

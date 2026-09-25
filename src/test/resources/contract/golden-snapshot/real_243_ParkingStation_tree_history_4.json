@@ -1,0 +1,112 @@
+{
+  "request" : "GET /tree/ParkingStation/parking-forecast-150/2026-09-24T08:05:00Z/2026-09-24T14:06:00Z?limit=2000&where=scode.eq.%22104%22 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "104" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "104",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.358216,
+              "y" : 46.500551
+            },
+            "sdatatypes" : {
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 06:40:01.149+0000",
+                  "mvalidtime" : "2026-09-24 08:35:00.000+0000",
+                  "mvalue" : 126
+                }, {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 07:40:01.201+0000",
+                  "mvalidtime" : "2026-09-24 09:35:00.000+0000",
+                  "mvalue" : 124.3
+                }, {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 08:40:01.375+0000",
+                  "mvalidtime" : "2026-09-24 10:35:00.000+0000",
+                  "mvalue" : 120
+                }, {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 09:40:01.210+0000",
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000",
+                  "mvalue" : 115.7
+                }, {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:40:01.150+0000",
+                  "mvalidtime" : "2026-09-24 12:35:00.000+0000",
+                  "mvalue" : 115.2
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-150",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 150,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Luna MoliniStraße",
+              "name_en" : "Luna via Molini",
+              "name_it" : "Luna via Molini it",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "underground",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Luna Via Molini"
+            },
+            "sname" : "P04 - Luna via Molini",
+            "sorigin" : "FAMAS",
+            "stype" : "ParkingStation"
+          }
+        }
+      }
+    },
+    "limit" : 2000,
+    "offset" : 0
+  }
+}

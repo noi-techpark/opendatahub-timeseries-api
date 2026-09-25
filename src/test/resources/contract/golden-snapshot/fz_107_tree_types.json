@@ -1,0 +1,1253 @@
+{
+  "request" : "GET /tree/*/*?limit=-1&select=tmetadata.scale,smetadata.municipality,sorigin,ttype,tname&where=scode.re.%22%5E%5BA-M%5D%22&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "BikesharingStation" : {
+        "stations" : {
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "availability",
+                "ttype" : null
+              },
+              "free-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "free-bays",
+                "ttype" : null
+              },
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "number-available",
+                "ttype" : "Instantaneous"
+              },
+              "total-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "total-bays",
+                "ttype" : null
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "sparent" : { }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3008cf824e352d9854585d3731568fe6e0a042d2" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "availability",
+                "ttype" : null
+              },
+              "free-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "free-bays",
+                "ttype" : null
+              },
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "number-available",
+                "ttype" : "Instantaneous"
+              },
+              "total-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "total-bays",
+                "ttype" : null
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "sparent" : { }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3242fbb9d66046deac446c8b89768cd1b6fc9c9f" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "availability",
+                "ttype" : null
+              },
+              "free-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "free-bays",
+                "ttype" : null
+              },
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "number-available",
+                "ttype" : "Instantaneous"
+              },
+              "total-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "total-bays",
+                "ttype" : null
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "sparent" : { }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--845248b808d1bf6c6115e471e41ccdca99f09743" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "availability",
+                "ttype" : null
+              },
+              "free-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "free-bays",
+                "ttype" : null
+              },
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "number-available",
+                "ttype" : "Instantaneous"
+              },
+              "total-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "total-bays",
+                "ttype" : null
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "sparent" : { }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1b380c7315ed00d73a49269e2feab2e5b0452a00" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "availability",
+                "ttype" : null
+              },
+              "free-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "free-bays",
+                "ttype" : null
+              },
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "number-available",
+                "ttype" : "Instantaneous"
+              },
+              "total-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "total-bays",
+                "ttype" : null
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "sparent" : { }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c4e26e1fd97da55bd1a1fe7ccf67f1b70c69453a" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "availability",
+                "ttype" : null
+              },
+              "free-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "free-bays",
+                "ttype" : null
+              },
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "number-available",
+                "ttype" : "Instantaneous"
+              },
+              "total-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "total-bays",
+                "ttype" : null
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "sparent" : { }
+          }
+        }
+      },
+      "EChargingPlug" : {
+        "stations" : {
+          "AER_00000001-1" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "echarging-plug-status",
+                "ttype" : ""
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "ALPERIA",
+            "sparent" : { }
+          },
+          "AER_00000001-2" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "echarging-plug-status",
+                "ttype" : ""
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "ALPERIA",
+            "sparent" : { }
+          },
+          "AER_00000006-2" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "echarging-plug-status",
+                "ttype" : ""
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "ALPERIA",
+            "sparent" : { }
+          },
+          "AER_00000039-1" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "echarging-plug-status",
+                "ttype" : ""
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "ALPERIA",
+            "sparent" : { }
+          },
+          "AER_00000039-2" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "echarging-plug-status",
+                "ttype" : ""
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "ALPERIA",
+            "sparent" : { }
+          },
+          "AER_00000041-1" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "echarging-plug-status",
+                "ttype" : ""
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "ALPERIA",
+            "sparent" : { }
+          },
+          "AER_00000041-2" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "echarging-plug-status",
+                "ttype" : ""
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "ALPERIA",
+            "sparent" : { }
+          },
+          "AER_00000042-1" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "echarging-plug-status",
+                "ttype" : ""
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "ALPERIA",
+            "sparent" : { }
+          }
+        }
+      },
+      "EChargingStation" : {
+        "stations" : {
+          "AER_00000001" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "number-available",
+                "ttype" : "Instantaneous"
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "ALPERIA",
+            "sparent" : { }
+          },
+          "AER_00000005" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "number-available",
+                "ttype" : "Instantaneous"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano - Bozen"
+            },
+            "sorigin" : "ALPERIA",
+            "sparent" : { }
+          },
+          "AER_00000006" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "number-available",
+                "ttype" : "Instantaneous"
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "ALPERIA",
+            "sparent" : { }
+          },
+          "AER_00000007" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "number-available",
+                "ttype" : "Instantaneous"
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "ALPERIA",
+            "sparent" : { }
+          },
+          "AER_00000008" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "number-available",
+                "ttype" : "Instantaneous"
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "ALPERIA",
+            "sparent" : { }
+          },
+          "AER_00000039" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "number-available",
+                "ttype" : "Instantaneous"
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "ALPERIA",
+            "sparent" : { }
+          },
+          "AER_00000041" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "number-available",
+                "ttype" : "Instantaneous"
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "ALPERIA",
+            "sparent" : { }
+          },
+          "AER_00000042" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "number-available",
+                "ttype" : "Instantaneous"
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "ALPERIA",
+            "sparent" : { }
+          }
+        }
+      },
+      "EnvironmentStation" : {
+        "stations" : {
+          "AB2" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "CO - Monossido di carbonio",
+                "ttype" : "Mean"
+              },
+              "EAQI-NO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "EAQI-NO2",
+                "ttype" : "rating"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "NO2 - Ossidi di azoto",
+                "ttype" : "Mean"
+              },
+              "O3 - Ozono" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "O3 - Ozono",
+                "ttype" : "Mean"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM10 - Polveri sottili",
+                "ttype" : "Mean"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM10 - Polveri sottili (OMS)",
+                "ttype" : "Mean"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM2.5 - Polveri sottili",
+                "ttype" : "Mean"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM2.5 - Polveri sottili (2030)",
+                "ttype" : "Mean"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Egna"
+            },
+            "sorigin" : "APPABZ",
+            "sparent" : { }
+          },
+          "AB3" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "CO - Monossido di carbonio",
+                "ttype" : "Mean"
+              },
+              "EAQI-NO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "EAQI-NO2",
+                "ttype" : "rating"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "NO2 - Ossidi di azoto",
+                "ttype" : "Mean"
+              },
+              "O3 - Ozono" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "O3 - Ozono",
+                "ttype" : "Mean"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM10 - Polveri sottili",
+                "ttype" : "Mean"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM10 - Polveri sottili (OMS)",
+                "ttype" : "Mean"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM2.5 - Polveri sottili",
+                "ttype" : "Mean"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM2.5 - Polveri sottili (2030)",
+                "ttype" : "Mean"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bressanone"
+            },
+            "sorigin" : "APPABZ",
+            "sparent" : { }
+          },
+          "BX1" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "CO - Monossido di carbonio",
+                "ttype" : "Mean"
+              },
+              "EAQI-NO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "EAQI-NO2",
+                "ttype" : "rating"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "NO2 - Ossidi di azoto",
+                "ttype" : "Mean"
+              },
+              "O3 - Ozono" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "O3 - Ozono",
+                "ttype" : "Mean"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM10 - Polveri sottili",
+                "ttype" : "Mean"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM10 - Polveri sottili (OMS)",
+                "ttype" : "Mean"
+              },
+              "Radioattività" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Radioattività",
+                "ttype" : "Mean"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bressanone"
+            },
+            "sorigin" : "APPABZ",
+            "sparent" : { }
+          },
+          "BZ4" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "EAQI-NO2",
+                "ttype" : "rating"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "NO2 - Ossidi di azoto",
+                "ttype" : "Mean"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM10 - Polveri sottili",
+                "ttype" : "Mean"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM10 - Polveri sottili (OMS)",
+                "ttype" : "Mean"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM2.5 - Polveri sottili",
+                "ttype" : "Mean"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM2.5 - Polveri sottili (2030)",
+                "ttype" : "Mean"
+              },
+              "nitrogen-dioxide" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "nitrogen-dioxide",
+                "ttype" : "Mean"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano"
+            },
+            "sorigin" : "APPABZ",
+            "sparent" : { }
+          },
+          "BZ5" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "CO - Monossido di carbonio",
+                "ttype" : "Mean"
+              },
+              "EAQI-NO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "EAQI-NO2",
+                "ttype" : "rating"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "NO2 - Ossidi di azoto",
+                "ttype" : "Mean"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM10 - Polveri sottili",
+                "ttype" : "Mean"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM10 - Polveri sottili (OMS)",
+                "ttype" : "Mean"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM2.5 - Polveri sottili",
+                "ttype" : "Mean"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM2.5 - Polveri sottili (2030)",
+                "ttype" : "Mean"
+              },
+              "nitrogen-dioxide" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "nitrogen-dioxide",
+                "ttype" : "Mean"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano"
+            },
+            "sorigin" : "APPABZ",
+            "sparent" : { }
+          },
+          "BZ6" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "EAQI-NO2",
+                "ttype" : "rating"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "NO2 - Ossidi di azoto",
+                "ttype" : "Mean"
+              },
+              "O3 - Ozono" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "O3 - Ozono",
+                "ttype" : "Mean"
+              },
+              "Radioattività" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Radioattività",
+                "ttype" : "Mean"
+              },
+              "SO2 - Biossido di zolfo" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "SO2 - Biossido di zolfo",
+                "ttype" : "Mean"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano"
+            },
+            "sorigin" : "APPABZ",
+            "sparent" : { }
+          },
+          "CR1" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "EAQI-NO2",
+                "ttype" : "rating"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "NO2 - Ossidi di azoto",
+                "ttype" : "Mean"
+              },
+              "O3 - Ozono" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "O3 - Ozono",
+                "ttype" : "Mean"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM10 - Polveri sottili",
+                "ttype" : "Mean"
+              },
+              "Radioattività" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Radioattività",
+                "ttype" : "Mean"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Cortina ssdV"
+            },
+            "sorigin" : "APPABZ",
+            "sparent" : { }
+          },
+          "LS1" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "EAQI-NO2",
+                "ttype" : "rating"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "NO2 - Ossidi di azoto",
+                "ttype" : "Mean"
+              },
+              "O3 - Ozono" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "O3 - Ozono",
+                "ttype" : "Mean"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM10 - Polveri sottili",
+                "ttype" : "Mean"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM10 - Polveri sottili (OMS)",
+                "ttype" : "Mean"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM2.5 - Polveri sottili",
+                "ttype" : "Mean"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM2.5 - Polveri sottili (2030)",
+                "ttype" : "Mean"
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Laives"
+            },
+            "sorigin" : "APPABZ",
+            "sparent" : { }
+          }
+        }
+      },
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time greater than 100 km/h",
+                "ttype" : "Mode"
+              },
+              "Bluetooth match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous"
+              },
+              "speed greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "speed greater than 100 km/h",
+                "ttype" : "Mode"
+              },
+              "velocita'" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "velocita'",
+                "ttype" : "Mean"
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "NOI",
+            "sparent" : { }
+          },
+          "A22_ML107->A22_ML103" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time greater than 100 km/h",
+                "ttype" : "Mode"
+              },
+              "Bluetooth match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous"
+              },
+              "speed greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "speed greater than 100 km/h",
+                "ttype" : "Mode"
+              },
+              "velocita'" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "velocita'",
+                "ttype" : "Mean"
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "NOI",
+            "sparent" : { }
+          },
+          "Agip_Einstein->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time greater than 100 km/h",
+                "ttype" : "Mode"
+              },
+              "Bluetooth match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous"
+              },
+              "speed greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "speed greater than 100 km/h",
+                "ttype" : "Mode"
+              },
+              "velocita'" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "velocita'",
+                "ttype" : "Mean"
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "NOI",
+            "sparent" : { }
+          },
+          "Maso_Pieve->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null
+              },
+              "Bluetooth match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous"
+              },
+              "velocita'" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "velocita'",
+                "ttype" : "Mean"
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : "NOI",
+            "sparent" : { }
+          }
+        }
+      },
+      "Streetstation" : {
+        "stations" : {
+          "CORSO ITALIA / ITALIENALLEE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "CH4",
+                "ttype" : null
+              },
+              "CO" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "CO",
+                "ttype" : null
+              },
+              "CO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "CO2",
+                "ttype" : null
+              },
+              "COV" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "COV",
+                "ttype" : null
+              },
+              "FC" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "FC",
+                "ttype" : null
+              },
+              "IPA" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "IPA",
+                "ttype" : null
+              },
+              "NH3" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "NH3",
+                "ttype" : null
+              },
+              "NOX" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "NOX",
+                "ttype" : null
+              },
+              "PM10" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PM10",
+                "ttype" : "Mean"
+              },
+              "PTS" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "PTS",
+                "ttype" : null
+              },
+              "S02" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "S02",
+                "ttype" : null
+              }
+            },
+            "smetadata" : {
+              "municipality" : null
+            },
+            "sorigin" : null,
+            "sparent" : { }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

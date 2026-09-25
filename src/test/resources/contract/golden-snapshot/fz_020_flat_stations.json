@@ -1,0 +1,2165 @@
+{
+  "request" : "GET /flat/*?limit=-1&select=sname,ptype,pmetadata.voltage&where=sactive.eq.true&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "S.S. RENON + Renon"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DEL MACELLO 2 + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "CORSO ITALIA / ITALIENALLEE + Viale Druso poste"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA VITTORIO VENETO / VITTORIO-VENETO-STRASSE + via Vittorio Veneto"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "cavour->schaffer-winkel"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA RENON / RITTNER STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA EBNER + via Galvani"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CLAUDIA AUGUSTA 5 + via Claudia Augusta 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SVINCOLO VIA GALILEI 1 + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA GIUSEPPE GARIBALDI / GIUSEPPE-GARIBALDI-STRASSE + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Galilei_Lancia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Galilei_Roma->Maso_Pieve"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "hofer->goethe-alpini"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Galleria_Virgolo->proma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "mazzini"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "galilei"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "terme_ovest->piave_matteotti"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Galilei_Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ROEN"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Druso_Palermo->Milano_Palermo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "huber->liberta-corse"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "druso-poste->proma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "roma_sud->roma_nord"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Vipiteno"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MAYR NUSSER 1 + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA BUOZZI 3"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA BARI"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA VINTOLA 2 + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "caugusta"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 2 + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE + Agip Einstein"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA GALILEO GALILEI / GALILEO-GALILEI-STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA TORINO 2 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA SANT'ANTONIO / ST.-ANTON-STRASSE + Sarentino"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA TALVERA + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "stazione->goethe_ospedale"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA BRENNERO / BRENNERSTRASSE + Renon"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DALMAZIA 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "goethe-alpini"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "TN-Maccani->TN-Nord"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "zuegg-palade->piave-palade"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "roma_nord->terme_est"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA TORINO 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Rocchetta"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA SAN MAURIZIO / MORITZINGER WEG"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "TN-Sud->TN-Acquaviva"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA WEGGENSTEIN / WEGGENSTEINSTRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SS 12 / SS12  1 + SS12 Pineta"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "A22_ML107"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE DRUSO 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 3 + MEBO"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : "BikesharingStation",
+      "sname" : "Viale della Stazione - Bahnhofsallee:3"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA TORRICELLI + via Torricelli"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ALESSANDRIA + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA WERNER VON SIEMENS / WERNER-VON-SIEMENS-STRASSE 1 + Tis"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "TN-Nord"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MUSEO / MUSEUMSTRASSE + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA SAN GENESIO / JENESIER WEG + S. Genesio"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Milano_Resia->Milano_Palermo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MIRAMONTI / REICHRIEGLERWEG"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PONTE ROMA / ROMBRCKE 2 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Arginale_Resia->Milano_Resia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "AURINO A S. GIORGIO"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "proma->Roma_Firenze"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SP 99 S. GENESIO / LS 99 JENESIEN 2 + S. Genesio"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA TORINO 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA SASSARI 3 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CESARE BATTISTI + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE TRENTO"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "wolf-franziskus"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ROMA / ROMSTRASSE + via Claudia Augusta 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 4 + SS12 Pineta"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Parcheggio Waltherpark"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "petrarca->ponte_rezia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA EVANGELISTA TORRICELLI / EVANGELISTA-TORRICELLI-STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "druso-poste->Roma_Firenze"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA VINTOLA 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "ponte_rezia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 5"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "schaffer-winkel"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA PARMA 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "wolf->corse_cappuccini"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DELL OSPEDALE / SPITALGASSE + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 5 + SS12 Cardano"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA S. QUIRINO + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ROVIGO 1 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : "BikesharingStation",
+      "sname" : "Viale della Stazione - Bahnhofsallee:8"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA SAN GENESIO / JENESIER WEG"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Bolzano 6 - Via Amba Alagi giardino"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA RENCIO / RENTSCHER STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "wolf-franziskus->goethe_ospedale"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA S. GIACOMO / ST.-JAKOB-STRASSE + incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 3 + incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CLAUDIA AUGUSTA 2 + via Claudia Augusta 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SS 38 / SS38"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PIAZZA GRIES / GRIESER PLATZ"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "galilei->corse_cappuccini"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "TN-Nord->TN-Maccani"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MAYR NUSSER 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ARMANDO DIAZ / ARMANDO-DIAZ-STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "scena-leichter"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA TALVERA"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA PARMA 1 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "corse_cappuccini"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SVINCOLO VIA GALILEI 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ROVIGO 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA LORENZ BHLER / LORENZ-BHLER-STRASSE + Settequerce"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "roma_nord->roma_sud"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA GALILEI + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "sinigo->roma_sud"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA BRENNERO + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MIRAMONTI / REICHRIEGLERWEG + S. Genesio"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "A22_ML103->A22_ML107"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA RIGHI"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "meinstein"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Maso_Pieve"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PONTE ROMA / ROMBRCKE 1 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE + via Galvani"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA VINTOLA 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SS 42 / SS42 + SS42"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Arginale_Palermo->Arginale_Resia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PONTE DRUSO / DRUSUSBRCKE + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA VINTOLA 1 + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "terme_ovest->zuegg-palade"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "hofer->goethe_ospedale"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DANTE / DANTESTRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DEL MACELLO 3 + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "A22_ML103"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA SARENTINO / SARNTALER  STRASSE 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CASTEL FIRMIANO / SIGMUNDSKRONER STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "piave-palade"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ROVIGO 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE DRUSO / DRUSUSALLEE 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PONTE PALERMO / PALERMOBRCKE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "mazzini->huber"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "stazione"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Cadino"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE DRUSO 3"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 1 + via Galvani"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MILANO 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Galleria_Virgolo->Arginale_Palermo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "GALLERIA DEL VIRGOLO / VIRGL TUNNEL + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "wolf-franziskus->corse_cappuccini"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PONTE PALERMO / PALERMOBRCKE + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : "BikesharingStation",
+      "sname" : "Viale della Stazione - Bahnhofsallee:6"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "huber"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "ISARCO A BOLZANO SUD"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "siemens->proma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "roma_sud"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA GAISMAIR"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA LORENZ BHLER / LORENZ-BHLER-STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PIAZZA GIUSEPPE VERDI / GIUSEPPE-VERDI-PLATZ"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "piave-palade->zuegg-palade"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE DRUSO 4"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "sinigo->goethe_ospedale"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DEL MACELLO 4"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ROMA / ROMSTRASSE 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA GUGLIELMO MARCONI / GUGLIELMO-MARCONI-STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Parcheggio Stazione Bressanone"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE EUROPA + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 3"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE DRUSO 2 + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "druso-poste"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CLAUDIA AUGUSTA 1 + incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 2 + incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "goethe_ospedale->sinigo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA WEGGENSTEIN"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE DRUSO 1 + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : "BikesharingStation",
+      "sname" : "Viale della Stazione - Bahnhofsallee:1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 4"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Civezzano"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SS 12 / SS12  2 + SS12 Pineta"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA EVANGELISTA TORRICELLI / EVANGELISTA-TORRICELLI-STRASSE + via Torricelli"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PONTE ROMA / ROMBRCKE 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "TN-Nord->TN-Cadino"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SP 99 S. GENESIO / LS 99 JENESIEN 3 + S. Genesio"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "meinstein->Maso_Pieve"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA BARI + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MAYR NUSSER 3"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 7"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 3 + via Einstein 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA SASSARI 2 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Anterselva di Sopra"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CLAUDIA AUGUSTA 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Torricelli"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA LORIS MUSY / LORIS-MUSY-STRASSE + incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA RESIA 2 + incrocio via Resia - viale Druso 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 3 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA VENEZIA + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 2 + via Galvani"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Milano_Palermo->Roma_Firenze"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "liberta-corse"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PIAZZA ADRIANO + Viale Druso poste"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA RENCIO / RENTSCHNER STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE DRUSO 3 + Viale Druso poste"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SP 99 S. GENESIO / LS 99 JENESIEN 3"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ROVIGO 2 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Milano_Palermo->Milano_Resia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Galilei_Lancia->Galilei_Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PONTE ROMA + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA RENCIO / RENTSCHNER STRASSE + Renon"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Galilei_Lancia->galvani"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "CORSO ITALIA / ITALIENALLEE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "piave_matteotti->piave-palade"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ALESSANDRIA"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Via Galilei - Galilei-Strasse"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "cavour"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PIAZZA VITTORIA + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA BUOZZI 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Roma_Firenze->druso-poste"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "terme_ovest->liberta-corse"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 3"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "galvani->meinstein"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "TN-Acquaviva->TN-Sud"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "goethe_ospedale->hofer"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SP 99 S. GENESIO / LS 99 JENESIEN 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PIAZZA GRIES / GRIESER PLATZ + via Vittorio Veneto"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA WERNER VON SIEMENS / WERNER-VON-SIEMENS-STRASSE 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA BUOZZI 1 + via Galvani"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Bolzano"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE EUROPA"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Via Maso della Pieve - Pfarrhofstrasse"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Druso_Palermo->druso-poste"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "P_Campiglio->Galleria_Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE DRUSO 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CLAUDIA AUGUSTA 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ROMA / ROMSTRASSE 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "TN-Maccani->TN-Sud"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "liberta-corse->huber"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA S. MAURIZIO + Settequerce"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "siemens"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PONTE VIRGOLO"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MILANO 2 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 1 + MEBO"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "terme_est->terme_ovest"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "piave_matteotti->roma_nord"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "corse_cappuccini->wolf-franziskus"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CAVOUR"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA WERNER VON SIEMENS / WERNER-VON-SIEMENS-STRASSE 2 + Tis"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CESARE BATTISTI"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA VITTORIO VENETO / VITTORIO-VENETO-STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "ponte_rezia->mazzini"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Druso_Palermo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "TN-Maccani"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SVINCOLO VIA GALILEI 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "COSTA DI SOTTO / UNTERLEITACH"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "caugusta->Maso_Pieve"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Galilei_Virgolo->Galleria_Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DALMAZIA 2 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE DRUSO / DRUSUSALLEE 1 + incrocio via Resia - viale Druso 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DEL MACELLO 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "schaffer-winkel->cavour"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA BRENNERO / BRENNERSTRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "huber->mazzini"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "P07 - Mareccio via C. de Medici"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PONTE TALVERA / TALFERBRCKE + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "liberta-corse->terme_ovest"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CLAUDIA AUGUSTA 3 + incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "P_Campiglio"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Arginale_Resia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Roma_Firenze->Milano_Palermo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "TN-Acquaviva"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Fiera - Messe"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA RESIA 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "TN-Sud->TN-Maccani"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CLAUDIA AUGUSTA 4"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 2 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Torricelli->siemens"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "ponte_rezia->petrarca"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA BRENNERO"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Druso_Palermo->Milano_Resia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA PARMA 2 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SP 99 S. GENESIO / LS 99 JENESIEN 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1 + Agip Einstein"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 1 + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MERANO / MERANER STRASSE 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Maso_Pieve->meinstein"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE DRUSO 4 + incrocio via Resia - viale Druso 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DALMAZIA 1 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Casa Cantoniera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PONTE DRUSO / DRUSUSBRCKE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ROEN + Viale Druso poste"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Torricelli->P_Campiglio"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MAYR NUSSER 2 + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PIAZZA GIUSEPPE MAZZINI / GIUSEPPE-MAZZINI-PLATZ"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "terme_ovest"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DEL MACELLO 4 + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "P_Campiglio->Arginale_Resia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Palasport - Stadthalle"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA TRE SANTI"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "roma_sud->sinigo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Milano_Palermo->Druso_Palermo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE TRIESTE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "GALLERIA SS12 / SS12 TUNNEL"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "S.S. RENON"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA BUOZZI 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ROMA / ROMSTRASSE 1 + via Claudia Augusta 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA BEATO ARRIGO / SELIG-HEINRICH-STRASSE + Sarentino"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA GIOSUÈ CARDUCCI / GIOSUÈ-CARDUCCI-STRASSE + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA SARENTINO / SARNTALER  STRASSE 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "A22_ML103->Torricelli"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PIAZZA GIUSEPPE MAZZINI / GIUSEPPE-MAZZINI-PLATZ + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Agip_Einstein->meinstein"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "wolf"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Arginale_Palermo->Milano_Palermo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "GALLERIA SS12 / SS12 TUNNEL + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1 + via Vittorio Veneto"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MERANO / MERANER STRASSE 1 + incrocio via Resia - viale Druso 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Galilei_Roma->druso-poste"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA BUOZZI 3 + via Galvani"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 2 + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA GIUSEPPE GARIBALDI / GIUSEPPE-GARIBALDI-STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DUCA Di AOSTA 1 + Viale Druso poste"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 7 + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MAYR NUSSER 3 + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA SAN MAURIZIO / MORITZINGER WEG + via Vittorio Veneto"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "ISARCO A BRESSANONE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 3 + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Galilei_Virgolo->Galilei_Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Galilei_Palermo->Galilei_Lancia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "stazione->mazzini"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "meinstein->galvani"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "mazzini->stazione"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "scena-leichter->cavour"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "cavour->scena-leichter"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA BUOZZI 2 + via Galvani"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA FAGO / FAGENSTRASSE + via Vittorio Veneto"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1 + Tis"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "P05 - Laurin"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "goethe_ospedale->wolf-franziskus"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 4"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MERANO / MERANER STRASSE 2 + Settequerce"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : "BikesharingStation",
+      "sname" : "Viale della Stazione - Bahnhofsallee:4"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Milano_Palermo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MENDOLA"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CASSA DI RISPARMIO / SPARKASSENSTRASSE + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DUCA Di AOSTA 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Galilei_Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Agip_Einstein->Torricelli"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "hofer"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Galilei_Palermo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "druso-poste->Galilei_Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 3 + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 1 + via Einstein 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA COLOGNA / GLANINGER WEG"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MAYR NUSSER 4 + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CASTEL FIRMIANO / SIGMUNDSKRONER STRASSE + SS42"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Cortina ssdV - Strada del Vino"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ROMA / ROMSTRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2 + Agip Einstein"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 4 + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DEL MACELLO 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE TRIESTE + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CLAUDIA AUGUSTA 3"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 3"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CLAUDIA AUGUSTA 5"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SS 38 / SS38 + Settequerce"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Roma_Firenze"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA SASSARI 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "cavour->sinigo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PIAZZA GIUSEPPE VERDI / GIUSEPPE-VERDI-PLATZ + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "GALLERIA DEL VIRGOLO / VIRGL TUNNEL"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA TRE SANTI + via Vittorio Veneto"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA LORIS MUSY / LORIS-MUSY-STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Milano_Resia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Galleria_Virgolo->P_Campiglio"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SS 12 / SS12  2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "sinigo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Roma_Firenze->proma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "cavour->terme_est"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MERANO / MERANER STRASSE 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VICOLO FUCINE + via Vittorio Veneto"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA SANT'ANTONIO / ST.-ANTON-STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "P03 - Piazza Walther"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SS 12 / SS12  1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 6"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA PARMA 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DANTE / DANTESTRASSE + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 1 + incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PONTE ROMA / ROMBRCKE 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA SARENTINO / SARNTALER  STRASSE 2 + Sarentino"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Galilei_Roma->caugusta"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MENDOLA + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA SASSARI 1 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE + via Galvani"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PONTE TALVERA / TALFERBRCKE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA VENEZIA"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Viadotto A22"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 3"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "P12 – Piazza Tribunale"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CLAUDIA AUGUSTA 4 + via Claudia Augusta 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "goethe-alpini->hofer"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CASSA DI RISPARMIO"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "petrarca"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Viale della Stazione - Bahnhofsallee"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Bressanone - Villa Adele - Viale Ratisbona"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DUCA Di AOSTA 2 + Viale Druso poste"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SP 99 S. GENESIO / LS 99 JENESIEN 1 + S. Genesio"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA BEATO ARRIGO / SELIG-HEINRICH-STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Milano_Resia->Druso_Palermo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA WERNER VON SIEMENS / WERNER-VON-SIEMENS-STRASSE 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "COSTA DI SOTTO / UNTERLEITACH + SS12 Cardano"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 6 + SS12 Cardano"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA S. MAURIZIO"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DUCA Di AOSTA 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE DRUSO / DRUSUSALLEE 2 + incrocio via Resia - viale Druso 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VICOLO FUCINE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 3"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN + Autostrada Fittizzia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Agip_Einstein"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CASSA DI RISPARMIO / SPARKASSENSTRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "corse_cappuccini->wolf"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA OLTRADIGE / UEBERETSCHER STRASSE + SS42"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 2 + incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA WEGGENSTEIN + Sarentino"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "liberta-corse->mazzini"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "piave-palade->piave_matteotti"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MAYR NUSSER 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DELL OSPEDALE / SPITALGASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PIAZZA ADRIANO"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DEL MACELLO 1 + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "zuegg-palade"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Arginale_Palermo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "proma->druso-poste"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DEL MACELLO 3"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA EDISON + via Torricelli"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "galvani->Galilei_Lancia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "roma_nord"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "TN-Cadino->TN-Nord"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "meinstein->Agip_Einstein"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CASSA DI RISPARMIO + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "A22 Nord-Bx sud - Depuratore, Bx"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Laives - Via Galizia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ROMA / ROMSTRASSE 3"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE DRUSO / DRUSUSALLEE 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Bolzano 4 - Via C.Augusta"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA TORRICELLI"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "druso-poste->Druso_Palermo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PONTE VIRGOLO + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MAYR NUSSER 4"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA COLOGNA / GLANINGER WEG + S. Genesio"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA GUGLIELMO MARCONI / GUGLIELMO-MARCONI-STRASSE + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PONTE SANT'ANTONIO / ST.-ANTON-BRCKE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Acquaviva"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Parcheggio Stazione Brunico"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "P13 – Direzional Park"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "galvani"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 3"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA CAVOUR + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MILANO 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "sinigo->cavour"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 2 + MEBO"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA RENON / RITTNER STRASSE + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "P15 - Palasport via Resia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "goethe_ospedale"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "caugusta->Galilei_Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : "BikesharingStation",
+      "sname" : "Viale della Stazione - Bahnhofsallee:7"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "goethe_ospedale->stazione"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "TN-Sud"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ANTONIO ROSMINI / ANTONIO-ROSMINI-STRASSE + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "zuegg-palade->terme_est"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "carvelo eCargo-Bike Sharing"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PIAZZA VITTORIA"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA FAGO / FAGENSTRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "P04 - Luna via Molini"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "proma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Galleria_Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : "BikesharingStation",
+      "sname" : "Viale della Stazione - Bahnhofsallee:5"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "S. Martino in Badia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA SASSARI 3"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "A22 Sud - Binnenland, Ora"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA DALMAZIA 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA EBNER"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA RIGHI + Tis"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 2 + Tis"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "corse_cappuccini->galilei"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "liberta-corse->corse_cappuccini"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "A22_ML107->A22_ML103"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA GAISMAIR + Viale Druso poste"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIALE TRENTO + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA WEGGENSTEIN / WEGGENSTEINSTRASSE + Sarentino"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA SASSARI 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ROMA / ROMSTRASSE 3 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA EDISON"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Arginale_Resia->Agip_Einstein"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "via Torricelli"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "TN-Cadino"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ROMA / ROMSTRASSE 2 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : "ParkingFacility",
+      "sname" : "P05 - Laurin"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA TORINO 1 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ANTONIO ROSMINI / ANTONIO-ROSMINI-STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "piave_matteotti"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA GALILEO GALILEI / GALILEO-GALILEI-STRASSE + Tis"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA S. QUIRINO"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MILANO 1 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA ARMANDO DIAZ / ARMANDO-DIAZ-STRASSE + ponte Talvera"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SS 42 / SS42"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Claudia Augusta"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "terme_est"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA RENCIO / RENTSCHER STRASSE + SS12 Cardano"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "SVINCOLO VIA GALILEI 2 + ponte Virgolo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "mazzini->ponte_rezia"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Arginale_Resia->A22_ML103"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "siemens->Galilei_Palermo"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "Bolzano 5 - Piazza Adriano"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : "BikesharingStation",
+      "sname" : "Viale della Stazione - Bahnhofsallee:2"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1 + Ponte Roma"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA SARENTINO / SARNTALER  STRASSE 1 + Sarentino"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA S. GIACOMO / ST.-JAKOB-STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PONTE SANT'ANTONIO / ST.-ANTON-BRCKE + Sarentino"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA OLTRADIGE / UEBERETSCHER STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "PONTE ROMA"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA MUSEO / MUSEUMSTRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA GALILEI"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA GIOSUÈ CARDUCCI / GIOSUÈ-CARDUCCI-STRASSE"
+    }, {
+      "pmetadata.voltage" : null,
+      "ptype" : null,
+      "sname" : "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 2"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,561 @@
+{
+  "request" : "GET /flat/Bicycle/*?limit=200 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike118",
+      "smetadata" : {
+        "type" : "mountain-bike-child"
+      },
+      "sname" : "mountain-bike-child(118)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle",
+      "tdescription" : "availability",
+      "tmetadata" : { },
+      "tname" : "availability"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike119",
+      "smetadata" : {
+        "type" : "mountain-bike-child"
+      },
+      "sname" : "mountain-bike-child(119)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle",
+      "tdescription" : "availability",
+      "tmetadata" : { },
+      "tname" : "availability"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike136",
+      "smetadata" : {
+        "type" : "city-bike-adult-with-gears"
+      },
+      "sname" : "city-bike-adult-with-gears(136)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle",
+      "tdescription" : "availability",
+      "tmetadata" : { },
+      "tname" : "availability"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike51",
+      "smetadata" : {
+        "type" : "mountain-bike-adult"
+      },
+      "sname" : "mountain-bike-adult(51)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle",
+      "tdescription" : "availability",
+      "tmetadata" : { },
+      "tname" : "availability"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike55",
+      "smetadata" : {
+        "type" : "city-bike-adult-without-gears"
+      },
+      "sname" : "city-bike-adult-without-gears(55)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle",
+      "tdescription" : "availability",
+      "tmetadata" : { },
+      "tname" : "availability"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike74",
+      "smetadata" : {
+        "type" : "city-bike-adult-with-gears"
+      },
+      "sname" : "city-bike-adult-with-gears(74)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle",
+      "tdescription" : "availability",
+      "tmetadata" : { },
+      "tname" : "availability"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation2",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.150187,
+        "y" : 46.672476
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 9,
+          "city-bike-adult-without-gears" : 5,
+          "mountain-bike-adult" : 4,
+          "mountain-bike-child" : 8,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 28
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Stazione treni",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike139",
+      "smetadata" : {
+        "type" : "city-bike-adult-with-gears"
+      },
+      "sname" : "city-bike-adult-with-gears(139)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle",
+      "tdescription" : "availability",
+      "tmetadata" : { },
+      "tname" : "availability"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation2",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.150187,
+        "y" : 46.672476
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 9,
+          "city-bike-adult-without-gears" : 5,
+          "mountain-bike-adult" : 4,
+          "mountain-bike-child" : 8,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 28
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Stazione treni",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike53",
+      "smetadata" : {
+        "type" : "mountain-bike-adult"
+      },
+      "sname" : "mountain-bike-adult(53)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle",
+      "tdescription" : "availability",
+      "tmetadata" : { },
+      "tname" : "availability"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike136",
+      "smetadata" : {
+        "type" : "city-bike-adult-with-gears"
+      },
+      "sname" : "city-bike-adult-with-gears(136)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle",
+      "tname" : "city-bike-adult-with-gears"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike74",
+      "smetadata" : {
+        "type" : "city-bike-adult-with-gears"
+      },
+      "sname" : "city-bike-adult-with-gears(74)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle",
+      "tname" : "city-bike-adult-with-gears"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation2",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.150187,
+        "y" : 46.672476
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 9,
+          "city-bike-adult-without-gears" : 5,
+          "mountain-bike-adult" : 4,
+          "mountain-bike-child" : 8,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 28
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Stazione treni",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike139",
+      "smetadata" : {
+        "type" : "city-bike-adult-with-gears"
+      },
+      "sname" : "city-bike-adult-with-gears(139)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle",
+      "tname" : "city-bike-adult-with-gears"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike55",
+      "smetadata" : {
+        "type" : "city-bike-adult-without-gears"
+      },
+      "sname" : "city-bike-adult-without-gears(55)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle",
+      "tname" : "city-bike-adult-without-gears"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike51",
+      "smetadata" : {
+        "type" : "mountain-bike-adult"
+      },
+      "sname" : "mountain-bike-adult(51)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle",
+      "tname" : "mountain-bike-adult"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation2",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.150187,
+        "y" : 46.672476
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 9,
+          "city-bike-adult-without-gears" : 5,
+          "mountain-bike-adult" : 4,
+          "mountain-bike-child" : 8,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 28
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Stazione treni",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike53",
+      "smetadata" : {
+        "type" : "mountain-bike-adult"
+      },
+      "sname" : "mountain-bike-adult(53)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle",
+      "tname" : "mountain-bike-adult"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike118",
+      "smetadata" : {
+        "type" : "mountain-bike-child"
+      },
+      "sname" : "mountain-bike-child(118)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle",
+      "tname" : "mountain-bike-child"
+    }, {
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "bikestation1",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.159114,
+        "y" : 46.668134
+      },
+      "pmetadata" : {
+        "bikes" : {
+          "city-bike-adult-with-gears" : 23,
+          "city-bike-adult-without-gears" : 13,
+          "mountain-bike-adult" : 5,
+          "mountain-bike-child" : 7,
+          "mountain-bike-teenager" : 3,
+          "number-available" : 49
+        },
+        "municipality" : "Meran - Merano"
+      },
+      "pname" : "Terme",
+      "porigin" : "ALGORAB",
+      "ptype" : "BikesharingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "bike119",
+      "smetadata" : {
+        "type" : "mountain-bike-child"
+      },
+      "sname" : "mountain-bike-child(119)",
+      "sorigin" : "ALGORAB",
+      "stype" : "Bicycle",
+      "tname" : "mountain-bike-child"
+    } ],
+    "limit" : 200,
+    "offset" : 0
+  }
+}

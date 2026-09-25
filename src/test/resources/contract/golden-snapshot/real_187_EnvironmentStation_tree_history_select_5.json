@@ -1,0 +1,34 @@
+{
+  "request" : "GET /tree/EnvironmentStation/PM2.5%20-%20Polveri%20sottili%20%282030%29/2026-09-24T08:05:00Z/2026-09-24T14:06:00Z?limit=2000&where=scode.eq.%22BZ4%22&select=sname,tname,mvalue,mvalidtime [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "EnvironmentStation" : {
+        "stations" : {
+          "BZ4" : {
+            "sdatatypes" : {
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 8.185
+                } ],
+                "tname" : "PM2.5 - Polveri sottili (2030)"
+              }
+            },
+            "sname" : "Bolzano 4 - Via C.Augusta"
+          }
+        }
+      }
+    },
+    "limit" : 2000,
+    "offset" : 0
+  }
+}

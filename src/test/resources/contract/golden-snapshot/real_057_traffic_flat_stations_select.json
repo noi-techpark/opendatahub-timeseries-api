@@ -1,0 +1,113 @@
+{
+  "request" : "GET /flat/traffic?limit=100&select=scode,sname,sorigin,scoordinate,smetadata,pcode [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "scode" : "Autostrada Fittizzia",
+      "smetadata" : {
+        "description" : "spiraFITTIZIA"
+      },
+      "sname" : "Autostrada Fittizzia"
+    }, {
+      "scode" : "MEBO",
+      "smetadata" : {
+        "description" : "spiraPAB"
+      },
+      "sname" : "MEBO"
+    }, {
+      "scode" : "Renon",
+      "smetadata" : {
+        "description" : "spiraPAB"
+      },
+      "sname" : "Renon"
+    }, {
+      "scode" : "S. Genesio",
+      "smetadata" : {
+        "description" : "spiraPAB"
+      },
+      "sname" : "S. Genesio"
+    }, {
+      "scode" : "SS12 Cardano",
+      "smetadata" : {
+        "description" : "spiraPAB"
+      },
+      "sname" : "SS12 Cardano"
+    }, {
+      "scode" : "SS12 Pineta",
+      "smetadata" : {
+        "description" : "spiraPAB"
+      },
+      "sname" : "SS12 Pineta"
+    }, {
+      "scode" : "SS42",
+      "smetadata" : {
+        "description" : "spiraPAB"
+      },
+      "sname" : "SS42"
+    }, {
+      "scode" : "Sarentino",
+      "smetadata" : {
+        "description" : "spiraPAB"
+      },
+      "sname" : "Sarentino"
+    }, {
+      "scode" : "Settequerce",
+      "smetadata" : {
+        "description" : "spiraPAB"
+      },
+      "sname" : "Settequerce"
+    }, {
+      "scode" : "incrocio via Duerer - Pfarrhofstrasse",
+      "smetadata" : {
+        "description" : "spiraBZ"
+      },
+      "sname" : "incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "scode" : "incrocio via Resia - viale Druso 1",
+      "smetadata" : {
+        "description" : "spiraBZ"
+      },
+      "sname" : "incrocio via Resia - viale Druso 1"
+    }, {
+      "scode" : "ponte Talvera",
+      "smetadata" : {
+        "description" : "spiraBZ"
+      },
+      "sname" : "ponte Talvera"
+    }, {
+      "scode" : "ponte Virgolo",
+      "smetadata" : {
+        "description" : "spiraBZ"
+      },
+      "sname" : "ponte Virgolo"
+    }, {
+      "scode" : "via Claudia Augusta 1",
+      "smetadata" : {
+        "description" : "spiraBZ"
+      },
+      "sname" : "via Claudia Augusta 1"
+    }, {
+      "scode" : "via Einstein 1",
+      "smetadata" : {
+        "description" : "spiraBZ"
+      },
+      "sname" : "via Einstein 1"
+    }, {
+      "scode" : "via Vittorio Veneto",
+      "smetadata" : {
+        "description" : "spiraBZ"
+      },
+      "sname" : "via Vittorio Veneto"
+    } ],
+    "limit" : 100,
+    "offset" : 0
+  }
+}

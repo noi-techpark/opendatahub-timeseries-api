@@ -80,6 +80,8 @@ abstract class AbstractContractTest {
 		}
 	}
 
+	/** Bigger bodies are kept as a digest only, so that the golden files stay small enough to commit. */
+	private static final int MAX_STORED_BODY_CHARS = 100_000;
 	private static final boolean RECORD = Boolean.getBoolean("contract.record");
 	private static final List<String> CONTRACT_HEADERS = List.of("content-type", "content-encoding", "x-rate-limit-policy",
 			"x-rate-limit-limit", "x-frame-options", "x-content-type-options", "cache-control", "access-control-allow-origin", "access-control-allow-methods", "access-control-allow-credentials", "allow");
@@ -93,13 +95,18 @@ abstract class AbstractContractTest {
 	protected ContractEnv.App app;
 	protected final HttpClient http = HttpClient.newHttpClient();
 
+	/** The data the application runs on; the expected responses are kept per data set. */
+	protected ContractEnv.Dataset dataset() {
+		return ContractEnv.Dataset.SYNTHETIC;
+	}
+
 	protected abstract Map<String, String> settings();
 
 	protected abstract List<Case> cases();
 
 	@BeforeAll
 	void start() throws Exception {
-		env = ContractEnv.get();
+		env = ContractEnv.get(dataset());
 		app = env.startApp(settings());
 	}
 
@@ -150,10 +157,7 @@ abstract class AbstractContractTest {
 			Files.write(Path.of(dump, c.name() + ".body"), res.body());
 		}
 		ObjectNode actual = describe(c, res);
-		if (c.unordered()) {
-			checkTimestampOrder(actual);
-		}
-		Path file = ContractEnv.goldenDir().resolve(c.name() + ".json");
+		Path file = env.goldenDir().resolve(c.name() + ".json");
 		if (RECORD) {
 			Files.createDirectories(file.getParent());
 			Files.writeString(file, MAPPER.writeValueAsString(actual) + "\n");
@@ -195,8 +199,12 @@ abstract class AbstractContractTest {
 			if (res.statusCode() >= 400 && body.has("timestamp")) {
 				((ObjectNode) body).put("timestamp", body.get("timestamp").isIntegralNumber() ? "<masked>" : "<masked-not-epoch-millis>");
 			}
-			if (c.digestOnly()) {
-				String canon = MAPPER.writeValueAsString(body);
+			if (c.unordered()) {
+				checkTimestampOrder(body);
+			}
+			// the same view of the data the comparison uses, so that the digest is as stable as the comparison
+			String canon = MAPPER.writeValueAsString(canonical(body, c.unordered()));
+			if (c.digestOnly() || canon.length() > MAX_STORED_BODY_CHARS) {
 				out.put("bodySha256", HexFormat.of().formatHex(MessageDigest.getInstance("SHA-256").digest(canon.getBytes(StandardCharsets.UTF_8))));
 				out.put("bodyRecords", countRecords(body, canon));
 			} else {
@@ -220,8 +228,8 @@ abstract class AbstractContractTest {
 	}
 
 	/** Flat measurement rows are ordered by _timestamp; within equal timestamps the order is unspecified. */
-	private static void checkTimestampOrder(ObjectNode described) {
-		JsonNode data = described.path("body").path("data");
+	private static void checkTimestampOrder(JsonNode body) {
+		JsonNode data = body.path("data");
 		if (!data.isArray()) {
 			return;
 		}

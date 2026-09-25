@@ -1,0 +1,943 @@
+{
+  "request" : "GET /flat/EChargingPlug/metadata/2015-01-01/2026-09-24T14:06:00Z?limit=200 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "mhmetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "1",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "mhtransactiontime" : "2019-03-21 14:33:18.333+0000",
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000001",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.326185,
+        "y" : 46.473003
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Piazza Fiera - Messeplatz",
+        "capacity" : 2,
+        "city" : "BOLZANO - BOZEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "BZ_FIERA",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000001-1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.326185,
+        "y" : 46.473003
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "1",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "BZ_FIERA-241",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "mhmetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "1",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "mhtransactiontime" : "2019-03-21 14:36:34.756+0000",
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000041",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.271506,
+        "y" : 46.314846
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Via Madonna - Marienstraße",
+        "capacity" : 2,
+        "city" : "EGNA - NEUMARKT",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "EGNA_01",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000041-1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.271506,
+        "y" : 46.314846
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "1",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "EGNA_01-451",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "mhmetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "1",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "mhtransactiontime" : "2019-03-21 14:38:34.852+0000",
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000039",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 10.955608,
+        "y" : 46.52789
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Pracupola - Kuppelwies",
+        "capacity" : 2,
+        "city" : "ULTIMO - ULTEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "ACTIVE"
+      },
+      "pname" : "ULTIMO_01",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000039-1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 10.955608,
+        "y" : 46.52789
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "1",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "ULTIMO_01-432",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "mhmetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "mhtransactiontime" : "2019-03-21 14:33:16.068+0000",
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000001",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.326185,
+        "y" : 46.473003
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Piazza Fiera - Messeplatz",
+        "capacity" : 2,
+        "city" : "BOLZANO - BOZEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "BZ_FIERA",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000001-2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.326185,
+        "y" : 46.473003
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "BZ_FIERA-242",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "mhmetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "mhtransactiontime" : "2019-03-21 14:33:52.297+0000",
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000006",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.337837,
+        "y" : 46.4905
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Piazza Matteotti Platz",
+        "capacity" : 2,
+        "city" : "BOLZANO - BOZEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "BZ_PMATTEOTTI",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000006-2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.337837,
+        "y" : 46.4905
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "BZ_PMATTEOTTI-256",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "mhmetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "mhtransactiontime" : "2019-03-21 14:36:36.760+0000",
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000041",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.271506,
+        "y" : 46.314846
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Via Madonna - Marienstraße",
+        "capacity" : 2,
+        "city" : "EGNA - NEUMARKT",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "EGNA_01",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000041-2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.271506,
+        "y" : 46.314846
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "EGNA_01-452",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "mhmetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "mhtransactiontime" : "2019-03-21 14:38:36.446+0000",
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000039",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 10.955608,
+        "y" : 46.52789
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Pracupola - Kuppelwies",
+        "capacity" : 2,
+        "city" : "ULTIMO - ULTEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "ACTIVE"
+      },
+      "pname" : "ULTIMO_01",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000039-2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 10.955608,
+        "y" : 46.52789
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "ULTIMO_01-433",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "mhmetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : true,
+          "id" : "1",
+          "maxCurrent" : 120,
+          "maxPower" : 45,
+          "minCurrent" : 0,
+          "outletTypeCode" : "CHAdeMO"
+        }, {
+          "hasFixedCable" : true,
+          "id" : "2",
+          "maxCurrent" : 120,
+          "maxPower" : 45,
+          "minCurrent" : 0,
+          "outletTypeCode" : "CCS"
+        } ]
+      },
+      "mhtransactiontime" : "2019-03-21 14:33:11.437+0000",
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000042",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.323925,
+        "y" : 46.481113
+      },
+      "pmetadata" : {
+        "accessInfo" : null,
+        "accessType" : "PUBLIC",
+        "address" : "Ponte Resia - Reschenbrücke",
+        "capacity" : 1,
+        "categories" : null,
+        "city" : "BOLZANO - BOZEN",
+        "flashInfo" : null,
+        "locationServiceInfo" : null,
+        "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+        "provider" : "Alperia Smart Mobility",
+        "reservable" : null,
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "BZ_PTE_RESIA_OLD",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000042-1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.323925,
+        "y" : 46.481113
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : true,
+          "id" : "1",
+          "maxCurrent" : 120,
+          "maxPower" : 45,
+          "minCurrent" : 0,
+          "outletTypeCode" : "CHAdeMO"
+        }, {
+          "hasFixedCable" : true,
+          "id" : "2",
+          "maxCurrent" : 120,
+          "maxPower" : 45,
+          "minCurrent" : 0,
+          "outletTypeCode" : "CCS"
+        } ]
+      },
+      "sname" : "BZ_PTE_RESIA_OLD-456",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "mhmetadata" : {
+        "maxCurrent" : 31,
+        "maxPower" : 7015,
+        "minCurrent" : 6,
+        "municipality" : "Bolzano - Bozen",
+        "outletTypeCode" : "IEC 62196-2 type 2 outlets (all amperage and phase)",
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "1",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "mhtransactiontime" : "2019-03-19 10:46:20.807+0000",
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000001",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.326185,
+        "y" : 46.473003
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Piazza Fiera - Messeplatz",
+        "capacity" : 2,
+        "city" : "BOLZANO - BOZEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "BZ_FIERA",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000001-1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.326185,
+        "y" : 46.473003
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "1",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "BZ_FIERA-241",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "mhmetadata" : {
+        "maxCurrent" : 31,
+        "maxPower" : 7015,
+        "minCurrent" : 6,
+        "municipality" : "Laives - Leifers",
+        "outletTypeCode" : "IEC 62196-2 type 2 outlets (all amperage and phase)",
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "1",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "mhtransactiontime" : "2019-03-19 10:46:20.807+0000",
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000041",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.271506,
+        "y" : 46.314846
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Via Madonna - Marienstraße",
+        "capacity" : 2,
+        "city" : "EGNA - NEUMARKT",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "EGNA_01",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000041-1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.271506,
+        "y" : 46.314846
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "1",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "EGNA_01-451",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "mhmetadata" : {
+        "maxCurrent" : 31,
+        "maxPower" : 7015,
+        "minCurrent" : 6,
+        "municipality" : "Ulten - Ultimo",
+        "outletTypeCode" : "IEC 62196-2 type 2 outlets (all amperage and phase)",
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "1",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "mhtransactiontime" : "2019-03-19 10:46:20.807+0000",
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000039",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 10.955608,
+        "y" : 46.52789
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Pracupola - Kuppelwies",
+        "capacity" : 2,
+        "city" : "ULTIMO - ULTEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "ACTIVE"
+      },
+      "pname" : "ULTIMO_01",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000039-1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 10.955608,
+        "y" : 46.52789
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "1",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "ULTIMO_01-432",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "mhmetadata" : {
+        "maxCurrent" : 31,
+        "maxPower" : 7015,
+        "minCurrent" : 6,
+        "municipality" : "Bolzano - Bozen",
+        "outletTypeCode" : "IEC 62196-2 type 2 outlets (all amperage and phase)",
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "mhtransactiontime" : "2019-03-19 10:46:20.807+0000",
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000001",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.326185,
+        "y" : 46.473003
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Piazza Fiera - Messeplatz",
+        "capacity" : 2,
+        "city" : "BOLZANO - BOZEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "BZ_FIERA",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000001-2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.326185,
+        "y" : 46.473003
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "BZ_FIERA-242",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "mhmetadata" : {
+        "maxCurrent" : 31,
+        "maxPower" : 7015,
+        "minCurrent" : 6,
+        "municipality" : "Bolzano - Bozen",
+        "outletTypeCode" : "IEC 62196-2 type 2 outlets (all amperage and phase)",
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "mhtransactiontime" : "2019-03-19 10:46:20.807+0000",
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000006",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.337837,
+        "y" : 46.4905
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Piazza Matteotti Platz",
+        "capacity" : 2,
+        "city" : "BOLZANO - BOZEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "BZ_PMATTEOTTI",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000006-2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.337837,
+        "y" : 46.4905
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "BZ_PMATTEOTTI-256",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "mhmetadata" : {
+        "maxCurrent" : 31,
+        "maxPower" : 7015,
+        "minCurrent" : 6,
+        "municipality" : "Laives - Leifers",
+        "outletTypeCode" : "IEC 62196-2 type 2 outlets (all amperage and phase)",
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "mhtransactiontime" : "2019-03-19 10:46:20.807+0000",
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000041",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.271506,
+        "y" : 46.314846
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Via Madonna - Marienstraße",
+        "capacity" : 2,
+        "city" : "EGNA - NEUMARKT",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "EGNA_01",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000041-2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.271506,
+        "y" : 46.314846
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "EGNA_01-452",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "mhmetadata" : {
+        "maxCurrent" : 31,
+        "maxPower" : 7015,
+        "minCurrent" : 6,
+        "municipality" : "Ulten - Ultimo",
+        "outletTypeCode" : "IEC 62196-2 type 2 outlets (all amperage and phase)",
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "mhtransactiontime" : "2019-03-19 10:46:20.807+0000",
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000039",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 10.955608,
+        "y" : 46.52789
+      },
+      "pmetadata" : {
+        "accessType" : "PUBLIC",
+        "address" : "Pracupola - Kuppelwies",
+        "capacity" : 2,
+        "city" : "ULTIMO - ULTEN",
+        "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+        "provider" : "Neogy",
+        "state" : "ACTIVE"
+      },
+      "pname" : "ULTIMO_01",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000039-2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 10.955608,
+        "y" : 46.52789
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : false,
+          "id" : "2",
+          "maxCurrent" : 31,
+          "maxPower" : 22,
+          "minCurrent" : 0,
+          "outletTypeCode" : "Type2Mennekes"
+        } ]
+      },
+      "sname" : "ULTIMO_01-433",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    }, {
+      "mhmetadata" : {
+        "maxCurrent" : 120,
+        "maxPower" : 120,
+        "minCurrent" : 0,
+        "municipality" : "Bolzano - Bozen",
+        "outletTypeCode" : "Chademo - Quick Charge (Nissan Specific)",
+        "outlets" : [ {
+          "hasFixedCable" : true,
+          "id" : "2",
+          "maxCurrent" : 120,
+          "maxPower" : 45,
+          "minCurrent" : 0,
+          "outletTypeCode" : "CCS"
+        }, {
+          "hasFixedCable" : true,
+          "id" : "1",
+          "maxCurrent" : 120,
+          "maxPower" : 45,
+          "minCurrent" : 0,
+          "outletTypeCode" : "CHAdeMO"
+        } ]
+      },
+      "mhtransactiontime" : "2019-03-19 10:46:20.807+0000",
+      "pactive" : false,
+      "pavailable" : true,
+      "pcode" : "AER_00000042",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.323925,
+        "y" : 46.481113
+      },
+      "pmetadata" : {
+        "accessInfo" : null,
+        "accessType" : "PUBLIC",
+        "address" : "Ponte Resia - Reschenbrücke",
+        "capacity" : 1,
+        "categories" : null,
+        "city" : "BOLZANO - BOZEN",
+        "flashInfo" : null,
+        "locationServiceInfo" : null,
+        "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+        "provider" : "Alperia Smart Mobility",
+        "reservable" : null,
+        "state" : "TEMPORARYUNAVAILABLE"
+      },
+      "pname" : "BZ_PTE_RESIA_OLD",
+      "porigin" : "ALPERIA",
+      "ptype" : "EChargingStation",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "AER_00000042-1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.323925,
+        "y" : 46.481113
+      },
+      "smetadata" : {
+        "outlets" : [ {
+          "hasFixedCable" : true,
+          "id" : "1",
+          "maxCurrent" : 120,
+          "maxPower" : 45,
+          "minCurrent" : 0,
+          "outletTypeCode" : "CHAdeMO"
+        }, {
+          "hasFixedCable" : true,
+          "id" : "2",
+          "maxCurrent" : 120,
+          "maxPower" : 45,
+          "minCurrent" : 0,
+          "outletTypeCode" : "CCS"
+        } ]
+      },
+      "sname" : "BZ_PTE_RESIA_OLD-456",
+      "sorigin" : "ALPERIA",
+      "stype" : "EChargingPlug"
+    } ],
+    "limit" : 200,
+    "offset" : 0
+  }
+}

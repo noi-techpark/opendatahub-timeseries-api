@@ -1,0 +1,238 @@
+{
+  "request" : "GET /tree/Bicyclestationbay/*/latest?limit=300&select=sname,tname,mvalue,mvalidtime,mperiod,prname [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "Bicyclestationbay" : {
+        "stations" : {
+          "Viale della Stazione - Bahnhofsallee:1" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-bikesharing-bz"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:00.001+0000",
+                  "mvalue" : "OUT_OF_SERVICE"
+                } ],
+                "tname" : "availability"
+              },
+              "usage-state" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-bikesharing-bz"
+                  },
+                  "mvalidtime" : "2024-11-04 08:05:00.001+0000",
+                  "mvalue" : "RICONSEGNA"
+                } ],
+                "tname" : "usage-state"
+              }
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:1"
+          },
+          "Viale della Stazione - Bahnhofsallee:2" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-bikesharing-bz"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:00.001+0000",
+                  "mvalue" : "READY"
+                } ],
+                "tname" : "availability"
+              },
+              "usage-state" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-bikesharing-bz"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:00.001+0000",
+                  "mvalue" : "RICONSEGNA"
+                } ],
+                "tname" : "usage-state"
+              }
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:2"
+          },
+          "Viale della Stazione - Bahnhofsallee:3" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-bikesharing-bz"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:00.001+0000",
+                  "mvalue" : "READY"
+                } ],
+                "tname" : "availability"
+              },
+              "usage-state" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-bikesharing-bz"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:00.001+0000",
+                  "mvalue" : "RICONSEGNA"
+                } ],
+                "tname" : "usage-state"
+              }
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:3"
+          },
+          "Viale della Stazione - Bahnhofsallee:4" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-bikesharing-bz"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:00.001+0000",
+                  "mvalue" : "READY"
+                } ],
+                "tname" : "availability"
+              },
+              "usage-state" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-bikesharing-bz"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:00.001+0000",
+                  "mvalue" : "RICONSEGNA"
+                } ],
+                "tname" : "usage-state"
+              }
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:4"
+          },
+          "Viale della Stazione - Bahnhofsallee:5" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-bikesharing-bz"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:00.001+0000",
+                  "mvalue" : "READY"
+                } ],
+                "tname" : "availability"
+              },
+              "usage-state" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-bikesharing-bz"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:00.001+0000",
+                  "mvalue" : "RICONSEGNA"
+                } ],
+                "tname" : "usage-state"
+              }
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:5"
+          },
+          "Viale della Stazione - Bahnhofsallee:6" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-bikesharing-bz"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:00.001+0000",
+                  "mvalue" : "READY"
+                } ],
+                "tname" : "availability"
+              },
+              "usage-state" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-bikesharing-bz"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:00.001+0000",
+                  "mvalue" : "RICONSEGNA"
+                } ],
+                "tname" : "usage-state"
+              }
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:6"
+          },
+          "Viale della Stazione - Bahnhofsallee:7" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-bikesharing-bz"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:00.001+0000",
+                  "mvalue" : "READY"
+                } ],
+                "tname" : "availability"
+              },
+              "usage-state" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-bikesharing-bz"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:00.001+0000",
+                  "mvalue" : "RICONSEGNA"
+                } ],
+                "tname" : "usage-state"
+              }
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:7"
+          },
+          "Viale della Stazione - Bahnhofsallee:8" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-bikesharing-bz"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:00.001+0000",
+                  "mvalue" : "READY"
+                } ],
+                "tname" : "availability"
+              },
+              "usage-state" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-bikesharing-bz"
+                  },
+                  "mvalidtime" : "2026-09-24 11:40:00.001+0000",
+                  "mvalue" : "RICONSEGNA"
+                } ],
+                "tname" : "usage-state"
+              }
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:8"
+          }
+        }
+      }
+    },
+    "limit" : 300,
+    "offset" : 0
+  }
+}

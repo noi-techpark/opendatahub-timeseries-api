@@ -1,0 +1,151 @@
+{
+  "request" : "GET /flat/MeteoStation?limit=100 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "102343",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.388134,
+        "y" : 46.94982
+      },
+      "smetadata" : {
+        "area" : "---"
+      },
+      "sname" : "Brenner",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "37100MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.4386,
+        "y" : 46.885
+      },
+      "smetadata" : {
+        "name_de" : "Sterzing",
+        "name_en" : "Sterzing",
+        "name_it" : "Vipiteno"
+      },
+      "sname" : "Vipiteno",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "47400MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 12.1166,
+        "y" : 46.8704
+      },
+      "smetadata" : {
+        "name_de" : "Antholz Obertal",
+        "name_en" : "Antholz Obertal",
+        "name_it" : "Anterselva di Sopra"
+      },
+      "sname" : "Anterselva di Sopra",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "59450PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.93472,
+        "y" : 46.81704
+      },
+      "smetadata" : {
+        "name_de" : "AHR BEI ST.GEORGEN",
+        "name_en" : "AHR BEI ST.GEORGEN",
+        "name_it" : "AURINO A S. GIORGIO"
+      },
+      "sname" : "AURINO A S. GIORGIO",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "62600MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.8979,
+        "y" : 46.6792
+      },
+      "smetadata" : {
+        "name_de" : "St. Martin in Thurn",
+        "name_en" : "S. Martin de Tor",
+        "name_it" : "S. Martino in Badia"
+      },
+      "sname" : "S. Martino in Badia",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "69790PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.6572,
+        "y" : 46.70738
+      },
+      "smetadata" : {
+        "name_de" : "EISACK BEI BRIXEN",
+        "name_en" : "EISACK BEI BRIXEN",
+        "name_it" : "ISARCO A BRESSANONE"
+      },
+      "sname" : "ISARCO A BRESSANONE",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83200MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3128,
+        "y" : 46.4977
+      },
+      "smetadata" : {
+        "name_de" : "Bozen",
+        "name_en" : "Bolzano",
+        "name_it" : "Bolzano"
+      },
+      "sname" : "Bolzano",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83450PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.30278,
+        "y" : 46.45877
+      },
+      "smetadata" : {
+        "name_de" : "EISACK BEI BOZEN SÜD",
+        "name_en" : "EISACK BEI BOZEN SÜD",
+        "name_it" : "ISARCO A BOLZANO SUD"
+      },
+      "sname" : "ISARCO A BOLZANO SUD",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation"
+    } ],
+    "limit" : 100,
+    "offset" : 0
+  }
+}

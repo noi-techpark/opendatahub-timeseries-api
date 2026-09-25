@@ -1,0 +1,50 @@
+{
+  "request" : "GET /tree/*/*?limit=-1&select=porigin,stype,pname&where=sname.ire.park [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingFacility" : {
+        "stations" : {
+          "609883" : {
+            "sdatatypes" : {
+              "free" : { },
+              "free_short_stay" : { },
+              "free_subscribers" : { },
+              "occupied" : { },
+              "occupied_short_stay" : { },
+              "occupied_subscribers" : { }
+            },
+            "stype" : "ParkingFacility"
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "102" : {
+            "sdatatypes" : {
+              "occupied" : { }
+            },
+            "stype" : "ParkingStation"
+          },
+          "113" : {
+            "sdatatypes" : {
+              "free" : { },
+              "occupied" : { }
+            },
+            "stype" : "ParkingStation"
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

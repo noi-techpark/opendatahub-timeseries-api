@@ -1,0 +1,129 @@
+{
+  "request" : "GET /tree/MeteoStation/air-humidity/2026-09-24T08:05:00Z/2026-09-24T14:06:00Z?limit=2000&where=scode.eq.%2283200MS%22 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "MeteoStation" : {
+        "stations" : {
+          "83200MS" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "83200MS",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.3128,
+              "y" : 46.4977
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:11:52.144+0000",
+                  "mvalidtime" : "2026-09-24 08:10:00.000+0000",
+                  "mvalue" : 77.4
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:21:52.629+0000",
+                  "mvalidtime" : "2026-09-24 08:20:00.000+0000",
+                  "mvalue" : 73.1
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:31:52.041+0000",
+                  "mvalidtime" : "2026-09-24 08:30:00.000+0000",
+                  "mvalue" : 70.1
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:41:52.901+0000",
+                  "mvalidtime" : "2026-09-24 08:40:00.000+0000",
+                  "mvalue" : 68.4
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mtransactiontime" : "2026-09-24 10:51:51.423+0000",
+                  "mvalidtime" : "2026-09-24 08:50:00.000+0000",
+                  "mvalue" : 68
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:01:53.907+0000",
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 66.7
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:11:51.954+0000",
+                  "mvalidtime" : "2026-09-24 09:10:00.000+0000",
+                  "mvalue" : 65.8
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "SIAG",
+                    "prname" : "odh-mobility-dc-meteorology-bz",
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:21:52.502+0000",
+                  "mvalidtime" : "2026-09-24 09:20:00.000+0000",
+                  "mvalue" : 64.6
+                } ],
+                "tmetadata" : { },
+                "tname" : "air-humidity",
+                "tunit" : "%"
+              }
+            },
+            "smetadata" : {
+              "name_de" : "Bozen",
+              "name_en" : "Bolzano",
+              "name_it" : "Bolzano"
+            },
+            "sname" : "Bolzano",
+            "sorigin" : "SIAG",
+            "stype" : "MeteoStation"
+          }
+        }
+      }
+    },
+    "limit" : 2000,
+    "offset" : 0
+  }
+}

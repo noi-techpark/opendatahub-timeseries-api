@@ -1,0 +1,662 @@
+{
+  "request" : "GET /flat,edge/*?limit=-1&select=sbcode,sbname [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "sbcode" : "PIAZZA GIUSEPPE MAZZINI / GIUSEPPE-MAZZINI-PLATZ",
+      "sbname" : "PIAZZA GIUSEPPE MAZZINI / GIUSEPPE-MAZZINI-PLATZ"
+    }, {
+      "sbcode" : "VIA CLAUDIA AUGUSTA 5",
+      "sbname" : "VIA CLAUDIA AUGUSTA 5"
+    }, {
+      "sbcode" : "VIA PALERMO / PALERMOSTRASSE 1",
+      "sbname" : "VIA PALERMO / PALERMOSTRASSE 1"
+    }, {
+      "sbcode" : "VIA DEL MACELLO 3",
+      "sbname" : "VIA DEL MACELLO 3"
+    }, {
+      "sbcode" : "VIA EVANGELISTA TORRICELLI / EVANGELISTA-TORRICELLI-STRASSE",
+      "sbname" : "VIA EVANGELISTA TORRICELLI / EVANGELISTA-TORRICELLI-STRASSE"
+    }, {
+      "sbcode" : "VIA PARMA 2",
+      "sbname" : "VIA PARMA 2"
+    }, {
+      "sbcode" : "PONTE VIRGOLO",
+      "sbname" : "PONTE VIRGOLO"
+    }, {
+      "sbcode" : "VIA DEL MACELLO 1",
+      "sbname" : "VIA DEL MACELLO 1"
+    }, {
+      "sbcode" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 3",
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 3"
+    }, {
+      "sbcode" : "VIA MAYR NUSSER 3",
+      "sbname" : "VIA MAYR NUSSER 3"
+    }, {
+      "sbcode" : "VIA TORINO 2",
+      "sbname" : "VIA TORINO 2"
+    }, {
+      "sbcode" : "VIA ROVIGO 2",
+      "sbname" : "VIA ROVIGO 2"
+    }, {
+      "sbcode" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2",
+      "sbname" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2"
+    }, {
+      "sbcode" : "Milano_Resia",
+      "sbname" : "Milano_Resia"
+    }, {
+      "sbcode" : "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN",
+      "sbname" : "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN"
+    }, {
+      "sbcode" : "VIA ROMA / ROMSTRASSE",
+      "sbname" : "VIA ROMA / ROMSTRASSE"
+    }, {
+      "sbcode" : "VIA WEGGENSTEIN",
+      "sbname" : "VIA WEGGENSTEIN"
+    }, {
+      "sbcode" : "druso-poste",
+      "sbname" : "druso-poste"
+    }, {
+      "sbcode" : "cavour",
+      "sbname" : "cavour"
+    }, {
+      "sbcode" : "VIA CLAUDIA AUGUSTA 2",
+      "sbname" : "VIA CLAUDIA AUGUSTA 2"
+    }, {
+      "sbcode" : "GALLERIA SS12 / SS12 TUNNEL",
+      "sbname" : "GALLERIA SS12 / SS12 TUNNEL"
+    }, {
+      "sbcode" : "VIA WERNER VON SIEMENS / WERNER-VON-SIEMENS-STRASSE 2",
+      "sbname" : "VIA WERNER VON SIEMENS / WERNER-VON-SIEMENS-STRASSE 2"
+    }, {
+      "sbcode" : "terme_ovest",
+      "sbname" : "terme_ovest"
+    }, {
+      "sbcode" : "VIA SASSARI 3",
+      "sbname" : "VIA SASSARI 3"
+    }, {
+      "sbcode" : "VIA TRE SANTI",
+      "sbname" : "VIA TRE SANTI"
+    }, {
+      "sbcode" : "VIA CASTEL FIRMIANO / SIGMUNDSKRONER STRASSE",
+      "sbname" : "VIA CASTEL FIRMIANO / SIGMUNDSKRONER STRASSE"
+    }, {
+      "sbcode" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 7",
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 7"
+    }, {
+      "sbcode" : "VIA PARMA 1",
+      "sbname" : "VIA PARMA 1"
+    }, {
+      "sbcode" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1",
+      "sbname" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1"
+    }, {
+      "sbcode" : "VIA ALESSANDRIA",
+      "sbname" : "VIA ALESSANDRIA"
+    }, {
+      "sbcode" : "petrarca",
+      "sbname" : "petrarca"
+    }, {
+      "sbcode" : "VIA DALMAZIA 2",
+      "sbname" : "VIA DALMAZIA 2"
+    }, {
+      "sbcode" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 2",
+      "sbname" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 2"
+    }, {
+      "sbcode" : "VIA RESIA 2",
+      "sbname" : "VIA RESIA 2"
+    }, {
+      "sbcode" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 3",
+      "sbname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 3"
+    }, {
+      "sbcode" : "PONTE ROMA / ROMBRCKE 1",
+      "sbname" : "PONTE ROMA / ROMBRCKE 1"
+    }, {
+      "sbcode" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+      "sbname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE"
+    }, {
+      "sbcode" : "VIALE DRUSO 4",
+      "sbname" : "VIALE DRUSO 4"
+    }, {
+      "sbcode" : "VIA EBNER",
+      "sbname" : "VIA EBNER"
+    }, {
+      "sbcode" : "TN-Nord",
+      "sbname" : "TN-Nord"
+    }, {
+      "sbcode" : "VIA MAYR NUSSER 4",
+      "sbname" : "VIA MAYR NUSSER 4"
+    }, {
+      "sbcode" : "VIALE DRUSO 1",
+      "sbname" : "VIALE DRUSO 1"
+    }, {
+      "sbcode" : "VIA GALILEO GALILEI / GALILEO-GALILEI-STRASSE",
+      "sbname" : "VIA GALILEO GALILEI / GALILEO-GALILEI-STRASSE"
+    }, {
+      "sbcode" : "VIA RENCIO / RENTSCHER STRASSE",
+      "sbname" : "VIA RENCIO / RENTSCHER STRASSE"
+    }, {
+      "sbcode" : "VIA ANTONIO ROSMINI / ANTONIO-ROSMINI-STRASSE",
+      "sbname" : "VIA ANTONIO ROSMINI / ANTONIO-ROSMINI-STRASSE"
+    }, {
+      "sbcode" : "SP 99 S. GENESIO / LS 99 JENESIEN 3",
+      "sbname" : "SP 99 S. GENESIO / LS 99 JENESIEN 3"
+    }, {
+      "sbcode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 2",
+      "sbname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 2"
+    }, {
+      "sbcode" : "terme_est",
+      "sbname" : "terme_est"
+    }, {
+      "sbcode" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 2",
+      "sbname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 2"
+    }, {
+      "sbcode" : "VIA CLAUDIA AUGUSTA 3",
+      "sbname" : "VIA CLAUDIA AUGUSTA 3"
+    }, {
+      "sbcode" : "VIA MERANO / MERANER STRASSE 1",
+      "sbname" : "VIA MERANO / MERANER STRASSE 1"
+    }, {
+      "sbcode" : "VIA WERNER VON SIEMENS / WERNER-VON-SIEMENS-STRASSE 1",
+      "sbname" : "VIA WERNER VON SIEMENS / WERNER-VON-SIEMENS-STRASSE 1"
+    }, {
+      "sbcode" : "VIA GIUSEPPE GARIBALDI / GIUSEPPE-GARIBALDI-STRASSE",
+      "sbname" : "VIA GIUSEPPE GARIBALDI / GIUSEPPE-GARIBALDI-STRASSE"
+    }, {
+      "sbcode" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 1",
+      "sbname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 1"
+    }, {
+      "sbcode" : "VIA GUGLIELMO MARCONI / GUGLIELMO-MARCONI-STRASSE",
+      "sbname" : "VIA GUGLIELMO MARCONI / GUGLIELMO-MARCONI-STRASSE"
+    }, {
+      "sbcode" : "VIA SASSARI 2",
+      "sbname" : "VIA SASSARI 2"
+    }, {
+      "sbcode" : "PIAZZA GRIES / GRIESER PLATZ",
+      "sbname" : "PIAZZA GRIES / GRIESER PLATZ"
+    }, {
+      "sbcode" : "CORSO ITALIA / ITALIENALLEE",
+      "sbname" : "CORSO ITALIA / ITALIENALLEE"
+    }, {
+      "sbcode" : "VIA BUOZZI 2",
+      "sbname" : "VIA BUOZZI 2"
+    }, {
+      "sbcode" : "VIA VENEZIA",
+      "sbname" : "VIA VENEZIA"
+    }, {
+      "sbcode" : "meinstein",
+      "sbname" : "meinstein"
+    }, {
+      "sbcode" : "piave_matteotti",
+      "sbname" : "piave_matteotti"
+    }, {
+      "sbcode" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 6",
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 6"
+    }, {
+      "sbcode" : "VIA TALVERA",
+      "sbname" : "VIA TALVERA"
+    }, {
+      "sbcode" : "VIA BRENNERO / BRENNERSTRASSE",
+      "sbname" : "VIA BRENNERO / BRENNERSTRASSE"
+    }, {
+      "sbcode" : "VIA TORRICELLI",
+      "sbname" : "VIA TORRICELLI"
+    }, {
+      "sbcode" : "galilei",
+      "sbname" : "galilei"
+    }, {
+      "sbcode" : "VIA EDISON",
+      "sbname" : "VIA EDISON"
+    }, {
+      "sbcode" : "VIA ROMA / ROMSTRASSE 1",
+      "sbname" : "VIA ROMA / ROMSTRASSE 1"
+    }, {
+      "sbcode" : "VIA MIRAMONTI / REICHRIEGLERWEG",
+      "sbname" : "VIA MIRAMONTI / REICHRIEGLERWEG"
+    }, {
+      "sbcode" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 4",
+      "sbname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 4"
+    }, {
+      "sbcode" : "VIA ROMA / ROMSTRASSE 2",
+      "sbname" : "VIA ROMA / ROMSTRASSE 2"
+    }, {
+      "sbcode" : "VIA MILANO 1",
+      "sbname" : "VIA MILANO 1"
+    }, {
+      "sbcode" : "PIAZZA VITTORIA",
+      "sbname" : "PIAZZA VITTORIA"
+    }, {
+      "sbcode" : "PONTE TALVERA / TALFERBRCKE",
+      "sbname" : "PONTE TALVERA / TALFERBRCKE"
+    }, {
+      "sbcode" : "galvani",
+      "sbname" : "galvani"
+    }, {
+      "sbcode" : "goethe-alpini",
+      "sbname" : "goethe-alpini"
+    }, {
+      "sbcode" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 2",
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 2"
+    }, {
+      "sbcode" : "PIAZZA GIUSEPPE VERDI / GIUSEPPE-VERDI-PLATZ",
+      "sbname" : "PIAZZA GIUSEPPE VERDI / GIUSEPPE-VERDI-PLATZ"
+    }, {
+      "sbcode" : "TN-Acquaviva",
+      "sbname" : "TN-Acquaviva"
+    }, {
+      "sbcode" : "VIA CASSA DI RISPARMIO",
+      "sbname" : "VIA CASSA DI RISPARMIO"
+    }, {
+      "sbcode" : "VIA CLAUDIA AUGUSTA 4",
+      "sbname" : "VIA CLAUDIA AUGUSTA 4"
+    }, {
+      "sbcode" : "Druso_Palermo",
+      "sbname" : "Druso_Palermo"
+    }, {
+      "sbcode" : "VIA RENON / RITTNER STRASSE",
+      "sbname" : "VIA RENON / RITTNER STRASSE"
+    }, {
+      "sbcode" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 3",
+      "sbname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 3"
+    }, {
+      "sbcode" : "VIA DEL MACELLO 2",
+      "sbname" : "VIA DEL MACELLO 2"
+    }, {
+      "sbcode" : "VIA SARENTINO / SARNTALER  STRASSE 1",
+      "sbname" : "VIA SARENTINO / SARNTALER  STRASSE 1"
+    }, {
+      "sbcode" : "SS 38 / SS38",
+      "sbname" : "SS 38 / SS38"
+    }, {
+      "sbcode" : "VIA SASSARI 1",
+      "sbname" : "VIA SASSARI 1"
+    }, {
+      "sbcode" : "Maso_Pieve",
+      "sbname" : "Maso_Pieve"
+    }, {
+      "sbcode" : "VIA PALERMO / PALERMOSTRASSE 2",
+      "sbname" : "VIA PALERMO / PALERMOSTRASSE 2"
+    }, {
+      "sbcode" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 3",
+      "sbname" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 3"
+    }, {
+      "sbcode" : "GALLERIA DEL VIRGOLO / VIRGL TUNNEL",
+      "sbname" : "GALLERIA DEL VIRGOLO / VIRGL TUNNEL"
+    }, {
+      "sbcode" : "VIA SARENTINO / SARNTALER  STRASSE 2",
+      "sbname" : "VIA SARENTINO / SARNTALER  STRASSE 2"
+    }, {
+      "sbcode" : "Arginale_Resia",
+      "sbname" : "Arginale_Resia"
+    }, {
+      "sbcode" : "huber",
+      "sbname" : "huber"
+    }, {
+      "sbcode" : "VICOLO FUCINE",
+      "sbname" : "VICOLO FUCINE"
+    }, {
+      "sbcode" : "VIA ROEN",
+      "sbname" : "VIA ROEN"
+    }, {
+      "sbcode" : "zuegg-palade",
+      "sbname" : "zuegg-palade"
+    }, {
+      "sbcode" : "VIA GAISMAIR",
+      "sbname" : "VIA GAISMAIR"
+    }, {
+      "sbcode" : "SS 42 / SS42",
+      "sbname" : "SS 42 / SS42"
+    }, {
+      "sbcode" : "A22_ML107",
+      "sbname" : "A22_ML107"
+    }, {
+      "sbcode" : "VIA COLOGNA / GLANINGER WEG",
+      "sbname" : "VIA COLOGNA / GLANINGER WEG"
+    }, {
+      "sbcode" : "ponte_rezia",
+      "sbname" : "ponte_rezia"
+    }, {
+      "sbcode" : "VIA MUSEO / MUSEUMSTRASSE",
+      "sbname" : "VIA MUSEO / MUSEUMSTRASSE"
+    }, {
+      "sbcode" : "VIA S. MAURIZIO",
+      "sbname" : "VIA S. MAURIZIO"
+    }, {
+      "sbcode" : "Milano_Palermo",
+      "sbname" : "Milano_Palermo"
+    }, {
+      "sbcode" : "SP 99 S. GENESIO / LS 99 JENESIEN 2",
+      "sbname" : "SP 99 S. GENESIO / LS 99 JENESIEN 2"
+    }, {
+      "sbcode" : "VIA S. QUIRINO",
+      "sbname" : "VIA S. QUIRINO"
+    }, {
+      "sbcode" : "PONTE PALERMO / PALERMOBRCKE",
+      "sbname" : "PONTE PALERMO / PALERMOBRCKE"
+    }, {
+      "sbcode" : "Galilei_Roma",
+      "sbname" : "Galilei_Roma"
+    }, {
+      "sbcode" : "VIA SAN GENESIO / JENESIER WEG",
+      "sbname" : "VIA SAN GENESIO / JENESIER WEG"
+    }, {
+      "sbcode" : "S.S. RENON",
+      "sbname" : "S.S. RENON"
+    }, {
+      "sbcode" : "Galilei_Palermo",
+      "sbname" : "Galilei_Palermo"
+    }, {
+      "sbcode" : "wolf-franziskus",
+      "sbname" : "wolf-franziskus"
+    }, {
+      "sbcode" : "VIA DEL MACELLO 4",
+      "sbname" : "VIA DEL MACELLO 4"
+    }, {
+      "sbcode" : "VIA GIOSUÈ CARDUCCI / GIOSUÈ-CARDUCCI-STRASSE",
+      "sbname" : "VIA GIOSUÈ CARDUCCI / GIOSUÈ-CARDUCCI-STRASSE"
+    }, {
+      "sbcode" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 1",
+      "sbname" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 1"
+    }, {
+      "sbcode" : "Galilei_Virgolo",
+      "sbname" : "Galilei_Virgolo"
+    }, {
+      "sbcode" : "VIALE TRENTO",
+      "sbname" : "VIALE TRENTO"
+    }, {
+      "sbcode" : "VIA LORENZ BHLER / LORENZ-BHLER-STRASSE",
+      "sbname" : "VIA LORENZ BHLER / LORENZ-BHLER-STRASSE"
+    }, {
+      "sbcode" : "VIA GALILEI",
+      "sbname" : "VIA GALILEI"
+    }, {
+      "sbcode" : "SVINCOLO VIA GALILEI 1",
+      "sbname" : "SVINCOLO VIA GALILEI 1"
+    }, {
+      "sbcode" : "VIA WEGGENSTEIN / WEGGENSTEINSTRASSE",
+      "sbname" : "VIA WEGGENSTEIN / WEGGENSTEINSTRASSE"
+    }, {
+      "sbcode" : "TN-Maccani",
+      "sbname" : "TN-Maccani"
+    }, {
+      "sbcode" : "Arginale_Palermo",
+      "sbname" : "Arginale_Palermo"
+    }, {
+      "sbcode" : "TN-Sud",
+      "sbname" : "TN-Sud"
+    }, {
+      "sbcode" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 3",
+      "sbname" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 3"
+    }, {
+      "sbcode" : "VIA DUCA Di AOSTA 2",
+      "sbname" : "VIA DUCA Di AOSTA 2"
+    }, {
+      "sbcode" : "Roma_Firenze",
+      "sbname" : "Roma_Firenze"
+    }, {
+      "sbcode" : "corse_cappuccini",
+      "sbname" : "corse_cappuccini"
+    }, {
+      "sbcode" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+      "sbname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE"
+    }, {
+      "sbcode" : "P_Campiglio",
+      "sbname" : "P_Campiglio"
+    }, {
+      "sbcode" : "SS 12 / SS12  2",
+      "sbname" : "SS 12 / SS12  2"
+    }, {
+      "sbcode" : "VIA BARI",
+      "sbname" : "VIA BARI"
+    }, {
+      "sbcode" : "VIA DELL OSPEDALE / SPITALGASSE",
+      "sbname" : "VIA DELL OSPEDALE / SPITALGASSE"
+    }, {
+      "sbcode" : "PONTE ROMA",
+      "sbname" : "PONTE ROMA"
+    }, {
+      "sbcode" : "PONTE SANT'ANTONIO / ST.-ANTON-BRCKE",
+      "sbname" : "PONTE SANT'ANTONIO / ST.-ANTON-BRCKE"
+    }, {
+      "sbcode" : "VIA SAN MAURIZIO / MORITZINGER WEG",
+      "sbname" : "VIA SAN MAURIZIO / MORITZINGER WEG"
+    }, {
+      "sbcode" : "SVINCOLO VIA GALILEI 2",
+      "sbname" : "SVINCOLO VIA GALILEI 2"
+    }, {
+      "sbcode" : "VIA OLTRADIGE / UEBERETSCHER STRASSE",
+      "sbname" : "VIA OLTRADIGE / UEBERETSCHER STRASSE"
+    }, {
+      "sbcode" : "VIA BRENNERO",
+      "sbname" : "VIA BRENNERO"
+    }, {
+      "sbcode" : "VIA CASSA DI RISPARMIO / SPARKASSENSTRASSE",
+      "sbname" : "VIA CASSA DI RISPARMIO / SPARKASSENSTRASSE"
+    }, {
+      "sbcode" : "VIALE DRUSO 2",
+      "sbname" : "VIALE DRUSO 2"
+    }, {
+      "sbcode" : "proma",
+      "sbname" : "proma"
+    }, {
+      "sbcode" : "VIA MERANO / MERANER STRASSE 2",
+      "sbname" : "VIA MERANO / MERANER STRASSE 2"
+    }, {
+      "sbcode" : "liberta-corse",
+      "sbname" : "liberta-corse"
+    }, {
+      "sbcode" : "Galleria_Virgolo",
+      "sbname" : "Galleria_Virgolo"
+    }, {
+      "sbcode" : "VIA PALERMO / PALERMOSTRASSE 3",
+      "sbname" : "VIA PALERMO / PALERMOSTRASSE 3"
+    }, {
+      "sbcode" : "sinigo",
+      "sbname" : "sinigo"
+    }, {
+      "sbcode" : "roma_sud",
+      "sbname" : "roma_sud"
+    }, {
+      "sbcode" : "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 1",
+      "sbname" : "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 1"
+    }, {
+      "sbcode" : "VIA S. GIACOMO / ST.-JAKOB-STRASSE",
+      "sbname" : "VIA S. GIACOMO / ST.-JAKOB-STRASSE"
+    }, {
+      "sbcode" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 5",
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 5"
+    }, {
+      "sbcode" : "VIA ARMANDO DIAZ / ARMANDO-DIAZ-STRASSE",
+      "sbname" : "VIA ARMANDO DIAZ / ARMANDO-DIAZ-STRASSE"
+    }, {
+      "sbcode" : "scena-leichter",
+      "sbname" : "scena-leichter"
+    }, {
+      "sbcode" : "VIA ROMA / ROMSTRASSE 3",
+      "sbname" : "VIA ROMA / ROMSTRASSE 3"
+    }, {
+      "sbcode" : "piave-palade",
+      "sbname" : "piave-palade"
+    }, {
+      "sbcode" : "VIA MILANO 2",
+      "sbname" : "VIA MILANO 2"
+    }, {
+      "sbcode" : "VIA BEATO ARRIGO / SELIG-HEINRICH-STRASSE",
+      "sbname" : "VIA BEATO ARRIGO / SELIG-HEINRICH-STRASSE"
+    }, {
+      "sbcode" : "VIA SANT'ANTONIO / ST.-ANTON-STRASSE",
+      "sbname" : "VIA SANT'ANTONIO / ST.-ANTON-STRASSE"
+    }, {
+      "sbcode" : "schaffer-winkel",
+      "sbname" : "schaffer-winkel"
+    }, {
+      "sbcode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+      "sbname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1"
+    }, {
+      "sbcode" : "VIA FAGO / FAGENSTRASSE",
+      "sbname" : "VIA FAGO / FAGENSTRASSE"
+    }, {
+      "sbcode" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1",
+      "sbname" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1"
+    }, {
+      "sbcode" : "A22_ML103",
+      "sbname" : "A22_ML103"
+    }, {
+      "sbcode" : "VIA VINTOLA 2",
+      "sbname" : "VIA VINTOLA 2"
+    }, {
+      "sbcode" : "PIAZZA ADRIANO",
+      "sbname" : "PIAZZA ADRIANO"
+    }, {
+      "sbcode" : "VIALE DRUSO 3",
+      "sbname" : "VIALE DRUSO 3"
+    }, {
+      "sbcode" : "stazione",
+      "sbname" : "stazione"
+    }, {
+      "sbcode" : "VIA VINTOLA 1",
+      "sbname" : "VIA VINTOLA 1"
+    }, {
+      "sbcode" : "caugusta",
+      "sbname" : "caugusta"
+    }, {
+      "sbcode" : "VIA DALMAZIA 1",
+      "sbname" : "VIA DALMAZIA 1"
+    }, {
+      "sbcode" : "VIA MAYR NUSSER 1",
+      "sbname" : "VIA MAYR NUSSER 1"
+    }, {
+      "sbcode" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 2",
+      "sbname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 2"
+    }, {
+      "sbcode" : "wolf",
+      "sbname" : "wolf"
+    }, {
+      "sbcode" : "VIA TORINO 1",
+      "sbname" : "VIA TORINO 1"
+    }, {
+      "sbcode" : "hofer",
+      "sbname" : "hofer"
+    }, {
+      "sbcode" : "VIA ROVIGO 1",
+      "sbname" : "VIA ROVIGO 1"
+    }, {
+      "sbcode" : "SP 99 S. GENESIO / LS 99 JENESIEN 1",
+      "sbname" : "SP 99 S. GENESIO / LS 99 JENESIEN 1"
+    }, {
+      "sbcode" : "Agip_Einstein",
+      "sbname" : "Agip_Einstein"
+    }, {
+      "sbcode" : "VIA MAYR NUSSER 2",
+      "sbname" : "VIA MAYR NUSSER 2"
+    }, {
+      "sbcode" : "VIA CAVOUR",
+      "sbname" : "VIA CAVOUR"
+    }, {
+      "sbcode" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 4",
+      "sbname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 4"
+    }, {
+      "sbcode" : "PONTE ROMA / ROMBRCKE 2",
+      "sbname" : "PONTE ROMA / ROMBRCKE 2"
+    }, {
+      "sbcode" : "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 2",
+      "sbname" : "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 2"
+    }, {
+      "sbcode" : "VIA DUCA Di AOSTA 1",
+      "sbname" : "VIA DUCA Di AOSTA 1"
+    }, {
+      "sbcode" : "VIALE EUROPA",
+      "sbname" : "VIALE EUROPA"
+    }, {
+      "sbcode" : "VIALE DRUSO / DRUSUSALLEE 1",
+      "sbname" : "VIALE DRUSO / DRUSUSALLEE 1"
+    }, {
+      "sbcode" : "mazzini",
+      "sbname" : "mazzini"
+    }, {
+      "sbcode" : "Torricelli",
+      "sbname" : "Torricelli"
+    }, {
+      "sbcode" : "VIA CESARE BATTISTI",
+      "sbname" : "VIA CESARE BATTISTI"
+    }, {
+      "sbcode" : "TN-Cadino",
+      "sbname" : "TN-Cadino"
+    }, {
+      "sbcode" : "roma_nord",
+      "sbname" : "roma_nord"
+    }, {
+      "sbcode" : "VIA BUOZZI 3",
+      "sbname" : "VIA BUOZZI 3"
+    }, {
+      "sbcode" : "siemens",
+      "sbname" : "siemens"
+    }, {
+      "sbcode" : "COSTA DI SOTTO / UNTERLEITACH",
+      "sbname" : "COSTA DI SOTTO / UNTERLEITACH"
+    }, {
+      "sbcode" : "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 1",
+      "sbname" : "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 1"
+    }, {
+      "sbcode" : "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 2",
+      "sbname" : "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 2"
+    }, {
+      "sbcode" : "VIA VITTORIO VENETO / VITTORIO-VENETO-STRASSE",
+      "sbname" : "VIA VITTORIO VENETO / VITTORIO-VENETO-STRASSE"
+    }, {
+      "sbcode" : "VIA CLAUDIA AUGUSTA 1",
+      "sbname" : "VIA CLAUDIA AUGUSTA 1"
+    }, {
+      "sbcode" : "VIA RIGHI",
+      "sbname" : "VIA RIGHI"
+    }, {
+      "sbcode" : "VIA BUOZZI 1",
+      "sbname" : "VIA BUOZZI 1"
+    }, {
+      "sbcode" : "VIA RENCIO / RENTSCHNER STRASSE",
+      "sbname" : "VIA RENCIO / RENTSCHNER STRASSE"
+    }, {
+      "sbcode" : "VIALE TRIESTE",
+      "sbname" : "VIALE TRIESTE"
+    }, {
+      "sbcode" : "Galilei_Lancia",
+      "sbname" : "Galilei_Lancia"
+    }, {
+      "sbcode" : "SS 12 / SS12  1",
+      "sbname" : "SS 12 / SS12  1"
+    }, {
+      "sbcode" : "goethe_ospedale",
+      "sbname" : "goethe_ospedale"
+    }, {
+      "sbcode" : "VIA LORIS MUSY / LORIS-MUSY-STRASSE",
+      "sbname" : "VIA LORIS MUSY / LORIS-MUSY-STRASSE"
+    }, {
+      "sbcode" : "VIALE DRUSO / DRUSUSALLEE 2",
+      "sbname" : "VIALE DRUSO / DRUSUSALLEE 2"
+    }, {
+      "sbcode" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 1",
+      "sbname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 1"
+    }, {
+      "sbcode" : "PONTE DRUSO / DRUSUSBRCKE",
+      "sbname" : "PONTE DRUSO / DRUSUSBRCKE"
+    }, {
+      "sbcode" : "VIA DANTE / DANTESTRASSE",
+      "sbname" : "VIA DANTE / DANTESTRASSE"
+    }, {
+      "sbcode" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+      "sbname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE"
+    }, {
+      "sbcode" : "VIA MENDOLA",
+      "sbname" : "VIA MENDOLA"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

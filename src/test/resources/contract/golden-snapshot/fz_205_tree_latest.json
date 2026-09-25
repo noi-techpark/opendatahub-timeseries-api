@@ -1,0 +1,166 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=ptype,tdescription&where=tname.in.(air-temperature,wind-speed)&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "37100MS" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ]
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { } ]
+              }
+            }
+          },
+          "47400MS" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { }, { } ]
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { } ]
+              }
+            }
+          },
+          "62600MS" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { }, { } ]
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ]
+              }
+            }
+          },
+          "83200MS" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { } ]
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ]
+              }
+            }
+          }
+        }
+      },
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { } ]
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "rwis2" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { } ]
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "rwis3" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { } ]
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "rwis4" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { } ]
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "rwis5" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { } ]
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "rwis6" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { } ]
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "rwis7" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tmeasurements" : [ { } ]
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tmeasurements" : [ { } ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

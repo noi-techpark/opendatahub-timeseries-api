@@ -1,0 +1,39 @@
+{
+  "request" : "GET /tree/*?limit=-1&select=pactive&where=sname.ire.park [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingFacility" : {
+        "stations" : {
+          "609883" : { }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "102" : { },
+          "113" : { }
+        }
+      },
+      "Streetstation" : {
+        "stations" : {
+          "VIA CASSA DI RISPARMIO / SPARKASSENSTRASSE" : { }
+        }
+      },
+      "TrafficStreetFactor" : {
+        "stations" : {
+          "VIA CASSA DI RISPARMIO / SPARKASSENSTRASSE + ponte Talvera" : { }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

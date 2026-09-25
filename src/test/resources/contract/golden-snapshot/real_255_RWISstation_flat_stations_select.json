@@ -1,0 +1,101 @@
+{
+  "request" : "GET /flat/RWISstation?limit=100&select=scode,sname,sorigin,scoordinate,smetadata,pcode [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "scode" : "rwis1",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.151913,
+        "y" : 46.210154
+      },
+      "smetadata" : {
+        "municipality" : "Faedo"
+      },
+      "sname" : "Cadino",
+      "sorigin" : "InfoMobility"
+    }, {
+      "scode" : "rwis2",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.134472,
+        "y" : 46.197769
+      },
+      "smetadata" : {
+        "municipality" : "San Michele all'Adige"
+      },
+      "sname" : "S.Michele",
+      "sorigin" : "InfoMobility"
+    }, {
+      "scode" : "rwis3",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.069111,
+        "y" : 46.23165
+      },
+      "smetadata" : {
+        "municipality" : "Predaia"
+      },
+      "sname" : "Rocchetta",
+      "sorigin" : "InfoMobility"
+    }, {
+      "scode" : "rwis4",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.101253,
+        "y" : 46.151711
+      },
+      "smetadata" : {
+        "municipality" : "Lavis"
+      },
+      "sname" : "Casa Cantoniera",
+      "sorigin" : "InfoMobility"
+    }, {
+      "scode" : "rwis5",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.08575,
+        "y" : 46.122225
+      },
+      "smetadata" : {
+        "municipality" : "Trento"
+      },
+      "sname" : "Viadotto A22",
+      "sorigin" : "InfoMobility"
+    }, {
+      "scode" : "rwis6",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.113311,
+        "y" : 45.97342
+      },
+      "smetadata" : {
+        "municipality" : "Calliano"
+      },
+      "sname" : "Acquaviva",
+      "sorigin" : "InfoMobility"
+    }, {
+      "scode" : "rwis7",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.183341,
+        "y" : 46.083308
+      },
+      "smetadata" : {
+        "municipality" : "Civezzano"
+      },
+      "sname" : "Civezzano",
+      "sorigin" : "InfoMobility"
+    } ],
+    "limit" : 100,
+    "offset" : 0
+  }
+}

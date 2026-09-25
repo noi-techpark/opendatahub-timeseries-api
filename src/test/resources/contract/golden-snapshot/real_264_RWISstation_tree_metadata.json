@@ -1,0 +1,176 @@
+{
+  "request" : "GET /tree/RWISstation/metadata/2015-01-01/2026-09-24T14:06:00Z?limit=200 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.151913,
+              "y" : 46.210154
+            },
+            "smetadata" : {
+              "municipality" : "Faedo"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "municipality" : "Faedo"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "Cadino",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis2" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "rwis2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.134472,
+              "y" : 46.197769
+            },
+            "smetadata" : {
+              "municipality" : "San Michele all'Adige"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "municipality" : "San Michele all'Adige"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "S.Michele",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis3" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis3",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.069111,
+              "y" : 46.23165
+            },
+            "smetadata" : {
+              "municipality" : "Predaia"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "municipality" : "Predaia"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "Rocchetta",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis4" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis4",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.101253,
+              "y" : 46.151711
+            },
+            "smetadata" : {
+              "municipality" : "Lavis"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "municipality" : "Lavis"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "Casa Cantoniera",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis5" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis5",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.08575,
+              "y" : 46.122225
+            },
+            "smetadata" : {
+              "municipality" : "Trento"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "municipality" : "Trento"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "Viadotto A22",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis6" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis6",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.113311,
+              "y" : 45.97342
+            },
+            "smetadata" : {
+              "municipality" : "Calliano"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "municipality" : "Calliano"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "Acquaviva",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          },
+          "rwis7" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "rwis7",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.183341,
+              "y" : 46.083308
+            },
+            "smetadata" : {
+              "municipality" : "Civezzano"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "municipality" : "Civezzano"
+              },
+              "mhtransactiontime" : "2019-03-19 10:46:20.807+0000"
+            } ],
+            "sname" : "Civezzano",
+            "sorigin" : "InfoMobility",
+            "stype" : "RWISstation"
+          }
+        }
+      }
+    },
+    "limit" : 200,
+    "offset" : 0
+  }
+}

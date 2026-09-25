@@ -1,0 +1,157 @@
+{
+  "request" : "GET /tree/BikeSharingService/number-available/2026-09-24T08:05:00Z/2026-09-24T14:06:00Z?limit=2000&where=scode.eq.%22sharedmobility-ch%3Apr%3Acarvelo2go%22&select=sname,tname,mvalue,mvalidtime [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "BikeSharingService" : {
+        "stations" : {
+          "sharedmobility-ch:pr:carvelo2go" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 08:05:03.000+0000",
+                  "mvalue" : 526
+                }, {
+                  "mvalidtime" : "2026-09-24 08:10:04.000+0000",
+                  "mvalue" : 526
+                }, {
+                  "mvalidtime" : "2026-09-24 08:15:05.000+0000",
+                  "mvalue" : 526
+                }, {
+                  "mvalidtime" : "2026-09-24 08:20:04.000+0000",
+                  "mvalue" : 526
+                }, {
+                  "mvalidtime" : "2026-09-24 08:25:03.000+0000",
+                  "mvalue" : 526
+                }, {
+                  "mvalidtime" : "2026-09-24 08:30:03.000+0000",
+                  "mvalue" : 526
+                }, {
+                  "mvalidtime" : "2026-09-24 08:35:03.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mvalidtime" : "2026-09-24 08:40:04.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mvalidtime" : "2026-09-24 08:45:04.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mvalidtime" : "2026-09-24 08:50:04.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mvalidtime" : "2026-09-24 08:55:02.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mvalidtime" : "2026-09-24 09:00:05.000+0000",
+                  "mvalue" : 529
+                }, {
+                  "mvalidtime" : "2026-09-24 09:05:03.000+0000",
+                  "mvalue" : 534
+                }, {
+                  "mvalidtime" : "2026-09-24 09:10:03.000+0000",
+                  "mvalue" : 533
+                }, {
+                  "mvalidtime" : "2026-09-24 09:15:03.000+0000",
+                  "mvalue" : 533
+                }, {
+                  "mvalidtime" : "2026-09-24 09:20:03.000+0000",
+                  "mvalue" : 533
+                }, {
+                  "mvalidtime" : "2026-09-24 09:25:03.000+0000",
+                  "mvalue" : 533
+                }, {
+                  "mvalidtime" : "2026-09-24 09:30:04.000+0000",
+                  "mvalue" : 532
+                }, {
+                  "mvalidtime" : "2026-09-24 09:35:03.000+0000",
+                  "mvalue" : 528
+                }, {
+                  "mvalidtime" : "2026-09-24 09:40:05.000+0000",
+                  "mvalue" : 528
+                }, {
+                  "mvalidtime" : "2026-09-24 09:45:03.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mvalidtime" : "2026-09-24 09:50:05.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mvalidtime" : "2026-09-24 09:55:03.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mvalidtime" : "2026-09-24 10:00:04.000+0000",
+                  "mvalue" : 530
+                }, {
+                  "mvalidtime" : "2026-09-24 10:05:03.000+0000",
+                  "mvalue" : 505
+                }, {
+                  "mvalidtime" : "2026-09-24 10:10:04.000+0000",
+                  "mvalue" : 504
+                }, {
+                  "mvalidtime" : "2026-09-24 10:15:03.000+0000",
+                  "mvalue" : 504
+                }, {
+                  "mvalidtime" : "2026-09-24 10:20:04.000+0000",
+                  "mvalue" : 503
+                }, {
+                  "mvalidtime" : "2026-09-24 10:25:03.000+0000",
+                  "mvalue" : 503
+                }, {
+                  "mvalidtime" : "2026-09-24 10:30:04.000+0000",
+                  "mvalue" : 503
+                }, {
+                  "mvalidtime" : "2026-09-24 10:35:03.000+0000",
+                  "mvalue" : 504
+                }, {
+                  "mvalidtime" : "2026-09-24 10:40:05.000+0000",
+                  "mvalue" : 504
+                }, {
+                  "mvalidtime" : "2026-09-24 10:45:03.000+0000",
+                  "mvalue" : 504
+                }, {
+                  "mvalidtime" : "2026-09-24 10:50:03.000+0000",
+                  "mvalue" : 504
+                }, {
+                  "mvalidtime" : "2026-09-24 10:55:04.000+0000",
+                  "mvalue" : 503
+                }, {
+                  "mvalidtime" : "2026-09-24 11:00:04.000+0000",
+                  "mvalue" : 503
+                }, {
+                  "mvalidtime" : "2026-09-24 11:05:03.000+0000",
+                  "mvalue" : 508
+                }, {
+                  "mvalidtime" : "2026-09-24 11:10:05.000+0000",
+                  "mvalue" : 506
+                }, {
+                  "mvalidtime" : "2026-09-24 11:15:04.000+0000",
+                  "mvalue" : 506
+                }, {
+                  "mvalidtime" : "2026-09-24 11:20:04.000+0000",
+                  "mvalue" : 507
+                }, {
+                  "mvalidtime" : "2026-09-24 11:25:03.000+0000",
+                  "mvalue" : 507
+                }, {
+                  "mvalidtime" : "2026-09-24 11:30:05.000+0000",
+                  "mvalue" : 507
+                } ],
+                "tname" : "number-available"
+              }
+            },
+            "sname" : "carvelo eCargo-Bike Sharing"
+          }
+        }
+      }
+    },
+    "limit" : 2000,
+    "offset" : 0
+  }
+}

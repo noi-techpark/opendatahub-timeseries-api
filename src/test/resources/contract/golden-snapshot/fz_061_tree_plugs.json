@@ -1,0 +1,74 @@
+{
+  "request" : "GET /tree/EChargingPlug,EChargingStation?limit=-1&select=sactive&shownull=true&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "EChargingPlug" : {
+        "stations" : {
+          "AER_00000001-1" : {
+            "sactive" : false
+          },
+          "AER_00000001-2" : {
+            "sactive" : false
+          },
+          "AER_00000006-2" : {
+            "sactive" : false
+          },
+          "AER_00000039-1" : {
+            "sactive" : false
+          },
+          "AER_00000039-2" : {
+            "sactive" : false
+          },
+          "AER_00000041-1" : {
+            "sactive" : false
+          },
+          "AER_00000041-2" : {
+            "sactive" : false
+          },
+          "AER_00000042-1" : {
+            "sactive" : false
+          }
+        }
+      },
+      "EChargingStation" : {
+        "stations" : {
+          "AER_00000001" : {
+            "sactive" : false
+          },
+          "AER_00000005" : {
+            "sactive" : false
+          },
+          "AER_00000006" : {
+            "sactive" : false
+          },
+          "AER_00000007" : {
+            "sactive" : false
+          },
+          "AER_00000008" : {
+            "sactive" : false
+          },
+          "AER_00000039" : {
+            "sactive" : false
+          },
+          "AER_00000041" : {
+            "sactive" : false
+          },
+          "AER_00000042" : {
+            "sactive" : false
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "request" : "GET /tree/LinkStation/metadata/2015-01-01/2026-09-24T14:06:00Z?limit=200 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "LinkStation" : {
+        "stations" : {
+          "1853-1854" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "1853-1854",
+            "smetadata" : {
+              "iddirezione" : "Sud",
+              "latitudinefine" : 46.4743265,
+              "latitudineinizio" : 46.49480603,
+              "longitudinefine" : 11.31618225,
+              "longitudininizio" : 11.40778351,
+              "lunghezza" : 7800,
+              "metrofine" : 85300,
+              "metroinizio" : 77500
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "iddirezione" : "Sud",
+                "latitudinefine" : 46.4743265,
+                "latitudineinizio" : 46.49480603,
+                "longitudinefine" : 11.31618225,
+                "longitudininizio" : 11.40778351,
+                "lunghezza" : 7800,
+                "metrofine" : 85300,
+                "metroinizio" : 77500
+              },
+              "mhtransactiontime" : "2020-04-23 00:00:04.665+0000"
+            } ],
+            "sname" : "BOLZANO NORD - BOLZANO SUD",
+            "sorigin" : "A22",
+            "stype" : "LinkStation"
+          }
+        }
+      }
+    },
+    "limit" : 200,
+    "offset" : 0
+  }
+}

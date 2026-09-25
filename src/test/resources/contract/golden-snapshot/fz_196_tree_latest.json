@@ -1,0 +1,14 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=smetadata.municipality,smetadata.name_en,ttype,prlineage,pmetadata&where=mvalue.lt.100,mvalue.gt.0&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "51da2ecec1a4e0e858970f3a9161150a83b114a213ef89a49dc20922326407db",
+  "bodyRecords" : 112630
+}

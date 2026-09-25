@@ -1,0 +1,17 @@
+{
+  "request" : "GET /tree/*/metadata/2023-01-01/2024-01-01?limit=-1&select=sname,smetadata.capacity,scoordinate,mhtransactiontime&where=mhmetadata.v.gt.1&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : { },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

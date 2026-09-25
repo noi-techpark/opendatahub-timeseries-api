@@ -1,0 +1,21 @@
+{
+  "request" : "GET /flat/*?limit=-1&select=pname&where=smetadata.capacity.gt.10&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "pname" : null
+    }, {
+      "pname" : "P05 - Laurin"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

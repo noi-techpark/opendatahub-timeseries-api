@@ -1,0 +1,1344 @@
+{
+  "request" : "GET /tree/*?limit=-1&where=scode.re.%22%5E%5BA-M%5D%22 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "BikesharingStation" : {
+        "stations" : {
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.355516,
+              "y" : 46.497459
+            },
+            "smetadata" : {
+              "address" : "Viale Stazione, 5",
+              "total-bays" : 12
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee",
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "stype" : "BikesharingStation"
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3008cf824e352d9854585d3731568fe6e0a042d2" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3008cf824e352d9854585d3731568fe6e0a042d2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.343183,
+              "y" : 46.483579
+            },
+            "smetadata" : {
+              "address" : "Via Claudia Augusta, 42",
+              "total-bays" : 12
+            },
+            "sname" : "Claudia Augusta",
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "stype" : "BikesharingStation"
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3242fbb9d66046deac446c8b89768cd1b6fc9c9f" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3242fbb9d66046deac446c8b89768cd1b6fc9c9f",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.333071,
+              "y" : 46.46461
+            },
+            "smetadata" : {
+              "address" : "Piazzetta Caduti Nassirija",
+              "total-bays" : 12
+            },
+            "sname" : "Via Maso della Pieve - Pfarrhofstrasse",
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "stype" : "BikesharingStation"
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--845248b808d1bf6c6115e471e41ccdca99f09743" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--845248b808d1bf6c6115e471e41ccdca99f09743",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.325996,
+              "y" : 46.473876
+            },
+            "smetadata" : {
+              "address" : "Via Buozzi, 31",
+              "total-bays" : 12
+            },
+            "sname" : "Fiera - Messe",
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "stype" : "BikesharingStation"
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1b380c7315ed00d73a49269e2feab2e5b0452a00" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1b380c7315ed00d73a49269e2feab2e5b0452a00",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.335918,
+              "y" : 46.485846
+            },
+            "smetadata" : {
+              "address" : "Via Galilei, 23",
+              "total-bays" : 12
+            },
+            "sname" : "Via Galilei - Galilei-Strasse",
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "stype" : "BikesharingStation"
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c4e26e1fd97da55bd1a1fe7ccf67f1b70c69453a" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c4e26e1fd97da55bd1a1fe7ccf67f1b70c69453a",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.316234,
+              "y" : 46.491091
+            },
+            "smetadata" : {
+              "address" : "Via Resia, 39/A",
+              "total-bays" : 12
+            },
+            "sname" : "Palasport - Stadthalle",
+            "sorigin" : "BIKE_SHARING_BOLZANO",
+            "stype" : "BikesharingStation"
+          }
+        }
+      },
+      "BluetoothStation" : {
+        "stations" : {
+          "A22_ML103" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "A22_ML103",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.26693,
+              "y" : 46.32098
+            },
+            "smetadata" : { },
+            "sname" : "A22_ML103",
+            "stype" : "BluetoothStation"
+          },
+          "A22_ML107" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "A22_ML107",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.23751,
+              "y" : 46.28884
+            },
+            "smetadata" : { },
+            "sname" : "A22_ML107",
+            "stype" : "BluetoothStation"
+          },
+          "Agip_Einstein" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Agip_Einstein",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.31655,
+              "y" : 46.47129
+            },
+            "smetadata" : { },
+            "sname" : "Agip_Einstein",
+            "stype" : "BluetoothStation"
+          },
+          "Arginale_Palermo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Arginale_Palermo",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.3345,
+              "y" : 46.48662
+            },
+            "smetadata" : {
+              "description" : "",
+              "name" : {
+                "en" : "Arginale Palermo",
+                "it" : "Arginale Palermo"
+              }
+            },
+            "sname" : "Arginale_Palermo",
+            "stype" : "BluetoothStation"
+          },
+          "Arginale_Resia" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Arginale_Resia",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.32538,
+              "y" : 46.48257
+            },
+            "smetadata" : { },
+            "sname" : "Arginale_Resia",
+            "stype" : "BluetoothStation"
+          },
+          "Druso_Palermo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Druso_Palermo",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33269,
+              "y" : 46.49508
+            },
+            "smetadata" : { },
+            "sname" : "Druso_Palermo",
+            "stype" : "BluetoothStation"
+          },
+          "Galilei_Lancia" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galilei_Lancia",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33707,
+              "y" : 46.48615
+            },
+            "smetadata" : { },
+            "sname" : "Galilei_Lancia",
+            "stype" : "BluetoothStation"
+          },
+          "Galilei_Palermo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galilei_Palermo",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.3326,
+              "y" : 46.48501
+            },
+            "smetadata" : {
+              "description" : "highway",
+              "name" : {
+                "de" : "Kreuzung Galilei Strasse - Palermo Brücke",
+                "en" : "Intersection Galilei Street - Palermo Bridge",
+                "it" : "Incrocio via Galilei - ponte Palermo"
+              }
+            },
+            "sname" : "Galilei_Palermo",
+            "stype" : "BluetoothStation"
+          },
+          "Galilei_Roma" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galilei_Roma",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.34355,
+              "y" : 46.48697
+            },
+            "smetadata" : { },
+            "sname" : "Galilei_Roma",
+            "stype" : "BluetoothStation"
+          },
+          "Galilei_Virgolo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galilei_Virgolo",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.34142,
+              "y" : 46.48699
+            },
+            "smetadata" : { },
+            "sname" : "Galilei_Virgolo",
+            "stype" : "BluetoothStation"
+          },
+          "Galleria_Virgolo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galleria_Virgolo",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.35919,
+              "y" : 46.49203
+            },
+            "smetadata" : { },
+            "sname" : "Galleria_Virgolo",
+            "stype" : "BluetoothStation"
+          },
+          "Maso_Pieve" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Maso_Pieve",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33751,
+              "y" : 46.47574
+            },
+            "smetadata" : { },
+            "sname" : "Maso_Pieve",
+            "stype" : "BluetoothStation"
+          },
+          "Milano_Palermo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Milano_Palermo",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33175,
+              "y" : 46.48955
+            },
+            "smetadata" : { },
+            "sname" : "Milano_Palermo",
+            "stype" : "BluetoothStation"
+          },
+          "Milano_Resia" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Milano_Resia",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.31705,
+              "y" : 46.48972
+            },
+            "smetadata" : { },
+            "sname" : "Milano_Resia",
+            "stype" : "BluetoothStation"
+          }
+        }
+      },
+      "EChargingPlug" : {
+        "stations" : {
+          "AER_00000001-1" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000001-1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.326185,
+              "y" : 46.473003
+            },
+            "smetadata" : {
+              "outlets" : [ {
+                "hasFixedCable" : false,
+                "id" : "1",
+                "maxCurrent" : 31,
+                "maxPower" : 22,
+                "minCurrent" : 0,
+                "outletTypeCode" : "Type2Mennekes"
+              } ]
+            },
+            "sname" : "BZ_FIERA-241",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingPlug"
+          },
+          "AER_00000001-2" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000001-2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.326185,
+              "y" : 46.473003
+            },
+            "smetadata" : {
+              "outlets" : [ {
+                "hasFixedCable" : false,
+                "id" : "2",
+                "maxCurrent" : 31,
+                "maxPower" : 22,
+                "minCurrent" : 0,
+                "outletTypeCode" : "Type2Mennekes"
+              } ]
+            },
+            "sname" : "BZ_FIERA-242",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingPlug"
+          },
+          "AER_00000006-2" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000006-2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.337837,
+              "y" : 46.4905
+            },
+            "smetadata" : {
+              "outlets" : [ {
+                "hasFixedCable" : false,
+                "id" : "2",
+                "maxCurrent" : 31,
+                "maxPower" : 22,
+                "minCurrent" : 0,
+                "outletTypeCode" : "Type2Mennekes"
+              } ]
+            },
+            "sname" : "BZ_PMATTEOTTI-256",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingPlug"
+          },
+          "AER_00000039-1" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000039-1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 10.955608,
+              "y" : 46.52789
+            },
+            "smetadata" : {
+              "outlets" : [ {
+                "hasFixedCable" : false,
+                "id" : "1",
+                "maxCurrent" : 31,
+                "maxPower" : 22,
+                "minCurrent" : 0,
+                "outletTypeCode" : "Type2Mennekes"
+              } ]
+            },
+            "sname" : "ULTIMO_01-432",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingPlug"
+          },
+          "AER_00000039-2" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000039-2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 10.955608,
+              "y" : 46.52789
+            },
+            "smetadata" : {
+              "outlets" : [ {
+                "hasFixedCable" : false,
+                "id" : "2",
+                "maxCurrent" : 31,
+                "maxPower" : 22,
+                "minCurrent" : 0,
+                "outletTypeCode" : "Type2Mennekes"
+              } ]
+            },
+            "sname" : "ULTIMO_01-433",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingPlug"
+          },
+          "AER_00000041-1" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000041-1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.271506,
+              "y" : 46.314846
+            },
+            "smetadata" : {
+              "outlets" : [ {
+                "hasFixedCable" : false,
+                "id" : "1",
+                "maxCurrent" : 31,
+                "maxPower" : 22,
+                "minCurrent" : 0,
+                "outletTypeCode" : "Type2Mennekes"
+              } ]
+            },
+            "sname" : "EGNA_01-451",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingPlug"
+          },
+          "AER_00000041-2" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000041-2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.271506,
+              "y" : 46.314846
+            },
+            "smetadata" : {
+              "outlets" : [ {
+                "hasFixedCable" : false,
+                "id" : "2",
+                "maxCurrent" : 31,
+                "maxPower" : 22,
+                "minCurrent" : 0,
+                "outletTypeCode" : "Type2Mennekes"
+              } ]
+            },
+            "sname" : "EGNA_01-452",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingPlug"
+          },
+          "AER_00000042-1" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000042-1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.323925,
+              "y" : 46.481113
+            },
+            "smetadata" : {
+              "outlets" : [ {
+                "hasFixedCable" : true,
+                "id" : "1",
+                "maxCurrent" : 120,
+                "maxPower" : 45,
+                "minCurrent" : 0,
+                "outletTypeCode" : "CHAdeMO"
+              }, {
+                "hasFixedCable" : true,
+                "id" : "2",
+                "maxCurrent" : 120,
+                "maxPower" : 45,
+                "minCurrent" : 0,
+                "outletTypeCode" : "CCS"
+              } ]
+            },
+            "sname" : "BZ_PTE_RESIA_OLD-456",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingPlug"
+          }
+        }
+      },
+      "EChargingStation" : {
+        "stations" : {
+          "AER_00000001" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000001",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.326185,
+              "y" : 46.473003
+            },
+            "smetadata" : {
+              "accessType" : "PUBLIC",
+              "address" : "Piazza Fiera - Messeplatz",
+              "capacity" : 2,
+              "city" : "BOLZANO - BOZEN",
+              "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+              "provider" : "Neogy",
+              "state" : "TEMPORARYUNAVAILABLE"
+            },
+            "sname" : "BZ_FIERA",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingStation"
+          },
+          "AER_00000005" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000005",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.349217,
+              "y" : 46.499702
+            },
+            "smetadata" : {
+              "accessType" : "PUBLIC",
+              "address" : "Via Cassa di Risparmio  - Sparkassenstraße 14",
+              "capacity" : 2,
+              "city" : "BOLZANO - BOZEN",
+              "municipality" : "Bolzano - Bozen",
+              "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+              "provider" : "Alperia Smart Mobility",
+              "state" : "ACTIVE"
+            },
+            "sname" : "BZ_CASSARISP_01",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingStation"
+          },
+          "AER_00000006" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000006",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.337837,
+              "y" : 46.4905
+            },
+            "smetadata" : {
+              "accessType" : "PUBLIC",
+              "address" : "Piazza Matteotti Platz",
+              "capacity" : 2,
+              "city" : "BOLZANO - BOZEN",
+              "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+              "provider" : "Neogy",
+              "state" : "TEMPORARYUNAVAILABLE"
+            },
+            "sname" : "BZ_PMATTEOTTI",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingStation"
+          },
+          "AER_00000007" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000007",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.345176,
+              "y" : 46.500862
+            },
+            "smetadata" : {
+              "accessType" : "PUBLIC",
+              "address" : "Piazza della Vittoria - Siegesplatz",
+              "capacity" : 2,
+              "city" : "BOLZANO - BOZEN",
+              "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+              "provider" : "Neogy",
+              "state" : "ACTIVE"
+            },
+            "sname" : "BZ_PVITTORIA",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingStation"
+          },
+          "AER_00000008" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000008",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.339918,
+              "y" : 46.50122
+            },
+            "smetadata" : {
+              "accessType" : "PUBLIC",
+              "address" : "Piazza Mazzini Platz",
+              "capacity" : 2,
+              "city" : "BOLZANO - BOZEN",
+              "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+              "provider" : "Neogy",
+              "state" : "TEMPORARYUNAVAILABLE"
+            },
+            "sname" : "BZ_PMAZZINI",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingStation"
+          },
+          "AER_00000039" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000039",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 10.955608,
+              "y" : 46.52789
+            },
+            "smetadata" : {
+              "accessType" : "PUBLIC",
+              "address" : "Pracupola - Kuppelwies",
+              "capacity" : 2,
+              "city" : "ULTIMO - ULTEN",
+              "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+              "provider" : "Neogy",
+              "state" : "ACTIVE"
+            },
+            "sname" : "ULTIMO_01",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingStation"
+          },
+          "AER_00000041" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000041",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.271506,
+              "y" : 46.314846
+            },
+            "smetadata" : {
+              "accessType" : "PUBLIC",
+              "address" : "Via Madonna - Marienstraße",
+              "capacity" : 2,
+              "city" : "EGNA - NEUMARKT",
+              "paymentInfo" : "https://www.neogy.it/rete-di-ricarica/stazioni-di-ricarica.html",
+              "provider" : "Neogy",
+              "state" : "TEMPORARYUNAVAILABLE"
+            },
+            "sname" : "EGNA_01",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingStation"
+          },
+          "AER_00000042" : {
+            "sactive" : false,
+            "savailable" : true,
+            "scode" : "AER_00000042",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.323925,
+              "y" : 46.481113
+            },
+            "smetadata" : {
+              "accessInfo" : null,
+              "accessType" : "PUBLIC",
+              "address" : "Ponte Resia - Reschenbrücke",
+              "capacity" : 1,
+              "categories" : null,
+              "city" : "BOLZANO - BOZEN",
+              "flashInfo" : null,
+              "locationServiceInfo" : null,
+              "paymentInfo" : "https://www.alperiaenergy.eu/smart-mobility/punti-di-ricarica.html",
+              "provider" : "Alperia Smart Mobility",
+              "reservable" : null,
+              "state" : "TEMPORARYUNAVAILABLE"
+            },
+            "sname" : "BZ_PTE_RESIA_OLD",
+            "sorigin" : "ALPERIA",
+            "stype" : "EChargingStation"
+          }
+        }
+      },
+      "EnvironmentStation" : {
+        "stations" : {
+          "AB2" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "AB2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.279333,
+              "y" : 46.343653
+            },
+            "smetadata" : {
+              "municipality" : "Egna"
+            },
+            "sname" : "A22 Sud - Binnenland, Ora",
+            "sorigin" : "APPABZ",
+            "stype" : "EnvironmentStation"
+          },
+          "AB3" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "AB3",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.633306,
+              "y" : 46.687556
+            },
+            "smetadata" : {
+              "municipality" : "Bressanone"
+            },
+            "sname" : "A22 Nord-Bx sud - Depuratore, Bx",
+            "sorigin" : "APPABZ",
+            "stype" : "EnvironmentStation"
+          },
+          "BX1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "BX1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.654083,
+              "y" : 46.714917
+            },
+            "smetadata" : {
+              "municipality" : "Bressanone"
+            },
+            "sname" : "Bressanone - Villa Adele - Viale Ratisbona",
+            "sorigin" : "APPABZ",
+            "stype" : "EnvironmentStation"
+          },
+          "BZ4" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "BZ4",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.341833,
+              "y" : 46.482306
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano"
+            },
+            "sname" : "Bolzano 4 - Via C.Augusta",
+            "sorigin" : "APPABZ",
+            "stype" : "EnvironmentStation"
+          },
+          "BZ5" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "BZ5",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.339972,
+              "y" : 46.495472
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano"
+            },
+            "sname" : "Bolzano 5 - Piazza Adriano",
+            "sorigin" : "APPABZ",
+            "stype" : "EnvironmentStation"
+          },
+          "BZ6" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "BZ6",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.341972,
+              "y" : 46.499167
+            },
+            "smetadata" : {
+              "municipality" : "Bolzano"
+            },
+            "sname" : "Bolzano 6 - Via Amba Alagi giardino",
+            "sorigin" : "APPABZ",
+            "stype" : "EnvironmentStation"
+          },
+          "CR1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "CR1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.227111,
+              "y" : 46.267333
+            },
+            "smetadata" : {
+              "municipality" : "Cortina ssdV"
+            },
+            "sname" : "Cortina ssdV - Strada del Vino",
+            "sorigin" : "APPABZ",
+            "stype" : "EnvironmentStation"
+          },
+          "LS1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "LS1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.340139,
+              "y" : 46.434833
+            },
+            "smetadata" : {
+              "municipality" : "Laives"
+            },
+            "sname" : "Laives - Via Galizia",
+            "sorigin" : "APPABZ",
+            "stype" : "EnvironmentStation"
+          }
+        }
+      },
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "A22_ML103->A22_ML107",
+            "sname" : "A22_ML103->A22_ML107",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "A22_ML103->Torricelli" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "A22_ML103->Torricelli",
+            "sname" : "A22_ML103->Torricelli",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "A22_ML107->A22_ML103" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "A22_ML107->A22_ML103",
+            "sname" : "A22_ML107->A22_ML103",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Agip_Einstein->Torricelli" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Agip_Einstein->Torricelli",
+            "sname" : "Agip_Einstein->Torricelli",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Agip_Einstein->meinstein" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Agip_Einstein->meinstein",
+            "sname" : "meinstein->Agip_Einstein",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Arginale_Palermo->Arginale_Resia" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Arginale_Palermo->Arginale_Resia",
+            "sname" : "Arginale_Palermo->Arginale_Resia",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Arginale_Palermo->Milano_Palermo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Arginale_Palermo->Milano_Palermo",
+            "sname" : "Arginale_Palermo->Milano_Palermo",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Arginale_Resia->A22_ML103" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Arginale_Resia->A22_ML103",
+            "sname" : "Arginale_Resia->A22_ML103",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Arginale_Resia->Agip_Einstein" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Arginale_Resia->Agip_Einstein",
+            "sname" : "Arginale_Resia->Agip_Einstein",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Arginale_Resia->Milano_Resia" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Arginale_Resia->Milano_Resia",
+            "sname" : "Arginale_Resia->Milano_Resia",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Druso_Palermo->Milano_Palermo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Druso_Palermo->Milano_Palermo",
+            "sname" : "Druso_Palermo->Milano_Palermo",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Druso_Palermo->Milano_Resia" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Druso_Palermo->Milano_Resia",
+            "sname" : "Druso_Palermo->Milano_Resia",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Druso_Palermo->druso-poste" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Druso_Palermo->druso-poste",
+            "sname" : "Druso_Palermo->druso-poste",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Galilei_Lancia->Galilei_Virgolo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galilei_Lancia->Galilei_Virgolo",
+            "sname" : "Galilei_Lancia->Galilei_Virgolo",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Galilei_Lancia->galvani" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galilei_Lancia->galvani",
+            "sname" : "Galilei_Lancia->galvani",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Galilei_Palermo->Galilei_Lancia" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galilei_Palermo->Galilei_Lancia",
+            "sname" : "Galilei_Palermo->Galilei_Lancia",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Galilei_Roma->Maso_Pieve" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galilei_Roma->Maso_Pieve",
+            "sname" : "Galilei_Roma->Maso_Pieve",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Galilei_Roma->caugusta" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galilei_Roma->caugusta",
+            "sname" : "Galilei_Roma->caugusta",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Galilei_Roma->druso-poste" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galilei_Roma->druso-poste",
+            "sname" : "Galilei_Roma->druso-poste",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Galilei_Virgolo->Galilei_Roma" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galilei_Virgolo->Galilei_Roma",
+            "sname" : "Galilei_Virgolo->Galilei_Roma",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Galilei_Virgolo->Galleria_Virgolo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galilei_Virgolo->Galleria_Virgolo",
+            "sname" : "Galilei_Virgolo->Galleria_Virgolo",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Galleria_Virgolo->Arginale_Palermo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galleria_Virgolo->Arginale_Palermo",
+            "sname" : "Galleria_Virgolo->Arginale_Palermo",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Galleria_Virgolo->P_Campiglio" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galleria_Virgolo->P_Campiglio",
+            "sname" : "Galleria_Virgolo->P_Campiglio",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Galleria_Virgolo->proma" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Galleria_Virgolo->proma",
+            "sname" : "Galleria_Virgolo->proma",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Maso_Pieve->meinstein" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Maso_Pieve->meinstein",
+            "sname" : "Maso_Pieve->meinstein",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Milano_Palermo->Druso_Palermo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Milano_Palermo->Druso_Palermo",
+            "sname" : "Milano_Palermo->Druso_Palermo",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Milano_Palermo->Milano_Resia" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Milano_Palermo->Milano_Resia",
+            "sname" : "Milano_Palermo->Milano_Resia",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Milano_Palermo->Roma_Firenze" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Milano_Palermo->Roma_Firenze",
+            "sname" : "Milano_Palermo->Roma_Firenze",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Milano_Resia->Druso_Palermo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Milano_Resia->Druso_Palermo",
+            "sname" : "Milano_Resia->Druso_Palermo",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          },
+          "Milano_Resia->Milano_Palermo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "Milano_Resia->Milano_Palermo",
+            "sname" : "Milano_Resia->Milano_Palermo",
+            "sorigin" : "NOI",
+            "stype" : "LinkStation"
+          }
+        }
+      },
+      "Streetstation" : {
+        "stations" : {
+          "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN",
+            "smetadata" : {
+              "description" : " AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN",
+              "length" : 18183,
+              "linegeometry" : "0102000020787F0000C000000022E32A07DDAE24410AEFEFF3E29E5341614A6F1095AF2441232757E0179F534132B144D8C1AF2441428A4513279F53413954D7D203B024411CF34572439F5341D4CB73D524B0244109708543569F5341FA40766F3AB02441C24A1031659F5341CC4154B249B024417D479815739F5341674A6F9060B024416B80DDD48F9F534188FAE19880B02441F9CAC7D5CD9F53412984927AA3B0244160CB363F09A05341678E699EDFB024410333EAF562A053413AFEC885F2B02441C775976786A05341703A8678F6B024419F668C269EA05341F72E62F0F3B024419039DA9CB0A05341045C142EEFB02441F26B2FB5B8A053410ABBACFADEB0244186A630C2C7A05341A45446F4C3B02441AF46BAD6DCA05341B6248B8CB8B02441AB12A9B4E3A05341914991CD84B02441FFCAC7B9FBA05341EEE1DD4267B024413D661D4508A153416F5524F744B024419DB1E5E414A15341260EB25DF9AF2441C7EB77A42BA153418F642F6C8CAF2441898B92D746A1534110590B040EAF24412ABF346860A15341D46048BF85AE24418992F14B79A15341B5D6281C63AC2441880F31FDD9A153414770C2B5BFAB2441D3F0AB51F9A153412DC27A542EAB2441B1941C8F18A253415ECC51F8FCA924417C8A45DB5EA253411AC27AD465A9244143806EB782A253419DADCC8C34A92441515712B88FA2534186FF842B08A924412AFB82059DA253410AEBD663E8A82441E11908D1A7A2534112C27A54B6A824410D769723BCA2534111C27AD497A82441174D3BD4CBA2534180FF842B7FA824414E806EC7DCA2534142F5AD076EA82441E7190801EEA253412270C23566A82441BEBD786EFCA25341A65B14EE63A82441B4E6D4BD0DA35341F91333F366A82441FCC74F4219A353414BCC51F875A82441A2388D8C2EA35341C6E0FFBF91A824412524DF2444A3534194ADCC8CB6A824418A8A45CB57A3534106EBD6E3E8A824414D806E376CA353414FCC51F816A92441BDBD784E7BA35341C3095CCF4FA924412CFB82258BA35341E38E472189A924413FA9CA0699A35341BE32B85ED6A92441F5C74F62A9A353418328E1BA3EAA2441B6BD785EBCA353415ECC51F8B0AA24414C571298CEA35341561E0A1703AC2441C16BC05F01A45341F3B7A33083AC2441044D3B5415A45341F0E0FFBF30AD24415EDCFDB932A45341907A99D9DEAD2441452EB6A852A453417CCC5178E8AD244196E6D44D55A4534158C6D02225AE2441CEC524B361A45341E832B8DE87AE24417B0D067E77A45341C46EB6731EAF24414A9DF1EA9BA453413F3FBAC90CB0244170E27EFFD6A45341DE2E625044B0244195138793E5A4534167453B9F82B0244134032F2AF4A45341D055931815B12441F2CDD07F18A55341EDAFF75336B12441480785D81FA5534184C8FBA980B12441AD98721D2DA55341A2226065B9B12441B1EE80AA35A55341CFA9763EF7B12441DECBA5903DA55341F68470FD3FB22441696314D345A5534109879B040FB3244122032FC25BA55341095C14EE60B324413C320C4765A55341F301B032D9B32441FD52BCA175A553414A3939F42BB52441598E9B69A8A55341A31CDF4F96B524418BEC55D3B7A553410C58BE5F14B6244180403971C7A553415B8F47A174B624418196477ED1A553419B6E976EF3B62441390BDB7EDCA55341FE28E1FA59B72441D9250AFCE3A55341BEC8FBE992B724416C6995A8E7A553419C6C6CA730B82441032EB658F0A553417E66EB11E8B82441CBFA8225F9A5534137AECC8CD5B92441E37F6E5707A65341D147662617BA2441EC5612E80AA653413CAECC0C71BA24414EBD781E0FA653417733B85E02BD2441641908412AA653416785707D8ABD244143941C7F2DA6534116F6AD0788BE244125E6D43D31A6534125CD5178F9BE2441436BC0FF33A6534133A4F5E852BF2441F889452B37A6534122F6AD07A9BF24410B388D5C3BA6534138A4F5E8D1BF24417A7597D33DA65341A30A5C4F23C02441FC60E96B43A65341EEEBD663ACC0244192FA82454EA65341D766EB9131C12441BA56121858A653411771C2B57DC12441E98945FB5CA65341109A1E45CCC12441FB378DCC60A653416DCD51F8AEC52441B6DBFDF982A6534115B9A330BEC824419FDBFD999CA6534140153373EDC82441C7378D8C9DA653415CC37AD47CC92441C1378DAC9EA6534160C37A54DBC92441B460E90B9EA6534159ECD6E33ACA24412B7597739CA65341CC523D4A55CB24417F045AA996A65341B4CD51F8E3CB2441FFEFABC194A65341651533F32ACC2441284C3B9494A653419C4866A67ECC2441244C3B4495A653411C5D14EEDCCC2441BBE5D49D96A65341519047A123CD244187B2A13A98A65341DB7B99D969CD24415B5612689AA65341A171C235C4CD2441F2EFABF19DA653411AD8289C6BCF24416ADBFD39B2A65341B971C235E1CF2441D8180851B7A65341312AE1BAFAD22441AC6AC09FD6A653417C0B5CCF50D32441E5749773D9A653410ECE51F891D324417E0E311DDBA65341FE1F0A97EBD32441A36AC07FDCA65341D8C37AD423D4244112A8CAC6DCA65341C2904721A8D62441EAF98235DDA6534182AFCC8C34D7244155378DFCDCA6534147A5F5E877D724417C931C4FDCA6534182D8289C08D8244130B2A14AD9A653417E0185AB82D824419DEFAB41D7A65341D6B9A330EED8244114045AA9D6A653419EAFCC0C63D92441776AC08FD7A65341C25D14EEB5DA24414EE5D46DDDA6534124EDD66343DB244149E5D46DDEA6534196533D4A0ADC24412E378D4CDCA6534170200A1716DD2441F1035AB9D7A653412C3F8F0269DD2441566AC0DFD6A6534170496626E6DD2441AEF98245D6A65341BD2AE13A62DE244177C64F22D7A65341641633F3F0E0244106378DECECA65341A8C47AD4BEE424419E55127810A75341B89B1E451EE52441E1368D5C13A75341D149662683E52441AB035AA915A75341CA72C2B5C8E52441D25FE99B16A75341F7CE51781AE6244102931C0F17A7534178E3FF3F78E62441A4035AB916A753414BB0CC8CDEE62441AADAFD4915A753417B0C5C4F70E7244173A7CA4611A7534195BAA330F8E724418C2CB6C80AA75341490285AB67E8244155F982F503A75341CE16337306E924413A4B3BB4F8A65341A7E3FF3FFFE92441E0921C3FE4A65341B5E3FFBFFFEA244185DAFDD9CFA653413273C2355DED2441F5C54FF29DA65341F0914721AFED2441AAE4D40D98A653415AF8AD0704EE2441027497E392A6534171A6F5682FEE2441865FE9AB90A65341FA9147A172EE2441D51708F18DA65341A402852BE9EE2441A9BB788E8AA653416BF8AD8736EF2441A6BB789E89A653413EC57A549FEF24411DD026A689A6534142C57A54F6EF244194E4D4FD8AA6534128408F0255F02441D9C54FA28DA65341579C1E45BAF02441E19CF31292A65341C10285AB06F12441D6C54FA296A65341E487707D4AF12441BD1708D19BA65341FE35B85EBAF124410CD02636A6A6534154173373C9F2244135035A99C6A65341581733F31DF324418F921CCFCFA653410088707D6CF32441DE4A3B04D7A65341924A66A696F324419569C03FDAA65341542E7BE302F42441E03A522CE1A653411DD71FB287F42441FCEAC448E7A65341D430156CBCF4244112C493F4E8A65341F4687C70F2F4244150467610EAA653413302A728DEF5244117FACF3DEDA653413E833CAC51F62441A812D477EEA653417A727511B8F6244100A29611EFA653416855AC2BECF62441D8BD1257F0A65341B4A5A82437F72441C4CBD08FF2A65341A6B3663587F72441D6C69C0EF6A65341D8DD0FA9C1F724412A66483CF9A65341A6A1521603F82441092EE187FDA653417006FDD666F824413271FD7605A75341941C6784E7F824416B504DAC14A75341E918809739F9244197BEF00D21A75341A849190261F9244123C5E04428A753417EB0EE89D3F924411AB3CCAD3AA7534185757EBBFEF924410B2023B740A753417A8CC6CB4EFA2441384142674AA753411E3874C4A7FA2441A20641FA52A753418E416DE5FCFA244177D5389259A75341FA5A4F9E75FB2441A911F6D461A7534150A4ECFEE0FB244102EE3C1469A75341FF8C350D4FFC2441FE3137AE6FA75341AD7E089B9FFC2441BA8D578F76A75341151755D044FD24419321DF6482A75341C8F83E0670FD2441FF80E6EE84A753414B1DD60581FE2441C734400C98A75341FEA8B12EDBFE24418187D6819FA75341F5BFF91E47FF24417E185559A9A75341A6204E91DFFF2441F8821192BAA75341",
+              "old_idstr" : 50,
+              "speed_default" : 50
+            },
+            "sname" : "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN",
+            "stype" : "Streetstation"
+          },
+          "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1",
+            "smetadata" : {
+              "description" : " CORSO DELLA LIBERTA / FREIHEITSSTRASSE",
+              "length" : 431,
+              "linegeometry" : "0102000020787F000004000000A6DC05AEC6B9244164769D8FC7A7534180482D4EEAB92441380F76DDC4A7534167EB335E8CBA24416C06BC73C0A75341612C7B540ABD2441AFDCD4ADAEA75341",
+              "old_idstr" : 24,
+              "speed_default" : 41
+            },
+            "sname" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1",
+            "stype" : "Streetstation"
+          },
+          "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 3" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 3",
+            "smetadata" : {
+              "description" : " CORSO DELLA LIBERTA / FREIHEITSSTRASSE",
+              "length" : 456,
+              "linegeometry" : "0102000020787F000005000000612C7B540ABD2441AFDCD4ADAEA75341764A000FE4BE244101123ABBA1A753410E2D7CAFEDBF244190B2176F9BA75341285FDE0C35C02441B398246E97A75341859328EA6CC02441AECE357B90A75341",
+              "old_idstr" : 55,
+              "speed_default" : 25
+            },
+            "sname" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 3",
+            "stype" : "Streetstation"
+          },
+          "CORSO ITALIA / ITALIENALLEE" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "CORSO ITALIA / ITALIENALLEE",
+            "smetadata" : {
+              "description" : " CORSO ITALIA / ITALIENALLEE",
+              "length" : 620,
+              "linegeometry" : "0102000020787F0000040000001E7B99D9DEBC244108B3A11A90A7534188E1FFBF2ABD24418A9EF3C218A753416D879B043ABD244101D59EB5F9A653418AE1FFBF42BD2441F7DBFD99F5A65341",
+              "old_idstr" : 25,
+              "speed_default" : 35
+            },
+            "sname" : "CORSO ITALIA / ITALIENALLEE",
+            "stype" : "Streetstation"
+          },
+          "COSTA DI SOTTO / UNTERLEITACH" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "COSTA DI SOTTO / UNTERLEITACH",
+            "smetadata" : {
+              "description" : " COSTA DI SOTTO / UNTERLEITACH",
+              "length" : 2713,
+              "linegeometry" : "0102000020787F00003B000000F1BAA33078EE2441D51708A179A653417AFC03D68DEE244189027C0678A65341D29BAF63AFEE24412A95B6E776A653412E7F551F46EF24419DA0DAC375A65341D4B2F7F3FCEF2441439B372D78A6534136DCC2643EF0244134BB09157AA65341E81A1A40AEF02441C31708E97EA6534125E8558E35F124412106630787A65341836504A5CBF12441A260364091A65341BCB1AA4F76F224417CDB4ADEA0A65341D2CE73159FF22441D63F865DA5A653417D483BDFE6F224419557AC9CAFA65341797A21EE31F324416F512B5BBEA65341008870BD55F324412AF145DAC1A653416142BA298AF32441BD78CB80C9A653413708289E95F324415C93FAC5CAA65341AB0138C79FF32441B822BD3FCBA65341C18D8211C9F324418008FD33CCA65341E5D7FD54DEF324412F0CE440CEA65341FB38C168F6F324413DCA14EAD2A65341B3E8C48F12F424411D45298CDBA65341862D9DE023F424414EBC56A5E2A65341E4C5E93525F4244169EB33A6E6A653414211B2FD2FF4244184AB8FB6ECA653419B6C635D43F42441E8C4717FF4A65341AEE699688DF42441A1CA838702A75341E7005AE4B2F42441EB230A7407A75341CCD17CBFD0F424411C793AEA09A75341E37FC400E7F4244166633FDE0AA75341ED2BE1DA0BF524417421702F0BA75341484398CC20F52441394BAAC90AA75341908A0A064CF524411245299008A7534126348D7786F5244192B86FF000A7534196461058A4F524419BFE9479F9A653413302A728DEF5244117FACF3DEDA6534172BFF93E04F62441A9C54F8EE8A65341002CE1FA4DF624415941422BE1A653417F8D13707AF62441D277ED01DCA65341904B44E9ADF62441230E0FACD8A653412EEE6722C4F62441C843DCA3D7A65341588567B32BF72441C465D97ED5A65341FC9F969086F724411F422076D4A65341D6FF0CE0A1F72441DAB6B38AD4A6534170FF9DFEC7F72441AB481005D5A65341E870B9EBF1F72441C577ED21D6A65341FF62FB5A48F82441A36183C8D9A65341383037E979F82441205DBEB8DCA65341EE3CA815BAF824413414907DE1A653419E848970EFF824413B512B9FEAA6534118D4A76612F92441D2BF3DF6F2A65341C73B5B7120FA24412DD91FD729A7534108BE3D1942FA244178C3248F2FA753418051567D69FA2441A60FCB3135A75341913A0E6D8CFA24410CA1B81639A753416E348DF7ACFA244158D8410C3CA75341EEB7BCC3E4FA24410FB3CC713FA75341C77D2A381FFB2441304142CB40A75341308E823199FB2441D354120C3FA75341FECE049418FD244176C77AA937A75341",
+              "old_idstr" : 32,
+              "speed_default" : 44
+            },
+            "sname" : "COSTA DI SOTTO / UNTERLEITACH",
+            "stype" : "Streetstation"
+          },
+          "GALLERIA DEL VIRGOLO / VIRGL TUNNEL" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "GALLERIA DEL VIRGOLO / VIRGL TUNNEL",
+            "smetadata" : {
+              "description" : " GALLERIA DEL VIRGOLO / VIRGL TUNNEL",
+              "length" : 82,
+              "linegeometry" : "0102000020787F00000200000089AECC0C93C124418123DF8450A65341501323D716C22441CFED5B915CA65341",
+              "old_idstr" : 47,
+              "speed_default" : 44
+            },
+            "sname" : "GALLERIA DEL VIRGOLO / VIRGL TUNNEL",
+            "stype" : "Streetstation"
+          },
+          "GALLERIA SS12 / SS12 TUNNEL" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "GALLERIA SS12 / SS12 TUNNEL",
+            "smetadata" : {
+              "description" : " GALLERIA SS12 / SS12 TUNNEL",
+              "length" : 722,
+              "linegeometry" : "0102000020787F000006000000501323D716C22441CFED5B915CA65341E06B73DF10C52441AE619CA29EA65341241533736EC6244136C74FF2BDA653412EECD6E38CC624417DA8CA86BFA65341E90A5CCF9FC624410D6BC00FC0A653418E7B99D9C2C62441CD60E94BC0A65341",
+              "old_idstr" : 67,
+              "speed_default" : 44
+            },
+            "sname" : "GALLERIA SS12 / SS12 TUNNEL",
+            "stype" : "Streetstation"
+          },
+          "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1",
+            "smetadata" : {
+              "description" : " LUNGO ISARCO SINISTRO / LINKES EISACKUFER",
+              "length" : 962,
+              "linegeometry" : "0102000020787F00001E000000CA98B6074DAD244185BC21548CA453418065EFD133AD244164E62AB58EA453415EAF887221AD2441C0C1CEF491A45341EDE0FFDF1BAD244120A79F9395A45341CC38E9371FAD244121567FFD97A4534169F5AD8731AD244154055A099DA45341193D8F826FAD244153055AD9A8A45341BFADCC0C8FAD244185388DECABA45341D55B146EC3AD244113FB82D5AEA4534155C6D0A2E8AD244143032F42B0A45341C5D8532307AE244127D451CDB0A453418AF9035627AE244171E053E0B0A453417620351E3EAE244181388DFCAFA453413AEBD663ACAE2441C4EE807AADA4534180A1CA21BBAE24417A0D0646ADA4534152C4A55BD2AE24412ED67C9CADA453418076438BE5AE244157320C57AEA453414C1889C107AF2441E84A107DB0A45341B47EEF6728AF2441E09EF31AB4A453414941E510C5AF24419B3E0E52D7A45341263B64FBF9AF2441F5A24909E4A45341ACFB2E9D5FB02441DF1F8906FAA4534170F1577989B02441137E439004A553419FA3F5A8B8B02441DF1F899612A55341B0FB2E9DBBB02441ED77C27215A5534165C4A5DBE1B02441AF6DEB061DA55341BEFD596408B12441BFC5241B23A5534151EBD62336B124419113872328A55341A04DE7FB47B1244135AF4B1C29A553416EEF2CB29BB124414EB3A1B22BA55341",
+              "old_idstr" : 59,
+              "speed_default" : 48
+            },
+            "sname" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1",
+            "stype" : "Streetstation"
+          },
+          "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2",
+            "smetadata" : {
+              "description" : " LUNGO ISARCO SINISTRO / LINKES EISACKUFER",
+              "length" : 434,
+              "linegeometry" : "0102000020787F000006000000CA98B6074DAD244185BC21548CA45341E3B1229BCCAE2441EFCBA5286EA453413A1433F38DAF24414E07856857A45341D3824576AFAF24414E07850853A4534108B67829C7AF2441BB1908D94DA453410A34F6A8FAAF244188418BD74CA45341",
+              "old_idstr" : 60,
+              "speed_default" : 48
+            },
+            "sname" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2",
+            "stype" : "Streetstation"
+          }
+        }
+      },
+      "TrafficStreetFactor" : {
+        "stations" : {
+          "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN + Autostrada Fittizzia" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN + Autostrada Fittizzia",
+            "smetadata" : {
+              "factor" : 1,
+              "hv_perc" : null,
+              "length" : 18183
+            },
+            "sname" : "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN + Autostrada Fittizzia",
+            "stype" : "TrafficStreetFactor"
+          },
+          "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1 + via Vittorio Veneto" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1 + via Vittorio Veneto",
+            "smetadata" : {
+              "factor" : 1.32,
+              "hv_perc" : 9,
+              "length" : 431
+            },
+            "sname" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1 + via Vittorio Veneto",
+            "stype" : "TrafficStreetFactor"
+          },
+          "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 3 + ponte Talvera" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 3 + ponte Talvera",
+            "smetadata" : {
+              "factor" : 0.95,
+              "hv_perc" : 9,
+              "length" : 456
+            },
+            "sname" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 3 + ponte Talvera",
+            "stype" : "TrafficStreetFactor"
+          },
+          "CORSO ITALIA / ITALIENALLEE + druso-poste" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "CORSO ITALIA / ITALIENALLEE + druso-poste",
+            "smetadata" : {
+              "factor" : 1,
+              "hv_perc" : 9,
+              "length" : 620
+            },
+            "sname" : "CORSO ITALIA / ITALIENALLEE + Viale Druso poste",
+            "stype" : "TrafficStreetFactor"
+          },
+          "COSTA DI SOTTO / UNTERLEITACH + SS12 Cardano" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "COSTA DI SOTTO / UNTERLEITACH + SS12 Cardano",
+            "smetadata" : {
+              "factor" : 1,
+              "hv_perc" : 7,
+              "length" : 2713
+            },
+            "sname" : "COSTA DI SOTTO / UNTERLEITACH + SS12 Cardano",
+            "stype" : "TrafficStreetFactor"
+          },
+          "GALLERIA DEL VIRGOLO / VIRGL TUNNEL + ponte Virgolo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "GALLERIA DEL VIRGOLO / VIRGL TUNNEL + ponte Virgolo",
+            "smetadata" : {
+              "factor" : 1.27,
+              "hv_perc" : 9,
+              "length" : 82
+            },
+            "sname" : "GALLERIA DEL VIRGOLO / VIRGL TUNNEL + ponte Virgolo",
+            "stype" : "TrafficStreetFactor"
+          },
+          "GALLERIA SS12 / SS12 TUNNEL + ponte Virgolo" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "GALLERIA SS12 / SS12 TUNNEL + ponte Virgolo",
+            "smetadata" : {
+              "factor" : 1.27,
+              "hv_perc" : 9,
+              "length" : 722
+            },
+            "sname" : "GALLERIA SS12 / SS12 TUNNEL + ponte Virgolo",
+            "stype" : "TrafficStreetFactor"
+          },
+          "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1 + aeinstein" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1 + aeinstein",
+            "smetadata" : {
+              "factor" : 0.96,
+              "hv_perc" : 9,
+              "length" : 962
+            },
+            "sname" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1 + Agip Einstein",
+            "stype" : "TrafficStreetFactor"
+          },
+          "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2 + aeinstein" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2 + aeinstein",
+            "smetadata" : {
+              "factor" : 1,
+              "hv_perc" : 9,
+              "length" : 434
+            },
+            "sname" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2 + Agip Einstein",
+            "stype" : "TrafficStreetFactor"
+          }
+        }
+      },
+      "traffic" : {
+        "stations" : {
+          "Autostrada Fittizzia" : {
+            "savailable" : true,
+            "scode" : "Autostrada Fittizzia",
+            "smetadata" : {
+              "description" : "spiraFITTIZIA"
+            },
+            "sname" : "Autostrada Fittizzia",
+            "stype" : "traffic"
+          },
+          "MEBO" : {
+            "savailable" : true,
+            "scode" : "MEBO",
+            "smetadata" : {
+              "description" : "spiraPAB"
+            },
+            "sname" : "MEBO",
+            "stype" : "traffic"
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

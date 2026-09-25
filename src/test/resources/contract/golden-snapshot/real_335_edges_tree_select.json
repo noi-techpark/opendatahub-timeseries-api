@@ -1,0 +1,14 @@
+{
+  "request" : "GET /tree,edge/*?limit=500&select=ename,egeometry,sbname,sename [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "89a399729d2b405bda4e441eddb842c3bbaa19e6112df73ce9959e74f4200e25",
+  "bodyRecords" : 191793
+}

@@ -1,0 +1,1000 @@
+{
+  "request" : "GET /flat/ParkingStation/metadata/2015-01-01/2026-09-24T14:06:00Z?limit=200 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "mhmetadata" : {
+        "capacity" : 145,
+        "municipality" : "Bolzano - Bozen"
+      },
+      "mhtransactiontime" : "2024-09-05 15:00:02.536+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "107",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.351793,
+        "y" : 46.502958
+      },
+      "smetadata" : {
+        "capacity" : 145,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Mareccio C. de Medici Strasse",
+        "name_en" : "Mareccio via C. de Medici",
+        "name_it" : "Mareccio via C. de Medici",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Mareccio"
+      },
+      "sname" : "P07 - Mareccio via C. de Medici",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 120,
+        "mainaddress" : "Via Duca d'Aosta",
+        "municipality" : "Bolzano - Bozen",
+        "phonenumber" : "0471 260634",
+        "state" : 1
+      },
+      "mhtransactiontime" : "2019-03-19 10:46:20.807+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "112",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33851,
+        "y" : 46.49781
+      },
+      "smetadata" : {
+        "capacity" : 174,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Gerichtsplatz",
+        "name_en" : "Piazza Tribunale",
+        "name_it" : "Piazza Tribunale",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Tribunale"
+      },
+      "sname" : "P12 – Piazza Tribunale",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 490,
+        "mainaddress" : "Viale Amedeo Duca D'Aosta, 53",
+        "municipality" : "Bolzano - Bozen",
+        "phonenumber" : "0471 270870",
+        "state" : 1
+      },
+      "mhtransactiontime" : "2019-03-19 10:46:20.807+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "113",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33818,
+        "y" : 46.49869
+      },
+      "smetadata" : {
+        "capacity" : 114,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Direzional Park",
+        "name_en" : "Direzional Park",
+        "name_it" : "Direzional Park",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Direzional Park"
+      },
+      "sname" : "P13 – Direzional Park",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 233,
+        "disabledtoiletavailable" : true,
+        "mainaddress" : "Via Dr. Julius Perathoner",
+        "municipality" : "Bolzano - Bozen",
+        "phonenumber" : "0471 970289",
+        "state" : 1
+      },
+      "mhtransactiontime" : "2019-03-19 10:46:20.807+0000",
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "102",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.356305,
+        "y" : 46.496449
+      },
+      "smetadata" : {
+        "capacity" : 233,
+        "disabledtoiletavailable" : true,
+        "mainaddress" : "Via Dr. Julius Perathoner",
+        "municipality" : "Bolzano - Bozen",
+        "phonenumber" : "0471 970289",
+        "state" : 1
+      },
+      "sname" : "P02 - City parking",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 145,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "",
+        "name_en" : "",
+        "name_it" : "",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : false,
+          "layout" : "",
+          "reservation" : "",
+          "surveillance" : false,
+          "type" : "",
+          "vehicletypes" : ""
+        },
+        "standard_name" : ""
+      },
+      "mhtransactiontime" : "2025-12-11 17:00:06.315+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "107",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.351793,
+        "y" : 46.502958
+      },
+      "smetadata" : {
+        "capacity" : 145,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Mareccio C. de Medici Strasse",
+        "name_en" : "Mareccio via C. de Medici",
+        "name_it" : "Mareccio via C. de Medici",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Mareccio"
+      },
+      "sname" : "P07 - Mareccio via C. de Medici",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 114,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Direzional Park",
+        "name_en" : "Direzional Park",
+        "name_it" : "Direzional Park",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Direzional Park"
+      },
+      "mhtransactiontime" : "2025-12-12 11:15:06.417+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "113",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33818,
+        "y" : 46.49869
+      },
+      "smetadata" : {
+        "capacity" : 114,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Direzional Park",
+        "name_en" : "Direzional Park",
+        "name_it" : "Direzional Park",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Direzional Park"
+      },
+      "sname" : "P13 – Direzional Park",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 174,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Gerichtsplatz",
+        "name_en" : "Piazza Tribunale",
+        "name_it" : "Piazza Tribunale",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Tribunale"
+      },
+      "mhtransactiontime" : "2025-12-12 11:15:06.410+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "112",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.33851,
+        "y" : 46.49781
+      },
+      "smetadata" : {
+        "capacity" : 174,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Gerichtsplatz",
+        "name_en" : "Piazza Tribunale",
+        "name_it" : "Piazza Tribunale",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Tribunale"
+      },
+      "sname" : "P12 – Piazza Tribunale",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 90,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Laurin",
+        "name_en" : "Laurin",
+        "name_it" : "Laurin",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Laurin"
+      },
+      "mhtransactiontime" : "2025-12-11 14:00:01.457+0000",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "105_facility",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.357255,
+        "y" : 46.498174
+      },
+      "pmetadata" : {
+        "capacity" : 90,
+        "capacity_short_stay" : 90,
+        "capacity_subscribers" : 90,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Laurin",
+        "name_en" : "Laurin",
+        "name_it" : "Laurin",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Laurin"
+      },
+      "pname" : "P05 - Laurin",
+      "porigin" : "skidata",
+      "ptype" : "ParkingFacility",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "105",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.357255,
+        "y" : 46.498174
+      },
+      "smetadata" : {
+        "capacity" : 90,
+        "free_limit" : 89,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Laurin",
+        "name_en" : "Laurin",
+        "name_it" : "Laurin",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "occupancy_limit" : 90,
+        "standard_name" : "Parcheggio Laurin"
+      },
+      "sname" : "P05 - Laurin",
+      "sorigin" : "skidata",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 150,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Luna MoliniStraße",
+        "name_en" : "Luna via Molini",
+        "name_it" : "Luna via Molini it",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : false,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : false,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Luna Via Molini"
+      },
+      "mhtransactiontime" : "2024-05-14 14:15:11.648+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "104",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.358216,
+        "y" : 46.500551
+      },
+      "smetadata" : {
+        "capacity" : 150,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Luna MoliniStraße",
+        "name_en" : "Luna via Molini",
+        "name_it" : "Luna via Molini it",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Luna Via Molini"
+      },
+      "sname" : "P04 - Luna via Molini",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 150,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Luna MoliniStraße",
+        "name_en" : "Luna via Molini",
+        "name_it" : "Luna via Molini it",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Luna Via Molini"
+      },
+      "mhtransactiontime" : "2024-05-15 11:02:11.961+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "104",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.358216,
+        "y" : 46.500551
+      },
+      "smetadata" : {
+        "capacity" : 150,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Luna MoliniStraße",
+        "name_en" : "Luna via Molini",
+        "name_it" : "Luna via Molini it",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Luna Via Molini"
+      },
+      "sname" : "P04 - Luna via Molini",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 145,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Mareccio C. de Medici Strasse",
+        "name_en" : "Mareccio via C. de Medici",
+        "name_it" : "Mareccio via C. de Medici",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Mareccio"
+      },
+      "mhtransactiontime" : "2025-12-12 11:15:06.404+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "107",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.351793,
+        "y" : 46.502958
+      },
+      "smetadata" : {
+        "capacity" : 145,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Mareccio C. de Medici Strasse",
+        "name_en" : "Mareccio via C. de Medici",
+        "name_it" : "Mareccio via C. de Medici",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Mareccio"
+      },
+      "sname" : "P07 - Mareccio via C. de Medici",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 425,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Palasport Reschenstraße",
+        "name_en" : "Palasport via Resia",
+        "name_it" : "Palasport via Resia",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : false,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : false,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Palasport"
+      },
+      "mhtransactiontime" : "2024-05-14 14:15:11.662+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "115",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.318078,
+        "y" : 46.491603
+      },
+      "smetadata" : {
+        "capacity" : 425,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Palasport Reschenstraße",
+        "name_en" : "Palasport via Resia",
+        "name_it" : "Palasport via Resia",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Palasport"
+      },
+      "sname" : "P15 - Palasport via Resia",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 425,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Palasport Reschenstraße",
+        "name_en" : "Palasport via Resia",
+        "name_it" : "Palasport via Resia",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Palasport"
+      },
+      "mhtransactiontime" : "2024-05-15 11:02:11.972+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "115",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.318078,
+        "y" : 46.491603
+      },
+      "smetadata" : {
+        "capacity" : 425,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Palasport Reschenstraße",
+        "name_en" : "Palasport via Resia",
+        "name_it" : "Palasport via Resia",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Palasport"
+      },
+      "sname" : "P15 - Palasport via Resia",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 403,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Waltherplatz",
+        "name_en" : "Piazza Walther",
+        "name_it" : "Piazza Walther",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : false,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : false,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Piazza Walther"
+      },
+      "mhtransactiontime" : "2024-05-14 14:15:11.645+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "103",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355115,
+        "y" : 46.497805
+      },
+      "smetadata" : {
+        "capacity" : 403,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Waltherplatz",
+        "name_en" : "Piazza Walther",
+        "name_it" : "Piazza Walther",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Piazza Walther"
+      },
+      "sname" : "P03 - Piazza Walther",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 403,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Waltherplatz",
+        "name_en" : "Piazza Walther",
+        "name_it" : "Piazza Walther",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Piazza Walther"
+      },
+      "mhtransactiontime" : "2024-05-15 11:02:11.957+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "103",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355115,
+        "y" : 46.497805
+      },
+      "smetadata" : {
+        "capacity" : 403,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Waltherplatz",
+        "name_en" : "Piazza Walther",
+        "name_it" : "Piazza Walther",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Piazza Walther"
+      },
+      "sname" : "P03 - Piazza Walther",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 90,
+        "free_limit" : 89,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Laurin",
+        "name_en" : "Laurin",
+        "name_it" : "Laurin",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "occupancy_limit" : 90,
+        "standard_name" : "Parcheggio Laurin"
+      },
+      "mhtransactiontime" : "2025-12-11 13:00:06.688+0000",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "105_facility",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.357255,
+        "y" : 46.498174
+      },
+      "pmetadata" : {
+        "capacity" : 90,
+        "capacity_short_stay" : 90,
+        "capacity_subscribers" : 90,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Laurin",
+        "name_en" : "Laurin",
+        "name_it" : "Laurin",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Laurin"
+      },
+      "pname" : "P05 - Laurin",
+      "porigin" : "skidata",
+      "ptype" : "ParkingFacility",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "105",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.357255,
+        "y" : 46.498174
+      },
+      "smetadata" : {
+        "capacity" : 90,
+        "free_limit" : 89,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Laurin",
+        "name_en" : "Laurin",
+        "name_it" : "Laurin",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "occupancy_limit" : 90,
+        "standard_name" : "Parcheggio Laurin"
+      },
+      "sname" : "P05 - Laurin",
+      "sorigin" : "skidata",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 90,
+        "free_limit" : 89,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Laurin",
+        "name_en" : "Laurin",
+        "name_it" : "Laurin",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "occupancy_limit" : 90,
+        "standard_name" : "Parcheggio Laurin"
+      },
+      "mhtransactiontime" : "2025-12-11 14:00:03.184+0000",
+      "pactive" : true,
+      "pavailable" : true,
+      "pcode" : "105_facility",
+      "pcoordinate" : {
+        "srid" : 4326,
+        "x" : 11.357255,
+        "y" : 46.498174
+      },
+      "pmetadata" : {
+        "capacity" : 90,
+        "capacity_short_stay" : 90,
+        "capacity_subscribers" : 90,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Laurin",
+        "name_en" : "Laurin",
+        "name_it" : "Laurin",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Laurin"
+      },
+      "pname" : "P05 - Laurin",
+      "porigin" : "skidata",
+      "ptype" : "ParkingFacility",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "105",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.357255,
+        "y" : 46.498174
+      },
+      "smetadata" : {
+        "capacity" : 90,
+        "free_limit" : 89,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Laurin",
+        "name_en" : "Laurin",
+        "name_it" : "Laurin",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "occupancy_limit" : 90,
+        "standard_name" : "Parcheggio Laurin"
+      },
+      "sname" : "P05 - Laurin",
+      "sorigin" : "skidata",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 150,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Luna MoliniStraße",
+        "name_en" : "Luna via Molini",
+        "name_it" : "Luna via Molini it",
+        "netex_charging" : "true",
+        "netex_hazard_prohibited" : "true",
+        "netex_layout" : "underground",
+        "netex_reservation" : "noReservations",
+        "netex_surveillance" : "true",
+        "netex_type" : "urbanParking",
+        "netex_vehicletypes" : "allPassengerVehicles",
+        "standard_name" : "Parcheggio Luna Via Molini"
+      },
+      "mhtransactiontime" : "2024-05-14 13:56:09.869+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "104",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.358216,
+        "y" : 46.500551
+      },
+      "smetadata" : {
+        "capacity" : 150,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Luna MoliniStraße",
+        "name_en" : "Luna via Molini",
+        "name_it" : "Luna via Molini it",
+        "netex_parking" : {
+          "charging" : true,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Luna Via Molini"
+      },
+      "sname" : "P04 - Luna via Molini",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 425,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Palasport Reschenstraße",
+        "name_en" : "Palasport via Resia",
+        "name_it" : "Palasport via Resia",
+        "netex_charging" : "false",
+        "netex_hazard_prohibited" : "true",
+        "netex_layout" : "openSpace",
+        "netex_reservation" : "noReservations",
+        "netex_surveillance" : "true",
+        "netex_type" : "urbanParking",
+        "netex_vehicletypes" : "allPassengerVehicles",
+        "standard_name" : "Parcheggio Palasport"
+      },
+      "mhtransactiontime" : "2024-05-14 13:56:09.880+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "115",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.318078,
+        "y" : 46.491603
+      },
+      "smetadata" : {
+        "capacity" : 425,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Palasport Reschenstraße",
+        "name_en" : "Palasport via Resia",
+        "name_it" : "Palasport via Resia",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "openSpace",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Palasport"
+      },
+      "sname" : "P15 - Palasport via Resia",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    }, {
+      "mhmetadata" : {
+        "capacity" : 403,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Waltherplatz",
+        "name_en" : "Piazza Walther",
+        "name_it" : "Piazza Walther",
+        "netex_charging" : "false",
+        "netex_hazard_prohibited" : "true",
+        "netex_layout" : "underground",
+        "netex_reservation" : "noReservations",
+        "netex_surveillance" : "true",
+        "netex_type" : "urbanParking",
+        "netex_vehicletypes" : "allPassengerVehicles",
+        "standard_name" : "Parcheggio Piazza Walther"
+      },
+      "mhtransactiontime" : "2024-05-14 13:56:09.866+0000",
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "103",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.355115,
+        "y" : 46.497805
+      },
+      "smetadata" : {
+        "capacity" : 403,
+        "municipality" : "Bolzano - Bozen",
+        "name_de" : "Waltherplatz",
+        "name_en" : "Piazza Walther",
+        "name_it" : "Piazza Walther",
+        "netex_parking" : {
+          "charging" : false,
+          "hazard_prohibited" : true,
+          "layout" : "underground",
+          "reservation" : "noReservations",
+          "surveillance" : true,
+          "type" : "urbanParking",
+          "vehicletypes" : "allPassengerVehicles"
+        },
+        "standard_name" : "Parcheggio Piazza Walther"
+      },
+      "sname" : "P03 - Piazza Walther",
+      "sorigin" : "FAMAS",
+      "stype" : "ParkingStation"
+    } ],
+    "limit" : 200,
+    "offset" : 0
+  }
+}

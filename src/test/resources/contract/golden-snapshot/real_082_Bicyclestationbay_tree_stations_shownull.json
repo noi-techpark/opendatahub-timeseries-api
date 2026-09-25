@@ -1,0 +1,86 @@
+{
+  "request" : "GET /tree/Bicyclestationbay?limit=100&shownull=true&select=scode,sname,pname,smetadata [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "Bicyclestationbay" : {
+        "stations" : {
+          "Viale della Stazione - Bahnhofsallee:1" : {
+            "scode" : "Viale della Stazione - Bahnhofsallee:1",
+            "smetadata" : {
+              "charger" : true,
+              "use" : "SHARING"
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:1"
+          },
+          "Viale della Stazione - Bahnhofsallee:2" : {
+            "scode" : "Viale della Stazione - Bahnhofsallee:2",
+            "smetadata" : {
+              "charger" : true,
+              "use" : "SHARING"
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:2"
+          },
+          "Viale della Stazione - Bahnhofsallee:3" : {
+            "scode" : "Viale della Stazione - Bahnhofsallee:3",
+            "smetadata" : {
+              "charger" : true,
+              "use" : "SHARING"
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:3"
+          },
+          "Viale della Stazione - Bahnhofsallee:4" : {
+            "scode" : "Viale della Stazione - Bahnhofsallee:4",
+            "smetadata" : {
+              "charger" : true,
+              "use" : "SHARING"
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:4"
+          },
+          "Viale della Stazione - Bahnhofsallee:5" : {
+            "scode" : "Viale della Stazione - Bahnhofsallee:5",
+            "smetadata" : {
+              "charger" : true,
+              "use" : "SHARING"
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:5"
+          },
+          "Viale della Stazione - Bahnhofsallee:6" : {
+            "scode" : "Viale della Stazione - Bahnhofsallee:6",
+            "smetadata" : {
+              "charger" : true,
+              "use" : "SHARING"
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:6"
+          },
+          "Viale della Stazione - Bahnhofsallee:7" : {
+            "scode" : "Viale della Stazione - Bahnhofsallee:7",
+            "smetadata" : {
+              "charger" : true,
+              "use" : "SHARING"
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:7"
+          },
+          "Viale della Stazione - Bahnhofsallee:8" : {
+            "scode" : "Viale della Stazione - Bahnhofsallee:8",
+            "smetadata" : {
+              "charger" : true,
+              "use" : "SHARING"
+            },
+            "sname" : "Viale della Stazione - Bahnhofsallee:8"
+          }
+        }
+      }
+    },
+    "limit" : 100,
+    "offset" : 0
+  }
+}

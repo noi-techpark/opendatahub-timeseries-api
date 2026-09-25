@@ -1,0 +1,55 @@
+{
+  "request" : "GET /tree/MeteoStation/global-radiation/2026-09-24T08:05:00Z/2026-09-24T14:06:00Z?limit=2000&where=scode.eq.%2283200MS%22&select=sname,tname,mvalue,mvalidtime [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "MeteoStation" : {
+        "stations" : {
+          "83200MS" : {
+            "sdatatypes" : {
+              "global-radiation" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 08:10:00.000+0000",
+                  "mvalue" : 394.4
+                }, {
+                  "mvalidtime" : "2026-09-24 08:20:00.000+0000",
+                  "mvalue" : 456.3
+                }, {
+                  "mvalidtime" : "2026-09-24 08:30:00.000+0000",
+                  "mvalue" : 448.3
+                }, {
+                  "mvalidtime" : "2026-09-24 08:40:00.000+0000",
+                  "mvalue" : 472.6
+                }, {
+                  "mvalidtime" : "2026-09-24 08:50:00.000+0000",
+                  "mvalue" : 492.8
+                }, {
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 495.6
+                }, {
+                  "mvalidtime" : "2026-09-24 09:10:00.000+0000",
+                  "mvalue" : 495.1
+                }, {
+                  "mvalidtime" : "2026-09-24 09:20:00.000+0000",
+                  "mvalue" : 469.3
+                } ],
+                "tname" : "global-radiation"
+              }
+            },
+            "sname" : "Bolzano"
+          }
+        }
+      }
+    },
+    "limit" : 2000,
+    "offset" : 0
+  }
+}

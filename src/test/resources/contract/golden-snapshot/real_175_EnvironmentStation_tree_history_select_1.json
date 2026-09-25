@@ -1,0 +1,34 @@
+{
+  "request" : "GET /tree/EnvironmentStation/NO2%20-%20Ossidi%20di%20azoto/2026-09-24T08:05:00Z/2026-09-24T14:06:00Z?limit=2000&where=scode.eq.%22BZ4%22&select=sname,tname,mvalue,mvalidtime [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "EnvironmentStation" : {
+        "stations" : {
+          "BZ4" : {
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 20.9505
+                } ],
+                "tname" : "NO2 - Ossidi di azoto"
+              }
+            },
+            "sname" : "Bolzano 4 - Via C.Augusta"
+          }
+        }
+      }
+    },
+    "limit" : 2000,
+    "offset" : 0
+  }
+}

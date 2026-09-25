@@ -1,0 +1,150 @@
+{
+  "request" : "GET /tree/EChargingPlug/*/latest?limit=300&select=sname,tname,mvalue,mvalidtime,mperiod,prname [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "EChargingPlug" : {
+        "stations" : {
+          "AER_00000001-1" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "dc-emobility-echarging"
+                  },
+                  "mvalidtime" : "2020-01-20 10:10:00.113+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "echarging-plug-status"
+              }
+            },
+            "sname" : "BZ_FIERA-241"
+          },
+          "AER_00000001-2" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "dc-emobility-echarging"
+                  },
+                  "mvalidtime" : "2020-01-20 10:10:00.113+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "echarging-plug-status"
+              }
+            },
+            "sname" : "BZ_FIERA-242"
+          },
+          "AER_00000006-2" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "dc-emobility-echarging"
+                  },
+                  "mvalidtime" : "2019-12-19 09:45:00.100+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "echarging-plug-status"
+              }
+            },
+            "sname" : "BZ_PMATTEOTTI-256"
+          },
+          "AER_00000039-1" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "dc-emobility-echarging"
+                  },
+                  "mvalidtime" : "2019-11-18 15:05:00.061+0000",
+                  "mvalue" : 1
+                } ],
+                "tname" : "echarging-plug-status"
+              }
+            },
+            "sname" : "ULTIMO_01-432"
+          },
+          "AER_00000039-2" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "dc-emobility-echarging"
+                  },
+                  "mvalidtime" : "2019-11-18 15:05:00.061+0000",
+                  "mvalue" : 1
+                } ],
+                "tname" : "echarging-plug-status"
+              }
+            },
+            "sname" : "ULTIMO_01-433"
+          },
+          "AER_00000041-1" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "dc-emobility-echarging"
+                  },
+                  "mvalidtime" : "2019-10-21 13:45:00.051+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "echarging-plug-status"
+              }
+            },
+            "sname" : "EGNA_01-451"
+          },
+          "AER_00000041-2" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "dc-emobility-echarging"
+                  },
+                  "mvalidtime" : "2019-10-21 13:45:00.051+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "echarging-plug-status"
+              }
+            },
+            "sname" : "EGNA_01-452"
+          },
+          "AER_00000042-1" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2019-08-05 14:25:00.036+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "echarging-plug-status"
+              }
+            },
+            "sname" : "BZ_PTE_RESIA_OLD-456"
+          }
+        }
+      }
+    },
+    "limit" : 300,
+    "offset" : 0
+  }
+}

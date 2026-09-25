@@ -1,0 +1,596 @@
+{
+  "request" : "GET /tree/RWISstation/*/latest?limit=300&select=sname,tname,mvalue,mvalidtime,mperiod,prname [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 53
+                } ],
+                "tname" : "air-humidity"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 14.1
+                } ],
+                "tname" : "air-temperature"
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 988
+                } ],
+                "tname" : "atmospheric-pressure"
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 13.3
+                } ],
+                "tname" : "ground-surface-temperature"
+              },
+              "precipitation-intensity" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "precipitation-intensity"
+              },
+              "type-of-precipitation" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "type-of-precipitation"
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 3.3
+                } ],
+                "tname" : "wind-speed"
+              }
+            },
+            "sname" : "Cadino"
+          },
+          "rwis2" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2015-11-30 11:00:00.000+0000",
+                  "mvalue" : 54
+                } ],
+                "tname" : "air-humidity"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2015-11-30 11:00:00.000+0000",
+                  "mvalue" : 2.96
+                } ],
+                "tname" : "air-temperature"
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2015-11-30 11:00:00.000+0000",
+                  "mvalue" : 998
+                } ],
+                "tname" : "atmospheric-pressure"
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2015-11-30 11:00:00.000+0000",
+                  "mvalue" : 2.92
+                } ],
+                "tname" : "ground-surface-temperature"
+              },
+              "precipitation-intensity" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Migration from V1: Measurements"
+                  },
+                  "mvalidtime" : "2015-11-30 11:00:00.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "precipitation-intensity"
+              },
+              "type-of-precipitation" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2015-11-30 11:00:00.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "type-of-precipitation"
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2015-11-30 11:00:00.000+0000",
+                  "mvalue" : 5.7
+                } ],
+                "tname" : "wind-speed"
+              }
+            },
+            "sname" : "S.Michele"
+          },
+          "rwis3" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 50
+                } ],
+                "tname" : "air-humidity"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 13.3
+                } ],
+                "tname" : "air-temperature"
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 984
+                } ],
+                "tname" : "atmospheric-pressure"
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 15.2
+                } ],
+                "tname" : "ground-surface-temperature"
+              },
+              "precipitation-intensity" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "precipitation-intensity"
+              },
+              "type-of-precipitation" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "type-of-precipitation"
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 12.7
+                } ],
+                "tname" : "wind-speed"
+              }
+            },
+            "sname" : "Rocchetta"
+          },
+          "rwis4" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 48
+                } ],
+                "tname" : "air-humidity"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 13.7
+                } ],
+                "tname" : "air-temperature"
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 990
+                } ],
+                "tname" : "atmospheric-pressure"
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 14.8
+                } ],
+                "tname" : "ground-surface-temperature"
+              },
+              "precipitation-intensity" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 16:50:00.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "precipitation-intensity"
+              },
+              "type-of-precipitation" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "type-of-precipitation"
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 8.1
+                } ],
+                "tname" : "wind-speed"
+              }
+            },
+            "sname" : "Casa Cantoniera"
+          },
+          "rwis5" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 45
+                } ],
+                "tname" : "air-humidity"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 13.9
+                } ],
+                "tname" : "air-temperature"
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 876
+                } ],
+                "tname" : "atmospheric-pressure"
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 15.9
+                } ],
+                "tname" : "ground-surface-temperature"
+              },
+              "precipitation-intensity" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "precipitation-intensity"
+              },
+              "type-of-precipitation" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "type-of-precipitation"
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 14.2
+                } ],
+                "tname" : "wind-speed"
+              }
+            },
+            "sname" : "Viadotto A22"
+          },
+          "rwis6" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 60
+                } ],
+                "tname" : "air-humidity"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 14.2
+                } ],
+                "tname" : "air-temperature"
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 996
+                } ],
+                "tname" : "atmospheric-pressure"
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 16.2
+                } ],
+                "tname" : "ground-surface-temperature"
+              },
+              "precipitation-intensity" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 1
+                } ],
+                "tname" : "precipitation-intensity"
+              },
+              "type-of-precipitation" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 1
+                } ],
+                "tname" : "type-of-precipitation"
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 8.3
+                } ],
+                "tname" : "wind-speed"
+              }
+            },
+            "sname" : "Acquaviva"
+          },
+          "rwis7" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 56
+                } ],
+                "tname" : "air-humidity"
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 13.1
+                } ],
+                "tname" : "air-temperature"
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 969
+                } ],
+                "tname" : "atmospheric-pressure"
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 14.2
+                } ],
+                "tname" : "ground-surface-temperature"
+              },
+              "precipitation-intensity" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 16:50:00.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "precipitation-intensity"
+              },
+              "type-of-precipitation" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "type-of-precipitation"
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-04-03 17:00:00.000+0000",
+                  "mvalue" : 2.1
+                } ],
+                "tname" : "wind-speed"
+              }
+            },
+            "sname" : "Civezzano"
+          }
+        }
+      }
+    },
+    "limit" : 300,
+    "offset" : 0
+  }
+}

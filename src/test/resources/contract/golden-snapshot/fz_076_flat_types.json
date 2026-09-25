@@ -1,0 +1,71 @@
+{
+  "request" : "GET /flat/*/*?limit=-1&select=tdescription,tmetadata.scale,ttype&where=or(sorigin.eq.NOI,sorigin.eq.SIAG) [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "tdescription" : "Mean temperature",
+      "ttype" : "mean"
+    }, {
+      "ttype" : "Sum"
+    }, {
+      "tdescription" : "Precipitation",
+      "ttype" : "total"
+    }, {
+      "tdescription" : "Velocitá raffica"
+    }, {
+      "tdescription" : "Maximum temperature",
+      "ttype" : "max"
+    }, {
+      "tdescription" : "Portata"
+    }, {
+      "tdescription" : "Radiazione globale "
+    }, {
+      "tdescription" : "Direzione del vento"
+    }, {
+      "tdescription" : "Count matches within 15minutes",
+      "ttype" : "Count"
+    }, {
+      "tdescription" : "Velocità del vento"
+    }, {
+      "tdescription" : "average speed of vehicles faster than 100 km/h",
+      "ttype" : "Mode"
+    }, {
+      "tdescription" : "Match",
+      "ttype" : "Instantaneous"
+    }, {
+      "tdescription" : "concentrazione solidi sospesi "
+    }, {
+      "tdescription" : "Velocita media dei veicoli",
+      "ttype" : "Mean"
+    }, {
+      "tdescription" : "Livello idrometrico"
+    }, {
+      "tdescription" : "Minimum temperature",
+      "ttype" : "min"
+    }, {
+      "tdescription" : "Temperatura acqua"
+    }, {
+      "tdescription" : "acquisition interval = 10",
+      "ttype" : "Mittelwerte"
+    }, {
+      "tdescription" : "Pressione atmosferica"
+    }, {
+      "tdescription" : "Mode for vehicles fast than 100 km/h",
+      "ttype" : "Mode"
+    }, {
+      "tdescription" : "Umidità relativa"
+    }, {
+      "tdescription" : "Durata soleggiamento"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

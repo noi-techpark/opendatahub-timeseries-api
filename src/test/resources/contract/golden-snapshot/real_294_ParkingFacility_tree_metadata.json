@@ -1,0 +1,292 @@
+{
+  "request" : "GET /tree/ParkingFacility/metadata/2015-01-01/2026-09-24T14:06:00Z?limit=200 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingFacility" : {
+        "stations" : {
+          "105_facility" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "105_facility",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.357255,
+              "y" : 46.498174
+            },
+            "smetadata" : {
+              "capacity" : 90,
+              "capacity_short_stay" : 90,
+              "capacity_subscribers" : 90,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Laurin",
+              "name_en" : "Laurin",
+              "name_it" : "Laurin",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "openSpace",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Laurin"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "municipality" : "Bolzano - Bozen",
+                "name_de" : "Laurin",
+                "name_en" : "Laurin",
+                "name_it" : "Laurin",
+                "netex_parking" : {
+                  "charging" : true,
+                  "hazard_prohibited" : true,
+                  "layout" : "openSpace",
+                  "reservation" : "noReservations",
+                  "surveillance" : true,
+                  "type" : "urbanParking",
+                  "vehicletypes" : "allPassengerVehicles"
+                },
+                "standard_name" : "Parcheggio Laurin"
+              },
+              "mhtransactiontime" : "2026-09-22 04:49:48.383+0000"
+            }, {
+              "mhmetadata" : {
+                "capacity" : 90,
+                "capacity_short_stay" : 90,
+                "capacity_subscribers" : 90,
+                "municipality" : "Bolzano - Bozen",
+                "name_de" : "Laurin",
+                "name_en" : "Laurin",
+                "name_it" : "Laurin",
+                "netex_parking" : {
+                  "charging" : true,
+                  "hazard_prohibited" : true,
+                  "layout" : "openSpace",
+                  "reservation" : "noReservations",
+                  "surveillance" : true,
+                  "type" : "urbanParking",
+                  "vehicletypes" : "allPassengerVehicles"
+                },
+                "standard_name" : "Parcheggio Laurin"
+              },
+              "mhtransactiontime" : "2026-09-05 06:15:34.130+0000"
+            }, {
+              "mhmetadata" : {
+                "capacity" : 90,
+                "capacity_short_stay" : 90,
+                "capacity_subscribers" : 90,
+                "municipality" : "Bolzano - Bozen",
+                "name_de" : "Laurin",
+                "name_en" : "Laurin",
+                "name_it" : "Laurin",
+                "netex_parking" : {
+                  "charging" : true,
+                  "hazard_prohibited" : true,
+                  "layout" : "openSpace",
+                  "reservation" : "noReservations",
+                  "surveillance" : true,
+                  "type" : "urbanParking",
+                  "vehicletypes" : "allPassengerVehicles"
+                },
+                "standard_name" : "Parcheggio Laurin"
+              },
+              "mhtransactiontime" : "2026-09-22 04:50:05.372+0000"
+            } ],
+            "sname" : "P05 - Laurin",
+            "sorigin" : "skidata",
+            "stype" : "ParkingFacility"
+          },
+          "607440" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "607440",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.650498,
+              "y" : 46.713708
+            },
+            "smetadata" : {
+              "municipality" : "Bressanone – Brixen",
+              "standard_name" : "Parcheggio Stazione Bressanone"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "municipality" : "Bressanone",
+                "standard_name" : "Parcheggio Stazione Bressanone"
+              },
+              "mhtransactiontime" : "2026-06-04 09:10:31.415+0000"
+            }, {
+              "mhmetadata" : {
+                "municipality" : "Bressanone – Brixen",
+                "standard_name" : "Parcheggio Stazione Bressanone"
+              },
+              "mhtransactiontime" : "2026-07-02 07:30:34.040+0000"
+            }, {
+              "mhmetadata" : {
+                "capacity" : 480,
+                "capacity_short_stay" : 480,
+                "capacity_subscribers" : 480,
+                "municipality" : "Bressanone",
+                "standard_name" : "Parcheggio Stazione Bressanone"
+              },
+              "mhtransactiontime" : "2026-05-29 23:20:01.665+0000"
+            } ],
+            "sname" : "Parcheggio Stazione Bressanone",
+            "sorigin" : "skidata",
+            "stype" : "ParkingFacility"
+          },
+          "608612" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "608612",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.927622,
+              "y" : 46.792815
+            },
+            "smetadata" : {
+              "capacity" : 240,
+              "capacity_short_stay" : 240,
+              "capacity_subscribers" : 240,
+              "municipality" : "Brunico – Bruneck",
+              "standard_name" : "Parcheggio Stazione Brunico"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "municipality" : "Brunico – Bruneck",
+                "standard_name" : "Parcheggio Stazione Brunico"
+              },
+              "mhtransactiontime" : "2026-09-14 06:10:55.946+0000"
+            }, {
+              "mhmetadata" : {
+                "capacity" : 240,
+                "capacity_short_stay" : 240,
+                "capacity_subscribers" : 240,
+                "municipality" : "Brunico – Bruneck",
+                "standard_name" : "Parcheggio Stazione Brunico"
+              },
+              "mhtransactiontime" : "2026-07-02 07:30:34.039+0000"
+            }, {
+              "mhmetadata" : {
+                "capacity" : 240,
+                "capacity_short_stay" : 240,
+                "capacity_subscribers" : 240,
+                "municipality" : "Brunico – Bruneck",
+                "standard_name" : "Parcheggio Stazione Brunico"
+              },
+              "mhtransactiontime" : "2026-09-14 06:20:31.569+0000"
+            } ],
+            "sname" : "Parcheggio Stazione Brunico",
+            "sorigin" : "skidata",
+            "stype" : "ParkingFacility"
+          },
+          "609883" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "609883",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.35497,
+              "y" : 46.49458
+            },
+            "smetadata" : {
+              "capacity" : 514,
+              "capacity_short_stay" : 514,
+              "capacity_subscribers" : 514,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Waltherpark",
+              "name_en" : "Waltherpark",
+              "name_it" : "Waltherpark",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "covered",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Waltherpark"
+            },
+            "smetadatahistory" : [ {
+              "mhmetadata" : {
+                "municipality" : "Bolzano - Bozen",
+                "name_de" : "Waltherpark",
+                "name_en" : "Waltherpark",
+                "name_it" : "Waltherpark",
+                "netex_parking" : {
+                  "charging" : true,
+                  "hazard_prohibited" : true,
+                  "layout" : "covered",
+                  "reservation" : "noReservations",
+                  "surveillance" : true,
+                  "type" : "urbanParking",
+                  "vehicletypes" : "allPassengerVehicles"
+                },
+                "standard_name" : "Parcheggio Waltherpark"
+              },
+              "mhtransactiontime" : "2026-08-18 01:02:17.559+0000"
+            }, {
+              "mhmetadata" : {
+                "capacity" : 514,
+                "capacity_short_stay" : 514,
+                "capacity_subscribers" : 514,
+                "municipality" : "Bolzano - Bozen",
+                "name_de" : "Waltherpark",
+                "name_en" : "Waltherpark",
+                "name_it" : "Waltherpark",
+                "netex_parking" : {
+                  "charging" : true,
+                  "hazard_prohibited" : true,
+                  "layout" : "covered",
+                  "reservation" : "noReservations",
+                  "surveillance" : true,
+                  "type" : "urbanParking",
+                  "vehicletypes" : "allPassengerVehicles"
+                },
+                "standard_name" : "Parcheggio Waltherpark"
+              },
+              "mhtransactiontime" : "2026-07-28 01:20:31.845+0000"
+            }, {
+              "mhmetadata" : {
+                "capacity" : 514,
+                "capacity_short_stay" : 514,
+                "capacity_subscribers" : 514,
+                "municipality" : "Bolzano - Bozen",
+                "name_de" : "Waltherpark",
+                "name_en" : "Waltherpark",
+                "name_it" : "Waltherpark",
+                "netex_parking" : {
+                  "charging" : true,
+                  "hazard_prohibited" : true,
+                  "layout" : "covered",
+                  "reservation" : "noReservations",
+                  "surveillance" : true,
+                  "type" : "urbanParking",
+                  "vehicletypes" : "allPassengerVehicles"
+                },
+                "standard_name" : "Parcheggio Waltherpark"
+              },
+              "mhtransactiontime" : "2026-08-18 01:04:01.493+0000"
+            } ],
+            "sname" : "Parcheggio Waltherpark",
+            "sorigin" : "skidata",
+            "stype" : "ParkingFacility"
+          }
+        }
+      }
+    },
+    "limit" : 200,
+    "offset" : 0
+  }
+}

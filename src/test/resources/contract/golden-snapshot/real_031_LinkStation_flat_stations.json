@@ -1,0 +1,727 @@
+{
+  "request" : "GET /flat/LinkStation?limit=100 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "huber->mazzini",
+      "sname" : "huber->mazzini",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Arginale_Resia->A22_ML103",
+      "sname" : "Arginale_Resia->A22_ML103",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "goethe-alpini->hofer",
+      "sname" : "goethe-alpini->hofer",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "terme_ovest->piave_matteotti",
+      "sname" : "terme_ovest->piave_matteotti",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "zuegg-palade->piave-palade",
+      "sname" : "zuegg-palade->piave-palade",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "roma_sud->roma_nord",
+      "sname" : "roma_sud->roma_nord",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "TN-Cadino->TN-Nord",
+      "sname" : "TN-Cadino->TN-Nord",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Galilei_Virgolo->Galleria_Virgolo",
+      "sname" : "Galilei_Virgolo->Galleria_Virgolo",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "TN-Sud->TN-Maccani",
+      "sname" : "TN-Sud->TN-Maccani",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Arginale_Palermo->Arginale_Resia",
+      "sname" : "Arginale_Palermo->Arginale_Resia",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "corse_cappuccini->wolf-franziskus",
+      "sname" : "corse_cappuccini->wolf-franziskus",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "TN-Nord->TN-Maccani",
+      "sname" : "TN-Nord->TN-Maccani",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "hofer->goethe-alpini",
+      "sname" : "hofer->goethe-alpini",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Torricelli->siemens",
+      "sname" : "Torricelli->siemens",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "mazzini->ponte_rezia",
+      "sname" : "mazzini->ponte_rezia",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "galilei->corse_cappuccini",
+      "sname" : "galilei->corse_cappuccini",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "liberta-corse->mazzini",
+      "sname" : "liberta-corse->mazzini",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "druso-poste->Roma_Firenze",
+      "sname" : "druso-poste->Roma_Firenze",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Galilei_Roma->Maso_Pieve",
+      "sname" : "Galilei_Roma->Maso_Pieve",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "goethe_ospedale->sinigo",
+      "sname" : "goethe_ospedale->sinigo",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "cavour->terme_est",
+      "sname" : "cavour->terme_est",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Galleria_Virgolo->proma",
+      "sname" : "Galleria_Virgolo->proma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "petrarca->ponte_rezia",
+      "sname" : "petrarca->ponte_rezia",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Roma_Firenze->Milano_Palermo",
+      "sname" : "Roma_Firenze->Milano_Palermo",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "roma_nord->terme_est",
+      "sname" : "roma_nord->terme_est",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "goethe_ospedale->hofer",
+      "sname" : "goethe_ospedale->hofer",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "goethe_ospedale->stazione",
+      "sname" : "goethe_ospedale->stazione",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Druso_Palermo->Milano_Resia",
+      "sname" : "Druso_Palermo->Milano_Resia",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Galleria_Virgolo->Arginale_Palermo",
+      "sname" : "Galleria_Virgolo->Arginale_Palermo",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "siemens->proma",
+      "sname" : "siemens->proma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Druso_Palermo->druso-poste",
+      "sname" : "Druso_Palermo->druso-poste",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "1853-1854",
+      "smetadata" : {
+        "iddirezione" : "Sud",
+        "latitudinefine" : 46.4743265,
+        "latitudineinizio" : 46.49480603,
+        "longitudinefine" : 11.31618225,
+        "longitudininizio" : 11.40778351,
+        "lunghezza" : 7800,
+        "metrofine" : 85300,
+        "metroinizio" : 77500
+      },
+      "sname" : "BOLZANO NORD - BOLZANO SUD",
+      "sorigin" : "A22",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Druso_Palermo->Milano_Palermo",
+      "sname" : "Druso_Palermo->Milano_Palermo",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Galilei_Lancia->galvani",
+      "sname" : "Galilei_Lancia->galvani",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Milano_Palermo->Druso_Palermo",
+      "sname" : "Milano_Palermo->Druso_Palermo",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "galvani->Galilei_Lancia",
+      "sname" : "galvani->Galilei_Lancia",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Arginale_Resia->Milano_Resia",
+      "sname" : "Arginale_Resia->Milano_Resia",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "goethe_ospedale->wolf-franziskus",
+      "sname" : "goethe_ospedale->wolf-franziskus",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "ponte_rezia->petrarca",
+      "sname" : "ponte_rezia->petrarca",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "proma->Roma_Firenze",
+      "sname" : "proma->Roma_Firenze",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "sinigo->roma_sud",
+      "sname" : "sinigo->roma_sud",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "cavour->sinigo",
+      "sname" : "cavour->sinigo",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Roma_Firenze->proma",
+      "sname" : "Roma_Firenze->proma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "stazione->mazzini",
+      "sname" : "stazione->mazzini",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Galilei_Lancia->Galilei_Virgolo",
+      "sname" : "Galilei_Lancia->Galilei_Virgolo",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "P_Campiglio->Arginale_Resia",
+      "sname" : "P_Campiglio->Arginale_Resia",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "hofer->goethe_ospedale",
+      "sname" : "hofer->goethe_ospedale",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "TN-Acquaviva->TN-Sud",
+      "sname" : "TN-Acquaviva->TN-Sud",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "mazzini->stazione",
+      "sname" : "mazzini->stazione",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "caugusta->Maso_Pieve",
+      "sname" : "caugusta->Maso_Pieve",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "liberta-corse->terme_ovest",
+      "sname" : "liberta-corse->terme_ovest",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "piave_matteotti->piave-palade",
+      "sname" : "piave_matteotti->piave-palade",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Maso_Pieve->meinstein",
+      "sname" : "Maso_Pieve->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "druso-poste->Galilei_Roma",
+      "sname" : "druso-poste->Galilei_Roma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "caugusta->Galilei_Roma",
+      "sname" : "caugusta->Galilei_Roma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML107->A22_ML103",
+      "sname" : "A22_ML107->A22_ML103",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "terme_ovest->liberta-corse",
+      "sname" : "terme_ovest->liberta-corse",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "corse_cappuccini->galilei",
+      "sname" : "corse_cappuccini->galilei",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "ponte_rezia->mazzini",
+      "sname" : "ponte_rezia->mazzini",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "druso-poste->proma",
+      "sname" : "druso-poste->proma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Agip_Einstein->meinstein",
+      "sname" : "meinstein->Agip_Einstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "TN-Maccani->TN-Nord",
+      "sname" : "TN-Maccani->TN-Nord",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "P_Campiglio->Galleria_Virgolo",
+      "sname" : "P_Campiglio->Galleria_Virgolo",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Arginale_Palermo->Milano_Palermo",
+      "sname" : "Arginale_Palermo->Milano_Palermo",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "meinstein->galvani",
+      "sname" : "meinstein->galvani",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "TN-Sud->TN-Acquaviva",
+      "sname" : "TN-Sud->TN-Acquaviva",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML103->Torricelli",
+      "sname" : "A22_ML103->Torricelli",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "TN-Maccani->TN-Sud",
+      "sname" : "TN-Maccani->TN-Sud",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "scena-leichter->cavour",
+      "sname" : "scena-leichter->cavour",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Galleria_Virgolo->P_Campiglio",
+      "sname" : "Galleria_Virgolo->P_Campiglio",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Arginale_Resia->Agip_Einstein",
+      "sname" : "Arginale_Resia->Agip_Einstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "terme_ovest->zuegg-palade",
+      "sname" : "terme_ovest->zuegg-palade",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Milano_Resia->Milano_Palermo",
+      "sname" : "Milano_Resia->Milano_Palermo",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML103->A22_ML107",
+      "sname" : "A22_ML103->A22_ML107",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "piave-palade->piave_matteotti",
+      "sname" : "piave-palade->piave_matteotti",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Galilei_Roma->caugusta",
+      "sname" : "Galilei_Roma->caugusta",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Milano_Resia->Druso_Palermo",
+      "sname" : "Milano_Resia->Druso_Palermo",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "wolf-franziskus->goethe_ospedale",
+      "sname" : "wolf-franziskus->goethe_ospedale",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "TN-Nord->TN-Cadino",
+      "sname" : "TN-Nord->TN-Cadino",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "proma->druso-poste",
+      "sname" : "proma->druso-poste",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "wolf->corse_cappuccini",
+      "sname" : "wolf->corse_cappuccini",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "meinstein->Agip_Einstein",
+      "sname" : "Agip_Einstein->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "druso-poste->Druso_Palermo",
+      "sname" : "druso-poste->Druso_Palermo",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "zuegg-palade->terme_est",
+      "sname" : "zuegg-palade->terme_est",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "huber->liberta-corse",
+      "sname" : "huber->liberta-corse",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Galilei_Palermo->Galilei_Lancia",
+      "sname" : "Galilei_Palermo->Galilei_Lancia",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "stazione->goethe_ospedale",
+      "sname" : "stazione->goethe_ospedale",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "piave_matteotti->roma_nord",
+      "sname" : "piave_matteotti->roma_nord",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Agip_Einstein->Torricelli",
+      "sname" : "Agip_Einstein->Torricelli",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "sinigo->goethe_ospedale",
+      "sname" : "sinigo->goethe_ospedale",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "piave-palade->zuegg-palade",
+      "sname" : "piave-palade->zuegg-palade",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Galilei_Virgolo->Galilei_Roma",
+      "sname" : "Galilei_Virgolo->Galilei_Roma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "meinstein->Maso_Pieve",
+      "sname" : "meinstein->Maso_Pieve",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "schaffer-winkel->cavour",
+      "sname" : "schaffer-winkel->cavour",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "siemens->Galilei_Palermo",
+      "sname" : "siemens->Galilei_Palermo",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "corse_cappuccini->wolf",
+      "sname" : "corse_cappuccini->wolf",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "roma_sud->sinigo",
+      "sname" : "roma_sud->sinigo",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Galilei_Roma->druso-poste",
+      "sname" : "Galilei_Roma->druso-poste",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Roma_Firenze->druso-poste",
+      "sname" : "Roma_Firenze->druso-poste",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "galvani->meinstein",
+      "sname" : "galvani->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation"
+    } ],
+    "limit" : 100,
+    "offset" : 0
+  }
+}

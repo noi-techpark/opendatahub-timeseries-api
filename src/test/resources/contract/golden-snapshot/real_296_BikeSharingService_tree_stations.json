@@ -1,0 +1,54 @@
+{
+  "request" : "GET /tree/BikeSharingService?limit=100 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "BikeSharingService" : {
+        "stations" : {
+          "sharedmobility-ch:pr:carvelo2go" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "sharedmobility-ch:pr:carvelo2go",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 8.2275,
+              "y" : 46.8182
+            },
+            "smetadata" : {
+              "system_pricing_plans" : [ {
+                "currency" : "CHF",
+                "description" : "5 unlock fee, 5.00 per day time hour (from 8 till 22), 0.00 per night time hour (from 22 till 8)",
+                "is_taxable" : false,
+                "name" : "Smargo Daytime Rate",
+                "plan_id" : "carvelo2go:b23fccfc-22f8-49d6-a681-a735cad6f046",
+                "price" : 5,
+                "provider_id" : "carvelo2go"
+              }, {
+                "currency" : "CHF",
+                "description" : "5 unlock fee, 3.50 per day time hour (from 8 till 22), 0.00 per night time hour (from 22 till 8)",
+                "is_taxable" : false,
+                "name" : "Simple Daytime Rate",
+                "plan_id" : "carvelo2go:efee4075-81aa-4707-de2e-e0b087e66c49",
+                "price" : 5,
+                "provider_id" : "carvelo2go"
+              } ]
+            },
+            "sname" : "carvelo eCargo-Bike Sharing",
+            "sorigin" : "sharedmobility-ch",
+            "stype" : "BikeSharingService"
+          }
+        }
+      }
+    },
+    "limit" : 100,
+    "offset" : 0
+  }
+}

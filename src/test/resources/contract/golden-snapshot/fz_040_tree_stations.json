@@ -1,0 +1,148 @@
+{
+  "request" : "GET /tree/*?limit=-1&select=pname&where=scode.re.%22%5E%5BA-M%5D%22&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "BikesharingStation" : {
+        "stations" : {
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3" : { },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3008cf824e352d9854585d3731568fe6e0a042d2" : { },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3242fbb9d66046deac446c8b89768cd1b6fc9c9f" : { },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--845248b808d1bf6c6115e471e41ccdca99f09743" : { },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1b380c7315ed00d73a49269e2feab2e5b0452a00" : { },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c4e26e1fd97da55bd1a1fe7ccf67f1b70c69453a" : { }
+        }
+      },
+      "BluetoothStation" : {
+        "stations" : {
+          "A22_ML103" : { },
+          "A22_ML107" : { },
+          "Agip_Einstein" : { },
+          "Arginale_Palermo" : { },
+          "Arginale_Resia" : { },
+          "Druso_Palermo" : { },
+          "Galilei_Lancia" : { },
+          "Galilei_Palermo" : { },
+          "Galilei_Roma" : { },
+          "Galilei_Virgolo" : { },
+          "Galleria_Virgolo" : { },
+          "Maso_Pieve" : { },
+          "Milano_Palermo" : { },
+          "Milano_Resia" : { }
+        }
+      },
+      "EChargingPlug" : {
+        "stations" : {
+          "AER_00000001-1" : { },
+          "AER_00000001-2" : { },
+          "AER_00000006-2" : { },
+          "AER_00000039-1" : { },
+          "AER_00000039-2" : { },
+          "AER_00000041-1" : { },
+          "AER_00000041-2" : { },
+          "AER_00000042-1" : { }
+        }
+      },
+      "EChargingStation" : {
+        "stations" : {
+          "AER_00000001" : { },
+          "AER_00000005" : { },
+          "AER_00000006" : { },
+          "AER_00000007" : { },
+          "AER_00000008" : { },
+          "AER_00000039" : { },
+          "AER_00000041" : { },
+          "AER_00000042" : { }
+        }
+      },
+      "EnvironmentStation" : {
+        "stations" : {
+          "AB2" : { },
+          "AB3" : { },
+          "BX1" : { },
+          "BZ4" : { },
+          "BZ5" : { },
+          "BZ6" : { },
+          "CR1" : { },
+          "LS1" : { }
+        }
+      },
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : { },
+          "A22_ML103->Torricelli" : { },
+          "A22_ML107->A22_ML103" : { },
+          "Agip_Einstein->Torricelli" : { },
+          "Agip_Einstein->meinstein" : { },
+          "Arginale_Palermo->Arginale_Resia" : { },
+          "Arginale_Palermo->Milano_Palermo" : { },
+          "Arginale_Resia->A22_ML103" : { },
+          "Arginale_Resia->Agip_Einstein" : { },
+          "Arginale_Resia->Milano_Resia" : { },
+          "Druso_Palermo->Milano_Palermo" : { },
+          "Druso_Palermo->Milano_Resia" : { },
+          "Druso_Palermo->druso-poste" : { },
+          "Galilei_Lancia->Galilei_Virgolo" : { },
+          "Galilei_Lancia->galvani" : { },
+          "Galilei_Palermo->Galilei_Lancia" : { },
+          "Galilei_Roma->Maso_Pieve" : { },
+          "Galilei_Roma->caugusta" : { },
+          "Galilei_Roma->druso-poste" : { },
+          "Galilei_Virgolo->Galilei_Roma" : { },
+          "Galilei_Virgolo->Galleria_Virgolo" : { },
+          "Galleria_Virgolo->Arginale_Palermo" : { },
+          "Galleria_Virgolo->P_Campiglio" : { },
+          "Galleria_Virgolo->proma" : { },
+          "Maso_Pieve->meinstein" : { },
+          "Milano_Palermo->Druso_Palermo" : { },
+          "Milano_Palermo->Milano_Resia" : { },
+          "Milano_Palermo->Roma_Firenze" : { },
+          "Milano_Resia->Druso_Palermo" : { },
+          "Milano_Resia->Milano_Palermo" : { }
+        }
+      },
+      "Streetstation" : {
+        "stations" : {
+          "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN" : { },
+          "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1" : { },
+          "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 3" : { },
+          "CORSO ITALIA / ITALIENALLEE" : { },
+          "COSTA DI SOTTO / UNTERLEITACH" : { },
+          "GALLERIA DEL VIRGOLO / VIRGL TUNNEL" : { },
+          "GALLERIA SS12 / SS12 TUNNEL" : { },
+          "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1" : { },
+          "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2" : { }
+        }
+      },
+      "TrafficStreetFactor" : {
+        "stations" : {
+          "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN + Autostrada Fittizzia" : { },
+          "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1 + via Vittorio Veneto" : { },
+          "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 3 + ponte Talvera" : { },
+          "CORSO ITALIA / ITALIENALLEE + druso-poste" : { },
+          "COSTA DI SOTTO / UNTERLEITACH + SS12 Cardano" : { },
+          "GALLERIA DEL VIRGOLO / VIRGL TUNNEL + ponte Virgolo" : { },
+          "GALLERIA SS12 / SS12 TUNNEL + ponte Virgolo" : { },
+          "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1 + aeinstein" : { },
+          "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2 + aeinstein" : { }
+        }
+      },
+      "traffic" : {
+        "stations" : {
+          "Autostrada Fittizzia" : { },
+          "MEBO" : { }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

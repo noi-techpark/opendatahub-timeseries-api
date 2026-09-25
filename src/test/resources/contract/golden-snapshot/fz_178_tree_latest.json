@@ -1,0 +1,1918 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=tmetadata,pname,scoordinate,scode&where=mvalue.gt.10&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "BikeSharingService" : {
+        "stations" : {
+          "sharedmobility-ch:pr:carvelo2go" : {
+            "scode" : "sharedmobility-ch:pr:carvelo2go",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 8.2275,
+              "y" : 46.8182
+            },
+            "sdatatypes" : {
+              "num-docks-available" : {
+                "tmeasurements" : [ { } ]
+              },
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          }
+        }
+      },
+      "BikesharingStation" : {
+        "stations" : {
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3" : {
+            "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.355516,
+              "y" : 46.497459
+            },
+            "sdatatypes" : {
+              "free-bays" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "total-bays" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3008cf824e352d9854585d3731568fe6e0a042d2" : {
+            "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3008cf824e352d9854585d3731568fe6e0a042d2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.343183,
+              "y" : 46.483579
+            },
+            "sdatatypes" : {
+              "free-bays" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "total-bays" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3242fbb9d66046deac446c8b89768cd1b6fc9c9f" : {
+            "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3242fbb9d66046deac446c8b89768cd1b6fc9c9f",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.333071,
+              "y" : 46.46461
+            },
+            "sdatatypes" : {
+              "free-bays" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "total-bays" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--845248b808d1bf6c6115e471e41ccdca99f09743" : {
+            "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--845248b808d1bf6c6115e471e41ccdca99f09743",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.325996,
+              "y" : 46.473876
+            },
+            "sdatatypes" : {
+              "free-bays" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "total-bays" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1b380c7315ed00d73a49269e2feab2e5b0452a00" : {
+            "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1b380c7315ed00d73a49269e2feab2e5b0452a00",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.335918,
+              "y" : 46.485846
+            },
+            "sdatatypes" : {
+              "free-bays" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "total-bays" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c4e26e1fd97da55bd1a1fe7ccf67f1b70c69453a" : {
+            "scode" : "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c4e26e1fd97da55bd1a1fe7ccf67f1b70c69453a",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.316234,
+              "y" : 46.491091
+            },
+            "sdatatypes" : {
+              "total-bays" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "bikestation1" : {
+            "scode" : "bikestation1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.159114,
+              "y" : 46.668134
+            },
+            "sdatatypes" : {
+              "city-bike-adult-with-gears" : {
+                "tmeasurements" : [ { } ]
+              },
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "bikestation2" : {
+            "scode" : "bikestation2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.150187,
+              "y" : 46.672476
+            },
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          }
+        }
+      },
+      "EnvironmentStation" : {
+        "stations" : {
+          "AB2" : {
+            "scode" : "AB2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.279333,
+              "y" : 46.343653
+            },
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "AB3" : {
+            "scode" : "AB3",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.633306,
+              "y" : 46.687556
+            },
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "BX1" : {
+            "scode" : "BX1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.654083,
+              "y" : 46.714917
+            },
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "BZ4" : {
+            "scode" : "BZ4",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.341833,
+              "y" : 46.482306
+            },
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "BZ5" : {
+            "scode" : "BZ5",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.339972,
+              "y" : 46.495472
+            },
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "nitrogen-dioxide" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "BZ6" : {
+            "scode" : "BZ6",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.341972,
+              "y" : 46.499167
+            },
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "CR1" : {
+            "scode" : "CR1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.227111,
+              "y" : 46.267333
+            },
+            "sdatatypes" : {
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "LS1" : {
+            "scode" : "LS1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.340139,
+              "y" : 46.434833
+            },
+            "sdatatypes" : {
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          }
+        }
+      },
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "scode" : "A22_ML103->A22_ML107",
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "speed greater than 100 km/h" : {
+                "tmeasurements" : [ { } ]
+              },
+              "velocita'" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              }
+            }
+          },
+          "A22_ML107->A22_ML103" : {
+            "scode" : "A22_ML107->A22_ML103",
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "speed greater than 100 km/h" : {
+                "tmeasurements" : [ { } ]
+              },
+              "velocita'" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              }
+            }
+          },
+          "Agip_Einstein->meinstein" : {
+            "scode" : "Agip_Einstein->meinstein",
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ { }, { }, { }, { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "speed greater than 100 km/h" : {
+                "tmeasurements" : [ { } ]
+              },
+              "velocita'" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              }
+            }
+          },
+          "Maso_Pieve->meinstein" : {
+            "scode" : "Maso_Pieve->meinstein",
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "velocita'" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              }
+            }
+          },
+          "druso-poste->proma" : {
+            "scode" : "druso-poste->proma",
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ { }, { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "meinstein->Agip_Einstein" : {
+            "scode" : "meinstein->Agip_Einstein",
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ { } ]
+              },
+              "velocita'" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              }
+            }
+          },
+          "proma->druso-poste" : {
+            "scode" : "proma->druso-poste",
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "siemens->proma" : {
+            "scode" : "siemens->proma",
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmeasurements" : [ { }, { } ]
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmeasurements" : [ { }, { }, { } ]
+              },
+              "Bluetooth match" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          }
+        }
+      },
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : {
+            "scode" : "102343",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.388134,
+              "y" : 46.94982
+            },
+            "sdatatypes" : {
+              "atmospheric-pressure-reduced" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "37100MS" : {
+            "scode" : "37100MS",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.4386,
+              "y" : 46.885
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { }, { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "global-radiation" : {
+                "tmeasurements" : [ { }, { } ],
+                "tmetadata" : { }
+              },
+              "precipitation" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "sunshine-duration" : {
+                "tmeasurements" : [ { }, { } ],
+                "tmetadata" : { }
+              },
+              "wind-direction" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "47400MS" : {
+            "scode" : "47400MS",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 12.1166,
+              "y" : 46.8704
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "global-radiation" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "precipitation" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "sunshine-duration" : {
+                "tmeasurements" : [ { }, { } ],
+                "tmetadata" : { }
+              },
+              "wind-direction" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "59450PG" : {
+            "scode" : "59450PG",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.93472,
+              "y" : 46.81704
+            },
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "suspended-solids-in-watercourse" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "water-level" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "water-temperature" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "62600MS" : {
+            "scode" : "62600MS",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.8979,
+              "y" : 46.6792
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { }, { } ],
+                "tmetadata" : { }
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "global-radiation" : {
+                "tmeasurements" : [ { }, { } ],
+                "tmetadata" : { }
+              },
+              "precipitation" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "sunshine-duration" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "wind-direction" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "69790PG" : {
+            "scode" : "69790PG",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.6572,
+              "y" : 46.70738
+            },
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "water-level" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "water-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "83200MS" : {
+            "scode" : "83200MS",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.3128,
+              "y" : 46.4977
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { }, { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "air-temperature-max" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ { } ]
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "global-radiation" : {
+                "tmeasurements" : [ { }, { } ],
+                "tmetadata" : { }
+              },
+              "precipitation" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "sunshine-duration" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "wind-direction" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "83450PG" : {
+            "scode" : "83450PG",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.30278,
+              "y" : 46.45877
+            },
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              },
+              "suspended-solids-in-watercourse" : {
+                "tmeasurements" : [ { }, { } ],
+                "tmetadata" : { }
+              },
+              "water-level" : {
+                "tmeasurements" : [ { }, { }, { }, { }, { }, { }, { } ],
+                "tmetadata" : { }
+              }
+            }
+          }
+        }
+      },
+      "ParkingFacility" : {
+        "stations" : {
+          "105_facility" : {
+            "scode" : "105_facility",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.357255,
+              "y" : 46.498174
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ { } ]
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ { } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ { } ]
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "607440" : {
+            "scode" : "607440",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.650498,
+              "y" : 46.713708
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ { } ]
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ { } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ { } ]
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "608612" : {
+            "scode" : "608612",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.927622,
+              "y" : 46.792815
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ { } ]
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ { } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ { } ]
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "609883" : {
+            "scode" : "609883",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.35497,
+              "y" : 46.49458
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ { } ]
+              },
+              "free_subscribers" : {
+                "tmeasurements" : [ { } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ { } ]
+              },
+              "occupied_subscribers" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "102" : {
+            "scode" : "102",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.356305,
+              "y" : 46.496449
+            },
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "103" : {
+            "scode" : "103",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.355115,
+              "y" : 46.497805
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-120" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-30" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-60" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-90" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "104" : {
+            "scode" : "104",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.358216,
+              "y" : 46.500551
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "105" : {
+            "scode" : "105",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.357255,
+              "y" : 46.498174
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { }, { } ],
+                "tmetadata" : { }
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ { } ]
+              },
+              "occupied" : {
+                "tmeasurements" : [ { }, { } ],
+                "tmetadata" : { }
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ { } ]
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : {
+              "pname" : "P05 - Laurin"
+            }
+          },
+          "107" : {
+            "scode" : "107",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.351793,
+              "y" : 46.502958
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "112" : {
+            "scode" : "112",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33851,
+              "y" : 46.49781
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "113" : {
+            "scode" : "113",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33818,
+              "y" : 46.49869
+            },
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "115" : {
+            "scode" : "115",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.318078,
+              "y" : 46.491603
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "occupied" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          }
+        }
+      },
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : {
+            "scode" : "rwis1",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.151913,
+              "y" : 46.210154
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ { } ]
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "rwis2" : {
+            "scode" : "rwis2",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.134472,
+              "y" : 46.197769
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "rwis3" : {
+            "scode" : "rwis3",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.069111,
+              "y" : 46.23165
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ { } ]
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ { } ]
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "rwis4" : {
+            "scode" : "rwis4",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.101253,
+              "y" : 46.151711
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ { } ]
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "rwis5" : {
+            "scode" : "rwis5",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.08575,
+              "y" : 46.122225
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ { } ]
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ { } ]
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "rwis6" : {
+            "scode" : "rwis6",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.113311,
+              "y" : 45.97342
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ { } ]
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "rwis7" : {
+            "scode" : "rwis7",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.183341,
+              "y" : 46.083308
+            },
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "air-temperature" : {
+                "tmeasurements" : [ { } ],
+                "tmetadata" : { }
+              },
+              "atmospheric-pressure" : {
+                "tmeasurements" : [ { } ]
+              },
+              "ground-surface-temperature" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          }
+        }
+      },
+      "Streetstation" : {
+        "stations" : {
+          "CORSO ITALIA / ITALIENALLEE" : {
+            "scode" : "CORSO ITALIA / ITALIENALLEE",
+            "sdatatypes" : {
+              "CO" : {
+                "tmeasurements" : [ { } ]
+              },
+              "CO2" : {
+                "tmeasurements" : [ { } ]
+              },
+              "COV" : {
+                "tmeasurements" : [ { } ]
+              },
+              "FC" : {
+                "tmeasurements" : [ { } ]
+              },
+              "NOX" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "PONTE PALERMO / PALERMOBRCKE" : {
+            "scode" : "PONTE PALERMO / PALERMOBRCKE",
+            "sdatatypes" : {
+              "CO" : {
+                "tmeasurements" : [ { } ]
+              },
+              "CO2" : {
+                "tmeasurements" : [ { } ]
+              },
+              "COV" : {
+                "tmeasurements" : [ { } ]
+              },
+              "FC" : {
+                "tmeasurements" : [ { } ]
+              },
+              "NOX" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "PONTE ROMA / ROMBRCKE 1" : {
+            "scode" : "PONTE ROMA / ROMBRCKE 1",
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ { } ]
+              },
+              "CO" : {
+                "tmeasurements" : [ { } ]
+              },
+              "CO2" : {
+                "tmeasurements" : [ { } ]
+              },
+              "COV" : {
+                "tmeasurements" : [ { } ]
+              },
+              "FC" : {
+                "tmeasurements" : [ { } ]
+              },
+              "NOX" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE" : {
+            "scode" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE",
+            "sdatatypes" : {
+              "CO" : {
+                "tmeasurements" : [ { } ]
+              },
+              "CO2" : {
+                "tmeasurements" : [ { } ]
+              },
+              "FC" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1" : {
+            "scode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1",
+            "sdatatypes" : {
+              "CH4" : {
+                "tmeasurements" : [ { } ]
+              },
+              "CO" : {
+                "tmeasurements" : [ { } ]
+              },
+              "CO2" : {
+                "tmeasurements" : [ { } ]
+              },
+              "COV" : {
+                "tmeasurements" : [ { } ]
+              },
+              "FC" : {
+                "tmeasurements" : [ { } ]
+              },
+              "NH3" : {
+                "tmeasurements" : [ { } ]
+              },
+              "NOX" : {
+                "tmeasurements" : [ { } ]
+              },
+              "PM10" : {
+                "tmeasurements" : [ { } ]
+              },
+              "PTS" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE" : {
+            "scode" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE",
+            "sdatatypes" : {
+              "CO" : {
+                "tmeasurements" : [ { } ]
+              },
+              "CO2" : {
+                "tmeasurements" : [ { } ]
+              },
+              "COV" : {
+                "tmeasurements" : [ { } ]
+              },
+              "FC" : {
+                "tmeasurements" : [ { } ]
+              },
+              "NOX" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "VIA PALERMO / PALERMOSTRASSE 1" : {
+            "scode" : "VIA PALERMO / PALERMOSTRASSE 1",
+            "sdatatypes" : {
+              "CO" : {
+                "tmeasurements" : [ { } ]
+              },
+              "CO2" : {
+                "tmeasurements" : [ { } ]
+              },
+              "COV" : {
+                "tmeasurements" : [ { } ]
+              },
+              "FC" : {
+                "tmeasurements" : [ { } ]
+              },
+              "NOX" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          },
+          "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE" : {
+            "scode" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE",
+            "sdatatypes" : {
+              "CO" : {
+                "tmeasurements" : [ { } ]
+              },
+              "CO2" : {
+                "tmeasurements" : [ { } ]
+              },
+              "COV" : {
+                "tmeasurements" : [ { } ]
+              },
+              "FC" : {
+                "tmeasurements" : [ { } ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

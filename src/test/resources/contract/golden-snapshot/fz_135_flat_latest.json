@@ -1,0 +1,14 @@
+{
+  "request" : "GET /flat/*/*/latest?limit=-1&select=tunit,tmetadata.scale,stype&shownull=true&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "09b9a29098030318908a4fa5c00f858cabf76a328ee6fcc066d04e2367ee04df",
+  "bodyRecords" : 1078
+}

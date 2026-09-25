@@ -1,0 +1,1774 @@
+{
+  "request" : "GET /tree/ParkingStation/*/latest?limit=-1&select=smetadata,tdescription,pmetadata,prversion&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "102" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "smetadata" : {
+              "capacity" : 233,
+              "disabledtoiletavailable" : true,
+              "mainaddress" : "Via Dr. Julius Perathoner",
+              "municipality" : "Bolzano - Bozen",
+              "phonenumber" : "0471 970289",
+              "state" : 1
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "103" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "5e3639893d25043ed0db99ec833ba147849a9ecc"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "dbb86d650ea2f7c82d1e81a2726b87eb816f6c7e"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "smetadata" : {
+              "capacity" : 403,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Waltherplatz",
+              "name_en" : "Piazza Walther",
+              "name_it" : "Piazza Walther",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "underground",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Piazza Walther"
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "104" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "5e3639893d25043ed0db99ec833ba147849a9ecc"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "dbb86d650ea2f7c82d1e81a2726b87eb816f6c7e"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "smetadata" : {
+              "capacity" : 150,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Luna MoliniStraße",
+              "name_en" : "Luna via Molini",
+              "name_it" : "Luna via Molini it",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "underground",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Luna Via Molini"
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "105" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "0.1.0"
+                  },
+                  "mvalue" : null
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "8984e2f9e90bed41a40e626c6953b1e0452fef7d"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "8984e2f9e90bed41a40e626c6953b1e0452fef7d"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "8984e2f9e90bed41a40e626c6953b1e0452fef7d"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "3.0.0"
+                  },
+                  "mvalue" : null
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "8984e2f9e90bed41a40e626c6953b1e0452fef7d"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "8984e2f9e90bed41a40e626c6953b1e0452fef7d"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "8984e2f9e90bed41a40e626c6953b1e0452fef7d"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "smetadata" : {
+              "capacity" : 90,
+              "free_limit" : 89,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Laurin",
+              "name_en" : "Laurin",
+              "name_it" : "Laurin",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "openSpace",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "occupancy_limit" : 90,
+              "standard_name" : "Parcheggio Laurin"
+            },
+            "sparent" : {
+              "pmetadata" : {
+                "capacity" : 90,
+                "capacity_short_stay" : 90,
+                "capacity_subscribers" : 90,
+                "municipality" : "Bolzano - Bozen",
+                "name_de" : "Laurin",
+                "name_en" : "Laurin",
+                "name_it" : "Laurin",
+                "netex_parking" : {
+                  "charging" : true,
+                  "hazard_prohibited" : true,
+                  "layout" : "openSpace",
+                  "reservation" : "noReservations",
+                  "surveillance" : true,
+                  "type" : "urbanParking",
+                  "vehicletypes" : "allPassengerVehicles"
+                },
+                "standard_name" : "Parcheggio Laurin"
+              }
+            }
+          },
+          "107" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "6615d5c5c6303cb9200b71e03a9f2a9955bb98d8"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "e85a54a6f012daff13e93cd7f174fc84d45c8db3"
+                  },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "smetadata" : {
+              "capacity" : 145,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Mareccio C. de Medici Strasse",
+              "name_en" : "Mareccio via C. de Medici",
+              "name_it" : "Mareccio via C. de Medici",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "openSpace",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Mareccio"
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "112" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "5e3639893d25043ed0db99ec833ba147849a9ecc"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "dbb86d650ea2f7c82d1e81a2726b87eb816f6c7e"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "smetadata" : {
+              "capacity" : 174,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Gerichtsplatz",
+              "name_en" : "Piazza Tribunale",
+              "name_it" : "Piazza Tribunale",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "underground",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Tribunale"
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "113" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "627584d4fa4e266dc280ca98fb9c0064a23b44e4"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "2443b394901abde157e7331d845cf66d3459408f"
+                  },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "smetadata" : {
+              "capacity" : 114,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Direzional Park",
+              "name_en" : "Direzional Park",
+              "name_it" : "Direzional Park",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "underground",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Direzional Park"
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          },
+          "115" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "5e3639893d25043ed0db99ec833ba147849a9ecc"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "dbb86d650ea2f7c82d1e81a2726b87eb816f6c7e"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ]
+              }
+            },
+            "smetadata" : {
+              "capacity" : 425,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Palasport Reschenstraße",
+              "name_en" : "Palasport via Resia",
+              "name_it" : "Palasport via Resia",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "openSpace",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Palasport"
+            },
+            "sparent" : {
+              "pmetadata" : null
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

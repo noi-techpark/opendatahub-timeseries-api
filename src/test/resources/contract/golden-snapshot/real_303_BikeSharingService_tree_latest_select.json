@@ -1,0 +1,14 @@
+{
+  "request" : "GET /tree/BikeSharingService/*/latest?limit=300&select=sname,tname,mvalue,mvalidtime,mperiod,prname [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "cf9555177948cc8b023f64e349b694e7b8ba4347e92d31f32419d6c737f36e72",
+  "bodyRecords" : 111413
+}

@@ -1,0 +1,14 @@
+{
+  "request" : "GET /flat/*/*?limit=-1&select=scoordinate,smetadata,tname&where=smetadata.capacity.gt.10 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "bodySha256" : "cc8018493d3d7e2f7d7b49bdb5b8b7247f30df6a1fd5da6f0821d8f47e065e16",
+  "bodyRecords" : 189
+}

@@ -1,0 +1,362 @@
+{
+  "request" : "GET /flat/LinkStation/*?limit=200 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "meinstein->Agip_Einstein",
+      "sname" : "Agip_Einstein->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "tname" : "Bluetooth match",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Maso_Pieve->meinstein",
+      "sname" : "Maso_Pieve->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "tname" : "Bluetooth Count match",
+      "ttype" : "Count"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "druso-poste->proma",
+      "sname" : "druso-poste->proma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "tname" : "Bluetooth match",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML107->A22_ML103",
+      "sname" : "A22_ML107->A22_ML103",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "tname" : "Bluetooth Count match",
+      "ttype" : "Count"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML103->A22_ML107",
+      "sname" : "A22_ML103->A22_ML107",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tname" : "Bluetooth Elapsed time (test)"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Agip_Einstein->meinstein",
+      "sname" : "meinstein->Agip_Einstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "tname" : "Bluetooth match",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML107->A22_ML103",
+      "sname" : "A22_ML107->A22_ML103",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Mode for vehicles fast than 100 km/h",
+      "tname" : "Bluetooth Elapsed time greater than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "ms"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Agip_Einstein->meinstein",
+      "sname" : "meinstein->Agip_Einstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tname" : "Bluetooth Elapsed time (test)"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML103->A22_ML107",
+      "sname" : "A22_ML103->A22_ML107",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Mode for vehicles fast than 100 km/h",
+      "tname" : "Bluetooth Elapsed time greater than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "ms"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "meinstein->Agip_Einstein",
+      "sname" : "Agip_Einstein->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Velocita media dei veicoli",
+      "tname" : "velocita'",
+      "ttype" : "Mean",
+      "tunit" : "km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Agip_Einstein->meinstein",
+      "sname" : "meinstein->Agip_Einstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Velocita media dei veicoli",
+      "tname" : "velocita'",
+      "ttype" : "Mean",
+      "tunit" : "km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Agip_Einstein->meinstein",
+      "sname" : "meinstein->Agip_Einstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Mode for vehicles fast than 100 km/h",
+      "tname" : "Bluetooth Elapsed time greater than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "ms"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML107->A22_ML103",
+      "sname" : "A22_ML107->A22_ML103",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Velocita media dei veicoli",
+      "tname" : "velocita'",
+      "ttype" : "Mean",
+      "tunit" : "km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "proma->druso-poste",
+      "sname" : "proma->druso-poste",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tname" : "Bluetooth Elapsed time (test)"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "proma->druso-poste",
+      "sname" : "proma->druso-poste",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "tname" : "Bluetooth match",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML107->A22_ML103",
+      "sname" : "A22_ML107->A22_ML103",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "tname" : "Bluetooth match",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML103->A22_ML107",
+      "sname" : "A22_ML103->A22_ML107",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "tname" : "Bluetooth match",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Maso_Pieve->meinstein",
+      "sname" : "Maso_Pieve->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tname" : "Bluetooth Elapsed time (test)"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML103->A22_ML107",
+      "sname" : "A22_ML103->A22_ML107",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "average speed of vehicles faster than 100 km/h",
+      "tname" : "speed greater than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "siemens->proma",
+      "sname" : "siemens->proma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "tname" : "Bluetooth match",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "proma->druso-poste",
+      "sname" : "proma->druso-poste",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "tname" : "Bluetooth Count match",
+      "ttype" : "Count"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML107->A22_ML103",
+      "sname" : "A22_ML107->A22_ML103",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "average speed of vehicles faster than 100 km/h",
+      "tname" : "speed greater than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Maso_Pieve->meinstein",
+      "sname" : "Maso_Pieve->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "tname" : "Bluetooth match",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "meinstein->Agip_Einstein",
+      "sname" : "Agip_Einstein->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tname" : "Bluetooth Elapsed time (test)"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "druso-poste->proma",
+      "sname" : "druso-poste->proma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tname" : "Bluetooth Elapsed time (test)"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML107->A22_ML103",
+      "sname" : "A22_ML107->A22_ML103",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tname" : "Bluetooth Elapsed time (test)"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Maso_Pieve->meinstein",
+      "sname" : "Maso_Pieve->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Velocita media dei veicoli",
+      "tname" : "velocita'",
+      "ttype" : "Mean",
+      "tunit" : "km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Agip_Einstein->meinstein",
+      "sname" : "meinstein->Agip_Einstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "tname" : "Bluetooth Count match",
+      "ttype" : "Count"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "siemens->proma",
+      "sname" : "siemens->proma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "tname" : "Bluetooth Count match",
+      "ttype" : "Count"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML103->A22_ML107",
+      "sname" : "A22_ML103->A22_ML107",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "tname" : "Bluetooth Count match",
+      "ttype" : "Count"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML103->A22_ML107",
+      "sname" : "A22_ML103->A22_ML107",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Velocita media dei veicoli",
+      "tname" : "velocita'",
+      "ttype" : "Mean",
+      "tunit" : "km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "siemens->proma",
+      "sname" : "siemens->proma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tname" : "Bluetooth Elapsed time (test)"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Agip_Einstein->meinstein",
+      "sname" : "meinstein->Agip_Einstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "average speed of vehicles faster than 100 km/h",
+      "tname" : "speed greater than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "druso-poste->proma",
+      "sname" : "druso-poste->proma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "tname" : "Bluetooth Count match",
+      "ttype" : "Count"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "meinstein->Agip_Einstein",
+      "sname" : "Agip_Einstein->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "tname" : "Bluetooth Count match",
+      "ttype" : "Count"
+    } ],
+    "limit" : 200,
+    "offset" : 0
+  }
+}

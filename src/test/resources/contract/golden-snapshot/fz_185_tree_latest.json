@@ -1,0 +1,650 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=pcoordinate,mvalue.a,mvalue.b.c,prversion,sactive,savailable,tmetadata&where=tname.in.(air-temperature,wind-speed)&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : {
+            "sactive" : false,
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : {
+              "pcoordinate" : null
+            }
+          },
+          "37100MS" : {
+            "sactive" : true,
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "e5e30561d496f968a095ebce0248080060b6cb67"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : {
+              "pcoordinate" : null
+            }
+          },
+          "47400MS" : {
+            "sactive" : true,
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "4ab1bcc5c8e60c9c7700a8ab860827522761be6d"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : {
+              "pcoordinate" : null
+            }
+          },
+          "62600MS" : {
+            "sactive" : true,
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "4ab1bcc5c8e60c9c7700a8ab860827522761be6d"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "e5e30561d496f968a095ebce0248080060b6cb67"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "e5e30561d496f968a095ebce0248080060b6cb67"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : {
+              "pcoordinate" : null
+            }
+          },
+          "83200MS" : {
+            "sactive" : true,
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "4ab1bcc5c8e60c9c7700a8ab860827522761be6d"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "e5e30561d496f968a095ebce0248080060b6cb67"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : "053c76af31d4f22d6070401644bc6ad49c7fff06"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "0b3914025adac8c90876987c640ed42b6532066d"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "7409d733f35fbbeee9d16d9024f303fe63092871"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "973b4e3b7c24b9ff3e0a39cd9001b08babb4dc18"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                }, {
+                  "mprovenance" : {
+                    "prversion" : "ded1456a1547fcac17065ebb21bec37741784d53"
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : {
+              "pcoordinate" : null
+            }
+          }
+        }
+      },
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : {
+            "sactive" : true,
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : {
+              "pcoordinate" : null
+            }
+          },
+          "rwis2" : {
+            "sactive" : false,
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : {
+              "pcoordinate" : null
+            }
+          },
+          "rwis3" : {
+            "sactive" : true,
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : {
+              "pcoordinate" : null
+            }
+          },
+          "rwis4" : {
+            "sactive" : true,
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : {
+              "pcoordinate" : null
+            }
+          },
+          "rwis5" : {
+            "sactive" : true,
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : {
+              "pcoordinate" : null
+            }
+          },
+          "rwis6" : {
+            "sactive" : true,
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : {
+              "pcoordinate" : null
+            }
+          },
+          "rwis7" : {
+            "sactive" : true,
+            "savailable" : true,
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prversion" : null
+                  },
+                  "mvalue" : {
+                    "a" : null,
+                    "b.c" : null
+                  }
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "sparent" : {
+              "pcoordinate" : null
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

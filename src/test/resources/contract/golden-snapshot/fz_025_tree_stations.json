@@ -1,0 +1,451 @@
+{
+  "request" : "GET /tree/*?limit=-1&select=smetadata.name_en&where=sorigin.neq.NOI&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "Bicycle" : {
+        "stations" : {
+          "bike118" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "bike119" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "bike136" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "bike139" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "bike51" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "bike53" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "bike55" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "bike74" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          }
+        }
+      },
+      "Bicyclestationbay" : {
+        "stations" : {
+          "Viale della Stazione - Bahnhofsallee:1" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:2" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:3" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:4" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:5" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:6" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:7" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:8" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          }
+        }
+      },
+      "BikeSharingService" : {
+        "stations" : {
+          "sharedmobility-ch:pr:carvelo2go" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          }
+        }
+      },
+      "BikesharingStation" : {
+        "stations" : {
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3008cf824e352d9854585d3731568fe6e0a042d2" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3242fbb9d66046deac446c8b89768cd1b6fc9c9f" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--845248b808d1bf6c6115e471e41ccdca99f09743" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1b380c7315ed00d73a49269e2feab2e5b0452a00" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c4e26e1fd97da55bd1a1fe7ccf67f1b70c69453a" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "bikestation1" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "bikestation2" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          }
+        }
+      },
+      "EChargingPlug" : {
+        "stations" : {
+          "AER_00000001-1" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "AER_00000001-2" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "AER_00000006-2" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "AER_00000039-1" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "AER_00000039-2" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "AER_00000041-1" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "AER_00000041-2" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "AER_00000042-1" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          }
+        }
+      },
+      "EChargingStation" : {
+        "stations" : {
+          "AER_00000001" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "AER_00000005" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "AER_00000006" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "AER_00000007" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "AER_00000008" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "AER_00000039" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "AER_00000041" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "AER_00000042" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          }
+        }
+      },
+      "EnvironmentStation" : {
+        "stations" : {
+          "AB2" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "AB3" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "BX1" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "BZ4" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "BZ5" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "BZ6" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "CR1" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "LS1" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          }
+        }
+      },
+      "LinkStation" : {
+        "stations" : {
+          "1853-1854" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          }
+        }
+      },
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "37100MS" : {
+            "smetadata" : {
+              "name_en" : "Sterzing"
+            }
+          },
+          "47400MS" : {
+            "smetadata" : {
+              "name_en" : "Antholz Obertal"
+            }
+          },
+          "59450PG" : {
+            "smetadata" : {
+              "name_en" : "AHR BEI ST.GEORGEN"
+            }
+          },
+          "62600MS" : {
+            "smetadata" : {
+              "name_en" : "S. Martin de Tor"
+            }
+          },
+          "69790PG" : {
+            "smetadata" : {
+              "name_en" : "EISACK BEI BRIXEN"
+            }
+          },
+          "83200MS" : {
+            "smetadata" : {
+              "name_en" : "Bolzano"
+            }
+          },
+          "83450PG" : {
+            "smetadata" : {
+              "name_en" : "EISACK BEI BOZEN SÜD"
+            }
+          }
+        }
+      },
+      "ParkingFacility" : {
+        "stations" : {
+          "105_facility" : {
+            "smetadata" : {
+              "name_en" : "Laurin"
+            }
+          },
+          "607440" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "608612" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "609883" : {
+            "smetadata" : {
+              "name_en" : "Waltherpark"
+            }
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "102" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "103" : {
+            "smetadata" : {
+              "name_en" : "Piazza Walther"
+            }
+          },
+          "104" : {
+            "smetadata" : {
+              "name_en" : "Luna via Molini"
+            }
+          },
+          "105" : {
+            "smetadata" : {
+              "name_en" : "Laurin"
+            }
+          },
+          "107" : {
+            "smetadata" : {
+              "name_en" : "Mareccio via C. de Medici"
+            }
+          },
+          "112" : {
+            "smetadata" : {
+              "name_en" : "Piazza Tribunale"
+            }
+          },
+          "113" : {
+            "smetadata" : {
+              "name_en" : "Direzional Park"
+            }
+          },
+          "115" : {
+            "smetadata" : {
+              "name_en" : "Palasport via Resia"
+            }
+          }
+        }
+      },
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "rwis2" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "rwis3" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "rwis4" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "rwis5" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "rwis6" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "rwis7" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

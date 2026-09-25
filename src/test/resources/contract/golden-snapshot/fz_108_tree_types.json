@@ -1,0 +1,757 @@
+{
+  "request" : "GET /tree/*/*?limit=-1&select=tname,tmetadata.scale,ttype&where=or(sorigin.eq.NOI,sorigin.eq.SIAG)&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time greater than 100 km/h",
+                "ttype" : "Mode"
+              },
+              "Bluetooth match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous"
+              },
+              "speed greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "speed greater than 100 km/h",
+                "ttype" : "Mode"
+              },
+              "velocita'" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "velocita'",
+                "ttype" : "Mean"
+              }
+            },
+            "sparent" : { }
+          },
+          "A22_ML107->A22_ML103" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time greater than 100 km/h",
+                "ttype" : "Mode"
+              },
+              "Bluetooth match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous"
+              },
+              "speed greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "speed greater than 100 km/h",
+                "ttype" : "Mode"
+              },
+              "velocita'" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "velocita'",
+                "ttype" : "Mean"
+              }
+            },
+            "sparent" : { }
+          },
+          "Agip_Einstein->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time greater than 100 km/h",
+                "ttype" : "Mode"
+              },
+              "Bluetooth match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous"
+              },
+              "speed greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "speed greater than 100 km/h",
+                "ttype" : "Mode"
+              },
+              "velocita'" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "velocita'",
+                "ttype" : "Mean"
+              }
+            },
+            "sparent" : { }
+          },
+          "Maso_Pieve->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null
+              },
+              "Bluetooth match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous"
+              },
+              "velocita'" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "velocita'",
+                "ttype" : "Mean"
+              }
+            },
+            "sparent" : { }
+          },
+          "druso-poste->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null
+              },
+              "Bluetooth match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous"
+              }
+            },
+            "sparent" : { }
+          },
+          "meinstein->Agip_Einstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null
+              },
+              "Bluetooth match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous"
+              },
+              "velocita'" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "velocita'",
+                "ttype" : "Mean"
+              }
+            },
+            "sparent" : { }
+          },
+          "proma->druso-poste" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null
+              },
+              "Bluetooth match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous"
+              }
+            },
+            "sparent" : { }
+          },
+          "siemens->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Count match",
+                "ttype" : "Count"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth Elapsed time (test)",
+                "ttype" : null
+              },
+              "Bluetooth match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "Bluetooth match",
+                "ttype" : "Instantaneous"
+              }
+            },
+            "sparent" : { }
+          }
+        }
+      },
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : {
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "air-temperature",
+                "ttype" : "mean"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "atmospheric-pressure-reduced",
+                "ttype" : null
+              },
+              "precipitation" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "precipitation",
+                "ttype" : "total"
+              }
+            },
+            "sparent" : { }
+          },
+          "37100MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "air-humidity",
+                "ttype" : null
+              },
+              "air-temperature" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "air-temperature",
+                "ttype" : "mean"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "atmospheric-pressure-reduced",
+                "ttype" : null
+              },
+              "global-radiation" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "global-radiation",
+                "ttype" : null
+              },
+              "precipitation" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "precipitation",
+                "ttype" : "total"
+              },
+              "sunshine-duration" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "sunshine-duration",
+                "ttype" : null
+              },
+              "wind-direction" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "wind-direction",
+                "ttype" : null
+              },
+              "wind-gust-speed" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "wind-gust-speed",
+                "ttype" : null
+              },
+              "wind-speed" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "wind-speed",
+                "ttype" : null
+              }
+            },
+            "sparent" : { }
+          },
+          "47400MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "air-humidity",
+                "ttype" : null
+              },
+              "air-temperature" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "air-temperature",
+                "ttype" : "mean"
+              },
+              "air-temperature-max" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "air-temperature-max",
+                "ttype" : "max"
+              },
+              "air-temperature-min" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "air-temperature-min",
+                "ttype" : "min"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "atmospheric-pressure-reduced",
+                "ttype" : null
+              },
+              "global-radiation" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "global-radiation",
+                "ttype" : null
+              },
+              "precipitation" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "precipitation",
+                "ttype" : "total"
+              },
+              "sunshine-duration" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "sunshine-duration",
+                "ttype" : null
+              },
+              "wind-direction" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "wind-direction",
+                "ttype" : null
+              },
+              "wind-gust-speed" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "wind-gust-speed",
+                "ttype" : null
+              },
+              "wind-speed" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "wind-speed",
+                "ttype" : null
+              }
+            },
+            "sparent" : { }
+          },
+          "59450PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "flow-rate",
+                "ttype" : null
+              },
+              "suspended-solids-in-watercourse" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "suspended-solids-in-watercourse",
+                "ttype" : null
+              },
+              "water-level" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "water-level",
+                "ttype" : null
+              },
+              "water-temperature" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "water-temperature",
+                "ttype" : null
+              }
+            },
+            "sparent" : { }
+          },
+          "62600MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "air-humidity",
+                "ttype" : null
+              },
+              "air-temperature" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "air-temperature",
+                "ttype" : "mean"
+              },
+              "air-temperature-max" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "air-temperature-max",
+                "ttype" : "max"
+              },
+              "air-temperature-min" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "air-temperature-min",
+                "ttype" : "min"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "atmospheric-pressure-reduced",
+                "ttype" : null
+              },
+              "global-radiation" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "global-radiation",
+                "ttype" : null
+              },
+              "precipitation" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "precipitation",
+                "ttype" : "total"
+              },
+              "sunshine-duration" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "sunshine-duration",
+                "ttype" : null
+              },
+              "wind-direction" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "wind-direction",
+                "ttype" : null
+              },
+              "wind-gust-speed" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "wind-gust-speed",
+                "ttype" : null
+              },
+              "wind-speed" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "wind-speed",
+                "ttype" : null
+              }
+            },
+            "sparent" : { }
+          },
+          "69790PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "flow-rate",
+                "ttype" : null
+              },
+              "water-level" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "water-level",
+                "ttype" : null
+              },
+              "water-temperature" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "water-temperature",
+                "ttype" : null
+              }
+            },
+            "sparent" : { }
+          },
+          "83200MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "air-humidity",
+                "ttype" : null
+              },
+              "air-temperature" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "air-temperature",
+                "ttype" : "mean"
+              },
+              "air-temperature-max" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "air-temperature-max",
+                "ttype" : "max"
+              },
+              "air-temperature-min" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "air-temperature-min",
+                "ttype" : "min"
+              },
+              "atmospheric-pressure" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "atmospheric-pressure",
+                "ttype" : "Mittelwerte"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "atmospheric-pressure-reduced",
+                "ttype" : null
+              },
+              "global-radiation" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "global-radiation",
+                "ttype" : null
+              },
+              "precipitation" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "precipitation",
+                "ttype" : "total"
+              },
+              "rainfall-duration" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "rainfall-duration",
+                "ttype" : "Sum"
+              },
+              "sunshine-duration" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "sunshine-duration",
+                "ttype" : null
+              },
+              "wind-direction" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "wind-direction",
+                "ttype" : null
+              },
+              "wind-gust-speed" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "wind-gust-speed",
+                "ttype" : null
+              },
+              "wind-speed" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "wind-speed",
+                "ttype" : null
+              }
+            },
+            "sparent" : { }
+          },
+          "83450PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "flow-rate",
+                "ttype" : null
+              },
+              "suspended-solids-in-watercourse" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "suspended-solids-in-watercourse",
+                "ttype" : null
+              },
+              "water-level" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "water-level",
+                "ttype" : null
+              },
+              "water-temperature" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tname" : "water-temperature",
+                "ttype" : null
+              }
+            },
+            "sparent" : { }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

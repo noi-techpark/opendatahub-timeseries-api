@@ -1,0 +1,1430 @@
+{
+  "request" : "GET /tree/ParkingStation/*/latest?limit=-1&select=tdescription,tname&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "102" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "occupied"
+              }
+            },
+            "sparent" : { }
+          },
+          "103" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "free"
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "occupied"
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-120"
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-150"
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-180"
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-210"
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-240"
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-30"
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-60"
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-90"
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-120"
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-150"
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-180"
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-210"
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-240"
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-30"
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-60"
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-90"
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-120"
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-150"
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-180"
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-210"
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-240"
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-30"
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-60"
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-90"
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-120"
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-150"
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-180"
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-210"
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-240"
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-30"
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-60"
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-90"
+              }
+            },
+            "sparent" : { }
+          },
+          "104" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "free"
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "occupied"
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-120"
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-150"
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-180"
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-210"
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-240"
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-30"
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-60"
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-90"
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-120"
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-150"
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-180"
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-210"
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-240"
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-30"
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-60"
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-90"
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-120"
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-150"
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-180"
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-210"
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-240"
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-30"
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-60"
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-90"
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-120"
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-150"
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-180"
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-210"
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-240"
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-30"
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-60"
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-90"
+              }
+            },
+            "sparent" : { }
+          },
+          "105" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "free"
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "free_short_stay"
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "free_subscribers"
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "occupied"
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "occupied_short_stay"
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "occupied_subscribers"
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-120"
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-150"
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-180"
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-210"
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-240"
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-30"
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-60"
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-90"
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-120"
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-150"
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-180"
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-210"
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-240"
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-30"
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-60"
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-90"
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-120"
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-150"
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-180"
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-210"
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-240"
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-30"
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-60"
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-90"
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-120"
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-150"
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-180"
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-210"
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-240"
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-30"
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-60"
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-90"
+              }
+            },
+            "sparent" : { }
+          },
+          "107" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "free"
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "occupied"
+              }
+            },
+            "sparent" : { }
+          },
+          "112" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "free"
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "occupied"
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-120"
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-150"
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-180"
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-210"
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-240"
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-30"
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-60"
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-90"
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-120"
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-150"
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-180"
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-210"
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-240"
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-30"
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-60"
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-90"
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-120"
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-150"
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-180"
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-210"
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-240"
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-30"
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-60"
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-90"
+              }
+            },
+            "sparent" : { }
+          },
+          "113" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "free"
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "occupied"
+              }
+            },
+            "sparent" : { }
+          },
+          "115" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "free"
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "occupied"
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-120"
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-150"
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-180"
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-210"
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-240"
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-30"
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-60"
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-90"
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-120"
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-150"
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-180"
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-210"
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-240"
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-30"
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-60"
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-high-90"
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-120"
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-150"
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-180"
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-210"
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-240"
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-30"
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-60"
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-low-90"
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-120"
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-150"
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-180"
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-210"
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-240"
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-30"
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-60"
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mprovenance" : { },
+                  "mvalue" : null
+                } ],
+                "tname" : "parking-forecast-rmse-90"
+              }
+            },
+            "sparent" : { }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

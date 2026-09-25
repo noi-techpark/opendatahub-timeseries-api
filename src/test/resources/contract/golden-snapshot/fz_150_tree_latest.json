@@ -1,0 +1,464 @@
+{
+  "request" : "GET /tree/*/*/latest?limit=-1&select=mperiod,smetadata.name_en,tmetadata,scode,mvalue.n,sactive&where=tname.in.(air-temperature,wind-speed)&distinct=false [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "MeteoStation" : {
+        "stations" : {
+          "102343" : {
+            "sactive" : false,
+            "scode" : "102343",
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600
+                } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "37100MS" : {
+            "sactive" : true,
+            "scode" : "37100MS",
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1200
+                }, {
+                  "mperiod" : 600
+                }, {
+                  "mperiod" : 8400
+                }, {
+                  "mperiod" : 2400
+                }, {
+                  "mperiod" : 6000
+                }, {
+                  "mperiod" : 1800
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 6000
+                }, {
+                  "mperiod" : 5400
+                }, {
+                  "mperiod" : 4800
+                }, {
+                  "mperiod" : 600
+                }, {
+                  "mperiod" : 1200
+                }, {
+                  "mperiod" : 7200
+                }, {
+                  "mperiod" : 6600
+                }, {
+                  "mperiod" : 19800
+                }, {
+                  "mperiod" : 15000
+                }, {
+                  "mperiod" : 9000
+                }, {
+                  "mperiod" : 8400
+                }, {
+                  "mperiod" : 7800
+                }, {
+                  "mperiod" : 4200
+                }, {
+                  "mperiod" : 3600
+                }, {
+                  "mperiod" : 3000
+                }, {
+                  "mperiod" : 2400
+                }, {
+                  "mperiod" : 1800
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "smetadata" : {
+              "name_en" : "Sterzing"
+            }
+          },
+          "47400MS" : {
+            "sactive" : true,
+            "scode" : "47400MS",
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 6000
+                }, {
+                  "mperiod" : 6600
+                }, {
+                  "mperiod" : 600
+                }, {
+                  "mperiod" : 1800
+                }, {
+                  "mperiod" : 1200
+                }, {
+                  "mperiod" : 31536000
+                }, {
+                  "mperiod" : 86400
+                }, {
+                  "mperiod" : 23400
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 64200
+                }, {
+                  "mperiod" : 600
+                }, {
+                  "mperiod" : 1200
+                }, {
+                  "mperiod" : 1800
+                }, {
+                  "mperiod" : 2400
+                }, {
+                  "mperiod" : 3000
+                }, {
+                  "mperiod" : 3600
+                }, {
+                  "mperiod" : 4200
+                }, {
+                  "mperiod" : 4800
+                }, {
+                  "mperiod" : 5400
+                }, {
+                  "mperiod" : 6000
+                }, {
+                  "mperiod" : 6600
+                }, {
+                  "mperiod" : 7200
+                }, {
+                  "mperiod" : 7800
+                }, {
+                  "mperiod" : 9000
+                }, {
+                  "mperiod" : 9600
+                }, {
+                  "mperiod" : 10200
+                }, {
+                  "mperiod" : 10800
+                }, {
+                  "mperiod" : 12000
+                }, {
+                  "mperiod" : 12600
+                }, {
+                  "mperiod" : 13200
+                }, {
+                  "mperiod" : 14400
+                }, {
+                  "mperiod" : 15600
+                }, {
+                  "mperiod" : 18000
+                }, {
+                  "mperiod" : 19800
+                }, {
+                  "mperiod" : 21600
+                }, {
+                  "mperiod" : 22200
+                }, {
+                  "mperiod" : 25800
+                }, {
+                  "mperiod" : 27000
+                }, {
+                  "mperiod" : 27600
+                }, {
+                  "mperiod" : 28800
+                }, {
+                  "mperiod" : 29400
+                }, {
+                  "mperiod" : 30600
+                }, {
+                  "mperiod" : 34200
+                }, {
+                  "mperiod" : 35400
+                }, {
+                  "mperiod" : 43200
+                }, {
+                  "mperiod" : 45000
+                }, {
+                  "mperiod" : 50400
+                }, {
+                  "mperiod" : 54000
+                }, {
+                  "mperiod" : 70200
+                }, {
+                  "mperiod" : 70800
+                }, {
+                  "mperiod" : 74400
+                }, {
+                  "mperiod" : 76200
+                }, {
+                  "mperiod" : 77400
+                }, {
+                  "mperiod" : 78600
+                }, {
+                  "mperiod" : 81000
+                }, {
+                  "mperiod" : 82200
+                }, {
+                  "mperiod" : 94800
+                }, {
+                  "mperiod" : 99000
+                }, {
+                  "mperiod" : 138000
+                }, {
+                  "mperiod" : 168600
+                }, {
+                  "mperiod" : 173400
+                }, {
+                  "mperiod" : 175800
+                }, {
+                  "mperiod" : 186000
+                }, {
+                  "mperiod" : 340800
+                }, {
+                  "mperiod" : 431400
+                }, {
+                  "mperiod" : 513000
+                }, {
+                  "mperiod" : 523800
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "smetadata" : {
+              "name_en" : "Antholz Obertal"
+            }
+          },
+          "62600MS" : {
+            "sactive" : true,
+            "scode" : "62600MS",
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 31536000
+                }, {
+                  "mperiod" : 3600
+                }, {
+                  "mperiod" : 600
+                }, {
+                  "mperiod" : 1200
+                }, {
+                  "mperiod" : 1800
+                }, {
+                  "mperiod" : 6000
+                }, {
+                  "mperiod" : 6600
+                }, {
+                  "mperiod" : 86400
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600
+                }, {
+                  "mperiod" : 600
+                }, {
+                  "mperiod" : 6000
+                }, {
+                  "mperiod" : 2400
+                }, {
+                  "mperiod" : 1800
+                }, {
+                  "mperiod" : 1200
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "smetadata" : {
+              "name_en" : "S. Martin de Tor"
+            }
+          },
+          "83200MS" : {
+            "sactive" : true,
+            "scode" : "83200MS",
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 86400
+                }, {
+                  "mperiod" : 1800
+                }, {
+                  "mperiod" : 6000
+                }, {
+                  "mperiod" : 1200
+                }, {
+                  "mperiod" : 3000
+                }, {
+                  "mperiod" : 31536000
+                }, {
+                  "mperiod" : 600
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 1800
+                }, {
+                  "mperiod" : 3000
+                }, {
+                  "mperiod" : 1200
+                }, {
+                  "mperiod" : 600
+                }, {
+                  "mperiod" : 6000
+                }, {
+                  "mperiod" : 2400
+                } ],
+                "tmetadata" : { }
+              }
+            },
+            "smetadata" : {
+              "name_en" : "Bolzano"
+            }
+          }
+        }
+      },
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : {
+            "sactive" : true,
+            "scode" : "rwis1",
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600
+                } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "rwis2" : {
+            "sactive" : false,
+            "scode" : "rwis2",
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600
+                } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "rwis3" : {
+            "sactive" : true,
+            "scode" : "rwis3",
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600
+                } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "rwis4" : {
+            "sactive" : true,
+            "scode" : "rwis4",
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600
+                } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "rwis5" : {
+            "sactive" : true,
+            "scode" : "rwis5",
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600
+                } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "rwis6" : {
+            "sactive" : true,
+            "scode" : "rwis6",
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600
+                } ],
+                "tmetadata" : { }
+              }
+            }
+          },
+          "rwis7" : {
+            "sactive" : true,
+            "scode" : "rwis7",
+            "sdatatypes" : {
+              "air-temperature" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600
+                } ],
+                "tmetadata" : { }
+              },
+              "wind-speed" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600
+                } ],
+                "tmetadata" : { }
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

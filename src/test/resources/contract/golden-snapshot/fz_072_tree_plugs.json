@@ -1,0 +1,42 @@
+{
+  "request" : "GET /tree/EChargingPlug,EChargingStation?limit=-1&select=pmetadata.voltage,porigin [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "EChargingPlug" : {
+        "stations" : {
+          "AER_00000001-1" : { },
+          "AER_00000001-2" : { },
+          "AER_00000006-2" : { },
+          "AER_00000039-1" : { },
+          "AER_00000039-2" : { },
+          "AER_00000041-1" : { },
+          "AER_00000041-2" : { },
+          "AER_00000042-1" : { }
+        }
+      },
+      "EChargingStation" : {
+        "stations" : {
+          "AER_00000001" : { },
+          "AER_00000005" : { },
+          "AER_00000006" : { },
+          "AER_00000007" : { },
+          "AER_00000008" : { },
+          "AER_00000039" : { },
+          "AER_00000041" : { },
+          "AER_00000042" : { }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

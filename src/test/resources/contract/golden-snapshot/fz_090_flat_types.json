@@ -1,0 +1,1589 @@
+{
+  "request" : "GET /flat/*/*?limit=-1&where=or(sorigin.eq.NOI,sorigin.eq.SIAG) [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83200MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3128,
+        "y" : 46.4977
+      },
+      "smetadata" : {
+        "name_de" : "Bozen",
+        "name_en" : "Bolzano",
+        "name_it" : "Bolzano"
+      },
+      "sname" : "Bolzano",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Minimum temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature-min",
+      "ttype" : "min",
+      "tunit" : "°C"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Maso_Pieve->meinstein",
+      "sname" : "Maso_Pieve->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Velocita media dei veicoli",
+      "tname" : "velocita'",
+      "ttype" : "Mean",
+      "tunit" : "km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83200MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3128,
+        "y" : 46.4977
+      },
+      "smetadata" : {
+        "name_de" : "Bozen",
+        "name_en" : "Bolzano",
+        "name_it" : "Bolzano"
+      },
+      "sname" : "Bolzano",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Umidità relativa",
+      "tmetadata" : { },
+      "tname" : "air-humidity",
+      "tunit" : "%"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83200MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3128,
+        "y" : 46.4977
+      },
+      "smetadata" : {
+        "name_de" : "Bozen",
+        "name_en" : "Bolzano",
+        "name_it" : "Bolzano"
+      },
+      "sname" : "Bolzano",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Mean temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83200MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3128,
+        "y" : 46.4977
+      },
+      "smetadata" : {
+        "name_de" : "Bozen",
+        "name_en" : "Bolzano",
+        "name_it" : "Bolzano"
+      },
+      "sname" : "Bolzano",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Precipitation",
+      "tmetadata" : { },
+      "tname" : "precipitation",
+      "ttype" : "total",
+      "tunit" : "mm"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Agip_Einstein->meinstein",
+      "sname" : "meinstein->Agip_Einstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Velocita media dei veicoli",
+      "tname" : "velocita'",
+      "ttype" : "Mean",
+      "tunit" : "km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "siemens->proma",
+      "sname" : "siemens->proma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tname" : "Bluetooth Elapsed time (test)"
+    }, {
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "102343",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.388134,
+        "y" : 46.94982
+      },
+      "smetadata" : {
+        "area" : "---"
+      },
+      "sname" : "Brenner",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Mean temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "62600MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.8979,
+        "y" : 46.6792
+      },
+      "smetadata" : {
+        "name_de" : "St. Martin in Thurn",
+        "name_en" : "S. Martin de Tor",
+        "name_it" : "S. Martino in Badia"
+      },
+      "sname" : "S. Martino in Badia",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Mean temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "47400MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 12.1166,
+        "y" : 46.8704
+      },
+      "smetadata" : {
+        "name_de" : "Antholz Obertal",
+        "name_en" : "Antholz Obertal",
+        "name_it" : "Anterselva di Sopra"
+      },
+      "sname" : "Anterselva di Sopra",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Mean temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "47400MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 12.1166,
+        "y" : 46.8704
+      },
+      "smetadata" : {
+        "name_de" : "Antholz Obertal",
+        "name_en" : "Antholz Obertal",
+        "name_it" : "Anterselva di Sopra"
+      },
+      "sname" : "Anterselva di Sopra",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Pressione atmosferica",
+      "tmetadata" : { },
+      "tname" : "atmospheric-pressure-reduced",
+      "tunit" : "hPa"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "62600MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.8979,
+        "y" : 46.6792
+      },
+      "smetadata" : {
+        "name_de" : "St. Martin in Thurn",
+        "name_en" : "S. Martin de Tor",
+        "name_it" : "S. Martino in Badia"
+      },
+      "sname" : "S. Martino in Badia",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Minimum temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature-min",
+      "ttype" : "min",
+      "tunit" : "°C"
+    }, {
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "102343",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.388134,
+        "y" : 46.94982
+      },
+      "smetadata" : {
+        "area" : "---"
+      },
+      "sname" : "Brenner",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Pressione atmosferica",
+      "tmetadata" : { },
+      "tname" : "atmospheric-pressure-reduced",
+      "tunit" : "hPa"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83200MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3128,
+        "y" : 46.4977
+      },
+      "smetadata" : {
+        "name_de" : "Bozen",
+        "name_en" : "Bolzano",
+        "name_it" : "Bolzano"
+      },
+      "sname" : "Bolzano",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Direzione del vento",
+      "tmetadata" : { },
+      "tname" : "wind-direction",
+      "tunit" : "° "
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "proma->druso-poste",
+      "sname" : "proma->druso-poste",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tname" : "Bluetooth Elapsed time (test)"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "37100MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.4386,
+        "y" : 46.885
+      },
+      "smetadata" : {
+        "name_de" : "Sterzing",
+        "name_en" : "Sterzing",
+        "name_it" : "Vipiteno"
+      },
+      "sname" : "Vipiteno",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Velocitá raffica",
+      "tmetadata" : { },
+      "tname" : "wind-gust-speed",
+      "tunit" : "m/s"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "62600MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.8979,
+        "y" : 46.6792
+      },
+      "smetadata" : {
+        "name_de" : "St. Martin in Thurn",
+        "name_en" : "S. Martin de Tor",
+        "name_it" : "S. Martino in Badia"
+      },
+      "sname" : "S. Martino in Badia",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Radiazione globale ",
+      "tmetadata" : { },
+      "tname" : "global-radiation",
+      "tunit" : "W/m²"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "69790PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.6572,
+        "y" : 46.70738
+      },
+      "smetadata" : {
+        "name_de" : "EISACK BEI BRIXEN",
+        "name_en" : "EISACK BEI BRIXEN",
+        "name_it" : "ISARCO A BRESSANONE"
+      },
+      "sname" : "ISARCO A BRESSANONE",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Temperatura acqua",
+      "tmetadata" : { },
+      "tname" : "water-temperature",
+      "tunit" : "°C"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83200MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3128,
+        "y" : 46.4977
+      },
+      "smetadata" : {
+        "name_de" : "Bozen",
+        "name_en" : "Bolzano",
+        "name_it" : "Bolzano"
+      },
+      "sname" : "Bolzano",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Durata soleggiamento",
+      "tmetadata" : { },
+      "tname" : "sunshine-duration",
+      "tunit" : "s"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83200MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3128,
+        "y" : 46.4977
+      },
+      "smetadata" : {
+        "name_de" : "Bozen",
+        "name_en" : "Bolzano",
+        "name_it" : "Bolzano"
+      },
+      "sname" : "Bolzano",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Maximum temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature-max",
+      "ttype" : "max",
+      "tunit" : "°C"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML107->A22_ML103",
+      "sname" : "A22_ML107->A22_ML103",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Velocita media dei veicoli",
+      "tname" : "velocita'",
+      "ttype" : "Mean",
+      "tunit" : "km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "37100MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.4386,
+        "y" : 46.885
+      },
+      "smetadata" : {
+        "name_de" : "Sterzing",
+        "name_en" : "Sterzing",
+        "name_it" : "Vipiteno"
+      },
+      "sname" : "Vipiteno",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Direzione del vento",
+      "tmetadata" : { },
+      "tname" : "wind-direction",
+      "tunit" : "° "
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "47400MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 12.1166,
+        "y" : 46.8704
+      },
+      "smetadata" : {
+        "name_de" : "Antholz Obertal",
+        "name_en" : "Antholz Obertal",
+        "name_it" : "Anterselva di Sopra"
+      },
+      "sname" : "Anterselva di Sopra",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Velocità del vento",
+      "tmetadata" : { },
+      "tname" : "wind-speed",
+      "tunit" : "m/s"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "59450PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.93472,
+        "y" : 46.81704
+      },
+      "smetadata" : {
+        "name_de" : "AHR BEI ST.GEORGEN",
+        "name_en" : "AHR BEI ST.GEORGEN",
+        "name_it" : "AURINO A S. GIORGIO"
+      },
+      "sname" : "AURINO A S. GIORGIO",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "concentrazione solidi sospesi ",
+      "tmetadata" : { },
+      "tname" : "suspended-solids-in-watercourse",
+      "tunit" : "mg/l"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "37100MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.4386,
+        "y" : 46.885
+      },
+      "smetadata" : {
+        "name_de" : "Sterzing",
+        "name_en" : "Sterzing",
+        "name_it" : "Vipiteno"
+      },
+      "sname" : "Vipiteno",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Radiazione globale ",
+      "tmetadata" : { },
+      "tname" : "global-radiation",
+      "tunit" : "W/m²"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83200MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3128,
+        "y" : 46.4977
+      },
+      "smetadata" : {
+        "name_de" : "Bozen",
+        "name_en" : "Bolzano",
+        "name_it" : "Bolzano"
+      },
+      "sname" : "Bolzano",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Velocitá raffica",
+      "tmetadata" : { },
+      "tname" : "wind-gust-speed",
+      "tunit" : "m/s"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Agip_Einstein->meinstein",
+      "sname" : "meinstein->Agip_Einstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "average speed of vehicles faster than 100 km/h",
+      "tname" : "speed greater than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML103->A22_ML107",
+      "sname" : "A22_ML103->A22_ML107",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "tname" : "Bluetooth Count match",
+      "ttype" : "Count"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Maso_Pieve->meinstein",
+      "sname" : "Maso_Pieve->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "tname" : "Bluetooth Count match",
+      "ttype" : "Count"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "siemens->proma",
+      "sname" : "siemens->proma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "tname" : "Bluetooth match",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83200MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3128,
+        "y" : 46.4977
+      },
+      "smetadata" : {
+        "name_de" : "Bozen",
+        "name_en" : "Bolzano",
+        "name_it" : "Bolzano"
+      },
+      "sname" : "Bolzano",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tname" : "rainfall-duration",
+      "ttype" : "Sum",
+      "tunit" : "s"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83450PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.30278,
+        "y" : 46.45877
+      },
+      "smetadata" : {
+        "name_de" : "EISACK BEI BOZEN SÜD",
+        "name_en" : "EISACK BEI BOZEN SÜD",
+        "name_it" : "ISARCO A BOLZANO SUD"
+      },
+      "sname" : "ISARCO A BOLZANO SUD",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Portata",
+      "tmetadata" : { },
+      "tname" : "flow-rate",
+      "tunit" : "m³/s"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "59450PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.93472,
+        "y" : 46.81704
+      },
+      "smetadata" : {
+        "name_de" : "AHR BEI ST.GEORGEN",
+        "name_en" : "AHR BEI ST.GEORGEN",
+        "name_it" : "AURINO A S. GIORGIO"
+      },
+      "sname" : "AURINO A S. GIORGIO",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Temperatura acqua",
+      "tmetadata" : { },
+      "tname" : "water-temperature",
+      "tunit" : "°C"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "meinstein->Agip_Einstein",
+      "sname" : "Agip_Einstein->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "tname" : "Bluetooth Count match",
+      "ttype" : "Count"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "62600MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.8979,
+        "y" : 46.6792
+      },
+      "smetadata" : {
+        "name_de" : "St. Martin in Thurn",
+        "name_en" : "S. Martin de Tor",
+        "name_it" : "S. Martino in Badia"
+      },
+      "sname" : "S. Martino in Badia",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Velocità del vento",
+      "tmetadata" : { },
+      "tname" : "wind-speed",
+      "tunit" : "m/s"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "69790PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.6572,
+        "y" : 46.70738
+      },
+      "smetadata" : {
+        "name_de" : "EISACK BEI BRIXEN",
+        "name_en" : "EISACK BEI BRIXEN",
+        "name_it" : "ISARCO A BRESSANONE"
+      },
+      "sname" : "ISARCO A BRESSANONE",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Portata",
+      "tmetadata" : { },
+      "tname" : "flow-rate",
+      "tunit" : "m³/s"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "69790PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.6572,
+        "y" : 46.70738
+      },
+      "smetadata" : {
+        "name_de" : "EISACK BEI BRIXEN",
+        "name_en" : "EISACK BEI BRIXEN",
+        "name_it" : "ISARCO A BRESSANONE"
+      },
+      "sname" : "ISARCO A BRESSANONE",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Livello idrometrico",
+      "tmetadata" : { },
+      "tname" : "water-level",
+      "tunit" : "cm"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "druso-poste->proma",
+      "sname" : "druso-poste->proma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "tname" : "Bluetooth match",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "siemens->proma",
+      "sname" : "siemens->proma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "tname" : "Bluetooth Count match",
+      "ttype" : "Count"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "59450PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.93472,
+        "y" : 46.81704
+      },
+      "smetadata" : {
+        "name_de" : "AHR BEI ST.GEORGEN",
+        "name_en" : "AHR BEI ST.GEORGEN",
+        "name_it" : "AURINO A S. GIORGIO"
+      },
+      "sname" : "AURINO A S. GIORGIO",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Portata",
+      "tmetadata" : { },
+      "tname" : "flow-rate",
+      "tunit" : "m³/s"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83200MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3128,
+        "y" : 46.4977
+      },
+      "smetadata" : {
+        "name_de" : "Bozen",
+        "name_en" : "Bolzano",
+        "name_it" : "Bolzano"
+      },
+      "sname" : "Bolzano",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Pressione atmosferica",
+      "tmetadata" : { },
+      "tname" : "atmospheric-pressure-reduced",
+      "tunit" : "hPa"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML107->A22_ML103",
+      "sname" : "A22_ML107->A22_ML103",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tname" : "Bluetooth Elapsed time (test)"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "59450PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.93472,
+        "y" : 46.81704
+      },
+      "smetadata" : {
+        "name_de" : "AHR BEI ST.GEORGEN",
+        "name_en" : "AHR BEI ST.GEORGEN",
+        "name_it" : "AURINO A S. GIORGIO"
+      },
+      "sname" : "AURINO A S. GIORGIO",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Livello idrometrico",
+      "tmetadata" : { },
+      "tname" : "water-level",
+      "tunit" : "cm"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "62600MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.8979,
+        "y" : 46.6792
+      },
+      "smetadata" : {
+        "name_de" : "St. Martin in Thurn",
+        "name_en" : "S. Martin de Tor",
+        "name_it" : "S. Martino in Badia"
+      },
+      "sname" : "S. Martino in Badia",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Direzione del vento",
+      "tmetadata" : { },
+      "tname" : "wind-direction",
+      "tunit" : "° "
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML107->A22_ML103",
+      "sname" : "A22_ML107->A22_ML103",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "tname" : "Bluetooth match",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML103->A22_ML107",
+      "sname" : "A22_ML103->A22_ML107",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "tname" : "Bluetooth match",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "meinstein->Agip_Einstein",
+      "sname" : "Agip_Einstein->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tname" : "Bluetooth Elapsed time (test)"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83450PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.30278,
+        "y" : 46.45877
+      },
+      "smetadata" : {
+        "name_de" : "EISACK BEI BOZEN SÜD",
+        "name_en" : "EISACK BEI BOZEN SÜD",
+        "name_it" : "ISARCO A BOLZANO SUD"
+      },
+      "sname" : "ISARCO A BOLZANO SUD",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Livello idrometrico",
+      "tmetadata" : { },
+      "tname" : "water-level",
+      "tunit" : "cm"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Agip_Einstein->meinstein",
+      "sname" : "meinstein->Agip_Einstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Mode for vehicles fast than 100 km/h",
+      "tname" : "Bluetooth Elapsed time greater than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "ms"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "37100MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.4386,
+        "y" : 46.885
+      },
+      "smetadata" : {
+        "name_de" : "Sterzing",
+        "name_en" : "Sterzing",
+        "name_it" : "Vipiteno"
+      },
+      "sname" : "Vipiteno",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Pressione atmosferica",
+      "tmetadata" : { },
+      "tname" : "atmospheric-pressure-reduced",
+      "tunit" : "hPa"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "37100MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.4386,
+        "y" : 46.885
+      },
+      "smetadata" : {
+        "name_de" : "Sterzing",
+        "name_en" : "Sterzing",
+        "name_it" : "Vipiteno"
+      },
+      "sname" : "Vipiteno",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Mean temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature",
+      "ttype" : "mean",
+      "tunit" : "°C"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83200MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3128,
+        "y" : 46.4977
+      },
+      "smetadata" : {
+        "name_de" : "Bozen",
+        "name_en" : "Bolzano",
+        "name_it" : "Bolzano"
+      },
+      "sname" : "Bolzano",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Velocità del vento",
+      "tmetadata" : { },
+      "tname" : "wind-speed",
+      "tunit" : "m/s"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML103->A22_ML107",
+      "sname" : "A22_ML103->A22_ML107",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tname" : "Bluetooth Elapsed time (test)"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML103->A22_ML107",
+      "sname" : "A22_ML103->A22_ML107",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Mode for vehicles fast than 100 km/h",
+      "tname" : "Bluetooth Elapsed time greater than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "ms"
+    }, {
+      "sactive" : false,
+      "savailable" : true,
+      "scode" : "102343",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.388134,
+        "y" : 46.94982
+      },
+      "smetadata" : {
+        "area" : "---"
+      },
+      "sname" : "Brenner",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Precipitation",
+      "tmetadata" : { },
+      "tname" : "precipitation",
+      "ttype" : "total",
+      "tunit" : "mm"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "47400MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 12.1166,
+        "y" : 46.8704
+      },
+      "smetadata" : {
+        "name_de" : "Antholz Obertal",
+        "name_en" : "Antholz Obertal",
+        "name_it" : "Anterselva di Sopra"
+      },
+      "sname" : "Anterselva di Sopra",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Precipitation",
+      "tmetadata" : { },
+      "tname" : "precipitation",
+      "ttype" : "total",
+      "tunit" : "mm"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Maso_Pieve->meinstein",
+      "sname" : "Maso_Pieve->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "tname" : "Bluetooth match",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML107->A22_ML103",
+      "sname" : "A22_ML107->A22_ML103",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Mode for vehicles fast than 100 km/h",
+      "tname" : "Bluetooth Elapsed time greater than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "ms"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "62600MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.8979,
+        "y" : 46.6792
+      },
+      "smetadata" : {
+        "name_de" : "St. Martin in Thurn",
+        "name_en" : "S. Martin de Tor",
+        "name_it" : "S. Martino in Badia"
+      },
+      "sname" : "S. Martino in Badia",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Velocitá raffica",
+      "tmetadata" : { },
+      "tname" : "wind-gust-speed",
+      "tunit" : "m/s"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "62600MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.8979,
+        "y" : 46.6792
+      },
+      "smetadata" : {
+        "name_de" : "St. Martin in Thurn",
+        "name_en" : "S. Martin de Tor",
+        "name_it" : "S. Martino in Badia"
+      },
+      "sname" : "S. Martino in Badia",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Precipitation",
+      "tmetadata" : { },
+      "tname" : "precipitation",
+      "ttype" : "total",
+      "tunit" : "mm"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML107->A22_ML103",
+      "sname" : "A22_ML107->A22_ML103",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "average speed of vehicles faster than 100 km/h",
+      "tname" : "speed greater than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83200MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3128,
+        "y" : 46.4977
+      },
+      "smetadata" : {
+        "name_de" : "Bozen",
+        "name_en" : "Bolzano",
+        "name_it" : "Bolzano"
+      },
+      "sname" : "Bolzano",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "acquisition interval = 10",
+      "tname" : "atmospheric-pressure",
+      "ttype" : "Mittelwerte",
+      "tunit" : "hPa"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML103->A22_ML107",
+      "sname" : "A22_ML103->A22_ML107",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Velocita media dei veicoli",
+      "tname" : "velocita'",
+      "ttype" : "Mean",
+      "tunit" : "km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "37100MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.4386,
+        "y" : 46.885
+      },
+      "smetadata" : {
+        "name_de" : "Sterzing",
+        "name_en" : "Sterzing",
+        "name_it" : "Vipiteno"
+      },
+      "sname" : "Vipiteno",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Velocità del vento",
+      "tmetadata" : { },
+      "tname" : "wind-speed",
+      "tunit" : "m/s"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83450PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.30278,
+        "y" : 46.45877
+      },
+      "smetadata" : {
+        "name_de" : "EISACK BEI BOZEN SÜD",
+        "name_en" : "EISACK BEI BOZEN SÜD",
+        "name_it" : "ISARCO A BOLZANO SUD"
+      },
+      "sname" : "ISARCO A BOLZANO SUD",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "concentrazione solidi sospesi ",
+      "tmetadata" : { },
+      "tname" : "suspended-solids-in-watercourse",
+      "tunit" : "mg/l"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83200MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.3128,
+        "y" : 46.4977
+      },
+      "smetadata" : {
+        "name_de" : "Bozen",
+        "name_en" : "Bolzano",
+        "name_it" : "Bolzano"
+      },
+      "sname" : "Bolzano",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Radiazione globale ",
+      "tmetadata" : { },
+      "tname" : "global-radiation",
+      "tunit" : "W/m²"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Agip_Einstein->meinstein",
+      "sname" : "meinstein->Agip_Einstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "tname" : "Bluetooth Count match",
+      "ttype" : "Count"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "47400MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 12.1166,
+        "y" : 46.8704
+      },
+      "smetadata" : {
+        "name_de" : "Antholz Obertal",
+        "name_en" : "Antholz Obertal",
+        "name_it" : "Anterselva di Sopra"
+      },
+      "sname" : "Anterselva di Sopra",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Velocitá raffica",
+      "tmetadata" : { },
+      "tname" : "wind-gust-speed",
+      "tunit" : "m/s"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "proma->druso-poste",
+      "sname" : "proma->druso-poste",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "tname" : "Bluetooth match",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "62600MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.8979,
+        "y" : 46.6792
+      },
+      "smetadata" : {
+        "name_de" : "St. Martin in Thurn",
+        "name_en" : "S. Martin de Tor",
+        "name_it" : "S. Martino in Badia"
+      },
+      "sname" : "S. Martino in Badia",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Maximum temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature-max",
+      "ttype" : "max",
+      "tunit" : "°C"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "83450PG",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.30278,
+        "y" : 46.45877
+      },
+      "smetadata" : {
+        "name_de" : "EISACK BEI BOZEN SÜD",
+        "name_en" : "EISACK BEI BOZEN SÜD",
+        "name_it" : "ISARCO A BOLZANO SUD"
+      },
+      "sname" : "ISARCO A BOLZANO SUD",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Temperatura acqua",
+      "tmetadata" : { },
+      "tname" : "water-temperature",
+      "tunit" : "°C"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "proma->druso-poste",
+      "sname" : "proma->druso-poste",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "tname" : "Bluetooth Count match",
+      "ttype" : "Count"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Maso_Pieve->meinstein",
+      "sname" : "Maso_Pieve->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tname" : "Bluetooth Elapsed time (test)"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "62600MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.8979,
+        "y" : 46.6792
+      },
+      "smetadata" : {
+        "name_de" : "St. Martin in Thurn",
+        "name_en" : "S. Martin de Tor",
+        "name_it" : "S. Martino in Badia"
+      },
+      "sname" : "S. Martino in Badia",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Durata soleggiamento",
+      "tmetadata" : { },
+      "tname" : "sunshine-duration",
+      "tunit" : "s"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML107->A22_ML103",
+      "sname" : "A22_ML107->A22_ML103",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "tname" : "Bluetooth Count match",
+      "ttype" : "Count"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "meinstein->Agip_Einstein",
+      "sname" : "Agip_Einstein->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Velocita media dei veicoli",
+      "tname" : "velocita'",
+      "ttype" : "Mean",
+      "tunit" : "km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "62600MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.8979,
+        "y" : 46.6792
+      },
+      "smetadata" : {
+        "name_de" : "St. Martin in Thurn",
+        "name_en" : "S. Martin de Tor",
+        "name_it" : "S. Martino in Badia"
+      },
+      "sname" : "S. Martino in Badia",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Umidità relativa",
+      "tmetadata" : { },
+      "tname" : "air-humidity",
+      "tunit" : "%"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "37100MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.4386,
+        "y" : 46.885
+      },
+      "smetadata" : {
+        "name_de" : "Sterzing",
+        "name_en" : "Sterzing",
+        "name_it" : "Vipiteno"
+      },
+      "sname" : "Vipiteno",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Precipitation",
+      "tmetadata" : { },
+      "tname" : "precipitation",
+      "ttype" : "total",
+      "tunit" : "mm"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "47400MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 12.1166,
+        "y" : 46.8704
+      },
+      "smetadata" : {
+        "name_de" : "Antholz Obertal",
+        "name_en" : "Antholz Obertal",
+        "name_it" : "Anterselva di Sopra"
+      },
+      "sname" : "Anterselva di Sopra",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Direzione del vento",
+      "tmetadata" : { },
+      "tname" : "wind-direction",
+      "tunit" : "° "
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "62600MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.8979,
+        "y" : 46.6792
+      },
+      "smetadata" : {
+        "name_de" : "St. Martin in Thurn",
+        "name_en" : "S. Martin de Tor",
+        "name_it" : "S. Martino in Badia"
+      },
+      "sname" : "S. Martino in Badia",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Pressione atmosferica",
+      "tmetadata" : { },
+      "tname" : "atmospheric-pressure-reduced",
+      "tunit" : "hPa"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "47400MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 12.1166,
+        "y" : 46.8704
+      },
+      "smetadata" : {
+        "name_de" : "Antholz Obertal",
+        "name_en" : "Antholz Obertal",
+        "name_it" : "Anterselva di Sopra"
+      },
+      "sname" : "Anterselva di Sopra",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Radiazione globale ",
+      "tmetadata" : { },
+      "tname" : "global-radiation",
+      "tunit" : "W/m²"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "37100MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.4386,
+        "y" : 46.885
+      },
+      "smetadata" : {
+        "name_de" : "Sterzing",
+        "name_en" : "Sterzing",
+        "name_it" : "Vipiteno"
+      },
+      "sname" : "Vipiteno",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Durata soleggiamento",
+      "tmetadata" : { },
+      "tname" : "sunshine-duration",
+      "tunit" : "s"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "druso-poste->proma",
+      "sname" : "druso-poste->proma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Count matches within 15minutes",
+      "tname" : "Bluetooth Count match",
+      "ttype" : "Count"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "druso-poste->proma",
+      "sname" : "druso-poste->proma",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tname" : "Bluetooth Elapsed time (test)"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "47400MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 12.1166,
+        "y" : 46.8704
+      },
+      "smetadata" : {
+        "name_de" : "Antholz Obertal",
+        "name_en" : "Antholz Obertal",
+        "name_it" : "Anterselva di Sopra"
+      },
+      "sname" : "Anterselva di Sopra",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Umidità relativa",
+      "tmetadata" : { },
+      "tname" : "air-humidity",
+      "tunit" : "%"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "47400MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 12.1166,
+        "y" : 46.8704
+      },
+      "smetadata" : {
+        "name_de" : "Antholz Obertal",
+        "name_en" : "Antholz Obertal",
+        "name_it" : "Anterselva di Sopra"
+      },
+      "sname" : "Anterselva di Sopra",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Minimum temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature-min",
+      "ttype" : "min",
+      "tunit" : "°C"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Agip_Einstein->meinstein",
+      "sname" : "meinstein->Agip_Einstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "tname" : "Bluetooth match",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "A22_ML103->A22_ML107",
+      "sname" : "A22_ML103->A22_ML107",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "average speed of vehicles faster than 100 km/h",
+      "tname" : "speed greater than 100 km/h",
+      "ttype" : "Mode",
+      "tunit" : "km/h"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "37100MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 11.4386,
+        "y" : 46.885
+      },
+      "smetadata" : {
+        "name_de" : "Sterzing",
+        "name_en" : "Sterzing",
+        "name_it" : "Vipiteno"
+      },
+      "sname" : "Vipiteno",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Umidità relativa",
+      "tmetadata" : { },
+      "tname" : "air-humidity",
+      "tunit" : "%"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "47400MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 12.1166,
+        "y" : 46.8704
+      },
+      "smetadata" : {
+        "name_de" : "Antholz Obertal",
+        "name_en" : "Antholz Obertal",
+        "name_it" : "Anterselva di Sopra"
+      },
+      "sname" : "Anterselva di Sopra",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Durata soleggiamento",
+      "tmetadata" : { },
+      "tname" : "sunshine-duration",
+      "tunit" : "s"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "47400MS",
+      "scoordinate" : {
+        "srid" : 4326,
+        "x" : 12.1166,
+        "y" : 46.8704
+      },
+      "smetadata" : {
+        "name_de" : "Antholz Obertal",
+        "name_en" : "Antholz Obertal",
+        "name_it" : "Anterselva di Sopra"
+      },
+      "sname" : "Anterselva di Sopra",
+      "sorigin" : "SIAG",
+      "stype" : "MeteoStation",
+      "tdescription" : "Maximum temperature",
+      "tmetadata" : { },
+      "tname" : "air-temperature-max",
+      "ttype" : "max",
+      "tunit" : "°C"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "meinstein->Agip_Einstein",
+      "sname" : "Agip_Einstein->meinstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tdescription" : "Match",
+      "tname" : "Bluetooth match",
+      "ttype" : "Instantaneous"
+    }, {
+      "sactive" : true,
+      "savailable" : true,
+      "scode" : "Agip_Einstein->meinstein",
+      "sname" : "meinstein->Agip_Einstein",
+      "sorigin" : "NOI",
+      "stype" : "LinkStation",
+      "tname" : "Bluetooth Elapsed time (test)"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

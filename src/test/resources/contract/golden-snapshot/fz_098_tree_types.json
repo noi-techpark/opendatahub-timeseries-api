@@ -1,0 +1,159 @@
+{
+  "request" : "GET /tree/*/*?limit=-1&select=tname&where=sorigin.eq.NOI [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tname" : "Bluetooth Count match"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tname" : "Bluetooth Elapsed time (test)"
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tname" : "Bluetooth Elapsed time greater than 100 km/h"
+              },
+              "Bluetooth match" : {
+                "tname" : "Bluetooth match"
+              },
+              "speed greater than 100 km/h" : {
+                "tname" : "speed greater than 100 km/h"
+              },
+              "velocita'" : {
+                "tname" : "velocita'"
+              }
+            }
+          },
+          "A22_ML107->A22_ML103" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tname" : "Bluetooth Count match"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tname" : "Bluetooth Elapsed time (test)"
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tname" : "Bluetooth Elapsed time greater than 100 km/h"
+              },
+              "Bluetooth match" : {
+                "tname" : "Bluetooth match"
+              },
+              "speed greater than 100 km/h" : {
+                "tname" : "speed greater than 100 km/h"
+              },
+              "velocita'" : {
+                "tname" : "velocita'"
+              }
+            }
+          },
+          "Agip_Einstein->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tname" : "Bluetooth Count match"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tname" : "Bluetooth Elapsed time (test)"
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tname" : "Bluetooth Elapsed time greater than 100 km/h"
+              },
+              "Bluetooth match" : {
+                "tname" : "Bluetooth match"
+              },
+              "speed greater than 100 km/h" : {
+                "tname" : "speed greater than 100 km/h"
+              },
+              "velocita'" : {
+                "tname" : "velocita'"
+              }
+            }
+          },
+          "Maso_Pieve->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tname" : "Bluetooth Count match"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tname" : "Bluetooth Elapsed time (test)"
+              },
+              "Bluetooth match" : {
+                "tname" : "Bluetooth match"
+              },
+              "velocita'" : {
+                "tname" : "velocita'"
+              }
+            }
+          },
+          "druso-poste->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tname" : "Bluetooth Count match"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tname" : "Bluetooth Elapsed time (test)"
+              },
+              "Bluetooth match" : {
+                "tname" : "Bluetooth match"
+              }
+            }
+          },
+          "meinstein->Agip_Einstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tname" : "Bluetooth Count match"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tname" : "Bluetooth Elapsed time (test)"
+              },
+              "Bluetooth match" : {
+                "tname" : "Bluetooth match"
+              },
+              "velocita'" : {
+                "tname" : "velocita'"
+              }
+            }
+          },
+          "proma->druso-poste" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tname" : "Bluetooth Count match"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tname" : "Bluetooth Elapsed time (test)"
+              },
+              "Bluetooth match" : {
+                "tname" : "Bluetooth match"
+              }
+            }
+          },
+          "siemens->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tname" : "Bluetooth Count match"
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tname" : "Bluetooth Elapsed time (test)"
+              },
+              "Bluetooth match" : {
+                "tname" : "Bluetooth match"
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

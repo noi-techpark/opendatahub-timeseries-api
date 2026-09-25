@@ -1,0 +1,1902 @@
+{
+  "request" : "GET /tree/ParkingStation/*/latest?limit=-1&where=mvalue.lt.100,mvalue.gt.0&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "103" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "103",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.355115,
+              "y" : 46.497805
+            },
+            "sdatatypes" : {
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:01.164+0000",
+                  "mvalidtime" : "2025-09-18 13:05:00.000+0000",
+                  "mvalue" : 41.8
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-120",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:01.173+0000",
+                  "mvalidtime" : "2025-09-18 13:35:00.000+0000",
+                  "mvalue" : 43.4
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-150",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:01.184+0000",
+                  "mvalidtime" : "2025-09-18 14:05:00.000+0000",
+                  "mvalue" : 42.6
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-180",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:01.193+0000",
+                  "mvalidtime" : "2025-09-18 14:35:00.000+0000",
+                  "mvalue" : 42.2
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-210",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:01.203+0000",
+                  "mvalidtime" : "2025-09-18 15:05:00.000+0000",
+                  "mvalue" : 38.9
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-240",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:01.212+0000",
+                  "mvalidtime" : "2025-09-18 11:35:00.000+0000",
+                  "mvalue" : 25.5
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-30",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:01.222+0000",
+                  "mvalidtime" : "2025-09-18 12:05:00.000+0000",
+                  "mvalue" : 31.7
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-60",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:01.242+0000",
+                  "mvalidtime" : "2025-09-18 12:35:00.000+0000",
+                  "mvalue" : 38.4
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-90",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 403,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Waltherplatz",
+              "name_en" : "Piazza Walther",
+              "name_it" : "Piazza Walther",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "underground",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Piazza Walther"
+            },
+            "sname" : "P03 - Piazza Walther",
+            "sorigin" : "FAMAS",
+            "sparent" : {
+              "pactive" : null,
+              "pavailable" : null,
+              "pcode" : null,
+              "pcoordinate" : null,
+              "pmetadata" : null,
+              "pname" : null,
+              "porigin" : null,
+              "ptype" : null
+            },
+            "stype" : "ParkingStation"
+          },
+          "104" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "104",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.358216,
+              "y" : 46.500551
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "el-parking-free-slot-calculation",
+                    "prname" : "el-parking-free-slot-calculation",
+                    "prversion" : "5e3639893d25043ed0db99ec833ba147849a9ecc"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:00.610+0000",
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000",
+                  "mvalue" : 39
+                } ],
+                "tmetadata" : { },
+                "tname" : "free",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mtransactiontime" : "2025-03-07 11:20:01.347+0000",
+                  "mvalidtime" : "2025-03-07 13:05:00.000+0000",
+                  "mvalue" : 9.7
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-120",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mtransactiontime" : "2025-03-07 11:20:01.354+0000",
+                  "mvalidtime" : "2025-03-07 13:35:00.000+0000",
+                  "mvalue" : 12.2
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-150",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mtransactiontime" : "2025-03-07 11:20:01.359+0000",
+                  "mvalidtime" : "2025-03-07 14:05:00.000+0000",
+                  "mvalue" : 15.2
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-180",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mtransactiontime" : "2025-03-07 11:20:01.365+0000",
+                  "mvalidtime" : "2025-03-07 14:35:00.000+0000",
+                  "mvalue" : 17.6
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-210",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mtransactiontime" : "2025-03-07 11:20:01.371+0000",
+                  "mvalidtime" : "2025-03-07 15:05:00.000+0000",
+                  "mvalue" : 19.1
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-240",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mtransactiontime" : "2025-03-07 11:20:01.405+0000",
+                  "mvalidtime" : "2025-03-07 11:35:00.000+0000",
+                  "mvalue" : 3.2
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-30",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mtransactiontime" : "2025-03-07 11:20:01.411+0000",
+                  "mvalidtime" : "2025-03-07 12:05:00.000+0000",
+                  "mvalue" : 4.8
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-60",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mtransactiontime" : "2025-03-07 11:20:01.418+0000",
+                  "mvalidtime" : "2025-03-07 12:35:00.000+0000",
+                  "mvalue" : 6.9
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-90",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 150,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Luna MoliniStraße",
+              "name_en" : "Luna via Molini",
+              "name_it" : "Luna via Molini it",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "underground",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Luna Via Molini"
+            },
+            "sname" : "P04 - Luna via Molini",
+            "sorigin" : "FAMAS",
+            "sparent" : {
+              "pactive" : null,
+              "pavailable" : null,
+              "pcode" : null,
+              "pcoordinate" : null,
+              "pmetadata" : null,
+              "pname" : null,
+              "porigin" : null,
+              "ptype" : null
+            },
+            "stype" : "ParkingStation"
+          },
+          "105" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "105",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.357255,
+              "y" : 46.498174
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "FreeParkingSlotsCalculation",
+                    "prversion" : "0.1.0"
+                  },
+                  "mtransactiontime" : "2021-06-17 12:50:23.091+0000",
+                  "mvalidtime" : "2021-06-17 12:50:00.000+0000",
+                  "mvalue" : 11
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "skidata",
+                    "prname" : "tr-parking-offstreet-mybestparking",
+                    "prversion" : "8984e2f9e90bed41a40e626c6953b1e0452fef7d"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:43:02.930+0000",
+                  "mvalidtime" : "2026-09-24 11:43:02.000+0000",
+                  "mvalue" : 27
+                } ],
+                "tmetadata" : { },
+                "tname" : "free",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "skidata",
+                    "prname" : "tr-parking-offstreet-mybestparking",
+                    "prversion" : "8984e2f9e90bed41a40e626c6953b1e0452fef7d"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:43:02.930+0000",
+                  "mvalidtime" : "2026-09-24 11:43:02.000+0000",
+                  "mvalue" : 16
+                } ],
+                "tmetadata" : null,
+                "tname" : "free_short_stay",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "dc-parking-MeBo",
+                    "prversion" : "3.0.0"
+                  },
+                  "mtransactiontime" : "2021-06-17 12:50:10.879+0000",
+                  "mvalidtime" : "2021-06-17 12:50:00.000+0000",
+                  "mvalue" : 79
+                }, {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "skidata",
+                    "prname" : "tr-parking-offstreet-mybestparking",
+                    "prversion" : "8984e2f9e90bed41a40e626c6953b1e0452fef7d"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:43:02.930+0000",
+                  "mvalidtime" : "2026-09-24 11:43:02.000+0000",
+                  "mvalue" : 63
+                } ],
+                "tmetadata" : { },
+                "tname" : "occupied",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prlineage" : "skidata",
+                    "prname" : "tr-parking-offstreet-mybestparking",
+                    "prversion" : "8984e2f9e90bed41a40e626c6953b1e0452fef7d"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:43:02.930+0000",
+                  "mvalidtime" : "2026-09-24 11:43:02.000+0000",
+                  "mvalue" : 74
+                } ],
+                "tmetadata" : null,
+                "tname" : "occupied_short_stay",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 13:05:00.000+0000",
+                  "mvalue" : 66.6
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-120",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 13:35:00.000+0000",
+                  "mvalue" : 65
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-150",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 14:05:00.000+0000",
+                  "mvalue" : 63.8
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-180",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 14:35:00.000+0000",
+                  "mvalue" : 61.8
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-210",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 15:05:00.000+0000",
+                  "mvalue" : 60.1
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-240",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000",
+                  "mvalue" : 67.7
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-30",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 12:05:00.000+0000",
+                  "mvalue" : 65.8
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-60",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 12:35:00.000+0000",
+                  "mvalue" : 67.4
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-90",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 13:05:00.000+0000",
+                  "mvalue" : 68.6
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-high-120",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 13:35:00.000+0000",
+                  "mvalue" : 68.5
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-high-150",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 14:05:00.000+0000",
+                  "mvalue" : 67.2
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-high-180",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 14:35:00.000+0000",
+                  "mvalue" : 67.1
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-high-210",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 15:05:00.000+0000",
+                  "mvalue" : 65.2
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-high-240",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000",
+                  "mvalue" : 69.6
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-high-30",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 12:05:00.000+0000",
+                  "mvalue" : 67.6
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-high-60",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 12:35:00.000+0000",
+                  "mvalue" : 71.3
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-high-90",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 13:05:00.000+0000",
+                  "mvalue" : 63.9
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-low-120",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 13:35:00.000+0000",
+                  "mvalue" : 63.2
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-low-150",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 14:05:00.000+0000",
+                  "mvalue" : 61.8
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-low-180",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 14:35:00.000+0000",
+                  "mvalue" : 58.8
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-low-210",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 15:05:00.000+0000",
+                  "mvalue" : 56
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-low-240",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000",
+                  "mvalue" : 65.2
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-low-30",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 12:05:00.000+0000",
+                  "mvalue" : 62.9
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-low-60",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 12:35:00.000+0000",
+                  "mvalue" : 64.2
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-low-90",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:01.494+0000",
+                  "mvalidtime" : "2025-09-18 13:05:00.000+0000",
+                  "mvalue" : 7.1
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-120",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:01.506+0000",
+                  "mvalidtime" : "2025-09-18 13:35:00.000+0000",
+                  "mvalue" : 9.3
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-150",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:01.515+0000",
+                  "mvalidtime" : "2025-09-18 14:05:00.000+0000",
+                  "mvalue" : 12.6
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-180",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:01.524+0000",
+                  "mvalidtime" : "2025-09-18 14:35:00.000+0000",
+                  "mvalue" : 9
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-210",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:01.532+0000",
+                  "mvalidtime" : "2025-09-18 15:05:00.000+0000",
+                  "mvalue" : 9.3
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-240",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:01.541+0000",
+                  "mvalidtime" : "2025-09-18 11:35:00.000+0000",
+                  "mvalue" : 4.4
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-30",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:01.549+0000",
+                  "mvalidtime" : "2025-09-18 12:05:00.000+0000",
+                  "mvalue" : 7.9
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-60",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:01.558+0000",
+                  "mvalidtime" : "2025-09-18 12:35:00.000+0000",
+                  "mvalue" : 7.7
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-90",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 90,
+              "free_limit" : 89,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Laurin",
+              "name_en" : "Laurin",
+              "name_it" : "Laurin",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "openSpace",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "occupancy_limit" : 90,
+              "standard_name" : "Parcheggio Laurin"
+            },
+            "sname" : "P05 - Laurin",
+            "sorigin" : "skidata",
+            "sparent" : {
+              "pactive" : true,
+              "pavailable" : true,
+              "pcode" : "105_facility",
+              "pcoordinate" : {
+                "srid" : 4326,
+                "x" : 11.357255,
+                "y" : 46.498174
+              },
+              "pmetadata" : {
+                "capacity" : 90,
+                "capacity_short_stay" : 90,
+                "capacity_subscribers" : 90,
+                "municipality" : "Bolzano - Bozen",
+                "name_de" : "Laurin",
+                "name_en" : "Laurin",
+                "name_it" : "Laurin",
+                "netex_parking" : {
+                  "charging" : true,
+                  "hazard_prohibited" : true,
+                  "layout" : "openSpace",
+                  "reservation" : "noReservations",
+                  "surveillance" : true,
+                  "type" : "urbanParking",
+                  "vehicletypes" : "allPassengerVehicles"
+                },
+                "standard_name" : "Parcheggio Laurin"
+              },
+              "pname" : "P05 - Laurin",
+              "porigin" : "skidata",
+              "ptype" : "ParkingFacility"
+            },
+            "stype" : "ParkingStation"
+          },
+          "107" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "107",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.351793,
+              "y" : 46.502958
+            },
+            "sdatatypes" : {
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "odh-mobility-dc-parking-offstreet-meranobolzano",
+                    "prversion" : "e85a54a6f012daff13e93cd7f174fc84d45c8db3"
+                  },
+                  "mtransactiontime" : "2025-05-14 17:05:10.921+0000",
+                  "mvalidtime" : "2025-05-14 17:00:54.000+0000",
+                  "mvalue" : 1
+                } ],
+                "tmetadata" : { },
+                "tname" : "occupied",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 145,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Mareccio C. de Medici Strasse",
+              "name_en" : "Mareccio via C. de Medici",
+              "name_it" : "Mareccio via C. de Medici",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "openSpace",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Mareccio"
+            },
+            "sname" : "P07 - Mareccio via C. de Medici",
+            "sorigin" : "FAMAS",
+            "sparent" : {
+              "pactive" : null,
+              "pavailable" : null,
+              "pcode" : null,
+              "pcoordinate" : null,
+              "pmetadata" : null,
+              "pname" : null,
+              "porigin" : null,
+              "ptype" : null
+            },
+            "stype" : "ParkingStation"
+          },
+          "112" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "112",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.33851,
+              "y" : 46.49781
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "el-parking-free-slot-calculation",
+                    "prname" : "el-parking-free-slot-calculation",
+                    "prversion" : "5e3639893d25043ed0db99ec833ba147849a9ecc"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:00.610+0000",
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000",
+                  "mvalue" : 84
+                } ],
+                "tmetadata" : { },
+                "tname" : "free",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmeasurements" : [ {
+                  "mperiod" : 300,
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "tr-parking-offstreet-famas",
+                    "prversion" : "dbb86d650ea2f7c82d1e81a2726b87eb816f6c7e"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:05.119+0000",
+                  "mvalidtime" : "2026-09-24 11:40:00.000+0000",
+                  "mvalue" : 88
+                } ],
+                "tmetadata" : { },
+                "tname" : "occupied",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 13:05:00.000+0000",
+                  "mvalue" : 86.6
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-120",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 13:35:00.000+0000",
+                  "mvalue" : 86.7
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-150",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 14:05:00.000+0000",
+                  "mvalue" : 84.3
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-180",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 14:35:00.000+0000",
+                  "mvalue" : 83.5
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-210",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 15:05:00.000+0000",
+                  "mvalue" : 82.9
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-240",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000",
+                  "mvalue" : 86.5
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-30",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 12:05:00.000+0000",
+                  "mvalue" : 85.5
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-60",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 12:35:00.000+0000",
+                  "mvalue" : 87.1
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-90",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 13:05:00.000+0000",
+                  "mvalue" : 88.3
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-high-120",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 13:35:00.000+0000",
+                  "mvalue" : 89.5
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-high-150",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 14:05:00.000+0000",
+                  "mvalue" : 85.7
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-high-180",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 14:35:00.000+0000",
+                  "mvalue" : 85.4
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-high-210",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 15:05:00.000+0000",
+                  "mvalue" : 84.6
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-high-240",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000",
+                  "mvalue" : 89.8
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-high-30",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 12:05:00.000+0000",
+                  "mvalue" : 87.1
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-high-60",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 12:35:00.000+0000",
+                  "mvalue" : 88.8
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-high-90",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 13:05:00.000+0000",
+                  "mvalue" : 83.5
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-low-120",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 13:35:00.000+0000",
+                  "mvalue" : 84.7
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-low-150",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 14:05:00.000+0000",
+                  "mvalue" : 82.2
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-low-180",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 14:35:00.000+0000",
+                  "mvalue" : 82.7
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-low-210",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 15:05:00.000+0000",
+                  "mvalue" : 80.8
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-low-240",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 11:35:00.000+0000",
+                  "mvalue" : 83.9
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-low-30",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 12:05:00.000+0000",
+                  "mvalue" : 84.4
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-low-60",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mtransactiontime" : "2026-09-24 11:40:01.252+0000",
+                  "mvalidtime" : "2026-09-24 12:35:00.000+0000",
+                  "mvalue" : 83.9
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-low-90",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 174,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Gerichtsplatz",
+              "name_en" : "Piazza Tribunale",
+              "name_it" : "Piazza Tribunale",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "underground",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Tribunale"
+            },
+            "sname" : "P12 – Piazza Tribunale",
+            "sorigin" : "FAMAS",
+            "sparent" : {
+              "pactive" : null,
+              "pavailable" : null,
+              "pcode" : null,
+              "pcoordinate" : null,
+              "pmetadata" : null,
+              "pname" : null,
+              "porigin" : null,
+              "ptype" : null
+            },
+            "stype" : "ParkingStation"
+          },
+          "115" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "115",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.318078,
+              "y" : 46.491603
+            },
+            "sdatatypes" : {
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 7200,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:02.615+0000",
+                  "mvalidtime" : "2025-09-18 13:05:00.000+0000",
+                  "mvalue" : 9.6
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-120",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 9000,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:02.625+0000",
+                  "mvalidtime" : "2025-09-18 13:35:00.000+0000",
+                  "mvalue" : 10
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-150",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 10800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:02.633+0000",
+                  "mvalidtime" : "2025-09-18 14:05:00.000+0000",
+                  "mvalue" : 9.6
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-180",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 12600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:02.642+0000",
+                  "mvalidtime" : "2025-09-18 14:35:00.000+0000",
+                  "mvalue" : 10.4
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-210",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 14400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:02.651+0000",
+                  "mvalidtime" : "2025-09-18 15:05:00.000+0000",
+                  "mvalue" : 10.8
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-240",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 1800,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:02.660+0000",
+                  "mvalidtime" : "2025-09-18 11:35:00.000+0000",
+                  "mvalue" : 7.4
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-30",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:02.670+0000",
+                  "mvalidtime" : "2025-09-18 12:05:00.000+0000",
+                  "mvalue" : 8.9
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-60",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tmeasurements" : [ {
+                  "mperiod" : 5400,
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mtransactiontime" : "2025-09-18 11:20:02.679+0000",
+                  "mvalidtime" : "2025-09-18 12:35:00.000+0000",
+                  "mvalue" : 9.4
+                } ],
+                "tmetadata" : { },
+                "tname" : "parking-forecast-rmse-90",
+                "ttype" : "Forecast",
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 425,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Palasport Reschenstraße",
+              "name_en" : "Palasport via Resia",
+              "name_it" : "Palasport via Resia",
+              "netex_parking" : {
+                "charging" : false,
+                "hazard_prohibited" : true,
+                "layout" : "openSpace",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Palasport"
+            },
+            "sname" : "P15 - Palasport via Resia",
+            "sorigin" : "FAMAS",
+            "sparent" : {
+              "pactive" : null,
+              "pavailable" : null,
+              "pcode" : null,
+              "pcoordinate" : null,
+              "pmetadata" : null,
+              "pname" : null,
+              "porigin" : null,
+              "ptype" : null
+            },
+            "stype" : "ParkingStation"
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

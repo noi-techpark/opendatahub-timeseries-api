@@ -1,0 +1,68 @@
+{
+  "request" : "GET /flat/*/*?limit=-1&select=tunit,ttype&where=or(sorigin.eq.NOI,sorigin.eq.SIAG) [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "ttype" : "min",
+      "tunit" : "°C"
+    }, {
+      "tunit" : "m/s"
+    }, {
+      "ttype" : "Mean",
+      "tunit" : "km/h"
+    }, {
+      "ttype" : "max",
+      "tunit" : "°C"
+    }, {
+      "tunit" : "m³/s"
+    }, {
+      "tunit" : "cm"
+    }, {
+      "ttype" : "total",
+      "tunit" : "mm"
+    }, {
+      "ttype" : "Mode",
+      "tunit" : "ms"
+    }, {
+      "tunit" : "%"
+    }, {
+      "ttype" : "Instantaneous"
+    }, {
+      "ttype" : "Count"
+    }, {
+      "tunit" : "° "
+    }, {
+      "tunit" : "W/m²"
+    }, {
+      "tunit" : "mg/l"
+    }, {
+      "tunit" : "hPa"
+    }, {
+      "tunit" : "°C"
+    }, {
+      "ttype" : "Mode",
+      "tunit" : "km/h"
+    }, {
+      "ttype" : "Sum",
+      "tunit" : "s"
+    }, {
+      "tunit" : "s"
+    }, {
+      "ttype" : "Mittelwerte",
+      "tunit" : "hPa"
+    }, {
+      "ttype" : "mean",
+      "tunit" : "°C"
+    } ],
+    "limit" : -1,
+    "offset" : 0
+  }
+}

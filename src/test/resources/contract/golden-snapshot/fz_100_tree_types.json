@@ -1,0 +1,2226 @@
+{
+  "request" : "GET /tree/*/*?limit=-1&select=tdescription,tmetadata.scale,tunit&where=sactive.eq.true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "Bicyclestationbay" : {
+        "stations" : {
+          "Viale della Stazione - Bahnhofsallee:1" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "usage-state" : {
+                "tdescription" : "usage-state"
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:2" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "usage-state" : {
+                "tdescription" : "usage-state"
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:3" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "usage-state" : {
+                "tdescription" : "usage-state"
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:4" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "usage-state" : {
+                "tdescription" : "usage-state"
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:5" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "usage-state" : {
+                "tdescription" : "usage-state"
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:6" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "usage-state" : {
+                "tdescription" : "usage-state"
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:7" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "usage-state" : {
+                "tdescription" : "usage-state"
+              }
+            }
+          },
+          "Viale della Stazione - Bahnhofsallee:8" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "usage-state" : {
+                "tdescription" : "usage-state"
+              }
+            }
+          }
+        }
+      },
+      "BikeSharingService" : {
+        "stations" : {
+          "sharedmobility-ch:pr:carvelo2go" : {
+            "sdatatypes" : {
+              "free-bike-status" : {
+                "tdescription" : "free floating bike statuses as JSON",
+                "tunit" : ""
+              },
+              "num-docks-available" : {
+                "tdescription" : "number of available docks",
+                "tunit" : ""
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points",
+                "tunit" : ""
+              }
+            }
+          }
+        }
+      },
+      "BikesharingStation" : {
+        "stations" : {
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "free-bays" : {
+                "tdescription" : "free-bays"
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points",
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays"
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3008cf824e352d9854585d3731568fe6e0a042d2" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "free-bays" : {
+                "tdescription" : "free-bays"
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points",
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays"
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3242fbb9d66046deac446c8b89768cd1b6fc9c9f" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "free-bays" : {
+                "tdescription" : "free-bays"
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points",
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays"
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--845248b808d1bf6c6115e471e41ccdca99f09743" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "free-bays" : {
+                "tdescription" : "free-bays"
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points",
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays"
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1b380c7315ed00d73a49269e2feab2e5b0452a00" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "free-bays" : {
+                "tdescription" : "free-bays"
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points",
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays"
+              }
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c4e26e1fd97da55bd1a1fe7ccf67f1b70c69453a" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tdescription" : "availability"
+              },
+              "free-bays" : {
+                "tdescription" : "free-bays"
+              },
+              "number-available" : {
+                "tdescription" : "number of available vehicles / charging points",
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tdescription" : "total-bays"
+              }
+            }
+          }
+        }
+      },
+      "EnvironmentStation" : {
+        "stations" : {
+          "AB2" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tunit" : "mg/m³"
+              },
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2",
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tunit" : "µg/m³"
+              }
+            }
+          },
+          "AB3" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tunit" : "mg/m³"
+              },
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2",
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tunit" : "µg/m³"
+              }
+            }
+          },
+          "BX1" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tunit" : "mg/m³"
+              },
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2",
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tunit" : "µg/m³"
+              },
+              "Radioattività" : {
+                "tunit" : "µSv/h"
+              }
+            }
+          },
+          "BZ4" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2",
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tunit" : "µg/m³"
+              },
+              "nitrogen-dioxide" : {
+                "tdescription" : "Medie orarie",
+                "tunit" : "ug/mc"
+              }
+            }
+          },
+          "BZ5" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tunit" : "mg/m³"
+              },
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2",
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tunit" : "µg/m³"
+              },
+              "nitrogen-dioxide" : {
+                "tdescription" : "Medie orarie",
+                "tunit" : "ug/mc"
+              }
+            }
+          },
+          "BZ6" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2",
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tunit" : "µg/m³"
+              },
+              "Radioattività" : {
+                "tunit" : "µSv/h"
+              },
+              "SO2 - Biossido di zolfo" : {
+                "tunit" : "µg/m³"
+              }
+            }
+          },
+          "CR1" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2",
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tunit" : "µg/m³"
+              },
+              "Radioattività" : {
+                "tunit" : "µSv/h"
+              }
+            }
+          },
+          "LS1" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tdescription" : "European Air Quality Index - NO2",
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tunit" : "µg/m³"
+              }
+            }
+          }
+        }
+      },
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes"
+              },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tdescription" : "Mode for vehicles fast than 100 km/h",
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match"
+              },
+              "speed greater than 100 km/h" : {
+                "tdescription" : "average speed of vehicles faster than 100 km/h",
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "tunit" : "km/h"
+              }
+            }
+          },
+          "A22_ML107->A22_ML103" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes"
+              },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tdescription" : "Mode for vehicles fast than 100 km/h",
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match"
+              },
+              "speed greater than 100 km/h" : {
+                "tdescription" : "average speed of vehicles faster than 100 km/h",
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "tunit" : "km/h"
+              }
+            }
+          },
+          "Agip_Einstein->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes"
+              },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tdescription" : "Mode for vehicles fast than 100 km/h",
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tdescription" : "Match"
+              },
+              "speed greater than 100 km/h" : {
+                "tdescription" : "average speed of vehicles faster than 100 km/h",
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "tunit" : "km/h"
+              }
+            }
+          },
+          "Maso_Pieve->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes"
+              },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth match" : {
+                "tdescription" : "Match"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "tunit" : "km/h"
+              }
+            }
+          },
+          "druso-poste->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes"
+              },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth match" : {
+                "tdescription" : "Match"
+              }
+            }
+          },
+          "meinstein->Agip_Einstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes"
+              },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth match" : {
+                "tdescription" : "Match"
+              },
+              "velocita'" : {
+                "tdescription" : "Velocita media dei veicoli",
+                "tunit" : "km/h"
+              }
+            }
+          },
+          "proma->druso-poste" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes"
+              },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth match" : {
+                "tdescription" : "Match"
+              }
+            }
+          },
+          "siemens->proma" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tdescription" : "Count matches within 15minutes"
+              },
+              "Bluetooth Elapsed time (test)" : { },
+              "Bluetooth match" : {
+                "tdescription" : "Match"
+              }
+            }
+          }
+        }
+      },
+      "MeteoStation" : {
+        "stations" : {
+          "37100MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale ",
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "tunit" : "mm"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento",
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento",
+                "tunit" : "° "
+              },
+              "wind-gust-speed" : {
+                "tdescription" : "Velocitá raffica",
+                "tunit" : "m/s"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "47400MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tunit" : "°C"
+              },
+              "air-temperature-max" : {
+                "tdescription" : "Maximum temperature",
+                "tunit" : "°C"
+              },
+              "air-temperature-min" : {
+                "tdescription" : "Minimum temperature",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale ",
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "tunit" : "mm"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento",
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento",
+                "tunit" : "° "
+              },
+              "wind-gust-speed" : {
+                "tdescription" : "Velocitá raffica",
+                "tunit" : "m/s"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "59450PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tdescription" : "Portata",
+                "tunit" : "m³/s"
+              },
+              "suspended-solids-in-watercourse" : {
+                "tdescription" : "concentrazione solidi sospesi ",
+                "tunit" : "mg/l"
+              },
+              "water-level" : {
+                "tdescription" : "Livello idrometrico",
+                "tunit" : "cm"
+              },
+              "water-temperature" : {
+                "tdescription" : "Temperatura acqua",
+                "tunit" : "°C"
+              }
+            }
+          },
+          "62600MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tunit" : "°C"
+              },
+              "air-temperature-max" : {
+                "tdescription" : "Maximum temperature",
+                "tunit" : "°C"
+              },
+              "air-temperature-min" : {
+                "tdescription" : "Minimum temperature",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale ",
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "tunit" : "mm"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento",
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento",
+                "tunit" : "° "
+              },
+              "wind-gust-speed" : {
+                "tdescription" : "Velocitá raffica",
+                "tunit" : "m/s"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "69790PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tdescription" : "Portata",
+                "tunit" : "m³/s"
+              },
+              "water-level" : {
+                "tdescription" : "Livello idrometrico",
+                "tunit" : "cm"
+              },
+              "water-temperature" : {
+                "tdescription" : "Temperatura acqua",
+                "tunit" : "°C"
+              }
+            }
+          },
+          "83200MS" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tunit" : "°C"
+              },
+              "air-temperature-max" : {
+                "tdescription" : "Maximum temperature",
+                "tunit" : "°C"
+              },
+              "air-temperature-min" : {
+                "tdescription" : "Minimum temperature",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tunit" : "hPa"
+              },
+              "atmospheric-pressure-reduced" : {
+                "tdescription" : "Pressione atmosferica",
+                "tunit" : "hPa"
+              },
+              "global-radiation" : {
+                "tdescription" : "Radiazione globale ",
+                "tunit" : "W/m²"
+              },
+              "precipitation" : {
+                "tdescription" : "Precipitation",
+                "tunit" : "mm"
+              },
+              "rainfall-duration" : {
+                "tunit" : "s"
+              },
+              "sunshine-duration" : {
+                "tdescription" : "Durata soleggiamento",
+                "tunit" : "s"
+              },
+              "wind-direction" : {
+                "tdescription" : "Direzione del vento",
+                "tunit" : "° "
+              },
+              "wind-gust-speed" : {
+                "tdescription" : "Velocitá raffica",
+                "tunit" : "m/s"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "83450PG" : {
+            "sdatatypes" : {
+              "flow-rate" : {
+                "tdescription" : "Portata",
+                "tunit" : "m³/s"
+              },
+              "suspended-solids-in-watercourse" : {
+                "tdescription" : "concentrazione solidi sospesi ",
+                "tunit" : "mg/l"
+              },
+              "water-level" : {
+                "tdescription" : "Livello idrometrico",
+                "tunit" : "cm"
+              },
+              "water-temperature" : {
+                "tdescription" : "Temperatura acqua",
+                "tunit" : "°C"
+              }
+            }
+          }
+        }
+      },
+      "ParkingFacility" : {
+        "stations" : {
+          "105_facility" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots",
+                "tunit" : ""
+              }
+            }
+          },
+          "607440" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots",
+                "tunit" : ""
+              }
+            }
+          },
+          "608612" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots",
+                "tunit" : ""
+              }
+            }
+          },
+          "609883" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots",
+                "tunit" : ""
+              }
+            }
+          }
+        }
+      },
+      "ParkingStation" : {
+        "stations" : {
+          "103" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tunit" : ""
+              }
+            }
+          },
+          "104" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tunit" : ""
+              }
+            }
+          },
+          "105" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots",
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tunit" : ""
+              }
+            }
+          },
+          "107" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tunit" : ""
+              }
+            }
+          },
+          "112" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tunit" : ""
+              }
+            }
+          },
+          "113" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tunit" : ""
+              }
+            }
+          },
+          "115" : {
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tdescription" : "120 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tdescription" : "150 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tdescription" : "180 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tdescription" : "210 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tdescription" : "240 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tdescription" : "30 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tdescription" : "60 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tdescription" : "90 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tdescription" : "optimistic 120 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tdescription" : "optimistic 150 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tdescription" : "optimistic 180 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tdescription" : "optimistic 210 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tdescription" : "optimistic 240 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tdescription" : "optimistic 30 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tdescription" : "optimistic 60 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tdescription" : "optimistic 90 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tdescription" : "conservative 120 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tdescription" : "conservative 150 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tdescription" : "conservative 180 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tdescription" : "conservative 210 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tdescription" : "conservative 240 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tdescription" : "conservative 30 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tdescription" : "conservative 60 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tdescription" : "conservative 90 minutes forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-120" : {
+                "tdescription" : "mean square error of 120 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tdescription" : "mean square error of 150 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tdescription" : "mean square error of 180 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tdescription" : "mean square error of 210 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tdescription" : "mean square error of 240 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tdescription" : "mean square error of 30 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tdescription" : "mean square error of 60 minutes forecasts",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tdescription" : "mean square error of 90 minutes forecasts",
+                "tunit" : ""
+              }
+            }
+          }
+        }
+      },
+      "RWISstation" : {
+        "stations" : {
+          "rwis1" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "rwis3" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "rwis4" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "rwis5" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "rwis6" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tunit" : "m/s"
+              }
+            }
+          },
+          "rwis7" : {
+            "sdatatypes" : {
+              "air-humidity" : {
+                "tdescription" : "Umidità relativa",
+                "tunit" : "%"
+              },
+              "air-temperature" : {
+                "tdescription" : "Mean temperature",
+                "tunit" : "°C"
+              },
+              "atmospheric-pressure" : {
+                "tdescription" : "acquisition interval = 10",
+                "tunit" : "hPa"
+              },
+              "ground-surface-temperature" : {
+                "tdescription" : "acquisition interval = 10",
+                "tunit" : "°C"
+              },
+              "precipitation-intensity" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "type-of-precipitation" : {
+                "tdescription" : "acquisition interval = 10"
+              },
+              "wind-speed" : {
+                "tdescription" : "Velocità del vento",
+                "tunit" : "m/s"
+              }
+            }
+          }
+        }
+      },
+      "Streetstation" : {
+        "stations" : {
+          "CORSO ITALIA / ITALIENALLEE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici",
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo",
+                "tunit" : "g/km/h"
+              }
+            }
+          },
+          "PONTE PALERMO / PALERMOBRCKE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici",
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo",
+                "tunit" : "g/km/h"
+              }
+            }
+          },
+          "PONTE ROMA / ROMBRCKE 1" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici",
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo",
+                "tunit" : "g/km/h"
+              }
+            }
+          },
+          "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici",
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo",
+                "tunit" : "g/km/h"
+              }
+            }
+          },
+          "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici",
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo",
+                "tunit" : "g/km/h"
+              }
+            }
+          },
+          "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici",
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo",
+                "tunit" : "g/km/h"
+              }
+            }
+          },
+          "VIA PALERMO / PALERMOSTRASSE 1" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici",
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo",
+                "tunit" : "g/km/h"
+              }
+            }
+          },
+          "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tdescription" : "Metano",
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tdescription" : "Monossido di carbonio",
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tdescription" : "Anidride carbonica",
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tdescription" : "Composti Organici Volatili",
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tdescription" : "Fuel Consumption",
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tdescription" : "Idrocarburi Policiclici Aromatici",
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tdescription" : "Ammoniaca",
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tdescription" : "Ossidi di azoto",
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tdescription" : "polveri sottili",
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tdescription" : "Polveri Totali Sospese",
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tdescription" : "Ossidi di Zolfo",
+                "tunit" : "g/km/h"
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

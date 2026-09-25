@@ -1,0 +1,150 @@
+{
+  "request" : "GET /tree/EChargingStation/*/latest?limit=300&select=sname,tname,mvalue,mvalidtime,mperiod,prname [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "EChargingStation" : {
+        "stations" : {
+          "AER_00000001" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "dc-emobility-echarging"
+                  },
+                  "mvalidtime" : "2020-01-20 10:10:00.011+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "number-available"
+              }
+            },
+            "sname" : "BZ_FIERA"
+          },
+          "AER_00000005" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-06-13 06:50:00.009+0000",
+                  "mvalue" : 2
+                } ],
+                "tname" : "number-available"
+              }
+            },
+            "sname" : "BZ_CASSARISP_01"
+          },
+          "AER_00000006" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "dc-emobility-echarging"
+                  },
+                  "mvalidtime" : "2019-12-19 09:45:00.014+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "number-available"
+              }
+            },
+            "sname" : "BZ_PMATTEOTTI"
+          },
+          "AER_00000007" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "dc-emobility-echarging"
+                  },
+                  "mvalidtime" : "2020-06-25 13:20:00.002+0000",
+                  "mvalue" : 2
+                } ],
+                "tname" : "number-available"
+              }
+            },
+            "sname" : "BZ_PVITTORIA"
+          },
+          "AER_00000008" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "dc-emobility-echarging"
+                  },
+                  "mvalidtime" : "2019-12-09 12:40:00.010+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "number-available"
+              }
+            },
+            "sname" : "BZ_PMAZZINI"
+          },
+          "AER_00000039" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "dc-emobility-echarging"
+                  },
+                  "mvalidtime" : "2019-11-18 15:05:00.005+0000",
+                  "mvalue" : 2
+                } ],
+                "tname" : "number-available"
+              }
+            },
+            "sname" : "ULTIMO_01"
+          },
+          "AER_00000041" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "dc-emobility-echarging"
+                  },
+                  "mvalidtime" : "2019-10-21 13:45:00.002+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "number-available"
+              }
+            },
+            "sname" : "EGNA_01"
+          },
+          "AER_00000042" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2019-08-05 14:25:00.003+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "number-available"
+              }
+            },
+            "sname" : "BZ_PTE_RESIA_OLD"
+          }
+        }
+      }
+    },
+    "limit" : 300,
+    "offset" : 0
+  }
+}

@@ -1,0 +1,817 @@
+{
+  "request" : "GET /flat/TrafficStreetFactor?limit=100&select=scode,sname,sorigin,scoordinate,smetadata,pcode [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : [ {
+      "scode" : "VIALE DRUSO / DRUSUSALLEE 1 + incrocio via Resia - viale Druso 1",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 257
+      },
+      "sname" : "VIALE DRUSO / DRUSUSALLEE 1 + incrocio via Resia - viale Druso 1"
+    }, {
+      "scode" : "VIALE DRUSO 2 + ponte Talvera",
+      "smetadata" : {
+        "factor" : 1.04,
+        "hv_perc" : 8,
+        "length" : 243
+      },
+      "sname" : "VIALE DRUSO 2 + ponte Talvera"
+    }, {
+      "scode" : "VIALE DRUSO 1 + ponte Talvera",
+      "smetadata" : {
+        "factor" : 1.04,
+        "hv_perc" : 8,
+        "length" : 166
+      },
+      "sname" : "VIALE DRUSO 1 + ponte Talvera"
+    }, {
+      "scode" : "VIA DUCA Di AOSTA 1 + druso-poste",
+      "smetadata" : {
+        "factor" : 0.69,
+        "hv_perc" : 6,
+        "length" : 259
+      },
+      "sname" : "VIA DUCA Di AOSTA 1 + Viale Druso poste"
+    }, {
+      "scode" : "VIALE TRENTO + proma",
+      "smetadata" : {
+        "factor" : 0.37,
+        "hv_perc" : 7,
+        "length" : 1109
+      },
+      "sname" : "VIALE TRENTO + Ponte Roma"
+    }, {
+      "scode" : "VIA SARENTINO / SARNTALER  STRASSE 1 + Sarentino",
+      "smetadata" : {
+        "factor" : 0.86,
+        "hv_perc" : 9,
+        "length" : 375
+      },
+      "sname" : "VIA SARENTINO / SARNTALER  STRASSE 1 + Sarentino"
+    }, {
+      "scode" : "VIA DEL MACELLO 1 + ponte Virgolo",
+      "smetadata" : {
+        "factor" : 0.59,
+        "hv_perc" : 7,
+        "length" : 492
+      },
+      "sname" : "VIA DEL MACELLO 1 + ponte Virgolo"
+    }, {
+      "scode" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 3 + via Einstein 1",
+      "smetadata" : {
+        "factor" : 0.99,
+        "hv_perc" : 9,
+        "length" : 503
+      },
+      "sname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 3 + via Einstein 1"
+    }, {
+      "scode" : "VIA GALILEI + proma",
+      "smetadata" : {
+        "factor" : 1.03,
+        "hv_perc" : 9,
+        "length" : 165
+      },
+      "sname" : "VIA GALILEI + Ponte Roma"
+    }, {
+      "scode" : "VIA CLAUDIA AUGUSTA 3 + incrocio via Duerer - Pfarrhofstrasse",
+      "smetadata" : {
+        "factor" : 0.5,
+        "hv_perc" : 24,
+        "length" : 116
+      },
+      "sname" : "VIA CLAUDIA AUGUSTA 3 + incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "scode" : "VIA CASSA DI RISPARMIO / SPARKASSENSTRASSE + ponte Talvera",
+      "smetadata" : {
+        "factor" : 0.39,
+        "hv_perc" : 7,
+        "length" : 264
+      },
+      "sname" : "VIA CASSA DI RISPARMIO / SPARKASSENSTRASSE + ponte Talvera"
+    }, {
+      "scode" : "VIA RENCIO / RENTSCHER STRASSE + SS12 Cardano",
+      "smetadata" : {
+        "factor" : 0.21,
+        "hv_perc" : 9,
+        "length" : 658
+      },
+      "sname" : "VIA RENCIO / RENTSCHER STRASSE + SS12 Cardano"
+    }, {
+      "scode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 2 + siemens",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 304
+      },
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 2 + Tis"
+    }, {
+      "scode" : "VIA TORRICELLI + via Torricelli",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 338
+      },
+      "sname" : "VIA TORRICELLI + via Torricelli"
+    }, {
+      "scode" : "SP 99 S. GENESIO / LS 99 JENESIEN 3 + S. Genesio",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 930
+      },
+      "sname" : "SP 99 S. GENESIO / LS 99 JENESIEN 3 + S. Genesio"
+    }, {
+      "scode" : "VIA SANT'ANTONIO / ST.-ANTON-STRASSE + Sarentino",
+      "smetadata" : {
+        "factor" : 0.8,
+        "hv_perc" : 9,
+        "length" : 97
+      },
+      "sname" : "VIA SANT'ANTONIO / ST.-ANTON-STRASSE + Sarentino"
+    }, {
+      "scode" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE + galvani",
+      "smetadata" : {
+        "factor" : 0.62,
+        "hv_perc" : 5,
+        "length" : 1198
+      },
+      "sname" : "VIA ALESSANDRO VOLTA / ALESSANDRO-VOLTA-STRASSE + via Galvani"
+    }, {
+      "scode" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 2 + incrocio via Duerer - Pfarrhofstrasse",
+      "smetadata" : {
+        "factor" : 1.07,
+        "hv_perc" : 9,
+        "length" : 445
+      },
+      "sname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 2 + incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "scode" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE + galvani",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 842
+      },
+      "sname" : "VIA VINCENZO LANCIA / VINCENZO-LANCIA-STRASSE + via Galvani"
+    }, {
+      "scode" : "VICOLO FUCINE + via Vittorio Veneto",
+      "smetadata" : {
+        "factor" : 0.06,
+        "hv_perc" : 4,
+        "length" : 217
+      },
+      "sname" : "VICOLO FUCINE + via Vittorio Veneto"
+    }, {
+      "scode" : "VIA ROMA / ROMSTRASSE + via Claudia Augusta 1",
+      "smetadata" : {
+        "factor" : 0.36,
+        "hv_perc" : 9,
+        "length" : 92
+      },
+      "sname" : "VIA ROMA / ROMSTRASSE + via Claudia Augusta 1"
+    }, {
+      "scode" : "VIA GAISMAIR + druso-poste",
+      "smetadata" : {
+        "factor" : 0.6,
+        "hv_perc" : 8,
+        "length" : 197
+      },
+      "sname" : "VIA GAISMAIR + Viale Druso poste"
+    }, {
+      "scode" : "VIALE EUROPA + proma",
+      "smetadata" : {
+        "factor" : 0.53,
+        "hv_perc" : 5,
+        "length" : 1131
+      },
+      "sname" : "VIALE EUROPA + Ponte Roma"
+    }, {
+      "scode" : "VIA VENEZIA + ponte Talvera",
+      "smetadata" : {
+        "factor" : 0.39,
+        "hv_perc" : 9,
+        "length" : 517
+      },
+      "sname" : "VIA VENEZIA + ponte Talvera"
+    }, {
+      "scode" : "VIA EDISON + via Torricelli",
+      "smetadata" : {
+        "factor" : 0.18,
+        "hv_perc" : 15,
+        "length" : 306
+      },
+      "sname" : "VIA EDISON + via Torricelli"
+    }, {
+      "scode" : "VIA RENON / RITTNER STRASSE + ponte Virgolo",
+      "smetadata" : {
+        "factor" : 0.87,
+        "hv_perc" : 9,
+        "length" : 656
+      },
+      "sname" : "VIA RENON / RITTNER STRASSE + ponte Virgolo"
+    }, {
+      "scode" : "VIA GALILEO GALILEI / GALILEO-GALILEI-STRASSE + siemens",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 880
+      },
+      "sname" : "VIA GALILEO GALILEI / GALILEO-GALILEI-STRASSE + Tis"
+    }, {
+      "scode" : "VIA ROMA / ROMSTRASSE 2 + proma",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 214
+      },
+      "sname" : "VIA ROMA / ROMSTRASSE 2 + Ponte Roma"
+    }, {
+      "scode" : "VIA WEGGENSTEIN + Sarentino",
+      "smetadata" : {
+        "factor" : 0.49,
+        "hv_perc" : 3,
+        "length" : 540
+      },
+      "sname" : "VIA WEGGENSTEIN + Sarentino"
+    }, {
+      "scode" : "VIA VITTORIO VENETO / VITTORIO-VENETO-STRASSE + via Vittorio Veneto",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 853
+      },
+      "sname" : "VIA VITTORIO VENETO / VITTORIO-VENETO-STRASSE + via Vittorio Veneto"
+    }, {
+      "scode" : "VIA PALERMO / PALERMOSTRASSE 2 + proma",
+      "smetadata" : {
+        "factor" : 0.69,
+        "hv_perc" : 6,
+        "length" : 318
+      },
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 2 + Ponte Roma"
+    }, {
+      "scode" : "VIA ARMANDO DIAZ / ARMANDO-DIAZ-STRASSE + ponte Talvera",
+      "smetadata" : {
+        "factor" : 0.48,
+        "hv_perc" : 9,
+        "length" : 192
+      },
+      "sname" : "VIA ARMANDO DIAZ / ARMANDO-DIAZ-STRASSE + ponte Talvera"
+    }, {
+      "scode" : "VIA CESARE BATTISTI + ponte Talvera",
+      "smetadata" : {
+        "factor" : 0.05,
+        "hv_perc" : 95,
+        "length" : 439
+      },
+      "sname" : "VIA CESARE BATTISTI + ponte Talvera"
+    }, {
+      "scode" : "VIA DANTE / DANTESTRASSE + ponte Talvera",
+      "smetadata" : {
+        "factor" : 0.39,
+        "hv_perc" : 9,
+        "length" : 298
+      },
+      "sname" : "VIA DANTE / DANTESTRASSE + ponte Talvera"
+    }, {
+      "scode" : "VIA SASSARI 1 + proma",
+      "smetadata" : {
+        "factor" : 0.53,
+        "hv_perc" : 5,
+        "length" : 232
+      },
+      "sname" : "VIA SASSARI 1 + Ponte Roma"
+    }, {
+      "scode" : "VIA PALERMO / PALERMOSTRASSE 1 + proma",
+      "smetadata" : {
+        "factor" : 0.6,
+        "hv_perc" : 9,
+        "length" : 179
+      },
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 1 + Ponte Roma"
+    }, {
+      "scode" : "VIA EVANGELISTA TORRICELLI / EVANGELISTA-TORRICELLI-STRASSE + via Torricelli",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 270
+      },
+      "sname" : "VIA EVANGELISTA TORRICELLI / EVANGELISTA-TORRICELLI-STRASSE + via Torricelli"
+    }, {
+      "scode" : "VIALE DRUSO 4 + incrocio via Resia - viale Druso 1",
+      "smetadata" : {
+        "factor" : 0.89,
+        "hv_perc" : 8,
+        "length" : 260
+      },
+      "sname" : "VIALE DRUSO 4 + incrocio via Resia - viale Druso 1"
+    }, {
+      "scode" : "PONTE VIRGOLO + ponte Virgolo",
+      "smetadata" : {
+        "factor" : 0.29,
+        "hv_perc" : 7,
+        "length" : 113
+      },
+      "sname" : "PONTE VIRGOLO + ponte Virgolo"
+    }, {
+      "scode" : "VIA EBNER + galvani",
+      "smetadata" : {
+        "factor" : 0.13,
+        "hv_perc" : 9,
+        "length" : 418
+      },
+      "sname" : "VIA EBNER + via Galvani"
+    }, {
+      "scode" : "VIA SASSARI 3 + proma",
+      "smetadata" : {
+        "factor" : 0.53,
+        "hv_perc" : 5,
+        "length" : 187
+      },
+      "sname" : "VIA SASSARI 3 + Ponte Roma"
+    }, {
+      "scode" : "SS 42 / SS42 + SS42",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 247
+      },
+      "sname" : "SS 42 / SS42 + SS42"
+    }, {
+      "scode" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 2 + ponte Virgolo",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 7,
+        "length" : 303
+      },
+      "sname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 2 + ponte Virgolo"
+    }, {
+      "scode" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2 + aeinstein",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 434
+      },
+      "sname" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 2 + Agip Einstein"
+    }, {
+      "scode" : "VIA DALMAZIA 1 + proma",
+      "smetadata" : {
+        "factor" : 0.53,
+        "hv_perc" : 4,
+        "length" : 471
+      },
+      "sname" : "VIA DALMAZIA 1 + Ponte Roma"
+    }, {
+      "scode" : "VIA SAN MAURIZIO / MORITZINGER WEG + via Vittorio Veneto",
+      "smetadata" : {
+        "factor" : 1.04,
+        "hv_perc" : 7,
+        "length" : 937
+      },
+      "sname" : "VIA SAN MAURIZIO / MORITZINGER WEG + via Vittorio Veneto"
+    }, {
+      "scode" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1 + aeinstein",
+      "smetadata" : {
+        "factor" : 0.96,
+        "hv_perc" : 9,
+        "length" : 962
+      },
+      "sname" : "LUNGO ISARCO SINISTRO / LINKES EISACKUFER 1 + Agip Einstein"
+    }, {
+      "scode" : "VIALE DRUSO / DRUSUSALLEE 2 + incrocio via Resia - viale Druso 1",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 1410
+      },
+      "sname" : "VIALE DRUSO / DRUSUSALLEE 2 + incrocio via Resia - viale Druso 1"
+    }, {
+      "scode" : "VIA SAN GENESIO / JENESIER WEG + S. Genesio",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 390
+      },
+      "sname" : "VIA SAN GENESIO / JENESIER WEG + S. Genesio"
+    }, {
+      "scode" : "VIA MAYR NUSSER 2 + ponte Virgolo",
+      "smetadata" : {
+        "factor" : 0.29,
+        "hv_perc" : 7,
+        "length" : 69
+      },
+      "sname" : "VIA MAYR NUSSER 2 + ponte Virgolo"
+    }, {
+      "scode" : "VIA MILANO 1 + proma",
+      "smetadata" : {
+        "factor" : 0.51,
+        "hv_perc" : 7,
+        "length" : 879
+      },
+      "sname" : "VIA MILANO 1 + Ponte Roma"
+    }, {
+      "scode" : "PIAZZA GIUSEPPE VERDI / GIUSEPPE-VERDI-PLATZ + ponte Virgolo",
+      "smetadata" : {
+        "factor" : 0.87,
+        "hv_perc" : 9,
+        "length" : 219
+      },
+      "sname" : "PIAZZA GIUSEPPE VERDI / GIUSEPPE-VERDI-PLATZ + ponte Virgolo"
+    }, {
+      "scode" : "PONTE DRUSO / DRUSUSBRCKE + ponte Talvera",
+      "smetadata" : {
+        "factor" : 1.03,
+        "hv_perc" : 9,
+        "length" : 334
+      },
+      "sname" : "PONTE DRUSO / DRUSUSBRCKE + ponte Talvera"
+    }, {
+      "scode" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1 + via Vittorio Veneto",
+      "smetadata" : {
+        "factor" : 1.32,
+        "hv_perc" : 9,
+        "length" : 431
+      },
+      "sname" : "CORSO DELLA LIBERTÀ / FREIHEITSSTRASSE 1 + via Vittorio Veneto"
+    }, {
+      "scode" : "PONTE ROMA / ROMBRCKE 1 + proma",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 207
+      },
+      "sname" : "PONTE ROMA / ROMBRCKE 1 + Ponte Roma"
+    }, {
+      "scode" : "VIA SARENTINO / SARNTALER  STRASSE 2 + Sarentino",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 1229
+      },
+      "sname" : "VIA SARENTINO / SARNTALER  STRASSE 2 + Sarentino"
+    }, {
+      "scode" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE + aeinstein",
+      "smetadata" : {
+        "factor" : 0.69,
+        "hv_perc" : 9,
+        "length" : 795
+      },
+      "sname" : "VIA ENRICO MATTEI / ENRICO-MATTEI-STRASSE + Agip Einstein"
+    }, {
+      "scode" : "VIA TORINO 1 + proma",
+      "smetadata" : {
+        "factor" : 0.51,
+        "hv_perc" : 7,
+        "length" : 315
+      },
+      "sname" : "VIA TORINO 1 + Ponte Roma"
+    }, {
+      "scode" : "SP 99 S. GENESIO / LS 99 JENESIEN 1 + S. Genesio",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 1615
+      },
+      "sname" : "SP 99 S. GENESIO / LS 99 JENESIEN 1 + S. Genesio"
+    }, {
+      "scode" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 1 + via Einstein 1",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 500
+      },
+      "sname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 1 + via Einstein 1"
+    }, {
+      "scode" : "VIA GUGLIELMO MARCONI / GUGLIELMO-MARCONI-STRASSE + ponte Virgolo",
+      "smetadata" : {
+        "factor" : 0.87,
+        "hv_perc" : 9,
+        "length" : 207
+      },
+      "sname" : "VIA GUGLIELMO MARCONI / GUGLIELMO-MARCONI-STRASSE + ponte Virgolo"
+    }, {
+      "scode" : "VIA ROMA / ROMSTRASSE 3 + proma",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 345
+      },
+      "sname" : "VIA ROMA / ROMSTRASSE 3 + Ponte Roma"
+    }, {
+      "scode" : "VIA CASTEL FIRMIANO / SIGMUNDSKRONER STRASSE + SS42",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 776
+      },
+      "sname" : "VIA CASTEL FIRMIANO / SIGMUNDSKRONER STRASSE + SS42"
+    }, {
+      "scode" : "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 1 + galvani",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 754
+      },
+      "sname" : "VIA LUIGI GALVANI / LUIGI-GALVANI-STRASSE 1 + via Galvani"
+    }, {
+      "scode" : "VIA DELL OSPEDALE / SPITALGASSE + ponte Talvera",
+      "smetadata" : {
+        "factor" : 0.39,
+        "hv_perc" : 7,
+        "length" : 88
+      },
+      "sname" : "VIA DELL OSPEDALE / SPITALGASSE + ponte Talvera"
+    }, {
+      "scode" : "VIA CASSA DI RISPARMIO + ponte Talvera",
+      "smetadata" : {
+        "factor" : 0.2,
+        "hv_perc" : 9,
+        "length" : 162
+      },
+      "sname" : "VIA CASSA DI RISPARMIO + ponte Talvera"
+    }, {
+      "scode" : "VIA CLAUDIA AUGUSTA 4 + via Claudia Augusta 1",
+      "smetadata" : {
+        "factor" : 0.36,
+        "hv_perc" : 9,
+        "length" : 462
+      },
+      "sname" : "VIA CLAUDIA AUGUSTA 4 + via Claudia Augusta 1"
+    }, {
+      "scode" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 2 + MEBO",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 480
+      },
+      "sname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 2 + MEBO"
+    }, {
+      "scode" : "S.S. RENON + Renon",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 7,
+        "length" : 2367
+      },
+      "sname" : "S.S. RENON + Renon"
+    }, {
+      "scode" : "VIA MIRAMONTI / REICHRIEGLERWEG + S. Genesio",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 1946
+      },
+      "sname" : "VIA MIRAMONTI / REICHRIEGLERWEG + S. Genesio"
+    }, {
+      "scode" : "VIA MILANO 2 + proma",
+      "smetadata" : {
+        "factor" : 0.51,
+        "hv_perc" : 7,
+        "length" : 272
+      },
+      "sname" : "VIA MILANO 2 + Ponte Roma"
+    }, {
+      "scode" : "VIALE DRUSO 3 + druso-poste",
+      "smetadata" : {
+        "factor" : 0.98,
+        "hv_perc" : 8,
+        "length" : 274
+      },
+      "sname" : "VIALE DRUSO 3 + Viale Druso poste"
+    }, {
+      "scode" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 5 + SS12 Cardano",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 7,
+        "length" : 2575
+      },
+      "sname" : "VIA INNSBRUCK / INNSBRUCKER STRASSE 5 + SS12 Cardano"
+    }, {
+      "scode" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 3 + incrocio via Duerer - Pfarrhofstrasse",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 190
+      },
+      "sname" : "VIA MASO DELLA PIEVE / PFARRHOFSTRASSE 3 + incrocio via Duerer - Pfarrhofstrasse"
+    }, {
+      "scode" : "SS 38 / SS38 + Settequerce",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 565
+      },
+      "sname" : "SS 38 / SS38 + Settequerce"
+    }, {
+      "scode" : "SS 12 / SS12  1 + SS12 Pineta",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 888
+      },
+      "sname" : "SS 12 / SS12  1 + SS12 Pineta"
+    }, {
+      "scode" : "VIA DEL MACELLO 2 + ponte Virgolo",
+      "smetadata" : {
+        "factor" : 0.29,
+        "hv_perc" : 7,
+        "length" : 646
+      },
+      "sname" : "VIA DEL MACELLO 2 + ponte Virgolo"
+    }, {
+      "scode" : "VIA ANTONIO ROSMINI / ANTONIO-ROSMINI-STRASSE + ponte Talvera",
+      "smetadata" : {
+        "factor" : 0.39,
+        "hv_perc" : 7,
+        "length" : 321
+      },
+      "sname" : "VIA ANTONIO ROSMINI / ANTONIO-ROSMINI-STRASSE + ponte Talvera"
+    }, {
+      "scode" : "VIA DALMAZIA 2 + proma",
+      "smetadata" : {
+        "factor" : 0.53,
+        "hv_perc" : 4,
+        "length" : 232
+      },
+      "sname" : "VIA DALMAZIA 2 + Ponte Roma"
+    }, {
+      "scode" : "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN + Autostrada Fittizzia",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : null,
+        "length" : 18183
+      },
+      "sname" : "AUTOSTRADA DEL BRENNERO / BRENNERAUTOBAHN + Autostrada Fittizzia"
+    }, {
+      "scode" : "VIA RESIA 2 + incrocio via Resia - viale Druso 1",
+      "smetadata" : {
+        "factor" : 0.84,
+        "hv_perc" : 8,
+        "length" : 554
+      },
+      "sname" : "VIA RESIA 2 + incrocio via Resia - viale Druso 1"
+    }, {
+      "scode" : "VIA ROMA / ROMSTRASSE 1 + via Claudia Augusta 1",
+      "smetadata" : {
+        "factor" : 0.36,
+        "hv_perc" : 9,
+        "length" : 219
+      },
+      "sname" : "VIA ROMA / ROMSTRASSE 1 + via Claudia Augusta 1"
+    }, {
+      "scode" : "VIA ALESSANDRIA + proma",
+      "smetadata" : {
+        "factor" : 0.53,
+        "hv_perc" : 5,
+        "length" : 480
+      },
+      "sname" : "VIA ALESSANDRIA + Ponte Roma"
+    }, {
+      "scode" : "SVINCOLO VIA GALILEI 2 + ponte Virgolo",
+      "smetadata" : {
+        "factor" : 0.13,
+        "hv_perc" : 9,
+        "length" : 130
+      },
+      "sname" : "SVINCOLO VIA GALILEI 2 + ponte Virgolo"
+    }, {
+      "scode" : "VIA GIUSEPPE GARIBALDI / GIUSEPPE-GARIBALDI-STRASSE + ponte Virgolo",
+      "smetadata" : {
+        "factor" : 0.87,
+        "hv_perc" : 9,
+        "length" : 294
+      },
+      "sname" : "VIA GIUSEPPE GARIBALDI / GIUSEPPE-GARIBALDI-STRASSE + ponte Virgolo"
+    }, {
+      "scode" : "VIA DEL MACELLO 4 + ponte Virgolo",
+      "smetadata" : {
+        "factor" : 0.59,
+        "hv_perc" : 7,
+        "length" : 317
+      },
+      "sname" : "VIA DEL MACELLO 4 + ponte Virgolo"
+    }, {
+      "scode" : "VIA OLTRADIGE / UEBERETSCHER STRASSE + SS42",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 953
+      },
+      "sname" : "VIA OLTRADIGE / UEBERETSCHER STRASSE + SS42"
+    }, {
+      "scode" : "SP 99 S. GENESIO / LS 99 JENESIEN 2 + S. Genesio",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 430
+      },
+      "sname" : "SP 99 S. GENESIO / LS 99 JENESIEN 2 + S. Genesio"
+    }, {
+      "scode" : "VIA LORENZ BHLER / LORENZ-BHLER-STRASSE + Settequerce",
+      "smetadata" : {
+        "factor" : 1.53,
+        "hv_perc" : 7,
+        "length" : 728
+      },
+      "sname" : "VIA LORENZ BHLER / LORENZ-BHLER-STRASSE + Settequerce"
+    }, {
+      "scode" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1 + siemens",
+      "smetadata" : {
+        "factor" : 1.09,
+        "hv_perc" : 9,
+        "length" : 322
+      },
+      "sname" : "VIA ANTONIO PACINOTTI / ANTONIO-PACINOTTI-STRASSE 1 + Tis"
+    }, {
+      "scode" : "VIA TALVERA + ponte Talvera",
+      "smetadata" : {
+        "factor" : 0.2,
+        "hv_perc" : 9,
+        "length" : 237
+      },
+      "sname" : "VIA TALVERA + ponte Talvera"
+    }, {
+      "scode" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 3 + MEBO",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 2388
+      },
+      "sname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 3 + MEBO"
+    }, {
+      "scode" : "VIA PALERMO / PALERMOSTRASSE 3 + proma",
+      "smetadata" : {
+        "factor" : 0.6,
+        "hv_perc" : 8,
+        "length" : 300
+      },
+      "sname" : "VIA PALERMO / PALERMOSTRASSE 3 + Ponte Roma"
+    }, {
+      "scode" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 1 + MEBO",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 3209
+      },
+      "sname" : "VIA ME-BO MERANO BOLZANO / ME-BO MERAN BOZEN 1 + MEBO"
+    }, {
+      "scode" : "VIA CLAUDIA AUGUSTA 2 + via Claudia Augusta 1",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 125
+      },
+      "sname" : "VIA CLAUDIA AUGUSTA 2 + via Claudia Augusta 1"
+    }, {
+      "scode" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 4 + SS12 Pineta",
+      "smetadata" : {
+        "factor" : 1,
+        "hv_perc" : 9,
+        "length" : 2988
+      },
+      "sname" : "VIA ALBERT EINSTEIN / ALBERT-EINSTEIN-STRASSE 4 + SS12 Pineta"
+    }, {
+      "scode" : "VIA GIOSUÈ CARDUCCI / GIOSUÈ-CARDUCCI-STRASSE + ponte Talvera",
+      "smetadata" : {
+        "factor" : 0.39,
+        "hv_perc" : 7,
+        "length" : 274
+      },
+      "sname" : "VIA GIOSUÈ CARDUCCI / GIOSUÈ-CARDUCCI-STRASSE + ponte Talvera"
+    }, {
+      "scode" : "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 2 + ponte Talvera",
+      "smetadata" : {
+        "factor" : 0.48,
+        "hv_perc" : 9,
+        "length" : 829
+      },
+      "sname" : "VIA LUIGI CADORNA / LUIGI-CADORNA-STRASSE 2 + ponte Talvera"
+    }, {
+      "scode" : "PONTE SANT'ANTONIO / ST.-ANTON-BRCKE + Sarentino",
+      "smetadata" : {
+        "factor" : 0.8,
+        "hv_perc" : 9,
+        "length" : 156
+      },
+      "sname" : "PONTE SANT'ANTONIO / ST.-ANTON-BRCKE + Sarentino"
+    }, {
+      "scode" : "VIALE TRIESTE + proma",
+      "smetadata" : {
+        "factor" : 0.41,
+        "hv_perc" : 9,
+        "length" : 599
+      },
+      "sname" : "VIALE TRIESTE + Ponte Roma"
+    } ],
+    "limit" : 100,
+    "offset" : 0
+  }
+}

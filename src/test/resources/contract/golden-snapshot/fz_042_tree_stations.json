@@ -1,0 +1,577 @@
+{
+  "request" : "GET /tree/*?limit=-1&select=smetadata.name_en&where=sorigin.eq.NOI&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "A22_ML103->Torricelli" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "A22_ML107->A22_ML103" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Agip_Einstein->Torricelli" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Agip_Einstein->meinstein" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Arginale_Palermo->Arginale_Resia" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Arginale_Palermo->Milano_Palermo" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Arginale_Resia->A22_ML103" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Arginale_Resia->Agip_Einstein" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Arginale_Resia->Milano_Resia" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Druso_Palermo->Milano_Palermo" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Druso_Palermo->Milano_Resia" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Druso_Palermo->druso-poste" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Galilei_Lancia->Galilei_Virgolo" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Galilei_Lancia->galvani" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Galilei_Palermo->Galilei_Lancia" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Galilei_Roma->Maso_Pieve" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Galilei_Roma->caugusta" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Galilei_Roma->druso-poste" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Galilei_Virgolo->Galilei_Roma" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Galilei_Virgolo->Galleria_Virgolo" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Galleria_Virgolo->Arginale_Palermo" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Galleria_Virgolo->P_Campiglio" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Galleria_Virgolo->proma" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Maso_Pieve->meinstein" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Milano_Palermo->Druso_Palermo" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Milano_Palermo->Milano_Resia" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Milano_Palermo->Roma_Firenze" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Milano_Resia->Druso_Palermo" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Milano_Resia->Milano_Palermo" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "P_Campiglio->Arginale_Resia" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "P_Campiglio->Galleria_Virgolo" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Roma_Firenze->Milano_Palermo" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Roma_Firenze->druso-poste" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Roma_Firenze->proma" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "TN-Acquaviva->TN-Sud" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "TN-Cadino->TN-Nord" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "TN-Maccani->TN-Nord" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "TN-Maccani->TN-Sud" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "TN-Nord->TN-Cadino" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "TN-Nord->TN-Maccani" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "TN-Sud->TN-Acquaviva" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "TN-Sud->TN-Maccani" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Torricelli->P_Campiglio" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "Torricelli->siemens" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "caugusta->Galilei_Roma" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "caugusta->Maso_Pieve" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "cavour->scena-leichter" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "cavour->schaffer-winkel" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "cavour->sinigo" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "cavour->terme_est" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "corse_cappuccini->galilei" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "corse_cappuccini->wolf" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "corse_cappuccini->wolf-franziskus" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "druso-poste->Druso_Palermo" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "druso-poste->Galilei_Roma" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "druso-poste->Roma_Firenze" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "druso-poste->proma" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "galilei->corse_cappuccini" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "galvani->Galilei_Lancia" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "galvani->meinstein" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "goethe-alpini->hofer" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "goethe_ospedale->hofer" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "goethe_ospedale->sinigo" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "goethe_ospedale->stazione" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "goethe_ospedale->wolf-franziskus" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "hofer->goethe-alpini" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "hofer->goethe_ospedale" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "huber->liberta-corse" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "huber->mazzini" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "liberta-corse->corse_cappuccini" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "liberta-corse->huber" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "liberta-corse->mazzini" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "liberta-corse->terme_ovest" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "mazzini->huber" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "mazzini->ponte_rezia" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "mazzini->stazione" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "meinstein->Agip_Einstein" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "meinstein->Maso_Pieve" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "meinstein->galvani" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "petrarca->ponte_rezia" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "piave-palade->piave_matteotti" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "piave-palade->zuegg-palade" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "piave_matteotti->piave-palade" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "piave_matteotti->roma_nord" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "ponte_rezia->mazzini" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "ponte_rezia->petrarca" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "proma->Roma_Firenze" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "proma->druso-poste" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "roma_nord->roma_sud" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "roma_nord->terme_est" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "roma_sud->roma_nord" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "roma_sud->sinigo" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "scena-leichter->cavour" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "schaffer-winkel->cavour" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "siemens->Galilei_Palermo" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "siemens->proma" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "sinigo->cavour" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "sinigo->goethe_ospedale" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "sinigo->roma_sud" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "stazione->goethe_ospedale" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "stazione->mazzini" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "terme_est->terme_ovest" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "terme_ovest->liberta-corse" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "terme_ovest->piave_matteotti" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "terme_ovest->zuegg-palade" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "wolf->corse_cappuccini" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "wolf-franziskus->corse_cappuccini" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "wolf-franziskus->goethe_ospedale" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "zuegg-palade->piave-palade" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          },
+          "zuegg-palade->terme_est" : {
+            "smetadata" : {
+              "name_en" : null
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

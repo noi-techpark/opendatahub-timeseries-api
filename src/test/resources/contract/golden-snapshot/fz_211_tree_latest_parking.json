@@ -1,0 +1,1876 @@
+{
+  "request" : "GET /tree/ParkingStation/*/latest?limit=-1&select=mprovenance,tunit,ttype&where=mvalue.gt.10&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingStation" : {
+        "stations" : {
+          "102" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : null,
+                    "prname" : null,
+                    "prversion" : null
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              }
+            },
+            "sparent" : { }
+          },
+          "103" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "el-parking-free-slot-calculation",
+                    "prname" : "el-parking-free-slot-calculation",
+                    "prversion" : "5e3639893d25043ed0db99ec833ba147849a9ecc"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "tr-parking-offstreet-famas",
+                    "prversion" : "dbb86d650ea2f7c82d1e81a2726b87eb816f6c7e"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              }
+            },
+            "sparent" : { }
+          },
+          "104" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "el-parking-free-slot-calculation",
+                    "prname" : "el-parking-free-slot-calculation",
+                    "prversion" : "5e3639893d25043ed0db99ec833ba147849a9ecc"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "tr-parking-offstreet-famas",
+                    "prversion" : "dbb86d650ea2f7c82d1e81a2726b87eb816f6c7e"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c27a0cc9741eb0b59d9545db0a02ea53e72f1de1"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              }
+            },
+            "sparent" : { }
+          },
+          "105" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "FreeParkingSlotsCalculation",
+                    "prversion" : "0.1.0"
+                  },
+                  "mvalue" : null
+                }, {
+                  "mprovenance" : {
+                    "prlineage" : "skidata",
+                    "prname" : "tr-parking-offstreet-mybestparking",
+                    "prversion" : "8984e2f9e90bed41a40e626c6953b1e0452fef7d"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "skidata",
+                    "prname" : "tr-parking-offstreet-mybestparking",
+                    "prversion" : "8984e2f9e90bed41a40e626c6953b1e0452fef7d"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "dc-parking-MeBo",
+                    "prversion" : "3.0.0"
+                  },
+                  "mvalue" : null
+                }, {
+                  "mprovenance" : {
+                    "prlineage" : "skidata",
+                    "prname" : "tr-parking-offstreet-mybestparking",
+                    "prversion" : "8984e2f9e90bed41a40e626c6953b1e0452fef7d"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "skidata",
+                    "prname" : "tr-parking-offstreet-mybestparking",
+                    "prversion" : "8984e2f9e90bed41a40e626c6953b1e0452fef7d"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              }
+            },
+            "sparent" : { }
+          },
+          "107" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "NOI",
+                    "prname" : "odh-mobility-el-parking-free-slot-calculation",
+                    "prversion" : "6615d5c5c6303cb9200b71e03a9f2a9955bb98d8"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              }
+            },
+            "sparent" : { }
+          },
+          "112" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "el-parking-free-slot-calculation",
+                    "prname" : "el-parking-free-slot-calculation",
+                    "prversion" : "5e3639893d25043ed0db99ec833ba147849a9ecc"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "tr-parking-offstreet-famas",
+                    "prversion" : "dbb86d650ea2f7c82d1e81a2726b87eb816f6c7e"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              }
+            },
+            "sparent" : { }
+          },
+          "113" : {
+            "sdatatypes" : {
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "tr-parking-offstreet-famas",
+                    "prversion" : "2443b394901abde157e7331d845cf66d3459408f"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              }
+            },
+            "sparent" : { }
+          },
+          "115" : {
+            "sdatatypes" : {
+              "free" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "el-parking-free-slot-calculation",
+                    "prname" : "el-parking-free-slot-calculation",
+                    "prversion" : "5e3639893d25043ed0db99ec833ba147849a9ecc"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "FAMAS",
+                    "prname" : "tr-parking-offstreet-famas",
+                    "prversion" : "dbb86d650ea2f7c82d1e81a2726b87eb816f6c7e"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "parking-forecast-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-high-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-120" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-150" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-180" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-30" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-60" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-low-90" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "c22ba2420e57ffc61bc3a1af961599cf5ab1b271"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-210" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              },
+              "parking-forecast-rmse-240" : {
+                "tmeasurements" : [ {
+                  "mprovenance" : {
+                    "prlineage" : "STA",
+                    "prname" : "odh-mobility-dc-parking-forecast",
+                    "prversion" : "fe14d8e616226a5f5c48d27da07256e5df29cf48"
+                  },
+                  "mvalue" : null
+                } ],
+                "ttype" : "Forecast",
+                "tunit" : ""
+              }
+            },
+            "sparent" : { }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

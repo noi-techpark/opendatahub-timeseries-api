@@ -1,0 +1,1122 @@
+{
+  "request" : "GET /tree/*/*?limit=-1&select=tmetadata.scale,tunit,pactive,pcoordinate&where=scode.re.%22%5E%5BA-M%5D%22&shownull=true [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "BikesharingStation" : {
+        "stations" : {
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--33150e8ef8c952030277c63eec20b5e9ea6c76d3" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "free-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Mz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3008cf824e352d9854585d3731568fe6e0a042d2" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "free-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5ND9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--3242fbb9d66046deac446c8b89768cd1b6fc9c9f" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "free-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5NT9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--845248b808d1bf6c6115e471e41ccdca99f09743" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "free-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nj9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--1b380c7315ed00d73a49269e2feab2e5b0452a00" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "free-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "BAh7CEkiCGdpZAY6BkVUSSIsZ2lkOi8vYmt3L1NoYXJpbmdTdGF0aW9uLzE5Nz9leHBpcmVzX2luBjsAVEkiDHB1cnBvc2UGOwBUSSIMZGVmYXVsdAY7AFRJIg9leHBpcmVzX2F0BjsAVDA=--c4e26e1fd97da55bd1a1fe7ccf67f1b70c69453a" : {
+            "sdatatypes" : {
+              "availability" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "free-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              },
+              "total-bays" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          }
+        }
+      },
+      "EChargingPlug" : {
+        "stations" : {
+          "AER_00000001-1" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              }
+            },
+            "sparent" : {
+              "pactive" : false,
+              "pcoordinate" : {
+                "srid" : 4326,
+                "x" : 11.326185,
+                "y" : 46.473003
+              }
+            }
+          },
+          "AER_00000001-2" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              }
+            },
+            "sparent" : {
+              "pactive" : false,
+              "pcoordinate" : {
+                "srid" : 4326,
+                "x" : 11.326185,
+                "y" : 46.473003
+              }
+            }
+          },
+          "AER_00000006-2" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              }
+            },
+            "sparent" : {
+              "pactive" : false,
+              "pcoordinate" : {
+                "srid" : 4326,
+                "x" : 11.337837,
+                "y" : 46.4905
+              }
+            }
+          },
+          "AER_00000039-1" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              }
+            },
+            "sparent" : {
+              "pactive" : false,
+              "pcoordinate" : {
+                "srid" : 4326,
+                "x" : 10.955608,
+                "y" : 46.52789
+              }
+            }
+          },
+          "AER_00000039-2" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              }
+            },
+            "sparent" : {
+              "pactive" : false,
+              "pcoordinate" : {
+                "srid" : 4326,
+                "x" : 10.955608,
+                "y" : 46.52789
+              }
+            }
+          },
+          "AER_00000041-1" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              }
+            },
+            "sparent" : {
+              "pactive" : false,
+              "pcoordinate" : {
+                "srid" : 4326,
+                "x" : 11.271506,
+                "y" : 46.314846
+              }
+            }
+          },
+          "AER_00000041-2" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              }
+            },
+            "sparent" : {
+              "pactive" : false,
+              "pcoordinate" : {
+                "srid" : 4326,
+                "x" : 11.271506,
+                "y" : 46.314846
+              }
+            }
+          },
+          "AER_00000042-1" : {
+            "sdatatypes" : {
+              "echarging-plug-status" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              }
+            },
+            "sparent" : {
+              "pactive" : false,
+              "pcoordinate" : {
+                "srid" : 4326,
+                "x" : 11.323925,
+                "y" : 46.481113
+              }
+            }
+          }
+        }
+      },
+      "EChargingStation" : {
+        "stations" : {
+          "AER_00000001" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "AER_00000005" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "AER_00000006" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "AER_00000007" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "AER_00000008" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "AER_00000039" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "AER_00000041" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "AER_00000042" : {
+            "sdatatypes" : {
+              "number-available" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          }
+        }
+      },
+      "EnvironmentStation" : {
+        "stations" : {
+          "AB2" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "mg/m³"
+              },
+              "EAQI-NO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "AB3" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "mg/m³"
+              },
+              "EAQI-NO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "BX1" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "mg/m³"
+              },
+              "EAQI-NO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "Radioattività" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µSv/h"
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "BZ4" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "nitrogen-dioxide" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "ug/mc"
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "BZ5" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "mg/m³"
+              },
+              "EAQI-NO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "nitrogen-dioxide" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "ug/mc"
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "BZ6" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "Radioattività" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µSv/h"
+              },
+              "SO2 - Biossido di zolfo" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "CR1" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "Radioattività" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µSv/h"
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "LS1" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : ""
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "O3 - Ozono" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "µg/m³"
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          }
+        }
+      },
+      "LinkStation" : {
+        "stations" : {
+          "A22_ML103->A22_ML107" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "speed greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "km/h"
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "A22_ML107->A22_ML103" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "speed greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "km/h"
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "Agip_Einstein->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "ms"
+              },
+              "Bluetooth match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "speed greater than 100 km/h" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "km/h"
+              },
+              "velocita'" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "km/h"
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          },
+          "Maso_Pieve->meinstein" : {
+            "sdatatypes" : {
+              "Bluetooth Count match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "Bluetooth Elapsed time (test)" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "Bluetooth match" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : null
+              },
+              "velocita'" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "km/h"
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          }
+        }
+      },
+      "Streetstation" : {
+        "stations" : {
+          "CORSO ITALIA / ITALIENALLEE" : {
+            "sdatatypes" : {
+              "CH4" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "g/km/h"
+              },
+              "CO" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "g/km/h"
+              },
+              "CO2" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "g/km/h"
+              },
+              "COV" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "g/km/h"
+              },
+              "FC" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "g/km/h"
+              },
+              "IPA" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "g/km/h"
+              },
+              "NH3" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "g/km/h"
+              },
+              "NOX" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "g/km/h"
+              },
+              "PM10" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "g/km/h"
+              },
+              "PTS" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "g/km/h"
+              },
+              "S02" : {
+                "tmetadata" : {
+                  "scale" : null
+                },
+                "tunit" : "g/km/h"
+              }
+            },
+            "sparent" : {
+              "pactive" : null,
+              "pcoordinate" : null
+            }
+          }
+        }
+      }
+    },
+    "limit" : -1,
+    "offset" : 0
+  }
+}

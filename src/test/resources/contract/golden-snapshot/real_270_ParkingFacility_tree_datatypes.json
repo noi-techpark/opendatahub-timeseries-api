@@ -1,0 +1,283 @@
+{
+  "request" : "GET /tree/ParkingFacility/*?limit=200 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "ParkingFacility" : {
+        "stations" : {
+          "105_facility" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "105_facility",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.357255,
+              "y" : 46.498174
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmetadata" : { },
+                "tname" : "free",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tname" : "free_short_stay",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots",
+                "tname" : "free_subscribers",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmetadata" : { },
+                "tname" : "occupied",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tname" : "occupied_short_stay",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots",
+                "tname" : "occupied_subscribers",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 90,
+              "capacity_short_stay" : 90,
+              "capacity_subscribers" : 90,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Laurin",
+              "name_en" : "Laurin",
+              "name_it" : "Laurin",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "openSpace",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Laurin"
+            },
+            "sname" : "P05 - Laurin",
+            "sorigin" : "skidata",
+            "stype" : "ParkingFacility"
+          },
+          "607440" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "607440",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.650498,
+              "y" : 46.713708
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmetadata" : { },
+                "tname" : "free",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tname" : "free_short_stay",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots",
+                "tname" : "free_subscribers",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmetadata" : { },
+                "tname" : "occupied",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tname" : "occupied_short_stay",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots",
+                "tname" : "occupied_subscribers",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "municipality" : "Bressanone – Brixen",
+              "standard_name" : "Parcheggio Stazione Bressanone"
+            },
+            "sname" : "Parcheggio Stazione Bressanone",
+            "sorigin" : "skidata",
+            "stype" : "ParkingFacility"
+          },
+          "608612" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "608612",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.927622,
+              "y" : 46.792815
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmetadata" : { },
+                "tname" : "free",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tname" : "free_short_stay",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots",
+                "tname" : "free_subscribers",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmetadata" : { },
+                "tname" : "occupied",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tname" : "occupied_short_stay",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots",
+                "tname" : "occupied_subscribers",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 240,
+              "capacity_short_stay" : 240,
+              "capacity_subscribers" : 240,
+              "municipality" : "Brunico – Bruneck",
+              "standard_name" : "Parcheggio Stazione Brunico"
+            },
+            "sname" : "Parcheggio Stazione Brunico",
+            "sorigin" : "skidata",
+            "stype" : "ParkingFacility"
+          },
+          "609883" : {
+            "sactive" : true,
+            "savailable" : true,
+            "scode" : "609883",
+            "scoordinate" : {
+              "srid" : 4326,
+              "x" : 11.35497,
+              "y" : 46.49458
+            },
+            "sdatatypes" : {
+              "free" : {
+                "tdescription" : "free",
+                "tmetadata" : { },
+                "tname" : "free",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "free_short_stay" : {
+                "tdescription" : "Amount of free 'short stay' parking slots",
+                "tname" : "free_short_stay",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "free_subscribers" : {
+                "tdescription" : "Amount of free 'subscribers' parking slots",
+                "tname" : "free_subscribers",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied" : {
+                "tdescription" : "occupied",
+                "tmetadata" : { },
+                "tname" : "occupied",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied_short_stay" : {
+                "tdescription" : "Amount of occupied 'short stay' parking slots",
+                "tname" : "occupied_short_stay",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              },
+              "occupied_subscribers" : {
+                "tdescription" : "Amount of occupied 'subscribers' parking slots",
+                "tname" : "occupied_subscribers",
+                "ttype" : "Instantaneous",
+                "tunit" : ""
+              }
+            },
+            "smetadata" : {
+              "capacity" : 514,
+              "capacity_short_stay" : 514,
+              "capacity_subscribers" : 514,
+              "municipality" : "Bolzano - Bozen",
+              "name_de" : "Waltherpark",
+              "name_en" : "Waltherpark",
+              "name_it" : "Waltherpark",
+              "netex_parking" : {
+                "charging" : true,
+                "hazard_prohibited" : true,
+                "layout" : "covered",
+                "reservation" : "noReservations",
+                "surveillance" : true,
+                "type" : "urbanParking",
+                "vehicletypes" : "allPassengerVehicles"
+              },
+              "standard_name" : "Parcheggio Waltherpark"
+            },
+            "sname" : "Parcheggio Waltherpark",
+            "sorigin" : "skidata",
+            "stype" : "ParkingFacility"
+          }
+        }
+      }
+    },
+    "limit" : 200,
+    "offset" : 0
+  }
+}

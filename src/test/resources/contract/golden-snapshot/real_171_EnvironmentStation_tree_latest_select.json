@@ -1,0 +1,667 @@
+{
+  "request" : "GET /tree/EnvironmentStation/*/latest?limit=300&select=sname,tname,mvalue,mvalidtime,mperiod,prname [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "EnvironmentStation" : {
+        "stations" : {
+          "AB2" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "dc-appabz-opendata"
+                  },
+                  "mvalidtime" : "2020-08-26 08:00:00.000+0000",
+                  "mvalue" : 0.2127
+                } ],
+                "tname" : "CO - Monossido di carbonio"
+              },
+              "EAQI-NO2" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "el-air-quality-rating"
+                  },
+                  "mvalidtime" : "2026-09-24 08:00:00.000+0000",
+                  "mvalue" : "good"
+                } ],
+                "tname" : "EAQI-NO2"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 17.539
+                } ],
+                "tname" : "NO2 - Ossidi di azoto"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 35.53
+                } ],
+                "tname" : "O3 - Ozono"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 10.08
+                } ],
+                "tname" : "PM10 - Polveri sottili"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 10.08
+                } ],
+                "tname" : "PM10 - Polveri sottili (OMS)"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 6.8383
+                } ],
+                "tname" : "PM2.5 - Polveri sottili"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 6.8383
+                } ],
+                "tname" : "PM2.5 - Polveri sottili (2030)"
+              }
+            },
+            "sname" : "A22 Sud - Binnenland, Ora"
+          },
+          "AB3" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "dc-appabz-opendata"
+                  },
+                  "mvalidtime" : "2020-08-26 08:00:00.000+0000",
+                  "mvalue" : 0.2185
+                } ],
+                "tname" : "CO - Monossido di carbonio"
+              },
+              "EAQI-NO2" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "el-air-quality-rating"
+                  },
+                  "mvalidtime" : "2026-09-24 08:00:00.000+0000",
+                  "mvalue" : "good"
+                } ],
+                "tname" : "EAQI-NO2"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 19.5158
+                } ],
+                "tname" : "NO2 - Ossidi di azoto"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 08:00:00.000+0000",
+                  "mvalue" : 20.3433
+                } ],
+                "tname" : "O3 - Ozono"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 12.9683
+                } ],
+                "tname" : "PM10 - Polveri sottili"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 12.9683
+                } ],
+                "tname" : "PM10 - Polveri sottili (OMS)"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 6.9217
+                } ],
+                "tname" : "PM2.5 - Polveri sottili"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 6.9217
+                } ],
+                "tname" : "PM2.5 - Polveri sottili (2030)"
+              }
+            },
+            "sname" : "A22 Nord-Bx sud - Depuratore, Bx"
+          },
+          "BX1" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "dc-appabz-opendata"
+                  },
+                  "mvalidtime" : "2020-08-26 08:00:00.000+0000",
+                  "mvalue" : 0.203
+                } ],
+                "tname" : "CO - Monossido di carbonio"
+              },
+              "EAQI-NO2" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "el-air-quality-rating"
+                  },
+                  "mvalidtime" : "2026-09-24 08:00:00.000+0000",
+                  "mvalue" : "good"
+                } ],
+                "tname" : "EAQI-NO2"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 15.5795
+                } ],
+                "tname" : "NO2 - Ossidi di azoto"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 38.9867
+                } ],
+                "tname" : "O3 - Ozono"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 11.1417
+                } ],
+                "tname" : "PM10 - Polveri sottili"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 11.1417
+                } ],
+                "tname" : "PM10 - Polveri sottili (OMS)"
+              },
+              "Radioattività" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-01-26 16:00:00.000+0000",
+                  "mvalue" : 0.13
+                } ],
+                "tname" : "Radioattività"
+              }
+            },
+            "sname" : "Bressanone - Villa Adele - Viale Ratisbona"
+          },
+          "BZ4" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "el-air-quality-rating"
+                  },
+                  "mvalidtime" : "2026-09-24 08:00:00.000+0000",
+                  "mvalue" : "good"
+                } ],
+                "tname" : "EAQI-NO2"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 20.9505
+                } ],
+                "tname" : "NO2 - Ossidi di azoto"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 15.5917
+                } ],
+                "tname" : "PM10 - Polveri sottili"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 15.5917
+                } ],
+                "tname" : "PM10 - Polveri sottili (OMS)"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 8.185
+                } ],
+                "tname" : "PM2.5 - Polveri sottili"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 8.185
+                } ],
+                "tname" : "PM2.5 - Polveri sottili (2030)"
+              },
+              "nitrogen-dioxide" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-05-14 02:00:00.000+0000",
+                  "mvalue" : 8.502
+                } ],
+                "tname" : "nitrogen-dioxide"
+              }
+            },
+            "sname" : "Bolzano 4 - Via C.Augusta"
+          },
+          "BZ5" : {
+            "sdatatypes" : {
+              "CO - Monossido di carbonio" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 0.2958
+                } ],
+                "tname" : "CO - Monossido di carbonio"
+              },
+              "EAQI-NO2" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "el-air-quality-rating"
+                  },
+                  "mvalidtime" : "2026-09-24 08:00:00.000+0000",
+                  "mvalue" : "good"
+                } ],
+                "tname" : "EAQI-NO2"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 23.8679
+                } ],
+                "tname" : "NO2 - Ossidi di azoto"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 15.3417
+                } ],
+                "tname" : "PM10 - Polveri sottili"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 15.3417
+                } ],
+                "tname" : "PM10 - Polveri sottili (OMS)"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 7.9333
+                } ],
+                "tname" : "PM2.5 - Polveri sottili"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 7.9333
+                } ],
+                "tname" : "PM2.5 - Polveri sottili (2030)"
+              },
+              "nitrogen-dioxide" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "Delta migration-script from V1 to V2"
+                  },
+                  "mvalidtime" : "2018-05-14 02:00:00.000+0000",
+                  "mvalue" : 11.5485
+                } ],
+                "tname" : "nitrogen-dioxide"
+              }
+            },
+            "sname" : "Bolzano 5 - Piazza Adriano"
+          },
+          "BZ6" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "el-air-quality-rating"
+                  },
+                  "mvalidtime" : "2026-09-24 08:00:00.000+0000",
+                  "mvalue" : "good"
+                } ],
+                "tname" : "EAQI-NO2"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 20.3097
+                } ],
+                "tname" : "NO2 - Ossidi di azoto"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 36.98
+                } ],
+                "tname" : "O3 - Ozono"
+              },
+              "Radioattività" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-01-26 15:00:00.000+0000",
+                  "mvalue" : 0.12
+                } ],
+                "tname" : "Radioattività"
+              },
+              "SO2 - Biossido di zolfo" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 2.3674
+                } ],
+                "tname" : "SO2 - Biossido di zolfo"
+              }
+            },
+            "sname" : "Bolzano 6 - Via Amba Alagi giardino"
+          },
+          "CR1" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "el-air-quality-rating"
+                  },
+                  "mvalidtime" : "2020-03-17 16:00:00.000+0000",
+                  "mvalue" : "good"
+                } ],
+                "tname" : "EAQI-NO2"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "dc-appabz-opendata"
+                  },
+                  "mvalidtime" : "2020-03-17 16:00:00.000+0000",
+                  "mvalue" : 9.4548
+                } ],
+                "tname" : "NO2 - Ossidi di azoto"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "dc-appabz-opendata"
+                  },
+                  "mvalidtime" : "2020-03-17 16:00:00.000+0000",
+                  "mvalue" : 77.58
+                } ],
+                "tname" : "O3 - Ozono"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "dc-appabz-opendata"
+                  },
+                  "mvalidtime" : "2020-03-17 16:00:00.000+0000",
+                  "mvalue" : 22.1833
+                } ],
+                "tname" : "PM10 - Polveri sottili"
+              },
+              "Radioattività" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "dc-appabz-opendata"
+                  },
+                  "mvalidtime" : "2020-07-30 06:00:00.000+0000",
+                  "mvalue" : 0
+                } ],
+                "tname" : "Radioattività"
+              }
+            },
+            "sname" : "Cortina ssdV - Strada del Vino"
+          },
+          "LS1" : {
+            "sdatatypes" : {
+              "EAQI-NO2" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "el-air-quality-rating"
+                  },
+                  "mvalidtime" : "2026-09-24 08:00:00.000+0000",
+                  "mvalue" : "good"
+                } ],
+                "tname" : "EAQI-NO2"
+              },
+              "NO2 - Ossidi di azoto" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 14.1275
+                } ],
+                "tname" : "NO2 - Ossidi di azoto"
+              },
+              "O3 - Ozono" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 42.91
+                } ],
+                "tname" : "O3 - Ozono"
+              },
+              "PM10 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 11.6017
+                } ],
+                "tname" : "PM10 - Polveri sottili"
+              },
+              "PM10 - Polveri sottili (OMS)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 11.6017
+                } ],
+                "tname" : "PM10 - Polveri sottili (OMS)"
+              },
+              "PM2.5 - Polveri sottili" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 6.39
+                } ],
+                "tname" : "PM2.5 - Polveri sottili"
+              },
+              "PM2.5 - Polveri sottili (2030)" : {
+                "tmeasurements" : [ {
+                  "mperiod" : 3600,
+                  "mprovenance" : {
+                    "prname" : "odh-mobility-dc-environment-appa-bz-opendata"
+                  },
+                  "mvalidtime" : "2026-09-24 09:00:00.000+0000",
+                  "mvalue" : 6.39
+                } ],
+                "tname" : "PM2.5 - Polveri sottili (2030)"
+              }
+            },
+            "sname" : "Laives - Via Galizia"
+          }
+        }
+      }
+    },
+    "limit" : 300,
+    "offset" : 0
+  }
+}

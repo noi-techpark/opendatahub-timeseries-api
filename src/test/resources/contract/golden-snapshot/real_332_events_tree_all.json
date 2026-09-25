@@ -1,0 +1,1908 @@
+{
+  "request" : "GET /tree,event/*?limit=500 [none]",
+  "status" : 200,
+  "headers" : {
+    "cache-control" : "no-cache, no-store, max-age=0, must-revalidate",
+    "content-type" : "application/json;charset=UTF-8",
+    "x-content-type-options" : "nosniff",
+    "x-frame-options" : "DENY",
+    "x-rate-limit-limit" : "1000",
+    "x-rate-limit-policy" : "Anonymous"
+  },
+  "body" : {
+    "data" : {
+      "PROVINCE_BZ" : {
+        "eventseries" : {
+          "0229259f-6a33-514c-b3ae-5dd03affb20b" : {
+            "events" : {
+              "11751008-255e-59ab-9caa-6309dab864a5" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.30706463, 46.452268224, 11.30706463, 46.452268224 ],
+                    "coordinates" : [ 11.30706463, 46.452268224 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2979301",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "0229259f-6a33-514c-b3ae-5dd03affb20b",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 15:40:01.113+0000",
+                "evuuid" : "11751008-255e-59ab-9caa-6309dab864a5"
+              },
+              "1d5f50f0-3ee0-5795-87df-db9eab490c56" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.30706463, 46.452268224, 11.30706463, 46.452268224 ],
+                    "coordinates" : [ 11.30706463, 46.452268224 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2979301",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "0229259f-6a33-514c-b3ae-5dd03affb20b",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 15:30:00.616+0000",
+                "evuuid" : "1d5f50f0-3ee0-5795-87df-db9eab490c56"
+              },
+              "46c50205-2bbc-5f72-b116-fc707f3637d6" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.30706463, 46.452268224, 11.30706463, 46.452268224 ],
+                    "coordinates" : [ 11.30706463, 46.452268224 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2979301",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "0229259f-6a33-514c-b3ae-5dd03affb20b",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 16:20:00.745+0000",
+                "evuuid" : "46c50205-2bbc-5f72-b116-fc707f3637d6"
+              },
+              "65838162-1a5a-5b2c-bbc9-1ef50d9dd9c1" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.30706463, 46.452268224, 11.30706463, 46.452268224 ],
+                    "coordinates" : [ 11.30706463, 46.452268224 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2979301",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "0229259f-6a33-514c-b3ae-5dd03affb20b",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 13:00:00.801+0000",
+                "evuuid" : "65838162-1a5a-5b2c-bbc9-1ef50d9dd9c1"
+              },
+              "7b3c0508-f058-573e-a098-50f583c54e2d" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.30706463, 46.452268224, 11.30706463, 46.452268224 ],
+                    "coordinates" : [ 11.30706463, 46.452268224 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2979301",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "0229259f-6a33-514c-b3ae-5dd03affb20b",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 16:30:00.726+0000",
+                "evuuid" : "7b3c0508-f058-573e-a098-50f583c54e2d"
+              },
+              "9d9d9dcf-b89b-582e-9327-1e13c02d51fd" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.30706463, 46.452268224, 11.30706463, 46.452268224 ],
+                    "coordinates" : [ 11.30706463, 46.452268224 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2979301",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "0229259f-6a33-514c-b3ae-5dd03affb20b",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 10:00:00.665+0000",
+                "evuuid" : "9d9d9dcf-b89b-582e-9327-1e13c02d51fd"
+              },
+              "acda87f5-2c30-5a28-80af-492d2ff23f06" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.30706463, 46.452268224, 11.30706463, 46.452268224 ],
+                    "coordinates" : [ 11.30706463, 46.452268224 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2979301",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "0229259f-6a33-514c-b3ae-5dd03affb20b",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 17:30:00.778+0000",
+                "evuuid" : "acda87f5-2c30-5a28-80af-492d2ff23f06"
+              },
+              "d37f1dcd-5674-5894-a9f5-d5790a11b867" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.30706463, 46.452268224, 11.30706463, 46.452268224 ],
+                    "coordinates" : [ 11.30706463, 46.452268224 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2979301",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "0229259f-6a33-514c-b3ae-5dd03affb20b",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 08:50:00.834+0000",
+                "evuuid" : "d37f1dcd-5674-5894-a9f5-d5790a11b867"
+              },
+              "e959dedb-2a3d-5fb1-9a96-1510f67acaac" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.30706463, 46.452268224, 11.30706463, 46.452268224 ],
+                    "coordinates" : [ 11.30706463, 46.452268224 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2979301",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "0229259f-6a33-514c-b3ae-5dd03affb20b",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 09:10:02.820+0000",
+                "evuuid" : "e959dedb-2a3d-5fb1-9a96-1510f67acaac"
+              },
+              "ec68c24d-50c4-5e5b-bcf8-6c5fb357fccb" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.30706463, 46.452268224, 11.30706463, 46.452268224 ],
+                    "coordinates" : [ 11.30706463, 46.452268224 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2979301",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "0229259f-6a33-514c-b3ae-5dd03affb20b",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 11:30:01.331+0000",
+                "evuuid" : "ec68c24d-50c4-5e5b-bcf8-6c5fb357fccb"
+              },
+              "fce24917-31c3-51ee-a4b8-cfdcfca421a9" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.30706463, 46.452268224, 11.30706463, 46.452268224 ],
+                    "coordinates" : [ 11.30706463, 46.452268224 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2979301",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "0229259f-6a33-514c-b3ae-5dd03affb20b",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 10:30:01.042+0000",
+                "evuuid" : "fce24917-31c3-51ee-a4b8-cfdcfca421a9"
+              }
+            }
+          },
+          "12992ffe-dfcf-5e5c-bb71-ab4cbfccd5e1" : {
+            "events" : {
+              "a9d94fcf-b174-595a-907f-4f866058960e" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.175144329, 46.234950637, 11.175144329, 46.234950637 ],
+                    "coordinates" : [ 11.175144329, 46.234950637 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2965511",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "12992ffe-dfcf-5e5c-bb71-ab4cbfccd5e1",
+                "evstart" : "2025-10-12 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-12 14:30:01.347+0000",
+                "evuuid" : "a9d94fcf-b174-595a-907f-4f866058960e"
+              },
+              "b297d7ea-eefe-5378-a115-36a25513a35a" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.175144329, 46.234950637, 11.175144329, 46.234950637 ],
+                    "coordinates" : [ 11.175144329, 46.234950637 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2965511",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "12992ffe-dfcf-5e5c-bb71-ab4cbfccd5e1",
+                "evstart" : "2025-10-13 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 11:10:00.771+0000",
+                "evuuid" : "b297d7ea-eefe-5378-a115-36a25513a35a"
+              },
+              "ecf5b577-fdc4-5724-beb4-5246ab526c53" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.175144329, 46.234950637, 11.175144329, 46.234950637 ],
+                    "coordinates" : [ 11.175144329, 46.234950637 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2965511",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "12992ffe-dfcf-5e5c-bb71-ab4cbfccd5e1",
+                "evstart" : "2025-10-13 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 10:40:00.799+0000",
+                "evuuid" : "ecf5b577-fdc4-5724-beb4-5246ab526c53"
+              }
+            }
+          },
+          "177b9398-f35b-5021-a4bb-bb5bd7829ac1" : {
+            "events" : {
+              "7f74615d-b864-52fc-bde5-d2406038d722" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.668936511, 46.778872977, 11.668936511, 46.778872977 ],
+                    "coordinates" : [ 11.668936511, 46.778872977 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2987701",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "177b9398-f35b-5021-a4bb-bb5bd7829ac1",
+                "evstart" : "2025-10-10 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 08:50:01.263+0000",
+                "evuuid" : "7f74615d-b864-52fc-bde5-d2406038d722"
+              }
+            }
+          },
+          "4210adf9-cf7c-584e-8c53-f581d8441bb2" : {
+            "events" : {
+              "0c5615b8-16ea-528a-8269-c23ebe72dc6e" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.683379913, 46.809523307, 11.683379913, 46.809523307 ],
+                    "coordinates" : [ 11.683379913, 46.809523307 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2993501",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "4210adf9-cf7c-584e-8c53-f581d8441bb2",
+                "evstart" : "2025-10-12 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-12 09:10:01.026+0000",
+                "evuuid" : "0c5615b8-16ea-528a-8269-c23ebe72dc6e"
+              },
+              "caba4c77-29eb-5f5f-97cb-9b6219f92014" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.683379913, 46.809523307, 11.683379913, 46.809523307 ],
+                    "coordinates" : [ 11.683379913, 46.809523307 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2993501",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "4210adf9-cf7c-584e-8c53-f581d8441bb2",
+                "evstart" : "2025-10-12 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-12 09:40:01.208+0000",
+                "evuuid" : "caba4c77-29eb-5f5f-97cb-9b6219f92014"
+              }
+            }
+          },
+          "510e3b9b-f230-55c0-8780-d38b39842222" : {
+            "events" : {
+              "ed375609-2c66-5847-8fb9-e7400aad592c" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 10.843819403, 44.757566767, 10.843819403, 44.757566767 ],
+                    "coordinates" : [ 10.843819403, 44.757566767 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2802901",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "510e3b9b-f230-55c0-8780-d38b39842222",
+                "evstart" : "2025-10-13 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 05:50:00.609+0000",
+                "evuuid" : "ed375609-2c66-5847-8fb9-e7400aad592c"
+              }
+            }
+          },
+          "5150e06d-50d5-5fd9-8f24-45f2649393ad" : {
+            "events" : {
+              "0902b72c-05b2-52e1-a10e-b8b36e3d9c4d" : {
+                "evcategory" : "Speciale | Sonder_Fahrbverbot in Stadtzentren",
+                "evdescription" : "",
+                "evend" : "2025-10-12 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.358142175, 46.496616967, 11.358142175, 46.496616967 ],
+                    "coordinates" : [ 11.358142175, 46.496616967 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2972501",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "5150e06d-50d5-5fd9-8f24-45f2649393ad",
+                "evstart" : "2025-10-10 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-12 09:10:01.127+0000",
+                "evuuid" : "0902b72c-05b2-52e1-a10e-b8b36e3d9c4d"
+              }
+            }
+          },
+          "5623c2e2-753f-5e00-80a7-61a86aa425e5" : {
+            "events" : {
+              "a45a417a-865f-559c-8bd5-db5213e923c4" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.12329986, 46.678229622, 11.12329986, 46.678229622 ],
+                    "coordinates" : [ 11.12329986, 46.678229622 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "674001",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "5623c2e2-753f-5e00-80a7-61a86aa425e5",
+                "evstart" : "2025-10-12 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-12 09:40:01.166+0000",
+                "evuuid" : "a45a417a-865f-559c-8bd5-db5213e923c4"
+              }
+            }
+          },
+          "5a7e1942-e87c-56a1-a9b1-13b51b25cdac" : {
+            "events" : {
+              "eb04057c-d7bf-5100-b35c-58bed040ea28" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.111592264, 46.046846939, 11.111592264, 46.046846939 ],
+                    "coordinates" : [ 11.111592264, 46.046846939 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2747601",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "5a7e1942-e87c-56a1-a9b1-13b51b25cdac",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 08:50:00.829+0000",
+                "evuuid" : "eb04057c-d7bf-5100-b35c-58bed040ea28"
+              }
+            }
+          },
+          "5b104295-af7b-5485-afaa-e11d82794f0f" : {
+            "events" : {
+              "0dde065a-9f3f-5ee8-8e0b-84c719ff83a0" : {
+                "evcategory" : "intralci viabilità in e fuori Alto Adige | Verkehrsbehinderung für Zonen und aus. Südt._Baustelle",
+                "evdescription" : "",
+                "evend" : "2025-11-28 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 10.890750778, 46.626457867, 10.890750778, 46.626457867 ],
+                    "coordinates" : [ 10.890750778, 46.626457867 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2789801",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "5b104295-af7b-5485-afaa-e11d82794f0f",
+                "evstart" : "2025-03-04 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 05:10:00.524+0000",
+                "evuuid" : "0dde065a-9f3f-5ee8-8e0b-84c719ff83a0"
+              }
+            }
+          },
+          "5c50f014-043d-5b20-86de-160786b5629a" : {
+            "events" : {
+              "181dff75-86ea-5af2-8cfa-2307a9c14711" : {
+                "evcategory" : "intralci viabilità in e fuori Alto Adige | Verkehrsbehinderung für Zonen und aus. Südt._Baustelle",
+                "evdescription" : "",
+                "evend" : "2025-10-15 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.298319052, 46.3609526, 11.298319052, 46.3609526 ],
+                    "coordinates" : [ 11.298319052, 46.3609526 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2818401",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "5c50f014-043d-5b20-86de-160786b5629a",
+                "evstart" : "2025-10-14 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 12:50:00.578+0000",
+                "evuuid" : "181dff75-86ea-5af2-8cfa-2307a9c14711"
+              }
+            }
+          },
+          "692e4984-df35-5e1c-8b95-ddec3c72d76e" : {
+            "events" : {
+              "2925f99d-d251-5403-be8a-14007ca3528a" : {
+                "evcategory" : "intralci viabilità in e fuori Alto Adige | Verkehrsbehinderung für Zonen und aus. Südt._Baustelle",
+                "evdescription" : "",
+                "evend" : "2025-10-15 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.298319052, 46.3609526, 11.298319052, 46.3609526 ],
+                    "coordinates" : [ 11.298319052, 46.3609526 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2818412",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "692e4984-df35-5e1c-8b95-ddec3c72d76e",
+                "evstart" : "2025-10-14 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 12:50:01.317+0000",
+                "evuuid" : "2925f99d-d251-5403-be8a-14007ca3528a"
+              }
+            }
+          },
+          "7e63032e-c447-5f6b-bc83-38410253cdf0" : {
+            "events" : {
+              "4ec39621-3403-523b-9ff4-56b1ea0e2c71" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Unfall",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.111495855, 46.046952496, 11.111495855, 46.046952496 ],
+                    "coordinates" : [ 11.111495855, 46.046952496 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2797201",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "7e63032e-c447-5f6b-bc83-38410253cdf0",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 08:40:00.605+0000",
+                "evuuid" : "4ec39621-3403-523b-9ff4-56b1ea0e2c71"
+              },
+              "6031474b-5daf-5fb1-a79b-55ba6b094ff5" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Unfall",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.111495855, 46.046952496, 11.111495855, 46.046952496 ],
+                    "coordinates" : [ 11.111495855, 46.046952496 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2797201",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "7e63032e-c447-5f6b-bc83-38410253cdf0",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 09:10:02.460+0000",
+                "evuuid" : "6031474b-5daf-5fb1-a79b-55ba6b094ff5"
+              },
+              "81393fbb-b1ee-5d1b-b311-2149937ba20f" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_frei befahrbar",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.111495855, 46.046952496, 11.111495855, 46.046952496 ],
+                    "coordinates" : [ 11.111495855, 46.046952496 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2797201",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "7e63032e-c447-5f6b-bc83-38410253cdf0",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 15:30:00.578+0000",
+                "evuuid" : "81393fbb-b1ee-5d1b-b311-2149937ba20f"
+              },
+              "cf8cf257-3342-52bd-aa71-eefba45c64f7" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Unfall",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.111495855, 46.046952496, 11.111495855, 46.046952496 ],
+                    "coordinates" : [ 11.111495855, 46.046952496 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2797201",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "7e63032e-c447-5f6b-bc83-38410253cdf0",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 09:40:01.754+0000",
+                "evuuid" : "cf8cf257-3342-52bd-aa71-eefba45c64f7"
+              },
+              "e9aa4553-78be-58df-9f66-5658ac4671b7" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.111495855, 46.046952496, 11.111495855, 46.046952496 ],
+                    "coordinates" : [ 11.111495855, 46.046952496 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2797201",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "7e63032e-c447-5f6b-bc83-38410253cdf0",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 15:20:00.634+0000",
+                "evuuid" : "e9aa4553-78be-58df-9f66-5658ac4671b7"
+              }
+            }
+          },
+          "7ff1ed0e-fe5e-549f-806b-e2fe227eaf1b" : {
+            "events" : {
+              "9d8eb2fa-2d82-5a6f-a242-61f1234c0495" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_kurzfristige oder zeitweilige Sperre",
+                "evdescription" : "",
+                "evend" : "2025-10-17 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.50196884, 46.996281239, 11.50196884, 46.996281239 ],
+                    "coordinates" : [ 11.50196884, 46.996281239 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "678401",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "7ff1ed0e-fe5e-549f-806b-e2fe227eaf1b",
+                "evstart" : "2025-10-13 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 05:20:00.782+0000",
+                "evuuid" : "9d8eb2fa-2d82-5a6f-a242-61f1234c0495"
+              }
+            }
+          },
+          "82958415-42b9-5801-b0d5-26145ec8edbb" : {
+            "events" : {
+              "2a2203b5-7de9-5b61-b80f-0aa51f200985" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Unfall",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.028385021, 45.904042315, 11.028385021, 45.904042315 ],
+                    "coordinates" : [ 11.028385021, 45.904042315 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2711501",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "82958415-42b9-5801-b0d5-26145ec8edbb",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 10:00:00.710+0000",
+                "evuuid" : "2a2203b5-7de9-5b61-b80f-0aa51f200985"
+              },
+              "7b58d6f3-6ff8-502c-989c-20176400b362" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Unfall",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.028385021, 45.904042315, 11.028385021, 45.904042315 ],
+                    "coordinates" : [ 11.028385021, 45.904042315 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2711501",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "82958415-42b9-5801-b0d5-26145ec8edbb",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 10:30:01.059+0000",
+                "evuuid" : "7b58d6f3-6ff8-502c-989c-20176400b362"
+              },
+              "868a24f4-735a-5b26-bc18-da21daff9df5" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Unfall",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.028385021, 45.904042315, 11.028385021, 45.904042315 ],
+                    "coordinates" : [ 11.028385021, 45.904042315 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2711501",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "82958415-42b9-5801-b0d5-26145ec8edbb",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 09:50:00.933+0000",
+                "evuuid" : "868a24f4-735a-5b26-bc18-da21daff9df5"
+              }
+            }
+          },
+          "8a9ac875-7072-5d69-8f96-454fc9dd9a46" : {
+            "events" : {
+              "fd49fc28-3a15-5e4c-beb3-861940356044" : {
+                "evcategory" : "Speciale | Sonder_Fahrbverbot in Stadtzentren",
+                "evdescription" : "",
+                "evend" : "2025-10-12 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.358142175, 46.496616967, 11.358142175, 46.496616967 ],
+                    "coordinates" : [ 11.358142175, 46.496616967 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2972510",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "8a9ac875-7072-5d69-8f96-454fc9dd9a46",
+                "evstart" : "2025-10-10 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-12 09:10:01.735+0000",
+                "evuuid" : "fd49fc28-3a15-5e4c-beb3-861940356044"
+              }
+            }
+          },
+          "8c140dc3-8a8c-5123-9ddb-eba7e2158cbe" : {
+            "events" : {
+              "c474e256-a2d0-5865-8604-56221eef8a3b" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 10.843819403, 44.757566767, 10.843819403, 44.757566767 ],
+                    "coordinates" : [ 10.843819403, 44.757566767 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2802911",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "8c140dc3-8a8c-5123-9ddb-eba7e2158cbe",
+                "evstart" : "2025-10-13 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 05:50:00.809+0000",
+                "evuuid" : "c474e256-a2d0-5865-8604-56221eef8a3b"
+              }
+            }
+          },
+          "8da56ad8-3dfa-5c55-bc87-8d55f7b1e5a4" : {
+            "events" : {
+              "140bd72c-8269-533b-854c-e7713aab4e70" : {
+                "evcategory" : "intralci viabilità in e fuori Alto Adige | Verkehrsbehinderung für Zonen und aus. Südt._kurzfristige oder zeitweilige Sperre",
+                "evdescription" : "",
+                "evend" : "2025-10-31 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.303747129, 46.330211459, 11.303747129, 46.330211459 ],
+                    "coordinates" : [ 11.303747129, 46.330211459 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "3019212",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "8da56ad8-3dfa-5c55-bc87-8d55f7b1e5a4",
+                "evstart" : "2025-10-27 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-12 09:10:02.625+0000",
+                "evuuid" : "140bd72c-8269-533b-854c-e7713aab4e70"
+              },
+              "b39bca03-fa4e-5107-ac51-ea83bedddaf3" : {
+                "evcategory" : "intralci viabilità in e fuori Alto Adige | Verkehrsbehinderung für Zonen und aus. Südt._kurzfristige oder zeitweilige Sperre",
+                "evdescription" : "",
+                "evend" : "2025-10-31 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.303747129, 46.330211459, 11.303747129, 46.330211459 ],
+                    "coordinates" : [ 11.303747129, 46.330211459 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "3019212",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "8da56ad8-3dfa-5c55-bc87-8d55f7b1e5a4",
+                "evstart" : "2025-10-27 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 05:20:01.669+0000",
+                "evuuid" : "b39bca03-fa4e-5107-ac51-ea83bedddaf3"
+              }
+            }
+          },
+          "8fcf8f43-c025-5127-8d9d-8bd8069e0d77" : {
+            "events" : {
+              "07134295-af0c-55f4-921b-e4a6f09104be" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.632998891, 46.687559422, 11.632998891, 46.687559422 ],
+                    "coordinates" : [ 11.632998891, 46.687559422 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "3010101",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "8fcf8f43-c025-5127-8d9d-8bd8069e0d77",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 11:30:01.069+0000",
+                "evuuid" : "07134295-af0c-55f4-921b-e4a6f09104be"
+              },
+              "86a25444-0bf8-5aea-9d5d-7c421fabfda1" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.632998891, 46.687559422, 11.632998891, 46.687559422 ],
+                    "coordinates" : [ 11.632998891, 46.687559422 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "3010101",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "8fcf8f43-c025-5127-8d9d-8bd8069e0d77",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 09:10:01.756+0000",
+                "evuuid" : "86a25444-0bf8-5aea-9d5d-7c421fabfda1"
+              },
+              "d6a03dc5-e066-5115-8ebe-e0bcee3f43c9" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.632998891, 46.687559422, 11.632998891, 46.687559422 ],
+                    "coordinates" : [ 11.632998891, 46.687559422 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "3010101",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "8fcf8f43-c025-5127-8d9d-8bd8069e0d77",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 08:50:00.578+0000",
+                "evuuid" : "d6a03dc5-e066-5115-8ebe-e0bcee3f43c9"
+              },
+              "dbcbb8c4-f7ee-5b7f-9df5-3fa84383923f" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.632998891, 46.687559422, 11.632998891, 46.687559422 ],
+                    "coordinates" : [ 11.632998891, 46.687559422 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "3010101",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "8fcf8f43-c025-5127-8d9d-8bd8069e0d77",
+                "evstart" : "2025-10-13 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 14:40:00.741+0000",
+                "evuuid" : "dbcbb8c4-f7ee-5b7f-9df5-3fa84383923f"
+              },
+              "fc76cfb0-3095-5e78-be40-80d8b42a384d" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.632998891, 46.687559422, 11.632998891, 46.687559422 ],
+                    "coordinates" : [ 11.632998891, 46.687559422 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "3010101",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "8fcf8f43-c025-5127-8d9d-8bd8069e0d77",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 11:00:00.660+0000",
+                "evuuid" : "fc76cfb0-3095-5e78-be40-80d8b42a384d"
+              }
+            }
+          },
+          "9b388300-b4ab-53e2-aba1-ab91cc11ca7a" : {
+            "events" : {
+              "4f423564-acec-5a9b-946f-3881749d0fd0" : {
+                "evcategory" : "intralci viabilità in e fuori Alto Adige | Verkehrsbehinderung für Zonen und aus. Südt._Baustelle",
+                "evdescription" : "",
+                "evend" : "2025-10-29 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.514705737, 46.366676332, 11.514705737, 46.366676332 ],
+                    "coordinates" : [ 11.514705737, 46.366676332 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "3019512",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "9b388300-b4ab-53e2-aba1-ab91cc11ca7a",
+                "evstart" : "2025-10-15 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 13:20:04.207+0000",
+                "evuuid" : "4f423564-acec-5a9b-946f-3881749d0fd0"
+              }
+            }
+          },
+          "9eddf874-930d-5baa-840f-ecd856d4e559" : {
+            "events" : {
+              "69d2d03b-3b8b-5f7a-8e9d-2a0a8d76c8fd" : {
+                "evcategory" : "intralci viabilità in e fuori Alto Adige | Verkehrsbehinderung für Zonen und aus. Südt._Vorsicht",
+                "evdescription" : "",
+                "evend" : "2025-10-17 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.435940087, 46.884650528, 11.435940087, 46.884650528 ],
+                    "coordinates" : [ 11.435940087, 46.884650528 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2954801",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "9eddf874-930d-5baa-840f-ecd856d4e559",
+                "evstart" : "2025-10-06 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 13:10:02.686+0000",
+                "evuuid" : "69d2d03b-3b8b-5f7a-8e9d-2a0a8d76c8fd"
+              }
+            }
+          },
+          "a223099e-cd00-53fa-b54a-a71e62bee22d" : {
+            "events" : {
+              "ff5a19d3-7f03-5a8f-abbb-d3d3f763971d" : {
+                "evcategory" : "intralci viabilità in e fuori Alto Adige | Verkehrsbehinderung für Zonen und aus. Südt._kurzfristige oder zeitweilige Sperre",
+                "evdescription" : "",
+                "evend" : "2025-10-16 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.356964002, 46.51790658, 11.356964002, 46.51790658 ],
+                    "coordinates" : [ 11.356964002, 46.51790658 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2782301",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "a223099e-cd00-53fa-b54a-a71e62bee22d",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 04:20:00.513+0000",
+                "evuuid" : "ff5a19d3-7f03-5a8f-abbb-d3d3f763971d"
+              }
+            }
+          },
+          "b01aab9a-0302-5adf-93ba-90b28c513f50" : {
+            "events" : {
+              "aff4cf19-fa2a-5236-95bc-5dcd941f684b" : {
+                "evcategory" : "intralci viabilità in e fuori Alto Adige | Verkehrsbehinderung für Zonen und aus. Südt._kurzfristige oder zeitweilige Sperre",
+                "evdescription" : "",
+                "evend" : "2025-10-14 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.317300174, 46.475884221, 11.317300174, 46.475884221 ],
+                    "coordinates" : [ 11.317300174, 46.475884221 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2966501",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "b01aab9a-0302-5adf-93ba-90b28c513f50",
+                "evstart" : "2025-10-13 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 11:10:00.555+0000",
+                "evuuid" : "aff4cf19-fa2a-5236-95bc-5dcd941f684b"
+              }
+            }
+          },
+          "b5dcb90f-00ab-5f79-803b-8b212d7039c7" : {
+            "events" : {
+              "936b2c68-97d8-5687-85e6-4d898e380b13" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.668529992, 46.795304215, 11.668529992, 46.795304215 ],
+                    "coordinates" : [ 11.668529992, 46.795304215 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2898601",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "b5dcb90f-00ab-5f79-803b-8b212d7039c7",
+                "evstart" : "2025-10-13 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 06:00:00.850+0000",
+                "evuuid" : "936b2c68-97d8-5687-85e6-4d898e380b13"
+              }
+            }
+          },
+          "bc9a78a1-5be2-5beb-b1f0-354a836536fc" : {
+            "events" : {
+              "65214e08-14da-55d6-90d4-a93cd444370d" : {
+                "evcategory" : "intralci viabilità in e fuori Alto Adige | Verkehrsbehinderung für Zonen und aus. Südt._Baustelle",
+                "evdescription" : "",
+                "evend" : "2026-01-09 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.668648162, 46.778109691, 11.668648162, 46.778109691 ],
+                    "coordinates" : [ 11.668648162, 46.778109691 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "3019412",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "bc9a78a1-5be2-5beb-b1f0-354a836536fc",
+                "evstart" : "2025-10-13 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 10:40:01.034+0000",
+                "evuuid" : "65214e08-14da-55d6-90d4-a93cd444370d"
+              }
+            }
+          },
+          "c1515913-65ef-50b2-a7a1-b3bc2c4078ba" : {
+            "events" : {
+              "8b5a0c4a-278f-571c-b9d9-f930b2db0ded" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.175144329, 46.234950637, 11.175144329, 46.234950637 ],
+                    "coordinates" : [ 11.175144329, 46.234950637 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2965501",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "c1515913-65ef-50b2-a7a1-b3bc2c4078ba",
+                "evstart" : "2025-10-13 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 10:40:00.604+0000",
+                "evuuid" : "8b5a0c4a-278f-571c-b9d9-f930b2db0ded"
+              },
+              "bd7d7935-603d-5145-a681-f2b47eae582d" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.175144329, 46.234950637, 11.175144329, 46.234950637 ],
+                    "coordinates" : [ 11.175144329, 46.234950637 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2965501",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "c1515913-65ef-50b2-a7a1-b3bc2c4078ba",
+                "evstart" : "2025-10-13 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 11:10:00.536+0000",
+                "evuuid" : "bd7d7935-603d-5145-a681-f2b47eae582d"
+              },
+              "e53a6721-c23d-505b-96e4-36b9c50595b5" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.175144329, 46.234950637, 11.175144329, 46.234950637 ],
+                    "coordinates" : [ 11.175144329, 46.234950637 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2965501",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "c1515913-65ef-50b2-a7a1-b3bc2c4078ba",
+                "evstart" : "2025-10-12 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-12 14:30:00.725+0000",
+                "evuuid" : "e53a6721-c23d-505b-96e4-36b9c50595b5"
+              }
+            }
+          },
+          "c43e873f-8315-5433-a6c1-d67e8a75de61" : {
+            "events" : {
+              "575b7107-b6d3-5e41-ba40-fdfc656093e1" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.107237479, 46.675797011, 11.107237479, 46.675797011 ],
+                    "coordinates" : [ 11.107237479, 46.675797011 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2878001",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "c43e873f-8315-5433-a6c1-d67e8a75de61",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 10:30:00.912+0000",
+                "evuuid" : "575b7107-b6d3-5e41-ba40-fdfc656093e1"
+              }
+            }
+          },
+          "e2adc85a-07d3-5e64-8dc6-9706af35a8fc" : {
+            "events" : {
+              "0dc4b4f2-931d-5cfc-a761-8aa446e1ab82" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.096344628, 46.679717536, 11.096344628, 46.679717536 ],
+                    "coordinates" : [ 11.096344628, 46.679717536 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2812801",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "e2adc85a-07d3-5e64-8dc6-9706af35a8fc",
+                "evstart" : "2025-10-12 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-12 09:40:00.957+0000",
+                "evuuid" : "0dc4b4f2-931d-5cfc-a761-8aa446e1ab82"
+              },
+              "130478e4-5040-5c11-a669-08d7dc9bb625" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Stau - Rückstau",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.096344628, 46.679717536, 11.096344628, 46.679717536 ],
+                    "coordinates" : [ 11.096344628, 46.679717536 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2812801",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "e2adc85a-07d3-5e64-8dc6-9706af35a8fc",
+                "evstart" : "2025-10-12 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-12 09:10:01.205+0000",
+                "evuuid" : "130478e4-5040-5c11-a669-08d7dc9bb625"
+              }
+            }
+          },
+          "f20db353-1b3b-5951-a205-45230335603e" : {
+            "events" : {
+              "6fb43734-6d51-5ab3-96cb-e14cc25c2405" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Unfall",
+                "evdescription" : "",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.42333805, 46.489395232, 11.42333805, 46.489395232 ],
+                    "coordinates" : [ 11.42333805, 46.489395232 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2995201",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "f20db353-1b3b-5951-a205-45230335603e",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-11 14:30:00.611+0000",
+                "evuuid" : "6fb43734-6d51-5ab3-96cb-e14cc25c2405"
+              }
+            }
+          },
+          "f3ffb277-c8e2-59c4-b239-3f3983896603" : {
+            "events" : {
+              "5ea36cff-5cd5-5ef7-9227-f147af52ec4e" : {
+                "evcategory" : "intralci viabilità in e fuori Alto Adige | Verkehrsbehinderung für Zonen und aus. Südt._kurzfristige oder zeitweilige Sperre",
+                "evdescription" : "",
+                "evend" : "2025-10-17 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 10.550994787, 46.573077009, 10.550994787, 46.573077009 ],
+                    "coordinates" : [ 10.550994787, 46.573077009 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "3003412",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "f3ffb277-c8e2-59c4-b239-3f3983896603",
+                "evstart" : "2025-10-10 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 04:20:00.984+0000",
+                "evuuid" : "5ea36cff-5cd5-5ef7-9227-f147af52ec4e"
+              }
+            }
+          },
+          "f6ee401a-ff07-54f9-a535-fd6a4917dccd" : {
+            "events" : {
+              "39418e9a-d545-59d8-aede-a25bcf6b176b" : {
+                "evcategory" : "intralci viabilità in e fuori Alto Adige | Verkehrsbehinderung für Zonen und aus. Südt._kurzfristige oder zeitweilige Sperre",
+                "evdescription" : "",
+                "evend" : "2025-10-16 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.356964002, 46.51790658, 11.356964002, 46.51790658 ],
+                    "coordinates" : [ 11.356964002, 46.51790658 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2782312",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "f6ee401a-ff07-54f9-a535-fd6a4917dccd",
+                "evstart" : "2025-10-11 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 04:20:00.998+0000",
+                "evuuid" : "39418e9a-d545-59d8-aede-a25bcf6b176b"
+              }
+            }
+          },
+          "fa32b5dc-64e3-5fc9-a396-223106ecc29b" : {
+            "events" : {
+              "6bea87d0-b525-5009-a2cd-7b773e709287" : {
+                "evcategory" : "Situazione attuale | Aktuelle Lage_Veranstaltung",
+                "evdescription" : "",
+                "evend" : "2025-10-12 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.578348779, 46.572614517, 11.578348779, 46.572614517 ],
+                    "coordinates" : [ 11.578348779, 46.572614517 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "2891201",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "fa32b5dc-64e3-5fc9-a396-223106ecc29b",
+                "evstart" : "2025-10-09 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-12 09:10:00.849+0000",
+                "evuuid" : "6bea87d0-b525-5009-a2cd-7b773e709287"
+              }
+            }
+          },
+          "fd7192a3-07dd-5a96-bc27-77c09cdbdf87" : {
+            "events" : {
+              "1f030e79-75e9-535e-9452-b29bbea0aaea" : {
+                "evcategory" : "intralci viabilità in e fuori Alto Adige | Verkehrsbehinderung für Zonen und aus. Südt._kurzfristige oder zeitweilige Sperre",
+                "evdescription" : "",
+                "evend" : "2025-10-31 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.303747129, 46.330211459, 11.303747129, 46.330211459 ],
+                    "coordinates" : [ 11.303747129, 46.330211459 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "3019201",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "fd7192a3-07dd-5a96-bc27-77c09cdbdf87",
+                "evstart" : "2025-10-27 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-12 09:10:01.435+0000",
+                "evuuid" : "1f030e79-75e9-535e-9452-b29bbea0aaea"
+              },
+              "653ec36a-4719-5a5b-ace9-4d55f6f99c7f" : {
+                "evcategory" : "intralci viabilità in e fuori Alto Adige | Verkehrsbehinderung für Zonen und aus. Südt._kurzfristige oder zeitweilige Sperre",
+                "evdescription" : "",
+                "evend" : "2025-10-31 00:00:00.000+0000",
+                "evlocation" : {
+                  "evldescription" : "",
+                  "evlgeometry" : {
+                    "bbox" : [ 11.303747129, 46.330211459, 11.303747129, 46.330211459 ],
+                    "coordinates" : [ 11.303747129, 46.330211459 ],
+                    "crs" : {
+                      "properties" : {
+                        "name" : "EPSG:4326"
+                      },
+                      "type" : "name"
+                    },
+                    "type" : "Point"
+                  }
+                },
+                "evname" : "3019201",
+                "evorigin" : "PROVINCE_BZ",
+                "evprovenance" : {
+                  "prlineage" : "PROVINCE_BZ",
+                  "prname" : "tr-traffic-event-prov-bz",
+                  "prversion" : "7cd3e3eb68f332fc61c540440f676dcc2a893b86"
+                },
+                "evseriesuuid" : "fd7192a3-07dd-5a96-bc27-77c09cdbdf87",
+                "evstart" : "2025-10-27 00:00:00.000+0000",
+                "evtransactiontime" : "2025-10-13 05:20:01.000+0000",
+                "evuuid" : "653ec36a-4719-5a5b-ace9-4d55f6f99c7f"
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit" : 500,
+    "offset" : 0
+  }
+}
