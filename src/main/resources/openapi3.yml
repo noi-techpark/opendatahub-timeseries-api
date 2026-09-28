@@ -955,14 +955,14 @@ components:
     timepoint:
       name: timepoint
       in: path
-      description: "Point in time. Format: `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]` (e.g. `2024-01-15T10:30:00+0200`). If no zone/offset is given, UTC is assumed."
+      description: "Point in time. Format: `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]` (e.g. `2024-01-15T10:30:00+0200`). If no zone/offset is given, UTC is assumed. Instead of an absolute date you can pass `now`, or an ISO 8601 duration relative to `now`, e.g. `-PT10M` for ten minutes ago."
       required: true
       schema:
         type: string
     from:
       name: from
       in: path
-      description: "Start of a half-open interval [from, to). Format: `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]`. If no zone/offset is given, UTC is assumed."
+      description: "Start of a half-open interval [from, to). Format: `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]`. If no zone/offset is given, UTC is assumed. Instead of an absolute date you can pass `now`, or an ISO 8601 duration relative to `now`, e.g. `-PT10M` for ten minutes ago."
       required: true
       schema:
         type: string
@@ -970,7 +970,7 @@ components:
     to:
       name: to
       in: path
-      description: "End of a half-open interval [from, to). Format: `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]`. If no zone/offset is given, UTC is assumed."
+      description: "End of a half-open interval [from, to). Format: `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]`. If no zone/offset is given, UTC is assumed. Instead of an absolute date you can pass `now`, or an ISO 8601 duration relative to `now`, e.g. `-PT10M` for ten minutes ago."
       required: true
       schema:
         type: string
@@ -1007,6 +1007,8 @@ components:
 
         Values matching the date/time format `yyyy-MM-dd[T[HH][:mm][:ss][.SSS]][Z]` are auto-cast to timestamps with the missing precision being set as `00:00:00`. Values without an explicit zone/offset are interpreted as UTC.  
 
+        `now` and ISO 8601 durations relative to it are auto-cast the same way, so that a filter can describe a moving time window without being rewritten. For example, `mvalidtime.gt.-PT10M` matches the last ten minutes. Time-based durations (`-PT1H30M`, `-P1D`) and date-based ones (`-P1M`, `-P1Y`) are both accepted, but not a combination of the two, such as `-P1MT10M`.
+
         ### Logical operators
         - `,`: multiple conditions separeted by comma are interpreted as `and`
         - `and`: `and(cond,cond,...)`
@@ -1021,6 +1023,7 @@ components:
         - `smetadata.city.eq."Bolzano"` drill into nested JSON metadata
         - `description.eq.null` field is not set
         - `mtransactiontime.gt.2024-01-01` records changed after Jan 1st, 2024 (UTC)
+        - `mvalidtime.gt.-PT10M` records valid within the last ten minutes
 
       schema:
         type: string
