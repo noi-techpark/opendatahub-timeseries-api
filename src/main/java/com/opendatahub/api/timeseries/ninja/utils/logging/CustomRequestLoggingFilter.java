@@ -48,10 +48,13 @@ public class CustomRequestLoggingFilter extends AbstractRequestLoggingFilter {
 	}
 
 	public String getRemoteIP(HttpServletRequest request) {
-		if (request.getHeader("x-forwarded-for") == null) {
+		String forwardedFor = request.getHeader("x-forwarded-for");
+		if (forwardedFor == null) {
 			return request.getRemoteAddr();
 		}
-		return request.getHeader("x-forwarded-for");
+		// with multiple proxies in front (e.g. SSL termination, then an in-cluster ingress), each
+		// appends its own address, so the client is the first entry in the list
+		return forwardedFor.split(",", 2)[0].trim();
 	}
 
 	private Map<String, Object> logData(HttpServletRequest request, HttpServletResponse response) {
