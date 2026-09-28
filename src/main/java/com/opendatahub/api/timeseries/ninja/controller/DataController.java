@@ -6,19 +6,17 @@
 
 package com.opendatahub.api.timeseries.ninja.controller;
 
+import java.io.IOException;
+import java.io.OutputStream;
+import java.time.OffsetDateTime;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeParseException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import java.io.IOException;
-import java.time.OffsetDateTime;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import com.jsoniter.output.JsonStream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -38,11 +36,13 @@ import com.opendatahub.api.timeseries.ninja.utils.DateTimeParser;
 import com.opendatahub.api.timeseries.ninja.utils.FileUtils;
 import com.opendatahub.api.timeseries.ninja.utils.Representation;
 import com.opendatahub.api.timeseries.ninja.utils.SecurityUtils;
-import com.opendatahub.api.timeseries.ninja.utils.Timer;
-import com.opendatahub.api.timeseries.ninja.utils.resultbuilder.ResultBuilder;
+import com.opendatahub.api.timeseries.ninja.utils.SpoolingOutputStream;
+import com.opendatahub.api.timeseries.ninja.utils.json.JsonOut;
+import com.opendatahub.api.timeseries.ninja.utils.resultbuilder.TreeStreamWriter;
 import com.opendatahub.api.timeseries.ninja.utils.resultbuilder.ResultBuilderConfig;
 import com.opendatahub.api.timeseries.ninja.utils.simpleexception.ErrorCodeInterface;
 import com.opendatahub.api.timeseries.ninja.utils.simpleexception.SimpleException;
+
 
 /**
  * @author Peter Moser
@@ -56,6 +56,11 @@ public class DataController {
 	private static final String DEFAULT_SHOWNULL = "false";
 	private static final String DEFAULT_DISTINCT = "true";
 	private static final String DEFAULT_TIMEZONE = "UTC";
+
+	/** Responses are only committed after this many bytes, so errors found earlier still get a proper status. */
+	private static final int RESPONSE_BUFFER_BYTES = 64 * 1024;
+	/** Held back responses stay in memory up to this size. */
+	private static final int SPOOL_MEMORY_BYTES = 1024 * 1024;
 
 	@Value("${ninja.baseurl}")
 	private String ninjaBaseUrl;
@@ -90,6 +95,12 @@ public class DataController {
 		public String getMsg() {
 			return "PARSING ERROR: " + msg;
 		}
+	}
+
+	/** Runs the query of a request and passes its rows on to the emitter. */
+	@FunctionalInterface
+	private interface Fetch {
+		int run(DataFetcher.Emitter emitter);
 	}
 
 	@ResponseBody
@@ -165,7 +176,10 @@ public class DataController {
 
 		}
 		request.setAttribute("data_fetcher", dataFetcher.getStats());
-		serializeJsonToResponse(queryResult, response, dataFetcher.getStats());
+		response.setContentType("application/json;charset=UTF-8");
+		JsonOut out = new JsonOut(response.getOutputStream());
+		out.value(queryResult);
+		out.flush();
 	}
 
 	@GetMapping(value = "/{pathvar1}/{pathvar2}", produces = "application/json;charset=UTF-8")
@@ -194,51 +208,38 @@ public class DataController {
 
 		String entryPoint = null;
 		String exitPoint = null;
-		List<Map<String, Object>> queryResult = null;
+		Fetch fetch = null;
 
 		switch (repr) {
 			case FLAT_NODE:
-				streamFlatResponse(response, offset, limit,
-					stream -> dataFetcher.fetchStationsFlat(pathvar2, repr, stream));
-				request.setAttribute("data_fetcher", dataFetcher.getStats());
-				return;
+				fetch = e -> dataFetcher.fetchStations(pathvar2, repr, e);
+				break;
 			case TREE_NODE:
-				queryResult = dataFetcher.fetchStations(pathvar2, repr);
+				fetch = e -> dataFetcher.fetchStations(pathvar2, repr, e);
 				entryPoint = "stationtype";
 				exitPoint = "station";
 				break;
 			case FLAT_EVENT:
 			case TREE_EVENT:
-				queryResult = dataFetcher.fetchEvents(pathvar2, false, null, null, repr);
+				fetch = e -> dataFetcher.fetchEvents(pathvar2, false, null, null, repr, e);
 				entryPoint = "eventorigin";
 				exitPoint = "location";
 				break;
 			case FLAT_EDGE:
-				streamFlatResponse(response, offset, limit,
-					stream -> dataFetcher.fetchEdgesFlat(pathvar2, repr, stream));
-				request.setAttribute("data_fetcher", dataFetcher.getStats());
-				return;
+				fetch = e -> dataFetcher.fetchEdges(pathvar2, repr, e);
+				break;
 			case TREE_EDGE:
-				queryResult = dataFetcher.fetchEdges(pathvar2, repr);
+				fetch = e -> dataFetcher.fetchEdges(pathvar2, repr, e);
 				entryPoint = "edgetype";
 				break;
 			default:
 				break;
 		}
 
-		if (queryResult == null) {
-			throw new ResponseStatusException(
-					HttpStatus.NOT_FOUND,
-					"Route does not exist for representation " + repr.getTypeAsString());
-		}
-
 		ResultBuilderConfig resultBuilderConfig = createResultBuilderConfigExcludeMetadataHistory(showNull)
 			.setEntryPoint(entryPoint)
 			.addExitPoint(exitPoint, true);
-		request.setAttribute("data_fetcher", dataFetcher.getStats());
-		serializeJsonToResponse(
-				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
-				response, dataFetcher.getStats());
+		respond(request, response, dataFetcher, repr, offset, limit, resultBuilderConfig, fetch);
 	}
 
 	/**
@@ -274,26 +275,24 @@ public class DataController {
 
 		String entryPoint = null;
 		String exitPoint = null;
-		List<Map<String, Object>> queryResult = null;
+		Fetch fetch = null;
 
 		switch (repr) {
 			case FLAT_NODE:
-				streamFlatResponse(response, offset, limit,
-					stream -> dataFetcher.fetchStationsAndTypesFlat(pathvar2, pathvar3, repr, stream));
-				request.setAttribute("data_fetcher", dataFetcher.getStats());
-				return;
+				fetch = e -> dataFetcher.fetchStationsAndTypes(pathvar2, pathvar3, repr, e);
+				break;
 			case TREE_NODE:
-				queryResult = dataFetcher.fetchStationsAndTypes(pathvar2, pathvar3, repr);
+				fetch = e -> dataFetcher.fetchStationsAndTypes(pathvar2, pathvar3, repr, e);
 				entryPoint = "stationtype";
 				exitPoint = "datatype";
 				break;
 			case FLAT_EVENT:
 			case TREE_EVENT:
 				if ("latest".equalsIgnoreCase(pathvar3)) {
-					queryResult = dataFetcher.fetchEvents(pathvar2, true, null, null, repr);
+					fetch = e -> dataFetcher.fetchEvents(pathvar2, true, null, null, repr, e);
 				} else {
-					queryResult = dataFetcher.fetchEvents(pathvar2, false,
-							getDateTime(pathvar3).toOffsetDateTime(), null, repr);
+					OffsetDateTime from = getDateTime(pathvar3).toOffsetDateTime();
+					fetch = e -> dataFetcher.fetchEvents(pathvar2, false, from, null, repr, e);
 				}
 				entryPoint = "eventorigin";
 				break;
@@ -301,19 +300,10 @@ public class DataController {
 				break;
 		}
 
-		if (queryResult == null) {
-			throw new ResponseStatusException(
-					HttpStatus.NOT_FOUND,
-					"Route does not exist for representation " + repr.getTypeAsString());
-		}
-
 		ResultBuilderConfig resultBuilderConfig = createResultBuilderConfigExcludeMetadataHistory(showNull)
 			.setEntryPoint(entryPoint)
 			.addExitPoint(exitPoint, true);
-		request.setAttribute("data_fetcher", dataFetcher.getStats());
-		serializeJsonToResponse(
-				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
-				response, dataFetcher.getStats());
+		respond(request, response, dataFetcher, repr, offset, limit, resultBuilderConfig, fetch);
 	}
 
 	@GetMapping(value = "/{pathvar1}/{pathvar2}/{pathvar3}/{pathvar4}", produces = "application/json;charset=UTF-8")
@@ -346,50 +336,32 @@ public class DataController {
 		dataFetcher.setTimeZone(timeZone);
 
 		String entryPoint = null;
-		List<Map<String, Object>> queryResult = null;
+		Fetch fetch = null;
 
 		switch (repr) {
 			case FLAT_NODE:
-				if (!"latest".equalsIgnoreCase(pathvar4)) {
-					throw new ResponseStatusException(HttpStatus.NOT_FOUND,
-						"Route does not exist for representation " + repr.getTypeAsString());
-				}
-				streamFlatResponse(response, offset, limit,
-					stream -> dataFetcher.fetchStationsTypesAndMeasurementHistoryFlat(
-						pathvar2, pathvar3, null, null, repr, stream));
-				request.setAttribute("data_fetcher", dataFetcher.getStats());
-				return;
 			case TREE_NODE:
 				if ("latest".equalsIgnoreCase(pathvar4)) {
-					queryResult = dataFetcher.fetchStationsTypesAndMeasurementHistory(
-							pathvar2, pathvar3, null, null, repr);
+					fetch = e -> dataFetcher.fetchStationsTypesAndMeasurementHistory(
+							pathvar2, pathvar3, null, null, repr, e);
 					entryPoint = "stationtype";
 				}
 				break;
 			case FLAT_EVENT:
 			case TREE_EVENT:
-				queryResult = dataFetcher.fetchEvents(pathvar2, false,
-						getDateTime(pathvar3).toOffsetDateTime(),
-						getDateTime(pathvar4).toOffsetDateTime(), repr);
+				OffsetDateTime from = getDateTime(pathvar3).toOffsetDateTime();
+				OffsetDateTime to = getDateTime(pathvar4).toOffsetDateTime();
+				fetch = e -> dataFetcher.fetchEvents(pathvar2, false, from, to, repr, e);
 				entryPoint = "eventorigin";
 				break;
 			default:
 				break;
 		}
 
-		if (queryResult == null) {
-			throw new ResponseStatusException(
-					HttpStatus.NOT_FOUND,
-					"Route does not exist for representation " + repr.getTypeAsString());
-		}
-
 		ResultBuilderConfig resultBuilderConfig = createResultBuilderConfigExcludeMetadataHistory(showNull)
 			.setEntryPoint(entryPoint)
 			.addExitPoint(null, true);
-		request.setAttribute("data_fetcher", dataFetcher.getStats());
-		serializeJsonToResponse(
-				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
-				response, dataFetcher.getStats());
+		respond(request, response, dataFetcher, repr, offset, limit, resultBuilderConfig, fetch);
 	}
 
 	@GetMapping(value = "/{pathvar1}/{pathvar2}/{pathvar3}/{pathvar4}/{pathvar5}", produces = "application/json;charset=UTF-8")
@@ -422,40 +394,24 @@ public class DataController {
 		dataFetcher.setDistinct(distinct);
 		dataFetcher.setTimeZone(timeZone);
 
-		List<Map<String, Object>> queryResult = null;
+		Fetch fetch = null;
 		ResultBuilderConfig resultBuilderConfig = createResultBuilderConfigExcludeMetadataHistory(showNull);
 
 		switch (repr) {
-			case FLAT_NODE: {
+			case FLAT_NODE:
+			case TREE_NODE: {
 				ZonedDateTime from = getDateTime(pathvar4);
 				ZonedDateTime to = getDateTime(pathvar5);
 				OffsetDateTime fromOdt = from.toOffsetDateTime();
 				OffsetDateTime toOdt = to.toOffsetDateTime();
 				if ("metadata".equalsIgnoreCase(pathvar3)) {
-					streamFlatResponse(response, offset, limit,
-						stream -> dataFetcher.fetchStationsAndMetadataHistoryFlat(
-							pathvar2, fromOdt, toOdt, repr, stream));
-				} else {
-					historyLimit.check(request, from, to).ifPresent(e -> { throw e; });
-					streamFlatResponse(response, offset, limit,
-						stream -> dataFetcher.fetchStationsTypesAndMeasurementHistoryFlat(
-							pathvar2, pathvar3, fromOdt, toOdt, repr, stream));
-				}
-				request.setAttribute("data_fetcher", dataFetcher.getStats());
-				return;
-			}
-			case TREE_NODE: {
-				ZonedDateTime from = getDateTime(pathvar4);
-				ZonedDateTime to = getDateTime(pathvar5);
-				if ("metadata".equalsIgnoreCase(pathvar3)) {
-					queryResult = dataFetcher.fetchStationsAndMetadataHistory(
-							pathvar2, from.toOffsetDateTime(), to.toOffsetDateTime(), repr);
+					fetch = e -> dataFetcher.fetchStationsAndMetadataHistory(pathvar2, fromOdt, toOdt, repr, e);
 					resultBuilderConfig.clearExitPoints();
 					resultBuilderConfig.addExitPoint("datatype", false);
 				} else {
 					historyLimit.check(request, from, to).ifPresent(e -> { throw e; });
-					queryResult = dataFetcher.fetchStationsTypesAndMeasurementHistory(
-							pathvar2, pathvar3, from.toOffsetDateTime(), to.toOffsetDateTime(), repr);
+					fetch = e -> dataFetcher.fetchStationsTypesAndMeasurementHistory(
+							pathvar2, pathvar3, fromOdt, toOdt, repr, e);
 				}
 				resultBuilderConfig.setEntryPoint("stationtype");
 				break;
@@ -464,16 +420,7 @@ public class DataController {
 				break;
 		}
 
-		if (queryResult == null) {
-			throw new ResponseStatusException(
-					HttpStatus.NOT_FOUND,
-					"Route does not exist for representation " + repr.getTypeAsString());
-		}
-
-		request.setAttribute("data_fetcher", dataFetcher.getStats());
-		serializeJsonToResponse(
-				buildResult(resultBuilderConfig, queryResult, offset, limit, repr),
-				response, dataFetcher.getStats());
+		respond(request, response, dataFetcher, repr, offset, limit, resultBuilderConfig, fetch);
 	}
 
 	private static ZonedDateTime getDateTime(final String dateString) {
@@ -494,53 +441,88 @@ public class DataController {
 				.setMaxAllowedSizeInMB(maxAllowedSizeInMB);
 	}
 
-	private Map<String, Object> buildResult(ResultBuilderConfig builderConfig,
-			final List<Map<String, Object>> queryResult, final long offset,
-			final long limit, final Representation representation) {
-		final Map<String, Object> result = new HashMap<>();
-		result.put("offset", offset);
-		result.put("limit", limit);
-		switch (representation) {
-			case FLAT_EDGE:
-			case FLAT_NODE:
-			case FLAT_EVENT:
-				result.put("data", queryResult);
-				break;
-			case TREE_NODE:
-			case TREE_EDGE:
-			case TREE_EVENT:
-				result.put("data", ResultBuilder.build(builderConfig, queryResult));
-				break;
+	/**
+	 * Run the query and write <code>{"offset":..,"limit":..,"data":..}</code> while the rows are read from
+	 * the database. Flat data is an array of records, tree data is built up as the rows arrive.
+	 *
+	 * A response is only committed once more than {@link #RESPONSE_BUFFER_BYTES} are written, so everything
+	 * that goes wrong before that (bad query, database error) is still answered with a regular error. Tree
+	 * responses with a size limit are held back completely, because the limit can only be
+	 * enforced when the tree is complete.
+	 */
+	private void respond(HttpServletRequest request, HttpServletResponse response, DataFetcher dataFetcher,
+			Representation repr, long offset, long limit, ResultBuilderConfig treeConfig, Fetch fetch) throws IOException {
+		if (fetch == null) {
+			throw new ResponseStatusException(
+					HttpStatus.NOT_FOUND,
+					"Route does not exist for representation " + repr.getTypeAsString());
 		}
-		return result;
-	}
 
-	@FunctionalInterface
-	private interface FlatStreamWriter {
-		void write(JsonStream stream) throws IOException;
-	}
-
-	private static void streamFlatResponse(HttpServletResponse response, long offset, long limit,
-			FlatStreamWriter writer) throws IOException {
 		response.setContentType("application/json;charset=UTF-8");
-		JsonStream stream = new JsonStream(response.getOutputStream(), 65536);
-		stream.writeObjectStart();
-		stream.writeObjectField("offset"); stream.writeVal(offset);
-		stream.writeMore();
-		stream.writeObjectField("limit"); stream.writeVal(limit);
-		stream.writeMore();
-		stream.writeObjectField("data");
-		writer.write(stream);
-		stream.writeObjectEnd();
-		stream.flush();
+		response.setBufferSize(RESPONSE_BUFFER_BYTES);
+
+		boolean holdBack = !repr.isFlat() && maxAllowedSizeInMB > 0;
+		SpoolingOutputStream spool = holdBack ? new SpoolingOutputStream(SPOOL_MEMORY_BYTES) : null;
+		try {
+			OutputStream target = holdBack ? spool : response.getOutputStream();
+			JsonOut out = new JsonOut(target);
+			out.startObject();
+			out.property("offset", offset);
+			out.property("limit", limit);
+			out.name("data");
+			fetch.run(emitter(repr, treeConfig, out));
+			out.endObject();
+			out.flush();
+			if (holdBack) {
+				spool.transferTo(response.getOutputStream());
+			}
+		} catch (RuntimeException e) {
+			if (!response.isCommitted()) {
+				response.resetBuffer();
+				if (!repr.isFlat()) {
+					// tree errors state their own content type
+					response.setContentType(null);
+				}
+			}
+			throw e;
+		} finally {
+			request.setAttribute("data_fetcher", dataFetcher.getStats());
+			if (spool != null) {
+				spool.close();
+			}
+		}
 	}
 
-	private static void serializeJsonToResponse(Object whatever, HttpServletResponse response, Map<String, Object> logging) throws IOException {
-		Timer timer = new Timer();
-		timer.start();
-		response.setContentType("application/json;charset=UTF-8");
-		JsonStream.serialize(whatever, response.getOutputStream());
-		logging.put("serialization_time", Long.valueOf(timer.stop()));
+	private static DataFetcher.Emitter emitter(Representation repr, ResultBuilderConfig treeConfig, JsonOut out) {
+		if (repr.isFlat()) {
+			return (rs, mapper) -> {
+				int count = 0;
+				out.startArray();
+				while (rs.next()) {
+					Map<String, Object> row = mapper.mapRow(rs, count);
+					if (row != null) {
+						out.value(row);
+						count++;
+					}
+				}
+				out.endArray();
+				return count;
+			};
+		}
+		return (rs, mapper) -> {
+			int count = 0;
+			TreeStreamWriter tree = new TreeStreamWriter(treeConfig, out);
+			tree.begin();
+			while (rs.next()) {
+				Map<String, Object> row = mapper.mapRow(rs, count);
+				if (row != null) {
+					tree.row(row);
+					count++;
+				}
+			}
+			tree.end();
+			return count;
+		};
 	}
 
 	private static List<String> getRoles(HttpServletRequest request) {

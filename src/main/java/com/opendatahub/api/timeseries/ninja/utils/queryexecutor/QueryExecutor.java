@@ -4,15 +4,14 @@
 
 package com.opendatahub.api.timeseries.ninja.utils.queryexecutor;
 
-import java.io.IOException;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 
-import com.jsoniter.output.JsonStream;
 
 public class QueryExecutor {
 	private static NamedParameterJdbcTemplate npjt;
@@ -65,36 +64,22 @@ public class QueryExecutor {
 		return npjt.query(sql, parameters, new RowMapperResultSetExtractor<>(mapper));
 	}
 
-	public int buildAndStream(final String sql, boolean ignoreNull, String timeZone, JsonStream jsonStream) throws IOException {
+	/** Receives the rows of a result set as they are read, and writes them out. Returns the number of records written. */
+	@FunctionalInterface
+	public interface Emitter {
+		int emit(ResultSet rs, ColumnMapRowMapper mapper) throws SQLException;
+	}
+
+	/**
+	 * Execute the query and hand the result set to the emitter while the driver fetches it in chunks
+	 * (see spring.jdbc.template.fetch-size), so the result never has to fit in memory.
+	 */
+	public int stream(final String sql, boolean ignoreNull, String timeZone, Emitter emitter) {
 		ColumnMapRowMapper mapper = new ColumnMapRowMapper();
 		mapper.setIgnoreNull(ignoreNull);
 		mapper.setTimeZone(timeZone);
-		try {
-			Integer count = npjt.query(sql, parameters, (ResultSet rs) -> {
-				try {
-					jsonStream.writeArrayStart();
-					int c = 0;
-					while (rs.next()) {
-						Map<String, Object> row = mapper.mapRow(rs, c);
-						if (row != null) {
-							if (c > 0) jsonStream.writeMore();
-							jsonStream.writeVal(row);
-							c++;
-						}
-					}
-					jsonStream.writeArrayEnd();
-					return c;
-				} catch (IOException e) {
-					throw new RuntimeException(e);
-				}
-			});
-			return count == null ? 0 : count;
-		} catch (RuntimeException e) {
-			if (e.getCause() instanceof IOException) {
-				throw (IOException) e.getCause();
-			}
-			throw e;
-		}
+		Integer count = npjt.query(sql, parameters, (ResultSet rs) -> emitter.emit(rs, mapper));
+		return count == null ? 0 : count;
 	}
 
 	public <T> List<T> build(final String sql, Class<T> resultClass) {
