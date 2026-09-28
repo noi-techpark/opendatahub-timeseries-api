@@ -7,68 +7,48 @@ package com.opendatahub.api.timeseries.ninja.utils.json;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.UncheckedIOException;
-import java.util.ArrayDeque;
-import java.util.Deque;
 
-import com.jsoniter.output.JsonStream;
+import com.fasterxml.jackson.core.JsonGenerator;
 
 /**
- * Writes JSON structures piece by piece to a stream, keeping track of the commas.
+ * Writes JSON structures piece by piece to a stream.
  *
- * jsoniter only writes its buffer to the stream when it is asked to. Left alone, the buffer
- * grows to the size of the whole response, so it is emptied regularly here (without flushing
- * the stream underneath, which would commit the response).
+ * Backed by Jackson's streaming {@link JsonGenerator}, which writes through to the
+ * underlying stream as soon as its (small, fixed-size) internal buffer fills up, so
+ * memory use stays bounded regardless of response size. {@link JsonGenerator.Feature#FLUSH_PASSED_TO_STREAM}
+ * is disabled so that only an explicit {@link #flush()} call here ever flushes the
+ * underlying stream, which would otherwise commit the response early.
  */
 public final class JsonOut {
 
-	private final JsonStream stream;
-	/** For each open object or array: has it received an element yet? */
-	private final Deque<boolean[]> open = new ArrayDeque<>();
-	private boolean afterName = false;
-	private int pieces = 0;
+	/** Set once at startup from {@code server.compression.enabled}. */
+	private static volatile boolean prettyPrint = false;
+
+	public static void setPrettyPrint(boolean prettyPrint) {
+		JsonOut.prettyPrint = prettyPrint;
+	}
+
+	private final JsonGenerator generator;
 	private final OutputStream target;
 
 	public JsonOut(OutputStream out) {
 		this.target = out;
-		this.stream = new JsonStream(new java.io.FilterOutputStream(out) {
-			@Override
-			public void write(byte[] b, int off, int len) throws IOException {
-				out.write(b, off, len);
+		try {
+			this.generator = NinjaJsonMapper.INSTANCE.getFactory().createGenerator(out);
+			generator.setCodec(NinjaJsonMapper.INSTANCE);
+			generator.disable(JsonGenerator.Feature.FLUSH_PASSED_TO_STREAM);
+			generator.disable(JsonGenerator.Feature.AUTO_CLOSE_TARGET);
+			if (prettyPrint) {
+				generator.useDefaultPrettyPrinter();
 			}
-
-			@Override
-			public void flush() {
-				// only at the very end
-			}
-		}, 16384);
-	}
-
-	private void drain() throws IOException {
-		if (++pieces % 128 == 0) {
-			stream.flush();
-		}
-	}
-
-	private void separator() throws IOException {
-		drain();
-		if (afterName) {
-			afterName = false;
-			return;
-		}
-		boolean[] level = open.peek();
-		if (level != null) {
-			if (level[0]) {
-				stream.writeMore();
-			}
-			level[0] = true;
+		} catch (IOException e) {
+			throw new UncheckedIOException(e);
 		}
 	}
 
 	public void startObject() {
 		try {
-			separator();
-			stream.writeObjectStart();
-			open.push(new boolean[] { false });
+			generator.writeStartObject();
 		} catch (IOException e) {
 			throw new UncheckedIOException(e);
 		}
@@ -76,8 +56,7 @@ public final class JsonOut {
 
 	public void endObject() {
 		try {
-			open.pop();
-			stream.writeObjectEnd();
+			generator.writeEndObject();
 		} catch (IOException e) {
 			throw new UncheckedIOException(e);
 		}
@@ -85,9 +64,7 @@ public final class JsonOut {
 
 	public void startArray() {
 		try {
-			separator();
-			stream.writeArrayStart();
-			open.push(new boolean[] { false });
+			generator.writeStartArray();
 		} catch (IOException e) {
 			throw new UncheckedIOException(e);
 		}
@@ -95,8 +72,7 @@ public final class JsonOut {
 
 	public void endArray() {
 		try {
-			open.pop();
-			stream.writeArrayEnd();
+			generator.writeEndArray();
 		} catch (IOException e) {
 			throw new UncheckedIOException(e);
 		}
@@ -104,9 +80,7 @@ public final class JsonOut {
 
 	public void name(String name) {
 		try {
-			separator();
-			stream.writeObjectField(name);
-			afterName = true;
+			generator.writeFieldName(name);
 		} catch (IOException e) {
 			throw new UncheckedIOException(e);
 		}
@@ -114,8 +88,7 @@ public final class JsonOut {
 
 	public void value(Object value) {
 		try {
-			separator();
-			stream.writeVal(value);
+			generator.writeObject(value);
 		} catch (IOException e) {
 			throw new UncheckedIOException(e);
 		}
@@ -128,10 +101,11 @@ public final class JsonOut {
 
 	public void flush() {
 		try {
-			stream.flush();
+			generator.flush();
 			target.flush();
 		} catch (IOException e) {
 			throw new UncheckedIOException(e);
 		}
 	}
+
 }

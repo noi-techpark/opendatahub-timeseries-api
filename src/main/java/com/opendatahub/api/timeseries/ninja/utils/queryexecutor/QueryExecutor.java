@@ -88,7 +88,7 @@ public class QueryExecutor {
 
 	/**
 	 * Emulate getSingleResult without not-found or non-unique-result exceptions. Simply
-	 * return null, if {@link javax.persistence.TypedQuery#getResultList} has no results,
+	 * return null, if {@link jakarta.persistence.TypedQuery#getResultList} has no results,
 	 * and leave exceptions to proper errors.
 	 *
 	 * @param resultClass Type of the query result
@@ -100,11 +100,11 @@ public class QueryExecutor {
 
 	/**
 	 * Emulate getSingleResult without not-found or non-unique-result exceptions. Simply
-	 * return <code>alternative</code>, if {@link javax.persistence.TypedQuery#getResultList}
+	 * return <code>alternative</code>, if {@link jakarta.persistence.TypedQuery#getResultList}
 	 * has no results, and leave exceptions to proper errors.
 	 *
 	 * @param resultClass Type of the query result
-	 * @param alternative to be returned, if {@link javax.persistence.TypedQuery#getResultList} does not return results
+	 * @param alternative to be returned, if {@link jakarta.persistence.TypedQuery#getResultList} does not return results
 	 * @return topmost result or 'alternative' if not found
 	 */
 	public <T> T buildSingleResultOrAlternative(final String sql, Class<T> resultClass, T alternative) {
