@@ -62,11 +62,11 @@ SPDX-License-Identifier: CC0-1.0
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-config</artifactId>
 		</dependency>
-		<!-- Quota: https://www.baeldung.com/spring-bucket4j -->
+		<!-- Quota: rate limiting is implemented manually in RateLimitInterceptor using these primitives. -->
 		<dependency>
-			<groupId>com.giffing.bucket4j.spring.boot.starter</groupId>
-			<artifactId>bucket4j-spring-boot-starter</artifactId>
-			<version>0.14.0</version>
+			<groupId>com.bucket4j</groupId>
+			<artifactId>bucket4j_jdk17-core</artifactId>
+			<version>8.20.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.postgresql</groupId>
