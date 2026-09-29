@@ -4,18 +4,18 @@
 
 package com.opendatahub.api.timeseries.ninja.utils.logging;
 
-import org.keycloak.adapters.springsecurity.account.SimpleKeycloakAccount;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.security.oauth2.jwt.Jwt;
 import org.springframework.web.filter.AbstractRequestLoggingFilter;
 
 import com.opendatahub.api.timeseries.ninja.utils.Referer;
 import com.opendatahub.api.timeseries.ninja.utils.SecurityUtils;
 
-import javax.servlet.FilterChain;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.FilterChain;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -31,9 +31,11 @@ public class CustomRequestLoggingFilter extends AbstractRequestLoggingFilter {
 
 		try {
 			try {
-				SimpleKeycloakAccount account = SecurityUtils.getKeycloakAccountFromAuthentication();
-				request.setAttribute("user_subject", account.getPrincipal().getName());
-				request.setAttribute("user_email", account.getKeycloakSecurityContext().getToken().getEmail());
+				Jwt jwt = SecurityUtils.getJwtFromAuthentication();
+				if (jwt != null) {
+					request.setAttribute("user_subject", jwt.getSubject());
+					request.setAttribute("user_email", jwt.getClaimAsString("email"));
+				}
 			} catch (Exception e) {
 				// nothing to do, ignore these log info, if no login account exists
 				// or if it is invalid...
@@ -48,10 +50,13 @@ public class CustomRequestLoggingFilter extends AbstractRequestLoggingFilter {
 	}
 
 	public String getRemoteIP(HttpServletRequest request) {
-		if (request.getHeader("x-forwarded-for") == null) {
+		String forwardedFor = request.getHeader("x-forwarded-for");
+		if (forwardedFor == null) {
 			return request.getRemoteAddr();
 		}
-		return request.getHeader("x-forwarded-for");
+		// with multiple proxies in front (e.g. SSL termination, then an in-cluster ingress), each
+		// appends its own address, so the client is the first entry in the list
+		return forwardedFor.split(",", 2)[0].trim();
 	}
 
 	private Map<String, Object> logData(HttpServletRequest request, HttpServletResponse response) {

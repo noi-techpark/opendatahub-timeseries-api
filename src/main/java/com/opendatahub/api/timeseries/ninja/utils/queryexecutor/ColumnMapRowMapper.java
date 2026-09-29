@@ -14,14 +14,15 @@ import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.util.Map;
 
-import org.postgis.PGgeometry;
+import net.postgis.jdbc.geometry.GeometryBuilder;
 import org.postgresql.util.PGobject;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.support.JdbcUtils;
 import org.springframework.lang.Nullable;
 import org.springframework.util.LinkedCaseInsensitiveMap;
 
-import com.jsoniter.JsonIterator;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.opendatahub.api.timeseries.ninja.utils.json.NinjaJsonMapper;
 
 public class ColumnMapRowMapper implements RowMapper<Map<String, Object>> {
 
@@ -117,14 +118,18 @@ public class ColumnMapRowMapper implements RowMapper<Map<String, Object>> {
 
 			switch (pgObjType) {
 				case "geometry":
-					return PGgeometry.geomFromString(pgObj.getValue());
+					return GeometryBuilder.geomFromString(pgObj.getValue());
 				case "jsonb":
 					// FIXME Return a proper map
 					/* This is a proper JSON null value, since a string would be ""null"" instead. */
 					if (pgObj.getValue().equalsIgnoreCase("null")) {
 						return null;
 					}
-					return JsonIterator.deserialize(pgObj.getValue());
+					try {
+						return NinjaJsonMapper.INSTANCE.readTree(pgObj.getValue());
+					} catch (JsonProcessingException e) {
+						throw new RuntimeException("Failed to parse jsonb column value", e);
+					}
 				case "tsrange":
 					String value = pgObj.getValue();
 					return value;

@@ -47,7 +47,7 @@ public class ErrorResponseConfig extends ResponseEntityExceptionHandler {
 
 	@ExceptionHandler
 	public ResponseEntity<Object> handleException(ResponseStatusException ex) {
-		return buildResponse(ex.getStatus(), ex);
+		return buildResponse(HttpStatus.valueOf(ex.getStatusCode().value()), ex);
 	}
 
 	@ExceptionHandler

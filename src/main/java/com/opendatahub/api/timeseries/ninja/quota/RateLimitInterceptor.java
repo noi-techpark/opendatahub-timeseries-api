@@ -11,11 +11,8 @@ import java.util.Map;
 import java.util.StringJoiner;
 import java.util.concurrent.ConcurrentHashMap;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
-import com.jsoniter.output.JsonStream;
-
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,10 +25,10 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import io.github.bucket4j.Bandwidth;
 import io.github.bucket4j.Bucket;
 import io.github.bucket4j.ConsumptionProbe;
-import io.github.bucket4j.Refill;
 import com.opendatahub.api.timeseries.ninja.utils.Referer;
 import com.opendatahub.api.timeseries.ninja.utils.SecurityUtils;
 import com.opendatahub.api.timeseries.ninja.utils.conditionals.ConditionalMap;
+import com.opendatahub.api.timeseries.ninja.utils.json.NinjaJsonMapper;
 
 import static com.opendatahub.api.timeseries.ninja.quota.PricingPlan.Policy;
 
@@ -157,9 +154,8 @@ public class RateLimitInterceptor implements HandlerInterceptor {
 
 		response.addHeader("X-Rate-Limit-Remaining", "0");
 		response.setStatus(HttpStatus.TOO_MANY_REQUESTS.value());
-		JsonStream.setIndentionStep(2);
 		response.getWriter().write(
-			JsonStream.serialize(
+			NinjaJsonMapper.INSTANCE.writeValueAsString(
 				ConditionalMap
 					.init()
 					.put("message", "You have exhausted your API Request Quota")
@@ -174,12 +170,9 @@ public class RateLimitInterceptor implements HandlerInterceptor {
 
 	private static Bandwidth getBandwidth(PricingPlan plan) {
 		long quota = plan.getLimit();
-		return Bandwidth.classic(
-			quota,
-			Refill.intervally(
-				quota,
-				Duration.ofSeconds(1)
-			)
-		);
+		return Bandwidth.builder()
+			.capacity(quota)
+			.refillIntervally(quota, Duration.ofSeconds(1))
+			.build();
 	}
 }

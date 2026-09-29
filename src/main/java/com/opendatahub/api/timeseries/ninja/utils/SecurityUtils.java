@@ -5,14 +5,18 @@
 package com.opendatahub.api.timeseries.ninja.utils;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
-import org.keycloak.adapters.springsecurity.KeycloakAuthenticationException;
-import org.keycloak.adapters.springsecurity.account.SimpleKeycloakAccount;
-import org.keycloak.adapters.springsecurity.token.KeycloakAuthenticationToken;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.oauth2.jwt.Jwt;
+import org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationToken;
+import org.springframework.stereotype.Component;
 
+@Component
 public class SecurityUtils {
 
 	public static final String ROLE_QUOTA_PREFIX = "ODH_ROLE_";
@@ -32,14 +36,21 @@ public class SecurityUtils {
 		OPENDATA
 	}
 
-	private SecurityUtils() {
-		// This is just an utility class
+	/**
+	 * The Keycloak client (resource) whose client-role mappings carry the ODH_ROLE_ and
+	 * BDP_ prefixed roles, mirroring the old Keycloak adapter's "use-resource-role-mappings=true"
+	 * behaviour. Held as a static field so the static helpers below keep their existing call sites.
+	 */
+	private static String clientId;
+
+	@Value("${keycloak.resource}")
+	public void setClientId(String clientId) {
+		SecurityUtils.clientId = clientId;
 	}
 
 	public static List<String> getRolesFromAuthentication() {
 		return getRolesFromAuthentication(RoleType.OPENDATA);
 	}
-
 
 	public static List<String> getRolesFromAuthentication(RoleType roleType) {
 		return getRolesFromAuthentication(
@@ -49,9 +60,9 @@ public class SecurityUtils {
 	}
 
 	public static List<String> getRolesFromAuthentication(Authentication auth, RoleType roleType) {
-		String prefix = null;
-		String admin = null;
-		String guest = null;
+		String prefix;
+		String admin;
+		String guest;
 
 		switch (roleType) {
 			case OPENDATA:
@@ -60,6 +71,7 @@ public class SecurityUtils {
 				guest = ROLE_OPENDATA_GUEST;
 				break;
 			case QUOTA:
+			default:
 				prefix = ROLE_QUOTA_PREFIX;
 				admin = ROLE_QUOTA_ADMIN;
 				guest = ROLE_QUOTA_GUEST;
@@ -67,18 +79,15 @@ public class SecurityUtils {
 		}
 
 		List<String> result = new ArrayList<>();
-		if (auth instanceof KeycloakAuthenticationToken) {
-			SimpleKeycloakAccount user = (SimpleKeycloakAccount) auth.getDetails();
-			for (String role : user.getRoles()) {
-				if (role.startsWith(prefix)) {
-					String cleanName = role.replaceFirst(prefix, "");
-					if (cleanName.equals(admin)) {
-						result.clear();
-						result.add(admin);
-						return result;
-					} else {
-						result.add(cleanName);
-					}
+		for (String role : getClientRoles(auth)) {
+			if (role.startsWith(prefix)) {
+				String cleanName = role.replaceFirst(prefix, "");
+				if (cleanName.equals(admin)) {
+					result.clear();
+					result.add(admin);
+					return result;
+				} else {
+					result.add(cleanName);
 				}
 			}
 		}
@@ -94,23 +103,35 @@ public class SecurityUtils {
 	}
 
 	public static String getSubjectFromAuthentication(Authentication auth) {
-
-		try {
-			return getKeycloakAccountFromAuthentication(auth).getPrincipal().getName();
-		} catch (KeycloakAuthenticationException e) {
-			return null;
-		}
+		Jwt jwt = getJwtFromAuthentication(auth);
+		return jwt == null ? null : jwt.getSubject();
 	}
 
-	public static SimpleKeycloakAccount getKeycloakAccountFromAuthentication(Authentication auth) {
-		if (auth instanceof KeycloakAuthenticationToken) {
-			return (SimpleKeycloakAccount) auth.getDetails();
-		}
-		throw new KeycloakAuthenticationException("Given parameter is not a KeycloakAuthenticationToken");
+	public static Jwt getJwtFromAuthentication() {
+		return getJwtFromAuthentication(SecurityContextHolder.getContext().getAuthentication());
 	}
 
-	public static SimpleKeycloakAccount getKeycloakAccountFromAuthentication() {
-		return getKeycloakAccountFromAuthentication(SecurityContextHolder.getContext().getAuthentication());
+	public static Jwt getJwtFromAuthentication(Authentication auth) {
+		if (auth instanceof JwtAuthenticationToken jwtAuth) {
+			return jwtAuth.getToken();
+		}
+		return null;
+	}
+
+	@SuppressWarnings("unchecked")
+	private static List<String> getClientRoles(Authentication auth) {
+		Jwt jwt = getJwtFromAuthentication(auth);
+		if (jwt == null || clientId == null) {
+			return Collections.emptyList();
+		}
+
+		Map<String, Object> resourceAccess = jwt.getClaimAsMap("resource_access");
+		if (resourceAccess == null || !(resourceAccess.get(clientId) instanceof Map)) {
+			return Collections.emptyList();
+		}
+
+		Object roles = ((Map<String, Object>) resourceAccess.get(clientId)).get("roles");
+		return roles instanceof List ? (List<String>) roles : Collections.emptyList();
 	}
 
 }

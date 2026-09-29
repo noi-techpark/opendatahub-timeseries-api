@@ -13,9 +13,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.TimeZone;
 
-import com.jsoniter.output.JsonStream;
-
-import com.opendatahub.api.timeseries.ninja.utils.jsonserializer.JsonIterPostgresSupport;
+import com.opendatahub.api.timeseries.ninja.utils.json.JsonOut;
 import com.opendatahub.api.timeseries.ninja.utils.queryexecutor.ColumnMapRowMapper;
 import com.opendatahub.api.timeseries.ninja.utils.queryexecutor.QueryExecutor;
 
@@ -45,10 +43,7 @@ public class NinjaConfig implements ApplicationListener<ContextRefreshedEvent> {
 
 		ColumnMapRowMapper.setTargetDefNameToAliasMap(new SelectExpansionConfig().getSelectExpansion().getSchema().getTargetDefNameToAliasMap());
 
-		if (!enableCompression4JSON) {
-			JsonStream.setIndentionStep(4);
-		}
-		JsonIterPostgresSupport.enable();
+		JsonOut.setPrettyPrint(!enableCompression4JSON);
 	}
 
 }
