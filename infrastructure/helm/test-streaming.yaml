@@ -50,7 +50,7 @@ database:
   servicebindName: "postgres-read-svcbind"
 
 oauth:
-  url: "https://auth.opendatahub.testingmachine.eu/auth"
+  url: "https://auth.opendatahub.testingmachine.eu/auth/"
   realm: "noi"
   clientId: "odh-mobility-v2"
   clientSecret:
