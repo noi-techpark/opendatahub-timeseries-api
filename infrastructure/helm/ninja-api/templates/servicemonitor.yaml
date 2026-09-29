@@ -3,6 +3,7 @@ apiVersion: monitoring.coreos.com/v1
 kind: ServiceMonitor
 metadata:
   name: {{ include "ninja-api.fullname" . }}
+  namespace: {{ .Values.metrics.serviceMonitor.namespace }}
   labels:
     {{- include "ninja-api.labels" . | nindent 4 }}
 spec:

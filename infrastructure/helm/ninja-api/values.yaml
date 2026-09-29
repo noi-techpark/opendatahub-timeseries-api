@@ -43,6 +43,9 @@ metrics:
   serviceMonitor:
     # requires the prometheus-operator CRDs in the target cluster
     enabled: false
+    # the prometheus-operator in these clusters only picks up ServiceMonitors from this
+    # namespace, regardless of the app's own namespace (see namespaceSelector below)
+    namespace: monitoring
     path: /actuator/prometheus
     interval: 30s
 
