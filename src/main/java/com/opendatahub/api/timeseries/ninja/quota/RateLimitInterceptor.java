@@ -9,7 +9,6 @@ import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;
 import java.util.StringJoiner;
-import java.util.concurrent.ConcurrentHashMap;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -22,9 +21,13 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 
+import com.github.benmanes.caffeine.cache.Cache;
+import com.github.benmanes.caffeine.cache.Caffeine;
 import io.github.bucket4j.Bandwidth;
 import io.github.bucket4j.Bucket;
 import io.github.bucket4j.ConsumptionProbe;
+import io.micrometer.core.instrument.Gauge;
+import io.micrometer.core.instrument.MeterRegistry;
 import com.opendatahub.api.timeseries.ninja.utils.Referer;
 import com.opendatahub.api.timeseries.ninja.utils.SecurityUtils;
 import com.opendatahub.api.timeseries.ninja.utils.conditionals.ConditionalMap;
@@ -55,7 +58,31 @@ public class RateLimitInterceptor implements HandlerInterceptor {
 	@Value("${ninja.quota.url}")
     private String quotaUrl;
 
-	private static final Map<String, Bucket> cache = new ConcurrentHashMap<>();
+	public RateLimitInterceptor(MeterRegistry meterRegistry) {
+		Gauge.builder("ninja_ratelimit_cache_size", RateLimitInterceptor::cacheSize)
+				.description("Number of distinct rate-limit buckets currently held in memory")
+				.register(meterRegistry);
+	}
+
+	/*
+	 * Some routes embed live values (e.g. a history range's "to" timestamp) directly in the path,
+	 * so the cache key below is effectively unbounded in cardinality under real traffic - a plain
+	 * unbounded map leaked one Bucket per request forever. Caffeine keeps memory bounded by evicting
+	 * the least-recently-used entries once maximumSize is exceeded, and drops idle entries after
+	 * expireAfterAccess regardless; both are safe here because any bucket a client hasn't touched
+	 * within the window has long since fully refilled anyway, so re-creating it on the next request
+	 * doesn't loosen the rate limit.
+	 */
+	private static final Cache<String, Bucket> cache = Caffeine.newBuilder()
+			.maximumSize(200_000)
+			.expireAfterAccess(Duration.ofMinutes(15))
+			.build();
+
+	/** Number of distinct rate-limit buckets currently held in memory; exposed for diagnostics/logging. */
+	public static long cacheSize() {
+		cache.cleanUp();
+		return cache.estimatedSize();
+	}
 
     public static Bucket resolveBucket(PricingPlan limitation, String user, String referer, String ip, String path) {
 		StringJoiner cacheKey = new StringJoiner("+++");
@@ -97,7 +124,7 @@ public class RateLimitInterceptor implements HandlerInterceptor {
 				cacheKey.add(path);
 				break;
 		}
-		return cache.computeIfAbsent(
+		return cache.get(
 			cacheKey.toString(),
 			k -> {
 				return Bucket

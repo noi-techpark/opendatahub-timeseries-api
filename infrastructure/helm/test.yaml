@@ -13,7 +13,11 @@ ingress:
   annotations:
     nginx.ingress.kubernetes.io/proxy-body-size: 50m
 
-env: 
+metrics:
+  serviceMonitor:
+    enabled: true
+
+env:
   # Ninja
   NINJA_HOST_URL: "https://mobility.api.opendatahub.testingmachine.eu"
   NINJA_BASE_URL: "https://mobility.api.opendatahub.testingmachine.eu/v2"

@@ -39,6 +39,13 @@ health:
   readinessTimeoutSeconds: 10
   failureThreshold: 5
 
+metrics:
+  serviceMonitor:
+    # requires the prometheus-operator CRDs in the target cluster
+    enabled: false
+    path: /actuator/prometheus
+    interval: 30s
+
 ingress:
   enabled: false
   className: ""
