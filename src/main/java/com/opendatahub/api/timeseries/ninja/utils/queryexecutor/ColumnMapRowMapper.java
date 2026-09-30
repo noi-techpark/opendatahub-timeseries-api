@@ -22,8 +22,7 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.support.JdbcUtils;
 import org.springframework.lang.Nullable;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.opendatahub.api.timeseries.ninja.utils.json.NinjaJsonMapper;
+import com.opendatahub.api.timeseries.ninja.utils.json.RawJson;
 
 public class ColumnMapRowMapper implements RowMapper<Map<String, Object>> {
 
@@ -34,15 +33,16 @@ public class ColumnMapRowMapper implements RowMapper<Map<String, Object>> {
 	private static final DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSSZ");
 
 	/**
-	 * Caches parsed jsonb/geometry values (keyed by their raw wire text) for the lifetime of one
-	 * query. Columns like smetadata/pmetadata/tmetadata and scoordinate/pcoordinate are per-station
-	 * (or per-parent/per-type) values that repeat identically across every row of that station's
-	 * measurements - a history query can easily repeat the same metadata blob thousands of times.
-	 * Without this, each repeat is independently re-parsed into a fresh JsonNode/geometry object
-	 * graph, which costs real CPU (parsing) and memory (a JSON blob's parsed tree is considerably
-	 * larger than its raw text) on top of the duplication itself. A new mapper instance is created
-	 * per query (see QueryExecutor), so this cache's lifetime is already correctly scoped - no
-	 * cross-request sharing, nothing pinned beyond one query's row-streaming.
+	 * Caches parsed geometry values (keyed by their raw wire text) for the lifetime of one query.
+	 * Columns like scoordinate/pcoordinate are per-station (or per-parent) values that repeat
+	 * identically across every row of that station's measurements - a history query can easily
+	 * repeat the same coordinate thousands of times. Without this, each repeat is independently
+	 * re-parsed into a fresh geometry object. Unlike jsonb (see the "jsonb" case below, which
+	 * skips parsing entirely via RawJson), Postgres's raw geometry wire format isn't already JSON
+	 * text, so turning it into GeoJSON genuinely requires parsing - caching at least avoids
+	 * redoing that parse for repeated values. A new mapper instance is created per query (see
+	 * QueryExecutor), so this cache's lifetime is already correctly scoped - no cross-request
+	 * sharing, nothing pinned beyond one query's row-streaming.
 	 */
 	private final Map<String, Object> parsedValueCache = new HashMap<>();
 
@@ -136,29 +136,29 @@ public class ColumnMapRowMapper implements RowMapper<Map<String, Object>> {
 			String pgObjType = cleanPostgresType(pgObj.getType());
 
 			switch (pgObjType) {
-				case "geometry":
-					return parsedValueCache.computeIfAbsent("geometry\u0000" + pgObj.getValue(),
-							k -> GeometryBuilder.geomFromString(pgObj.getValue()));
+				case "geometry": {
+					// geomFromString declares a checked SQLException, which computeIfAbsent's
+					// lambda can't propagate, so look up/populate the cache manually instead
+					String cacheKey = "geometry\u0000" + pgObj.getValue();
+					Object cached = parsedValueCache.get(cacheKey);
+					if (cached != null) {
+						return cached;
+					}
+					Object parsed = GeometryBuilder.geomFromString(pgObj.getValue());
+					parsedValueCache.put(cacheKey, parsed);
+					return parsed;
+				}
 				case "jsonb":
-					// FIXME Return a proper map
 					/* This is a proper JSON null value, since a string would be ""null"" instead. */
 					if (pgObj.getValue().equalsIgnoreCase("null")) {
 						return null;
 					}
-					// computeIfAbsent can't propagate the checked JsonProcessingException, so
-					// wrap/unwrap it around the cache lookup instead
-					try {
-						String cacheKey = "jsonb\u0000" + pgObj.getValue();
-						Object cached = parsedValueCache.get(cacheKey);
-						if (cached != null) {
-							return cached;
-						}
-						Object parsed = NinjaJsonMapper.INSTANCE.readTree(pgObj.getValue());
-						parsedValueCache.put(cacheKey, parsed);
-						return parsed;
-					} catch (JsonProcessingException e) {
-						throw new RuntimeException("Failed to parse jsonb column value", e);
-					}
+					// jsonb is never inspected in Java - filtering and sub-path selection happen
+					// in SQL (see SelectExpansion's use of the '#>' operator) - so the value only
+					// ever needs to be written back out as-is. Postgres guarantees this is already
+					// valid JSON text, so skip parsing entirely instead of building a JsonNode tree
+					// just to immediately re-serialize it; see RawJson/RawJsonSerializer.
+					return new RawJson(pgObj.getValue());
 				case "tsrange":
 					String value = pgObj.getValue();
 					return value;
