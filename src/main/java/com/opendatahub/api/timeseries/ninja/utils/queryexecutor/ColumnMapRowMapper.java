@@ -12,6 +12,7 @@ import java.time.DateTimeException;
 import java.time.ZoneId;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -31,6 +32,19 @@ public class ColumnMapRowMapper implements RowMapper<Map<String, Object>> {
 	private static Map<String, String> targetDefNameToAliasMap = null;
 
 	private static final DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSSZ");
+
+	/**
+	 * Caches parsed jsonb/geometry values (keyed by their raw wire text) for the lifetime of one
+	 * query. Columns like smetadata/pmetadata/tmetadata and scoordinate/pcoordinate are per-station
+	 * (or per-parent/per-type) values that repeat identically across every row of that station's
+	 * measurements - a history query can easily repeat the same metadata blob thousands of times.
+	 * Without this, each repeat is independently re-parsed into a fresh JsonNode/geometry object
+	 * graph, which costs real CPU (parsing) and memory (a JSON blob's parsed tree is considerably
+	 * larger than its raw text) on top of the duplication itself. A new mapper instance is created
+	 * per query (see QueryExecutor), so this cache's lifetime is already correctly scoped - no
+	 * cross-request sharing, nothing pinned beyond one query's row-streaming.
+	 */
+	private final Map<String, Object> parsedValueCache = new HashMap<>();
 
 	public void setIgnoreNull(boolean ignoreNull) {
 		this.ignoreNull = ignoreNull;
@@ -123,15 +137,25 @@ public class ColumnMapRowMapper implements RowMapper<Map<String, Object>> {
 
 			switch (pgObjType) {
 				case "geometry":
-					return GeometryBuilder.geomFromString(pgObj.getValue());
+					return parsedValueCache.computeIfAbsent("geometry\u0000" + pgObj.getValue(),
+							k -> GeometryBuilder.geomFromString(pgObj.getValue()));
 				case "jsonb":
 					// FIXME Return a proper map
 					/* This is a proper JSON null value, since a string would be ""null"" instead. */
 					if (pgObj.getValue().equalsIgnoreCase("null")) {
 						return null;
 					}
+					// computeIfAbsent can't propagate the checked JsonProcessingException, so
+					// wrap/unwrap it around the cache lookup instead
 					try {
-						return NinjaJsonMapper.INSTANCE.readTree(pgObj.getValue());
+						String cacheKey = "jsonb\u0000" + pgObj.getValue();
+						Object cached = parsedValueCache.get(cacheKey);
+						if (cached != null) {
+							return cached;
+						}
+						Object parsed = NinjaJsonMapper.INSTANCE.readTree(pgObj.getValue());
+						parsedValueCache.put(cacheKey, parsed);
+						return parsed;
 					} catch (JsonProcessingException e) {
 						throw new RuntimeException("Failed to parse jsonb column value", e);
 					}
