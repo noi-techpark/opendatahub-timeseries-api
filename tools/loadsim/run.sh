@@ -15,6 +15,7 @@ WATCH_POD=""           # "namespace/pod-name" to poll `kubectl top` during the r
 KUBE_CONTEXT="dev"
 OUT_DIR=""
 ENV_FILE="$HOME/.odh/test.env"
+STRIP_V2=0              # 1 = strip a leading /v2 from each request path (see --no-v2)
 
 usage() {
 	cat <<EOF
@@ -29,6 +30,9 @@ Usage: $(basename "$0") [options]
   --kube-context CTX      kubectl context to use with --watch-pod (default: $KUBE_CONTEXT)
   --env-file PATH         Credentials for the heavy (authenticated) set (default: $ENV_FILE)
   --out DIR               Output directory (default: results/<timestamp>/ under this script's dir)
+  --no-v2                 Strip a leading /v2 from each request path - use when hitting a pod's
+                           Service directly (e.g. via kubectl port-forward), which doesn't have
+                           the /v2 prefix that the public hostname's front proxy adds
   -h, --help              Show this help
 EOF
 }
@@ -44,6 +48,7 @@ while [ $# -gt 0 ]; do
 		--kube-context) KUBE_CONTEXT="$2"; shift 2 ;;
 		--env-file) ENV_FILE="$2"; shift 2 ;;
 		--out) OUT_DIR="$2"; shift 2 ;;
+		--no-v2) STRIP_V2=1; shift 1 ;;
 		-h|--help) usage; exit 0 ;;
 		*) echo "Unknown option: $1" >&2; usage; exit 1 ;;
 	esac
@@ -107,6 +112,9 @@ trap cleanup EXIT
 
 fire_one() {
 	local set_name="$1" round="$2" path="$3" auth_header="$4"
+	if [ "$STRIP_V2" = "1" ]; then
+		path="${path#/v2}"
+	fi
 	local url="$BASE_URL$path"
 	local line
 	if [ -n "$auth_header" ]; then

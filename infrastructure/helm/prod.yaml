@@ -52,16 +52,18 @@ env:
   NINJA_QUOTA_HISTORY_URL: https://github.com/noi-techpark/odh-docs/wiki/Api-Quota
 
   # Set JVM arguments
-  # +ZGenerational: collects short-lived objects (nearly everything this app allocates - one
-  #   Map per row, freed right after being streamed out) far more cheaply than non-generational
-  #   ZGC, which needs whole-heap relocation headroom on every cycle. This is the main lever for
-  #   the gap we measured between live heap (~240M) and committed capacity (1.7-6GB+ under burst).
-  # SoftMaxHeapSize=5g: keeps ZGC targeting a lower normal ceiling (of the ~8.7G Xmx from
-  #   MaxRAMPercentage=85 on a 10Gi limit) instead of growing freely on every burst; it can still
-  #   exceed this under real pressure, it just won't do so by default.
+  # G1, not ZGC: this workload is millions of tiny, same-generation, immediately-dead row
+  # objects (one Map per streamed row) - exactly what G1's young generation is cheap at
+  # (single-digit-ms evacuation pauses reclaiming ~150M down to ~30M each cycle). ZGC (even
+  # generational, even tuned) pays real memory overhead - region/relocation headroom - for
+  # guarantees this workload doesn't need: on an identical isolated request, ZGC peaked at
+  # 1748MiB / took 58s where G1 peaked at 378MiB / took 30s. Xmx is a small explicit ceiling
+  # (not MaxRAMPercentage of the 10Gi container limit) since G1 doesn't need to be handed most
+  # of the container to perform well here; sized up from the 1.5g tested to leave headroom for
+  # concurrent bursts.
   # -Xlog:gc: cheap, always-on GC cycle logging to stdout so a future spike can be correlated
   #   against GC activity from the existing log pipeline, without an ephemeral debug container.
-  JAVA_OPTS: -XX:MaxRAMPercentage=85 -XX:+UseZGC -XX:+ZGenerational -XX:SoftMaxHeapSize=5g -XX:ZUncommitDelay=60 -Xlog:gc
+  JAVA_OPTS: -XX:+UseG1GC -Xmx4g -XX:MaxGCPauseMillis=200 -Xlog:gc
 
 database:
   servicebindName: "postgres-read-svcbind"
