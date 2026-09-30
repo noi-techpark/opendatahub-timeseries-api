@@ -28,10 +28,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
+import org.springframework.web.servlet.HandlerMapping;
+
+import io.micrometer.core.instrument.MeterRegistry;
 
 import com.opendatahub.api.timeseries.ninja.DataFetcher;
 import com.opendatahub.api.timeseries.ninja.config.SelectExpansionConfig;
 import com.opendatahub.api.timeseries.ninja.quota.HistoryLimit;
+import com.opendatahub.api.timeseries.ninja.utils.CountingOutputStream;
 import com.opendatahub.api.timeseries.ninja.utils.DateTimeParser;
 import com.opendatahub.api.timeseries.ninja.utils.FileUtils;
 import com.opendatahub.api.timeseries.ninja.utils.Representation;
@@ -79,6 +83,9 @@ public class DataController {
 
 	@Autowired
 	HistoryLimit historyLimit;
+
+	@Autowired
+	MeterRegistry meterRegistry;
 
 	public enum ErrorCode implements ErrorCodeInterface {
 		DATE_PARSE_ERROR(
@@ -463,9 +470,11 @@ public class DataController {
 
 		boolean holdBack = !repr.isFlat() && maxAllowedSizeInMB > 0;
 		SpoolingOutputStream spool = holdBack ? new SpoolingOutputStream(SPOOL_MEMORY_BYTES) : null;
+		CountingOutputStream counting = null;
 		try {
-			OutputStream target = holdBack ? spool : response.getOutputStream();
-			JsonOut out = new JsonOut(target);
+			OutputStream rawTarget = holdBack ? spool : response.getOutputStream();
+			counting = new CountingOutputStream(rawTarget);
+			JsonOut out = new JsonOut(counting);
 			out.startObject();
 			out.property("offset", offset);
 			out.property("limit", limit);
@@ -489,6 +498,12 @@ public class DataController {
 			request.setAttribute("data_fetcher", dataFetcher.getStats());
 			if (spool != null) {
 				spool.close();
+			}
+			if (counting != null) {
+				String uriPattern = String.valueOf(
+						request.getAttribute(HandlerMapping.BEST_MATCHING_PATTERN_ATTRIBUTE));
+				meterRegistry.summary("ninja.response.bytes", "uri", uriPattern, "representation", repr.name())
+						.record(counting.getCount());
 			}
 		}
 	}

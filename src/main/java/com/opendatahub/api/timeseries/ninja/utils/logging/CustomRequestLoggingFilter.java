@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.security.oauth2.jwt.Jwt;
 import org.springframework.web.filter.AbstractRequestLoggingFilter;
 
+import com.opendatahub.api.timeseries.ninja.quota.RateLimitInterceptor;
 import com.opendatahub.api.timeseries.ninja.utils.Referer;
 import com.opendatahub.api.timeseries.ninja.utils.SecurityUtils;
 
@@ -75,6 +76,11 @@ public class CustomRequestLoggingFilter extends AbstractRequestLoggingFilter {
 		result.put("referer", Referer.getReferer(request));
 		result.put("data_fetcher", request.getAttribute("data_fetcher"));
 		result.put("response_time", (System.nanoTime() - (long) request.getAttribute("timer_start")) / 1000000);
+		// rough, cheap-to-read JVM memory snapshot per request, to spot leaks/growth trends in the logs
+		// without needing a separate metrics stack
+		Runtime rt = Runtime.getRuntime();
+		result.put("heap_used_mb", (rt.totalMemory() - rt.freeMemory()) / (1024 * 1024));
+		result.put("rate_limit_cache_size", RateLimitInterceptor.cacheSize());
 		return result;
 	}
 

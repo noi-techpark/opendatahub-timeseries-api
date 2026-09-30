@@ -13,7 +13,11 @@ ingress:
   annotations:
     nginx.ingress.kubernetes.io/proxy-body-size: 50m
 
-env: 
+metrics:
+  serviceMonitor:
+    enabled: true
+
+env:
   # Ninja
   NINJA_HOST_URL: "https://mobility.api.opendatahub.testingmachine.eu"
   NINJA_BASE_URL: "https://mobility.api.opendatahub.testingmachine.eu/v2"
@@ -47,7 +51,15 @@ env:
   NINJA_QUOTA_HISTORY_URL: https://github.com/noi-techpark/odh-docs/wiki/Api-Quota
   
   # Set JVM arguments
-  JAVA_OPTS: -XX:MaxRAMPercentage=85 -XX:G1PeriodicGCSystemLoadThreshold=0 -XX:G1PeriodicGCInterval=20000 -XX:-G1PeriodicGCInvokesConcurrent -XX:+UseG1GC
+  # G1, not ZGC: this workload is millions of tiny, same-generation, immediately-dead row
+  # objects (one Map per streamed row) - exactly what G1's young generation is cheap at
+  # (single-digit-ms evacuation pauses reclaiming ~150M down to ~30M each cycle). ZGC pays real
+  # memory overhead (region/relocation headroom) for guarantees this workload doesn't need -
+  # measured on an identical request: G1 peaked at 378MiB / finished in 30s vs ZGC's 1748MiB /
+  # 58s. Xmx is a small explicit ceiling (not MaxRAMPercentage of the 8Gi container limit) since
+  # G1 doesn't need to be handed most of the container to perform well here; scaled up a bit from
+  # the 1.5g tested to leave headroom for concurrent bursts (see loadsim results).
+  JAVA_OPTS: -XX:+UseG1GC -Xmx3g -XX:MaxGCPauseMillis=200 -Xlog:gc
 
 database:
   servicebindName: "postgres-read-svcbind"

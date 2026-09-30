@@ -1,0 +1,16 @@
+# Steady, small "polling" requests - real prod patterns (see tools/loadsim/README.md), auth
+# not required. Every one of these was seen recurring every few seconds in real prod traffic.
+/v2/flat/ParkingStation/occupied/latest?select=sname,scode,scoordinate,smetadata,mvalue,mvalidtime&limit=-1
+/v2/flat,node/EChargingPlug/echarging-plug-status-ocpi/latest?offset=0&select=scode%2Cmvalue&where=sactive.eq.true%2Cpcode.eq.%22Neogy-AMPECO%3A77790%22
+/v2/flat,node/ParkingStation/occupied/latest?limit=-1&where=scode.in.(%22103%22,%22104%22,%22105%22,%22106%22,%22609883_0%22,%22108%22)&origin=webcomp-parking-dashboard
+/v2/flat/ParkingStation?limit=1&where=sactive.eq.true
+/v2/flat/ParkingStation/free/latest?limit=-1
+/v2/flat,node/CarsharingStation?where=sorigin.eq.%22AlpsGo%22,sactive.eq.true
+/v2/tree,node/CarsharingCar/current-station,availability/latest?where=sorigin.eq.%22AlpsGo%22,sactive.eq.true
+/v2/flat%2Cnode/ParkingStation/free/latest?limit=200&where=and%28sorigin.eq.%22FAMAS%22%2Ctname.eq.%22free%22%29&distinct=true&timezone=UTC
+/v2/flat/ParkingSensor/free/latest?where=ttype.eq.Instantaneous&limit=-1
+/v2/tree,node/ParkingStation,ParkingSensor/occupied,free/latest?limit=-1&offset=0&where=and%28sactive.eq.true%2Cmperiod.in.%281%29%29
+/v2/flat,edge/LinkStation?limit=-1&distinct=true&select=egeometry,ecode,etype&where=eactive.eq.true
+/v2/flat/TrafficSensor/Nr.%20Equivalent%20Vehicles,Nr.%20Light%20Vehicles/latest?limit=-1&distinct=true&shownull=false&where=sorigin.eq.A22,sactive.eq.true
+/v2/flat/EChargingStation/number-available/latest?limit=-1&offset=0&select=mperiod%2Cmvalue%2Cmvalidtime%2Cscode%2Cstype%2Csmetadata.capacity&where=sactive.eq.true%2Csorigin.in.%28%22Neogy%22%2C%22route220%22%2C%22DRIWE-OCPI%22%29
+/v2/flat/NOI-Place?limit=-1&offset=0&select=sname,smetadata&where=smetadata.show_on_map.eq.%221%22,sactive.eq.true,sorigin.eq.office365&shownull=true&distinct=true&origin=webcomp-maps-noi

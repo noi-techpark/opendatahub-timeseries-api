@@ -52,7 +52,18 @@ env:
   NINJA_QUOTA_HISTORY_URL: https://github.com/noi-techpark/odh-docs/wiki/Api-Quota
 
   # Set JVM arguments
-  JAVA_OPTS: -XX:MaxRAMPercentage=85 -XX:+UseZGC -XX:ZUncommitDelay=300
+  # G1, not ZGC: this workload is millions of tiny, same-generation, immediately-dead row
+  # objects (one Map per streamed row) - exactly what G1's young generation is cheap at
+  # (single-digit-ms evacuation pauses reclaiming ~150M down to ~30M each cycle). ZGC (even
+  # generational, even tuned) pays real memory overhead - region/relocation headroom - for
+  # guarantees this workload doesn't need: on an identical isolated request, ZGC peaked at
+  # 1748MiB / took 58s where G1 peaked at 378MiB / took 30s. Xmx is a small explicit ceiling
+  # (not MaxRAMPercentage of the 10Gi container limit) since G1 doesn't need to be handed most
+  # of the container to perform well here; sized up from the 1.5g tested to leave headroom for
+  # concurrent bursts.
+  # -Xlog:gc: cheap, always-on GC cycle logging to stdout so a future spike can be correlated
+  #   against GC activity from the existing log pipeline, without an ephemeral debug container.
+  JAVA_OPTS: -XX:+UseG1GC -Xmx4g -XX:MaxGCPauseMillis=200 -Xlog:gc
 
 database:
   servicebindName: "postgres-read-svcbind"

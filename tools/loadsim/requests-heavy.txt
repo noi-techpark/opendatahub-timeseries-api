@@ -1,0 +1,14 @@
+# Large-response / expensive requests - real prod patterns that produced the memory spikes
+# analyzed in this repo's memory investigation (see tools/loadsim/README.md). All date ranges
+# are FIXED absolute timestamps, not relative to "now" - so the same request always does the
+# same amount of work and returns the same (or near-identical) payload, run after run. Requires
+# auth (see run.sh) since these commonly exceed the anonymous rate limit.
+/v2/flat%2Cnode/EChargingPlug/*/latest?distinct=true&limit=-1&where=scoordinate.bbc.(10,46,12.8,47.2)
+/v2/flat%2Cnode/EChargingStation/*/latest?distinct=true&limit=-1&where=scoordinate.bbc.(10,46,12.8,47.2)
+/v2/flat,node/ParkingStation/%2A/latest?limit=1000&offset=0
+/v2/tree/LinkStation/%2A/latest?limit=-1&distinct=true&select=tmeasurements&where=sactive.eq.true
+/v2/flat/CarsharingStation/%2A/latest?limit=-1&distinct=true&where=and(savailable.eq.true%2Csactive.eq.true%2Csorigin.eq.%22AlpsGo%22)
+/v2/tree/MeteoStation/%2A/latest?limit=-1&distinct=true&select=tmeasurements&showNull=true&where=and(mperiod.eq.600,tname.eq.%22precipitation%22)
+/v2/tree,node/BikesharingStation,Bicyclestationbay/%2A/latest?limit=-1&distinct=true&where=and(savailable.eq.true,sactive.eq.true,scoordinate.neq.null)
+# fixed 59-day history range (was a rolling "now" window in prod; pinned here for repeatability)
+/v2/flat/ParkingStation/occupied/2026-08-01T00:00:00Z/2026-09-29T00:00:00Z?limit=-1&distinct=true

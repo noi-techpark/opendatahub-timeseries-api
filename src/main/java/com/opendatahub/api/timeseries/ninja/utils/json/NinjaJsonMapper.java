@@ -23,6 +23,7 @@ public final class NinjaJsonMapper {
 	private static ObjectMapper build() {
 		SimpleModule postgisModule = new SimpleModule();
 		postgisModule.addSerializer(Point.class, new PointSerializer());
+		postgisModule.addSerializer(RawJson.class, new RawJsonSerializer());
 		return new ObjectMapper().registerModule(postgisModule);
 	}
 
