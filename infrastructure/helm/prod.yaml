@@ -61,9 +61,7 @@ env:
   # (not MaxRAMPercentage of the 10Gi container limit) since G1 doesn't need to be handed most
   # of the container to perform well here; sized up from the 1.5g tested to leave headroom for
   # concurrent bursts.
-  # -Xlog:gc: cheap, always-on GC cycle logging to stdout so a future spike can be correlated
-  #   against GC activity from the existing log pipeline, without an ephemeral debug container.
-  JAVA_OPTS: -XX:+UseG1GC -Xmx4g -XX:MaxGCPauseMillis=200 -Xlog:gc
+  JAVA_OPTS: -XX:+UseG1GC -Xmx4g -XX:MaxGCPauseMillis=200
 
 database:
   servicebindName: "postgres-read-svcbind"
