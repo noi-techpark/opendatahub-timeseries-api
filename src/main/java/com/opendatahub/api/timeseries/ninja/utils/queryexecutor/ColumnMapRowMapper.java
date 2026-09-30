@@ -12,6 +12,7 @@ import java.time.DateTimeException;
 import java.time.ZoneId;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 import net.postgis.jdbc.geometry.GeometryBuilder;
@@ -19,7 +20,6 @@ import org.postgresql.util.PGobject;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.support.JdbcUtils;
 import org.springframework.lang.Nullable;
-import org.springframework.util.LinkedCaseInsensitiveMap;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.opendatahub.api.timeseries.ninja.utils.json.NinjaJsonMapper;
@@ -80,15 +80,20 @@ public class ColumnMapRowMapper implements RowMapper<Map<String, Object>> {
 	}
 
 	/**
-	 * Create a Map instance to be used as column map.
-	 * <p>By default, a linked case-insensitive Map will be created.
-	 * @param columnCount the column count, to be used as initial
-	 * capacity for the Map
+	 * Create a Map instance to be used as column map, one per row.
+	 * <p>Keys are inserted with the exact casing produced by {@link JdbcUtils#lookupColumnName}
+	 * or {@code targetDefNameToAliasMap}, and every consumer (TreeStreamWriter, ResultBuilder,
+	 * JsonOut) looks them up with that same casing, so a case-insensitive map buys nothing here
+	 * while still paying (on every row) to lowercase each key and maintain a second internal
+	 * index for it. A plain {@link LinkedHashMap} keeps insertion order without that cost.
+	 * <p>Sized for the 0.75 load factor: a map built with capacity == columnCount would resize
+	 * once it holds 0.75 * columnCount entries - i.e. every single row, since each one fills the
+	 * map to exactly columnCount entries.
+	 * @param columnCount the column count
 	 * @return the new Map instance
-	 * @see org.springframework.util.LinkedCaseInsensitiveMap
 	 */
 	protected Map<String, Object> createColumnMap(int columnCount) {
-		return new LinkedCaseInsensitiveMap<>(columnCount);
+		return new LinkedHashMap<>((int) (columnCount / 0.75f) + 1);
 	}
 
 	private static String cleanPostgresType(String type) {

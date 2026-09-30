@@ -51,7 +51,10 @@ env:
   NINJA_QUOTA_HISTORY_URL: https://github.com/noi-techpark/odh-docs/wiki/Api-Quota
   
   # Set JVM arguments
-  JAVA_OPTS: -XX:MaxRAMPercentage=85 -XX:G1PeriodicGCSystemLoadThreshold=0 -XX:G1PeriodicGCInterval=20000 -XX:-G1PeriodicGCInvokesConcurrent -XX:+UseG1GC
+  # Matches prod's collector (ZGC + generational + SoftMaxHeapSize) so this environment actually
+  # validates prod's GC behavior instead of testing a different collector (was G1) entirely.
+  # SoftMaxHeapSize scaled to this env's 8Gi limit (prod uses 5g against a 10Gi limit).
+  JAVA_OPTS: -XX:MaxRAMPercentage=85 -XX:+UseZGC -XX:+ZGenerational -XX:SoftMaxHeapSize=4g -XX:ZUncommitDelay=60 -Xlog:gc
 
 database:
   servicebindName: "postgres-read-svcbind"
