@@ -60,8 +60,9 @@ env:
   # 1748MiB / took 58s where G1 peaked at 378MiB / took 30s. Xmx is a small explicit ceiling
   # (not MaxRAMPercentage of the 10Gi container limit) since G1 doesn't need to be handed most
   # of the container to perform well here; sized up from the 1.5g tested to leave headroom for
-  # concurrent bursts.
-  JAVA_OPTS: -XX:+UseG1GC -Xmx4g -XX:MaxGCPauseMillis=200
+  # concurrent bursts. Capped at 3g (not 4g) to leave 1Gi of the 4Gi container limit for
+  # metaspace/threads/native memory.
+  JAVA_OPTS: -XX:+UseG1GC -Xmx3g -XX:MaxGCPauseMillis=200
 
 database:
   servicebindName: "postgres-read-svcbind"
@@ -75,6 +76,6 @@ oauth:
 
 resources:
   requests:
-    memory: 5Gi
+    memory: 1Gi
   limits:
-    memory: 10Gi
+    memory: 4Gi
