@@ -1,0 +1,15 @@
+# Overlay on test.yaml for the Scaleway cluster
+ingress:
+  hosts:
+    - host: mobility.api.scw.opendatahub.testingmachine.eu
+      paths:
+        - path: "/"
+          pathType: Prefix
+    - host: timeseries.api.scw.opendatahub.testingmachine.eu
+      paths:
+        - path: "/"
+          pathType: Prefix
+
+env:
+  NINJA_HOST_URL: "https://mobility.api.scw.opendatahub.testingmachine.eu"
+  NINJA_BASE_URL: "https://mobility.api.scw.opendatahub.testingmachine.eu"
