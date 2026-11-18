@@ -1,0 +1,17 @@
+# Overlay on test.yaml for the Scaleway cluster
+ingress:
+  hosts:
+    - host: mobility.api.scw.opendatahub.testingmachine.eu
+      paths:
+        - path: "/"
+          pathType: Prefix
+    - host: timeseries.api.scw.opendatahub.testingmachine.eu
+      paths:
+        - path: "/"
+          pathType: Prefix
+
+env:
+  # Temporary mitigation for CVE-2026-114938 (Java4Shell); remove once the JDK in the image includes the fix
+  JAVA_TOOL_OPTIONS: "-XX:-UseBASE64Intrinsics"
+  NINJA_HOST_URL: "https://mobility.api.scw.opendatahub.testingmachine.eu"
+  NINJA_BASE_URL: "https://mobility.api.scw.opendatahub.testingmachine.eu"
