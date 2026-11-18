@@ -18,8 +18,6 @@ metrics:
     enabled: true
 
 env:
-  # Temporary mitigation for CVE-2026-114938 (Java4Shell); remove once the JDK in the image includes the fix
-  JAVA_TOOL_OPTIONS: "-XX:-UseBASE64Intrinsics"
   # Ninja
   NINJA_HOST_URL: "https://mobility.api.opendatahub.testingmachine.eu"
   NINJA_BASE_URL: "https://mobility.api.opendatahub.testingmachine.eu/v2"
@@ -61,7 +59,8 @@ env:
   # 58s. Xmx is a small explicit ceiling (not MaxRAMPercentage of the 8Gi container limit) since
   # G1 doesn't need to be handed most of the container to perform well here; scaled up a bit from
   # the 1.5g tested to leave headroom for concurrent bursts (see loadsim results).
-  JAVA_OPTS: -XX:+UseG1GC -Xmx3g -XX:MaxGCPauseMillis=200 -Xlog:gc
+  # Temporary mitigation for CVE-2026-114938 (Java4Shell) appended; remove -XX:-UseBASE64Intrinsics once the JDK in the image includes the fix
+  JAVA_OPTS: -XX:+UseG1GC -Xmx3g -XX:MaxGCPauseMillis=200 -Xlog:gc -XX:-UseBASE64Intrinsics
 
 database:
   servicebindName: "postgres-read-svcbind"
