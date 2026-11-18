@@ -17,9 +17,7 @@ ingress:
   annotations:
     nginx.ingress.kubernetes.io/proxy-body-size: 50m
 
-env: 
-  # Temporary mitigation for CVE-2026-114938 (Java4Shell); remove once the JDK in the image includes the fix
-  JAVA_TOOL_OPTIONS: "-XX:-UseBASE64Intrinsics"
+env:
   # Ninja
   NINJA_HOST_URL: "https://mobility.api.opendatahub.com"
   NINJA_BASE_URL: "https://mobility.api.opendatahub.com/v2"
@@ -64,7 +62,8 @@ env:
   # of the container to perform well here; sized up from the 1.5g tested to leave headroom for
   # concurrent bursts. Capped at 3g (not 4g) to leave 1Gi of the 4Gi container limit for
   # metaspace/threads/native memory.
-  JAVA_OPTS: -XX:+UseG1GC -Xmx3g -XX:MaxGCPauseMillis=200
+  # Temporary mitigation for CVE-2026-114938 (Java4Shell) appended; remove -XX:-UseBASE64Intrinsics once the JDK in the image includes the fix
+  JAVA_OPTS: -XX:+UseG1GC -Xmx3g -XX:MaxGCPauseMillis=200 -XX:-UseBASE64Intrinsics
 
 database:
   servicebindName: "postgres-read-svcbind"

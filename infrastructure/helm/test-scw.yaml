@@ -11,7 +11,6 @@ ingress:
           pathType: Prefix
 
 env:
-  # Temporary mitigation for CVE-2026-114938 (Java4Shell); remove once the JDK in the image includes the fix
-  JAVA_TOOL_OPTIONS: "-XX:-UseBASE64Intrinsics"
+  # JAVA_OPTS (including the temporary CVE-2026-114938 mitigation) is inherited from test.yaml
   NINJA_HOST_URL: "https://mobility.api.scw.opendatahub.testingmachine.eu"
   NINJA_BASE_URL: "https://mobility.api.scw.opendatahub.testingmachine.eu"
