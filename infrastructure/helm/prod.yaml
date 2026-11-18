@@ -18,6 +18,8 @@ ingress:
     nginx.ingress.kubernetes.io/proxy-body-size: 50m
 
 env: 
+  # Temporary mitigation for CVE-2026-114938 (Java4Shell); remove once the JDK in the image includes the fix
+  JAVA_TOOL_OPTIONS: "-XX:-UseBASE64Intrinsics"
   # Ninja
   NINJA_HOST_URL: "https://mobility.api.opendatahub.com"
   NINJA_BASE_URL: "https://mobility.api.opendatahub.com/v2"
